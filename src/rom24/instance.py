@@ -188,7 +188,7 @@ def from_json(data):
     # there's a from_json() method to call.  If so, let it handle things.
     if hasattr(data, "keys"):
         for k in data.keys():
-            found = re.findall("__class__\/((?:\w+)\.)*(\w+)", k)
+            found = re.findall(r"__class__/((?:\w+)\.)*(\w+)", k)
             if found:
                 import importlib
 
