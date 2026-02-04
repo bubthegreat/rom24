@@ -6,17 +6,9 @@ Pyrom uses **telnet (TCP protocol)**, not HTTP. The standard HTTP Ingress won't 
 
 ## Solution
 
-### 1. Apply the TCP Services ConfigMap
+### 1. Apply the TCP Services ConfigMap (Managed by ArgoCD)
 
-The ConfigMap tells ingress-nginx which TCP ports to route to which services:
-
-```bash
-# Apply via ArgoCD (recommended)
-kubectl apply -f argocd/ingress-nginx-tcp-config.yaml
-
-# Or apply directly
-kubectl apply -f k8s/ingress-nginx/tcp-services-configmap.yaml
-```
+The ConfigMap tells ingress-nginx which TCP ports to route to which services. This is **automatically managed by ArgoCD** via the `pyrom-app-of-apps`.
 
 Verify it's applied:
 
@@ -33,38 +25,21 @@ data:
   "1339": "pyrom-dev/pyrom-service:1337"
 ```
 
-### 2. Configure ingress-nginx Controller to Expose TCP Ports
+### 2. Configure ingress-nginx Controller to Expose TCP Ports (One-Time Setup)
 
-The ingress-nginx controller Service needs to expose these TCP ports. You have two options:
+The ingress-nginx controller Service needs to expose these TCP ports. This is a **one-time manual step** because the Service is managed by Helm, not ArgoCD.
 
-#### Option A: Patch the existing ingress-nginx controller Service
+**Important**: The actual Service name in your cluster is `ingressnginx-ingress-nginx-controller`, not `ingress-nginx-controller`.
 
 ```bash
-kubectl patch service ingress-nginx-controller -n ingress-nginx --type='json' -p='[
+kubectl patch service ingressnginx-ingress-nginx-controller -n ingress-nginx --type='json' -p='[
   {"op": "add", "path": "/spec/ports/-", "value": {"name": "pyrom-prod", "port": 1337, "protocol": "TCP", "targetPort": 1337}},
   {"op": "add", "path": "/spec/ports/-", "value": {"name": "pyrom-staging", "port": 1338, "protocol": "TCP", "targetPort": 1338}},
   {"op": "add", "path": "/spec/ports/-", "value": {"name": "pyrom-dev", "port": 1339, "protocol": "TCP", "targetPort": 1339}}
 ]'
 ```
 
-#### Option B: Edit the ingress-nginx Helm values (if using Helm)
-
-If you installed ingress-nginx via Helm, update the values:
-
-```yaml
-tcp:
-  1337: "pyrom-prod/pyrom-service:1337"
-  1338: "pyrom-staging/pyrom-service:1337"
-  1339: "pyrom-dev/pyrom-service:1337"
-```
-
-Then upgrade:
-
-```bash
-helm upgrade ingress-nginx ingress-nginx/ingress-nginx \
-  -n ingress-nginx \
-  -f ingress-nginx-values.yaml
-```
+**Note**: This patch persists across ingress-nginx controller restarts, but may be lost if you upgrade or reinstall ingress-nginx via Helm. If that happens, just re-run the patch command above.
 
 ### 3. Verify the Setup
 
