@@ -33,41 +33,42 @@ def boot_db():
     object_creator.setup_exits()
     update.instance_number_save()
 
-    results = (
-        "-----------------------------------------",
-        "    Loaded %d Areas" % world_classes.Area.template_count,
-        "    Loaded %d Npc Templates" % handler_npc.Npc.template_count,
-        "    Loaded %d Item Templates" % handler_item.Items.template_count,
-        "    Loaded %d Room Templates" % handler_room.Room.template_count,
-        "    Loaded %d Shops" % len(instance.shop_templates),
-        "    Loaded %d Total Templates"
-        % (
+    # Log each line separately so each gets its own timestamp for troubleshooting
+    logger.info("-----------------------------------------")
+    logger.info("    Loaded %d Areas", world_classes.Area.template_count)
+    logger.info("    Loaded %d Npc Templates", handler_npc.Npc.template_count)
+    logger.info("    Loaded %d Item Templates", handler_item.Items.template_count)
+    logger.info("    Loaded %d Room Templates", handler_room.Room.template_count)
+    logger.info("    Loaded %d Shops", len(instance.shop_templates))
+    logger.info(
+        "    Loaded %d Total Templates",
+        (
             world_classes.Area.template_count
             + handler_npc.Npc.template_count
             + handler_item.Items.template_count
             + handler_room.Room.template_count
         ),
-        "-----------------------------------------",
-        "    Loaded %d Resets" % world_classes.Reset.load_count,
-        "-----------------------------------------",
-        "    Loaded %d Area Instances" % world_classes.Area.instance_count,
-        "    Loaded %d Npc Instances" % handler_npc.Npc.instance_count,
-        "    Loaded %d Item Instances" % handler_item.Items.instance_count,
-        "    Loaded %d Room Instances" % handler_room.Room.instance_count,
-        "    Loaded %d Total Instances"
-        % (
+    )
+    logger.info("-----------------------------------------")
+    logger.info("    Loaded %d Resets", world_classes.Reset.load_count)
+    logger.info("-----------------------------------------")
+    logger.info("    Loaded %d Area Instances", world_classes.Area.instance_count)
+    logger.info("    Loaded %d Npc Instances", handler_npc.Npc.instance_count)
+    logger.info("    Loaded %d Item Instances", handler_item.Items.instance_count)
+    logger.info("    Loaded %d Room Instances", handler_room.Room.instance_count)
+    logger.info(
+        "    Loaded %d Total Instances",
+        (
             world_classes.Area.instance_count
             + handler_room.Room.instance_count
             + handler_item.Items.instance_count
             + handler_npc.Npc.instance_count
         ),
-        "-----------------------------------------",
-        "    Loaded %d Help files" % len(merc.help_list),
-        "    Loaded %d Socials" % len(merc.social_list),
-        "-----------------------------------------",
     )
-    spaces = "\n" + " " * 51
-    logger.info(spaces.join(results))
+    logger.info("-----------------------------------------")
+    logger.info("    Loaded %d Help files", len(merc.help_list))
+    logger.info("    Loaded %d Socials", len(merc.social_list))
+    logger.info("-----------------------------------------")
 
 
 def init_instance():
