@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: pyrom-staging
+
+resources:
+  - namespace.yaml
+  - ../../base
+
+commonLabels:
+  environment: staging
+
+patchesStrategicMerge:
+  - ingress-patch.yaml
+  - pyrom-configmap.yaml
+
+images:
+  - name: bubthegreat/pyrom
+    newTag: latest
+

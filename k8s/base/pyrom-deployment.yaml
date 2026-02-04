@@ -1,0 +1,113 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pyrom-deployment
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: pyrom
+  template:
+    metadata:
+      labels:
+        app: pyrom
+    spec:
+      # Reduce termination grace period for faster shutdowns
+      terminationGracePeriodSeconds: 5
+      volumes:
+        - name: pyrom-player-storage
+          persistentVolumeClaim:
+            claimName: pyrom-player-pvc
+        - name: pyrom-world-storage
+          persistentVolumeClaim:
+            claimName: pyrom-world-pvc
+        - name: pyrom-system-storage
+          persistentVolumeClaim:
+            claimName: pyrom-system-pvc
+      initContainers:
+        - name: init-pyrom-data
+          image: bubthegreat/pyrom:latest
+          command: ['sh', '-c']
+          args:
+            - |
+              # Copy player files if volume is empty
+              if [ ! -d /pyrom-persistent/players/b ]; then
+                echo "Initializing players directory..."
+                cp -r /pyrom/src/data/players/* /pyrom-persistent/players/ || true
+              fi
+              
+              # Copy world files if volume is empty
+              if [ ! -d /pyrom-persistent/world/instances ]; then
+                echo "Initializing world directory..."
+                cp -r /pyrom/src/data/world/* /pyrom-persistent/world/ || true
+              fi
+              
+              # Initialize system directory
+              if [ ! -d /pyrom-persistent/system ]; then
+                echo "Initializing system directory..."
+                mkdir -p /pyrom-persistent/system
+              fi
+              
+              echo "Initialization complete"
+          volumeMounts:
+            - name: pyrom-player-storage
+              mountPath: /pyrom-persistent/players
+            - name: pyrom-world-storage
+              mountPath: /pyrom-persistent/world
+            - name: pyrom-system-storage
+              mountPath: /pyrom-persistent/system
+      containers:
+        - name: pyrom
+          image: bubthegreat/pyrom:latest
+          imagePullPolicy: Always
+          env:
+            - name: PYROM_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: pyrom-config
+                  key: PYROM_PORT
+                  optional: true
+            - name: PYROM_LOG_LEVEL
+              valueFrom:
+                configMapKeyRef:
+                  name: pyrom-config
+                  key: PYROM_LOG_LEVEL
+                  optional: true
+          ports:
+            - containerPort: 1337
+              name: telnet
+          # Add readiness probe to know when app is ready
+          readinessProbe:
+            tcpSocket:
+              port: 1337
+            initialDelaySeconds: 5
+            periodSeconds: 2
+            timeoutSeconds: 1
+            successThreshold: 1
+            failureThreshold: 3
+          # Add liveness probe to detect if app is hung
+          livenessProbe:
+            tcpSocket:
+              port: 1337
+            initialDelaySeconds: 15
+            periodSeconds: 10
+            timeoutSeconds: 1
+            successThreshold: 1
+            failureThreshold: 3
+          volumeMounts:
+            - name: pyrom-player-storage
+              mountPath: /pyrom-persistent/players
+            - name: pyrom-world-storage
+              mountPath: /pyrom-persistent/world
+            - name: pyrom-system-storage
+              mountPath: /pyrom-persistent/system
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+

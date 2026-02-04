@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pyrom-config
+data:
+  # Use INFO logging in staging
+  PYROM_LOG_LEVEL: "INFO"
+

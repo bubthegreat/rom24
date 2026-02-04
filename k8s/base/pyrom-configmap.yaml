@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pyrom-config
+data:
+  # Default port for pyrom
+  PYROM_PORT: "1337"
+  # Logging level (DEBUG, INFO, WARNING, ERROR)
+  PYROM_LOG_LEVEL: "INFO"
+

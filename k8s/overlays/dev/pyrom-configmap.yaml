@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pyrom-config
+data:
+  # Enable debug logging in dev environment
+  PYROM_LOG_LEVEL: "DEBUG"
+

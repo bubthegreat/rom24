@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: pyrom-ingress
+spec:
+  rules:
+    - host: pyrom-staging.bubtaylor.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: pyrom-service
+                port:
+                  number: 1337
+

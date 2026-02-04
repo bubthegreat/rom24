@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pyrom-service
+spec:
+  selector:
+    app: pyrom
+  ports:
+    - protocol: TCP
+      port: 1337
+      targetPort: 1337
+      name: telnet
+  type: ClusterIP
+
