@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pyrom-player-pvc
+spec:
+  storageClassName: hostpath
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pyrom-world-pvc
+spec:
+  storageClassName: hostpath
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pyrom-system-pvc
+spec:
+  storageClassName: hostpath
+

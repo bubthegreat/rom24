@@ -6,10 +6,11 @@ This document describes the complete deployment setup for Pyrom (ROM24 Python MU
 
 Pyrom now has a complete Kubernetes deployment setup with:
 - **Docker containerization** using Python 3.12 and UV package manager
-- **Three environments**: dev, staging, and prod
+- **Four environments**: local (Tilt), dev, staging, and prod
 - **Persistent storage** for player data, world data, and system files
 - **ArgoCD GitOps** integration for automated deployments
 - **TCP ingress** routing for telnet access
+- **Tilt** for local development with live reload
 
 ## File Structure
 
@@ -17,6 +18,7 @@ Pyrom now has a complete Kubernetes deployment setup with:
 rom24/
 ├── Dockerfile                          # Docker image definition
 ├── .dockerignore                       # Docker build exclusions
+├── Tiltfile                            # Tilt configuration for local dev
 ├── Makefile                            # Build and deployment commands
 ├── k8s/
 │   ├── README.md                       # Kubernetes deployment documentation
@@ -28,6 +30,11 @@ rom24/
 │   │   ├── pyrom-pvc.yaml             # Persistent volume claims
 │   │   └── pyrom-configmap.yaml       # Configuration
 │   ├── overlays/
+│   │   ├── local/                      # Local development (Tilt)
+│   │   │   ├── namespace.yaml
+│   │   │   ├── kustomization.yaml
+│   │   │   ├── pyrom-pvc-patch.yaml
+│   │   │   └── pyrom-configmap.yaml
 │   │   ├── dev/                        # Development environment
 │   │   │   ├── namespace.yaml
 │   │   │   ├── kustomization.yaml
@@ -51,13 +58,50 @@ rom24/
 
 ## Environments
 
-| Environment | Namespace      | Telnet Port | Hostname                      | Log Level |
-|-------------|----------------|-------------|-------------------------------|-----------|
-| Production  | pyrom-prod     | 1337        | pyrom.bubtaylor.com           | WARNING   |
-| Staging     | pyrom-staging  | 1338        | pyrom-staging.bubtaylor.com   | INFO      |
-| Development | pyrom-dev      | 1339        | pyrom-dev.bubtaylor.com       | DEBUG     |
+| Environment | Namespace      | Telnet Port | Hostname                      | Log Level | Storage Class |
+|-------------|----------------|-------------|-------------------------------|-----------|---------------|
+| **Local**   | pyrom-local    | 1337        | localhost                     | DEBUG     | hostpath      |
+| Production  | pyrom-prod     | 1337        | pyrom.bubtaylor.com           | WARNING   | longhorn      |
+| Staging     | pyrom-staging  | 1338        | pyrom-staging.bubtaylor.com   | INFO      | longhorn      |
+| Development | pyrom-dev      | 1339        | pyrom-dev.bubtaylor.com       | DEBUG     | longhorn      |
 
 ## Quick Start
+
+### Local Development with Tilt (Recommended for Development)
+
+[Tilt](https://tilt.dev/) provides live reload and automatic rebuilds for local development.
+
+**Prerequisites:**
+- Docker Desktop with Kubernetes enabled
+- [Tilt installed](https://docs.tilt.dev/install.html)
+
+**Start local development:**
+
+```bash
+cd rom24
+tilt up
+```
+
+This will:
+- Build the Docker image
+- Deploy to `pyrom-local` namespace
+- Set up port forwarding to `localhost:1337`
+- Watch for file changes and automatically rebuild/restart
+- Provide a web UI at http://localhost:10350
+
+**Connect to your local MUD:**
+
+```bash
+telnet localhost 1337
+```
+
+**Stop Tilt:**
+
+```bash
+tilt down
+```
+
+### Remote Deployments
 
 ### 1. Build and Push Docker Image
 

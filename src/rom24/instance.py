@@ -206,43 +206,16 @@ def from_json(data):
 
 
 def save():
-    os.makedirs(settings.INSTANCE_DIR, 0o755, True)
-    filename = os.path.join(settings.INSTANCE_DIR, "list.json")
-    tmp_dict = {}
-    for i in global_instances:
-        if i in players:
-            pass
-        else:
-            tmp_dict[i] = [
-                global_instances[i].__module__,
-                global_instances[i].__class__.__name__,
-            ]
-    with open(filename, "w") as fp:
-        json.dump(
-            {"max_instance_id": max_instance_id, "data": tmp_dict},
-            fp,
-            default=to_json,
-            indent=4,
-            sort_keys=True,
-        )
+    # Only persist players - areas, rooms, NPCs, and items are ephemeral
+    # This significantly speeds up save times and we're okay with losing
+    # intermediate mob state on crashes/reboots
 
-    for i in areas:
-        areas[i].save(force=True)
-    for i in rooms:
-        rooms[i].save(force=True)
-    for i in npcs:
-        npcs[i].save(force=True)
+    # Note: We skip saving the instance list JSON since we're not persisting
+    # non-player instances anymore
+
+    # Only save players
     for i in players:
         players[i].save(force=True)
-    for i in items:
-        it = items[i]
-        if it.in_living is not None:
-            continue
-        if it.in_room is not None:
-            continue
-        if it.in_item is not None:
-            continue
-        it.save(force=True)
 
 
 def load():

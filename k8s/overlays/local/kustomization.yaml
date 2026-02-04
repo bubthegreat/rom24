@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: pyrom-local
+
+resources:
+  - namespace.yaml
+  - ../../base
+
+commonLabels:
+  environment: local
+
+patchesStrategicMerge:
+  - pyrom-configmap.yaml
+  - pyrom-pvc-patch.yaml
+

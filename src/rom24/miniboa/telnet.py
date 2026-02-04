@@ -332,7 +332,10 @@ class TelnetClient(object):
         ## Did they close the connection?
         size = len(data)
         if size == 0:
-            logger.debug("No data recieved, client closed connection")
+            # Suppress logging for health check probes (connections that close within 1 second)
+            connection_duration = time.time() - self.connect_time
+            if connection_duration > 1.0:
+                logger.debug("No data recieved, client closed connection")
             raise ConnectionLost()
 
         ## Update some trackers
