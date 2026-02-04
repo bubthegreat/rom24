@@ -75,6 +75,13 @@ spec:
                   name: pyrom-config
                   key: PYROM_LOG_LEVEL
                   optional: true
+            # Point to persistent storage directories
+            - name: PYROM_PLAYER_DIR
+              value: "/pyrom-persistent/players"
+            - name: PYROM_WORLD_DIR
+              value: "/pyrom-persistent/world"
+            - name: PYROM_SYSTEM_DIR
+              value: "/pyrom-persistent/system"
           ports:
             - containerPort: 1337
               name: telnet

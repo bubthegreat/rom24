@@ -38,12 +38,16 @@ HELP_DIR = os.path.join(LEGACY_AREA_DIR, "help_files")
 logger.info("HELP_DIR: %s", HELP_DIR)
 
 # New structure
+# Support environment variables for persistent storage in containers
 USER_DIR = os.path.expanduser("~")
 BASE_DIR = os.path.join(USER_DIR, "rom24")
 DATA_DIR = os.path.join(SOURCE_DIR, "data")
-WORLD_DIR = os.path.join(DATA_DIR, "world")
-PLAYER_DIR = os.path.join(DATA_DIR, "players")
-SYSTEM_DIR = os.path.join(DATA_DIR, "system")
+
+# Use environment variables for persistent directories if available
+WORLD_DIR = os.environ.get("PYROM_WORLD_DIR", os.path.join(DATA_DIR, "world"))
+PLAYER_DIR = os.environ.get("PYROM_PLAYER_DIR", os.path.join(DATA_DIR, "players"))
+SYSTEM_DIR = os.environ.get("PYROM_SYSTEM_DIR", os.path.join(DATA_DIR, "system"))
+
 DOC_DIR = os.path.join(DATA_DIR, "docs")
 AREA_DIR = LEGACY_AREA_DIR
 AREA_LIST_FILE = os.path.join(AREA_DIR, AREA_LIST)
