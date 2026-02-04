@@ -66,8 +66,8 @@ uv run pytest
 # Run tests with coverage
 uv run pytest --cov=rom24
 
-# Run mypy type checking
-uv run mypy src
+# Run ty type checking (Astral's new type checker)
+uv run ty check src
 
 # Run black formatter
 uv run black src
@@ -117,6 +117,7 @@ uv lock --upgrade-package package-name
 - The entry point `rom24` is defined in `[project.scripts]`
 - Python 3.12+ is required (down from 3.14 in the old config)
 - All GitHub Actions workflows now use UV for faster CI/CD
+- Using `ty` (Astral's new type checker) instead of mypy
 
 ## Troubleshooting
 

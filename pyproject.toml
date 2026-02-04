@@ -15,12 +15,12 @@ dependencies = [
 dev = [
     "black>=24.10.0",
     "ipdb>=0.13.13",
-    "mypy>=1.14.1",
     "pre-commit>=4.0.1",
     "pytest>=9.0.2",
     "pytest-xdist>=3.6.1",
     "pytest-cov>=6.0.0",
     "ruff>=0.8.4",
+    "ty>=0.0.14",
 ]
 
 [project.scripts]
@@ -45,11 +45,8 @@ ignore = ["E501"]  # Line too long (handled by formatter)
 line-length = 120
 target-version = ["py312"]
 
-[tool.mypy]
+[tool.ty]
 python_version = "3.12"
-warn_return_any = true
-warn_unused_configs = true
-disallow_untyped_defs = false
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
