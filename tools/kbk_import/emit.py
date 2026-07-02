@@ -140,3 +140,16 @@ def emit_materials(text: str) -> str:
                            **dict(zip(("prot_pierce", "prot_bash", "prot_slash",
                                        "prot_magic", "relative_weight"), nums))}
     return HEADER + _fmt("MATERIALS", materials)
+
+
+def _str(token):
+    return token[1] if isinstance(token, tuple) and token[0] == "str" else str(token)
+
+
+def emit_titles(entries, class_order):
+    titles = {}
+    for i, cls in enumerate(class_order):
+        if i >= len(entries):
+            break
+        titles[cls] = [[_str(pair[0]), _str(pair[1])] for pair in entries[i]]
+    return HEADER + _fmt("TITLES", titles)

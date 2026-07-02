@@ -13,6 +13,7 @@ from rom24.content.skills import SKILLS  # noqa: F401
 from rom24.content.groups import GROUPS  # noqa: F401
 from rom24.content.races import RACES, PC_RACES  # noqa: F401
 from rom24.content.materials import MATERIALS  # noqa: F401
+from rom24.content.titles import TITLES  # noqa: F401
 """
 
 
@@ -32,6 +33,11 @@ def main() -> None:
         return cparse.parse_braces(cparse.extract_initializer(src, name))
 
     classes_src, order = emit.emit_classes(table("class_table"), r)
+
+    # Read titles.c for title_table
+    titles_src = (args.kbk / "src/titles.c").read_text(encoding="latin-1")
+    titles_entries = cparse.parse_braces(cparse.extract_initializer(titles_src, "title_table"))
+
     out = {
         "constants.py": emit.emit_constants(defines),
         "classes.py": classes_src,
@@ -40,6 +46,7 @@ def main() -> None:
         "races.py": emit.emit_races(table("race_table"), table("pc_race_table"), r, order),
         "materials.py": emit.emit_materials(
             (args.kbk / "area/materials.lst").read_text(encoding="latin-1")),
+        "titles.py": emit.emit_titles(titles_entries, order),
         "__init__.py": INIT_SRC,
     }
     content_dir = args.repo / "src/rom24/content"

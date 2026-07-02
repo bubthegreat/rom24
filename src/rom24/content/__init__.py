@@ -5,3 +5,4 @@ from rom24.content.skills import SKILLS  # noqa: F401
 from rom24.content.groups import GROUPS  # noqa: F401
 from rom24.content.races import RACES, PC_RACES  # noqa: F401
 from rom24.content.materials import MATERIALS  # noqa: F401
+from rom24.content.titles import TITLES  # noqa: F401
