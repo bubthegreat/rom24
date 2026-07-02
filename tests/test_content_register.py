@@ -19,6 +19,8 @@ def test_register_populates_engine_registries():
     assert ab.skill_level["channeler"] == 53
     banshee = const.skill_table["banshee call"]
     assert banshee.spell_fun is None          # unimplemented -> stub
+    # a stock-only spell not in KBK's table is gone from the registry
+    assert "floating disc" not in const.skill_table
     # groups: whitespace-collapsed reference resolvable
     assert "class basics" in const.group_table
     zea = const.guild_table["zealot"]
@@ -28,3 +30,12 @@ def test_register_populates_engine_registries():
     assert "slice" in const.attack_table
     assert const.str_app[1] is not None
     assert tables.act_flags
+
+
+def test_register_is_idempotent():
+    register.register()
+    count = len(const.skill_table)
+    spell_fn = const.skill_table["acid blast"].spell_fun
+    register.register()
+    assert len(const.skill_table) == count
+    assert const.skill_table["acid blast"].spell_fun is spell_fn
