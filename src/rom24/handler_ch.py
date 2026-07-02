@@ -51,6 +51,10 @@ def move_char(ch, door, follow):
     if not ch.is_room_owner(to_room) and to_room.is_private():
         ch.send("That room is private right now.\n")
         return
+    # PRE-move: fire move_progs for NPCs in current room (C act_move.c:294).
+    # Must run before any PC cost (lag/move deduction) so a veto never costs.
+    if progs_hooks.fire_pre_move(ch, door):
+        return
     if not ch.is_npc():
         for gn, guild in const.guild_table.items():
             for room_vnum in guild.guild_rooms:
@@ -92,9 +96,6 @@ def move_char(ch, door, follow):
             return
         state_checks.WAIT_STATE(ch, 1)
         ch.move -= move
-    # PRE-move: fire move_progs for NPCs in current room (C act_move.c:294)
-    if progs_hooks.fire_pre_move(ch, door):
-        return
     if not ch.is_affected(merc.AFF_SNEAK) and (
         not ch.is_npc() and ch.invis_level < merc.LEVEL_HERO
     ):
@@ -106,6 +107,10 @@ def move_char(ch, door, follow):
     ):
         handler_game.act("$n has arrived.", ch, None, None, merc.TO_ROOM)
     ch.do_look("auto")
+    # Guard: entry_prog (fired inside to_room.put) may have extracted ch
+    # (e.g. a teleport-trap prog).  Extraction removes ch from instance.characters.
+    if ch.instance_id not in instance.characters:
+        return
     # POST-arrival: fire greet/entry progs (C act_move.c:486-534)
     progs_hooks.fire_arrival(ch)
     if in_room.instance_id == to_room.instance_id:  # no circular follows */

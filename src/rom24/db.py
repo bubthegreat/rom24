@@ -19,6 +19,7 @@ from rom24 import instance
 
 
 def boot_db():
+    instance.fBootDb = True
     from rom24 import handler_npc
     from rom24 import handler_room
     from rom24 import world_classes
@@ -71,6 +72,7 @@ def boot_db():
     logger.info("    Loaded %d Help files", len(merc.help_list))
     logger.info("    Loaded %d Socials", len(merc.social_list))
     logger.info("-----------------------------------------")
+    instance.fBootDb = False
 
 
 def init_instance():

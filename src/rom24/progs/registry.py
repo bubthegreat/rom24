@@ -11,11 +11,17 @@ PROG_KINDS = ("mob", "item", "room")
 _registry: dict = {kind: {} for kind in PROG_KINDS}
 _warned: set = set()
 
+# Fast early-out: False until at least one prog has been registered.
+# hooks.py checks this before iterating room.people / items.
+_any_progs: bool = False
+
 
 def register(kind, trigger, name):
     if kind not in PROG_KINDS:
         raise ValueError(f"Unknown prog kind {kind!r}; expected one of {PROG_KINDS}")
     def deco(fn):
+        global _any_progs
+        _any_progs = True
         _registry[kind][name] = (trigger, fn)
         return fn
     return deco

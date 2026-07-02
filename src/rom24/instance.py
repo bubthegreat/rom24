@@ -60,6 +60,10 @@ helps: Dict[str, Any] = {}
 socials: Dict[str, Any] = {}
 resets: Dict[str, Any] = {}
 
+# True while boot_db() is running; entry_prog is suppressed during boot
+# to avoid firing progs on room resets before the world is fully loaded.
+fBootDb: bool = False
+
 # Contains lists of instances,
 # Key: int VNUM (area keyed by name str; item/room/npc/shop by int vnum)
 # Value: list of Instance_IDs associated with Key:VNUM

@@ -20,7 +20,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 from rom24 import instance
-from rom24.progs import dispatch
+from rom24.progs import dispatch, registry
 
 
 # ---------------------------------------------------------------------------
@@ -36,7 +36,15 @@ def fire_pre_move(ch, door):
 
     Returns:
         True if any NPC's move_prog vetoed the movement (blocked it).
+
+    NOTE on arg order vs C: C move_prog signature is (ch, mob, from_room, direction).
+    Python calls fn(mob, ch, from_room, door) — target (mob) is always first per the
+    dispatch convention (dispatch.fire passes target as the first arg to every fn).
+    The mover (ch) is the second arg here, not the first as in C.
     """
+    # Fast path: no progs registered at all.
+    if not registry._any_progs:
+        return False
     room = ch.in_room
     if room is None:
         return False
@@ -68,24 +76,28 @@ def fire_arrival(ch):
     Args:
         ch: The character that just arrived (already placed in the room).
     """
+    # Fast path: no progs registered at all.
+    if not registry._any_progs:
+        return
     room = ch.in_room
     if room is None:
         return
 
-    # Determine if the room has any PC (including the arriving char).
-    has_pc = any(
-        not instance.characters[cid].is_npc()
-        for cid in room.people
-        if cid in instance.characters
-    )
-
+    # Single pass: compute has_pc (ch contributes if PC) and collect residents.
+    # has_pc is needed to decide whether mob greet_progs fire (C :493).
+    has_pc = not ch.is_npc()
+    residents = []
     for cid in room.people[:]:
         if cid == ch.instance_id:
             continue
         other = instance.characters.get(cid)
         if other is None:
             continue
+        if not other.is_npc():
+            has_pc = True
+        residents.append(other)
 
+    for other in residents:
         # (1) Items carried by chars already in the room: greet_prog(obj, ch)
         for item_id in other.items:
             item = instance.items.get(item_id)
@@ -114,16 +126,19 @@ def fire_arrival(ch):
 def fire_speech(ch, text):
     """Fire speech progs after ch speaks in a room.
 
-    Order (C act_comm.c:930-950):
-    (a) Mobs in room (not the speaker): speech_prog(mob, ch, text)
-    (b) Items in room contents: speech_prog(obj, ch, text)
-    (c) Items carried by everyone in the room: speech_prog(obj, ch, text)
-    (d) Room itself: speech_prog(room, ch, text)
+    Order matches C act_comm.c:926-950:
+    (a) Mobs in room (not the speaker): speech_prog(mob, ch, text)  [C :926-932]
+    (b) Items carried by the speaker (ch->carrying): speech_prog(obj, ch, text)  [C :937-941]
+    (c) Items in room contents: speech_prog(obj, ch, text)  [C :943-947]
+    (d) Room itself: speech_prog(room, ch, text)  [C :949-950]
 
     Args:
         ch:   The speaking character.
         text: The spoken string.
     """
+    # Fast path: no progs registered at all.
+    if not registry._any_progs:
+        return
     room = ch.in_room
     if room is None:
         return
@@ -136,21 +151,17 @@ def fire_speech(ch, text):
         if mob is not None and mob.is_npc():
             dispatch.fire(mob, "speech_prog", ch, text)
 
-    # (b) Items in room
-    for item_id in room.items:
+    # (b) Items carried by the speaker (matches C's ch->carrying loop at :937)
+    for item_id in ch.items:
         item = instance.items.get(item_id)
         if item is not None:
             dispatch.fire(item, "speech_prog", ch, text)
 
-    # (c) Items carried by everyone in the room (including the speaker)
-    for cid in room.people[:]:
-        person = instance.characters.get(cid)
-        if person is None:
-            continue
-        for item_id in person.items:
-            item = instance.items.get(item_id)
-            if item is not None:
-                dispatch.fire(item, "speech_prog", ch, text)
+    # (c) Items in room contents (matches C's ch->in_room->contents loop at :943)
+    for item_id in room.items:
+        item = instance.items.get(item_id)
+        if item is not None:
+            dispatch.fire(item, "speech_prog", ch, text)
 
     # (d) Room speech_prog
     dispatch.fire(room, "speech_prog", ch, text)

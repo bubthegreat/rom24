@@ -98,7 +98,7 @@ class Room(
                 self.vnum,
             )
 
-    def put(self, instance_object):
+    def put(self, instance_object, fire_progs=True):
         if not instance_object.instance_id in self.inventory:
             self.inventory += [instance_object.instance_id]
             instance_object._room_vnum = self.vnum
@@ -128,7 +128,13 @@ class Room(
         instance_object.environment = self.instance_id
         # Room entry_prog: fires on every char-to-room transition —
         # movement, login, teleport, recall (C handler.c:2009 char_to_room).
-        if instance_object.is_living:
+        # Suppressed during boot (fBootDb) and on explicit no-prog puts
+        # (fire_progs=False, used by death_cry's temporary room visits).
+        if (
+            instance_object.is_living
+            and fire_progs
+            and not getattr(instance, "fBootDb", False)
+        ):
             progs_dispatch.fire(self, "entry_prog", instance_object)
         return instance_object
 

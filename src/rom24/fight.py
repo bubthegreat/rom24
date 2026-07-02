@@ -1151,10 +1151,11 @@ def death_cry(ch):
     was_in_room.get(ch)
     for pexit in was_in_room.exit:
         if pexit and pexit.to_room and pexit.to_room != was_in_room.instance_id:
-            instance.rooms[pexit.to_room].put(ch)
+            # Temporary put for death-cry sound effect only; entry_prog must NOT fire.
+            instance.rooms[pexit.to_room].put(ch, fire_progs=False)
             handler_game.act(msg, ch, None, None, TO_ROOM)
             instance.rooms[pexit.to_room].get(ch)
-    was_in_room.put(ch)
+    was_in_room.put(ch, fire_progs=False)  # restore to original room; entry_prog must NOT fire
     return
 
 

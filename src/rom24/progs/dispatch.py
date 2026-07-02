@@ -36,7 +36,7 @@ def fire(target, trigger, *args):
     veto = False
     for fn in progs[trigger]:
         try:
-            result = fn(*args)
+            result = fn(target, *args)
         except Exception:
             logger.exception("prog %s on %r failed", getattr(fn, "__name__", fn), target)
             continue
