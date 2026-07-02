@@ -14,7 +14,7 @@ pytestmark = pytest.mark.skipif(
 )
 
 
-def test_all_kbk_areas_load(monkeypatch, caplog):
+def test_all_kbk_areas_load(clear_instance, monkeypatch, caplog):
     # Ensure const.race_table and friends are populated before loading areas.
     read_tables()
     monkeypatch.setattr(settings, "AREA_DIR", str(KBK_AREAS))

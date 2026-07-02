@@ -49,7 +49,7 @@ PLAYER_DIR = os.environ.get("PYROM_PLAYER_DIR", os.path.join(DATA_DIR, "players"
 SYSTEM_DIR = os.environ.get("PYROM_SYSTEM_DIR", os.path.join(DATA_DIR, "system"))
 
 DOC_DIR = os.path.join(DATA_DIR, "docs")
-AREA_DIR = LEGACY_AREA_DIR
+AREA_DIR = os.path.join(SOURCE_DIR, "area", "kbk")
 AREA_LIST_FILE = os.path.join(AREA_DIR, AREA_LIST)
 INSTANCE_DIR = os.path.join(WORLD_DIR, "instances")
 INSTANCE_NUM_FILE = os.path.join(INSTANCE_DIR, "instance_tracker.txt")

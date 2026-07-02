@@ -15,7 +15,6 @@ from rom24 import state_checks
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import const
-from rom24.database.read import read_tables as read
 from rom24 import instance
 
 
@@ -26,7 +25,8 @@ def boot_db():
 
     init_time()
     init_instance()
-    read.read_tables()
+    from rom24.content import register
+    register.register()
     data_loader.load_areas()
     # fix_exits()
     area_update()
