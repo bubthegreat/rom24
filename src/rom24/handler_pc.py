@@ -64,6 +64,9 @@ class Pc(living.Living):
         self.practice = 0
         self.train = 0
         self.dampen = False
+        self.cabal = 0
+        self.quest_credits = 0
+        self.induct = 0
         self._last_login = time.time()
         self._last_logout = None
         self._saved_room_vnum = merc.ROOM_VNUM_TEMPLE

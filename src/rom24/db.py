@@ -32,6 +32,8 @@ def boot_db():
     area_update()
     object_creator.setup_exits()
     update.instance_number_save()
+    from rom24 import cabal as _cabal
+    _cabal.load_items()
 
     # Log each line separately so each gets its own timestamp for troubleshooting
     logger.info("-----------------------------------------")
