@@ -1,6 +1,6 @@
 """Tests for OLC format loading in data_loader.py"""
 
-from rom24 import data_loader, instance, world_classes
+from rom24 import data_loader, instance
 
 
 AREADATA = """Name Midgaard~
@@ -18,3 +18,4 @@ def test_load_area_data():
     assert pArea.name == "Midgaard"
     assert pArea.min_vnum == 3000 and pArea.max_vnum == 3399
     assert "Midgaard" in instance.area_templates
+    assert remainder.strip() == ""

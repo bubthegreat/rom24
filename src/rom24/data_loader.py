@@ -87,7 +87,7 @@ def load_area(area, index):
         area, w = game_utils.read_word(area, False)
 
 
-def load_area_data(area, index):
+def load_area_data(area: str, index: int) -> tuple[str, world_classes.Area]:
     pArea = world_classes.Area(None)
     pArea.index = index
     pArea.security = 9
