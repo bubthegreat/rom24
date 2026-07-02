@@ -18,14 +18,33 @@ Licensing is still in force, please see the docs for licensing information.
 
 ## Installation and Usage ##
 
-```
-cd PyRom
-pip install -e .
-rom24
-```
-Normal python install via pip should get things started.
+This project now runs the KBK world (a Tartarus/ROM derivative). It uses
+[uv](https://github.com/astral-sh/uv) for dependency management.
 
-The more up-to-date home of the project that this was not forked from is [here](https://bitbucket.org/mudbytes/pyom).
+```
+uv sync
+uv run rom24
+```
+
+The server listens on port **1337** by default. Connect with:
+
+```
+telnet localhost 1337
+```
+
+## Regenerating KBK Content ##
+
+The Python content modules under `src/rom24/content/` and the area files under
+`src/area/kbk/` are generated from the KBK C source repository. To regenerate
+them, point `make import-kbk` at a local checkout of the kbk C repo:
+
+```
+make import-kbk KBK=~/Development/kbk
+```
+
+This runs `tools/kbk_import` which reads `const.c`, `merc.h`, `titles.c`, and
+the area files from the C repo and writes the Python equivalents into this
+repository. Re-run any time the upstream C data changes.
 
 ## TO DO ##
 

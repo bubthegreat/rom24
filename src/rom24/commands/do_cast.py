@@ -129,9 +129,8 @@ def do_cast(ch, argument):
                 if ch.is_affected(merc.AFF_CHARM) and ch.master == victim:
                     ch.send("You can't do that on your own follower.\n")
                     return
-                if not ch.is_npc():
-                    if not spell_is_castable_stub(sn):
-                        fight.check_killer(ch, victim)
+                if not ch.is_npc() and not spell_is_castable_stub(sn):
+                    fight.check_killer(ch, victim)
                 vo = victim
             elif obj:
                 vo = obj

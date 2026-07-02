@@ -65,7 +65,7 @@ def main() -> None:
     content_dir = args.repo / "src/rom24/content"
     content_dir.mkdir(parents=True, exist_ok=True)
     for fname, text in out.items():
-        (content_dir / fname).write_text(text)
+        (content_dir / fname).write_text(text, encoding="utf-8")
 
     area_dir = args.repo / "src/area/kbk"
     area_dir.mkdir(parents=True, exist_ok=True)

@@ -458,7 +458,7 @@ def char_update():
         if ch.timer > 30:
             ch_quit.append(ch)
 
-        if ch.position >= merc.POS_STUNNED:
+        if ch.position is not None and ch.position >= merc.POS_STUNNED:
             # check to see if we need to go home */
             if (
                 ch.is_npc()

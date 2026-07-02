@@ -505,23 +505,26 @@ def load_rooms_new(area: str, pArea) -> str:
             if not word:
                 logger.error("load_rooms_new: unexpected end of input at vnum %d", room.vnum)
                 raise ValueError("load_rooms_new: unexpected end of input")
-            if word == "End":
+            kw = word.upper()
+            if kw == "END":
                 break
-            elif word == "NAME":
+            elif word.startswith("*"):
+                area, _ = game_utils.read_to_eol(area)
+            elif kw == "NAME":
                 area, room.name = game_utils.read_string(area)
-            elif word == "DESCR":
+            elif kw == "DESCR":
                 area, room.description = game_utils.read_string(area)
                 room.description = _kbk_text(room.description)
-            elif word == "FLAGS":
+            elif kw == "FLAGS":
                 area, room.room_flags = game_utils.read_flags(area)
-            elif word in ("SECT", "Sect"):
+            elif kw == "SECT":
                 area, room.sector_type = game_utils.read_int(area)
-            elif word == "MHRATE":
+            elif kw == "MHRATE":
                 area, room.mana_rate = game_utils.read_int(area)
                 area, room.heal_rate = game_utils.read_int(area)
-            elif word == "CABAL":
+            elif kw == "CABAL":
                 area, room.cabal = game_utils.read_word(area, False)
-            elif word == "DOOR":
+            elif kw == "DOOR":
                 nexit = world_classes.Exit(None)
                 area, door = game_utils.read_int(area)
                 area, nexit.description = game_utils.read_string(area)
@@ -531,14 +534,12 @@ def load_rooms_new(area: str, pArea) -> str:
                 area, nexit.to_room_vnum = game_utils.read_int(area)
                 nexit.name = "Exit %s %d to %d" % (nexit.keyword, room.vnum, nexit.to_room_vnum)
                 room.exit[door] = nexit
-            elif word == "EDESC":
+            elif kw == "EDESC":
                 ed = world_classes.ExtraDescrData()
                 area, ed.keyword = game_utils.read_string(area)
                 area, ed.description = game_utils.read_string(area)
                 ed.description = _kbk_text(ed.description)
                 room.extra_descr.append(ed)
-            elif word.startswith("*"):
-                area, _ = game_utils.read_to_eol(area)
             else:
                 logger.warning("load_rooms_new: vnum %d unknown keyword %s", room.vnum, word)
                 area, _ = game_utils.read_to_eol(area)

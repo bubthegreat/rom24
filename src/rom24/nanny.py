@@ -363,7 +363,7 @@ def con_get_alignment(self):
 
     ch.send("\n")
     ch.group_add("class basics", False)
-    ch.group_add(ch.guild.base_group, False)
+    ch.group_add(ch.guild.base_group, False)  # base_group is also "class basics" for all KBK guilds; second add is a no-op
     ch.learned["recall"] = 50
     ch.send("Do you wish to customize this character?\n")
     ch.send(
@@ -371,6 +371,7 @@ def con_get_alignment(self):
     )
     ch.send("Customize (Y/N)? ")
     self.set_connected(con_default_choice)
+    return
 
 
 def con_default_choice(self):
@@ -537,7 +538,7 @@ def con_get_timecode(self):
     self.character = ch
     log_buf = "%s@%s has connected." % (ch.name, self.addrport())
     logger.info(log_buf)
-    handler_game.wiznet(log_buf, None, None, merc.WIZ_SITES, 0, ch_dummy.trust)
+    handler_game.wiznet(log_buf, None, None, merc.WIZ_SITES, 0, ch.trust)
     if ch.is_immortal():
         ch.do_help("imotd")
         self.set_connected(con_read_imotd)

@@ -6,7 +6,7 @@ class Resolver:
     def __init__(self, defines: dict):
         self.defines = defines
 
-    def num(self, token: str) -> int:
+    def num(self, token: str) -> int | float:
         expr = str(token)
         for _ in range(len(self.defines) + 1):
             names = set(re.findall(r"[A-Za-z_]\w*", expr))
@@ -35,7 +35,7 @@ class Resolver:
             return False
         return self.num(token)
 
-    def slot(self, token: str) -> int:
+    def slot(self, token: str) -> int | float:
         tok = str(token).strip()
         m = re.fullmatch(r"SLOT\s*\((.*)\)", tok)
         return self.num((m.group(1) if m else tok).strip())
