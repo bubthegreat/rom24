@@ -126,3 +126,21 @@ deducted, no lag applied) is deferred to Task 10's manual telnet smoke test.
   helper added, stub intercept inserted before mana deduction
 - `tests/test_spell_stub.py` — new test file (4 tests)
 - `.superpowers/sdd/task-7-report.md` — this report
+
+## Post-Review Fix (2026-07-02)
+
+Applied code-review findings:
+
+1. **Critical**: Guarded both `fight.check_killer(ch, victim)` call sites
+   (TAR_CHAR_OFFENSIVE ~line 78, TAR_OBJ_CHAR_OFF ~line 131) with
+   `if not spell_is_castable_stub(sn)` check to prevent PK state mutation
+   (PLR_KILLER flag, wiznet broadcast) on offensive stub spells.
+
+2. **Important**: Added `test_stub_msg_exact_text` test to pin the STUB_MSG
+   literal text ("You trace the pattern...") in tests/test_spell_stub.py.
+
+3. **Minor**: Corrected flow description: mana availability check
+   (`ch.mana < mana`) runs AFTER the stub intercept (~line 166), not before —
+   stub returns at line 164 before mana check is evaluated.
+
+All 56 tests pass; type checking clean. Commit: c91373a.
