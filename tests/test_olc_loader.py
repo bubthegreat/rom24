@@ -1,6 +1,7 @@
 """Tests for OLC format loading in data_loader.py"""
 
 from rom24 import data_loader, instance, world_classes
+from rom24.database.read.read_tables import read_tables
 
 
 def _make_area():
@@ -56,3 +57,56 @@ def test_load_rooms_new():
     assert room.exit[0].to_room_vnum == 3054
     assert room.extra_descr[0].keyword == "fountain"
     assert room.sector_type == 1
+
+
+MOBDATA = """#3000
+NAME wizard mud school~
+SHORT the wizard of mud school~
+LONG A wizard stands here, ready to teach.
+~
+DESCR He looks wise.
+~
+Race human~
+ACT AB
+AFF 0
+ALIGN 350
+GROUP 0
+LEVEL 25
+HROLL 5
+HDICE 8 d 8 + 100
+MDICE 10 d 10 + 100
+DDICE 2 d 6 + 4
+DTYPE crush
+AC 2 2 2 -1
+OFF AB
+IMM 0
+RES J
+VULN 0
+POS stand stand
+SEX male
+GOLD 500
+FORM AHMV
+PARTS ABCDEFGHIJK
+SIZE medium
+MATER flesh~
+CABAL rager
+DMOD 120
+QUEST 5
+End
+#0
+"""
+
+
+def test_load_npcs_new():
+    read_tables()  # populate race_table (needed for npc.race.act / flag defaults)
+    instance.npc_templates.clear()
+    pArea = _make_area()
+    data_loader.load_npcs_new(MOBDATA, pArea)
+    npc = instance.npc_templates[3000]
+    assert npc.short_descr == "the wizard of mud school"
+    assert npc.level == 25
+    assert npc.hit_dice == [8, 8, 100]
+    assert npc.dam_dice == [2, 6, 4]
+    assert npc.armor == [20, 20, 20, -10]
+    assert npc.dam_mod == 120 and npc.quest_credit_reward == 5
+    assert npc.cabal == "rager"

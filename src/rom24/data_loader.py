@@ -76,6 +76,8 @@ def load_area(area, index):
             area = load_rooms(area, area_instance)
         elif w == "#ROOMDATA":
             area = load_rooms_new(area, area_instance)
+        elif w == "#MOBDATA":
+            area = load_npcs_new(area, area_instance)
         elif w == "#SHOPS":
             area = load_shops(area)
         elif w == "#SOCIALS":
@@ -492,6 +494,139 @@ def load_rooms_new(area: str, pArea) -> str:
                 area, _ = game_utils.read_to_eol(area)
         room_instance = object_creator.create_room(room)
         room_instance.environment = pArea.instance_id
+        area, w = game_utils.read_word(area, False)
+    return area
+
+
+def _read_dice(area):
+    """Reads 'NdT+B' or 'N d T + B' — handles both compact and spaced formats."""
+    area, n = game_utils.read_int(area)
+    # skip whitespace and the 'd' separator (handles both '1d1+999' and '1 d 1 + 999')
+    while area and not (area[0].isdigit() or area[0] == "-"):
+        area = area[1:]
+    area, t = game_utils.read_int(area)
+    # skip whitespace and the '+' separator
+    while area and not (area[0].isdigit() or area[0] == "-"):
+        area = area[1:]
+    area, b = game_utils.read_int(area)
+    return area, [n, t, b]
+
+
+def load_npcs_new(area: str, pArea) -> str:
+    """Parse a #MOBDATA section (KBK / Tartarus OLC format)."""
+    area, w = game_utils.read_word(area, False)
+    while w != "#0":
+        npc = handler_npc.Npc()
+        npc.vnum = int(w[1:])
+        instance.npc_templates[npc.vnum] = npc
+        npc.area = pArea.name
+        # KBK-only defaults (also initialised in Npc.__init__ but reset here
+        # so that every template starts clean regardless of __init__ history)
+        npc.cabal = 0
+        npc.dam_mod = 100
+        npc.enhanced_dam_mod = 100
+        npc.regen_rate = 0
+        npc.quest_credit_reward = 0
+        npc.num_attacks = 0
+        npc.extended_flags = 0
+        while True:
+            area, word = game_utils.read_word(area, False)
+            if not word:
+                break
+            kw = word.upper()
+            if kw == "END":
+                break
+            elif word[0] == "*":
+                area, _ = game_utils.read_to_eol(area)
+            elif kw == "NAME":
+                area, npc.name = game_utils.read_string(area)
+                npc.name = npc.name.lower()
+            elif kw == "SHORT":
+                area, npc.short_descr = game_utils.read_string(area)
+            elif kw == "LONG":
+                area, npc.long_descr = game_utils.read_string(area)
+                npc.long_descr = miniboa_terminal.escape(npc.long_descr, "pyom")
+            elif kw == "DESCR":
+                area, npc.description = game_utils.read_string(area)
+                npc.description = miniboa_terminal.escape(npc.description, "pyom")
+            elif kw == "RACE":
+                area, npc.race = game_utils.read_string(area)
+            elif kw == "ACT":
+                area = npc.act.read_bits(area, default=merc.ACT_IS_NPC | npc.race.act)
+            elif kw == "AFF":
+                area = npc.affected_by.read_bits(area, default=npc.race.aff)
+            elif kw == "OFF":
+                area = npc.off_flags.read_bits(area, default=npc.race.off)
+            elif kw == "IMM":
+                area = npc.imm_flags.read_bits(area, default=npc.race.imm)
+            elif kw == "RES":
+                area = npc.res_flags.read_bits(area, default=npc.race.res)
+            elif kw == "VULN":
+                area = npc.vuln_flags.read_bits(area, default=npc.race.vuln)
+            elif kw == "FORM":
+                area = npc.form.read_bits(area, default=npc.race.form)
+            elif kw == "PARTS":
+                area = npc.parts.read_bits(area, default=npc.race.parts)
+            elif kw == "ALIGN":
+                area, npc.alignment = game_utils.read_int(area)
+            elif kw == "GROUP":
+                area, npc.group = game_utils.read_int(area)
+            elif kw == "LEVEL":
+                area, npc.level = game_utils.read_int(area)
+            elif kw == "HROLL":
+                area, npc.hitroll = game_utils.read_int(area)
+            elif kw == "HDICE":
+                area, npc.hit_dice = _read_dice(area)
+            elif kw == "MDICE":
+                area, npc.mana_dice = _read_dice(area)
+            elif kw == "DDICE":
+                area, npc.dam_dice = _read_dice(area)
+            elif kw == "DTYPE":
+                area, npc.dam_type = game_utils.read_word(area, False)
+                npc.dam_type = state_checks.name_lookup(const.attack_table, npc.dam_type)
+            elif kw == "AC":
+                for i in range(4):
+                    area, ac = game_utils.read_int(area)
+                    npc.armor[i] = ac * 10
+            elif kw == "POS":
+                area, start_pos = game_utils.read_word(area, False)
+                area, default_pos = game_utils.read_word(area, False)
+                npc.start_pos = state_checks.name_lookup(
+                    tables.position_table, start_pos, "short_name"
+                )
+                npc.default_pos = state_checks.name_lookup(
+                    tables.position_table, default_pos, "short_name"
+                )
+            elif kw == "SEX":
+                area, sex = game_utils.read_word(area, False)
+                npc.sex = state_checks.value_lookup(tables.sex_table, sex)
+            elif kw == "SIZE":
+                area, size = game_utils.read_word(area, False)
+                npc.size = tables.size_table.index(size)
+            elif kw == "MATER":
+                area, npc.material = game_utils.read_string(area)
+            elif kw == "CABAL":
+                area, npc.cabal = game_utils.read_word(area, False)
+            elif kw == "GOLD":
+                area, npc.wealth = game_utils.read_int(area)
+            elif kw == "DMOD":
+                area, npc.dam_mod = game_utils.read_int(area)
+            elif kw == "AMOD":
+                area, npc.num_attacks = game_utils.read_int(area)
+            elif kw == "REGEN":
+                area, npc.regen_rate = game_utils.read_int(area)
+            elif kw == "QUEST":
+                area, npc.quest_credit_reward = game_utils.read_int(area)
+            elif kw == "WSPEC":
+                area, npc.extended_flags = game_utils.read_flags(area)
+            elif kw == "ENHA":
+                area, npc.enhanced_dam_mod = game_utils.read_int(area)
+                area, _ = game_utils.read_to_eol(area)  # consume rest (e.g. ".00%")
+            else:
+                logger.warning(
+                    "load_npcs_new: vnum %d unknown keyword %s", npc.vnum, word
+                )
+                area, _ = game_utils.read_to_eol(area)
         area, w = game_utils.read_word(area, False)
     return area
 
