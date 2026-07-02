@@ -45,8 +45,8 @@ ignore = ["E501"]  # Line too long (handled by formatter)
 line-length = 120
 target-version = ["py312"]
 
-[tool.ty]
-python_version = "3.12"
+[tool.ty.environment]
+python-version = "3.12"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

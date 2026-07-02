@@ -41,7 +41,7 @@ def extract_initializer(text: str, name: str) -> str:
         c = text[i]
         if c == '"':
             i += 1
-            while text[i] != '"':
+            while i < len(text) and text[i] != '"':
                 i += 2 if text[i] == "\\" else 1
         elif c == "{":
             depth += 1
@@ -85,6 +85,7 @@ def parse_braces(block: str):
                 if items and isinstance(items[-1], tuple) and not "".join(token).strip() and last_was_string:
                     items[-1] = ("str", items[-1][1] + "".join(chars))
                 else:
+                    # Pending whitespace in token is deliberately left for next flush() to discard
                     flush()
                     items.append(("str", "".join(chars)))
                     last_was_string = True

@@ -43,7 +43,13 @@ def test_extract_initializer_and_parse():
     assert len(entries) == 2
     warrior = entries[0]
     assert warrior[0] == ("str", "warrior")
+    assert warrior[1] == ("str", "War")
     assert warrior[2] == "ALIGN_ANY"
     assert warrior[5] == ["3022", "8818", "20408"]
     assert warrior[11] == "FALSE"
     assert warrior[14] == "CLASS_FIGHTER"
+
+
+def test_adjacent_string_literals_concatenate():
+    assert cparse.parse_braces('{"hello" " world"}') == [("str", "hello world")]
+    assert cparse.parse_braces('{"a", "b"}') == [("str", "a"), ("str", "b")]
