@@ -87,3 +87,57 @@ def emit_groups(entries, r, class_order):
             "spells": [r.value(s) for s in e[2] if r.value(s)],
         }
     return HEADER + _fmt("GROUPS", groups)
+
+
+def emit_races(race_entries, pc_entries, r, class_order):
+    races = {}
+    for e in race_entries:
+        # Skip NULL terminator entries
+        if not e or str(e[0]) == "NULL":
+            continue
+        name = r.value(e[0])
+        races[name] = {"name": name, "pc_race": r.value(e[1]) if len(e) > 1 else False,
+                       "act": r.num(e[2]) if len(e) > 2 else 0, "aff": r.num(e[3]) if len(e) > 3 else 0,
+                       "off": r.num(e[4]) if len(e) > 4 else 0,
+                       "imm": r.num(e[5]) if len(e) > 5 else 0, "res": r.num(e[6]) if len(e) > 6 else 0,
+                       "vuln": r.num(e[7]) if len(e) > 7 else 0,
+                       "form": r.num(e[8]) if len(e) > 8 else 0, "parts": r.num(e[9]) if len(e) > 9 else 0}
+    pc_races = {}
+    for e in pc_entries:
+        name = r.value(e[0])
+        if name.startswith("null"):
+            continue
+        pc_races[name] = {
+            "name": name,
+            "who_name": r.value(e[1]).strip() if len(e) > 1 else "",
+            "align": r.num(e[2]) if len(e) > 2 else 0,
+            "xpadd": r.num(e[3]) if len(e) > 3 else 0,
+            "skills": [r.value(s) for s in e[4] if len(e) > 4 and r.value(s)],
+            "classes": {class_order[i]: bool(r.num(v))
+                        for i, v in enumerate(e[5]) if len(e) > 5 and i < len(class_order)},
+            "stats": [r.num(v) for v in e[6]] if len(e) > 6 else [],
+            "max_stats": [r.num(v) for v in e[7]] if len(e) > 7 else [],
+            "size": r.num(e[8]) if len(e) > 8 else 0,
+            "set_race": r.value(e[9]) if len(e) > 9 else "",
+        }
+    return HEADER + _fmt("RACES", races) + _fmt("PC_RACES", pc_races)
+
+
+def emit_materials(text: str) -> str:
+    lines = iter(text.splitlines())
+    for line in lines:
+        if line.split() and line.split()[0] == "MATS":
+            break
+    materials = {}
+    for line in lines:
+        line = line.strip()
+        if not line or "~" not in line:
+            continue
+        name, rest = line.split("~", 1)
+        name = name.strip()
+        nums = [int(x) for x in rest.split()[:5]]
+        materials[name] = dict(zip(
+            ("prot_pierce", "prot_bash", "prot_slash", "prot_magic", "relative_weight"),
+            nums))
+        materials[name]["name"] = name
+    return HEADER + _fmt("MATERIALS", materials)
