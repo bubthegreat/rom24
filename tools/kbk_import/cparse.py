@@ -83,9 +83,9 @@ def parse_braces(block: str):
                         j += 1
                 # adjacent C string literals concatenate (only if last item was also a string, not after comma)
                 if items and isinstance(items[-1], tuple) and not "".join(token).strip() and last_was_string:
+                    # Pending whitespace in token is deliberately left for next flush() to discard
                     items[-1] = ("str", items[-1][1] + "".join(chars))
                 else:
-                    # Pending whitespace in token is deliberately left for next flush() to discard
                     flush()
                     items.append(("str", "".join(chars)))
                     last_was_string = True
