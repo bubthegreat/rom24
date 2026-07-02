@@ -6,3 +6,4 @@ from rom24.content.groups import GROUPS  # noqa: F401
 from rom24.content.races import RACES, PC_RACES  # noqa: F401
 from rom24.content.materials import MATERIALS  # noqa: F401
 from rom24.content.titles import TITLES  # noqa: F401
+from rom24.content.aux import ATTACKS, LIQUIDS, STR_APP, INT_APP, WIS_APP, DEX_APP, CON_APP, WEAPONS  # noqa: F401
