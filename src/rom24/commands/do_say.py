@@ -6,6 +6,7 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import pyprogs
 from rom24.handler_game import act
+from rom24.progs import hooks as progs_hooks
 
 
 def do_say(ch, argument):
@@ -16,6 +17,8 @@ def do_say(ch, argument):
     act("$n says '$T'", ch, None, argument, merc.TO_ROOM)
     act("You say '$T'", ch, None, argument, merc.TO_CHAR)
     pyprogs.emit_signal("say", actor=ch, argument=argument, audience=ch.in_room.people)
+    # Speech progs: mobs, room items, carried items, room (C act_comm.c:930-950)
+    progs_hooks.fire_speech(ch, argument)
     return
 
 

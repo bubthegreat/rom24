@@ -16,6 +16,7 @@ from rom24 import state_checks
 from rom24 import inventory
 from rom24 import type_bypass
 from rom24 import settings
+from rom24.progs import dispatch as progs_dispatch
 
 
 class Room(
@@ -125,6 +126,10 @@ class Room(
         except:
             pass
         instance_object.environment = self.instance_id
+        # Room entry_prog: fires on every char-to-room transition —
+        # movement, login, teleport, recall (C handler.c:2009 char_to_room).
+        if instance_object.is_living:
+            progs_dispatch.fire(self, "entry_prog", instance_object)
         return instance_object
 
     def get(self, instance_object):
