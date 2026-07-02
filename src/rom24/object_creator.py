@@ -16,6 +16,7 @@ from rom24 import handler_npc
 from rom24 import special
 from rom24 import state_checks
 from rom24 import instance
+from rom24.progs import registry
 
 
 def create_room(room_template):
@@ -24,6 +25,9 @@ def create_room(room_template):
         sys.exit(1)
 
     room = handler_room.Room(room_template)
+    improgs = getattr(room_template, "improgs", None)
+    if improgs:
+        room.progs = registry.resolve("room", improgs)
     return room
 
 
@@ -88,6 +92,9 @@ def create_mobile(npc_template):
             npc.spec_fun = None
         else:
             npc.spec_fun = spec_fn
+    improgs = getattr(npc_template, "improgs", None)
+    if improgs:
+        npc.progs = registry.resolve("mob", improgs)
     npc.prompt = None
 
     if npc_template.wealth == 0:
@@ -431,6 +438,9 @@ def create_item(item_template, level, prev_instance_id: int = None):
     # for paf in item_template.affected:
     #   if paf.location == merc.APPLY_SPELL_AFFECT:
     #      item.affect_add(paf)
+    improgs = getattr(item_template, "improgs", None)
+    if improgs:
+        item.progs = registry.resolve("item", improgs)
     return item
 
 
