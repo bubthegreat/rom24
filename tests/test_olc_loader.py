@@ -1,5 +1,9 @@
 """Tests for OLC format loading in data_loader.py"""
 
+import logging
+
+import pytest
+
 from rom24 import data_loader, instance, world_classes
 from rom24.database.read.read_tables import read_tables
 
@@ -165,6 +169,9 @@ def test_load_objects_new_weapon():
 
 
 def test_load_objects_new_armor_derives_ac():
+    read_tables()
+    instance.item_templates.clear()
+    data_loader.load_objects_new(OBJDATA, _make_area())
     vest = instance.item_templates[3011]
     # AC_PER_ONE_PERCENT_DECREASE_DAMAGE is -75.0; C math double-negates
     # (db.c:5059-5068), so derived armor values are POSITIVE protection ints
@@ -173,6 +180,9 @@ def test_load_objects_new_armor_derives_ac():
 
 
 def test_load_objects_new_shield_slot_derives_ac():
+    read_tables()
+    instance.item_templates.clear()
+    data_loader.load_objects_new(OBJDATA, _make_area())
     shield = instance.item_templates[3012]
     assert shield.value[0] > 0
     assert shield.weight > 0
@@ -186,8 +196,12 @@ E
 
 
 def test_load_improgs():
-    # templates 3000 (npc) and 3010 (item) must exist from earlier tests in this module
-    # (test_load_npcs_new and test_load_objects_new_weapon ran before this)
+    read_tables()
+    instance.npc_templates.clear()
+    instance.item_templates.clear()
+    pArea = _make_area()
+    data_loader.load_npcs_new(MOBDATA, pArea)
+    data_loader.load_objects_new(OBJDATA, pArea)
     data_loader.load_improgs(IMPROGS)
     assert ("GREET", "greet_wizard") in instance.npc_templates[3000].improgs
     assert ("WEAR", "wear_sword") in instance.item_templates[3010].improgs
@@ -238,17 +252,42 @@ End
 """
 
 
-def test_load_npcs_new_oldstyle_aff():
+def test_load_npcs_new_oldstyle_aff(caplog):
     """Old-format multi-integer AFF line must not produce unknown-keyword warnings."""
-    from rom24.database.read.read_tables import read_tables
     read_tables()
     instance.npc_templates.clear()
     pArea = _make_area()
-    import logging
-    with __import__("pytest").raises(Exception) if False else __import__("contextlib").nullcontext():
+    with caplog.at_level(logging.WARNING, logger="rom24.data_loader"):
         data_loader.load_npcs_new(MOBDATA_OLDSTYLE_AFF, pArea)
+    assert not [r for r in caplog.records if r.levelno >= logging.WARNING], (
+        "load_npcs_new produced unexpected WARNING-level log records: "
+        + str([r.getMessage() for r in caplog.records if r.levelno >= logging.WARNING])
+    )
     npc = instance.npc_templates.get(4000)
     assert npc is not None, "NPC 4000 should have been loaded"
     assert npc.level == 5
     # OFF field must parse correctly after the multi-value AFF line
     assert npc.off_flags is not None
+
+
+# ---------------------------------------------------------------------------
+# Truncation-guard tests (item 2 of final-review wave)
+# ---------------------------------------------------------------------------
+
+def test_load_area_data_truncated():
+    """load_area_data raises ValueError when input ends before 'End'."""
+    with pytest.raises(ValueError):
+        data_loader.load_area_data("Name Midgaard~\nBuilders Zornath~\n", 1)
+
+
+def test_load_rooms_new_truncated():
+    """load_rooms_new raises ValueError when input ends before 'End' inside a room."""
+    with pytest.raises(ValueError):
+        pArea = _make_area()
+        data_loader.load_rooms_new("#3001\nNAME Test Room~\n", pArea)
+
+
+def test_load_improgs_truncated():
+    """load_improgs raises ValueError when input ends before 'E'."""
+    with pytest.raises(ValueError):
+        data_loader.load_improgs("* just a comment\n")

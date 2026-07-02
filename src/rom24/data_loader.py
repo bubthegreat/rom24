@@ -110,6 +110,9 @@ def load_area_data(area: str, index: int) -> tuple[str, world_classes.Area]:
     pArea.security = 9
     while True:
         area, word = game_utils.read_word(area, False)
+        if not word:
+            logger.error("load_area_data: unexpected end of input")
+            raise ValueError("load_area_data: unexpected end of input")
         if word == "End":
             break
         elif word == "Name":
@@ -458,6 +461,9 @@ def load_rooms(area, pArea):
 def load_rooms_new(area: str, pArea) -> str:
     area, w = game_utils.read_word(area, False)
     while w != "#0":
+        if not w:
+            logger.error("load_rooms_new: unexpected end of input")
+            raise ValueError("load_rooms_new: unexpected end of input")
         room = handler_room.Room(None)
         room.vnum = int(w[1:])
         if room.vnum in instance.room_templates:
@@ -468,6 +474,9 @@ def load_rooms_new(area: str, pArea) -> str:
         room.mana_rate = 100
         while True:
             area, word = game_utils.read_word(area, False)
+            if not word:
+                logger.error("load_rooms_new: unexpected end of input at vnum %d", room.vnum)
+                raise ValueError("load_rooms_new: unexpected end of input")
             if word == "End":
                 break
             elif word == "NAME":
@@ -852,6 +861,9 @@ def load_improgs(area: str) -> str:
     """
     while True:
         area, letter = game_utils.read_letter(area)
+        if not letter:
+            logger.error("load_improgs: unexpected end of input")
+            raise ValueError("load_improgs: unexpected end of input")
         if letter == "E":
             return area
         if letter == "*":
