@@ -1268,7 +1268,9 @@ def test_load_objects_new_weapon():
 
 def test_load_objects_new_armor_derives_ac():
     vest = instance.item_templates[3011]
-    assert vest.value[0] < 0   # armor values are negative AC contributions
+    # AC_PER_ONE_PERCENT_DECREASE_DAMAGE is -75.0; C math double-negates
+    # (db.c:5059-5068), so derived armor values are POSITIVE protection ints
+    assert vest.value[0] > 0
     assert vest.affected[0].modifier == 5
 ```
 
