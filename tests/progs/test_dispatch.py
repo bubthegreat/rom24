@@ -43,3 +43,18 @@ def test_prog_exception_is_contained(caplog):
     with caplog.at_level(logging.ERROR, logger="rom24.progs.dispatch"):
         assert dispatch.fire(t, "greet_prog", "ch") is False
     assert any("prog bug" in r.message or "boom" in r.message for r in caplog.records)
+
+
+def test_move_prog_exception_does_not_veto(caplog):
+    import logging
+    def boom(ch, room, door):
+        raise RuntimeError("move bug")
+    t = _target("move_prog", boom)
+    with caplog.at_level(logging.ERROR, logger="rom24.progs.dispatch"):
+        assert dispatch.fire(t, "move_prog", "ch", "room", 0) is False
+
+
+def test_move_prog_none_return_does_not_veto():
+    # Python default return (None) must not be treated as False for veto purposes.
+    t = _target("move_prog", lambda ch, room, door: None)
+    assert dispatch.fire(t, "move_prog", "ch", "room", 0) is False

@@ -2,6 +2,11 @@
 
 KBK area census: no (vnum, progtype) pairs are bound twice to a single vnum;
 the list form is defensive against future bindings.
+
+Run-all semantics: all progs for a trigger fire even after a veto is
+recorded. C data has at most one prog per (vnum, trigger); run-all is
+forward-compatible if that ever changes, and is safer than stop-at-veto
+for side-effect progs (announce/save/etc.) that must run regardless.
 """
 import logging
 
