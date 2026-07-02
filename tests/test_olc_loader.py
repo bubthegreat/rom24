@@ -138,6 +138,18 @@ COST 50
 COND 100
 AFFECT O 13 5 0
 End
+#3012
+NAME practice shield~
+SHORT a practice shield~
+DESCR A practice shield lies here.
+~
+MAT wood~
+TYPE armor 0 0 0 0 0
+WEAR AJ
+LEVEL 60
+COST 10
+COND 100
+End
 #0
 """
 
@@ -158,3 +170,9 @@ def test_load_objects_new_armor_derives_ac():
     # (db.c:5059-5068), so derived armor values are POSITIVE protection ints
     assert vest.value[0] > 0
     assert vest.affected[0].modifier == 5
+
+
+def test_load_objects_new_shield_slot_derives_ac():
+    shield = instance.item_templates[3012]
+    assert shield.value[0] > 0
+    assert shield.weight > 0

@@ -639,18 +639,28 @@ def load_npcs_new(area: str, pArea) -> str:
 
 # Wear-slot → AC cap factor (db.c:4995-5049)
 _AC_CAP_BY_SLOT = [
-    ("finger", 0.667), ("neck", 0.8), ("body", 1.466), ("head", 1.067),
+    ("left_finger", 0.667), ("right_finger", 0.667),
+    ("neck", 0.8), ("collar", 0.8),
+    ("body", 1.466), ("head", 1.067),
     ("legs", 0.933), ("feet", 0.933), ("hands", 0.933), ("arms", 1.067),
-    ("shield", 2.50), ("about", 1.067), ("waist", 0.8), ("wrist", 0.8),
-    ("strapped", 0.5),
+    ("off_hand", 2.50),        # C: shield
+    ("about_body", 1.067),     # C: about
+    ("waist", 0.8),
+    ("left_wrist", 0.8), ("right_wrist", 0.8),  # C: wrist
+    ("main_hand", 0.5),        # C: strapped (ITEM_WIELD -> main_hand)
 ]
 
 # Wear-slot → weight recommend factor (db.c:5070-5123)
 _WEIGHT_BY_SLOT = [
-    ("finger", 0.15), ("neck", 0.4), ("body", 1.0), ("head", 0.8),
+    ("left_finger", 0.15), ("right_finger", 0.15),
+    ("neck", 0.4), ("collar", 0.4),
+    ("body", 1.0), ("head", 0.8),
     ("legs", 0.85), ("feet", 0.7), ("hands", 0.6), ("arms", 0.8),
-    ("shield", 1.2), ("about", 0.8), ("waist", 0.4), ("wrist", 0.5),
-    ("strapped", 0.7),
+    ("off_hand", 1.2),         # C: shield
+    ("about_body", 0.8),       # C: about
+    ("waist", 0.4),
+    ("left_wrist", 0.5), ("right_wrist", 0.5),  # C: wrist
+    ("main_hand", 0.7),        # C: strapped
 ]
 
 # Weapon class → weight recommend factor (db.c:5124-5173)
@@ -681,7 +691,12 @@ def _finalize_kbk_object(item):
             recommend = factor
     if item.item_type == merc.ITEM_WEAPON:
         recommend = _WEIGHT_BY_WEAPON.get(item.value[0], 0.3)
-    item.weight = int(recommend * (mat["relative_weight"] / 100.0) * content.WEIGHT_STANDARD)
+    weight = recommend * (mat["relative_weight"] / 100.0) * content.WEIGHT_STANDARD
+    if item.item_type == merc.ITEM_WEAPON and "two_handed" in getattr(item, "weapon_attributes", set()):
+        weight *= 1.5
+    if item.item_type == merc.ITEM_BOAT:
+        weight *= 4.0
+    item.weight = int(weight)
 
 
 def load_objects_new(area: str, pArea) -> str:
@@ -789,8 +804,8 @@ def load_objects_new(area: str, pArea) -> str:
                 paf = handler_game.AFFECT_DATA()
                 area, where = game_utils.read_word(area, False)
                 paf.where = {
-                    "a": merc.TO_AFFECTS, "i": merc.TO_IMMUNE, "r": merc.TO_RESIST,
-                    "v": merc.TO_VULN, "o": merc.TO_OBJECT,
+                    "A": merc.TO_AFFECTS, "I": merc.TO_IMMUNE, "R": merc.TO_RESIST,
+                    "V": merc.TO_VULN, "O": merc.TO_OBJECT,
                 }.get(where, merc.TO_OBJECT)
                 paf.type = -1
                 paf.level = item.level
