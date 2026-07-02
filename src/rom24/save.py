@@ -20,39 +20,9 @@ def area_pickler():
 
 
 def legacy_load_char_obj(d, name):
-    # ch = handler_ch.CHAR_DATA()
-    # ch.pcdata = handler_ch.PC_DATA()
+    """No legacy players in KBK world; always report not-found."""
     ch = handler_pc.Pc(name)
-    found = False
-    pfile = os.path.join(settings.LEGACY_PLAYER_DIR, name + ".json")
-    if os.path.isfile(pfile):
-        chdict = json.load(open(pfile, "r"))
-        ch = fread_char(chdict, ch)
-        found = True
-
-    ch.desc = d
-    d.character = ch
-    ch.send = d.send
-    return found, ch
-
-
-def legacy_save_char_obj(ch):
-    if ch.is_npc():
-        return
-
-    if ch.desc and ch.desc.original:
-        ch = ch.desc.original
-
-    pfile = os.path.join(settings.LEGACY_PLAYER_DIR, ch.name + ".json")
-    os.makedirs(settings.PLAYER_DIR, 0o755, True)
-
-    fwrite = fwrite_char(ch)
-    if ch.inventory:
-        fwrite["inventory"] = [fwrite_obj(ch, o) for o in ch.inventory]
-
-    to_write = json.dumps(fwrite, indent=4, sort_keys=True)
-    with open(pfile, "w") as pf:
-        pf.write(to_write)
+    return False, ch
 
 
 def fwrite_obj(ch, obj, contained_by=None):
