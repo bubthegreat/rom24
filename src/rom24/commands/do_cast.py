@@ -12,6 +12,14 @@ from rom24 import fight
 from rom24 import instance
 
 
+STUB_MSG = "You trace the pattern, but nothing happens - that magic has not been rewoven yet.\n"
+
+
+def spell_is_castable_stub(sn):
+    """Return True if sn is a known-but-unimplemented (KBK) spell stub."""
+    return sn is not None and sn.spell_fun is None
+
+
 def do_cast(ch, argument):
     # Switched NPC's can cast spells, but others can't.
     if ch.is_npc() and not ch.desc:
@@ -25,15 +33,11 @@ def do_cast(ch, argument):
         ch.send("Cast which what where?\n")
         return
     sn = handler_magic.find_spell(ch, arg1)
-    if (
-        not sn
-        or sn.spell_fun is None
-        or (
-            not ch.is_npc()
-            and (
-                ch.level < sn.skill_level[ch.guild.name]
-                or ch.learned.get(sn.name, 0) == 0
-            )
+    if not sn or (
+        not ch.is_npc()
+        and (
+            ch.level < sn.skill_level[ch.guild.name]
+            or ch.learned.get(sn.name, 0) == 0
         )
     ):
         ch.send("You don't know any spells of that name.\n")
@@ -151,6 +155,12 @@ def do_cast(ch, argument):
                 return
     else:
         logging.error("BUG: Do_cast: bad target for sn %s.", sn)
+        return
+
+    # Intercept stub spells: known but not yet ported to KBK.  No mana spent,
+    # no lag applied, no position/mana checks with side-effects triggered.
+    if spell_is_castable_stub(sn):
+        ch.send(STUB_MSG)
         return
 
     if not ch.is_npc() and ch.mana < mana:
