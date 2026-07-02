@@ -1,7 +1,9 @@
+import pytest
+
 from tools.kbk_import.resolve import Resolver
 
 R = Resolver({"ALIGN_ANY": "3", "A": "1", "H": "128", "M": "4096", "V": "2097152",
-              "AFF_INFRARED": "(H)", "CLASS_FIGHTER": "0", "MSL": "(2*4096)"})
+              "AFF_INFRARED": "(H)", "CLASS_FIGHTER": "0", "MSL": "(2*4096)", "O": "16384"})
 
 
 def test_plain_and_define():
@@ -29,6 +31,16 @@ def test_bools_and_strings():
     assert R.value("TRUE") is True
     assert R.value("FALSE") is False
     assert R.value(("str", "class basics")) == "class basics"
+
+
+def test_slot_variants():
+    r = Resolver({"O": "16384"})
+    assert r.slot("SLOT(70)") == 70
+    assert r.slot("SLOT(O)") == 16384
+    assert r.slot("SLOT( O )") == 16384
+    assert r.slot("0") == 0
+    with pytest.raises(ValueError):
+        r.slot("SLOT(garbage)")
 
 
 def test_chained_define_also_appearing_independently():

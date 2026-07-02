@@ -15,7 +15,7 @@ const struct group_type group_table[MAX_GROUP] =
 };
 '''
 DEFS = {"TAR_IGNORE": "0", "TAR_CHAR_OFFENSIVE": "1", "POS_STANDING": "8",
-        "POS_FIGHTING": "7", "CMD_NONE": "0", "CMD_SPELL": "1"}
+        "POS_FIGHTING": "7", "CMD_NONE": "0", "CMD_SPELL": "1", "spell_beast_call": "spell_beast_call"}
 ORDER = ["warrior", "thief"]
 
 def test_emit_skills():
@@ -53,3 +53,20 @@ const struct skill_type skill_table[MAX_SKILL] =
     exec(emit.emit_skills(entries, Resolver(DEFS), ORDER), ns)
     s = ns["SKILLS"]["awareness"]
     assert s["msg_obj"] == "" and s["ctype"] == 0
+
+
+def test_emit_skills_duplicate_names_first_wins():
+    c = '''
+const struct skill_type skill_table[MAX_SKILL] =
+{
+    {"beast call", {53, 33}, {1, 1}, spell_beast_call, TAR_IGNORE, POS_STANDING,
+     NULL, SLOT(0), 50, 12, "", "", "", CMD_SPELL},
+    {"beast call", {53, 33}, {1, 1}, spell_null, TAR_IGNORE, POS_STANDING,
+     NULL, SLOT(0), 0, 0, "", "", "", CMD_NONE},
+};
+'''
+    entries = cparse.parse_braces(cparse.extract_initializer(c, "skill_table"))
+    ns = {}
+    exec(emit.emit_skills(entries, Resolver(DEFS), ORDER), ns)
+    assert ns["SKILLS"]["beast call"]["min_mana"] == 50   # first entry kept
+    assert ns["SKILLS"]["beast call"]["spell_fun"] == "beast call"

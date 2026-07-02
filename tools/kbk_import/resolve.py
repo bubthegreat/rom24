@@ -36,17 +36,9 @@ class Resolver:
         return self.num(token)
 
     def slot(self, token: str) -> int:
-        tok = token.strip()
-        # Handle typos: SLOT(O) should be SLOT(0)
-        tok = tok.replace("SLOT(O)", "SLOT(0)")
-        m = re.fullmatch(r"SLOT\s*\(\s*(-?\d+)\s*\)", tok)
-        if m:
-            return int(m.group(1))
-        # Fallback: try to parse as plain number (for legacy entries with bare values)
-        try:
-            return int(tok)
-        except ValueError:
-            raise ValueError(f"not a SLOT(): {token!r}")
+        tok = str(token).strip()
+        m = re.fullmatch(r"SLOT\s*\((.*)\)", tok)
+        return self.num((m.group(1) if m else tok).strip())
 
     def gsn_name(self, token: str):
         m = re.fullmatch(r"&\s*gsn_(\w+)", str(token).strip())

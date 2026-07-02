@@ -54,6 +54,8 @@ def emit_skills(entries, r, class_order):
         name = r.value(e[0])
         if not name or name == "reserved":
             continue
+        if name in skills:
+            continue  # duplicate names: C skill_lookup returns the first match
         skills[name] = {
             "name": name,
             "skill_level": _per_class(e[1], r, class_order),
