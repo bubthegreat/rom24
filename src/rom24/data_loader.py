@@ -30,12 +30,20 @@ def load_areas():
     fp = open(settings.AREA_LIST_FILE, "r")
     area = fp.readline().strip()
     while area != "$":
+        area_path = os.path.join(settings.AREA_DIR, area)
+        if not os.path.exists(area_path):
+            logger.warning("load_areas: file not found, skipping: %s", area_path)
+            area = fp.readline().strip()
+            continue
         logger.info("Loading area %s", area)
-        afp = open(os.path.join(settings.AREA_DIR, area), "r")
-        index += 1
-        load_area(afp.read(), index)
+        try:
+            afp = open(area_path, "r", encoding="latin-1")
+            index += 1
+            load_area(afp.read(), index)
+            afp.close()
+        except Exception as exc:
+            logger.error("load_areas: failed loading %s: %s", area, exc)
         area = fp.readline().strip()
-        afp.close()
     fp.close()
 
     logger.info("Done. (loading areas)")
@@ -86,10 +94,12 @@ def load_area(area, index):
             area = load_socials(area)
         elif w == "#SPECIALS":
             area = load_specials(area)
+        elif w == "#IMPROGS":
+            area = load_improgs(area)
         elif w == "#$":
             break
         else:
-            logger.error("Bad section name: %s", w)
+            logger.warning("load_area: unknown section %s, skipping", w)
 
         area, w = game_utils.read_word(area, False)
 
@@ -557,6 +567,9 @@ def load_npcs_new(area: str, pArea) -> str:
                 area = npc.act.read_bits(area, default=merc.ACT_IS_NPC | npc.race.act)
             elif kw == "AFF":
                 area = npc.affected_by.read_bits(area, default=npc.race.aff)
+                # Older KBK area files write AFF as multiple integers, e.g. "AFF 1 2 0 536".
+                # read_bits() consumes only the first token; discard the rest of the line.
+                area, _ = game_utils.read_to_eol(area)
             elif kw == "OFF":
                 area = npc.off_flags.read_bits(area, default=npc.race.off)
             elif kw == "IMM":
@@ -828,6 +841,45 @@ def load_objects_new(area: str, pArea) -> str:
     return area
 
 
+def load_improgs(area: str) -> str:
+    """Parse a #IMPROGS section.
+
+    Each non-comment line starts with I (item), M (mob), or R (room),
+    followed by <vnum> <progtype> <progname> (rest of line ignored).
+    '*' lines are comments. 'E' terminates the section.
+    Bindings are appended as (progtype, progname) tuples to
+    template.improgs lists — inert data until Phase 3.
+    """
+    while True:
+        area, letter = game_utils.read_letter(area)
+        if letter == "E":
+            return area
+        if letter == "*":
+            area, _ = game_utils.read_to_eol(area)
+            continue
+        templates = {
+            "I": instance.item_templates,
+            "M": instance.npc_templates,
+            "R": instance.room_templates,
+        }.get(letter)
+        if templates is None:
+            logger.warning("load_improgs: unexpected letter %r", letter)
+            area, _ = game_utils.read_to_eol(area)
+            continue
+        area, vnum = game_utils.read_int(area)
+        area, progtype = game_utils.read_word(area, False)
+        area, progname = game_utils.read_word(area, False)
+        area, _ = game_utils.read_to_eol(area)
+        template = templates.get(vnum)
+        if template is None:
+            logger.warning("load_improgs: vnum %d not found for letter %s", vnum, letter)
+            continue
+        if not hasattr(template, "improgs"):
+            template.improgs = []
+        template.improgs.append((progtype, progname))
+    return area  # unreachable but satisfies type checkers
+
+
 def load_shops(area):
     while True:
         area, keeper = game_utils.read_int(area)
@@ -837,7 +889,10 @@ def load_shops(area):
         shop = world_classes.Shop(None)
         shop.keeper = keeper
         instance.shop_templates[shop.keeper] = shop
-        instance.npc_templates[shop.keeper].pShop = instance.shop_templates[shop.keeper]
+        if shop.keeper in instance.npc_templates:
+            instance.npc_templates[shop.keeper].pShop = instance.shop_templates[shop.keeper]
+        else:
+            logger.warning("load_shops: keeper vnum %d not in npc_templates", shop.keeper)
         for r in range(merc.MAX_TRADE):
             area, shop.buy_type[r] = game_utils.read_int(area)
         area, shop.profit_buy = game_utils.read_int(area)
@@ -955,10 +1010,13 @@ def load_specials(area):
             return area
         elif letter == "M":
             area, vnum = game_utils.read_int(area)
-            area, instance.npc_templates[vnum].spec_fun = game_utils.read_word(
-                area, False
-            )
+            area, spec_fun = game_utils.read_word(area, False)
+            if vnum in instance.npc_templates:
+                instance.npc_templates[vnum].spec_fun = spec_fun
+            else:
+                logger.warning("load_specials: vnum %d not found, skipping spec_fun %s", vnum, spec_fun)
         else:
-            logger.error("Load_specials: letter noth *SM: %s", letter)
+            logger.warning("load_specials: unexpected letter %s", letter)
+            area, _ = game_utils.read_to_eol(area)
 
     return area

@@ -176,3 +176,79 @@ def test_load_objects_new_shield_slot_derives_ac():
     shield = instance.item_templates[3012]
     assert shield.value[0] > 0
     assert shield.weight > 0
+
+
+IMPROGS = """M 3000 GREET greet_wizard
+* a comment line
+I 3010 WEAR wear_sword
+E
+"""
+
+
+def test_load_improgs():
+    # templates 3000 (npc) and 3010 (item) must exist from earlier tests in this module
+    # (test_load_npcs_new and test_load_objects_new_weapon ran before this)
+    data_loader.load_improgs(IMPROGS)
+    assert ("GREET", "greet_wizard") in instance.npc_templates[3000].improgs
+    assert ("WEAR", "wear_sword") in instance.item_templates[3010].improgs
+
+
+# Real-data excerpt: old KBK area files (e.g. air.are) write AFF as multiple
+# space-separated integers ("AFF 1 2 0 536") instead of the current letter
+# format ("AFF ABCDE").  Only the first value is meaningful; the rest must be
+# consumed silently so subsequent keywords are parsed correctly.
+MOBDATA_OLDSTYLE_AFF = """#4000
+NAME  fairy dragon~
+SHORT A fairy dragon~
+LONG  A fairy dragon is here.
+~
+DESCR
+None.
+~
+Race human~
+ACT   AGR
+AFF   1 2 0 536
+OFF   FU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 500
+GROUP 0
+LEVEL 5
+HROLL 0
+ENHA  100.00%
+HDICE 2d7+46
+MDICE 5d9+100
+DDICE 1d5+0
+DTYPE none
+AC    6 6 6 8
+POS   stand stand
+SEX   none
+GOLD  1
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+MATER flesh~
+DMOD  100
+AMOD  0
+QUEST 0
+End
+#0
+"""
+
+
+def test_load_npcs_new_oldstyle_aff():
+    """Old-format multi-integer AFF line must not produce unknown-keyword warnings."""
+    from rom24.database.read.read_tables import read_tables
+    read_tables()
+    instance.npc_templates.clear()
+    pArea = _make_area()
+    import logging
+    with __import__("pytest").raises(Exception) if False else __import__("contextlib").nullcontext():
+        data_loader.load_npcs_new(MOBDATA_OLDSTYLE_AFF, pArea)
+    npc = instance.npc_templates.get(4000)
+    assert npc is not None, "NPC 4000 should have been loaded"
+    assert npc.level == 5
+    # OFF field must parse correctly after the multi-value AFF line
+    assert npc.off_flags is not None
