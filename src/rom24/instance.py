@@ -38,11 +38,11 @@ from rom24 import settings
 max_instance_id = 0
 previous_max_instance_id = 0
 
-area_templates: Dict[str, Any] = {}
-item_templates: Dict[str, Any] = {}
-room_templates: Dict[str, Any] = {}
-npc_templates: Dict[str, Any] = {}
-shop_templates: Dict[str, Any] = {}
+area_templates: Dict[str, Any] = {}  # keyed by area name
+item_templates: Dict[int, Any] = {}  # keyed by vnum
+room_templates: Dict[int, Any] = {}  # keyed by vnum
+npc_templates: Dict[int, Any] = {}  # keyed by vnum
+shop_templates: Dict[int, Any] = {}  # keyed by keeper vnum
 
 global_instances: Dict[
     int, Any
