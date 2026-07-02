@@ -42,3 +42,46 @@ def emit_classes(entries, r):
             "ctype": r.num(e[14]),
         }
     return HEADER + _fmt("CLASSES", classes) + _fmt("CLASS_ORDER", order), order
+
+
+def _per_class(values, r, order):
+    return {order[i]: r.num(v) for i, v in enumerate(values) if i < len(order)}
+
+
+def emit_skills(entries, r, class_order):
+    skills = {}
+    for e in entries:
+        name = r.value(e[0])
+        if not name or name == "reserved":
+            continue
+        skills[name] = {
+            "name": name,
+            "skill_level": _per_class(e[1], r, class_order),
+            "rating": _per_class(e[2], r, class_order),
+            "spell_fun": r.spell_name(e[3]),
+            "target": r.num(e[4]),
+            "minimum_position": r.num(e[5]),
+            "pgsn": r.gsn_name(e[6]),
+            "slot": r.slot(e[7]),
+            "min_mana": r.num(e[8]),
+            "beats": r.num(e[9]),
+            "noun_damage": r.value(e[10]),
+            "msg_off": r.value(e[11]),
+            "msg_obj": r.value(e[12]),
+            "ctype": r.num(e[13]),
+        }
+    return HEADER + _fmt("SKILLS", skills)
+
+
+def emit_groups(entries, r, class_order):
+    groups = {}
+    for e in entries:
+        name = r.value(e[0])
+        if not name:
+            continue
+        groups[name] = {
+            "name": name,
+            "rating": _per_class(e[1], r, class_order),
+            "spells": [r.value(s) for s in e[2] if r.value(s)],
+        }
+    return HEADER + _fmt("GROUPS", groups)
