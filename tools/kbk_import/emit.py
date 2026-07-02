@@ -67,8 +67,8 @@ def emit_skills(entries, r, class_order):
             "beats": r.num(e[9]),
             "noun_damage": r.value(e[10]),
             "msg_off": r.value(e[11]),
-            "msg_obj": r.value(e[12]),
-            "ctype": r.num(e[13]),
+            "msg_obj": r.value(e[12]) if len(e) > 12 else "",
+            "ctype": r.num(e[13]) if len(e) > 13 else 0,
         }
     return HEADER + _fmt("SKILLS", skills)
 
@@ -77,7 +77,7 @@ def emit_groups(entries, r, class_order):
     groups = {}
     for e in entries:
         name = r.value(e[0])
-        if not name:
+        if not name or name == "reserved":
             continue
         groups[name] = {
             "name": name,

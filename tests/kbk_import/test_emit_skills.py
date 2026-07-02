@@ -38,3 +38,18 @@ def test_emit_groups():
     g = ns["GROUPS"]["class basics"]
     assert g["rating"] == {"warrior": 1, "thief": 3}
     assert g["spells"] == ["acid blast"]
+
+
+def test_emit_skills_tolerates_truncated_entries():
+    c = '''
+const struct skill_type skill_table[MAX_SKILL] =
+{
+    {"awareness", {53, 33}, {1, 1}, spell_null, TAR_IGNORE, POS_STANDING,
+     &gsn_awareness, SLOT(0), 0, 0, "", ""},
+};
+'''
+    entries = cparse.parse_braces(cparse.extract_initializer(c, "skill_table"))
+    ns = {}
+    exec(emit.emit_skills(entries, Resolver(DEFS), ORDER), ns)
+    s = ns["SKILLS"]["awareness"]
+    assert s["msg_obj"] == "" and s["ctype"] == 0
