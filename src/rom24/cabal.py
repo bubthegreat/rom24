@@ -10,7 +10,6 @@ from __future__ import annotations
 
 import logging
 import os
-from typing import TYPE_CHECKING
 
 logger = logging.getLogger(__name__)
 
@@ -268,9 +267,6 @@ def get_guardian(cabal_idx: int):
         if not is_inner_guardian(npc):
             continue
         if index_of(npc.cabal) == cabal_idx:
-            return npc
-        # fallback: raw string match
-        if isinstance(npc.cabal, str) and npc.cabal.lower() == cabal_name:
             return npc
     return None
 
