@@ -45,7 +45,7 @@ def emit_classes(entries, r):
 
 
 def _per_class(values, r, order):
-    return {order[i]: r.num(v) for i, v in enumerate(values) if i < len(order)}
+    return {cls: r.num(values[i]) if i < len(values) else 0 for i, cls in enumerate(order)}
 
 
 def emit_skills(entries, r, class_order):
