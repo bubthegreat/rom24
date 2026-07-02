@@ -6,6 +6,11 @@ def setup_module(module):
     register.register()
 
 
+def test_stub_msg_exact_text():
+    from rom24.commands.do_cast import STUB_MSG
+    assert STUB_MSG == "You trace the pattern, but nothing happens - that magic has not been rewoven yet.\n"
+
+
 def test_stub_spell_castable_shape():
     sn = const.skill_table["banshee call"]
     assert sn.spell_fun is None
