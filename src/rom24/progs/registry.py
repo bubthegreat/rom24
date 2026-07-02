@@ -13,6 +13,8 @@ _warned: set = set()
 
 
 def register(kind, trigger, name):
+    if kind not in PROG_KINDS:
+        raise ValueError(f"Unknown prog kind {kind!r}; expected one of {PROG_KINDS}")
     def deco(fn):
         _registry[kind][name] = (trigger, fn)
         return fn

@@ -17,8 +17,15 @@ def test_register_and_resolve():
 
 
 def test_unknown_prog_warns_once(caplog):
+    registry._warned.clear()
     with caplog.at_level(logging.WARNING, logger="rom24.progs.registry"):
         registry.resolve("mob", [("fight_prog", "no_such_prog")])
         registry.resolve("mob", [("fight_prog", "no_such_prog")])
     warnings = [r for r in caplog.records if "no_such_prog" in r.message]
     assert len(warnings) == 1
+
+
+def test_register_with_invalid_kind():
+    import pytest
+    with pytest.raises(ValueError, match="Unknown prog kind 'bogus'"):
+        registry.register("bogus", "some_trigger", "some_prog")(lambda: None)

@@ -2,6 +2,7 @@
 import pytest
 
 from rom24 import instance
+from rom24.progs import registry as _progs_registry
 
 
 @pytest.fixture
@@ -12,6 +13,7 @@ def clear_instance():
     appends to these dicts; running them in the same session without clearing first
     would cause duplicate-vnum ERRORs and false assertion failures.
     """
+    _progs_registry._warned.clear()
     instance.area_templates.clear()
     instance.room_templates.clear()
     instance.npc_templates.clear()
@@ -31,6 +33,7 @@ def clear_instance():
     instance.not_to_instance.clear()
     yield
     # Post-test teardown: leave state cleared so subsequent tests start fresh.
+    _progs_registry._warned.clear()
     instance.area_templates.clear()
     instance.room_templates.clear()
     instance.npc_templates.clear()
