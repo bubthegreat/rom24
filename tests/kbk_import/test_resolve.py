@@ -36,3 +36,13 @@ def test_chained_define_also_appearing_independently():
     # must resolve regardless of substitution order
     for _ in range(20):
         assert r.num("A | B") == 3
+
+
+def test_circular_define_raises_instead_of_hanging():
+    import pytest
+    r = Resolver({"A": "(A | 1)"})
+    with pytest.raises(ValueError):
+        r.num("A")
+    r2 = Resolver({"A": "B | 1", "B": "A | 2"})
+    with pytest.raises(ValueError):
+        r2.num("A")

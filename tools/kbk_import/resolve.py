@@ -8,13 +8,15 @@ class Resolver:
 
     def num(self, token: str) -> int:
         expr = str(token)
-        while True:
+        for _ in range(len(self.defines) + 1):
             names = set(re.findall(r"[A-Za-z_]\w*", expr))
             subst = {n: self.defines[n] for n in names if n in self.defines}
             if not subst:
                 break
             for n, v in subst.items():
                 expr = re.sub(rf"\b{n}\b", f"({v})", expr)
+        else:
+            raise ValueError(f"circular #define expansion in {token!r}")
         expr = re.sub(r"'(.)'", lambda m: str(ord(m.group(1))), expr)
         node = ast.parse(expr, mode="eval")
         for sub in ast.walk(node):
