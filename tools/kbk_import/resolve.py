@@ -7,15 +7,14 @@ class Resolver:
         self.defines = defines
 
     def num(self, token: str) -> int:
-        expr, seen = str(token), set()
+        expr = str(token)
         while True:
-            names = set(re.findall(r"[A-Za-z_]\w*", expr)) - seen
+            names = set(re.findall(r"[A-Za-z_]\w*", expr))
             subst = {n: self.defines[n] for n in names if n in self.defines}
             if not subst:
                 break
             for n, v in subst.items():
                 expr = re.sub(rf"\b{n}\b", f"({v})", expr)
-                seen.add(n)
         expr = re.sub(r"'(.)'", lambda m: str(ord(m.group(1))), expr)
         node = ast.parse(expr, mode="eval")
         for sub in ast.walk(node):
