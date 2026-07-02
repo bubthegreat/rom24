@@ -41,6 +41,11 @@ def read_tables(listener=None, loc=DATA_DIR, extn=DATA_EXTN):
                 if type(k) == str and k.isdigit():
                     k = int(k)
                 if tok.tupletype:
+                    num_fields = len(tok.tupletype._fields)
+                    if isinstance(v, (list, tuple)) and len(v) < num_fields:
+                        pad = num_fields - len(v)
+                        defaults = list(tok.tupletype._field_defaults.values())
+                        v = list(v) + defaults[-pad:]
                     tok.table[k] = tok.tupletype._make(v)
                 else:
                     tok.table[k] = v
