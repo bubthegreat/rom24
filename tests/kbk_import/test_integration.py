@@ -30,6 +30,7 @@ def test_full_conversion_counts(tmp_path):
     exec((tmp_path / "src/rom24/content/groups.py").read_text(), ns)
     assert len(ns["GROUPS"]) >= 30
     assert len(list((tmp_path / "src/area/kbk").glob("*.are"))) == 100
+    assert (tmp_path / "src/area/kbk/olc.hlp").exists()
 
 
 def test_idempotent(tmp_path):

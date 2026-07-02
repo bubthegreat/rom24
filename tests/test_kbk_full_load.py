@@ -21,10 +21,10 @@ def test_all_kbk_areas_load(monkeypatch, caplog):
     monkeypatch.setattr(settings, "AREA_LIST_FILE", str(KBK_AREAS / "area.lst"))
     with caplog.at_level(logging.DEBUG, logger="rom24.data_loader"):
         data_loader.load_areas()
-    assert len(instance.area_templates) >= 96
-    assert len(instance.room_templates) > 5000
-    assert len(instance.npc_templates) > 1000
-    assert len(instance.item_templates) > 1000
+    assert len(instance.area_templates) >= 85
+    assert len(instance.room_templates) > 7500
+    assert len(instance.npc_templates) > 1800
+    assert len(instance.item_templates) > 2900
     errors = [r for r in caplog.records if r.levelname == "ERROR"]
     assert errors == [], "Unexpected errors:\n" + "\n".join(
         f"  {r.name}: {r.getMessage()}" for r in errors

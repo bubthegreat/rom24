@@ -52,6 +52,8 @@ def main() -> None:
     kbk_area = args.kbk / "area"
     for f in sorted(kbk_area.glob("*.are")):
         shutil.copyfile(f, area_dir / f.name)
+    for f in sorted(kbk_area.glob("*.hlp")):
+        shutil.copyfile(f, area_dir / f.name)
     shutil.copyfile(kbk_area / "area.lst", area_dir / "area.lst")
     shutil.copyfile(kbk_area / "materials.lst", area_dir / "materials.lst")
 
