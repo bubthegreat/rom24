@@ -5,7 +5,7 @@ import logging
 import pytest
 
 from rom24 import data_loader, instance, world_classes
-from rom24.database.read.read_tables import read_tables
+from rom24.content.register import register
 
 
 def _make_area():
@@ -102,7 +102,7 @@ End
 
 
 def test_load_npcs_new():
-    read_tables()  # populate race_table (needed for npc.race.act / flag defaults)
+    register()  # populate race_table (needed for npc.race.act / flag defaults)
     instance.npc_templates.clear()
     pArea = _make_area()
     data_loader.load_npcs_new(MOBDATA, pArea)
@@ -159,7 +159,7 @@ End
 
 
 def test_load_objects_new_weapon():
-    read_tables()
+    register()
     instance.item_templates.clear()
     data_loader.load_objects_new(OBJDATA, _make_area())
     sword = instance.item_templates[3010]
@@ -169,7 +169,7 @@ def test_load_objects_new_weapon():
 
 
 def test_load_objects_new_armor_derives_ac():
-    read_tables()
+    register()
     instance.item_templates.clear()
     data_loader.load_objects_new(OBJDATA, _make_area())
     vest = instance.item_templates[3011]
@@ -180,7 +180,7 @@ def test_load_objects_new_armor_derives_ac():
 
 
 def test_load_objects_new_shield_slot_derives_ac():
-    read_tables()
+    register()
     instance.item_templates.clear()
     data_loader.load_objects_new(OBJDATA, _make_area())
     shield = instance.item_templates[3012]
@@ -196,7 +196,7 @@ E
 
 
 def test_load_improgs():
-    read_tables()
+    register()
     instance.npc_templates.clear()
     instance.item_templates.clear()
     pArea = _make_area()
@@ -254,7 +254,7 @@ End
 
 def test_load_npcs_new_oldstyle_aff(caplog):
     """Old-format multi-integer AFF line must not produce unknown-keyword warnings."""
-    read_tables()
+    register()
     instance.npc_templates.clear()
     pArea = _make_area()
     with caplog.at_level(logging.WARNING, logger="rom24.data_loader"):

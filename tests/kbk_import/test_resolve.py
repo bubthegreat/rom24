@@ -51,7 +51,6 @@ def test_chained_define_also_appearing_independently():
 
 
 def test_circular_define_raises_instead_of_hanging():
-    import pytest
     r = Resolver({"A": "(A | 1)"})
     with pytest.raises(ValueError):
         r.num("A")

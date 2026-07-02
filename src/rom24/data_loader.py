@@ -24,6 +24,34 @@ from rom24 import instance
 __author__ = "syn"
 
 
+def _kbk_text(text: str) -> str:
+    """Process KBK (rom-scheme) text for storage in the pyom send pipeline.
+
+    KBK area files use ROM-style color tokens ({R, {x, {G, …).  The send
+    pipeline stores text in pyom format and converts it at send time via
+    ``color_convert(text, "pyom", terminal)``.  Without pre-conversion, rom
+    tokens pass through as literal text.
+
+    Steps (ordering matters):
+    1. Escape pyom special chars ([ → [[ and ] → ]]) so any literal brackets
+       already in the text are not misread as pyom color tokens later.
+    2. Convert rom-scheme tokens to pyom-scheme tokens so the send pipeline
+       renders KBK colors correctly.
+
+    Ordering rationale: escaping first, then converting ensures that the
+    freshly created pyom tokens (e.g. [R) are never double-escaped into [[R.
+    Example: text ``[bracket] {R red`` — if we converted first, [R would be
+    re-escaped to [[R and lost; escaping first produces [[bracket]] {R red,
+    then conversion yields [[bracket]] [R red, which the send pipeline decodes
+    to literal [bracket] followed by ANSI bold-red.
+
+    Unmapped codes (not in COLOR_MAP["rom"], e.g. literal-brace constructs
+    like {ARENA} or {there…}) are left unchanged and rendered as literal text.
+    """
+    text = miniboa_terminal.escape(text, "pyom")
+    return miniboa_terminal.color_convert(text, "rom", "pyom")
+
+
 def load_areas():
     logger.info("Loading Areas from %s", settings.AREA_LIST_FILE)
     index = 0
@@ -148,7 +176,7 @@ def load_helps(area):
             break
 
         area, nhelp.text = game_utils.read_string(area)
-        nhelp.text = miniboa_terminal.escape(nhelp.text, "pyom")
+        nhelp.text = _kbk_text(nhelp.text)
         if nhelp.keyword == "GREETING":
             nhelp.text += " "
             merc.greeting_list.append(nhelp)
@@ -477,23 +505,26 @@ def load_rooms_new(area: str, pArea) -> str:
             if not word:
                 logger.error("load_rooms_new: unexpected end of input at vnum %d", room.vnum)
                 raise ValueError("load_rooms_new: unexpected end of input")
-            if word == "End":
+            kw = word.upper()
+            if kw == "END":
                 break
-            elif word == "NAME":
+            elif word.startswith("*"):
+                area, _ = game_utils.read_to_eol(area)
+            elif kw == "NAME":
                 area, room.name = game_utils.read_string(area)
-            elif word == "DESCR":
+            elif kw == "DESCR":
                 area, room.description = game_utils.read_string(area)
-                room.description = miniboa_terminal.escape(room.description, "pyom")
-            elif word == "FLAGS":
+                room.description = _kbk_text(room.description)
+            elif kw == "FLAGS":
                 area, room.room_flags = game_utils.read_flags(area)
-            elif word in ("SECT", "Sect"):
+            elif kw == "SECT":
                 area, room.sector_type = game_utils.read_int(area)
-            elif word == "MHRATE":
+            elif kw == "MHRATE":
                 area, room.mana_rate = game_utils.read_int(area)
                 area, room.heal_rate = game_utils.read_int(area)
-            elif word == "CABAL":
+            elif kw == "CABAL":
                 area, room.cabal = game_utils.read_word(area, False)
-            elif word == "DOOR":
+            elif kw == "DOOR":
                 nexit = world_classes.Exit(None)
                 area, door = game_utils.read_int(area)
                 area, nexit.description = game_utils.read_string(area)
@@ -503,13 +534,12 @@ def load_rooms_new(area: str, pArea) -> str:
                 area, nexit.to_room_vnum = game_utils.read_int(area)
                 nexit.name = "Exit %s %d to %d" % (nexit.keyword, room.vnum, nexit.to_room_vnum)
                 room.exit[door] = nexit
-            elif word == "EDESC":
+            elif kw == "EDESC":
                 ed = world_classes.ExtraDescrData()
                 area, ed.keyword = game_utils.read_string(area)
                 area, ed.description = game_utils.read_string(area)
+                ed.description = _kbk_text(ed.description)
                 room.extra_descr.append(ed)
-            elif word.startswith("*"):
-                area, _ = game_utils.read_to_eol(area)
             else:
                 logger.warning("load_rooms_new: vnum %d unknown keyword %s", room.vnum, word)
                 area, _ = game_utils.read_to_eol(area)
@@ -566,10 +596,10 @@ def load_npcs_new(area: str, pArea) -> str:
                 area, npc.short_descr = game_utils.read_string(area)
             elif kw == "LONG":
                 area, npc.long_descr = game_utils.read_string(area)
-                npc.long_descr = miniboa_terminal.escape(npc.long_descr, "pyom")
+                npc.long_descr = _kbk_text(npc.long_descr)
             elif kw == "DESCR":
                 area, npc.description = game_utils.read_string(area)
-                npc.description = miniboa_terminal.escape(npc.description, "pyom")
+                npc.description = _kbk_text(npc.description)
             elif kw == "RACE":
                 area, npc.race = game_utils.read_string(area)
             elif kw == "ACT":
@@ -755,9 +785,10 @@ def load_objects_new(area: str, pArea) -> str:
                 area, item.name = game_utils.read_string(area)
             elif kw == "SHORT":
                 area, item.short_descr = game_utils.read_string(area)
+                item.short_descr = _kbk_text(item.short_descr)
             elif kw == "DESCR":
                 area, item.description = game_utils.read_string(area)
-                item.description = miniboa_terminal.escape(item.description, "pyom")
+                item.description = _kbk_text(item.description)
             elif kw == "MAT":
                 area, item.material = game_utils.read_string(area)
             elif kw == "TYPE":
@@ -840,6 +871,7 @@ def load_objects_new(area: str, pArea) -> str:
                 ed = world_classes.ExtraDescrData()
                 area, ed.keyword = game_utils.read_string(area)
                 area, ed.description = game_utils.read_string(area)
+                ed.description = _kbk_text(ed.description)
                 item.extra_descr.append(ed)
             else:
                 logger.warning(

@@ -32,7 +32,7 @@ def parse_defines(text: str) -> dict:
 
 def extract_initializer(text: str, name: str) -> str:
     text = strip_comments(text)
-    m = re.search(re.escape(name) + r"\s*\[[^\]]*\]\s*=\s*\{", text)
+    m = re.search(re.escape(name) + r"(?:\s*\[[^\]]*\])+\s*=\s*\{", text)
     if not m:
         raise ValueError(f"initializer for {name!r} not found")
     start = m.end() - 1  # at the '{'

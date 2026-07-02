@@ -140,3 +140,115 @@ def emit_materials(text: str) -> str:
                            **dict(zip(("prot_pierce", "prot_bash", "prot_slash",
                                        "prot_magic", "relative_weight"), nums))}
     return HEADER + _fmt("MATERIALS", materials)
+
+
+def emit_aux(tables: dict, r) -> str:
+    """Emit ATTACKS, LIQUIDS, STR/INT/WIS/DEX/CON_APP, WEAPONS from parsed C tables.
+
+    Field-mapping notes (C struct → Python namedtuple, verified against merc.h and const.py):
+      attack_type : name, noun, damage, modifier(C-only)  →  name, noun, damage
+      liq_type    : liq_name, liq_color, liq_affect[5]   →  name, color, proof, full, thirst, food, ssize
+      str_app_type: tohit, todam, carry, wield (C == Python, 4 fields)
+      int_app_type: learn  (1 field each)
+      wis_app_type: practice  (1 field each)
+      dex_app_type: C struct has defensive,carry,tohit,armor (4) but Python namedtuple has only defensive (1)
+      con_app_type: hitp, shock  (C == Python, 2 fields)
+      weapon_type : name, vnum, type, gsn(ptr→skill name)  →  name, vnum, type, gsn
+
+    Attack table keying: entry 0 keyed "" (stock ROM24 convention) even though KBK names it "none".
+    App tables: keyed by int index; values are plain lists matching Python namedtuple field count,
+    so read_tables can call tupletype._make(v) directly.
+    """
+    known = {"attack_table", "liq_table", "str_app", "int_app", "wis_app",
+             "dex_app", "con_app", "weapon_table"}
+    for name in tables:
+        if name not in known:
+            raise ValueError(f"emit_aux: unrecognized table {name!r}")
+
+    parts = [HEADER]
+
+    if "attack_table" in tables:
+        attacks = {}
+        for i, e in enumerate(tables["attack_table"]):
+            # Skip genuinely empty entries (shouldn't happen, but defensive)
+            if not e or str(e[0]).strip() == "NULL":
+                continue
+            name = r.value(e[0])
+            # Entry 0 keyed "" per stock ROM24 convention; all others keyed by name
+            key = "" if i == 0 else name
+            attacks[key] = {
+                "name": name,
+                "noun": r.value(e[1]),
+                "damage": r.num(e[2]),
+                # Phase 3 NOTE: KBK attack_table has a 4th field `modifier` we DROP here —
+                # only 'infinite' uses it (modifier=-30, feeds chance calc at kbk fight.c:2751).
+                # Extend rom24 attack_type with defaults=(0,) and re-emit when porting KBK combat.
+            }
+        parts.append(_fmt("ATTACKS", attacks))
+
+    if "liq_table" in tables:
+        # C struct: liq_name, liq_color, liq_affect[5] = {proof, full, thirst, food, ssize}
+        # Python liq_type: name, color, proof, full, thirst, food, ssize
+        liquids = {}
+        for e in tables["liq_table"]:
+            if not e or str(e[0]).strip() == "NULL":
+                continue
+            name = r.value(e[0])
+            affect = e[2]   # nested list from {proof, full, thirst, food, ssize}
+            liquids[name] = {
+                "name": name,
+                "color": r.value(e[1]),
+                "proof": r.num(affect[0]),
+                "full": r.num(affect[1]),
+                "thirst": r.num(affect[2]),
+                "food": r.num(affect[3]),
+                "ssize": r.num(affect[4]),
+            }
+        parts.append(_fmt("LIQUIDS", liquids))
+
+    # Attribute-application tables: dict[int, list] so read_tables can call tupletype._make(v).
+    # nfields = Python namedtuple field count (may be less than C struct fields; take only
+    # the first nfields values from each C entry in struct-declaration order).
+    APP_SPECS = [
+        ("str_app", "STR_APP", 4),   # str_app_type: tohit, todam, carry, wield
+        ("int_app", "INT_APP", 1),   # int_app_type: learn
+        ("wis_app", "WIS_APP", 1),   # wis_app_type: practice
+        ("dex_app", "DEX_APP", 1),   # dex_app_type: defensive (C struct has 4 but namedtuple has 1)
+        ("con_app", "CON_APP", 2),   # con_app_type: hitp, shock
+    ]
+    for table_key, var_name, nfields in APP_SPECS:
+        if table_key in tables:
+            app = {i: [r.num(v) for v in e[:nfields]]
+                   for i, e in enumerate(tables[table_key])}
+            parts.append(_fmt(var_name, app))
+
+    if "weapon_table" in tables:
+        # C struct: name, vnum, type, gsn(sh_int*) — gsn ptr &gsn_xxx → skill name "xxx"
+        # Python weapon_type: name, vnum, type, gsn
+        weapons = {}
+        for e in tables["weapon_table"]:
+            if not e or str(e[0]).strip() == "NULL":
+                continue
+            name = r.value(e[0])
+            weapons[name] = {
+                "name": name,
+                "vnum": r.num(e[1]),
+                "type": r.num(e[2]),
+                "gsn": r.gsn_name(e[3]),   # "&gsn_sword" → "sword"
+            }
+        parts.append(_fmt("WEAPONS", weapons))
+
+    return "".join(parts)
+
+
+def _str(token):
+    return token[1] if isinstance(token, tuple) and token[0] == "str" else str(token)
+
+
+def emit_titles(entries, class_order):
+    titles = {}
+    for i, cls in enumerate(class_order):
+        if i >= len(entries):
+            break
+        titles[cls] = [[_str(pair[0]), _str(pair[1])] for pair in entries[i]]
+    return HEADER + _fmt("TITLES", titles)

@@ -76,6 +76,51 @@ def check_parse_name(name):
     return True
 
 
+# ---------------------------------------------------------------------------
+# KBK character-creation helpers
+# ---------------------------------------------------------------------------
+
+def allowed_classes(race_name: str) -> list:
+    """Return list of class names allowed for *race_name*.
+
+    If the race has no class restriction (pc.classes is None/empty) every
+    registered guild is allowed.
+    """
+    pc = const.pc_race_table[race_name]
+    if not pc.classes:
+        return list(const.guild_table.keys())
+    return [cls for cls, ok in pc.classes.items() if ok]
+
+
+# KBK align codes pinned from `grep -n "define ALIGN_" ~/Development/kbk/src/merc.h`:
+#   ALIGN_NONE=0  ALIGN_G=1  ALIGN_N=2  ALIGN_GN=3
+#   ALIGN_E=4     ALIGN_GE=5 ALIGN_NE=6 ALIGN_ANY=7
+# paladin.align=1 (ALIGN_G, good only)
+# zealot.align=5 (ALIGN_GE, good or evil)
+# warrior.align=7 (ALIGN_ANY, any)
+_ALIGN_OK: dict = {
+    0: (750, 0, -750),   # ALIGN_NONE: unrestricted
+    1: (750,),           # ALIGN_G: good only
+    2: (0,),             # ALIGN_N: neutral only
+    3: (750, 0),         # ALIGN_GN: good or neutral
+    4: (-750,),          # ALIGN_E: evil only
+    5: (750, -750),      # ALIGN_GE: good or evil
+    6: (0, -750),        # ALIGN_NE: neutral or evil
+    7: (750, 0, -750),   # ALIGN_ANY: any
+}
+
+
+def alignment_allowed(guild, alignment: int) -> bool:
+    """Return True if *alignment* (750/0/-750) is valid for *guild*."""
+    return alignment in _ALIGN_OK.get(guild.align, (750, 0, -750))
+
+
+def apply_prime_stat_boost(ch) -> None:
+    """Add +3 to the guild's prime attribute if one is defined (KBK-safe)."""
+    if ch.guild.attr_prime is not None:
+        ch.perm_stat[ch.guild.attr_prime] += 3
+
+
 def con_get_name(self):
     global retries
     argument = self.get_command()
@@ -261,8 +306,8 @@ def con_get_new_sex(self):
         return
 
     ch.send("Select a class [[")
-    for name, guild in const.guild_table.items():
-        ch.send("%s " % guild.name)
+    for cls_name in allowed_classes(ch.race.name):
+        ch.send("%s " % cls_name)
     ch.send("]]: ")
     self.set_connected(con_get_new_class)
     return
@@ -276,6 +321,10 @@ def con_get_new_class(self):
 
     if not guild:
         ch.send("That's not a class.\nWhat IS your class? ")
+        return
+
+    if guild.name not in allowed_classes(ch.race.name):
+        ch.send("That class is not available for your race.\nWhat IS your class? ")
         return
 
     ch.guild = guild
@@ -307,9 +356,14 @@ def con_get_alignment(self):
         ch.send("Which alignment (G/N/E)? ")
         return
 
+    if not alignment_allowed(ch.guild, ch.alignment):
+        ch.send("That alignment is not permitted for your class.\n")
+        ch.send("Which alignment (G/N/E)? ")
+        return
+
     ch.send("\n")
-    ch.group_add("rom basics", False)
-    ch.group_add(ch.guild.base_group, False)
+    ch.group_add("class basics", False)
+    ch.group_add(ch.guild.base_group, False)  # base_group is also "class basics" for all KBK guilds; second add is a no-op
     ch.learned["recall"] = 50
     ch.send("Do you wish to customize this character?\n")
     ch.send(
@@ -317,6 +371,7 @@ def con_get_alignment(self):
     )
     ch.send("Customize (Y/N)? ")
     self.set_connected(con_default_choice)
+    return
 
 
 def con_default_choice(self):
@@ -483,7 +538,7 @@ def con_get_timecode(self):
     self.character = ch
     log_buf = "%s@%s has connected." % (ch.name, self.addrport())
     logger.info(log_buf)
-    handler_game.wiznet(log_buf, None, None, merc.WIZ_SITES, 0, ch_dummy.trust)
+    handler_game.wiznet(log_buf, None, None, merc.WIZ_SITES, 0, ch.trust)
     if ch.is_immortal():
         ch.do_help("imotd")
         self.set_connected(con_read_imotd)
@@ -544,7 +599,7 @@ def con_read_motd(self):
     self.set_connected(con_playing)
 
     if ch.level == 0:
-        ch.perm_stat[ch.guild.attr_prime] += 3
+        apply_prime_stat_boost(ch)
         ch.position = merc.POS_STANDING
         ch.level = 1
         ch.exp = ch.exp_per_level(ch.points)

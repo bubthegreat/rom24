@@ -7,6 +7,7 @@ from rom24 import handler_ch
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_game
+from rom24 import instance
 from rom24 import merc
 from rom24 import state_checks
 

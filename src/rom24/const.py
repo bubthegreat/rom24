@@ -13,7 +13,10 @@ race_type = namedtuple(
 race_table: Dict[str, Any] = OrderedDict()
 
 pc_race_type = namedtuple(
-    "pc_race_type", "name, who_name, points, class_mult, skills, stats, max_stats, size"
+    "pc_race_type",
+    "name, who_name, points, class_mult, skills, stats, max_stats, size, "
+    "classes, align, xpadd",
+    defaults=(None, 0, 0),
 )
 pc_race_table: Dict[str, Any] = OrderedDict()
 
@@ -45,7 +48,8 @@ guild_type = namedtuple(
     "guild_type",
     "name, who_name, attr_prime, weapon, guild_rooms, "
     "skill_adept, thac0_00, thac0_32, hp_min, hp_max, "
-    "fMana, base_group, default_group",
+    "fMana, base_group, default_group, align, xpadd, ctype",
+    defaults=(0, 0, 0),
 )
 guild_table: Dict[str, Any] = OrderedDict()
 
@@ -56,19 +60,19 @@ title_table: Dict[str, Any] = {}
 
 # * Attribute bonus structures.
 str_app_type = namedtuple("str_app_type", "tohit, todam, carry, wield")
-str_app: Dict[str, Any] = OrderedDict()
+str_app: Dict[int, Any] = OrderedDict()
 
 int_app_type = namedtuple("int_app_type", "learn")
-int_app: Dict[str, Any] = OrderedDict()
+int_app: Dict[int, Any] = OrderedDict()
 
 wis_app_type = namedtuple("wis_app_type", "practice")
-wis_app: Dict[str, Any] = OrderedDict()
+wis_app: Dict[int, Any] = OrderedDict()
 
 dex_app_type = namedtuple("dex_app_type", "defensive")
-dex_app: Dict[str, Any] = OrderedDict()
+dex_app: Dict[int, Any] = OrderedDict()
 
 con_app_type = namedtuple("con_app_type", "hitp, shock")
-con_app: Dict[str, Any] = OrderedDict()
+con_app: Dict[int, Any] = OrderedDict()
 
 
 # /* attack table  -- not very organized :( */

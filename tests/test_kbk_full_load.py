@@ -5,7 +5,7 @@ import pathlib
 import pytest
 
 from rom24 import data_loader, instance, settings
-from rom24.database.read.read_tables import read_tables
+from rom24.content.register import register
 
 KBK_AREAS = pathlib.Path(settings.SOURCE_DIR) / "area" / "kbk"
 
@@ -14,9 +14,9 @@ pytestmark = pytest.mark.skipif(
 )
 
 
-def test_all_kbk_areas_load(monkeypatch, caplog):
+def test_all_kbk_areas_load(clear_instance, monkeypatch, caplog):
     # Ensure const.race_table and friends are populated before loading areas.
-    read_tables()
+    register()
     monkeypatch.setattr(settings, "AREA_DIR", str(KBK_AREAS))
     monkeypatch.setattr(settings, "AREA_LIST_FILE", str(KBK_AREAS / "area.lst"))
     with caplog.at_level(logging.DEBUG, logger="rom24.data_loader"):

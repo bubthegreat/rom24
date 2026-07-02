@@ -13,6 +13,8 @@ from rom24.content.skills import SKILLS  # noqa: F401
 from rom24.content.groups import GROUPS  # noqa: F401
 from rom24.content.races import RACES, PC_RACES  # noqa: F401
 from rom24.content.materials import MATERIALS  # noqa: F401
+from rom24.content.titles import TITLES  # noqa: F401
+from rom24.content.aux import ATTACKS, LIQUIDS, STR_APP, INT_APP, WIS_APP, DEX_APP, CON_APP, WEAPONS  # noqa: F401
 """
 
 
@@ -32,6 +34,22 @@ def main() -> None:
         return cparse.parse_braces(cparse.extract_initializer(src, name))
 
     classes_src, order = emit.emit_classes(table("class_table"), r)
+
+    # Read titles.c for title_table
+    titles_src = (args.kbk / "src/titles.c").read_text(encoding="latin-1")
+    titles_entries = cparse.parse_braces(cparse.extract_initializer(titles_src, "title_table"))
+
+    aux_tables = {
+        "attack_table": table("attack_table"),
+        "liq_table": table("liq_table"),
+        "str_app": table("str_app"),
+        "int_app": table("int_app"),
+        "wis_app": table("wis_app"),
+        "dex_app": table("dex_app"),
+        "con_app": table("con_app"),
+        "weapon_table": table("weapon_table"),
+    }
+
     out = {
         "constants.py": emit.emit_constants(defines),
         "classes.py": classes_src,
@@ -40,12 +58,14 @@ def main() -> None:
         "races.py": emit.emit_races(table("race_table"), table("pc_race_table"), r, order),
         "materials.py": emit.emit_materials(
             (args.kbk / "area/materials.lst").read_text(encoding="latin-1")),
+        "titles.py": emit.emit_titles(titles_entries, order),
+        "aux.py": emit.emit_aux(aux_tables, r),
         "__init__.py": INIT_SRC,
     }
     content_dir = args.repo / "src/rom24/content"
     content_dir.mkdir(parents=True, exist_ok=True)
     for fname, text in out.items():
-        (content_dir / fname).write_text(text)
+        (content_dir / fname).write_text(text, encoding="utf-8")
 
     area_dir = args.repo / "src/area/kbk"
     area_dir.mkdir(parents=True, exist_ok=True)

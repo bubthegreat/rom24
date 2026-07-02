@@ -458,7 +458,7 @@ def char_update():
         if ch.timer > 30:
             ch_quit.append(ch)
 
-        if ch.position >= merc.POS_STUNNED:
+        if ch.position is not None and ch.position >= merc.POS_STUNNED:
             # check to see if we need to go home */
             if (
                 ch.is_npc()
@@ -827,9 +827,6 @@ def aggr_update():
 def instance_number_save():
     if instance.max_instance_id > instance.previous_max_instance_id:
         instance.previous_max_instance_id = instance.max_instance_id
-        instance_num_file = os.path.join(
-            settings.LEGACY_AREA_DIR, "instance_tracker.txt"
-        )
         fp = open(settings.INSTANCE_NUM_FILE, "w")
         fp.write(str(instance.max_instance_id))
         fp.close()

@@ -61,13 +61,13 @@ socials: Dict[str, Any] = {}
 resets: Dict[str, Any] = {}
 
 # Contains lists of instances,
-# Key: string VNUM
-# Value: list Instance_ID of object associated with Key:VNUM
+# Key: int VNUM (area keyed by name str; item/room/npc/shop by int vnum)
+# Value: list of Instance_IDs associated with Key:VNUM
 instances_by_area: Dict[str, Any] = {}
-instances_by_item: Dict[str, Any] = {}
-instances_by_room: Dict[str, Any] = {}
-instances_by_npc: Dict[str, Any] = {}
-instances_by_shop: Dict[str, Any] = {}
+instances_by_item: Dict[int, Any] = {}
+instances_by_room: Dict[int, Any] = {}
+instances_by_npc: Dict[int, Any] = {}
+instances_by_shop: Dict[int, Any] = {}
 instances_by_player: Dict[str, Any] = {}
 
 # Things to omit from instances that are in templates.

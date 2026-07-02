@@ -78,7 +78,16 @@ def create_mobile(npc_template):
     npc = handler_npc.Npc(npc_template)
     npc.id = game_utils.get_mob_id()
     if npc_template.spec_fun:
-        npc.spec_fun = special.spec_table[npc_template.spec_fun]
+        spec_fn = special.spec_table.get(npc_template.spec_fun)
+        if spec_fn is None:
+            logger.warning(
+                "create_mobile: unknown spec_fun '%s' for vnum %d, skipping",
+                npc_template.spec_fun,
+                npc_template.vnum,
+            )
+            npc.spec_fun = None
+        else:
+            npc.spec_fun = spec_fn
     npc.prompt = None
 
     if npc_template.wealth == 0:
