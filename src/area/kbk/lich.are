@@ -1,0 +1,1339 @@
+#AREADATA
+Name Lich Tower~
+Builders None~
+VNUMs 29300 29399
+Credits {DEATH} Someone Lich Tower~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#29350
+NAME  Death Knight~
+SHORT A Death Knight~
+LONG  An undead, skeletal knight guards this room.
+~
+DESCR
+Death Knights are a powerful enemy.  Turned undead by powerful
+necromancy, they were the most renown knights of their day.
+~
+RACE  human~
+ACT   AFGO
+AFF   0
+OFF   CDEIKU
+IMM   LPQ
+RES   IJ
+VULN  HN
+WSPEC 0
+ALIGN -750
+GROUP 0
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 45d10+950
+DDICE 4d8+15
+REGEN 0
+DTYPE magic
+AC    -12 -12 -12 0
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  AHIMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29351
+NAME  torturer inquisitor ~
+SHORT The Inquisitor~
+LONG  The Inquisitor is here preparing various torture devices.
+~
+DESCR
+This evil creature looks like a zombie but acts much more sinister.  It
+uses its magical abilities to keep its victims alive while it's torturing
+them.
+~
+RACE  human~
+ACT   ABOQ
+AFF   0
+OFF   CN
+IMM   ILQ
+RES   P
+VULN  HN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 50
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+4250
+MDICE 45d10+950
+DDICE 5d8+19
+REGEN 0
+DTYPE magic
+AC    -20 -20 -20 -2
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  AHIMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29352
+NAME  demon minor~
+SHORT A Minor Demon~
+LONG  A minor demon stands here surrounded in flames.
+~
+DESCR
+An aggresive looking demon stands here in the brazier's flames.  It
+appears to have been summoned and is quite angry about it.  The long claws
+and fangs it uses as weapons make you consider running as fast as posible.
+~
+RACE  human~
+ACT   ABT
+AFF   0
+OFF   CDFHK
+IMM   H
+RES   LPQ
+VULN  IN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 50
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+4250
+MDICE 45d10+950
+DDICE 5d8+19
+REGEN 0
+DTYPE magic
+AC    -20 -20 -20 -2
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  ACHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29353
+NAME  demon major~
+SHORT A Major Demon~
+LONG  A Major Demon floats here in the flames.
+~
+DESCR
+A large wicked looking demon floats here in the fire.  He has wings, a
+tail, claws, fangs, he is everything you have pictured a demon would be. 
+His black scaled skin gleams in the firelight The burning flames in his eyes
+corrupt your soul.  Fear him mortal for you are about to die.
+~
+RACE  dragon~
+ACT   ABOT
+AFF   0
+OFF   CFKM
+IMM   HLQ
+RES   BDEHIJK
+VULN  CFIN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 65
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+8250
+MDICE 45d10+950
+DDICE 11d5+35
+REGEN 0
+DTYPE magic
+AC    -35 -35 -35 -10
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  ACHZc
+PARTS ACDEFGHIJKLPQUVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29354
+NAME  lich lord myzelak~
+SHORT Myzelak the Lich Lord~
+LONG  Myzelak the Lich Lord stands here by his throne.
+~
+DESCR
+Evil incarnate, Myzelak spent years of his life perfecting his magical
+abilities to grant him life after death.  The result of his work stands
+before you, a rotting representation of what the wizard used to be.  Myzelak
+now spends his time searching for new magics and works, offering what little
+he has found to any seeking necromancy on some level.
+~
+RACE  human~
+ACT   ABQR
+AFF   0
+OFF   FIJN
+IMM   0
+RES   CDHIJ
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 75
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+11000
+MDICE 45d10+1950
+DDICE 9d11+45
+REGEN 0
+DTYPE magic
+AC    -45 -45 -45 -14
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  AHIMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#29355
+NAME  dracolich mount dragon~
+SHORT The Dracolich~
+LONG  Myzelak's ancient dracolich mount.
+~
+DESCR
+Myzelak's Dracolich mount towers above you.  Fiery red lights gleam in
+its hollow eye sockets as it growls at you.  The undead dragon is monstrous,
+perhaps you should run now, before you're dead.  ;>
+~
+RACE  dragon~
+ACT   ABGOT
+AFF   0
+OFF   CDFMO
+IMM   AB
+RES   BEHIJK
+VULN  FIKN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 15
+ENHA  100.00%
+MATER none~
+HDICE 50d10+15000
+MDICE 45d10+1950
+DDICE 8d6+28
+REGEN 0
+DTYPE magic
+AC    -30 -30 -30 -10
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  AHZc
+PARTS ACDEFGHIJKLPQUVX
+SIZE  giant
+DMOD  30
+AMOD  0
+QUEST 0
+End
+
+#29356
+NAME  elite death knight~
+SHORT An Elite Death Knight~
+LONG  An Elite Death Knight laughs an unholy cackle and attacks.
+~
+DESCR
+A huge skeletal figure confronts you.  He wields an old longsword covered
+in runes and carries a large black shield that can only be a dragon's scale.
+He looks very much like the Death Knights you encountered earlier except he
+is much larger and appears to be more powerful as well.
+~
+RACE  unique~
+ACT   ABOT
+AFF   0
+OFF   CDFIKO
+IMM   0
+RES   C
+VULN  HN
+WSPEC 0
+ALIGN -900
+GROUP 0
+LEVEL 70
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9750
+MDICE 45d10+2950
+DDICE 8d10+40
+REGEN 0
+DTYPE magic
+AC    -40 -40 -40 -10
+POS   stand stand
+SEX   none
+GOLD  800
+FORM  0
+PARTS 0
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#29350
+NAME   black mace ~
+SHORT  an old black mace~
+DESCR 
+An old, black iron mace lies here undisturbed~
+MAT    iron~
+TYPE   weapon mace 6 7 pound 0
+EXTRA  1 1 0 2
+WEAR   AN
+LEVEL  40
+WEIGHT 23
+COST   1000
+COND   100
+End
+
+#29351
+NAME   glowing skull~
+SHORT  a Flaming Skull~
+DESCR 
+A human skull floats here, outlined in blue flames.~
+MAT    stone~
+TYPE   light 0 0 ABCFGHIJ 0 0
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  48
+WEIGHT 9
+COST   1000
+COND   100
+Affect O 3 2 0
+Affect O 19 2 0
+Affect O 18 2 0
+Affect O 12 25 0
+Affect O 13 25 0
+Affect O 5 -2 0
+End
+
+#29352
+NAME   wand onyx~
+SHORT  an onyx encrusted wand~
+DESCR 
+A wand carved from onyx is laying here.~
+MAT    gem~
+TYPE   wand 50 10 10 'shield' 0
+EXTRA  1 3 0 65554
+WEAR   AO
+LEVEL  50
+WEIGHT 6
+COST   500
+COND   100
+LIMIT  4
+End
+
+#29353
+NAME   rod iron crystals blackwhite black white~
+SHORT  a rod of iron, covered with black and white crystals~
+DESCR 
+A rod of iron sits here, radiating an aura of darkness.~
+MAT    iron~
+TYPE   wand 55 3 3 'earthbind' 0
+EXTRA  1 5 0 1081428
+WEAR   AO
+LEVEL  51
+WEIGHT 9
+COST   20000
+COND   100
+End
+
+#29354
+NAME   garnet ring~
+SHORT  a Garnet Ring~
+DESCR 
+A small garnet ring lies here amongst the treasure.~
+MAT    gold~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 193
+WEAR   AB
+LEVEL  58
+WEIGHT 5
+COST   900
+COND   100
+Affect O 18 2 0
+Affect O 3 2 0
+Affect O 12 50 0
+Affect O 19 3 0
+End
+
+#29355
+NAME   bracer night~
+SHORT  the Bracer of the Night~
+DESCR 
+A black bracer covered in ancient runes lies here.~
+MAT    adamantite~
+TYPE   armor BDEF CDF BDEF DF 0
+EXTRA  1 2 0 66
+WEAR   AM
+LEVEL  54
+WEIGHT 18
+COST   1500
+COND   100
+Affect O 5 1 0
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#29356
+NAME   amulet night~
+SHORT  the Amulet of the Night~
+DESCR 
+An old amulet lies here glowing in unnatural blue light.~
+MAT    silver~
+TYPE   armor BG AEF BG ADF 0
+EXTRA  1 2 0 65
+WEAR   AC
+LEVEL  60
+WEIGHT 13
+COST   2000
+COND   100
+Affect O 4 1 0
+Affect O 3 1 0
+Affect O 12 50 0
+Affect O 14 25 0
+End
+
+#29357
+NAME   ancient longsword sword~
+SHORT  an Ancient Longsword~
+DESCR 
+An old longsword floats here, glowing slightly.~
+MAT    adamantite~
+TYPE   weapon sword 10 6 slash DH
+EXTRA  1 2 0 65
+WEAR   AN
+LEVEL  60
+WEIGHT 18
+COST   2500
+COND   100
+Affect O 18 3 0
+Affect O 19 3 0
+LIMIT  5
+End
+
+#29358
+NAME   black scale dragon~
+SHORT  a black dragon scale~
+DESCR 
+A black dragon scale that's been torn from one of the beasts.~
+MAT    adamantite~
+TYPE   armor FGH ACDFH FGH ABDEH 0
+EXTRA  0 0
+WEAR   AJ
+LEVEL  60
+WEIGHT 43
+COST   1200
+COND   100
+Affect O 3 -2 0
+Affect O 1 2 0
+Affect O 13 25 0
+Affect O 19 5 0
+Affect O 18 3 0
+LIMIT  15
+End
+
+#29359
+NAME   hell sword wraith~
+SHORT  the Hell's Wraith~
+DESCR 
+This sword was supposedly forged in the depths of Hell.~
+MAT    adamantite~
+TYPE   weapon exotic 9 6 defilement CE
+EXTRA  1 5 0 4179
+WEAR   AN
+LEVEL  60
+WEIGHT 21
+COST   5000
+COND   100
+Affect O 3 -1 0
+Affect O 4 -1 0
+Affect O 19 5 0
+Affect O 18 5 0
+Affect O 1 1 0
+Affect O 2 1 0
+LIMIT  2
+End
+
+#29360
+NAME   robes sorceror~
+SHORT  the sorceror's robes~
+DESCR 
+The sorcerors robes lay here.~
+MAT    cloth~
+TYPE   armor ABCDF BCDEF ABCDF DEG 0
+EXTRA  1 5 0 50331748
+WEAR   AK
+LEVEL  60
+WEIGHT 7
+COST   3000
+COND   100
+Affect O 3 3 0
+Affect O 12 150 0
+LIMIT  1
+RESTR  T
+End
+
+#29361
+NAME   infinity scroll~
+SHORT  the Infinity Scroll~
+DESCR 
+The old scroll rumored to have answers to all questions. (Unfortunately you just killed the last thing in existance that could read it.)~
+MAT    silver~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 67
+WEAR   AO
+LEVEL  60
+WEIGHT 9
+COST   7500
+COND   100
+Affect O 12 50 0
+Affect O 13 50 0
+Affect O 3 2 0
+Affect O 4 2 0
+Affect O 1 -2 0
+Affect O 2 -1 0
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#29362
+NAME   silvery potion~
+SHORT  a silvery potion ~
+DESCR 
+A silvery potion has been left in the desk~
+MAT    glass~
+TYPE   potion 40 'invisibility' 'detect invis' 'detect magic' 'detect poison'
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  40
+WEIGHT 7
+COST   1000
+COND   100
+End
+
+#29363
+NAME   key golden~
+SHORT  a golden key~
+DESCR 
+A golden key lies here in the book.~
+MAT    gold~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  40
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#29364
+NAME   boots water walking waterwalking~
+SHORT  boots of waterwalking~
+DESCR 
+Some old leather boots with fish painted on them rest here in the closet.~
+MAT    mithril~
+TYPE   boat 0 0 0 0 0
+EXTRA  1 1 0 64
+WEAR   AG
+LEVEL  40
+WEIGHT 23
+COST   1000
+COND   100
+Affect A 0 0 c
+Affect O 17 -5 0
+Affect O 2 1 0
+Affect O 18 2 0
+End
+
+#29365
+NAME   thieve's tunic~
+SHORT  a Thieve's Tunic~
+DESCR 
+A black shirt with many pockets.~
+MAT    adamantite~
+TYPE   armor BDEF ACDF BDEF DF 0
+EXTRA  1 1 0 64
+WEAR   AD
+LEVEL  40
+WEIGHT 36
+COST   900
+COND   100
+Affect O 2 3 0
+Affect O 18 3 0
+End
+
+#29366
+NAME   paper blank~
+SHORT  a blank piece of paper~
+DESCR 
+A deteriorating piece of blank paper rests here on a shelf.~
+MAT    paper~
+TYPE   gem 0 0 0 0 AB
+EXTRA  0 0
+WEAR   AO
+LEVEL  35
+WEIGHT 3
+COST   2000
+COND   100
+End
+
+#29367
+NAME   chair wooden~
+SHORT  a large wooden chair~
+DESCR 
+A large wooden chair sits here at the head of the table~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#29368
+NAME   table dining~
+SHORT  a huge dining table~
+DESCR 
+A huge dining table~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#29369
+NAME   book shelf bookshelf~
+SHORT  an old wooden bookshelf~
+DESCR 
+An old wooden bookshelf lining the eastern wall~
+MAT    wood~
+TYPE   container 10 0 0 0 75
+EXTRA  0 0
+WEAR   0
+LEVEL  40
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#29370
+NAME   desk mahogany~
+SHORT  a large mahogany desk~
+DESCR 
+A large mahogany desk rests against the western wall~
+MAT    wood~
+TYPE   container 999 0 22001 499 75
+EXTRA  0 0
+WEAR   0
+LEVEL  40
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#29371
+NAME   closet~
+SHORT  a closet carved into the wall~
+DESCR 
+A large closet, carved into the wall.~
+MAT    stone~
+TYPE   container 999 0 29363 499 75
+EXTRA  0 0
+WEAR   0
+LEVEL  40
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#29372
+NAME   pedestal~
+SHORT  the bone pedestal~
+DESCR 
+A ancient, infernal bone pedestal rises from the floor.~
+MAT    leather~
+TYPE   container 100 0 0 50 75
+EXTRA  1 2 0 65
+WEAR   0
+LEVEL  40
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#29373
+NAME   cross obsidian~
+SHORT  a large obsidian cross~
+DESCR 
+A large obsidian cross~
+MAT    stone~
+TYPE   furniture 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#29374
+NAME   strange urn bolidy fluids~
+SHORT  a strange urn containing bodily fluids~
+DESCR 
+A strange urn is here, its gruesome contents glowing purple.~
+MAT    glass~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 8 0 34083477
+WEAR   A
+LEVEL  52
+WEIGHT 7
+COST   0
+COND   100
+LIMIT  1
+RESTR  T
+End
+
+#29375
+NAME   sceptre necruvian~
+SHORT  the sceptre of necruvian~
+DESCR 
+A small black sceptre lies here, burning with infernal energy.~
+MAT    bone~
+TYPE   wand 55 1 1 'rot' 0
+EXTRA  1 8 0 559765
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   100
+Affect O 12 100 0
+Affect O 13 75 0
+Affect O 20 -10 0
+LIMIT  3
+End
+
+#0
+
+
+
+#ROOMDATA
+#29300
+NAME   ~
+DESCR
+~
+FLAGS  4
+Sect   0
+End
+
+#29350
+NAME   Before the Tower~
+DESCR
+You stand before a grand, black tower.  The terror rising up inside of
+your soul is nearly overwhelming as you stare at its obsidian form.  The
+tower walls project an aura of death and evil making you feel quite
+insignificant.  To the north a large mountain has sprouted from the ground
+to block all hopes of passage.  You may go back east to the path, or
+continue west under an archway.  (LOOK CROSS!!!)
+~
+FLAGS  4
+Sect   0
+DOOR 3
+~
+~
+0 0 29351
+End
+
+#29351
+NAME   Beneath the Archway~
+DESCR
+The walls of this room disappear above you, completing an arch somewhere
+in the darkness over your head.  Thorn covered vines hang from the walls in
+thick entanglements; you find yourself getting scratched in the most
+annoying of places.  From the west comes the faint light of torches, and
+from the north you hear what can only be described as an unholy growl.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29352
+DOOR 1
+~
+~
+0 0 29350
+DOOR 3
+~
+~
+0 0 29353
+End
+
+#29352
+NAME   The Dracolich's Lair~
+DESCR
+You find yourself in awe of the treasure and artifacts amassed in this
+room.  One object of truly unusual looks catches your eye.  It appears to be
+a set of gigantic riding equipment, including a large saddle.  Just as you
+are wondering what could possibly fill that saddle, you notice the tremendous
+form of a dracolich towering above you.  The only exit is south, under the
+archway.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 29351
+End
+
+#29353
+NAME   The Entrance Hall~
+DESCR
+A large carpet covers the floor in this room.  The carpet depicts armies
+of humans and demi-humans being slaughtered by horrible undead hoards. 
+Torches hang on the walls surrounded by old shields and weapons, artifacts
+from battles long past.  Two exits lead from the room, one south and one
+west.  From where you stand it is impossible to see what type of rooms lie
+beyond.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29351
+DOOR 2
+~
+~
+0 0 29354
+DOOR 3
+~
+~
+0 0 29356
+End
+
+#29354
+NAME   The Dining Hall~
+DESCR
+This room looks like what used to be a dining hall.  A thick layer of
+dust lines the table settings, stating that the hall is never used anymore. 
+To the west is the entrance to the kitchen and to your north is the entrance
+hall.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29353
+DOOR 3
+~
+~
+0 0 29355
+End
+
+#29355
+NAME   The Kitchen~
+DESCR
+You reflexively reach for your nose as the stench of rotting food
+assaults your senses.  You break into a run towards the nearest exit, hoping
+for fresh air.  To the north are the stairs, east is the dining hall, and a
+large storage room lies open to the south.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29356
+DOOR 1
+~
+~
+0 0 29354
+DOOR 2
+~
+~
+0 0 29369
+End
+
+#29356
+NAME   The Bottom of the Stairs~
+DESCR
+A flight of stairs winds away into the darkness above you.  A stronger
+sense of evil comes from up the steps.  You can go south to the kitchen,
+east to the entrance hall, or up into the unknown.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29353
+DOOR 2
+~
+~
+0 0 29355
+DOOR 4
+~
+~
+0 0 29357
+End
+
+#29357
+NAME   On the Stairs~
+DESCR
+The steps continue into blackness up or down and there is a small flicker
+of light entering the room from a doorway east.  This whole area seems
+unnaturally quiet scaring you more than any screams of death you have ever
+heard.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29362
+DOOR 4
+~
+~
+0 0 29358
+DOOR 5
+~
+~
+0 0 29356
+End
+
+#29358
+NAME   On the Stairs~
+DESCR
+You continue your way on the stairs.  Listening intently, you think you
+hear what sounds like the screams of damned and tortured souls to the south
+and east.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29365
+DOOR 2
+~
+~
+0 0 29363
+DOOR 4
+~
+~
+0 0 29359
+DOOR 5
+~
+~
+0 0 29357
+End
+
+#29359
+NAME   The Top of the Stairs~
+DESCR
+You have reached the top of the stairs.  To the south and east are long
+hallways and the stairs lead back down into darkness.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29368
+DOOR 2
+~
+~
+0 0 29366
+DOOR 5
+~
+~
+0 0 29358
+End
+
+#29360
+NAME   Lich's Study~
+DESCR
+This small room is virtually covered in books and scrolls, each marked in
+various places with notes.  A few oil lamps burn here and there, providing
+light for the owner of the tower.  A large desk sits near the western wall,
+while a closet has been carved into the wall to the south.  The only exit
+appears to be back into the library to the east.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29361
+End
+
+#29361
+NAME   The Library~
+DESCR
+Even after seeing the first room of the library, you are still in
+astonishment of the racks of scrolls that are scattered about this room. 
+Various tables line the walls, providing study space for anyone doing
+research here.  The library continues to the north and a small archway leads
+west into a study.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29362
+DOOR 3
+~
+~
+0 0 29360
+End
+
+#29362
+NAME   The Library~
+DESCR
+The size of the shelves in this library is astounding.  They span the
+entire length of both the north and east walls.  The collection of books
+accumulated here is amazing.  To the south the library continues, while the
+stairs are back to the west.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 29361
+DOOR 3
+~
+~
+0 0 29357
+End
+
+#29363
+NAME   A Summoning Room~
+DESCR
+Various runes and pentagrams have been scrawled into the stone at your
+feet.  A large golden brazier blasts flames in the middle of the room.  The
+only exits are north, to the stairs, and east, to the torture chamber.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29358
+DOOR 1
+~
+~
+0 0 29364
+End
+
+#29364
+NAME   The Torture Chamber~
+DESCR
+Assorted torture devices clutter this room.  Against the eastern wall,
+three rotting bodies hang, each with its guts strewn across the floor.  You
+feel a tinge of remorse for the poor men before your heart rises in anger,
+now the only thing that matters to you is to avenge their deaths.  The
+summoning rooms provide exit to the north and west.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29365
+DOOR 3
+~
+~
+0 0 29363
+End
+
+#29365
+NAME   A Summoning Room~
+DESCR
+Various runes and pentagrams have been scrawled into the stone at your
+feet.  Towards the middle of the room, a large silver brazier spouts fire. 
+The only exits are west, back to the stairs, and south, to the torture
+chamber.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 29364
+DOOR 3
+~
+~
+0 0 29358
+End
+
+#29366
+NAME   A Large Hall~
+DESCR
+You stand in a large, elaborately decorated hallway.  The stairs are back
+to the north and a large set of double doors are to the east.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29359
+DOOR 1
+~
+~
+AB 0 29367
+End
+
+#29367
+NAME   The Lich's Throne Room~
+DESCR
+Entering this room, your eyes lock on a large bone throne and its
+occupent sitting against the eastern wall.  The room is handsomely decorated.
+Ancient grimoires and scrolls catch your eye for a brief second, just long
+enough for Myzelak the Lich Lord to attack.  The only exits are through the
+doors to your north or west.
+~
+FLAGS  8200
+Sect   0
+DOOR 0
+~
+~
+AB 0 29368
+DOOR 3
+~
+~
+AB 0 29366
+End
+
+#29368
+NAME   A Large Hall~
+DESCR
+You stand in a large, elaborately decorated hallway.  The stairs are back
+to the west and a large set of doors block your way south.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+AB 0 29367
+DOOR 3
+~
+~
+0 0 29359
+End
+
+#29369
+NAME   A Storage Room~
+DESCR
+This room appears to be what is left of the kitchen's storage room.  An
+old door has been knocked off of its hinges to the south, revealing an
+ancient tunnel sloping down into the ground.  You can go back north to the
+kitchen or south into the dark tunnel.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29355
+DOOR 2
+~
+~
+0 0 29370
+End
+
+#29370
+NAME   Above a Pit~
+DESCR
+A large torch hangs against the wall glowing brightly.  In front of you
+the floor disappears, leaving a large hole in the ground.  You can go north
+into the storage room, or down an old rope ladder into the blackness of the
+pit.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29369
+DOOR 5
+~
+~
+0 0 29371
+End
+
+#29371
+NAME   Under a Pit~
+DESCR
+You stand underneath the pit.  In this pitch black room the only thing
+that you can make out is a tunnel running in a south direction.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 29372
+DOOR 4
+~
+~
+0 0 29370
+End
+
+#29372
+NAME   A Darkened Tunnel~
+DESCR
+You stand in an ancient and dark tunnel.  From the south light shines
+into the room.  You may go back north to the pit, or, south towards
+the light.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+~
+0 0 29371
+DOOR 2
+~
+~
+0 0 29373
+End
+
+#29373
+NAME   Before the Caverns~
+DESCR
+You have found it and it's just as the legends say.  This is the entrance
+to the Caverns of the Damned.  A large pit lies hollowed into the ground,
+magical glyphs and wards surround it, keeping this realm safe from any
+wandering spirits.  It is said that the only way for a mortal to enter the
+realms of hell is for them to make it through the maze of caverns below you.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29372
+DOOR 5
+~
+~
+0 0 22000
+End
+
+#0
+
+
+
+#SPECIALS
+M 29353 spec_cast_undead
+M 29354 spec_cast_mage
+M 29355 spec_demonologist
+S
+
+
+
+#RESETS
+D 0 29366 1 1
+D 0 29367 0 1
+D 0 29367 3 1
+D 0 29368 2 1
+O 0 29373 0 29350
+M 0 29355 1 29352 1
+G 0 29352 0
+M 0 29350 4 29353 1
+E 0 29350 0 16
+O 0 29367 0 29354
+O 0 29368 0 29354
+M 0 29350 4 29360 1
+E 0 29350 0 16
+O 0 29370 0 29360
+O 0 29371 0 29360
+P 0 29361 0 29370 1
+P 0 29362 0 29370 1
+P 0 29363 0 29372 1
+P 0 29364 0 29371 1
+P 0 29365 0 29371 1
+P 0 29366 0 29369 1
+O 0 29372 0 29361
+P 0 29375 1 29372 1
+M 0 29350 4 29362 1
+E 0 29350 0 16
+O 0 29369 0 29362
+M 0 29353 1 29363 1
+E 0 29356 0 3
+M 0 29351 1 29364 1
+E 0 29351 0 0
+M 0 29352 1 29365 1
+E 0 29355 0 14
+M 0 29356 2 29366 1
+E 0 29357 0 16
+E 0 29358 0 11
+M 0 29354 1 29367 1
+E 0 29359 0 16
+E 0 29360 0 12
+M 0 29356 2 29368 1
+E 0 29357 0 16
+E 0 29358 0 11
+M 0 29350 4 29369 1
+E 0 29350 0 16
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

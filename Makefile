@@ -32,5 +32,10 @@ clean:
 	find . -type f -name "*.pyc" -delete
 	find . -type f -name "*.pyo" -delete
 
-.PHONY: build push deploy deploy-dev deploy-staging install-deps run-local test clean
+KBK ?= $(HOME)/Development/kbk
+
+import-kbk:
+	uv run python -m tools.kbk_import --kbk $(KBK) --repo .
+
+.PHONY: build push deploy deploy-dev deploy-staging install-deps run-local test clean import-kbk
 

@@ -1,0 +1,1081 @@
+#AREADATA
+Name The Blue Tower~
+Builders None~
+VNUMs 23230 23259
+Credits {35 51} Ceran   Blue Tinged tower~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#23230
+NAME  spirit mage~
+SHORT a spirit mage~
+LONG  A transparent figure in flowing robes stands here.
+~
+DESCR
+This figure appears almost tangible, yet not quite. Something about it's face
+seems to show despair and anger, although if it is directed at you is unsure.
+All you know is that it appears to be guarding the way past.
+~
+RACE  human~
+ACT   AFOR
+AFF   0
+OFF   FKU
+IMM   AB
+RES   C
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 23230
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+2500
+MDICE 1d1+100
+DDICE 3d12+15
+REGEN 0
+DTYPE magic
+AC    -15 -15 -15 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23231
+NAME  blue ghost~
+SHORT a ghost with a blue aura~
+LONG  A deathly looking old man surrounded by a blue aura is here.
+~
+DESCR
+The energy around this figure is so strong that it has formed a permenant blue
+aura of crackling power. It raises it's withered hand and points at you,
+sending sizzling blue energy through the air!
+~
+RACE  human~
+ACT   ABGOR
+AFF   0
+OFF   FKUWX
+IMM   ABC
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 23230
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5250
+MDICE 1d1+1000
+DDICE 6d6+20
+REGEN 0
+DTYPE magic
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23232
+NAME  elven lich archmage~
+SHORT the elven lich archmage~
+LONG  An elf with torn dried skin and glowing blue eyes is here.
+~
+DESCR
+This ancient elven wizard is all that remains of Myth Drannor's once powerful
+mage cabals. He exists now as a shell of his former power, brought back by the
+evil that destroyed the city and kept as a taunting reminder of the fall of the
+elves. The power of pure magic hums around him and even his eyes glow with the
+blue energy that sizzles in the air.
+~
+RACE  human~
+ACT   ABOQ
+AFF   0
+OFF   AFKX
+IMM   ABC
+RES   D
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 23230
+LEVEL 55
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 1d1+1000
+DDICE 10d4+21
+REGEN 0
+DTYPE magic
+AC    -25 -25 -25 -30
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23233
+NAME  witch queen~
+SHORT the witch queen of Myth Drannor~
+LONG  A beautiful elven woman with cold blue eyes screams in fury!
+~
+DESCR
+This lady was one of the few elves who chose to be lead by the darkness that
+overcame Myth Drannor, and as a reward she now rules this small tower where
+all the magic of the ancient elves is gathered in preperation for the release
+of the Lord.
+~
+RACE  human~
+ACT   ABORT
+AFF   0
+OFF   AEFKX
+IMM   ABC
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 23230
+LEVEL 60
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+8000
+MDICE 1d1+1000
+DDICE 5d10+25
+REGEN 0
+DTYPE wrath
+AC    -30 -30 -30 -50
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23234
+NAME  devil familiar~
+SHORT a satanic familiar~
+LONG  A beast with a single black horn and symbols burned into it's flesh is here.
+~
+DESCR
+This unholy familiar has the markings of a servant of darkness. It's body is
+covered in symbols guarding against control by those not of the darkest soul.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEKOX
+IMM   AB
+RES   0
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 23230
+LEVEL 57
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+8500
+MDICE 1d1+1000
+DDICE 5d10+25
+REGEN 0
+DTYPE claw
+AC    -28 -28 -28 -30
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#23230
+NAME   parchment blue tinted seal~
+SHORT  a blue tinted seal~
+DESCR 
+A piece of parchment scrawled with blue writing is here.~
+MAT    paper~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  0
+WEIGHT 3
+COST   0
+COND   100
+EDESC blue seal parchment~
+The writing on the parchment relates how the elves of Myth Drannor were used
+as sacrifices to provide the pure blood needed to help raise and evil of total
+corruption and unspeakable power that lay dormant beneath the city. Thie red
+bloodletting was to be accompanied by two other merging powers, that of the
+pure magics, the blue energies, and the divine magics, green energies. Yet
+something went wrong and now forces of darkness are fighting for the last
+keys to the power that lies hidden. Once the red, blue and green are finally
+joined the black tower will reveal it's secrets..
+~
+LIMIT  200
+End
+
+#23231
+NAME   blue crystal tiara~
+SHORT  a blue crystal tiara~
+DESCR 
+An intricate tiara formed from blue crystal is on the ground.~
+MAT    gem~
+TYPE   armor BDE ABCF F ACDE BD
+EXTRA  1 3 0 81
+WEAR   AE
+LEVEL  40
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 12 25 0
+Affect O 3 2 0
+LIMIT  1
+End
+
+#23232
+NAME   blue ice dagger~
+SHORT  a blue-ice dagger~
+DESCR 
+A dagger carved from deep blue ice is on the floor.~
+MAT    energy~
+TYPE   weapon dagger 10 6 frbite B
+EXTRA  1 3 0 352
+WEAR   AN
+LEVEL  45
+WEIGHT 3
+COST   20000
+COND   100
+LIMIT  2
+End
+
+#23233
+NAME   blue sapphire collar~
+SHORT  a blue sapphire collar~
+DESCR 
+A perfectly formed collar of blue sapphire is here.~
+MAT    gem~
+TYPE   armor ABCD BCE BE E AD
+EXTRA  1 2 0 20
+WEAR   AC
+LEVEL  35
+WEIGHT 8
+COST   9999
+COND   100
+Affect O 24 -3 0
+Affect O 17 -5 0
+Affect O 12 15 0
+Affect O 13 15 0
+End
+
+#23235
+NAME   wand spellfire~
+SHORT  (blue-green) a wand of spellfire~
+DESCR 
+A deadly looking wand covered in blue green flames is here.~
+MAT    energy~
+TYPE   weapon exotic 5 5 magic 0
+EXTRA  1 2 0 65600
+WEAR   AN
+LEVEL  48
+WEIGHT 10
+COST   14999
+COND   100
+LIMIT  1
+End
+
+#23236
+NAME   gold ring wizardry~
+SHORT  a ring of wizardry~
+DESCR 
+A shiny golden ring is on the ground.~
+MAT    gold~
+TYPE   armor ADE ABE ABDE E BD
+EXTRA  1 2 0 96
+WEAR   AB
+LEVEL  40
+WEIGHT 5
+COST   20000
+COND   100
+Affect O 3 2 0
+Affect O 4 1 0
+Affect O 12 20 0
+LIMIT  3
+End
+
+#23237
+NAME   blue key~
+SHORT  a blue key~
+DESCR 
+A key of some strange blue material is here.~
+MAT    steel~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#23238
+NAME   gold ring wizardry~
+SHORT  a ring of wizardry~
+DESCR 
+A shiny golden ring is on the ground.~
+MAT    gold~
+TYPE   armor F DE ABF CE BD
+EXTRA  1 2 0 96
+WEAR   AB
+LEVEL  45
+WEIGHT 5
+COST   20000
+COND   100
+Affect O 3 2 0
+Affect O 4 2 0
+Affect O 12 30 0
+LIMIT  1
+End
+
+#0
+
+
+
+#ROOMDATA
+#23230
+NAME   Entrance to the Blue tower~
+DESCR
+You are standing within the confines of a tower built from blue tinged stones.
+The colour seems to almost glow with power as if magic were stored within the
+very walls themselves. The hallway leads east into the tower, and there is
+a large blue door in the west wall.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 23231
+DOOR 3
+~
+blue door~
+AB -1 13766
+End
+
+#23231
+NAME   Within the Blue tower~
+DESCR
+This room is almost humming with power. The walls around you glow softly the
+blue colour of magic. Somewhere above you on the stairs leading up there is the
+sound of whispered incantations. Soft blue light filters down from above, like
+the room were being bathed in a blue sun.
+~
+FLAGS  8
+Sect   0
+DOOR 3
+~
+~
+0 0 23230
+DOOR 4
+~
+~
+0 0 23236
+End
+
+#23232
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel.Above you a column of searing blue light
+can be seen.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23233
+DOOR 2
+Bathed in a blue light.
+~
+~
+0 0 23235
+DOOR 4
+In a blinding blue light.
+~
+~
+0 0 23241
+End
+
+#23233
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23234
+DOOR 2
+Bathed in a blue light.
+~
+~
+0 0 23236
+DOOR 3
+Bathed in a blue light.
+~
+~
+0 0 23232
+End
+
+#23234
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel. Above you a column of searing blue light
+can be seen.
+
+~
+FLAGS  0
+Sect   0
+DOOR 2
+Bathed in a blue light.
+~
+~
+0 0 23237
+DOOR 3
+Bathed in a blue light.
+~
+~
+0 0 23233
+DOOR 4
+In a blinding blue light.
+~
+~
+0 0 23243
+End
+
+#23235
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23232
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23236
+DOOR 2
+~
+~
+0 0 23238
+End
+
+#23236
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel. There is a column of searing blue light
+coming from the roof here.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23233
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23237
+DOOR 2
+~
+~
+0 0 23239
+DOOR 3
+~
+~
+0 0 23235
+End
+
+#23237
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23234
+DOOR 2
+Bathed in a blue light.
+~
+~
+0 0 23240
+DOOR 3
+Bathed in a blue light.
+~
+~
+0 0 23236
+End
+
+#23238
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel. Above you a column of searing blue light
+can be seen.
+
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23235
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23239
+DOOR 4
+In a blinding blue light.
+~
+~
+0 0 23247
+End
+
+#23239
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light. At
+first glance it would appear to be some sort of physical substance hanging in
+the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23236
+DOOR 1
+Bathed in a blue light.
+~
+~
+0 0 23240
+DOOR 3
+Bathed in a blue light.
+~
+~
+0 0 23238
+End
+
+#23240
+NAME   A room bathed in blue light~
+DESCR
+You are standing in the middle of what feels like a warm sea of blue light.
+At first glance it would appear to be some sort of physical substance hanging
+in the air, but after being in it for just a short time you come to understand
+that it is pure energy that you are bathed in. Somehow the tower itself is not
+physically existing, but merely the product of so much magical force that it
+is solid enough to walk on and feel. Above you a column of searing blue light
+can be seen.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+Bathed in a blue light.
+~
+~
+0 0 23237
+DOOR 3
+Bathed in a blue light.
+~
+~
+0 0 23239
+DOOR 4
+In a blinding blue light.
+~
+~
+0 0 23245
+End
+
+#23241
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower swirls
+and crackles. A column of blue light descends through the floor here to a
+level lower down.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 23242
+DOOR 2
+~
+~
+0 -1 23248
+DOOR 5
+~
+~
+0 -1 23232
+End
+
+#23242
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. Above you there is a clear tunnel through the light.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 23243
+DOOR 3
+~
+~
+0 -1 23241
+DOOR 4
+~
+~
+0 -1 23250
+End
+
+#23243
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. A column of blue light descends through the floor here
+to a level lower down.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 23244
+DOOR 3
+~
+~
+0 -1 23242
+DOOR 5
+~
+~
+0 -1 23234
+End
+
+#23244
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. Above you there is a clear tunnel through the light.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23243
+DOOR 2
+~
+~
+0 -1 23245
+DOOR 4
+~
+~
+0 -1 23251
+End
+
+#23245
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. A column of blue light descends through the floor here
+to a level lower down.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23244
+DOOR 3
+~
+~
+0 -1 23246
+DOOR 5
+~
+~
+0 -1 23240
+End
+
+#23246
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. Above you there is a clear tunnel through the light.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 23245
+DOOR 3
+~
+~
+0 -1 23247
+DOOR 4
+~
+~
+0 -1 23252
+End
+
+#23247
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. A column of blue light descends through the floor here
+to a level lower down.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23248
+DOOR 1
+~
+~
+0 -1 23246
+DOOR 5
+~
+~
+0 -1 23238
+End
+
+#23248
+NAME   Standing within a blinding blue light~
+DESCR
+The room is filled with a crackling blue energy that tingles your skin and
+blinds your eyes. All around you the magic building up within the tower
+swirls and crackles. Above you there is a clear tunnel through the light.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23241
+DOOR 2
+~
+~
+0 -1 23247
+DOOR 4
+~
+~
+0 -1 23249
+End
+
+#23249
+NAME   On a shimmering blue platform~
+DESCR
+You are standing upon a flat platform suspended above the warm blue energy
+fields below.  The sounds of sizzling energy crackle in the air, and the smell
+of burning ozone reeks all around you. A tunnel of light leads back down, or
+you can go east to what looks like a stairwell.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 23253
+DOOR 5
+~
+~
+0 -1 23248
+End
+
+#23250
+NAME   On a shimmering blue platform~
+DESCR
+You are standing upon a flat platform suspended above the warm blue energy
+fields below.  The sounds of sizzling energy crackle in the air, and the smell
+of burning ozone reeks all around you. A tunnel of light leads back down, or
+you can go south to what looks like a stairwell.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 23253
+DOOR 5
+~
+~
+0 -1 23242
+End
+
+#23251
+NAME   On a shimmering blue platform~
+DESCR
+You are standing upon a flat platform suspended above the warm blue energy
+fields below.  The sounds of sizzling energy crackle in the air, and the smell
+of burning ozone reeks all around you. A tunnel of light leads back down, or
+you can go west to what looks like a stairwell.
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 -1 23253
+DOOR 5
+~
+~
+0 -1 23244
+End
+
+#23252
+NAME   On a shimmering blue platform~
+DESCR
+You are standing upon a flat platform suspended above the warm blue energy
+fields below.  The sounds of sizzling energy crackle in the air, and the smell
+of burning ozone reeks all around you. A tunnel of light leads back down, or
+you can go north to what looks like a stairwell.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23253
+DOOR 5
+~
+~
+0 -1 23246
+End
+
+#23253
+NAME   Before the burning blue stairwell~
+DESCR
+You are at the bottom of a stairwell wreathed in blue flames. Strangely there
+is no heat of smoke, and the flames that lick the stairs do not seem to be
+fuelled by anything. The magic at this part of the tower is obviously so strong
+that it manifests itself as raw fire, but blue and without the heat. The stairs
+head upwards.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 23250
+DOOR 1
+~
+~
+0 -1 23251
+DOOR 2
+~
+~
+0 -1 23252
+DOOR 3
+~
+~
+0 -1 23249
+DOOR 4
+~
+~
+0 -1 23254
+End
+
+#23254
+NAME   On a balcony wreathed in blue fire~
+DESCR
+You are at the top of a stairwell covered in flickering blue flames. The room
+here is more of a balcony overlooking the shimmering blue lake of energy below.
+There is a door to the south.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+door~
+ABC 23237 23255
+DOOR 5
+~
+~
+0 -1 23253
+End
+
+#23255
+NAME   The Witch Queen's Watch~
+DESCR
+This room is unlike any other in the tower. There is no energy shimmering in
+the air, no crackling sounds or burning blue flames. Rather it is a plain and
+empty study with nothing of interest but a single pentegram inscribed in the
+floor for protection against some kind of unholy beast. The only exit is to
+the north through the door.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+door~
+ABC 23237 23254
+End
+
+#0
+
+
+
+#SPECIALS
+M 23230 spec_cast_mage
+M 23231 spec_cast_mage
+M 23232 spec_cast_mage
+M 23233 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 23230 3 1
+D 0 23254 2 2
+D 0 23255 0 2
+M 0 23230 6 23232 1
+M 0 23230 6 23234 1
+M 0 23230 6 23236 1
+M 0 23230 6 23237 1
+M 0 23230 6 23238 1
+M 0 23230 6 23239 1
+M 0 23231 4 23242 1
+M 0 23231 4 23244 1
+M 0 23231 4 23246 1
+M 0 23231 4 23248 1
+M 0 23232 1 23253 1
+E 0 23236 0 1
+E 0 23235 0 16
+M 0 23234 4 23254 1
+G 0 23237 0
+E 0 23233 0 3
+M 0 23233 1 23255 1
+E 0 23238 0 1
+E 0 23231 0 6
+E 0 23232 0 16
+G 0 23230 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 23231 wear_prog wear_prog_crystal_tiara
+I 23231 remove_prog remove_prog_crystal_tiara
+I 23238 wear_prog wear_prog_ring_wizardry
+I 23238 remove_prog remove_prog_ring_wizardry
+E
+
+
+
+#$

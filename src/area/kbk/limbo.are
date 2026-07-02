@@ -1,0 +1,1158 @@
+#AREADATA
+Name Limbo~
+Builders None~
+VNUMs 1 110
+Credits { IMM } Diku    Limbo~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#3
+NAME  massive lich~
+SHORT a massive lich~
+LONG  A massive lich stands here holding a potion, offering to sell you a way out.
+~
+DESCR
+~
+RACE  lich~
+ACT   A
+AFF   0
+OFF   ACDEFHIJKN
+IMM   ABCDEFGHIJKLMNOPQRSTXYZa
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 100
+HROLL 60
+ENHA  100.00%
+MATER none~
+HDICE 100d100+1000
+MDICE 100d100+1000
+DDICE 100d100+50
+REGEN 0
+DTYPE defilement
+AC    -100 -100 -100 -100
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4
+NAME  trogdor burninator dragon~
+SHORT Trogdor the Burninator~
+LONG  Trogdor the Burninator is here burninating everything!
+~
+DESCR
+~
+RACE  dragon~
+ACT   AV
+AFF   0
+OFF   ACDFHMO
+IMM   0
+RES   BEH
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 100
+HROLL 77
+ENHA  100.00%
+MATER dragonscale~
+HDICE 100d100+1000
+MDICE 100d100+1000
+DDICE 77d77+77
+REGEN 5
+DTYPE claw
+AC    100 100 100 100
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHZ
+PARTS ACDEFGHIJKPQUVX
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#1
+NAME   coin silver gcash~
+SHORT  a silver coin~
+DESCR 
+One miserable silver coin.~
+MAT    silver~
+TYPE   money A 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#2
+NAME   coin gold gcash~
+SHORT  a gold coin~
+DESCR 
+One valuable gold coin.~
+MAT    gold~
+TYPE   money 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#3
+NAME   coins gold gcash~
+SHORT  %d gold coins~
+DESCR 
+A pile of gold coins.~
+MAT    gold~
+TYPE   money 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#4
+NAME   coins silver gcash~
+SHORT  %d silver coins~
+DESCR 
+A pile of silver coins.~
+MAT    silver~
+TYPE   money 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#5
+NAME   coins silver gold gcash~
+SHORT  %d silver coins and %d gold coins~
+DESCR 
+A pile of coins.~
+MAT    gold~
+TYPE   money 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#6
+NAME   korinth sword~
+SHORT  the Korinth d'Verin~
+DESCR 
+The Korinth d'Verin lies here, pulsing with incredible power.~
+MAT    energy~
+TYPE   weapon sword 30 60 acidicbite DE
+EXTRA  1 12 0 50338775
+WEAR   AN
+LEVEL  60
+WEIGHT 9
+COST   20000
+COND   100
+Affect O 18 500 0
+Affect O 19 500 0
+LIMIT  1
+End
+
+#7
+NAME   potion return~
+SHORT  a potion of return~
+DESCR 
+A potion of return lies here upon the ground.~
+MAT    glass~
+TYPE   potion 100 'power word kill' '' '' ''
+EXTRA  1 1 0 16777216
+WEAR   AO
+LEVEL  1
+WEIGHT 7
+COST   1000
+COND   100
+EDESC return~
+The label on the pill reads "GUARANTEED TO SEND YOU TO YOUR TEMPLE"
+~
+EDESC potion~
+The label on the pill reads "GUARANTEED TO SEND YOU TO YOUR TEMPLE"
+~
+End
+
+#8
+NAME   belbol sword~
+SHORT  the Belbol d`Elghinn~
+DESCR 
+The Belbol d`Elghinn lies here, pulsing with incredible power.~
+MAT    energy~
+TYPE   weapon sword 30 60 darkwrath DE
+EXTRA  1 12 0 50338775
+WEAR   AN
+LEVEL  60
+WEIGHT 9
+COST   20000
+COND   100
+Affect O 18 500 0
+Affect O 19 500 0
+LIMIT  1
+End
+
+#9
+NAME   dragonweapon~
+SHORT  a dragonweapon~
+DESCR 
+_~
+MAT    energy~
+TYPE   weapon exotic 1 1 wrath 0
+EXTRA  1 6 0 36161
+WEAR   ANW
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+RESTR  Y
+End
+
+#10
+NAME   corpse~
+SHORT  the corpse of %s~
+DESCR 
+The corpse of %s is lying here.~
+MAT    food~
+TYPE   npc_corpse 0 0 0 A 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#11
+NAME   corpse pccorpse~
+SHORT  the corpse of %s~
+DESCR 
+The corpse of %s is lying here.~
+MAT    food~
+TYPE   pc_corpse 0 0 0 A 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#12
+NAME   head~
+SHORT  the head of %s~
+DESCR 
+The severed head of %s is lying here.~
+MAT    food~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#13
+NAME   heart~
+SHORT  the heart of %s~
+DESCR 
+The bloodied, torn-out heart of %s is lying here.~
+MAT    food~
+TYPE   food E E 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#14
+NAME   arm~
+SHORT  the arm of %s~
+DESCR 
+The disembodied arm of %s is lying here.~
+MAT    food~
+TYPE   food CE CE 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#15
+NAME   leg~
+SHORT  the leg of %s~
+DESCR 
+The chopped-off leg of %s is lying here.~
+MAT    food~
+TYPE   food CE CE 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#16
+NAME   guts entrails intestines~
+SHORT  a steaming pile of %s's intestines~
+DESCR 
+A steaming pile of %s's intestines are lying here.~
+MAT    food~
+TYPE   food AC AC 0 A 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#17
+NAME   brains brain~
+SHORT  the brains of %s~
+DESCR 
+The splattered brains of %s are lying here.~
+MAT    food~
+TYPE   food BD BD 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#18
+NAME   pill return~
+SHORT  a pill of return~
+DESCR 
+A potion of return lies here upon the ground.~
+MAT    glass~
+TYPE   pill 100 'power word kill' 'reserved' 'reserved' 'reserved'
+EXTRA  1 1 0 16777216
+WEAR   AO
+LEVEL  1
+WEIGHT 7
+COST   1000
+COND   100
+EDESC return~
+The label on the pill reads "GUARANTEED TO SEND YOU TO YOUR TEMPLE"
+~
+End
+
+#20
+NAME   mushroom~
+SHORT  a Magic Mushroom~
+DESCR 
+A delicious magic mushroom is here.~
+MAT    food~
+TYPE   food D D 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#21
+NAME   ball light~
+SHORT  a bright ball of light~
+DESCR 
+A bright ball of light shimmers in the air.~
+MAT    energy~
+TYPE   light 0 0 ABCFGHIJ 0 0
+EXTRA  1 1 0 1
+WEAR   A
+LEVEL  0
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#22
+NAME   spring~
+SHORT  a magical spring~
+DESCR 
+A magical spring flows from the ground here.~
+MAT    liquid~
+TYPE   fountain 100000 100000 'water' 0 0
+EXTRA  1 1 0 64
+WEAR   0
+LEVEL  0
+WEIGHT 2
+COST   0
+COND   100
+End
+
+#23
+NAME   disc disk floating black~
+SHORT  a floating disc~
+DESCR 
+A floating black disc hangs in the air.~
+MAT    energy~
+TYPE   container 0 E 0 0 0
+EXTRA  1 6 0 51417152
+WEAR   AQ
+LEVEL  0
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#24
+NAME   guitar fender jazzmaster~
+SHORT  a Fender Jazzmaster with Marijuana inlays~
+DESCR 
+A beautifully crafted guitar lies here catching your eye.~
+MAT    wood~
+TYPE   instrument 0 0 0 0 0
+EXTRA  1 2 0 3
+WEAR   AO
+LEVEL  14
+WEIGHT 6
+COST   140
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+Affect O 12 50 0
+Affect O 13 50 0
+End
+
+#25
+NAME   portal acidic shimmering~
+SHORT  a shimmering acidic portal~
+DESCR 
+A shimmering portal composed of acidic secretion is erected here.~
+MAT    magic~
+TYPE   portal A 0 0 AB 0
+EXTRA  1 3 0 540736
+WEAR   0
+LEVEL  0
+WEIGHT 1
+COST   0
+COND   100
+End
+
+#26
+NAME   death chair electric~
+SHORT  the electric chair~
+DESCR 
+A menacing, crackling electric chair sits in the center of the room.~
+MAT    steel~
+TYPE   furniture BD DHIJM EH DFGHIJ DFGHIJ
+EXTRA  0 0
+WEAR   0
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#27
+NAME   graelik throne~
+SHORT  Graelik's throne~
+DESCR 
+Here is Graelik's throne, you would be well advised not to sit in it.~
+MAT    wood~
+TYPE   furniture A 0 E 0 0
+EXTRA  1 5 0 16793684
+WEAR   0
+LEVEL  60
+WEIGHT 6
+COST   20000
+COND   100
+LIMIT  1
+End
+
+#28
+NAME   potato hot~
+SHORT  the hot potato~
+DESCR 
+A bright, yellow potato is here, it looks HOT!~
+MAT    dirt~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 135360
+WEAR   AO
+LEVEL  0
+WEIGHT 0
+COST   0
+COND   100
+End
+
+#29
+NAME   ray gun~
+SHORT  a standard issue ray gun~
+DESCR 
+A sophisticated looking piece of weaponry rests on the ground.~
+MAT    energy~
+TYPE   wand 55 1 1 'self immolation' 0
+EXTRA  1 3 0 524291
+WEAR   AO
+LEVEL  55
+WEIGHT 5
+COST   900000
+COND   100
+End
+
+#30
+NAME   dummy object~
+SHORT  a dummy object~
+DESCR 
+Dummy object is used for loading non-existent objects~
+MAT    leather~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  0
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#31
+NAME   spear spine~
+SHORT  the rigid spine of a fallen lich~
+DESCR 
+This is Mors weapon, give it back or face the wrath of Ormthrak.~
+MAT    bone~
+TYPE   weapon spear 8 7 defilement CF
+EXTRA  1 2 0 262146
+WEAR   AN
+LEVEL  52
+WEIGHT 32
+COST   1000000
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+Affect O 20 -10 0
+Affect R 0 -1 M
+EDESC spine~
+~
+LIMIT  1
+RESTR  X
+End
+
+#41
+NAME   tattoo ormthrak fist~
+SHORT  a burning skeletal fist~
+DESCR 
+The symbol of the unholy and super awesome Ormthrak is here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 34082817
+WEAR   AR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect R 0 -1 H
+Affect O 28 -10 0
+Affect O 12 100 0
+Affect O 13 100 0
+End
+
+#42
+NAME   halo lightning tattoo zornath~
+SHORT  a halo of forked lightning bolts~
+DESCR 
+Zornath's tattoo, a halo shape made of lightning bolts, lies here.~
+MAT    liquid~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 34082818
+WEAR   AR
+LEVEL  60
+WEIGHT 2
+COST   0
+COND   100
+Affect O 20 -10 0
+Affect O 28 5 0
+Affect O 14 -50 0
+Affect O 12 -50 0
+Affect O 13 -50 0
+Affect O 19 -30 0
+Affect O 18 -30 0
+End
+
+#43
+NAME   awesome shirt~
+SHORT  a shirt saying, "Orm killed me and all I got was this lousy t-shirt."~
+DESCR 
+A ragged t-shirt is here, it looks dirty.~
+MAT    cloth~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 557184
+WEAR   AD
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+Affect O 19 5 0
+Affect O 20 -10 0
+LIMIT  1
+End
+
+#45
+NAME   scalp~
+SHORT  the bloody scalp of %s~
+DESCR 
+The blood scalp of %s lays here.~
+MAT    unknown~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#49
+NAME   tattoo crimson jackass~
+SHORT  tattoo of the crimson jackass~
+DESCR 
+You are looking at the tattoo of nobody.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 134742145
+WEAR   APR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 12 -500 0
+Affect O 13 -500 0
+Affect O 18 -50 0
+Affect O 19 -50 0
+End
+
+#50
+NAME   mask recorder~
+SHORT  a hideous mask depicting Ruren's Mother~
+DESCR 
+A terrible mask is lying here, mangled and disgusting.~
+MAT    wood~
+TYPE   armor BDF F BEF BDE 0
+EXTRA  1 1 0 1
+WEAR   AE
+LEVEL  51
+WEIGHT 16
+COST   1
+COND   100
+Affect O 19 5 0
+Affect O 18 5 0
+LIMIT  1
+End
+
+#51
+NAME   tattoo tracerah~
+SHORT  a bone-handled flail entwined with snakes~
+DESCR 
+Tracerah's tattoo is here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 34082816
+WEAR   R
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 19 5 0
+Affect O 18 5 0
+Affect O 13 50 0
+Affect O 12 50 0
+Affect O 14 50 0
+End
+
+#52
+NAME   tattoo katistrofik~
+SHORT  the name "Maria" written elegantly~
+DESCR 
+Katistrofik's tattoo is here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 50860032
+WEAR   AR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#57
+NAME   tattoo damned blunt~
+SHORT  tattoo of the damned blunt~
+DESCR 
+You are looking at the tattoo of Detlef.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 134742145
+WEAR   AR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+End
+
+#58
+NAME   tattoo tome infinite~
+SHORT  mark of the infinite tome~
+DESCR 
+You are looking at the tattoo of Deomanix.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 134742145
+WEAR   APR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 12 500 0
+Affect O 19 5 0
+Affect O 18 5 0
+End
+
+#59
+NAME   tattoo tracerah~
+SHORT  a broken kaleidoscopic~
+DESCR 
+The tattoo of Tracerah is here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 1 0 524288
+WEAR   AR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#60
+NAME   tattoo daedelex bitch~
+SHORT  a hastily done tattoo reading "Daedelex's Bitch"~
+DESCR 
+It looks as though the tattoo artist was drunk when they did this.~
+MAT    flesh~
+TYPE   treasure 0 0 0 0 0
+EXTRA  0 0
+WEAR   AR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 13 50 0
+Affect O 12 50 0
+Affect O 19 15 0
+Affect O 18 15 0
+Affect O 20 -25 0
+End
+
+#77
+NAME   tattoo graelik rotting skull~
+SHORT  tattoo of a rotting skull~
+DESCR 
+A small, thin layer of flesh with ink on it lies here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 134742145
+WEAR   APR
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+Affect O 19 6 0
+Affect O 18 6 0
+Affect O 24 -20 0
+Affect O 17 -10 0
+End
+
+#100
+NAME   sword~
+SHORT  newbie sword~
+DESCR 
+A newbie sword is here.~
+MAT    steel~
+TYPE   weapon sword 5 9 slash 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 17
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#101
+NAME   dagger~
+SHORT  newbie dagger~
+DESCR 
+A newbie dagger is here.~
+MAT    steel~
+TYPE   weapon dagger 5 9 pierce 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 6
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#102
+NAME   mace~
+SHORT  newbie mace~
+DESCR 
+A newbie mace is here.~
+MAT    steel~
+TYPE   weapon mace 5 9 pound 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 24
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#103
+NAME   spear~
+SHORT  newbie spear~
+DESCR 
+A newbie spear is here.~
+MAT    wood~
+TYPE   weapon spear 5 9 thrust 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 16
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#104
+NAME   staff~
+SHORT  newbie staff~
+DESCR 
+A newbie staff is here.~
+MAT    wood~
+TYPE   weapon staff 5 9 pound 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 15
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#105
+NAME   axe~
+SHORT  newbie axe~
+DESCR 
+A newbie axe is here.~
+MAT    bronze~
+TYPE   weapon axe 5 9 chop 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 24
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#106
+NAME   flail~
+SHORT  newbie flail~
+DESCR 
+A newbie flail is here.~
+MAT    bronze~
+TYPE   weapon flail 5 9 crush 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 20
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#107
+NAME   whip~
+SHORT  newbie whip~
+DESCR 
+A newbie whip is here.~
+MAT    leather~
+TYPE   weapon whip 5 9 whip 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 7
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#108
+NAME   polearm~
+SHORT  newbie polearm~
+DESCR 
+A newbie polearm is here.~
+MAT    wood~
+TYPE   weapon polearm 5 9 slash 0
+EXTRA  1 2 0 1081344
+WEAR   AN
+LEVEL  50
+WEIGHT 16
+COST   100
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+End
+
+#109
+NAME   banner~
+SHORT  newbie banner~
+DESCR 
+A newbie banner is here.~
+MAT    cloth~
+TYPE   light 0 0 DGH 0 0
+EXTRA  1 2 0 65
+WEAR   A
+LEVEL  0
+WEIGHT 2
+COST   1
+COND   100
+End
+
+#110
+NAME   armor~
+SHORT  newbie armor~
+DESCR 
+A newbie armor is here.~
+MAT    leather~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 1 0 1048576
+WEAR   AD
+LEVEL  0
+WEIGHT 18
+COST   1
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#1
+NAME   The Void~
+DESCR
+You are floating in nothing.
+~
+FLAGS  5251084
+Sect   3
+End
+
+#2
+NAME   The Realm of the Dead~
+DESCR
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+FLAGS  8
+Sect   1
+DOOR 4
+~
+~
+0 -1 3001
+End
+
+#3
+NAME   Graelik's Lair~
+DESCR
+As you look around, you can't make out much of anything.  The air is
+completely dark.  However, a rich smell of acid overcomes you as a small
+drop hits your arm causing your skin to burn slightly.  
+~
+FLAGS  13115404
+Sect   0
+End
+
+#4
+NAME   Tracerah Land~
+DESCR
+~
+FLAGS  274210829
+Sect   0
+DOOR 0
+~
+~
+0 0 3014
+DOOR 1
+~
+~
+0 0 10961
+DOOR 2
+~
+~
+0 0 11521
+DOOR 3
+~
+~
+0 0 3800
+DOOR 4
+~
+~
+0 0 27091
+DOOR 5
+~
+~
+0 0 23112
+End
+
+#5
+NAME   The Domain of Magic~
+DESCR
+The vast hall before you expands in all directions. You feel that even if
+you tried, moving from where you are now is hopeless.
+~
+FLAGS  32776
+Sect   0
+DOOR 0
+~
+~
+0 0 5
+DOOR 1
+~
+~
+0 0 5
+DOOR 2
+~
+~
+0 0 5
+DOOR 3
+~
+~
+0 0 5
+End
+
+#105
+NAME   ~
+DESCR
+~
+FLAGS  4
+Sect   0
+End
+
+#110
+NAME   Infinity~
+DESCR
+You stand upon a rock platform floating high above the earth.  Clouds and
+mist drift about the island perpetually, keeping it protected from detection
+from the ground below.  This chunk of floating earth is no mortal creation;
+this, and the holy sword Infinity, are no doubt the products of the gods
+themselves.  A chunk of rock juts out of the earth in the middle of the
+eternally airborne, peaking at a swirling blue portal, the only way out.  
+~
+FLAGS  4
+Sect   0
+DOOR 4
+~
+~
+0 0 3001
+MHRATE 140 140
+End
+
+#0
+
+
+
+#SPECIALS
+M 3 spec_breath_acid
+M 4 spec_breath_fire
+S
+
+
+
+#RESETS
+O 0 27 0 3
+M 0 4 1 3 1
+M 0 3 1 3 1
+G 0 7 0
+E 0 7 0 17
+S
+
+
+
+#SHOPS
+3 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#IMPROGS
+I 9 fight_prog fight_prog_golden_weapon
+I 41 fight_prog fight_prog_tattoo_ormthrak
+I 41 invoke_prog invoke_prog_tattoo_ormthrak
+I 42 fight_prog fight_prog_tattoo_zornath
+I 52 fight_prog fight_prog_tattoo_kat
+I 57 invoke_prog invoke_prog_tattoo_detlef
+I 59 fight_prog fight_prog_tattoo_tracerah
+I 60 fight_prog fight_prog_tattoo_daed
+I 60 invoke_prog invoke_prog_tattoo_daed
+E
+
+
+
+#$

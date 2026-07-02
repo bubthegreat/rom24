@@ -1,0 +1,512 @@
+#AREADATA
+Name Sylvan Cabal~
+Builders None~
+VNUMs 8900 8999
+Credits {CABAL} Ormthra Sylvan Temple~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#8900
+NAME  healer herbalist~
+SHORT an herbalist~
+LONG  An herbalist is here lending aid to the creatures of the wild.
+~
+DESCR
+Slowly crushing sweet smelling herbs in a mortar before him, the weathered old man
+whistles to himself at peace with his surroundings. His foggy emerald eyes might not
+see so well anymore, but as you enter he spins and immediatly starts mixing up a
+variety of roots and herbs to soothe your battle wounds.
+~
+RACE  human~
+ACT   ABGQVYace
+AFF   0
+OFF   H
+IMM   ABCDENP
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 25
+ENHA  100.00%
+MATER none~
+HDICE 1d1+5000
+MDICE 1d1+999
+DDICE 2d4+30
+REGEN 0
+DTYPE punch
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  50
+AMOD  0
+QUEST 0
+CABAL sylvan
+End
+
+#8902
+NAME  guardian druid gnome outer~
+SHORT the guardian druid~
+LONG  A tiny figure relaxes near the foliage, almost invisible.
+~
+DESCR
+A squat figure with eyes as sharp as thorns watches over the archway. Flowing robes
+that will never fit him drag along the muddy ground as he fidgets about. While not
+physically imposing there is a distant spark in his eyes that suggest years of 
+training and dedication that should make even the most cautious foe think twice.
+~
+RACE  gnome~
+ACT   ABGLTZ
+AFF   0
+OFF   ADEO
+IMM   ABX
+RES   BCDEGLPQ
+VULN  ER
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 50
+ENHA  100.00%
+MATER none~
+HDICE 2d500+8000
+MDICE 1d1+7000
+DDICE 10d9+55
+REGEN 0
+DTYPE smash
+AC    -90 -90 -90 -90
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  2
+QUEST 0
+CABAL sylvan
+End
+
+#8903
+NAME  inner beastlord beast sylvan~
+SHORT the Beastlord of Sylvan~
+LONG  A mighty horse-like beast with a menacing rack of antlers fumes here.
+~
+DESCR
+Thrashing his antlers about at any who come too near, this mythical beast has taken
+residence up here for the good of the wilds. A mighty elk-centaur as they are known
+defends this refuge with his mighty antlers and its strong horse legs. It is rumored
+that to battle one of these beasts is akin to trying to catch thunder.
+~
+RACE  centaur~
+ACT   ABDGLRTV
+AFF   DFVZc
+OFF   AI
+IMM   ABX
+RES   BCDELQ
+VULN  HS
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 600
+ENHA  100.00%
+MATER none~
+HDICE 1d1+8000
+MDICE 1d1+5000
+DDICE 5d5+35
+REGEN 0
+DTYPE pound
+AC    -60 -60 -60 -60
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  75
+AMOD  0
+QUEST 3
+CABAL sylvan
+End
+
+#8913
+NAME  druid wood female woman~
+SHORT The beautiful druidess~
+LONG  A beautiful woman swirls the pool's water with an oak staff.
+~
+DESCR
+A striking female is here, absently exploring the pools depths, both inner and outer.
+Long, slender ears ending in a dull point appear from the sides of a fantastic mane of
+cream colored hair. She is here exploring the hidden mysteries of the wilds and using
+what she finds to brew herbal concoctions to aid in the battle against those that
+would despoil her woodlands and home.
+~
+RACE  wood-elf~
+ACT   ABGL
+AFF   0
+OFF   G
+IMM   ABCDEP
+RES   B
+VULN  X
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 55
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 1d1+10000
+MDICE 1d1+10000
+DDICE 1d1+35
+REGEN 0
+DTYPE nature
+AC    12 12 12 12
+POS   stand stand
+SEX   female
+GOLD  20
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  2
+QUEST 0
+CABAL sylvan
+End
+
+#0
+
+
+
+#OBJDATA
+#8900
+NAME   young sapling~
+SHORT  the Young Sapling~
+DESCR 
+the Young Sapling is here.~
+MAT    wood~
+TYPE   staff 0 0 0 '' 0
+EXTRA  1 3 0 540673
+WEAR   A
+LEVEL  60
+WEIGHT 6
+COST   20000
+COND   100
+CABAL  8
+LIMIT  1
+End
+
+#8901
+NAME   pit~
+SHORT  a deep pit in the earth~
+DESCR 
+A deep pit has been shoveled here into the earth.~
+MAT    stone~
+TYPE   container 10000 0 0 1000 100
+EXTRA  1 2 0 17301504
+WEAR   0
+LEVEL  51
+WEIGHT 9
+COST   0
+COND   100
+LIMIT  1
+End
+
+#8903
+NAME   An herbal balm~
+SHORT  an herbal balm~
+DESCR 
+A frothing mess oozes out of a leather skin here.~
+MAT    leather~
+TYPE   potion 51 'cure disease' 'refresh' 'refresh' 'reserved'
+EXTRA  1 2 0 8194
+WEAR   A
+LEVEL  51
+WEIGHT 5
+COST   30500
+COND   100
+LIMIT  10
+RESTR  e
+End
+
+#8913
+NAME   A tightly packed bundle of herbs~
+SHORT  a tightly packed bundle of herbs~
+DESCR 
+A tiny bundle of herbs lies forgotten on the floor.~
+MAT    plant~
+TYPE   pill 51 'fly' 'detect invis' 'poison' 'reserved'
+EXTRA  1 2 0 532480
+WEAR   A
+LEVEL  51
+WEIGHT 4
+COST   50000
+COND   100
+EDESC herbs~
+The herbs are bundled tightly in catgut and smell rather pungent. You can see a lone
+berry of the deepest shade of crimson tucked firmly in the middle of the bundle. You
+think you recognize the berry as being dangerous, but you can never tell.
+~
+LIMIT  10
+RESTR  e
+End
+
+#0
+
+
+
+#ROOMDATA
+#8900
+NAME   Entrance to the Crumbling Temple~
+DESCR
+An ancient stone archway crumbles under the weight of time and the wild vines and
+creeping bushes have taken hold within the multitude of cracks. It appears the only
+thing holding this place together are the tangles of wild growth upon it. Leaning
+against the side of the archway is a tiny figure almost hidden within the folds of
+its oversized emerald robes.
+~
+FLAGS  13901826
+Sect   3
+DOOR 0
+A musty breeze blows in from the courtyard.
+~
+~
+0 0 8901
+DOOR 2
+You see a muddy path to the south.
+~
+~
+0 0 26128
+End
+
+#8901
+NAME   An overgrown courtyard~
+DESCR
+What once was a fine cobblestone courtyard is now overgrown with a thick moss on the
+ground and sparse wildflowers have driven themselves up between the cracks. Hanging
+moss runs down from the rotting support beams that may have once supported another
+floor above. A musty scent wafts through the breeze that always seems to be blowing
+through this place, a reminder of the rotting and age of where you now walk.
+~
+FLAGS  13901826
+Sect   3
+DOOR 0
+A crumbling set of stairs lies to the north.
+~
+~
+0 0 8904
+DOOR 2
+The crumbling archway leads to the swamps.
+~
+~
+0 0 8900
+DOOR 3
+A tiny alcove is tucked off the courtyard.
+~
+~
+0 0 8903
+End
+
+#8903
+NAME   A silent alcove~
+DESCR
+It is almost silent here save the chirping of the birds and the slow steady hum that
+drifts in from the west. Stone rubble lies in the corner of the tiny room, where mighty
+tree limbs have slowly worked their way through what was once a stone wall. Fungus and
+moss form a carpet upon the decrepit stone floor, giving it a spongy feel when walked
+upon. There is a warm moisture that blows in from the nearby swamps.
+~
+FLAGS  13901826
+Sect   3
+DOOR 1
+Vines and creepers trail in from the courtyard which is east.
+~
+~
+0 0 8901
+DOOR 3
+The air grows warmer and damp to the west.
+~
+~
+0 0 8913
+End
+
+#8904
+NAME   Base of the crumbling stairs~
+DESCR
+Alcoves sit empty within the walls, perhaps long ago containing idols of the past 
+inhabitants of this now rotting temple. The same wild growth creeps into every nook
+and cranny that it can cling to. The shafts of light that pour in through the decaying
+walls intensify the vibrant green of the plant growth, and makes it glow with warmth.
+~
+FLAGS  13901826
+Sect   3
+DOOR 2
+A lush courtyard lies to the south.
+~
+~
+0 0 8901
+DOOR 4
+A set of weathered stairs rise upward.
+~
+~
+0 0 8905
+End
+
+#8905
+NAME   Upon the stairs of Faith~
+DESCR
+A flight of stone stairs leads upwards, the wear and tear evident upon the indentions
+upon each step. The wild growth has not found its way onto these, as if there is 
+something about them that impedes their growth. The walls to each side have long ago
+crumbled, giving a fantastic view of the swamps to the south, and the woods to the 
+north. Archaic runes run along each step, a long forgotten tongue by mortal men.
+~
+FLAGS  13901826
+Sect   0
+DOOR 4
+The rune covered steps continue upward.
+~
+~
+0 0 8906
+DOOR 5
+The base of the stairs are down.
+~
+~
+0 0 8904
+End
+
+#8906
+NAME   Nearing the top of the stairs~
+DESCR
+Nearing the top of the flight of stairs, each rune upon the steps seem to vibrate with
+unseen ancient power. The walls on each side have long since fallen into the swamp
+below, allowing a clear view of the landscape about you. Further up you notice briars
+rimming an ancient doorframe and a scent of moist earth lingers in the air.
+~
+FLAGS  13901826
+Sect   0
+DOOR 4
+A tangle of briars rim the doorframe into a vibrant green room.
+~
+~
+0 0 8907
+DOOR 5
+The stairs of faith continue down.
+~
+~
+0 0 8905
+End
+
+#8907
+NAME   Upon a platform of briars~
+DESCR
+A mass tangle of briars and thorns coat the aging stone walls of this room. In the 
+middle of this prickly refuge is the guardian of the Sylvan. A hulking beast the shape
+of a centaur with a wide rack of menacing horns. The sharp shapes of the thorns and
+briars paint an agonizing picture of pain for any who are unlucky enough to dash into
+them. An overwhelming sense of pride and hate radiate from this room. Pride for those
+who fight..and hate for any who would dare trespass here.
+~
+FLAGS  13901826
+Sect   3
+DOOR 0
+A pale gray light illuminates the room to the north.
+~
+~
+0 0 8910
+DOOR 5
+The top of the runed stairs lie below.
+~
+~
+0 0 8906
+End
+
+#8910
+NAME   A defaced altar of sacrifice.~
+DESCR
+A toppled statue of onyx lies in pieces upon the moss laden floor. The few stones of
+the wall are stained deep crimson, suggesting the nature of the rituals that were once
+performed here. The new inhabitants of this temple have carved tributes into the stones
+praising the moon, in hopes its pale light will find the lost souls here and guide 
+them to the earth. A pale-gray light almost always illuminates this room, seeming to
+resonate off the stones and the crude etchings that shimmer in the night.
+~
+FLAGS  13631490
+Sect   3
+DOOR 2
+The platform of briars and tangles lies to the south.
+~
+~
+0 0 8907
+End
+
+#8913
+NAME   The reflecting pool~
+DESCR
+Nearly nothing remains of this room but a lone stone wall standing to the west. On either
+side where walls once stood, the upper branches of ancient trees now rustle in the 
+warm breeze blowing off the swamps to the south. A small indention has been worn into
+the exact middle of the room and filled with a slightly emerald water. Several druids
+wander about the pool gazing into it as if they can see something you do not. The
+canopy of the forest overshadows this place, allowing only the smallest amount of 
+light to get through which shimmers on the pool, giving the place an eerie feeling.
+~
+FLAGS  13639682
+Sect   3
+DOOR 1
+The tiny alcove is towards the east.
+~
+~
+0 0 8903
+End
+
+#0
+
+
+
+#SPECIALS
+M 8903 spec_warder
+S
+
+
+
+#RESETS
+M 0 8902 1 8900 1
+M 0 8903 1 8907 1
+M 0 8900 1 8910 1
+O 0 8901 0 8910
+M 0 8913 1 8913 1
+G 0 8913 0
+G 0 8903 0
+S
+
+
+
+#SHOPS
+8913 0 26 10 0 0 5 5 1 23
+0
+
+
+
+#IMPROGS
+I 8900 give_prog give_prog_cabal_item
+M 8902 greet_prog greet_prog_outer_guardian
+M 8902 death_prog death_prog_outer_guardian
+M 8902 attack_prog attack_prog_outer_guardian
+M 8902 move_prog move_prog_outer_guardian
+M 8903 greet_prog greet_prog_inner_guardian
+M 8903 death_prog death_prog_inner_guardian
+E
+
+
+
+#$

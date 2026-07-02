@@ -1,0 +1,421 @@
+#AREADATA
+Name Outlaw Cabal~
+Builders None~
+VNUMs 9900 9909
+Credits {CABAL} Ormthra Circle of Chaos~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#9900
+NAME  healer adept crazed~
+SHORT The glassy eyed healer~
+LONG  A man dressed in simple robes barks orders out to thin air.
+~
+DESCR
+A simple man that looks more at home behind a plow on a farm than healing yells at the
+nearby walls. His sparkling blue eyes are open wide in a fanatic lust which cannot be
+explained. It is said he came here to aid the outlaws with the best intentions, but too
+long in their midst has driven the man to madness. Accusing you of stealing his best sow
+he waves his arms in a crazed blur of motion, attempting to heal your wounds.
+~
+RACE  human~
+ACT   ABQVae
+AFF   0
+OFF   FHIK
+IMM   ABCD
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1999
+MDICE 1d1+999
+DDICE 2d4+30
+REGEN 0
+DTYPE divine
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL outlaw
+End
+
+#9901
+NAME  A massive cube of gelatinous ooze~
+SHORT a cube of twisting ooze~
+LONG  A massive cube of a gelatin like substance writhes here.
+~
+DESCR
+A jiggling cube of clear ooze trembles upon the floor of this chamber. Battered armors
+and broken swords can be seen within the depths of its interior. A festering slime
+follows this slow moving blob as it coats all it comes across in a thick, clear gel. 
+A gurgling sounds emanates from this monstrosity as it trundles about, guarding the
+wealth and power of the outlaws within.
+~
+RACE  unique~
+ACT   ABGLWZde
+AFF   NOVc
+OFF   EFGO
+IMM   ABJ
+RES   CDLQ
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 70
+ENHA  100.00%
+MATER none~
+HDICE 1d1+6000
+MDICE 1d200+4900
+DDICE 5d15+40
+REGEN 0
+DTYPE slime
+AC    -90 -90 -90 -90
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL outlaw
+End
+
+#9902
+NAME  blink dog outer~
+SHORT the blink dog of the inn~
+LONG  The twisting form of a dog darts in and out of sight here.
+~
+DESCR
+An unusual canine with thick, muddy fur gnashes violently with massive jaws. Surrounded
+by a barely visible haze, this beast blinks in and out of your sight with its razor
+sharp fangs snapping at the air. Tangling with this bloodthirsty creature is not for the
+faint of heart for it is more than able to be the watchdog of this shattered inn.
+~
+RACE  unique~
+ACT   ABDGLd
+AFF   DHTVZ
+OFF   FGHK
+IMM   ABLQ
+RES   DEP
+VULN  JR
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 1d1+6500
+MDICE 1d1+4999
+DDICE 1d1+50
+REGEN 0
+DTYPE chaotic
+AC    -40 -40 -40 -40
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  1
+QUEST 0
+CABAL outlaw
+End
+
+#0
+
+
+
+#OBJDATA
+#9900
+NAME   key black marble~
+SHORT  a black marble key~
+DESCR 
+A black marble key is on the ground.~
+MAT    mineral~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   AO
+LEVEL  40
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#9901
+NAME   altar~
+SHORT  the altar~
+DESCR 
+There is a huge black altar in the middle of the room.~
+MAT    gold~
+TYPE   container 10 ABCD 9900 15 100
+EXTRA  1 3 0 16924672
+WEAR   P
+LEVEL  60
+WEIGHT 10
+COST   20
+COND   100
+End
+
+#9902
+NAME   equation entropy~
+SHORT  the Equation of Entropy~
+DESCR 
+Equation of Entropy floats here, emitting a black energy.~
+MAT    energy~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   A
+LEVEL  60
+WEIGHT 5
+COST   20000
+COND   100
+CABAL  5
+LIMIT  1
+End
+
+#9903
+NAME   chaos blade~
+SHORT  a chaos blade~
+DESCR 
+A shiny gold weapon is on the ground.~
+MAT    gold~
+TYPE   weapon exotic 10 6 pierce D
+EXTRA  1 5 0 4751617
+WEAR   AN
+LEVEL  20
+WEIGHT 20
+COST   0
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+RESTR  a
+End
+
+#9904
+NAME   flawless titanium scalpel~
+SHORT  a flawless titanium scalpel~
+DESCR 
+A shiny piece of silvery metal is here.~
+MAT    titanium~
+TYPE   weapon dagger 10 7 chaotic DM
+EXTRA  1 4 0 917505
+WEAR   AN
+LEVEL  51
+WEIGHT 7
+COST   0
+COND   100
+Affect O 20 -20 0
+Affect O 19 10 0
+Affect O 1 10 0
+Affect O 13 80 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#9900
+NAME   Entrance to the gutted inn~
+DESCR
+A battered sign swings on rusted hinges on a breeze before this husk of an inn. Perhaps
+a great place of rest at one time, charred embers still smolder upon the doorframe and
+the shattered remains of bottles litter the ground. Whatever force came upon this place
+they made sure to make it an unwelcome sight to all visitors in their destruction.
+Upon the charred porch of the inn, is a simple woven rug, upon which lays a strange
+form of a dog, blinking in and out of physical form.
+~
+FLAGS  14163976
+Sect   0
+EDESC  keyword~
+~
+EDESC  sign~
+Perhaps the name of the old inn has been scratched out and now the weathered sign simply
+reads, " No ale here. Go away." in an almost illegible script.
+~
+DOOR 0
+A large dark room lays empty to the north.
+~
+~
+0 -1 9901
+DOOR 2
+You can return to the natural beauty of the overlook to the south.
+~
+~
+0 -1 7804
+End
+
+#9901
+NAME   The darkened common room~
+DESCR
+Tables lie overturned and splinters of wood infest the floor from the hacked remains of
+stools. A fine brick fireplace that once blazed with a bright, vibrant light to tell
+tales by is now stacked full of charred rotting skulls. Every wall is coated with a brown 
+sludge that drips down upon the rotten floor. In places various words have been scratched
+into the walls, ranging from the most insane ramblings to words of bizarre wisdom.
+~
+FLAGS  14163976
+Sect   0
+EDESC  ramblings~
+A wild mess of scribblings coat the walls, some of them read, " Often I like to eat out
+of a bowl made of skulls. Only because it makes me feel like I get smarter."
+~
+EDESC  wisdom~
+In a frantic scribbled script reads, " If I had a gold coin for every person I ever
+knew, I would have an empty coinpurse, because the gold went to ale.".
+~
+DOOR 0
+A nerve wracking cackle echoes from the north, as well as an odor of stale ale.
+~
+~
+0 -1 9904
+DOOR 1
+A splintered doorframe hangs haphazardly to the east.
+~
+~
+0 -1 9902
+DOOR 2
+~
+~
+0 -1 9900
+DOOR 3
+A foul odor drifts in from the west, as trails of slime lead that way.
+~
+~
+0 -1 9903
+End
+
+#9902
+NAME   Blasted gambling hall~
+DESCR
+The many gaming tables are smashed to bits by mighty blows and now lie in rubble about
+the hall. Various dice and a few scattered cards can be seen amongst the scraps, almost
+as if the attack that destroyed this room came without notice upon the unsuspecting
+players themselves. A massive portion of the eastern wall has been blown outward by
+some tremendous force unveiling a vibrant green sanctuary.
+~
+FLAGS  14163976
+Sect   0
+DOOR 1
+A glow of green can be seen through the blasted wall to the east.
+~
+~
+0 0 9905
+DOOR 3
+The common room lays in rubble to the west.
+~
+~
+0 -1 9901
+End
+
+#9903
+NAME   The slime coated kitchen~
+DESCR
+The fragrant scent of fresh baked lamb and pastries no longer belong here, instead they
+have been replaced by a foul, damp odor festering within the puddles of slime that coat
+the floor. A thick gel drips from the ceiling, threatening to coat the entire room in
+its pungent funk. Slowly oozing along one side of the wall is a massive cube of this
+thick gelatin trembling with each unexpected contour of the kitchen. 
+~
+FLAGS  14426120
+Sect   0
+DOOR 1
+You may retreat from this slimy hell to the east.
+~
+~
+0 -1 9901
+End
+
+#9904
+NAME   The ruins of the bar~
+DESCR
+A fine oaken bar, split in twain runs across the northern part of this room. Everything
+of worth has been stripped from here, leaving only remnants of shattered glass and
+a few sparse bones. Behind the bar the shelves are smashed inward creating a fine mess
+of splintered wood to gaze at while you wish you had a drink. A solid pillar of black
+glass rises in front of the bar, with a crazed looking man leaning upon it.
+~
+FLAGS  14163976
+Sect   0
+DOOR 2
+The darkened common room lies silent to the south.
+~
+~
+0 -1 9901
+End
+
+#9905
+NAME   Behind the inn~
+DESCR
+The blasted wall is towards the west overlooking this eerie grove. Fog swirls madly
+about the shrubs and trunks of mighty trees, encasing all who walk here in its shroud.
+Apparently added on, much after the inn's demise, it provides a clear view of the
+vale of the elves towards the north and below. Nothing more than a defensive measure
+or perhaps just a wild fit has made this one of the most breathtaking views in the land.
+~
+FLAGS  13115394
+Sect   3
+DOOR 3
+The razed gambling hall is towards the west.
+~
+~
+0 0 9902
+End
+
+#0
+
+
+
+#SPECIALS
+M 9902 spec_outlaw
+S
+
+
+
+#RESETS
+M 0 9901 1 9900 1
+M 0 9902 1 9903 1
+M 0 9900 1 9904 1
+O 0 9901 0 9904
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 9902 give_prog give_prog_cabal_item
+M 9901 greet_prog greet_prog_outer_guardian
+M 9901 death_prog death_prog_outer_guardian
+M 9901 attack_prog attack_prog_outer_guardian
+M 9901 move_prog move_prog_outer_guardian
+M 9902 greet_prog greet_prog_inner_guardian
+M 9902 death_prog death_prog_inner_guardian
+E
+
+
+
+#$

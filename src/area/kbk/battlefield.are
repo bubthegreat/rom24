@@ -1,0 +1,2767 @@
+#AREADATA
+Name Crusader Battlefield~
+Builders None~
+VNUMs 23100 23199
+Credits {DEATH} Dioxide Battlefield~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#23100
+NAME  swordsman soldier human~
+SHORT a human swordsman~
+LONG  A human soldier is here, advancing against the hoard.
+~
+DESCR
+This soldier is covered with grime and blood.  He looks weary from the
+battles, but continues to fight.
+~
+RACE  human~
+ACT   AG
+AFF   0
+OFF   CDFGHOQRa
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 40
+HROLL 15
+ENHA  100.00%
+MATER none~
+HDICE 5675d1+0
+MDICE 0d0+0
+DDICE 15d5+30
+REGEN 0
+DTYPE slash
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  2
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23101
+NAME  swordsman paladin human~
+SHORT a human paladin~
+LONG  A holy paladin is here, advancing against the hoard.
+~
+DESCR
+This holy paladin is covered with grime and blood. He looks weary from the
+battles, but continues to fight.
+~
+RACE  human~
+ACT   AG
+AFF   0
+OFF   CDFGHOQR
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 50
+HROLL 45
+ENHA  100.00%
+MATER none~
+HDICE 9675d1+0
+MDICE 0d0+0
+DDICE 25d5+40
+REGEN 0
+DTYPE divine
+AC    -30 -30 -30 -30
+POS   stand stand
+SEX   male
+GOLD  10
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23102
+NAME  captain troll evil~
+SHORT a troll captain~
+LONG  A troll captain is here, ordering goblins.
+~
+DESCR
+This captain grins evilly as he orders his minions.
+~
+RACE  troll~
+ACT   AG
+AFF   0
+OFF   CDFGHOQR
+IMM   AB
+RES   DLQ
+VULN  HK
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 12675d1+0
+MDICE 0d0+0
+DDICE 30d5+40
+REGEN 0
+DTYPE pound
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  2
+FORM  AGHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23103
+NAME  goblin soldier evil~
+SHORT a goblin soldier~
+LONG  A goblin soldier is here, swarming the humans in numbers.
+~
+DESCR
+This soldier grins evilly and cackles with delight as blood is spilled.
+~
+RACE  goblin~
+ACT   AG
+AFF   0
+OFF   CDFGHOQRa
+IMM   AB
+RES   Q
+VULN  C
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 70
+ENHA  100.00%
+MATER none~
+HDICE 5675d1+0
+MDICE 0d0+0
+DDICE 20d5+20
+REGEN 0
+DTYPE slash
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  2
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23104
+NAME  body corpse~
+SHORT someone~
+LONG  An unrecognizable body is here, dying.
+~
+DESCR
+This corpse was once a soldier on this field. Now it lays here, mutilated
+and dead.
+~
+RACE  unique~
+ACT   ABG
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 10
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d2+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE pound
+AC    0 0 0 0
+POS   sleep sleep
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS F
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23105
+NAME  sir lothar warrior~
+SHORT Sir Lothar~
+LONG  A tall human warrior stands here, slaying goblins with every blow.
+~
+DESCR
+This tall, broad man stands tall and strong. His face is covered with
+dirt and sweat as he continues to command his troops to press forward.
+~
+RACE  human~
+ACT   ABGQTa
+AFF   0
+OFF   CEFIKLQ
+IMM   A
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 54
+HROLL 70
+ENHA  100.00%
+MATER none~
+HDICE 25d3+25000
+MDICE 5d5+6000
+DDICE 40d3+60
+REGEN 0
+DTYPE slash
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23106
+NAME  youatt warrior~
+SHORT Youatt~
+LONG  A huge, hairy woman stands here, cackling insanely as she slays humans.
+~
+DESCR
+This huge, ugly woman towers over her troops and screams vulgarities
+as she strangles and whips the enemy.  She looks like a hairy French
+whore.
+~
+RACE  draconian~
+ACT   ABFG
+AFF   0
+OFF   ADEFMN
+IMM   AL
+RES   DGKNOQ
+VULN  I
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 70
+ENHA  100.00%
+MATER none~
+HDICE 25d3+25000
+MDICE 10d50+8000
+DDICE 40d3+60
+REGEN 0
+DTYPE slash
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23108
+NAME  raag anti paladin anti-paladin~
+SHORT Raag~
+LONG  A huge fire giant stands here, massacring troops with his axe.
+~
+DESCR
+This huge fire giant flames with anger as he lashes out at anything
+moving. With every corpse he creates, he seems to get stronger.
+~
+RACE  fire~
+ACT   ABFG
+AFF   0
+OFF   ADEFMN
+IMM   A
+RES   DEHNO
+VULN  IJP
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 80
+ENHA  100.00%
+MATER none~
+HDICE 25d3+27000
+MDICE 10d50+8000
+DDICE 40d3+75
+REGEN 0
+DTYPE chop
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23109
+NAME  sir cire paladin~
+SHORT Sir Cire~
+LONG  A strong human Paladin stands here, calling apon the wrath of God.
+~
+DESCR
+This tall, broad man stands tall and strong. His face is covered with
+dirt and sweat as he continues to command his troops to press forward.
+He communes blessings and calls wrath apon his enemies.
+~
+RACE  human~
+ACT   ABGQTa
+AFF   0
+OFF   CEFIKLQ
+IMM   A
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 54
+HROLL 80
+ENHA  100.00%
+MATER none~
+HDICE 25d3+27000
+MDICE 5d5+6000
+DDICE 40d3+75
+REGEN 0
+DTYPE divine
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#23110
+NAME  seymour zealot storm~
+SHORT Seymour, the Zealot~
+LONG  A storm giant zealot stands here, cutting down goblin after goblin.
+~
+DESCR
+A huge storm giant decked in battle-armor swings violently at the goblins
+around him, pummeling groups of them at once to the ground.  
+~
+RACE  storm~
+ACT   ABGT
+AFF   0
+OFF   CEFIKLQ
+IMM   ABN
+RES   DJR
+VULN  M
+WSPEC H
+ALIGN 1000
+GROUP 0
+LEVEL 55
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 165d27+4000
+MDICE 80d11+95
+DDICE 55d2+60
+REGEN 0
+DTYPE searing
+AC    -48 -48 -48 -32
+POS   stand stand
+SEX   male
+GOLD  100
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  2
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#23100
+NAME   silver longsword lothar~
+SHORT  the silver longsword of Lothar~
+DESCR 
+A flawless silver longsword lies here.~
+MAT    silver~
+TYPE   weapon sword 9 6 divine J
+EXTRA  1 6 0 17304579
+WEAR   AN
+LEVEL  53
+WEIGHT 16
+COST   5100
+COND   100
+Affect O 17 -20 0
+Affect O 24 -7 0
+Affect O 19 4 0
+Affect O 18 4 0
+LIMIT  5
+End
+
+#23101
+NAME   spear youatt bloody~
+SHORT  the bloody spear of Youatt~
+DESCR 
+A huge, bloody spear lies here.~
+MAT    iron~
+TYPE   weapon spear 10 6 pierce DF
+EXTRA  1 8 0 50862595
+WEAR   AN
+LEVEL  53
+WEIGHT 39
+COST   0
+COND   100
+Affect O 18 7 0
+Affect O 19 7 0
+Affect O 17 25 0
+Affect O 1 5 0
+Affect A 0 0 G
+LIMIT  3
+End
+
+#23102
+NAME   raag huge double axe flames~
+SHORT  the double-bladed axe of Raag~
+DESCR 
+A giant double-bladed axe lies here in flames.~
+MAT    iron~
+TYPE   weapon axe 8 7 chop AD
+EXTRA  1 9 0 50862723
+WEAR   AN
+LEVEL  53
+WEIGHT 23
+COST   0
+COND   100
+Affect O 1 5 0
+Affect A 0 0 G
+Affect O 19 8 0
+Affect O 18 8 0
+LIMIT  3
+RESTR  O
+End
+
+#23103
+NAME   cire mace glowing purity~
+SHORT  the holy mace of Cire~
+DESCR 
+A glowing mace hovers here, pulsing with purity.~
+MAT    silver~
+TYPE   weapon mace 9 6 divine 0
+EXTRA  1 8 0 50863107
+WEAR   AN
+LEVEL  53
+WEIGHT 23
+COST   8000
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+Affect O 24 -2 0
+Affect O 17 -10 0
+Affect A 0 0 C
+LIMIT  3
+End
+
+#23104
+NAME   helmet salvation~
+SHORT  the helmet of salvation~
+DESCR 
+The helmet of salvation hovers here.~
+MAT    silver~
+TYPE   armor ABCG ACEF ABCG CDF 0
+EXTRA  1 6 0 16784387
+WEAR   AE
+LEVEL  54
+WEIGHT 26
+COST   0
+COND   100
+Affect O 18 3 0
+Affect O 19 3 0
+Affect O 3 2 0
+Affect O 4 2 0
+Affect O 13 15 0
+LIMIT  3
+End
+
+#23105
+NAME   breastplate righteousness~
+SHORT  the breastplate of righteousness~
+DESCR 
+The breastplate of righteousness hovers here.~
+MAT    adamantite~
+TYPE   armor ACDG ABDEF ACDG ACEF 0
+EXTRA  1 6 0 16784387
+WEAR   AK
+LEVEL  54
+WEIGHT 28
+COST   0
+COND   100
+Affect O 24 -7 0
+Affect O 19 4 0
+Affect O 5 5 0
+Affect O 13 50 0
+Affect O 18 4 0
+Affect A 0 0 N
+Affect R 0 0 Q
+LIMIT  3
+End
+
+#23106
+NAME   robe malignancy~
+SHORT  robe of malignancy~
+DESCR 
+The robe of malignancy hovers here.~
+MAT    cloth~
+TYPE   armor BCF BEF BCF ABCG 0
+EXTRA  1 6 0 6675
+WEAR   AK
+LEVEL  54
+WEIGHT 7
+COST   3000
+COND   100
+Affect A 0 0 O
+Affect R 0 0 N
+Affect O 18 3 0
+Affect O 19 3 0
+LIMIT  1
+End
+
+#23107
+NAME   belt malice~
+SHORT  belt of malice~
+DESCR 
+The belt of malice hover here.~
+MAT    cloth~
+TYPE   armor ACDE BCF ACDE ACEF 0
+EXTRA  1 6 0 6675
+WEAR   AL
+LEVEL  54
+WEIGHT 3
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 3 0
+Affect O 24 -5 0
+Affect O 2 2 0
+Affect O 14 75 0
+Affect A 0 0 G
+LIMIT  3
+End
+
+#23108
+NAME   shield faith~
+SHORT  the shield of faith~
+DESCR 
+The shield of faith hovers here.~
+MAT    silver~
+TYPE   armor DFH BCDEFG DFH ADFG 0
+EXTRA  1 5 0 16780291
+WEAR   AJ
+LEVEL  54
+WEIGHT 39
+COST   0
+COND   100
+Affect O 18 4 0
+Affect O 19 4 0
+Affect O 20 -5 0
+Affect O 13 25 0
+LIMIT  4
+RESTR  N
+End
+
+#23109
+NAME   boots readiness~
+SHORT  the boots of readiness~
+DESCR 
+The boots of readiness hover here.~
+MAT    silver~
+TYPE   armor BCDEF ABCDF BCDEF ABCF 0
+EXTRA  1 7 0 50338819
+WEAR   AG
+LEVEL  54
+WEIGHT 23
+COST   0
+COND   100
+Affect O 24 -5 0
+Affect O 19 5 0
+Affect O 18 5 0
+Affect O 13 10 0
+Affect O 14 50 0
+LIMIT  3
+End
+
+#23110
+NAME   belt truth~
+SHORT  the belt of truth~
+DESCR 
+The belt of truth hovers here.~
+MAT    silver~
+TYPE   armor ACEF DF ACEF AF 0
+EXTRA  1 7 0 50338819
+WEAR   AL
+LEVEL  54
+WEIGHT 13
+COST   0
+COND   100
+Affect O 18 5 0
+Affect O 19 3 0
+Affect O 13 20 0
+Affect O 2 4 0
+LIMIT  3
+End
+
+#23111
+NAME   diamond tipped war javelin~
+SHORT  a diamond-tipped war javelin~
+DESCR 
+A diamond-tipped war javelin has been left here.~
+MAT    wood~
+TYPE   weapon spear 3 20 light BF
+EXTRA  1 5 0 789505
+WEAR   AN
+LEVEL  53
+WEIGHT 25
+COST   20000
+COND   100
+Affect O 13 25 0
+Affect O 24 -5 0
+Affect O 18 5 0
+Affect O 19 5 0
+LIMIT  1
+RESTR  F
+End
+
+#23112
+NAME   shield energy~
+SHORT  a battleshield formed from pure energy~
+DESCR 
+A mass of pure energy is here glowing brightly.~
+MAT    energy~
+TYPE   armor ADEFG BCH ADEFG CDEFH 0
+EXTRA  1 6 0 1611138305
+WEAR   AJ
+LEVEL  53
+WEIGHT 21
+COST   1000
+COND   100
+Affect O 13 100 0
+Affect O 24 -10 0
+Affect O 18 8 0
+Affect O 19 8 0
+LIMIT  4
+RESTR  N
+End
+
+#23113
+NAME   name band cracked white stone~
+SHORT  a band of cracked white stone~
+DESCR 
+A small band of cracked white stone has been left here.~
+MAT    unknown~
+TYPE   armor BCF BCF BCF BCF 0
+EXTRA  1 5 0 527363
+WEAR   AB
+LEVEL  55
+WEIGHT 4
+COST   0
+COND   100
+Affect O 12 -25 0
+Affect O 13 50 0
+Affect O 19 5 0
+LIMIT  2
+RESTR  F
+End
+
+#23114
+NAME   mark tattoo~
+SHORT  the mark of an ethereal seraphim~
+DESCR 
+A TATTOO IS HERE ALERT AN IMMORTAL.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 4 0 50860032
+WEAR   AR
+LEVEL  55
+WEIGHT 6
+COST   20000
+COND   100
+LIMIT  1
+End
+
+#23115
+NAME   flask stale liquor~
+SHORT  a flask of stale liquor~
+DESCR 
+A small flask has been left here.~
+MAT    tin~
+TYPE   potion 25 'plague' 'poison' 'reserved' 'reserved'
+EXTRA  1 3 0 589888
+WEAR   AO
+LEVEL  52
+WEIGHT 8
+COST   0
+COND   100
+LIMIT  10
+End
+
+#0
+
+
+
+#ROOMDATA
+#23100
+NAME   Eastern Trail~
+DESCR
+This dusty trail extends to the west towards great fields and hills. The
+trodden dirt beneath you looks used by thousands of soldiers, carts, and
+horses.
+~
+FLAGS  2
+Sect   2
+DOOR 1
+~
+~
+0 0 7802
+DOOR 3
+~
+~
+0 0 23101
+End
+
+#23101
+NAME   Eastern Trail~
+DESCR
+This dusty trail extends to the west towards great fields and hills. The
+trodden dirt beneath you looks used by thousands of soldiers, carts, and
+horses.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23100
+DOOR 3
+~
+~
+0 0 23102
+End
+
+#23102
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. Fields
+extend in all directions, except a trail leads off in the eastern direction.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23114
+DOOR 1
+~
+~
+0 0 23101
+DOOR 2
+~
+~
+0 0 23103
+DOOR 3
+~
+~
+0 0 23115
+End
+
+#23103
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23102
+DOOR 2
+~
+~
+0 0 23104
+DOOR 3
+~
+~
+0 0 23116
+End
+
+#23104
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23103
+DOOR 3
+~
+~
+0 0 23105
+End
+
+#23105
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23116
+DOOR 1
+~
+~
+0 0 23104
+DOOR 2
+~
+~
+0 0 23117
+DOOR 3
+~
+~
+0 0 23106
+End
+
+#23106
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23108
+DOOR 1
+~
+~
+0 0 23105
+DOOR 2
+~
+~
+0 0 23119
+DOOR 4
+~
+~
+0 0 23126
+End
+
+#23107
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23112
+DOOR 1
+~
+~
+0 0 23114
+DOOR 2
+~
+~
+0 0 23115
+DOOR 3
+~
+~
+0 0 23110
+End
+
+#23108
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23109
+DOOR 1
+~
+~
+0 0 23116
+DOOR 2
+~
+~
+0 0 23106
+DOOR 4
+~
+~
+0 0 23128
+End
+
+#23109
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23110
+DOOR 1
+~
+~
+0 0 23115
+DOOR 2
+~
+~
+0 0 23108
+DOOR 4
+~
+~
+0 0 23130
+End
+
+#23110
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23111
+DOOR 1
+~
+~
+0 0 23107
+DOOR 2
+~
+~
+0 0 23109
+DOOR 4
+~
+~
+0 0 23132
+End
+
+#23111
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23136
+DOOR 1
+~
+~
+0 0 23112
+DOOR 2
+~
+~
+0 0 23110
+DOOR 3
+~
+~
+0 0 23139
+End
+
+#23112
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23113
+DOOR 2
+~
+~
+0 0 23107
+DOOR 3
+~
+~
+0 0 23111
+End
+
+#23113
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 23114
+DOOR 3
+~
+~
+0 0 23112
+End
+
+#23114
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23113
+DOOR 2
+~
+~
+0 0 23102
+DOOR 3
+~
+~
+0 0 23107
+End
+
+#23115
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23107
+DOOR 1
+~
+~
+0 0 23102
+DOOR 2
+~
+~
+0 0 23116
+DOOR 3
+~
+~
+0 0 23109
+End
+
+#23116
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23115
+DOOR 1
+~
+~
+0 0 23103
+DOOR 2
+~
+~
+0 0 23105
+DOOR 3
+~
+~
+0 0 23108
+End
+
+#23117
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23105
+DOOR 2
+~
+~
+0 0 23118
+DOOR 3
+~
+~
+0 0 23119
+End
+
+#23118
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23117
+DOOR 3
+~
+~
+0 0 23120
+End
+
+#23119
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23106
+DOOR 1
+~
+~
+0 0 23117
+DOOR 2
+~
+~
+0 0 23120
+DOOR 3
+~
+~
+0 0 23123
+End
+
+#23120
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23119
+DOOR 1
+~
+~
+0 0 23118
+DOOR 2
+~
+~
+0 0 23121
+DOOR 3
+~
+~
+0 0 23122
+End
+
+#23121
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23120
+End
+
+#23122
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23123
+DOOR 1
+~
+~
+0 0 23120
+End
+
+#23123
+NAME   Southern Trail~
+DESCR
+This dusty trail is south of the great March Hill. The trodden dirt beneath
+you looks used by thousands of soldiers, carts, and horses.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23124
+DOOR 1
+~
+~
+0 0 23119
+DOOR 2
+~
+~
+0 0 23122
+End
+
+#23124
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23133
+DOOR 2
+~
+~
+0 0 23123
+DOOR 3
+~
+~
+0 0 23146
+DOOR 4
+~
+~
+0 0 23125
+End
+
+#23125
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23127
+DOOR 1
+~
+~
+0 0 23126
+DOOR 5
+~
+~
+0 0 23124
+End
+
+#23126
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23128
+DOOR 3
+~
+~
+0 0 23125
+DOOR 5
+~
+~
+0 0 23106
+End
+
+#23127
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23129
+DOOR 1
+~
+~
+0 0 23128
+DOOR 2
+~
+~
+0 0 23125
+DOOR 5
+~
+~
+0 0 23133
+End
+
+#23128
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23130
+DOOR 2
+~
+~
+0 0 23126
+DOOR 3
+~
+~
+0 0 23127
+DOOR 5
+~
+~
+0 0 23108
+End
+
+#23129
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23131
+DOOR 1
+~
+~
+0 0 23130
+DOOR 2
+~
+~
+0 0 23127
+DOOR 5
+~
+~
+0 0 23134
+End
+
+#23130
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23132
+DOOR 2
+~
+~
+0 0 23128
+DOOR 3
+Exit description
+~
+~
+0 0 23129
+DOOR 5
+~
+~
+0 0 23109
+End
+
+#23131
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 1
+~
+~
+0 0 23132
+DOOR 2
+~
+~
+0 0 23129
+DOOR 5
+~
+~
+0 0 23135
+End
+
+#23132
+NAME   March Hill~
+DESCR
+You are standing atop March Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see Storm Hill in the north west direction of you.
+~
+FLAGS  0
+Sect   5
+DOOR 2
+~
+~
+0 0 23130
+DOOR 3
+~
+~
+0 0 23131
+DOOR 5
+~
+~
+0 0 23110
+End
+
+#23133
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23134
+DOOR 2
+~
+~
+0 0 23124
+DOOR 3
+~
+~
+0 0 23147
+DOOR 4
+~
+~
+0 0 23127
+End
+
+#23134
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23135
+DOOR 2
+~
+~
+0 0 23133
+DOOR 3
+~
+~
+0 0 23148
+DOOR 4
+~
+~
+0 0 23127
+End
+
+#23135
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23139
+DOOR 2
+~
+~
+0 0 23134
+DOOR 3
+~
+~
+0 0 23149
+DOOR 4
+~
+~
+0 0 23131
+End
+
+#23136
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23137
+DOOR 2
+~
+~
+0 0 23111
+DOOR 3
+~
+~
+0 0 23138
+End
+
+#23137
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 23136
+End
+
+#23138
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23166
+DOOR 1
+~
+~
+0 0 23136
+DOOR 2
+~
+~
+0 0 23139
+DOOR 3
+~
+~
+0 0 23169
+End
+
+#23139
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23138
+DOOR 1
+~
+~
+0 0 23111
+DOOR 2
+~
+~
+0 0 23135
+DOOR 3
+~
+~
+0 0 23140
+End
+
+#23140
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23139
+DOOR 2
+~
+~
+0 0 23149
+DOOR 3
+~
+~
+0 0 23141
+DOOR 4
+~
+~
+0 0 23175
+End
+
+#23141
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23140
+DOOR 2
+~
+~
+0 0 23142
+DOOR 3
+~
+~
+0 0 23150
+DOOR 4
+~
+~
+0 0 23174
+End
+
+#23142
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23141
+DOOR 1
+~
+~
+0 0 23149
+DOOR 2
+~
+~
+0 0 23143
+DOOR 3
+~
+~
+0 0 23151
+End
+
+#23143
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23142
+DOOR 1
+~
+~
+0 0 23148
+DOOR 2
+~
+~
+0 0 23144
+DOOR 3
+~
+~
+0 0 23152
+End
+
+#23144
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23143
+DOOR 1
+~
+~
+0 0 23147
+DOOR 2
+~
+~
+0 0 23145
+DOOR 3
+~
+~
+0 0 23153
+End
+
+#23145
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23144
+DOOR 1
+~
+~
+0 0 23146
+DOOR 2
+~
+~
+0 0 23155
+DOOR 3
+~
+~
+0 0 23154
+End
+
+#23146
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23147
+DOOR 1
+~
+~
+0 0 23124
+DOOR 2
+~
+~
+0 0 23156
+DOOR 3
+~
+~
+0 0 23145
+End
+
+#23147
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23148
+DOOR 1
+~
+~
+0 0 23133
+DOOR 2
+~
+~
+0 0 23146
+DOOR 3
+~
+~
+0 0 23144
+End
+
+#23148
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23149
+DOOR 1
+~
+~
+0 0 23134
+DOOR 2
+~
+~
+0 0 23147
+DOOR 3
+~
+~
+0 0 23143
+End
+
+#23149
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23140
+DOOR 1
+~
+~
+0 0 23135
+DOOR 2
+~
+~
+0 0 23148
+DOOR 3
+~
+~
+0 0 23142
+End
+
+#23150
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23141
+DOOR 2
+~
+~
+0 0 23151
+DOOR 4
+~
+~
+0 0 23173
+End
+
+#23151
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23150
+DOOR 1
+~
+~
+0 0 23142
+DOOR 2
+~
+~
+0 0 23152
+DOOR 3
+~
+~
+0 0 23157
+End
+
+#23152
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23151
+DOOR 1
+~
+~
+0 0 23143
+DOOR 2
+~
+~
+0 0 23153
+DOOR 3
+~
+~
+0 0 23158
+End
+
+#23153
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23152
+DOOR 1
+~
+~
+0 0 23144
+DOOR 2
+~
+~
+0 0 23154
+DOOR 3
+~
+~
+0 0 23159
+End
+
+#23154
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23153
+DOOR 1
+~
+~
+0 0 23145
+End
+
+#23155
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23145
+DOOR 1
+~
+~
+0 0 23156
+End
+
+#23156
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23146
+DOOR 3
+~
+~
+0 0 23155
+End
+
+#23157
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23160
+DOOR 1
+~
+~
+0 0 23151
+DOOR 2
+~
+~
+0 0 23158
+End
+
+#23158
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23157
+DOOR 1
+~
+~
+0 0 23152
+DOOR 2
+~
+~
+0 0 23159
+End
+
+#23159
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23158
+DOOR 1
+~
+~
+0 0 23153
+End
+
+#23160
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23161
+DOOR 2
+~
+~
+0 0 23157
+End
+
+#23161
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23162
+DOOR 1
+~
+~
+0 0 23167
+DOOR 2
+~
+~
+0 0 23160
+End
+
+#23162
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23163
+DOOR 2
+~
+~
+0 0 23161
+End
+
+#23163
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23164
+DOOR 2
+~
+~
+0 0 23167
+DOOR 3
+~
+~
+0 0 23162
+End
+
+#23164
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23165
+DOOR 2
+~
+~
+0 0 23168
+DOOR 3
+~
+~
+0 0 23163
+End
+
+#23165
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 23166
+DOOR 2
+~
+~
+0 0 23169
+DOOR 3
+~
+~
+0 0 23164
+End
+
+#23166
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 23138
+DOOR 3
+~
+~
+0 0 23165
+End
+
+#23167
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23163
+DOOR 1
+~
+~
+0 0 23168
+DOOR 3
+~
+~
+0 0 23161
+DOOR 4
+~
+~
+0 0 23172
+End
+
+#23168
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23164
+DOOR 1
+~
+~
+0 0 23169
+DOOR 3
+~
+~
+0 0 23167
+DOOR 4
+~
+~
+0 0 23171
+End
+
+#23169
+NAME   Bloody fields~
+DESCR
+Shouts and screams pierce the air from near and afar. Metal clangs can be
+heard from all around. The filthy soil is wet, soaked with blood. The
+fields extend in all directions.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 23165
+DOOR 1
+~
+~
+0 0 23138
+DOOR 3
+~
+~
+0 0 23168
+DOOR 4
+~
+~
+0 0 23170
+End
+
+#23170
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 2
+~
+~
+0 0 23175
+DOOR 3
+~
+~
+0 0 23171
+DOOR 5
+~
+~
+0 0 23169
+End
+
+#23171
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 1
+~
+~
+0 0 23170
+DOOR 2
+~
+~
+0 0 23174
+DOOR 3
+~
+~
+0 0 23172
+DOOR 5
+~
+~
+0 0 23168
+End
+
+#23172
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 1
+~
+~
+0 0 23171
+DOOR 2
+~
+~
+0 0 23173
+DOOR 5
+~
+~
+0 0 23167
+End
+
+#23173
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23172
+DOOR 1
+~
+~
+0 0 23174
+DOOR 5
+~
+~
+0 0 23150
+End
+
+#23174
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23171
+DOOR 1
+~
+~
+0 0 23175
+DOOR 3
+~
+~
+0 0 23173
+DOOR 5
+~
+~
+0 0 23141
+End
+
+#23175
+NAME   Storm Hill~
+DESCR
+You are standing atop Storm Hill.  Fields strewn with blood surround you and
+piles of corpses cover the ground.  More metal clanging can be heard from
+around and beneath you.  You can see March Hill south of you.
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 23170
+DOOR 3
+~
+~
+0 0 23174
+DOOR 5
+~
+~
+0 0 23140
+End
+
+#0
+
+
+
+#SPECIALS
+M 23101 spec_cast_cleric
+M 23105 spec_lothar
+M 23106 spec_poison
+M 23108 spec_cast_undead
+M 23109 spec_cire
+M 23110 spec_cast_cleric
+S
+
+
+
+#RESETS
+M 0 23100 250 23102 4
+M 0 23101 125 23102 2
+M 0 23102 125 23102 2
+M 0 23103 300 23102 5
+M 0 23104 100 23102 2
+M 0 23103 300 23104 5
+M 0 23104 100 23104 2
+M 0 23100 250 23106 4
+M 0 23101 125 23106 2
+M 0 23102 125 23106 2
+M 0 23103 300 23106 5
+M 0 23104 100 23106 2
+M 0 23103 300 23108 5
+M 0 23104 100 23108 2
+M 0 23105 1 23109 1
+E 0 23100 0 16
+E 0 23104 0 6
+E 0 23110 0 13
+E 0 23108 0 11
+M 0 23100 250 23110 4
+M 0 23101 125 23110 2
+M 0 23102 125 23110 2
+M 0 23103 300 23110 5
+M 0 23104 100 23110 2
+M 0 23110 1 23111 1
+E 0 23111 0 16
+M 0 23103 300 23112 5
+M 0 23104 100 23112 2
+M 0 23108 1 23112 1
+E 0 23102 0 16
+E 0 23106 0 12
+M 0 23100 250 23114 4
+M 0 23101 125 23114 2
+M 0 23102 125 23114 2
+M 0 23103 300 23114 5
+M 0 23104 100 23114 2
+M 0 23103 300 23116 5
+M 0 23104 100 23116 2
+M 0 23100 250 23118 4
+M 0 23101 125 23118 2
+M 0 23102 125 23118 2
+M 0 23103 300 23118 5
+M 0 23104 100 23118 2
+M 0 23103 300 23120 5
+M 0 23104 100 23120 2
+M 0 23100 250 23122 4
+M 0 23101 125 23122 2
+M 0 23102 125 23122 2
+M 0 23103 300 23122 5
+M 0 23104 100 23122 2
+M 0 23103 300 23124 5
+M 0 23104 100 23124 2
+M 0 23100 250 23126 4
+M 0 23101 125 23126 2
+M 0 23102 125 23126 2
+M 0 23103 300 23126 5
+M 0 23104 100 23126 2
+M 0 23103 300 23128 5
+M 0 23104 100 23128 2
+M 0 23100 250 23130 4
+M 0 23101 125 23130 2
+M 0 23102 125 23130 2
+M 0 23103 300 23130 5
+M 0 23104 100 23130 2
+M 0 23103 300 23132 5
+M 0 23104 100 23132 2
+M 0 23100 250 23134 4
+M 0 23101 125 23134 2
+M 0 23102 125 23134 2
+M 0 23103 300 23134 5
+M 0 23104 100 23134 2
+M 0 23103 300 23136 5
+M 0 23104 100 23136 2
+M 0 23100 250 23138 4
+M 0 23101 125 23138 2
+M 0 23102 125 23138 2
+M 0 23103 300 23138 5
+M 0 23104 100 23138 2
+M 0 23103 300 23140 5
+M 0 23104 100 23140 2
+M 0 23100 250 23142 4
+M 0 23101 125 23142 2
+M 0 23102 125 23142 2
+M 0 23103 300 23142 5
+M 0 23104 100 23142 2
+M 0 23106 1 23143 1
+E 0 23101 0 16
+E 0 23107 0 13
+G 0 23115 0
+M 0 23103 300 23144 5
+M 0 23104 100 23144 2
+M 0 23100 250 23146 4
+M 0 23101 125 23146 2
+M 0 23102 125 23146 2
+M 0 23103 300 23146 5
+M 0 23104 100 23146 2
+M 0 23103 300 23148 5
+M 0 23104 100 23148 2
+M 0 23100 250 23150 4
+M 0 23101 125 23150 2
+M 0 23102 125 23150 2
+M 0 23103 300 23150 5
+M 0 23104 100 23150 2
+M 0 23103 300 23152 5
+M 0 23104 100 23152 2
+M 0 23109 1 23152 1
+E 0 23103 0 16
+E 0 23105 0 5
+E 0 23108 0 11
+E 0 23109 0 8
+M 0 23100 250 23154 4
+M 0 23101 125 23154 2
+M 0 23102 125 23154 2
+M 0 23103 300 23154 5
+M 0 23104 100 23154 2
+M 0 23103 300 23156 5
+M 0 23104 100 23156 2
+M 0 23100 250 23158 4
+M 0 23101 125 23158 2
+M 0 23102 125 23158 2
+M 0 23103 300 23158 5
+M 0 23104 100 23158 2
+M 0 23103 300 23160 5
+M 0 23104 100 23160 2
+M 0 23100 250 23162 4
+M 0 23101 125 23162 2
+M 0 23102 125 23162 2
+M 0 23103 300 23162 5
+M 0 23104 100 23162 2
+M 0 23103 300 23164 5
+M 0 23104 100 23164 2
+M 0 23100 250 23166 4
+M 0 23101 125 23166 2
+M 0 23102 125 23166 2
+M 0 23103 300 23166 5
+M 0 23104 100 23166 2
+M 0 23103 300 23168 5
+M 0 23104 100 23168 2
+M 0 23100 250 23170 4
+M 0 23101 125 23170 2
+M 0 23102 125 23170 2
+M 0 23103 300 23170 5
+M 0 23104 100 23170 2
+M 0 23103 300 23172 5
+M 0 23104 100 23172 2
+M 0 23100 250 23174 4
+M 0 23101 125 23174 2
+M 0 23102 125 23174 2
+M 0 23103 300 23174 5
+M 0 23104 100 23174 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+M 23100 greet_prog greet_prog_battlefield_soldier
+M 23101 greet_prog greet_prog_battlefield_paladin
+M 23102 greet_prog greet_prog_battlefield_troll
+M 23103 greet_prog greet_prog_battlefield_goblin
+E
+
+
+
+#$

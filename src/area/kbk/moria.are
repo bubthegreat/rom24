@@ -1,0 +1,4370 @@
+#AREADATA
+Name Moria~
+Builders None~
+VNUMs 3900 4199
+Credits { 5 15} Alfa    Moria~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#4000
+NAME  python snake~
+SHORT the huge python~
+LONG  The huge python rears its head and hisses at you. 
+~
+DESCR
+It sways back and forth contemplating whether or not to eat you.
+~
+RACE  snake~
+ACT   ABF
+AFF   1 1 0 8
+OFF   FHNOR
+IMM   0
+RES   FL
+VULN  I
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 11
+HROLL 2
+ENHA  100.00%
+HDICE 11d9+110
+MDICE 1d1+99
+DDICE 3d4+2
+DTYPE bite
+AC    -1 0 3 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4001
+NAME  garter snake~
+SHORT the garter snake~
+LONG  A small green garter snake slithers along the floor.
+~
+DESCR
+It looks harmless enough.  Or is it?
+~
+RACE  snake~
+ACT   ABU
+AFF   0 0
+OFF   FHR
+IMM   0
+RES   EL
+VULN  I
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 0
+ENHA  100.00%
+HDICE 7d7+60
+MDICE 1d1+99
+DDICE 1d10+1
+DTYPE bite
+AC    2 3 5 8
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4002
+NAME  centipede~
+SHORT the centipede~
+LONG  A small centipede here is looking for vegetation.
+~
+DESCR
+It looks completely harmless but who knows for sure?
+~
+RACE  centipede~
+ACT   ABU
+AFF   1 1 0 33554944
+OFF   FR
+IMM   0
+RES   FI
+VULN  E
+WSPEC 0
+ALIGN 100
+GROUP 0
+LEVEL 3
+HROLL 0
+ENHA  100.00%
+HDICE 3d3+30
+MDICE 1d1+99
+DDICE 1d6+0
+DTYPE sting
+AC    6 7 9 10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGO
+PARTS ACK
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4003
+NAME  kobold~
+SHORT the kobold~
+LONG  An ugly kobold mumbles something under its breath.
+~
+DESCR
+It looks ugly enough to scare its own mother.
+~
+RACE  kobold~
+ACT   ACGT
+AFF   1 1 0 512
+OFF   R
+IMM   0
+RES   L
+VULN  C
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 4
+HROLL 0
+ENHA  100.00%
+HDICE 4d4+40
+MDICE 1d1+99
+DDICE 1d4+1
+DTYPE claw
+AC    7 7 7 10
+POS   stand stand
+SEX   either
+GOLD  18
+FORM  ABHMV
+PARTS ABCDEFGHIJKQ
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4004
+NAME  orc~
+SHORT the orc~
+LONG  This orc is frothing around the mouth.  Better stay away.
+~
+DESCR
+You notice a slight tinge of madness in his eyes.
+~
+RACE  unique~
+ACT   ACFGT
+AFF   0 0
+OFF   CDNR
+IMM   0
+RES   C
+VULN  0
+WSPEC 0
+ALIGN -400
+GROUP 0
+LEVEL 5
+HROLL 2
+ENHA  100.00%
+HDICE 6d5+50
+MDICE 1d1+199
+DDICE 1d6+3
+DTYPE beating
+AC    7 7 7 10
+POS   stand stand
+SEX   male
+GOLD  60
+FORM  B
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4005
+NAME  orc~
+SHORT the large orc~
+LONG  This large orc is looking for someone small to pick on.
+~
+DESCR
+The orc says, "Whatcha look'n at?"
+~
+RACE  unique~
+ACT   ACGT
+AFF   0 0
+OFF   CJR
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 6d7+70
+MDICE 1d1+99
+DDICE 1d8+2
+DTYPE punch
+AC    4 5 5 8
+POS   stand stand
+SEX   either
+GOLD  120
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4050
+NAME  warrior~
+SHORT the warrior~
+LONG  This tall warrior has more scars than even you!
+~
+DESCR
+He's surely a strong, brainless fighter.  Like you.
+~
+RACE  human~
+ACT   ABCFT
+AFF   0 0
+OFF   CIQR
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 12
+HROLL 3
+ENHA  100.00%
+HDICE 10d12+120
+MDICE 1d1+149
+DDICE 1d8+4
+DTYPE punch
+AC    1 -1 2 5
+POS   stand stand
+SEX   male
+GOLD  300
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4051
+NAME  warrior~
+SHORT the warrior~
+LONG  This veteran warrior is old enough to be your father.
+~
+DESCR
+He seems to know his way with weapons.  And he wants
+to show you what he can do!
+~
+RACE  human~
+ACT   ACFT
+AFF   0 0
+OFF   CIQR
+IMM   0
+RES   0
+VULN  C
+WSPEC 0
+ALIGN -400
+GROUP 0
+LEVEL 7
+HROLL 2
+ENHA  100.00%
+HDICE 8d7+70
+MDICE 1d1+99
+DDICE 1d7+2
+DTYPE punch
+AC    4 5 4 8
+POS   stand stand
+SEX   male
+GOLD  140
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4052
+NAME  hobgoblin~
+SHORT the hobgoblin~
+LONG  A small beat-up hobgoblin cringes in the corner.
+~
+DESCR
+Looking into the eyes of this poor soul makes you feel
+sad as you see the terror and fear in its eyes.  Why
+don't you put it out of its misery?
+~
+RACE  hobgoblin~
+ACT   ACGHT
+AFF   1 1 0 512
+OFF   N
+IMM   0
+RES   LQ
+VULN  C
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 6
+HROLL 0
+ENHA  100.00%
+HDICE 6d6+40
+MDICE 1d1+99
+DDICE 1d6+1
+DTYPE beating
+AC    6 5 5 8
+POS   stand stand
+SEX   male
+GOLD  12
+FORM  AHMV
+PARTS ABCDEFGHIJKY
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4053
+NAME  snake~
+SHORT the snake~
+LONG  A sickly brown snake watches you with caution.
+~
+DESCR
+A closer look reveals a hungry demeanor.  Don't get too close!
+~
+RACE  snake~
+ACT   ABFU
+AFF   0 0
+OFF   FGNR
+IMM   0
+RES   EFL
+VULN  I
+WSPEC 0
+ALIGN -600
+GROUP 0
+LEVEL 10
+HROLL 1
+ENHA  100.00%
+HDICE 4d10+100
+MDICE 1d1+99
+DDICE 2d6+1
+DTYPE bite
+AC    0 2 2 5
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4054
+NAME  centipede~
+SHORT the centipede~
+LONG  A white centipede crawls along the cave floors randomly.
+~
+DESCR
+The centipede doesn't really seem to notice you.
+~
+RACE  centipede~
+ACT   ABU
+AFF   1 1 0 33554944
+OFF   FR
+IMM   0
+RES   FI
+VULN  E
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 5
+HROLL 0
+ENHA  100.00%
+HDICE 5d5+50
+MDICE 1d1+99
+DDICE 1d8+0
+DTYPE sting
+AC    4 7 5 10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGO
+PARTS ACK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4055
+NAME  hobgoblin~
+SHORT the large hobgoblin~
+LONG  A large hobgoblin is here wondering if he should tear you apart.
+~
+DESCR
+Red, bloodshot eyes and drool dripping from its mouth makes you
+wonder just how far away you should be.
+~
+RACE  hobgoblin~
+ACT   ACGT
+AFF   1 1 0 512
+OFF   CDJR
+IMM   0
+RES   CLQ
+VULN  0
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 10
+HROLL 2
+ENHA  100.00%
+HDICE 2d10+120
+MDICE 1d1+149
+DDICE 2d4+3
+DTYPE punch
+AC    2 2 1 5
+POS   stand stand
+SEX   male
+GOLD  210
+FORM  AHMV
+PARTS ABCDEFGHIJKY
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4056
+NAME  orc~
+SHORT the orc~
+LONG  An orc is here, looking for something (or perhaps someone) to eat.
+~
+DESCR
+As you already know, orcs have quite a ravenous appetite.  
+Care to be dinner?
+~
+RACE  unique~
+ACT   ACFGT
+AFF   0 0
+OFF   CNR
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -800
+GROUP 0
+LEVEL 8
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+90
+MDICE 1d1+99
+DDICE 1d8+2
+DTYPE beating
+AC    3 3 2 5
+POS   stand stand
+SEX   either
+GOLD  60
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4057
+NAME  lion mountain~
+SHORT the mountain lion~
+LONG  A mountain lion bears its teeth at the sight of more food.
+~
+DESCR
+Huge claws and big teeth make quite a fearsome opponent for
+the weary.  Are you next?
+~
+RACE  cat~
+ACT   AFG
+AFF   1 1 0 33554432
+OFF   EFHR
+IMM   0
+RES   E
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 9
+HROLL 2
+ENHA  100.00%
+HDICE 4d10+100
+MDICE 1d1+99
+DDICE 2d6+1
+DTYPE claw
+AC    0 0 0 4
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKQUV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4058
+NAME  giant hill~
+SHORT the hill giant~
+LONG  A hill giant is here tossing rocks around.  Marbles perhaps?
+~
+DESCR
+The hill giant looks like he's about 9 feet tall. By his actions you
+come to the conclusion that he's not very intelligent.  A perfect
+playmate for you.
+~
+RACE  unique~
+ACT   AGT
+AFF   0 0
+OFF   DOR
+IMM   0
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 13
+HROLL 2
+ENHA  100.00%
+HDICE 10d10+150
+MDICE 10d10+100
+DDICE 2d6+6
+DTYPE smash
+AC    0 -2 0 4
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  0
+PARTS 0
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4100
+NAME  mage~
+SHORT the Mage~
+LONG  A small intelligent looking mage is standing here. It looks like he
+knows his way with magic. 
+~
+DESCR
+This guy can ace the SAT with his frontal lobe tied behind his back.
+~
+RACE  human~
+ACT   ABCFR
+AFF   1 1 0 8
+OFF   FQ
+IMM   0
+RES   C
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 13
+HROLL 1
+ENHA  100.00%
+HDICE 7d5+130
+MDICE 13d10+100
+DDICE 1d6+2
+DTYPE punch
+AC    -2 -2 -2 2
+POS   stand stand
+SEX   male
+GOLD  400
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4101
+NAME  troll~
+SHORT the troll~
+LONG  This large mean-looking troll wants to take a closer look at you.
+~
+DESCR
+Whilst you look at this troll, you realize he is trying to
+figure just how tender you are.
+~
+RACE  troll~
+ACT   ABCFT
+AFF   1 1 0 512
+OFF   CEOR
+IMM   0
+RES   DLQ
+VULN  HK
+WSPEC 0
+ALIGN -800
+GROUP 0
+LEVEL 12
+HROLL 2
+ENHA  100.00%
+HDICE 7d10+150
+MDICE 5d10+100
+DDICE 2d7+3
+DTYPE claw
+AC    0 -3 2 6
+POS   stand stand
+SEX   male
+GOLD  200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4102
+NAME  guardian snake~
+SHORT the guardian snake~
+LONG  A large green snake is guardian for something.
+~
+DESCR
+You take a closer look at this large snake while it tries to
+bite your head off!
+~
+RACE  snake~
+ACT   ABCF
+AFF   0 0
+OFF   HMNOR
+IMM   0
+RES   FL
+VULN  GI
+WSPEC 0
+ALIGN -700
+GROUP 0
+LEVEL 10
+HROLL 2
+ENHA  100.00%
+HDICE 4d10+100
+MDICE 1d1+99
+DDICE 2d6+1
+DTYPE bite
+AC    0 0 2 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4103
+NAME  thief~
+SHORT the thief~
+LONG  A thief, all dressed in black.
+~
+DESCR
+Well COUNT your money!
+~
+RACE  human~
+ACT   ACHS
+AFF   1 2 0 33280
+OFF   EFJN
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 8
+HROLL 1
+ENHA  100.00%
+HDICE 6d8+80
+MDICE 1d1+99
+DDICE 1d5+1
+DTYPE punch
+AC    2 4 3 7
+POS   stand stand
+SEX   either
+GOLD  100
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4104
+NAME  orc~
+SHORT the orc~
+LONG  An ugly orc is standing here waiting for someone to practice on.
+~
+DESCR
+Yrkk..  He belches in your face!
+~
+RACE  unique~
+ACT   ACFGHT
+AFF   0 0
+OFF   CJR
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 7d7+70
+MDICE 1d1+99
+DDICE 1d8+3
+DTYPE punch
+AC    4 5 5 8
+POS   stand stand
+SEX   male
+GOLD  150
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4105
+NAME  centipede~
+SHORT a centipede~
+LONG  A small harmless centipede is here looking for some vegetation to eat.
+~
+DESCR
+It doesn't seem to pay any attention towards you.  You are probably
+not important.
+~
+RACE  centipede~
+ACT   ABU
+AFF   1 1 0 33554432
+OFF   FR
+IMM   0
+RES   FI
+VULN  E
+WSPEC 0
+ALIGN 300
+GROUP 0
+LEVEL 6
+HROLL 1
+ENHA  100.00%
+HDICE 8d5+50
+MDICE 1d1+99
+DDICE 2d4+1
+DTYPE sting
+AC    3 6 4 10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGO
+PARTS ACK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4106
+NAME  warrior~
+SHORT the Warrior~
+LONG  A human warrior grins an evil grin in your face.
+~
+DESCR
+He doesn't look friendly at all...  He is no Mr. Rogers!
+~
+RACE  human~
+ACT   ACFGT
+AFF   0 0
+OFF   CJQU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 9
+HROLL 2
+ENHA  100.00%
+HDICE 4d10+130
+MDICE 1d1+99
+DDICE 1d8+3
+DTYPE punch
+AC    3 2 4 6
+POS   stand stand
+SEX   male
+GOLD  300
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4107
+NAME  kobold~
+SHORT the green kobold~
+LONG  A green kobold hobbles along the cave walls puking periodically.
+~
+DESCR
+It looks a little sick.  Something he ate maybe?
+~
+RACE  kobold~
+ACT   ACFGT
+AFF   1 1 0 512
+OFF   NR
+IMM   0
+RES   L
+VULN  C
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 8d4+50
+MDICE 1d1+99
+DDICE 2d4+1
+DTYPE claw
+AC    5 5 5 10
+POS   stand stand
+SEX   either
+GOLD  25
+FORM  ABHMV
+PARTS ABCDEFGHIJKQ
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4150
+NAME  bat blue~
+SHORT the blue bat~
+LONG  A blue bat flies in circles while electrical charges arc here and there.
+~
+DESCR
+Bzzzt.  Zap.  Crackle.  Speak about static electricity!
+~
+RACE  bat~
+ACT   ABF
+AFF   1 2 0 34079232
+OFF   FHR
+IMM   J
+RES   0
+VULN  RSYZ
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+70
+MDICE 1d1+99
+DDICE 1d9+1
+DTYPE shbite
+AC    4 4 4 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKP
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4151
+NAME  bat red~
+SHORT the red bat~
+LONG  A red bat hangs upside down from the ceiling, glowing.
+~
+DESCR
+You can definitely feel some heat from this thing.  A fever perhaps?
+~
+RACE  bat~
+ACT   ABF
+AFF   1 2 0 34079232
+OFF   FHR
+IMM   H
+RES   0
+VULN  IRS
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+70
+MDICE 1d1+99
+DDICE 1d9+1
+DTYPE flbite
+AC    4 4 4 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKP
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4152
+NAME  bat green~
+SHORT the green bat~
+LONG  A green bat flies from wall to wall leaving an awful smell.
+~
+DESCR
+Whew!  What a stinker!
+~
+RACE  bat~
+ACT   ABF
+AFF   1 2 0 34079232
+OFF   FHR
+IMM   L
+RES   0
+VULN  S
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+70
+MDICE 1d1+99
+DDICE 1d9+1
+DTYPE bite
+AC    4 4 4 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  ABGV
+PARTS ACDEFHJKP
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4153
+NAME  bat white~
+SHORT the white bat~
+LONG  A white bat rests on the ceiling.  You wonder where the cold is coming from.
+~
+DESCR
+Brrr!  You almost can't distinguish this bat from an ice cube.
+~
+RACE  bat~
+ACT   ABF
+AFF   1 2 0 34079232
+OFF   FHR
+IMM   I
+RES   0
+VULN  HS
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+70
+MDICE 1d1+99
+DDICE 1d9+1
+DTYPE frbite
+AC    4 4 4 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKP
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4154
+NAME  bat black~
+SHORT the black bat~
+LONG  A black bat flies from wall to wall leaving something hissing behind.
+~
+DESCR
+Amazing!  This bat is grooming itself with acid!
+~
+RACE  bat~
+ACT   ABF
+AFF   1 2 0 34079232
+OFF   FHR
+IMM   K
+RES   0
+VULN  S
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 7
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+70
+MDICE 1d1+99
+DDICE 1d9+1
+DTYPE acbite
+AC    4 4 4 6
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKP
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4155
+NAME  thief~
+SHORT the thief~
+LONG  A sneaky thief appears and disappears within the shadows.
+~
+DESCR
+He definitely knows what he's doing.  Trust him.
+~
+RACE  human~
+ACT   ACGS
+AFF   1 2 0 514
+OFF   BFJNQU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 400
+GROUP 0
+LEVEL 12
+HROLL 2
+ENHA  100.00%
+HDICE 3d20+130
+MDICE 1d1+99
+DDICE 2d4+3
+DTYPE punch
+AC    2 0 0 6
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4156
+NAME  troll~
+SHORT the troll~
+LONG  A large ugly troll is here mumbling something.
+~
+DESCR
+He looks quite mean.  Don't mess with him.
+~
+RACE  troll~
+ACT   ABCFT
+AFF   1 1 0 512
+OFF   CEOR
+IMM   0
+RES   DLQ
+VULN  CHK
+WSPEC 0
+ALIGN -700
+GROUP 0
+LEVEL 14
+HROLL 3
+ENHA  100.00%
+HDICE 8d20+140
+MDICE 14d4+100
+DDICE 3d4+5
+DTYPE claw
+AC    -1 -3 -1 4
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4157
+NAME  mage~
+SHORT the Mage~
+LONG  A small man is here researching magical incantations.
+~
+DESCR
+His little head is buried into his magic books.  He'd be very
+angry should you bother his studies.
+~
+RACE  human~
+ACT   ACFGR
+AFF   0 0
+OFF   QU
+IMM   0
+RES   C
+VULN  0
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 11
+HROLL 0
+ENHA  100.00%
+HDICE 4d10+100
+MDICE 11d12+100
+DDICE 1d6+1
+DTYPE beating
+AC    0 0 0 2
+POS   stand stand
+SEX   male
+GOLD  200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4158
+NAME  snake~
+SHORT the snake~
+LONG  A brown snake hisses at you.
+~
+DESCR
+Sickly brown as it is, you know what it really wants is you
+for dinner.
+~
+RACE  snake~
+ACT   ABFU
+AFF   0 0
+OFF   FGNR
+IMM   0
+RES   EFL
+VULN  I
+WSPEC 0
+ALIGN 200
+GROUP 0
+LEVEL 9
+HROLL 1
+ENHA  100.00%
+HDICE 2d10+100
+MDICE 1d1+99
+DDICE 1d12+1
+DTYPE bite
+AC    1 3 3 6
+POS   fight fight
+SEX   either
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4159
+NAME  troll~
+SHORT the small troll~
+LONG  A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
+~
+DESCR
+He is so happy, you are disgusted.  Kill him now!
+~
+RACE  troll~
+ACT   ACFGT
+AFF   1 1 0 512
+OFF   EJR
+IMM   0
+RES   DLQ
+VULN  HK
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 8
+HROLL 2
+ENHA  100.00%
+HDICE 3d10+80
+MDICE 8d4+100
+DDICE 2d5+2
+DTYPE bite
+AC    3 1 3 6
+POS   stand stand
+SEX   male
+GOLD  100
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4160
+NAME  orc~
+SHORT the orc~
+LONG  A large orc growls in your face.
+~
+DESCR
+He is just looking for a fight isn't he?
+~
+RACE  unique~
+ACT   ACFGT
+AFF   0 0
+OFF   CJNR
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 9
+HROLL 1
+ENHA  100.00%
+HDICE 3d10+100
+MDICE 1d1+99
+DDICE 1d8+2
+DTYPE beating
+AC    2 2 1 5
+POS   stand stand
+SEX   either
+GOLD  150
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#4000
+NAME   ring yellow green~
+SHORT  a yellow and green ring~
+DESCR 
+A ring, with yellow and green ornamentation. It looks very old.~
+MAT    copper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  0 0
+WEAR   AB
+LEVEL  0
+WEIGHT 1
+COST   0
+COND   100
+Affect O 1 -2 0
+EDESC ring~
+It feels heavy.
+~
+End
+
+#4001
+NAME   ~
+SHORT  a corpse~
+DESCR 
+A halfway decayed corpse of a cartographer.~
+MAT    flesh~
+TYPE   npc_corpse 0 0 0 0 0
+EXTRA  1 1 0 32768
+WEAR   A
+LEVEL  0
+WEIGHT 100
+COST   0
+COND   100
+EDESC ~
+Ew.  This must have been the mapper that was lost in Moria.  His rotted hand
+still clutches a partially digested map...
+~
+End
+
+#4002
+NAME   coins~
+SHORT  some coins~
+DESCR 
+A small pile of coins.~
+MAT    silver~
+TYPE   money DGH 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 500
+COST   0
+COND   100
+End
+
+#4003
+NAME   dagger rusty~
+SHORT  a rusty dagger~
+DESCR 
+A worn and rusty dagger is here.~
+MAT    iron~
+TYPE   weapon dagger 1 5 stab 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 4
+COST   165
+COND   100
+Affect O 18 -1 0
+EDESC dagger~
+It's old and rusted, but it still has a good edge.
+~
+End
+
+#4004
+NAME   bullwhip whip~
+SHORT  a bullwhip~
+DESCR 
+A coiled length of leather is here...looks like a nasty whip!~
+MAT    leather~
+TYPE   weapon whip 1 7 whip 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  3
+WEIGHT 6
+COST   240
+COND   100
+Affect O 18 1 0
+End
+
+#4005
+NAME   club tree huge~
+SHORT  a huge club~
+DESCR 
+An uprooted tree leans against the wall.~
+MAT    wood~
+TYPE   weapon mace 2 9 crush F
+EXTRA  0 0
+WEAR   AN
+LEVEL  14
+WEIGHT 25
+COST   780
+COND   100
+Affect O 18 -2 0
+EDESC club tree~
+This is the biggest club you have ever seen!  The giant didn't even bother to
+trim the roots off the end.
+~
+End
+
+#4006
+NAME   furs smelly~
+SHORT  some smelly furs~
+DESCR 
+A heap of smelly furs sit here.~
+MAT    fur~
+TYPE   armor AC BC AC A AB
+EXTRA  0 0
+WEAR   AK
+LEVEL  8
+WEIGHT 10
+COST   510
+COND   100
+Affect O 2 -1 0
+EDESC furs~
+They're heavy and smelly and would probably slow you down...but they do look
+like good armor.
+~
+End
+
+#4050
+NAME   potion purple~
+SHORT  a purple potion~
+DESCR 
+A purple potion is here.~
+MAT    glass~
+TYPE   potion 13 'cure blindness' '' '' ''
+EXTRA  0 0
+WEAR   AO
+LEVEL  11
+WEIGHT 1
+COST   720
+COND   100
+EDESC potion purple~
+It looks rather strange!
+~
+End
+
+#4051
+NAME   helmet metal~
+SHORT  a metal helmet~
+DESCR 
+A metal helmet is here.~
+MAT    iron~
+TYPE   armor C C AB B A
+EXTRA  1 1 0 64
+WEAR   AE
+LEVEL  5
+WEIGHT 4
+COST   650
+COND   100
+Affect O 20 -1 0
+End
+
+#4052
+NAME   mushroom~
+SHORT  a mushroom~
+DESCR 
+A small mushroom is here.~
+MAT    food~
+TYPE   food B B 0 A 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 1
+COST   0
+COND   100
+EDESC mushroom~
+Let's put it this way - I wouldn't eat it !
+~
+End
+
+#4053
+NAME   dirk~
+SHORT  a thieves dirk~
+DESCR 
+A beautifully crafted dirk is lying here.~
+MAT    steel~
+TYPE   weapon dagger 2 5 stab 0
+EXTRA  1 1 0 64
+WEAR   AN
+LEVEL  8
+WEIGHT 2
+COST   590
+COND   100
+Affect O 18 1 0
+Affect O 19 1 0
+EDESC dirk~
+It's a medium sized, beautifully crafted dirk made from grey alloy.
+Its blade is double-edged and very thin ... this looks like a good
+thieves weapon.
+~
+End
+
+#4054
+NAME   axe war~
+SHORT  a war axe~
+DESCR 
+A razor-sharp war axe rests on the ground.~
+MAT    steel~
+TYPE   weapon axe 3 4 chop 0
+EXTRA  1 1 0 64
+WEAR   AN
+LEVEL  12
+WEIGHT 7
+COST   930
+COND   100
+Affect O 19 1 0
+EDESC axe~
+It has an edge sharp enough to cut a passing thought. A good find, this.
+~
+End
+
+#4055
+NAME   sword broad~
+SHORT  a broad sword~
+DESCR 
+A well-polished broadsword sits here.~
+MAT    steel~
+TYPE   weapon sword 1 10 chop 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  6
+WEIGHT 8
+COST   550
+COND   100
+EDESC sword~
+It's much heavier than a long sword, but not as well balanced.
+~
+End
+
+#4056
+NAME   flail two two-headed~
+SHORT  a two-headed flail~
+DESCR 
+A flail with two heavy, spiked heads is here.~
+MAT    iron~
+TYPE   weapon flail 1 7 smash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  3
+WEIGHT 7
+COST   290
+COND   100
+Affect O 19 2 0
+Affect O 17 1 0
+EDESC flail~
+It's a stout wooden rod with two spiked balls attached, each weighing over 2
+pounds.  It's a little worn for wear, but looks most painful.
+~
+End
+
+#4057
+NAME   mace heavy~
+SHORT  a heavy iron mace~
+DESCR 
+A large iron mace with a wicked head rests on the ground.~
+MAT    iron~
+TYPE   weapon mace 2 4 pound 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  6
+WEIGHT 10
+COST   390
+COND   100
+Affect O 19 1 0
+EDESC mace~
+A metal shaft mounted with an iron head, shaped into armor-shattering form.
+~
+End
+
+#4058
+NAME   falchion sword~
+SHORT  a falchion~
+DESCR 
+A curved sword with a heavy tip sits here.~
+MAT    iron~
+TYPE   weapon sword 2 4 chop 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  5
+WEIGHT 8
+COST   490
+COND   100
+EDESC falchion~
+It's curved like a scimitar, only with no recurved blade and a tip designed
+for piercing as well as slashing.
+~
+End
+
+#4059
+NAME   voulge polearm~
+SHORT  a voulge~
+DESCR 
+A long polearm with a curved blade is here.~
+MAT    iron~
+TYPE   weapon polearm 2 6 slash F
+EXTRA  0 0
+WEAR   AN
+LEVEL  10
+WEIGHT 12
+COST   520
+COND   100
+Affect O 17 -1 0
+EDESC voulge~
+It looks a lot like a staff with a pruning knife tied to the end, but it's
+quite effective.
+~
+End
+
+#4100
+NAME   blade black demon~
+SHORT  the black demon blade~
+DESCR 
+An evil black demon blade is here.~
+MAT    adamantite~
+TYPE   weapon sword 3 4 cleave CF
+EXTRA  1 3 0 2624
+WEAR   AN
+LEVEL  11
+WEIGHT 8
+COST   940
+COND   100
+EDESC blade~
+You'll become as evil as the weapon, if you use it!
+~
+End
+
+#4101
+NAME   gloves~
+SHORT  swordsman's gloves~
+DESCR 
+Some gloves are here.  They look like the right equipment for fighting.~
+MAT    leather~
+TYPE   armor A AB AB A A
+EXTRA  1 1 0 64
+WEAR   AH
+LEVEL  7
+WEIGHT 1
+COST   730
+COND   100
+Affect O 18 1 0
+Affect O 19 1 0
+End
+
+#4102
+NAME   scroll ysafg~
+SHORT  a scroll which reads "ysafg"~
+DESCR 
+A scroll which reads "ysafg", it looks very fragile and quite old.~
+MAT    parchment~
+TYPE   scroll 10 'identify' '' '' ''
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  7
+WEIGHT 1
+COST   840
+COND   100
+EDESC scroll~
+It looks informative.
+~
+End
+
+#4103
+NAME   slime mold~
+SHORT  a green slime mold~
+DESCR 
+A green slime mold is here. It smells REAL bad.~
+MAT    food~
+TYPE   food DE DE 0 0 0
+EXTRA  1 1 0 32768
+WEAR   A
+LEVEL  0
+WEIGHT 1
+COST   0
+COND   100
+EDESC slime mold~
+It wasn't meant to be food, - Certainly not for humans.
+~
+End
+
+#4104
+NAME   slime mold~
+SHORT  a green slime mold~
+DESCR 
+A green slime mold is here. It smells REAL bad.~
+MAT    food~
+TYPE   food DE DE 0 A 0
+EXTRA  1 1 0 32768
+WEAR   A
+LEVEL  0
+WEIGHT 1
+COST   0
+COND   100
+EDESC slime mold~
+It wasn't meant to be food, - Certainly not for humans.
+~
+End
+
+#4105
+NAME   staff iron iron-shod~
+SHORT  an iron-shod staff~
+DESCR 
+A long staff capped with iron leans against a wall.~
+MAT    iron~
+TYPE   weapon staff 2 5 pound F
+EXTRA  0 0
+WEAR   AN
+LEVEL  10
+WEIGHT 6
+COST   630
+COND   100
+Affect O 17 -2 0
+EDESC staff~
+It's a superb weapon for warrior or mage.
+~
+End
+
+#4150
+NAME   black potion~
+SHORT  a black potion~
+DESCR 
+A thick black potion is here.~
+MAT    glass~
+TYPE   potion 9 'cure critical' '' '' ''
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  5
+WEIGHT 1
+COST   320
+COND   100
+EDESC potion black~
+It looks healthy.
+~
+End
+
+#4151
+NAME   staff oak~
+SHORT  a heavy oak staff~
+DESCR 
+A ancient heavy oak staff is here.~
+MAT    wood~
+TYPE   staff 15 4 2 'harm' 0
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  13
+WEIGHT 5
+COST   5400
+COND   100
+Affect O 12 -20 0
+EDESC staff oak~
+You see it has some sort of runes on it.
+~
+EDESC runes~
+The runes says : Funthark.
+~
+End
+
+#4152
+NAME   dagger light silver~
+SHORT  a light silver dagger~
+DESCR 
+A light silver dagger is here.~
+MAT    silver~
+TYPE   weapon dagger 2 4 stab 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  7
+WEIGHT 6
+COST   660
+COND   100
+Affect O 18 1 0
+Affect O 17 -1 0
+EDESC dagger light silver~
+It looks like an excellent weapon for thieves.
+~
+End
+
+#4153
+NAME   star morning morningstar~
+SHORT  a morning star~
+DESCR 
+A heavy, spiked morning star is here.~
+MAT    iron~
+TYPE   weapon mace 2 6 smash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  9
+WEIGHT 12
+COST   270
+COND   100
+Affect O 19 1 0
+Affect O 2 -1 0
+EDESC star morning~
+It's a huge length of wood studded with iron spikes and bands. You wouldn't
+want to meet this in a dark alley...
+~
+End
+
+#4154
+NAME   map moria second~
+SHORT  a map of the second level of Moria~
+DESCR 
+A rolled up map is here.~
+MAT    paper~
+TYPE   map A 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 1
+COST   100
+COND   100
+EDESC map moria second~
+.
+    * * * MORIA - Map 2 * * *
+     = = =============== = =
+
+Maze--Maze
+ |     |    (Map 1)
+ |    Maze--Tunnel*
+ |
+Maze--Maze--Maze--Maze
+              |
+     Large--Large
+     Cave   Cave
+      |       |
+     Large--Large--Tunnel--End of
+     Cave    Cave    |     Tunnel
+                   *Hole
+                  (Map 3)
+~
+End
+
+#4155
+NAME   map moria third~
+SHORT  a map of the third level of Moria~
+DESCR 
+A rolled up map is here.~
+MAT    paper~
+TYPE   map A 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 1
+COST   200
+COND   100
+EDESC map moria third~
+.
+                                                   (Map 1*)
+                             Long                     |
+        Tunnel----Tunnel----Tunnel--Tunnel--Tunnel--Tunnel
+          |                   |
+          |                  Gold--Gold
+          |                  Cave  Cave
+          |                   |      |
+          |                  Gold--Gold---Passage
+          |                  Cave  Cave      |
+          |                   |           Passage--Tunnel--Tunnel--Tunnel
+          |          Dark*---Gold            |
+          |         Passage  Cave            |     Secret
+          |                               Passage  Chamber
+          |                      Hole        |       |
+          |                        |      Passage  Secret
+        Large   Large   Large    Small       |     Chamber--Cave--Cave
+        Tunnel--Tunnel--Tunnel--Passage      |                |      |
+          |                        |      Passage-----------Cave--Cave
+          |                       Long
+          |                      Tunnel
+         Wet    Small  Small       |
+        Tunnel--Maze---Maze   Inscription
+          |       |      |         |
+         Wet    Small--Small-----Small
+        Tunnel  Maze   Maze      Maze
+          |       |                |
+          |      Wet    Wet      End of
+        Water    Maze---Maze-----Tunnel
+          |       |      |
+        Water---Water  End of
+                       Maze*
+                      (Map 2)
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#3900
+NAME   West trail around Midgaard~
+DESCR
+You are on a dusty trail following the outside wall of Midgaard.
+To the east the wall towers over you and to the west you see the
+forest of Haon-Dor. The trail leads north and south along the wall. 
+~
+FLAGS  0
+Sect   2
+DOOR 0
+The dusty trail winds north closely to the wall.
+~
+~
+0 -1 3901
+End
+
+#3901
+NAME   West trail around Midgaard~
+DESCR
+You are on a dusty trail following the outside wall of Midgaard.
+To the east the wall towers over you and to the west you see the
+forest of Haon-Dor. The trail leads north and south along the wall. 
+~
+FLAGS  0
+Sect   2
+DOOR 0
+To the north you notice the path makes a turn, following the City wall. 
+~
+~
+0 -1 3902
+DOOR 2
+The dusty trail continues towards the south.
+~
+~
+0 -1 3900
+End
+
+#3902
+NAME   Northwest corner of dusty trail.~
+DESCR
+You are standing outside the northwestern corner of the city wall.
+The trail leads east following the north wall and south towards the gate.  
+~
+FLAGS  0
+Sect   2
+DOOR 1
+The dusty trail winds close up to the north wall of Midgaard.
+~
+~
+0 -1 3903
+DOOR 2
+The dusty trail leads south towards the gate.
+~
+~
+0 -1 3901
+End
+
+#3903
+NAME   Dusty trail along north wall.~
+DESCR
+You are walking on the trail following the outside of Midgaard's
+northern wall.  
+~
+FLAGS  0
+Sect   2
+DOOR 1
+The dusty trail is winding along the north wall of Midgaard.
+~
+~
+0 -1 3904
+DOOR 3
+The dusty trail turns left around the corner of the wall, behind it Haon-Dor. 
+~
+~
+0 -1 3902
+End
+
+#3904
+NAME   The long dusty trail following the north wall.~
+DESCR
+You are just outside the northern gate of Midgaard.  You can continue along
+the trail to the east or west, head onwards to the plains of the north, or
+enter Midgaard to the south.  You can just barely make out the buildings of
+Midgaard from here, the Temple of Mota looks impressive even from this
+distance.  
+~
+FLAGS  0
+Sect   2
+DOOR 1
+The dusty trail is winding along the north wall of Midgaard. 
+~
+~
+0 -1 3905
+DOOR 3
+The dusty trail is winding along the north wall of Midgaard.
+~
+~
+0 -1 3903
+End
+
+#3905
+NAME   Dusty trail along north wall.~
+DESCR
+You are walking on the trail following the outside of Midgaard's
+northern wall.  
+~
+FLAGS  0
+Sect   2
+DOOR 1
+The dusty trail turns right around the corner of the wall. 
+You notice some mountains in the distance.
+~
+~
+0 -1 3906
+DOOR 3
+The dusty trail is winding along the north wall of Midgaard.
+~
+~
+0 -1 3904
+End
+
+#3906
+NAME   Northeast corner of dusty trail.~
+DESCR
+You are standing outside the northeastern corner of the city wall.
+The trail leads west following the north wall and south towards the gate.  
+~
+FLAGS  0
+Sect   2
+DOOR 2
+The dusty trail leads south towards the gate.
+~
+~
+0 -1 3907
+DOOR 3
+The dusty trail winds close up to the north wall of Midgaard.
+~
+~
+0 -1 3905
+End
+
+#3907
+NAME   East trail around Midgaard~
+DESCR
+You are on a dusty trail following the outside wall of Midgaard.
+To the west the wall towers over you and far to the east you see
+some mountains. The trail leads north and south along the wall. 
+~
+FLAGS  0
+Sect   2
+DOOR 0
+To the north you notice the path makes a turn, following the City wall. 
+~
+~
+0 -1 3906
+DOOR 2
+The dusty trail continues towards the south.
+~
+~
+0 -1 3908
+End
+
+#3908
+NAME   East trail around Midgaard~
+DESCR
+You are on a dusty trail following the outside wall of Midgaard.
+To the west the wall towers over you and far to the east you see
+some mountains. The trail leads north and south along the wall. 
+~
+FLAGS  0
+Sect   2
+DOOR 0
+The dusty trail winds north closely to the wall.
+~
+~
+0 -1 3907
+End
+
+#4000
+NAME   The hills~
+DESCR
+You are on a small bewildered path winding its way between the hills in
+lack of better things to do. To the south you have a splendid view over the
+flat, vast, desolate plains. To the north the hills grow steadily darker and
+foreboding. This is the cause of no sunset, it is rather the power of evil
+penetrating these quiet hills. Glancing around you notice only a single bird.
+The mountains of the dwarven kingdom rise up to your east, you can barely
+make out the queen's mines from here.
+~
+FLAGS  4
+Sect   4
+DOOR 0
+~
+~
+0 0 4001
+DOOR 1
+You see the mountains of the dwarven kingdom. 
+~
+~
+0 0 6562
+DOOR 2
+~
+~
+0 0 3500
+End
+
+#4001
+NAME   The hills~
+DESCR
+You are surrounded by dark and sinister hills. Although they seemed fairly
+small from a distance you now get the feeling that they're closing in on you,
+towering over you, overwhelming you ...  The small path seems to have second
+thoughts about these hills because it starts winding unnecessarily, turning
+several times around itself.  To the south the hills have a lighter hue of
+dark. To the north however, the hills have become nightblack holes in the
+distant mountains.
+~
+FLAGS  4
+Sect   4
+DOOR 0
+~
+~
+0 0 4002
+DOOR 2
+~
+~
+0 0 4000
+End
+
+#4002
+NAME   End of the path~
+DESCR
+At this point the path has had enough. With a terrified shudder it cowers
+to the ground, only staying here because you're standing on it. with a slight
+feeling of unease you look around noticing only a few bushes and a large sign
+carved into the mountain.  You feel you can hear the cry of help from a
+thousand silent voices all coming from an even darker hole in the mountain to
+the north marking the entrance to a cave (or a grave :-).
+~
+FLAGS  4
+Sect   4
+EDESC  bushes~
+Small crippled bushes desperately trying to grow south.
+~
+EDESC  sign~
+The sign says:
+
+        /---------------------\
+        | The Mines of Moria! |
+        |                     |
+        | Four levels.        |
+        |                     |
+        | Watch for mages!    |
+        |                     |
+        \---------------------/
+                 | |
+                 | |
+                 | |
+                 | |
+                 | |
+~
+DOOR 0
+~
+~
+0 0 4010
+DOOR 2
+~
+~
+0 0 4001
+End
+
+#4010
+NAME   The cave~
+DESCR
+You are in a large cave. The ceiling is lost somewhere above the reach of
+your light. The floor, however, is highly illuminated, your light flickering
+over several tombstones. Only one is whole, the rest have been shattered by
+some savage blow. The remaining tombstone looks disturbingly new...
+A small breeze of fresh air enters from the south (probably lost too). Take a
+good breath, it may be your last mouthful of air in a long, long time that
+others haven't breathed before you.
+To the north a small tunnel continues into the mountain.
+~
+FLAGS  9
+Sect   2
+EDESC  tombstone~
+The stone is inscribed with the unfortunate player's famous last words:
+
+  "What are you worrying about, it is just a small harmless snake"
+~
+DOOR 0
+~
+~
+0 0 4011
+DOOR 2
+~
+~
+0 0 4002
+End
+
+#4011
+NAME   The tunnel~
+DESCR
+You squeeze your way through a small, narrow tunnel. The sharp-edged rocks
+protruding from the walls threaten to scratch and cut you. 
+To the south you sense a freshness in the air which is rather unusual in these
+damp, stuffy tunnels. To the north the tunnel continues.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4014
+DOOR 2
+~
+~
+0 0 4010
+End
+
+#4012
+NAME   The tunnel~
+DESCR
+You are in a part of the tunnel that looks uncannily like the rest except
+that it goes in a east-north direction. To the north the tunnel widens into
+a cave.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4016
+DOOR 1
+~
+~
+0 0 4013
+End
+
+#4013
+NAME   The tunnel~
+DESCR
+This tunnel, leading east-west, seems seldom used.  A thick layer of dust
+covers the floor, making the air stuffy and dry. 
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4014
+DOOR 3
+~
+~
+0 0 4012
+End
+
+#4014
+NAME   The tunnel~
+DESCR
+You are walking in a narrow tunnel. The walls are only roughly shaped,
+sharp rocks protruding everywhere, even from the floor making you stumble in
+the flickering light. To the south the tunnel narrows even more making it
+almost impossible to pass. To the north it slowly widens into a cave. There
+is a branch of the tunnel going west.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4018
+DOOR 1
+~
+~
+0 0 4015
+DOOR 2
+~
+~
+0 0 4011
+DOOR 3
+~
+~
+0 0 4013
+End
+
+#4015
+NAME   The tunnel~
+DESCR
+You are in a corner tunnel leading west and north.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4019
+DOOR 3
+~
+~
+0 0 4014
+End
+
+#4016
+NAME   The large cave~
+DESCR
+You are in a large cave, the cave continues east and west, to the south
+you notice a small tunnel.
+~
+FLAGS  9
+Sect   2
+DOOR 1
+~
+~
+0 0 4017
+DOOR 2
+~
+~
+0 0 4012
+DOOR 3
+~
+~
+0 0 4023
+End
+
+#4017
+NAME   The large cave~
+DESCR
+You are in the east end of the large cave.
+~
+FLAGS  9
+Sect   2
+DOOR 3
+~
+~
+0 0 4016
+End
+
+#4018
+NAME   The cave~
+DESCR
+You are in the south end of a cave, to the south you see a tunnel. You
+notice a large pile of bones in the corner.
+~
+FLAGS  9
+Sect   2
+EDESC  pile bones~
+Some of the bones are human!
+~
+DOOR 0
+~
+~
+0 0 4025
+DOOR 2
+~
+~
+0 0 4014
+End
+
+#4019
+NAME   The tunnel~
+DESCR
+You are in a north-south leading tunnel.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4026
+DOOR 2
+~
+~
+0 0 4015
+End
+
+#4020
+NAME   The hole~
+DESCR
+You are by a hole in the floor, you can leave down, or north.
+~
+FLAGS  13
+Sect   3
+DOOR 0
+~
+~
+0 0 4027
+DOOR 5
+~
+~
+0 0 4064
+End
+
+#4021
+NAME   The hole~
+DESCR
+A hole in the floor leads down here.
+~
+FLAGS  13
+Sect   3
+DOOR 1
+~
+~
+0 0 4022
+DOOR 5
+~
+~
+0 0 4115
+End
+
+#4022
+NAME   The damp tunnel~
+DESCR
+You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues
+to the north; to the west you see a hole in the floor; and to the east
+there is a large cave.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4023
+DOOR 1
+~
+~
+0 0 4024
+DOOR 3
+~
+~
+0 0 4021
+End
+
+#4023
+NAME   The large cave~
+DESCR
+You are in the western part of the large cave, to the south you see
+a damp tunnel.
+~
+FLAGS  9
+Sect   2
+DOOR 1
+~
+~
+0 0 4016
+DOOR 2
+~
+~
+0 0 4022
+End
+
+#4024
+NAME   The damp tunnel~
+DESCR
+You are in a corner of a damp tunnel.  You can go west or south.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4059
+DOOR 3
+~
+~
+0 0 4022
+End
+
+#4025
+NAME   The cave~
+DESCR
+You are in the north end of a cave.  To the east you see many tunnels.
+~
+FLAGS  9
+Sect   2
+DOOR 1
+~
+~
+0 0 4026
+DOOR 2
+~
+~
+0 0 4018
+End
+
+#4026
+NAME   The many tunnels~
+DESCR
+You are at the intersection of many tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4028
+DOOR 1
+~
+~
+0 0 4027
+DOOR 2
+~
+~
+0 0 4019
+DOOR 3
+~
+~
+0 0 4025
+End
+
+#4027
+NAME   The tunnel~
+DESCR
+You are in a north-south leading tunnel, you also notice a tunnel to
+the west. From the north you sense the fresh air!
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4029
+DOOR 2
+~
+~
+0 0 4020
+DOOR 3
+~
+~
+0 0 4026
+End
+
+#4028
+NAME   The smelly tunnel~
+DESCR
+You are in a north-south leading tunnel, you see a small light
+to the north. You notice a strange smell from the north..
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4030
+DOOR 2
+~
+~
+0 0 4026
+End
+
+#4029
+NAME   The cave~
+DESCR
+You are in a cave that is filled with fresh air, you sense the
+wind blowing from the north. To the south you see a small tunnel
+continue into the mountain.
+~
+FLAGS  13
+Sect   2
+DOOR 0
+~
+~
+0 0 4031
+DOOR 2
+~
+~
+0 0 4027
+End
+
+#4030
+NAME   The light cave~
+DESCR
+You are in a light cave, through a hole large above you, you see 
+the sky. A small tunnel to the south is the only way out.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 4028
+End
+
+#4031
+NAME   The valley~
+DESCR
+You are in a small valley, surrounded by hills and a mountain to 
+the south. In the mountain there is a cave.
+~
+FLAGS  0
+Sect   2
+EDESC  cave~
+Well it doesn't look nice, but it's the only way out.
+~
+DOOR 0
+~
+~
+0 0 4032
+DOOR 2
+~
+~
+0 0 4029
+End
+
+#4032
+NAME   The foothills~
+DESCR
+You are on a winding path that leads through the foothills on the
+other side of the mountain.  The path continues north.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 4033
+DOOR 2
+~
+~
+0 0 4031
+End
+
+#4033
+NAME   The intersection in the foothills~
+DESCR
+The small path you are following splits here.  The path continues
+north and south or you can follow a trail east into the mountains.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 4034
+DOOR 1
+~
+~
+0 0 4037
+DOOR 2
+~
+~
+0 0 4032
+End
+
+#4034
+NAME   The grassy area of the foothills~
+DESCR
+The grass here is unusually high.  You notice several areas where
+someone or something large has crushed spots of the grass down.  Several very
+large rocks litter this area.  You can go north, west or south.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 4035
+DOOR 2
+~
+~
+0 0 4033
+DOOR 3
+~
+~
+0 0 4042
+End
+
+#4035
+NAME   The foothills end~
+DESCR
+At this point you are leaving the foothills.  You see a plains area
+to the north of here.  You can spot a small city in the distance from
+here.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 4036
+DOOR 2
+~
+~
+0 0 4034
+End
+
+#4036
+NAME   The plains~
+DESCR
+The plains.  Exits are south.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 4035
+End
+
+#4037
+NAME   The foothills path~
+DESCR
+Exits are east and west.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4038
+DOOR 3
+~
+~
+0 0 4033
+End
+
+#4038
+NAME   Base of the mountain~
+DESCR
+Exits are east and west.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4039
+DOOR 3
+~
+~
+0 0 4037
+End
+
+#4039
+NAME   A trail up the mountain~
+DESCR
+Exits are east and west.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4040
+DOOR 3
+~
+~
+0 0 4038
+End
+
+#4040
+NAME   The mountain top.~
+DESCR
+Exits are north, east, and west.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 4041
+DOOR 3
+~
+~
+0 0 4039
+End
+
+#4041
+NAME   The lion's den~
+DESCR
+Exits are south.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 4040
+End
+
+#4042
+NAME   The level foothills~
+DESCR
+Exits are east and west.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4034
+DOOR 3
+~
+~
+0 0 4043
+End
+
+#4043
+NAME   The cave entrance~
+DESCR
+Exits are east and west.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4042
+DOOR 3
+~
+~
+0 0 4044
+End
+
+#4044
+NAME   The hill giant cave~
+DESCR
+Exits are east.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 4043
+End
+
+#4050
+NAME   The tunnel~
+DESCR
+The tunnel turns here, continuing to the east and south.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4051
+DOOR 2
+~
+~
+0 0 4053
+End
+
+#4051
+NAME   The tunnel~
+DESCR
+You are in a narrow east-west tunnel.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4052
+DOOR 3
+~
+~
+0 0 4050
+End
+
+#4052
+NAME   The tunnel~
+DESCR
+You are at a turn, the tunnel continues south and west.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4100
+DOOR 3
+~
+~
+0 0 4051
+End
+
+#4053
+NAME   The tunnel~
+DESCR
+You are at a turn, the tunnel continues north and east.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4050
+DOOR 1
+~
+~
+0 0 4054
+End
+
+#4054
+NAME   The light cave~
+DESCR
+You are in a cave, to south from you there is a large fire that lights
+the entire cave, to the east and west tunnels leads off.
+~
+FLAGS  8
+Sect   2
+DOOR 1
+~
+~
+0 0 4055
+DOOR 2
+~
+~
+0 0 4056
+DOOR 3
+~
+~
+0 0 4053
+End
+
+#4055
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.  The only exit is west.
+~
+FLAGS  9
+Sect   3
+DOOR 3
+~
+~
+0 0 4054
+End
+
+#4056
+NAME   The light cave~
+DESCR
+You are in a light cave, a large fire in front of you lights the room.
+The cave continues to the north and south.
+~
+FLAGS  8
+Sect   2
+DOOR 0
+~
+~
+0 0 4054
+DOOR 2
+~
+~
+0 0 4061
+End
+
+#4057
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4058
+DOOR 2
+~
+~
+0 0 4062
+End
+
+#4058
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4063
+DOOR 3
+~
+~
+0 0 4057
+End
+
+#4059
+NAME   The tunnel~
+DESCR
+You are in a tunnel, only exit is to the east. You sense that the
+tunnel leads slightly down.
+~
+FLAGS  13
+Sect   3
+DOOR 0
+~
+~
+0 0 4024
+DOOR 1
+~
+~
+0 0 4060
+End
+
+#4060
+NAME   The tunnel~
+DESCR
+You are in a small tunnel, to the west the tunnel continues and 
+to the east you see some light.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4061
+DOOR 3
+~
+~
+0 0 4059
+End
+
+#4061
+NAME   The light cave~
+DESCR
+You are in the south end of a light cave.
+~
+FLAGS  8
+Sect   2
+DOOR 0
+~
+~
+0 0 4056
+DOOR 3
+~
+~
+0 0 4060
+End
+
+#4062
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4057
+DOOR 1
+~
+~
+0 0 4065
+End
+
+#4063
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4058
+DOOR 1
+~
+~
+0 0 4064
+End
+
+#4064
+NAME   The tunnel~
+DESCR
+You are at the eastern end of a tunnel.
+~
+FLAGS  9
+Sect   3
+DOOR 3
+~
+~
+0 0 4063
+DOOR 4
+~
+~
+0 0 4020
+End
+
+#4065
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4066
+DOOR 3
+~
+~
+0 0 4062
+End
+
+#4066
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4067
+DOOR 2
+~
+~
+0 0 4069
+DOOR 3
+~
+~
+0 0 4065
+End
+
+#4067
+NAME   The maze~
+DESCR
+You are in a maze of small damp tunnels.
+~
+FLAGS  9
+Sect   3
+DOOR 3
+~
+~
+0 0 4066
+End
+
+#4068
+NAME   The large cave~
+DESCR
+You are in the northwest end of a large cave.
+~
+FLAGS  9
+Sect   2
+DOOR 1
+~
+~
+0 0 4069
+DOOR 2
+~
+~
+0 0 4070
+End
+
+#4069
+NAME   The large cave~
+DESCR
+You are in the northeast end of a large cave. To the north the
+is a small damp tunnel.
+~
+FLAGS  9
+Sect   2
+DOOR 0
+~
+~
+0 0 4066
+DOOR 2
+~
+~
+0 0 4071
+DOOR 3
+~
+~
+0 0 4068
+End
+
+#4070
+NAME   The large cave~
+DESCR
+You are in the southwest end of a large cave.
+~
+FLAGS  9
+Sect   2
+DOOR 0
+~
+~
+0 0 4068
+DOOR 1
+~
+~
+0 0 4071
+End
+
+#4071
+NAME   The large cave~
+DESCR
+You are in the southeast end of a large cave. To the east you
+notice a small tunnel.
+~
+FLAGS  9
+Sect   2
+DOOR 0
+~
+~
+0 0 4069
+DOOR 1
+~
+~
+0 0 4072
+DOOR 3
+~
+~
+0 0 4070
+End
+
+#4072
+NAME   The tunnel~
+DESCR
+You are in a narrow tunnel, which leads both to the east and the
+south. There is also an exit towards the west, where you see a large
+cave.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4073
+DOOR 2
+~
+~
+0 0 4074
+DOOR 3
+~
+~
+0 0 4071
+End
+
+#4073
+NAME   End of tunnel~
+DESCR
+The tunnel stops here.
+~
+FLAGS  9
+Sect   3
+DOOR 3
+~
+~
+0 0 4072
+End
+
+#4074
+NAME   The hole~
+DESCR
+You are at a small hole in the floor, you can either leave north
+or try your luck and leave down into the unknown!
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4072
+DOOR 5
+~
+~
+0 0 4171
+End
+
+#4100
+NAME   The tunnel~
+DESCR
+Suddenly you feel that the tunnel leads slightly down.
+~
+FLAGS  13
+Sect   3
+DOOR 0
+~
+~
+0 0 4052
+DOOR 3
+~
+~
+0 0 4101
+End
+
+#4101
+NAME   The long tunnel~
+DESCR
+You are in a long east-west leading tunnel. The tunnel is quite
+wide at this point.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4100
+DOOR 3
+~
+~
+0 0 4102
+End
+
+#4102
+NAME   The long tunnel~
+DESCR
+You are in a long east-west leading tunnel. The tunnel becomes
+narrow to the west.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4101
+DOOR 3
+~
+~
+0 0 4103
+End
+
+#4103
+NAME   The long tunnel~
+DESCR
+You are in a long east-west leading tunnel. The tunnel is quite
+narrow at this point. You notice a small hole leading south.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4102
+DOOR 2
+~
+~
+0 0 4106
+DOOR 3
+~
+~
+0 0 4104
+End
+
+#4104
+NAME   The long tunnel~
+DESCR
+You are in a long east-west leading tunnel. The tunnel starts sloping
+down towards the west.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4103
+DOOR 3
+~
+~
+0 0 4152
+End
+
+#4105
+NAME   The golden cave~
+DESCR
+You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and west.
+~
+FLAGS  8
+Sect   1
+DOOR 2
+~
+~
+0 0 4108
+DOOR 3
+~
+~
+0 0 4106
+End
+
+#4106
+NAME   The golden cave~
+DESCR
+You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and east, to the north is a narrow
+tunnel.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4103
+DOOR 1
+~
+~
+0 0 4105
+DOOR 2
+~
+~
+0 0 4109
+End
+
+#4107
+NAME   The passage~
+DESCR
+You are in a small passage, it leads south, to the west is a golden
+cave.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4113
+DOOR 3
+~
+~
+0 0 4108
+End
+
+#4108
+NAME   The golden cave~
+DESCR
+You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north and west, east from you there is
+a small passage.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4105
+DOOR 1
+~
+~
+0 0 4107
+DOOR 3
+~
+~
+0 0 4109
+End
+
+#4109
+NAME   The golden cave~
+DESCR
+You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south, east and north.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4106
+DOOR 1
+~
+~
+0 0 4108
+DOOR 2
+~
+~
+0 0 4114
+End
+
+#4110
+NAME   The tunnel~
+DESCR
+You are at the end of the tunnel.
+~
+FLAGS  13
+Sect   3
+DOOR 3
+~
+~
+0 0 4111
+End
+
+#4111
+NAME   The tunnel~
+DESCR
+You are in a small tunnel, it leads from east to the west.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4110
+DOOR 3
+~
+~
+0 0 4112
+End
+
+#4112
+NAME   The tunnel~
+DESCR
+You are in a larger tunnel, it leads from west to east.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4111
+DOOR 3
+~
+~
+0 0 4113
+End
+
+#4113
+NAME   The passage~
+DESCR
+You are in a passage that leads towards the south. To the east 
+you see a tunnel.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4107
+DOOR 1
+~
+~
+0 0 4112
+DOOR 2
+~
+~
+0 0 4116
+End
+
+#4114
+NAME   The golden cave~
+DESCR
+You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north, to the west you see a dark 
+passage.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4109
+DOOR 3
+~
+~
+0 0 4115
+End
+
+#4115
+NAME   The dark passage.~
+DESCR
+You are in a dark passage, that leads east. In the ceiling you notice
+a small hole, just big enough to pass through.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4114
+DOOR 4
+~
+~
+0 0 4021
+End
+
+#4116
+NAME   The passage~
+DESCR
+You are in a passage that leads north-south. You notice a small
+light to the south.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4113
+DOOR 2
+~
+~
+0 0 4120
+End
+
+#4117
+NAME   The secret chamber~
+DESCR
+You are in a secret chamber.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4122
+End
+
+#4118
+NAME   The cave~
+DESCR
+You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the west and south.
+To the north a small hole leads to a tunnel.
+~
+FLAGS  8
+Sect   1
+DOOR 2
+~
+~
+0 0 4123
+DOOR 3
+~
+~
+0 0 4119
+End
+
+#4119
+NAME   The cave~
+DESCR
+You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the east and south.
+~
+FLAGS  8
+Sect   1
+DOOR 1
+~
+~
+0 0 4118
+DOOR 2
+~
+~
+0 0 4124
+DOOR 3
+~
+~
+0 0 4121
+End
+
+#4120
+NAME   The passage~
+DESCR
+You are in a north-south leading passage. To the south you see light.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4116
+DOOR 2
+~
+~
+0 0 4125
+End
+
+#4121
+NAME   The secret tunnel~
+DESCR
+You are in a secret tunnel that leads west, you feel evilness
+approaching you as you continue west.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4119
+DOOR 3
+~
+~
+0 0 4122
+End
+
+#4122
+NAME   The secret chamber~
+DESCR
+You are in a secret chamber, the room is filled with an evil
+feeling.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4117
+DOOR 1
+~
+~
+0 0 4121
+End
+
+#4123
+NAME   The cave~
+DESCR
+You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the north and west.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4118
+DOOR 3
+~
+~
+0 0 4124
+End
+
+#4124
+NAME   The cave~
+DESCR
+You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the east and north.
+To the west a passage leads north.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 0 4119
+DOOR 1
+~
+~
+0 0 4123
+DOOR 3
+~
+~
+0 0 4125
+End
+
+#4125
+NAME   The passage~
+DESCR
+You are in a passage, to the east you see a cave. Light from the
+cave lights up the passage. To the north the passage leads into
+the darkness.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4120
+DOOR 1
+~
+~
+0 0 4124
+End
+
+#4150
+NAME   The dark hole~
+DESCR
+You are standing at a hole, a small passage leads south. You see
+some inscriptions on the wall, most of 'em the usual stuff, like:
+'Super Snude was here' and 'Why does the mayor likes secretaries with
+small hands?' - But one inscription gets your attention, it says:
+The Balrog is ALIVE ...
+~
+FLAGS  13
+Sect   3
+DOOR 2
+~
+~
+0 0 4151
+End
+
+#4151
+NAME   The small passage~
+DESCR
+You are in a small passage, to the north you see a hole, and to
+the south you see a large tunnel. The air is damp in this area.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4150
+DOOR 2
+~
+~
+0 0 4156
+DOOR 3
+~
+~
+0 0 4155
+End
+
+#4152
+NAME   The tunnel~
+DESCR
+You suddenly feel that the tunnel leads down.
+~
+FLAGS  13
+Sect   3
+DOOR 1
+~
+~
+0 0 4104
+DOOR 2
+~
+~
+0 0 4153
+End
+
+#4153
+NAME   The large tunnel~
+DESCR
+You are in a large tunnel leading from the south to the east. The
+air is damp in the area.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4152
+DOOR 1
+~
+~
+0 0 4154
+DOOR 2
+~
+~
+0 0 4157
+End
+
+#4154
+NAME   The large tunnel~
+DESCR
+You are in a large east-west leading tunnel, the air is damp and
+the floor is wet.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4155
+DOOR 3
+~
+~
+0 0 4153
+End
+
+#4155
+NAME   The large tunnel~
+DESCR
+You are in a large tunnel, the tunnel leads west, and to the east
+you notice a long tunnel. The air is damp in this area.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4151
+DOOR 3
+~
+~
+0 0 4154
+End
+
+#4156
+NAME   The long tunnel~
+DESCR
+You are standing in a long north-south tunnel.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4151
+DOOR 2
+~
+~
+0 0 4160
+End
+
+#4157
+NAME   The wet tunnel~
+DESCR
+You are in a wet, north-south leading tunnel, the floor is
+partly covered by water.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4153
+DOOR 1
+~
+~
+0 0 4158
+DOOR 2
+~
+~
+0 0 4161
+End
+
+#4158
+NAME   The small maze~
+DESCR
+You are in a small maze, exits leads off to the east,  south
+and west. The floor is partly covered by water.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4159
+DOOR 2
+~
+~
+0 0 4162
+DOOR 3
+~
+~
+0 0 4157
+End
+
+#4159
+NAME   The small maze~
+DESCR
+You are in a small maze, exits leads off only to the south
+and west. The air is damp in this maze.
+~
+FLAGS  9
+Sect   3
+DOOR 2
+~
+~
+0 0 4163
+DOOR 3
+~
+~
+0 0 4158
+End
+
+#4160
+NAME   In the tunnel at the inscription~
+DESCR
+You are in a north-south leading tunnel, the air is damp. On
+the wall there is an inscription.
+~
+FLAGS  9
+Sect   3
+EDESC  inscription~
+It says:
+
+    Year 631 after the destruction of the dwarven realm.
+
+  We found the sword of the dwarven king, but it was guarded
+by a large green dragon. All but two died immediately as the
+dragon breathed poison gas; we are also going to die soon.
+
+       Trather and Oralane
+~
+DOOR 0
+~
+~
+0 0 4156
+DOOR 2
+~
+~
+0 0 4164
+End
+
+#4161
+NAME   The wet tunnel~
+DESCR
+You are in a north-south leading tunnel.  The floor is fully
+covered by water.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4157
+DOOR 2
+~
+~
+0 0 4165
+End
+
+#4162
+NAME   The small maze~
+DESCR
+You are in a small maze. The floor is mainly covered by
+water, exits leads north, east and south.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4158
+DOOR 1
+~
+~
+0 0 4163
+DOOR 2
+~
+~
+0 0 4166
+End
+
+#4163
+NAME   The small maze~
+DESCR
+You are in a small maze, where the air is damp. Exits
+leads to the north and east.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4159
+DOOR 1
+~
+~
+0 0 4164
+DOOR 3
+~
+~
+0 0 4162
+End
+
+#4164
+NAME   The entrance to the small maze~
+DESCR
+You are in a north-south leading tunnel, and the air is damp.
+To the west you see a small maze.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4160
+DOOR 2
+~
+~
+0 0 4168
+DOOR 3
+~
+~
+0 0 4163
+End
+
+#4165
+NAME   In the water~
+DESCR
+You are standing in water, the tunnel continues both to the
+north and south.
+~
+FLAGS  9
+Sect   6
+DOOR 0
+~
+~
+0 0 4161
+DOOR 2
+~
+~
+0 0 4169
+End
+
+#4166
+NAME   The wet maze~
+DESCR
+You are in a part of the maze where the floor is fully covered
+by water. The maze continues to the north, east and south.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4162
+DOOR 1
+~
+~
+0 0 4167
+DOOR 2
+~
+~
+0 0 4170
+End
+
+#4167
+NAME   The wet maze~
+DESCR
+You are in a small maze, the floor is covered by water, the
+maze continues east, west and south.
+~
+FLAGS  9
+Sect   3
+DOOR 1
+~
+~
+0 0 4168
+DOOR 2
+~
+~
+0 0 4171
+DOOR 3
+~
+~
+0 0 4166
+End
+
+#4168
+NAME   The end of the tunnel~
+DESCR
+The tunnel suddenly stops here, only exit is to the west.
+The air is damp here.
+~
+FLAGS  9
+Sect   3
+DOOR 0
+~
+~
+0 0 4164
+DOOR 3
+~
+~
+0 0 4167
+End
+
+#4169
+NAME   In the water~
+DESCR
+You are standing in the water, exits leads both north and east.
+~
+FLAGS  9
+Sect   6
+DOOR 0
+~
+~
+0 0 4165
+DOOR 1
+~
+~
+0 0 4170
+End
+
+#4170
+NAME   In the water~
+DESCR
+You are standing in the water, it continues east and west.
+~
+FLAGS  9
+Sect   6
+DOOR 0
+~
+~
+0 0 4166
+DOOR 1
+~
+~
+0 0 4172
+DOOR 3
+~
+~
+0 0 4169
+End
+
+#4171
+NAME   End of maze~
+DESCR
+You are at the end of the small maze which continues north.
+Above you a hole leads up.
+~
+FLAGS  13
+Sect   3
+DOOR 0
+~
+~
+0 0 4167
+DOOR 4
+~
+~
+0 0 4074
+End
+
+#4172
+NAME   At the sand bar~
+DESCR
+You are on a little sand bar in the water.
+~
+FLAGS  9
+Sect   3
+DOOR 3
+~
+~
+0 0 4170
+End
+
+#0
+
+
+
+#SPECIALS
+M 4100 spec_cast_mage
+M 4102 spec_poison
+M 4150 spec_breath_lightning
+M 4151 spec_breath_fire
+M 4152 spec_breath_gas
+M 4153 spec_breath_frost
+M 4154 spec_breath_acid
+M 4155 spec_thief
+M 4157 spec_cast_mage
+M 4158 spec_poison
+M 4000 spec_poison
+M 4001 spec_poison
+M 4053 spec_poison
+S
+
+
+
+#RESETS
+M 0 4102 3 4103 1
+G 0 4103 0
+M 0 4103 1 4103 1
+E 0 4053 0 16
+E 0 3068 0 7
+E 0 3066 0 5
+E 0 3069 0 8
+M 0 4105 3 4108 3
+M 0 4102 2 4111 2
+G 0 4103 0
+M 0 4102 2 4111 2
+G 0 4104 0
+M 0 4106 2 4113 2
+E 0 4105 0 16
+E 0 4101 0 9
+M 0 4100 1 4114 1
+G 0 4102 0
+G 0 4155 0
+E 0 3351 0 16
+M 0 4107 1 4119 1
+E 0 3023 0 16
+G 0 4104 0
+M 0 4101 1 4122 1
+E 0 4100 0 16
+M 0 4104 3 4124 3
+E 0 4057 0 16
+G 0 4104 0
+M 0 4156 1 4151 1
+E 0 4105 0 16
+M 0 4159 2 4153 1
+M 0 4150 2 4155 1
+M 0 4152 2 4155 1
+M 0 4151 2 4157 1
+M 0 4154 2 4157 1
+M 0 4155 1 4158 1
+E 0 4152 0 16
+M 0 4151 2 4159 1
+M 0 4152 2 4159 1
+M 0 4160 2 4160 1
+E 0 3045 0 5
+E 0 4055 0 16
+G 0 4150 0
+M 0 4160 2 4161 1
+E 0 3110 0 5
+E 0 3026 0 16
+M 0 4158 2 4162 1
+M 0 4153 2 4164 1
+M 0 4154 2 4164 1
+M 0 4157 2 4167 2
+E 0 3351 0 16
+M 0 4157 2 4167 2
+E 0 4151 0 17
+E 0 3351 0 16
+M 0 4159 2 4168 1
+M 0 4158 2 4169 1
+M 0 4150 2 4170 1
+M 0 4153 2 4170 1
+M 0 4003 6 4013 1
+E 0 3021 0 16
+E 0 3117 0 11
+M 0 4003 6 4013 1
+E 0 3023 0 16
+M 0 4001 2 4015 1
+M 0 4004 3 4015 1
+E 0 3029 0 16
+M 0 4002 3 4017 1
+M 0 4002 3 4020 1
+M 0 4003 6 4021 1
+E 0 4003 0 16
+M 0 4003 6 4021 1
+E 0 3023 0 16
+M 0 4005 1 4022 1
+E 0 4000 0 1
+E 0 3022 0 16
+E 0 3114 0 9
+M 0 4002 3 4023 1
+M 0 4001 2 4025 1
+M 0 4003 6 4027 1
+E 0 3021 0 16
+M 0 4003 6 4027 1
+E 0 3025 0 16
+E 0 3117 0 11
+M 0 4004 3 4028 1
+E 0 4004 0 16
+M 0 4004 3 4028 1
+M 0 4000 1 4030 1
+G 0 4001 0
+P 0 4002 -1 4001 1
+G 0 4154 0
+M 0 4057 2 4042 2
+M 0 4058 1 4044 1
+E 0 4005 0 16
+E 0 4006 0 12
+M 0 4051 4 4050 1
+E 0 4056 0 16
+E 0 3077 0 10
+M 0 4054 3 4052 1
+M 0 4054 3 4053 1
+M 0 4051 4 4055 1
+E 0 4057 0 16
+E 0 3074 0 7
+M 0 4052 3 4056 1
+E 0 3023 0 16
+M 0 4056 2 4057 1
+E 0 3026 0 16
+M 0 4053 2 4058 1
+M 0 4052 3 4059 1
+E 0 3028 0 16
+M 0 4054 3 4060 1
+M 0 4050 1 4062 1
+E 0 4051 0 6
+E 0 4054 0 16
+E 0 3116 0 11
+M 0 4055 2 4064 1
+E 0 4058 0 16
+G 0 4050 0
+M 0 4052 3 4065 1
+E 0 3025 0 16
+M 0 4056 2 4067 1
+E 0 4004 0 16
+E 0 3097 0 11
+M 0 4053 2 4068 1
+O 0 4052 0 4068
+O 0 4052 0 4069
+M 0 4051 4 4070 1
+E 0 3027 0 16
+E 0 3072 0 6
+O 0 4052 0 4070
+M 0 4055 2 4071 1
+E 0 4059 0 16
+G 0 4050 0
+O 0 4052 0 4071
+M 0 4051 4 4073 1
+E 0 4055 0 16
+E 0 3072 0 5
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

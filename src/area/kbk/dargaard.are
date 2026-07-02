@@ -1,0 +1,5807 @@
+#AREADATA
+Name Dargaard Keep~
+Builders None~
+VNUMs 16100 16199
+Credits {30 35} Mishaka Dargaard Keep~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#16100
+NAME  lord soth~
+SHORT Lord Soth~
+LONG  (Black Aura) The mighty ruler of Dargaard Keep towers above you. 
+~
+DESCR
+Lord Soth ... The fabled Knight of Solamnia who had the power to stop the
+Cataclysm but failed because of the elves. He is immense, clad in the
+blackened plate mail of a Solamnic Knight, decorated with a black rose. His
+deep orange eyes flicker out of what used to be eyesockets, and all around
+him is an undead chill that makes you afraid ... As well you should be, for
+this knight has the power to kill with a word. 
+~
+RACE  unique~
+ACT   ABFGOT
+AFF   0
+OFF   ACEFKNO
+IMM   ABLMOPQ
+RES   CD
+VULN  NS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 66
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 75d30+16900
+MDICE 50d10+5000
+DDICE 10d9+39
+REGEN 0
+DTYPE slice
+AC    -60 -60 -60 -60
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABDHIM
+PARTS ABCD
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16101
+NAME  elven maiden undead~
+SHORT an undead elven maiden~
+LONG  The spectre of an elven maiden stares at you with eyes of mourning. 
+~
+DESCR
+As she had a part in the downfall of Lord Soth and helped to cause the
+Cataclysm, this once-beautiful elven maiden is now damned to wander the
+halls of Dargaard Keep forever. Her spectral form has warped her elven sense
+of good, and she is now as evil as any. 
+~
+RACE  unique~
+ACT   AGHOT
+AFF   0
+OFF   FKU
+IMM   ABLMPQ
+RES   CD
+VULN  HNSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 38
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7500
+MDICE 10d10+500
+DDICE 10d6+31
+REGEN 0
+DTYPE drain
+AC    -27 -27 -27 -27
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  ADHIM
+PARTS ABC
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16102
+NAME  wraith spirit ethereal~
+SHORT an ethereal wraith~
+LONG  The menacing form of a wraith materializes before your eyes. 
+~
+DESCR
+The wraith is absolutely hate-filled, composed of nothing but black
+energies of an eternally damned soul, eternally damned to undeath and
+corruption. The red eyes burn with outrage at your appearance, resolved on
+dragging you to the same undying torture that it must suffer until Krynn is
+sundered and torn. 
+~
+RACE  unique~
+ACT   AFGO
+AFF   0
+OFF   G
+IMM   BLMQ
+RES   D
+VULN  HN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d15+5800
+MDICE 50d10+300
+DDICE 5d8+26
+REGEN 0
+DTYPE chill
+AC    -23 -23 -23 -23
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADIS
+PARTS ABC
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16103
+NAME  skeleton undead knight~
+SHORT the black skeleton of a knight~
+LONG  A black skeleton clad in the antique armor of a knight turns its head at
+you. 
+~
+DESCR
+As the skeleton turns to look at you, a feeling of impending doom fills
+you as you realize that even the Solamnic Knights are not safe from Soth's
+and Takhisis' evil intentions. The skeleton is black as night, and the sword
+it clutches is rusted and jagged. An undead, unholy red glow fills the
+skull's eyesockets as it realizes that you can be corrupted just as it was.
+The chill surrounding it is as tangible as moonlight but still it exudes and
+fills you with fear. 
+~
+RACE  unique~
+ACT   AFGOT
+AFF   0
+OFF   U
+IMM   BLMPQ
+RES   C
+VULN  HN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 46
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4900
+MDICE 50d10+500
+DDICE 5d8+19
+REGEN 0
+DTYPE cleave
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16104
+NAME  deathknight black dark malaclypse~
+SHORT the Deathknight Malaclypse~
+LONG  A long-dead man arrayed in the armor of a black knight stands motionless. 
+~
+DESCR
+This long-dead man is huge, is a deathknight. An outcast corrupted long
+ago by the black magics, corrupted by the urge for power and complete
+control of the world at large. Malaclypse was his name then and it remains
+his name still now. He is huge, carrying an pitch-black shortsword and a
+shield emblazoned with a dying phoenix. His searingly red eyes pierce into
+you, hungry to devour your soul as well. 
+~
+RACE  unique~
+ACT   ABGOT
+AFF   0
+OFF   ADFK
+IMM   ABLMPQ
+RES   D
+VULN  HN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 59
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 60d11+9900
+MDICE 50d10+1000
+DDICE 11d11+50
+REGEN 0
+DTYPE acbite
+AC    -29 -29 -30 -27
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABHIMVX
+PARTS ABCD
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16105
+NAME  mummy staggering decaying~
+SHORT a decaying mummy~
+LONG  A decaying mummy is staggering about aimlessly. 
+~
+DESCR
+The mummy is covered in rotting burial bandages and filth. Maggots crawl
+around under them, eating the rotten flesh and thriving on the undead
+energies of the creature. The mummy's head wrapping is coming undone, and
+its flesh is black and putrid. As with all undead, the evil red fire of
+reanimation and necromancy smolders in its eyes. A low moan escapes the
+mummy's throat as it sees you, but the creature makes no attempt to attack. 
+~
+RACE  unique~
+ACT   AGO
+AFF   0
+OFF   CIU
+IMM   LMQ
+RES   F
+VULN  HNY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 47
+HROLL 7
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 20d10+200
+DDICE 5d8+19
+REGEN 0
+DTYPE crush
+AC    -20 -20 -20 -18
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  ABIMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16106
+NAME  burning spectre demon~
+SHORT a burning spectre~
+LONG  A demon floats menacingly in the room. 
+~
+DESCR
+This malevolent demon is one of many summoned and controlled by Lord
+Soth, called up from the burning fire pits of Sargonnas to serve as a
+guardian of his courtyard. The undead spectre itself is a product of
+shadows, hatred and fire, and it burns with a physical, emotional and
+spiritual rage against you. 
+~
+RACE  bat~
+ACT   ABFGO
+AFF   0
+OFF   CDFGH
+IMM   ABHM
+RES   FLQ
+VULN  INRSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 47
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7700
+MDICE 10d10+5000
+DDICE 10d4+26
+REGEN 0
+DTYPE flame
+AC    -26 -26 -26 -24
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADGHKMSV
+PARTS ABCDEFHJKP
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16107
+NAME  elven wife spirit ethereal~
+SHORT the ethereal spirit of Soth's wife~
+LONG  (Black aura) A shadowy spirit of elven looks gazes at you sadly. 
+~
+DESCR
+The elven form, the blood running down her face and body, the crushed
+arms ... This must be Lord Soth's wife, trapped here by the evil that she
+called down upon her husband with her dying breath. She looks sad, like she
+wishes that she never had condemned her husband to his eternal unlife, and
+prays each day that she will be taken from this, her eternal prison. 
+~
+RACE  unique~
+ACT   ABGO
+AFF   0
+OFF   EFK
+IMM   ABN
+RES   FLR
+VULN  HM
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 39
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9500
+MDICE 50d10+5000
+DDICE 8d6+35
+REGEN 0
+DTYPE drain
+AC    -60 -60 -60 -57
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  ADHKMS
+PARTS ACDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16108
+NAME  skeleton undead red burning~
+SHORT a burning red-boned skeleton~
+LONG  A burning red skeleton is consumed by a raging inferno. 
+~
+DESCR
+The skeleton seems to be still "alive" even though it is on fire as you
+look at it. Even its bones are deep red for some reason. The skeletal hands
+each clutch onto something that isn't really there ... Or is it? You notice
+that one of its hands is always frozen into a knife of sorts. Deep down in
+the skeleton's ribcage, there is what seems to be a black heart, beating
+against all possiblity. 
+~
+RACE  unique~
+ACT   AFGOT
+AFF   0
+OFF   U
+IMM   ABLMPQR
+RES   FHI
+VULN  NS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 33
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 50d10+1000
+DDICE 5d8+20
+REGEN 0
+DTYPE stab
+AC    -20 -20 -20 -18
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHIMV
+PARTS ABCGHI
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16109
+NAME  lurching zombie damned corpse~
+SHORT the zombie of an eternally damned warrior~
+LONG  A living corpse lurches at you from the shadows. 
+~
+DESCR
+The corpse is a warrior that once challenged Lord Soth ... The corpse was
+a lot like Lord Soth, too. Proud, courageous, a bit vain. The warrior was
+determined to defeat the undead man before he could claim any more lives to
+undeath ... But he failed. Now he is what he hated, a monster, victim of a
+curse strong enough to last until the High God comes to either prevent the
+destruction of Krynn ... Or to do it himself. 
+~
+RACE  unique~
+ACT   AFGOT
+AFF   0
+OFF   U
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5000
+MDICE 20d10+500
+DDICE 5d8+21
+REGEN 0
+DTYPE punch
+AC    -22 -22 -22 -20
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABHIMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16110
+NAME  minotaur undead zombie reanimated enormous~
+SHORT an enormous reanimated minotaur~
+LONG  (Black Aura) An enormous minotaur rises to its feet as it sees you. 
+~
+DESCR
+The minotaur is rotting and decaying, hunks of raw flesh gone from
+bulging arms and legs, fur stripped away to reveal maggots devouring the
+rotting flesh, an odor so rank you can barely stand it. The minotaur towers
+above you, nine feet tall, brandishing a club as thick as one of its arms.
+In its eyes burns undead evil, a red fire welling up deep inside it. As it
+shifts its arms to raise its club, part of its tunic falls away, and you see
+maggots writhing inside, falling onto the floor along with rotten black
+gore, spattering onto you, releasing an odor so foul you want to vomit. 
+~
+RACE  unique~
+ACT   ABFGOT
+AFF   0
+OFF   DEKO
+IMM   ABLMPQR
+RES   DI
+VULN  HN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 52
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 65d10+11500
+MDICE 1d1+100
+DDICE 10d11+41
+REGEN 0
+DTYPE crush
+AC    -80 -80 -80 -80
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABHIMV
+PARTS ABCDEFW
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16111
+NAME  lich black rotting decaying clerical~
+SHORT the lich that was a cleric of Paladine~
+LONG  (Black Aura) A rotting, decaying lich dressed in clerical robes
+materializes. 
+~
+DESCR
+The lich is decaying, the lich is rotten ... The lich came here to fight
+Lord Soth. The fate that has befallen the man that once was is more horrible
+to him than anything he ever could have thought would happen to him. On his
+black and rotten left arm is the bearing of the Platinum Dragon Claw, now
+corroded and twisted. If this can happen to a cleric of Paladine, imagine
+... What could Lord Soth do to you? 
+~
+RACE  unique~
+ACT   ABFGOQ
+AFF   0
+OFF   DEFKN
+IMM   ABILMOPQR
+RES   F
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 65d10+9500
+MDICE 60d10+5000
+DDICE 10d5+30
+REGEN 0
+DTYPE chill
+AC    -62 -62 -62 -62
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABHIMV
+PARTS ABC
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16112
+NAME  lich priestess female~
+SHORT the lich priestess who once followed Mishakal~
+LONG  (Black Aura) A lich with the bearing of the Healing Hand glares at you
+from the dark. 
+~
+DESCR
+This lich priestess ... Bears the Healing Hand on her arm. And if this
+was once a cleric of Mishakal, come to turn the undead of Dargaard ... Why
+was she defeated in such a horrific way? Her healing spells are now useless,
+now a sick weapon against the undead that she is a part of. Perhaps that is
+why she was here in the first place: to sear and burn the undead with
+healing and peace. But now, she is damned like all of Lord Soth's minions. 
+~
+RACE  unique~
+ACT   ABFGOQ
+AFF   0
+OFF   DEFKN
+IMM   ABLMOPQ
+RES   CIR
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 59
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+11500
+MDICE 25d10+5000
+DDICE 5d10+25
+REGEN 0
+DTYPE chill
+AC    -48 -48 -48 -45
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16113
+NAME  armor suit knight dark~
+SHORT a haunted suit of armor~
+LONG  A suit of armor is against the wall. 
+~
+DESCR
+The armor is fairly normal, if not antique iron armor. It is holding a
+sword before it, with its point down, like many suits of armor are
+positioned that are from the time period. Nothing special to it. 
+~
+RACE  unique~
+ACT   AFGT
+AFF   0
+OFF   EFKU
+IMM   ABLMOPQR
+RES   FH
+VULN  ENS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 39
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9000
+MDICE 1d1+10
+DDICE 8d6+26
+REGEN 0
+DTYPE slash
+AC    -34 -34 -34 -34
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEF
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16114
+NAME  guardian undead spectral~
+SHORT the spectral guardian of Dargaard Keep~
+LONG  (Black Aura) The spectral guardian of Dargaard Keep stands watch. 
+~
+DESCR
+The guardian is truly spectral. It has no real shape, no real definition
+to it. It has a black glow about it, it is flying, and you can see mostly
+through it. That's all you can definitely tell about it. There is one other
+thing ... It is angered that you have dared to come and disturb Dargaard
+Keep. 
+~
+RACE  unique~
+ACT   ABFGOT
+AFF   0
+OFF   CEFK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+8000
+MDICE 1d1+100
+DDICE 9d11+37
+REGEN 0
+DTYPE pound
+AC    -26 -26 -26 -27
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADHMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16115
+NAME  zombie servant~
+SHORT a servant's zombie~
+LONG  The zombie of a servant of the Keep stands here dumbly. 
+~
+DESCR
+The servant was never educated in life, and it remainst that way in
+unlife. The zombie stands mute and dumb, unwilling to leave the room until
+given an order or a reason to do so. Still dressed in servant's clothes
+which are now torn and bloody, serving Lord Soth is still the first priority
+here. 
+~
+RACE  unique~
+ACT   ABGO
+AFF   0
+OFF   EIU
+IMM   ABILMOPQR
+RES   0
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 43
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4750
+MDICE 10d10+100
+DDICE 5d8+15
+REGEN 0
+DTYPE punch
+AC    -19 -19 -19 -13
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  ABHIMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16116
+NAME  dog hellhound hound infernal hunting~
+SHORT an infernal hellhound~
+LONG  A hunting dog wanders about with an infernal look in its eyes. 
+~
+DESCR
+This dog is also a product of the undead power that soaks Dargaard Keep.
+Wandering about, searching, hunting still for meat and a kill, hunting like
+it used to, driven by basic instincts and the undead bloodlust. It will eat
+anything it can, devouring corpses with relish and feasting on the flesh
+that it finds. Hellfire rages in the eyes, fur is stripped, revealing raw
+undead muscle, gaping, pus-filled wounds, and bare patches of ribs. 
+~
+RACE  dog~
+ACT   AFGO
+AFF   0
+OFF   CDHNU
+IMM   ABILMPQR
+RES   0
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 46
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6500
+MDICE 10d10+10
+DDICE 7d6+23
+REGEN 0
+DTYPE bite
+AC    -24 -24 -24 -24
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  ABGIMV
+PARTS ABCDEFHJKUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16117
+NAME  tree corrupted treant grey twisted~
+SHORT a corrupted treant~
+LONG  A twisted grey tree rises up ominously in the still of the courtyard. 
+~
+DESCR
+The tree might still be alive, but there are no leaves to it, no sign of
+life at all. The thick trunk is horribly twisted and scarred, probably from
+all the undead beings roaming the grounds here. 
+~
+RACE  unique~
+ACT   ABFG
+AFF   0
+OFF   DO
+IMM   ABLMOPQ
+RES   FRS
+VULN  HJK
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 50
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9900
+MDICE 10d10+10
+DDICE 8d6+32
+REGEN 0
+DTYPE beating
+AC    -32 -32 -32 -32
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADGH
+PARTS 0
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16118
+NAME  servant skeleton undead grey warrior~
+SHORT a grey skeletal warrior~
+LONG  A grey skeletal warrior stands before you, sword pointed at your throat. 
+~
+DESCR
+The skeleton has been summoned by Lord Soth to finish the job that he
+could not . . . Which is to kill you. Sword in hand, pointed at your throat,
+it looks to have been specially prepared for this task. 
+~
+RACE  unique~
+ACT   ABFGOT
+AFF   0
+OFF   EINU
+IMM   ABILMOPQR
+RES   F
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 41
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3500
+MDICE 10d10+10
+DDICE 6d6+18
+REGEN 0
+DTYPE slash
+AC    -18 -18 -18 -18
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ADHIM
+PARTS ABC
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16119
+NAME  treant apple tree grey twisted~
+SHORT a twisted treant~
+LONG  A twisted grey apple tree produces rotten fruit. 
+~
+DESCR
+Under the same influence as the rest of the garden, the tree is now
+gnarled, grey, and corrupted. It still produces apples, but they are rotten
+and don't look too appetizing. It is completely devoid of leaves, and its
+branches wave in the wind ... Except there is no wind, just the cold fog
+that covers the ground. 
+~
+RACE  unique~
+ACT   ABG
+AFF   0
+OFF   DO
+IMM   ABLMOPQ
+RES   FR
+VULN  HJN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 38
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+8500
+MDICE 10d10+10
+DDICE 5d10+25
+REGEN 0
+DTYPE crush
+AC    -28 -28 -28 -28
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADI
+PARTS 0
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16120
+NAME  undead mage abyss~
+SHORT the undead mage of the Abyss~
+LONG  (Black Aura) A black-robed mage floats eerily before you. 
+~
+DESCR
+The mage floats though he has legs to stand on. His skin is black and
+stretched over his skeletal frame. Pure magic courses through what used to
+be veins, pure evil burns red in his eyesockets now. Dressed in solid black
+robes, he exudes evil magic in every form imaginable. Now he lives in
+Dargaard Keep in order to protect it with his Abyss-borne powers from
+intruders like you. 
+~
+RACE  unique~
+ACT   ABFGOR
+AFF   0
+OFF   DIKN
+IMM   ABILMOPQR
+RES   C
+VULN  NSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 65d10+9900
+MDICE 50d10+5000
+DDICE 10d5+30
+REGEN 0
+DTYPE magic
+AC    -61 -61 -61 -61
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHIMV
+PARTS ABCDEF
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16121
+NAME  evil force cloud~
+SHORT a force of sheer evil~
+LONG  A shimmering black mass of evil power fills the room. 
+~
+DESCR
+This force of evil is so great and powerful that it alone could give
+energy and driving force to all the undead forces of Krynn for uncountable
+aeons. It terrifies, it shocks, and it is possessed with only one thought:
+to kill off all life and goodness and replace it with darkness and death. 
+~
+RACE  unique~
+ACT   ABFGO
+AFF   0
+OFF   A
+IMM   ABIKLMOPQR
+RES   CDHS
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 44
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 70d10+9000
+MDICE 50d10+5000
+DDICE 10d6+44
+REGEN 0
+DTYPE chill
+AC    -45 -45 -45 -40
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADIKLSc
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16122
+NAME  shadow lich~
+SHORT the shadow of a lich~
+LONG  A shadow of a lich comes out of the cloud of evil. 
+~
+DESCR
+The lich is just a shadow, something constructed of pure hate and a
+desire to purge the realms of life, love, and light. 
+~
+RACE  unique~
+ACT   ABFGO
+AFF   0
+OFF   U
+IMM   ABILMOPQR
+RES   0
+VULN  HNS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 22
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 6d12+853
+MDICE 10d10+10
+DDICE 4d6+8
+REGEN 0
+DTYPE scratch
+AC    -9 -9 -9 -9
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ADHIMc
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16123
+NAME  dracolich huge mount red~
+SHORT a huge red dracolich~
+LONG  (Black Aura) A hulking lich-dragon towers above you, wings beating slowly. 
+~
+DESCR
+The dracolich is surrounded by a perpetual black aura of hatred and evil.
+It is outfitted in black battle armor, the kind that dragonriders use for
+their mounts. On the breast of the armor is the signet of Dargaard Keep, and
+that can only mean that this enormous red beast is Lord Soth's personal
+mount, to ride into battle and to bring about more death, more loss of life.
+As it sees you, the dragon opens wide its mouth and hisses, blasting the
+room with hot, putrid breath. This contrasts sharply with the horrid chill
+that radiates from its body. 
+~
+RACE  unique~
+ACT   ABFGOT
+AFF   0
+OFF   CDFM
+IMM   ABILMOPQR
+RES   CDE
+VULN  NS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 61
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 75d30+15000
+MDICE 45d12+5000
+DDICE 10d8+35
+REGEN 0
+DTYPE bite
+AC    -55 -55 -53 -51
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABCHIMZc
+PARTS ABC
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16124
+NAME  necromancer experienced~
+SHORT an experienced necromancer~
+LONG  (Black Aura) A drow dressed in black robes contemplates the skeleton at
+his feet. 
+~
+DESCR
+The drow looks up at you. You can see that his face is beginning to
+tighten and become wrinkled with the powers that he uses. The powers are
+taking his life slowly, but he knows his fate: to be resurrected as a lich
+in Lord Soth's service. He is here to learn very difficult spells of
+necromancy from the one man who can teach him more. 
+~
+RACE  unique~
+ACT   ABFGR
+AFF   0
+OFF   0
+IMM   ABM
+RES   EHILPQR
+VULN  NSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 48
+HROLL 6
+ENHA  100.00%
+MATER none~
+HDICE 50d10+8500
+MDICE 100d10+5000
+DDICE 10d4+28
+REGEN 0
+DTYPE magic
+AC    -50 -50 -49 -43
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ACHIMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16125
+NAME  nightgaunt black~
+SHORT a servitor nightgaunt~
+LONG  Something flaps its wings slowly in the air, invisible against the night. 
+~
+DESCR
+The creature ... A nightgaunt, something conjured out of blackest horror
+and fear. It is oily and smooth, covered with thick, rubbery black hide and
+has two large horns on its head, stretching outwardss and curving back in.
+Its wings make no noise, its tail lashes needlessly and disturbingly. It
+does not speak, it does not even grin, for it has no face, just a blackness
+where a face should be. All it does is fly and crush and lash its tail. Such
+is its way. 
+~
+RACE  unique~
+ACT   AGO
+AFF   0
+OFF   CDEFHKNU
+IMM   ABLMR
+RES   CEFHIK
+VULN  NS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6500
+MDICE 10d10+10
+DDICE 6d7+22
+REGEN 0
+DTYPE scratch
+AC    -23 -23 -24 -19
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABHMV
+PARTS ABCDEFPQ
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#16126
+NAME  ghoul creature~
+SHORT an enraged ghoul-like creature~
+LONG  Something glares at you from the shadows . 
+~
+DESCR
+The something appears to be some sort of ghoul, but you can't tell for
+certain. It is vaguely humanoid, vaguely canine ... It is something very
+foul and odious. The loathsome air around it stinks almost as bad as a
+dragon does, but with some sort of difference to it. The creature's hide is
+rubbery and unpleasant, covering a body that slumps forward, and has two
+arms ending in sharp claws, all topped with a dog-like head full of sharp,
+jagged incisors. It walks about on hoof-feet, something very odd ... There
+is something decidedly unnatural about the beast, whatever it may be. 
+~
+RACE  unique~
+ACT   AFGO
+AFF   0
+OFF   EFNU
+IMM   ABM
+RES   DKLQR
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 46
+HROLL 6
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6600
+MDICE 10d10+10
+DDICE 6d7+26
+REGEN 0
+DTYPE bite
+AC    -24 -23 -24 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ACHIM
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#16100
+NAME   armor blackened solamnic plate~
+SHORT  a suit of blackened Solamnic plate~
+DESCR 
+An antique suit of black armor resembling the armor of the Solamnic Knights lays on the floor.~
+MAT    steel~
+TYPE   armor BCEF CF BCEF AF 0
+EXTRA  1 7 0 17306832
+WEAR   AD
+LEVEL  40
+WEIGHT 34
+COST   0
+COND   100
+Affect O 1 -1 0
+Affect O 12 50 0
+Affect O 5 -2 0
+Affect O 13 -20 0
+Affect O 17 -15 0
+Affect O 18 5 0
+Affect O 19 5 0
+EDESC plate solamnic blackened darkened armor~
+It is embossed with what used to be the White Rose of Solamnia ... Now it
+is blackened all over, and the Rose is now Black. 
+~
+End
+
+#16101
+NAME   throne~
+SHORT  the black throne of Lord Soth~
+DESCR 
+A throne of flame-blasted black stone towers in the center of the hall.~
+MAT    stone~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 4 0 17055760
+WEAR   0
+LEVEL  35
+WEIGHT 9
+COST   0
+COND   100
+EDESC throne~
+It is evil and darkened, and it feels like the focal point of the room
+... Like the focal point for souls. 
+~
+End
+
+#16102
+NAME   broadsword rusted jagged iron~
+SHORT  a rusty, jagged iron broadsword~
+DESCR 
+A rusty broadsword emitting undead intent lies on the floor.~
+MAT    iron~
+TYPE   weapon sword 5 7 cleave D
+EXTRA  1 3 0 208
+WEAR   AN
+LEVEL  30
+WEIGHT 16
+COST   0
+COND   100
+Affect O 13 15 0
+Affect O 5 -1 0
+Affect O 19 4 0
+EDESC jagged broadsword iron rusty~
+Although rusty, it is jagged and sharp, able to do heavy damage with one
+swing of its thick, heavy blade. 
+~
+End
+
+#16103
+NAME   gloves gauntlets blackened solamnic~
+SHORT  a pair of blackened Solamnic gauntlets~
+DESCR 
+Two black gauntlets bearing an uncanny resemblance to Solamnic armor lie here.~
+MAT    steel~
+TYPE   armor BF BCE BF ACE 0
+EXTRA  1 7 0 17307856
+WEAR   AH
+LEVEL  40
+WEIGHT 20
+COST   0
+COND   100
+Affect O 17 -15 0
+Affect O 4 2 0
+Affect O 19 4 0
+EDESC gauntlets blackened solamnic~
+They are blackened and evil, and glow with a slightly red unlight ... On
+each finger of the right glove are tiny red runes. 
+~
+End
+
+#16104
+NAME   elven skirt torn tattered grey~
+SHORT  a tattered grey elven skirt~
+DESCR 
+A pile of torn and tattered grey cloth has a slight odor of death and perfume.~
+MAT    cloth~
+TYPE   armor BD ACD BD ABE 0
+EXTRA  1 3 0 267264
+WEAR   AF
+LEVEL  30
+WEIGHT 7
+COST   0
+COND   100
+Affect O 12 70 0
+Affect O 13 15 0
+EDESC skirt tattered torn grey elven~
+It looks like an old, worn elven skirt that was once snowy-white and
+decorated with beautiful designs, but time and something more profound than
+time has ruined it forever. 
+~
+End
+
+#16105
+NAME   shield tower onyx~
+SHORT  a tower shield of black onyx~
+DESCR 
+A large tower shield with a horrific bearing on it radiates black fire.~
+MAT    steel~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 7 0 17565904
+WEAR   AJ
+LEVEL  0
+WEIGHT 41
+COST   12000
+COND   100
+Affect O 19 3 0
+Affect O 12 -60 0
+Affect O 1 2 0
+Affect O 3 2 0
+Affect O 17 -15 0
+EDESC black steel shield kite dying phoenix~
+The phoenix depicted on the shield is being consumed by a black fire, and
+the impression is that this phoenix will never rise back to life again. The
+fire seems as if it is absorbing all light, as if it were real. 
+~
+End
+
+#16106
+NAME   longsword pitchblack black~
+SHORT  a longsword wrapped in black flame~
+DESCR 
+A longsword burning with black flame sears the ground and absorbs the light.~
+MAT    steel~
+TYPE   weapon sword 6 8 drain C
+EXTRA  1 8 0 17566416
+WEAR   AN
+LEVEL  33
+WEIGHT 17
+COST   0
+COND   100
+Affect O 1 -1 0
+Affect O 19 7 0
+Affect O 18 7 0
+Affect O 5 -1 0
+Affect O 13 -20 0
+EDESC longsword sword pitch black~
+The blade is black and shaped like a forked tongue, and it is constantly
+dripping thick, red blood. The sword seems to take in all light and life
+around it. 
+~
+LIMIT  4
+End
+
+#16107
+NAME   wrappings head mummy decaying~
+SHORT  a mummy's decaying head wrappings~
+DESCR 
+A pile of putrid, filthy rags is heaped on the floor.~
+MAT    cloth~
+TYPE   armor ABD ABCD ABD BCE 0
+EXTRA  1 3 0 4176
+WEAR   AE
+LEVEL  30
+WEIGHT 7
+COST   0
+COND   100
+Affect O 19 4 0
+Affect O 1 3 0
+Affect O 4 -1 0
+Affect O 3 -2 0
+Affect O 12 -30 0
+EDESC head wrappings decaying mummy~
+The rags are old and smell horrible, a combination of death and embalming
+fluids. 
+~
+End
+
+#16108
+NAME   bed old musty~
+SHORT  an old musty bed~
+DESCR 
+An old, musty bed is in the corner of the room, the bedclothes eaten away.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 1 0 262144
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+EDESC bed old musty~
+The bedclothes look like they've been eaten away by moths. The bed itself
+is giving off a damp, musty odor, probably from mold and fungus growing on
+it. You can at least try to use it ... If you're not too scared of something
+coming and eating YOU. 
+~
+End
+
+#16109
+NAME   goblet silver fine blood~
+SHORT  a fine silver goblet~
+DESCR 
+A goblet of fine silver sits here.~
+MAT    silver~
+TYPE   drink 10 10 'blood' 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  30
+WEIGHT 9
+COST   0
+COND   100
+EDESC goblet silver fine blood~
+As you look inside the goblet, you see a distinctive red stain. 
+~
+End
+
+#16110
+NAME   table dining long wooden~
+SHORT  a great dining table~
+DESCR 
+A great dining table extends most of the length of the hall.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 1 0 262144
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+EDESC wooden table long great dining~
+The long, wooden table seems to not have aged at all. It is of the finest
+oak, covered with beautiful plates and candelabras. 
+~
+End
+
+#16111
+NAME   scythe ethereal shimmering cold~
+SHORT  a cold-bladed ethereal scythe~
+DESCR 
+A shimmering scythe fades in and out of your sight.~
+MAT    magic~
+TYPE   weapon polearm 5 10 slice BCF
+EXTRA  1 4 0 17039440
+WEAR   AN
+LEVEL  30
+WEIGHT 7
+COST   0
+COND   100
+Affect O 12 -10 0
+Affect O 19 5 0
+Affect O 1 -1 0
+EDESC scythe cold ethereal shimmering~
+The blade chills you as you touch the staff, and the aura around it feels
+like that of a wraith. 
+~
+End
+
+#16112
+NAME   key tarnished silver~
+SHORT  a tarnished silver key~
+DESCR 
+A dull, tarnished silver key lies on the floor, encrusted with blood.~
+MAT    silver~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 524352
+WEAR   AO
+LEVEL  35
+WEIGHT 9
+COST   0
+COND   100
+EDESC key tarnished silver~
+It must have gleamed beautifully when it was new ... The key is sculpted
+with designs of intricate lace. 
+~
+End
+
+#16113
+NAME   fourposter poster bed large~
+SHORT  a large four-poster bed~
+DESCR 
+A large four-poster bed is in the middle of the room.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+EDESC bed large fourposter poster~
+The bed must have been Soth's and his wife's. It was probably very
+beautiful at the time when it was in use, but now it is ruined and has not
+been used for a long, long time. 
+~
+End
+
+#16114
+NAME   key courtyard nondescript~
+SHORT  a nondescript key~
+DESCR 
+A fairly normal key lies here.~
+MAT    iron~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+EDESC key courtyard nondescript~
+It's just a key, but on the head, it says "To the courtyard." 
+~
+End
+
+#16115
+NAME   chandelier fallen crystal~
+SHORT  a fallen crystal chandelier~
+DESCR 
+A fallen crystal chandelier has crushed a chair under its weight.~
+MAT    gem~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 5 0 17055824
+WEAR   0
+LEVEL  40
+WEIGHT 6
+COST   0
+COND   100
+EDESC crystal chandelier fallen~
+The chandelier fell atop the chair to the right of the head of the table,
+the seat that would have belonged to Soth's wife. And as legend has it,
+before she died she cursed Soth to eternal corruption in an undead body with
+her last breath. Even now, the chandelier exudes evil and malice. 
+~
+End
+
+#16116
+NAME   black chest oaken bolted steel~
+SHORT  a black oaken chest~
+DESCR 
+A black chest bolted with steel sits beside the throne.~
+MAT    wood~
+TYPE   container 10000 ABCD 16117 100 100
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  35
+WEIGHT 6
+COST   0
+COND   100
+EDESC oaken black chest steel bolted~
+The chest is made of oak, stained black and reinforced with steel. 
+~
+End
+
+#16117
+NAME   simple steel key~
+SHORT  a simple steel key~
+DESCR 
+A simple key of steel is here.~
+MAT    steel~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 4224
+WEAR   AO
+LEVEL  35
+WEIGHT 10
+COST   0
+COND   100
+EDESC steel key simple~
+It is a simple key, with no real distinguishing features to it. 
+~
+End
+
+#16118
+NAME   gold small amount coins~
+SHORT  a small amount of gold~
+DESCR 
+A small amount of gold is in the chest.~
+MAT    gold~
+TYPE   money 0 0 0 0 0
+EXTRA  1 1 0 524288
+WEAR   A
+LEVEL  1
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#16119
+NAME   red key bone barbed~
+SHORT  a barbed red key of bone~
+DESCR 
+A crimson key of bone lies at your feet.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 5 0 17043473
+WEAR   AO
+LEVEL  30
+WEIGHT 8
+COST   0
+COND   100
+EDESC key barbed red bone~
+The key is needle-sharp in places, smooth as bone in others. Its deep red
+glow gives you an idea of the evil power contained within. 
+~
+End
+
+#16120
+NAME   wedding gown intangible elven~
+SHORT  an intangible elven wedding gown~
+DESCR 
+A wedding gown that you can barely make out shimmers on the floor..~
+MAT    magic~
+TYPE   armor CDE CDE CDE DEF 0
+EXTRA  1 8 0 17630305
+WEAR   AD
+LEVEL  38
+WEIGHT 6
+COST   0
+COND   100
+Affect O 4 3 0
+Affect O 12 35 0
+Affect O 18 5 0
+EDESC gown wedding intangible elven~
+The gown looks smeared with blood, but still glowing with a faint bluish-
+gold aura of light and goodness. It is of obvious elven design, and is
+absolutely beautiful, even though it flickers in and out of your sight. 
+~
+End
+
+#16121
+NAME   veil wedding immaterial elven~
+SHORT  an immaterial elven wedding veil~
+DESCR 
+An immaterial white wedding veil lies heaped on the floor.~
+MAT    magic~
+TYPE   armor CE CE CE ADF 0
+EXTRA  1 8 0 17630305
+WEAR   AE
+LEVEL  38
+WEIGHT 4
+COST   0
+COND   100
+Affect O 12 50 0
+Affect O 17 -20 0
+Affect O 2 2 0
+Affect O 3 2 0
+EDESC veil wedding immaterial elven~
+The veil shimmers in and out of your sight, even if you wear it. It is as
+if it were not wholly of this realm, nor wholly of the spiritual realm. The
+veil is beautiful and white, glowing with a magical radiance. 
+~
+End
+
+#16122
+NAME   chair waiting old~
+SHORT  an old waiting chair~
+DESCR 
+An old but comfortable-looking chair is up against the wall.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 2 0 278528
+WEAR   0
+LEVEL  35
+WEIGHT 6
+COST   0
+COND   100
+EDESC chair old waiting~
+The chair is old and big, but it still looks comfortable after untold
+years of not being used. 
+~
+End
+
+#16123
+NAME   cape solamnic torn tattered black red cloak~
+SHORT  a torn red and black Solamnic cape~
+DESCR 
+A torn, tattered and worn Solamnic cloak lies on the floor in a thick heap.~
+MAT    cloth~
+TYPE   armor ABE ADE ABE ABF 0
+EXTRA  1 5 0 530512
+WEAR   AK
+LEVEL  38
+WEIGHT 7
+COST   0
+COND   100
+Affect O 5 -1 0
+Affect O 17 -10 0
+Affect O 18 5 0
+Affect O 19 5 0
+Affect O 1 -2 0
+EDESC cape torn tattered cloak solamnic red black~
+The cape is ancient beyond belief, incredibly surviving unknown years and
+years of use and war. The cape is darkened with necromancy, and the
+once-white rose that graced the rear of the cloak is blackened. 
+~
+End
+
+#16124
+NAME   nightstand table old~
+SHORT  an old nightstand~
+DESCR 
+An old nightstand is next to the bed.~
+MAT    wood~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+EDESC nightstand old table~
+The nightstand is a beautifully carved piece of craftsmanship, possibly
+of either elven or dwarven creation. Intricate designs are carved all over
+the table, weaving in and out of each other with fluid grace. 
+~
+End
+
+#16125
+NAME   shrine small stone~
+SHORT  a small stone shrine~
+DESCR 
+A small stone shrine is set up against the eastern wall.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 17055808
+WEAR   0
+LEVEL  35
+WEIGHT 9
+COST   0
+COND   100
+EDESC shrine small stone~
+The shrine is small, made of fairly common grey stone, much like the
+stone that makes up the walls of the Keep. A small offering plate is on the
+shrine, used to hold gifts and sacrifices to Paladine and the gods of good,
+but of late, it has not been used at all, but it has not been defiled,
+either. 
+~
+End
+
+#16126
+NAME   altar small wooden~
+SHORT  a small wooden altar~
+DESCR 
+A small wooden altar is set up at the eastern wall.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 3 0 278592
+WEAR   0
+LEVEL  35
+WEIGHT 6
+COST   0
+COND   100
+EDESC altar wooden small~
+The altar is a simple wooden altar, with some delicate stylizations of
+the gods of good on it. It is cushioned for kneeling in prayer, but the soft
+pillows used for it have since begun to rot away and crumble. Mysteriously,
+even though the Keep is inhabited by many undead, the altar has not been
+defiled or ruined in any way. 
+~
+End
+
+#16127
+NAME   helmet full battle blackened solamnic~
+SHORT  a blackened full Solamnic battle helmet~
+DESCR 
+A black full helm representing the armor of the Knights of Solamnia rests on the ground.~
+MAT    steel~
+TYPE   armor BCDE CE BCDE BE 0
+EXTRA  1 6 0 17307728
+WEAR   AE
+LEVEL  35
+WEIGHT 27
+COST   0
+COND   100
+Affect O 19 3 0
+Affect O 12 15 0
+Affect O 3 -10 0
+Affect O 17 -10 0
+Affect O 1 -1 0
+EDESC helmet full blackened solamnic battle~
+The helmet is full around the face and head, protecting everything but
+the eyes. The air around the helmet is cold and strangely fearsome, like a
+great evil wore this helmet. The tassle on the helmet is vermillion, a deep
+red that seems like it was dyed with blood. 
+~
+End
+
+#16128
+NAME   black heart skeleton burning~
+SHORT  the black heart of a burning skeleton~
+DESCR 
+The impossibly beating black heart of a skeleton lies on the ground in a pool of blood.~
+MAT    food~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 7 0 17109200
+WEAR   AO
+LEVEL  30
+WEIGHT 4
+COST   0
+COND   100
+Affect O 13 -10 0
+Affect O 12 10 0
+Affect O 19 2 0
+Affect O 1 -1 0
+EDESC heart beating black~
+The beating is rhythmic ... Not so unnatural. Holding it, you get an evil
+feeling from the blood that drips down your hand constantly. And for as long
+as you've seen it, black blood has never ceased to pour from the horrific
+organ. 
+~
+End
+
+#16129
+NAME   candelabra silver~
+SHORT  a silver candelabra~
+DESCR 
+A silver candelabra is here, unused.~
+MAT    silver~
+TYPE   light 0 0 ABCFGHIJ 0 0
+EXTRA  1 3 0 263169
+WEAR   AO
+LEVEL  30
+WEIGHT 9
+COST   0
+COND   100
+EDESC silver candelabra~
+There are enough candles in here to last for a long time, it seems. 
+~
+End
+
+#16130
+NAME   hand axe iron green light~
+SHORT  a light iron green-tinted hand axe~
+DESCR 
+A hand axe is tainted a peculiar green color.~
+MAT    iron~
+TYPE   weapon axe 4 12 cleave H
+EXTRA  1 1 0 64
+WEAR   AN
+LEVEL  30
+WEIGHT 23
+COST   0
+COND   100
+Affect O 18 4 0
+Affect O 14 25 0
+Affect O 19 4 0
+Affect O 2 1 0
+EDESC hand axe iron green light~
+The surprising thing about this axe is its lightness for being made
+entirely of iron ... The other surprising thing is the odd green tint which
+the weapon has. Iron is usually reddish. 
+~
+End
+
+#16131
+NAME   gnarled wooden staff steelcapped blue~
+SHORT  a gnarled wooden staff capped with blue steel~
+DESCR 
+A gnarled wooden staff lies on the floor.~
+MAT    wood~
+TYPE   weapon staff 4 12 wrath CF
+EXTRA  1 8 0 17565251
+WEAR   AN
+LEVEL  35
+WEIGHT 23
+COST   0
+COND   100
+Affect O 1 1 0
+Affect O 13 50 0
+Affect O 18 2 0
+EDESC staff wooden gnarled blue steelcapped~
+The staff is twisted and has a strange aura, neither holy nor unholy. At
+the tip of the steel cap is a worn symbol of the Healer. 
+~
+End
+
+#16132
+NAME   mace obsidian emeralds inlaid~
+SHORT  a massive obsidian mace inlaid with emeralds~
+DESCR 
+A black club sparkling with emeralds is glittering in the light.~
+MAT    mineral~
+TYPE   weapon mace 3 16 smash 0
+EXTRA  1 4 0 83
+WEAR   AN
+LEVEL  37
+WEIGHT 18
+COST   6000
+COND   100
+Affect O 1 -1 0
+Affect O 14 -50 0
+Affect O 2 -2 0
+Affect O 19 6 0
+Affect O 18 -5 0
+EDESC mace obsidian emeralds inlaid~
+The club is almost too heavy to use. You'd have to be strong as a
+minotaur to even hold it with one hand. But it is absolutely beautiful, with
+all the emeralds set against the black obsidian. 
+~
+End
+
+#16133
+NAME   platinum flail morningstar star diamond spiked~
+SHORT  a platinum morningstar spiked with diamonds~
+DESCR 
+A silvery spiked flail lies unused on the floor.~
+MAT    metal~
+TYPE   weapon flail 4 11 crush 0
+EXTRA  1 5 0 17303618
+WEAR   AN
+LEVEL  38
+WEIGHT 18
+COST   0
+COND   100
+Affect O 12 35 0
+Affect O 4 1 0
+Affect O 19 2 0
+EDESC platinum morninstar spiked diamonds~
+The head is beautiful, and the diamonds glitter in the light wonderfully.
+It is connected to the haft by a rather long chain, and the haft itself is
+carved from ebon wood. Into the central part of it is an elegant sign of the
+Platinum Dragon Claw. 
+~
+End
+
+#16134
+NAME   window~
+SHORT  a window~
+DESCR 
+A window is carved out of the stone of the wall.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  30
+WEIGHT 9
+COST   0
+COND   100
+EDESC window~
+Looking out the window, out into the dark skies beyond the Keep, you get
+a feeling of peacefulness. You can see well into the distance, and you are
+quite high up in the Keep. A fall from this height would be fatal to you. 
+~
+End
+
+#16135
+NAME   wisp ether ghostly~
+SHORT  a wisp of ether~
+DESCR 
+A ghostly wisp floats passively in the air.~
+MAT    magic~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 10 0 17633521
+WEAR   AC
+LEVEL  35
+WEIGHT 2
+COST   0
+COND   100
+Affect O 13 30 0
+Affect O 12 45 0
+Affect O 17 -8 0
+Affect O 1 1 0
+EDESC wisp ether ghostly~
+It is somewhat immaterial, but you can still strangely touch and look at
+it. 
+~
+End
+
+#16136
+NAME   bookshelf tall stone~
+SHORT  a stone bookshelf~
+DESCR 
+A tall stone bookshelf is carved into the wall.~
+MAT    stone~
+TYPE   container 1000 0 0 1000 1
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+EDESC bookshelf tall stone~
+The bookshelf is elegantly carved out of the very wall. 
+~
+End
+
+#16137
+NAME   solamnic code book old copy~
+SHORT  a copy of the Solamnic Code~
+DESCR 
+An old book with a leather cover lies here.~
+MAT    paper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 17039424
+WEAR   AO
+LEVEL  30
+WEIGHT 3
+COST   0
+COND   100
+Affect O 3 2 0
+Affect O 19 2 0
+EDESC solamnic code book old~
+The code is a simple yet elegant book of parchment, small and beautiful.
+On the cover is simply inscribed "Est Sularus Oth Mithas." 
+~
+End
+
+#16138
+NAME   footstool small oak~
+SHORT  an oak footstool~
+DESCR 
+An oak footstool is in front of the chair.~
+MAT    wood~
+TYPE   furniture 0 0 0 H 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  60
+WEIGHT 6
+COST   10000
+COND   100
+End
+
+#16139
+NAME   chair reading~
+SHORT  a reading chair~
+DESCR 
+A reading chair is set beside the wall.~
+MAT    wood~
+TYPE   furniture 0 0 0 K 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  60
+WEIGHT 6
+COST   10000
+COND   100
+EDESC reading chair~
+For as old as it must be, it still looks very comfortable. 
+~
+End
+
+#16140
+NAME   desk oak~
+SHORT  a grand oak desk~
+DESCR 
+A grand oak desk is against the wall.~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  1
+WEIGHT 6
+COST   0
+COND   100
+EDESC oak desk~
+It is beautiful and antique, and covered with a thick layer of dust. The
+craftsmanship is obviously dwarven, since you can barely tell where the
+individual pieces of the desk were fitted together. 
+~
+End
+
+#16141
+NAME   large window~
+SHORT  a large window~
+DESCR 
+A large window is opened in the north wall.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  2
+WEIGHT 9
+COST   0
+COND   100
+EDESC window large~
+Looking out the large picture window, you can see a hauntingly beautiful
+vista of the Vingaard mountains. Mist is all about them, and they look as if
+they were taken from a faerie tale. 
+~
+End
+
+#16142
+NAME   window~
+SHORT  a wide window~
+DESCR 
+A wide window is carved out of the wall.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+EDESC window wide~
+The view here is breathtaking, like many of the creatures that now
+inhabit Dargaard Keep. You can see the misty mountaintops of Vingaard for
+miles and miles. 
+~
+End
+
+#16143
+NAME   torso armor iron~
+SHORT  the torso of a suit of armor~
+DESCR 
+The torso of an antique iron armor rocks on the floor.~
+MAT    iron~
+TYPE   armor ACF ACDE ADF CE 0
+EXTRA  1 7 0 16863440
+WEAR   AD
+LEVEL  35
+WEIGHT 33
+COST   0
+COND   100
+Affect O 19 -5 0
+Affect O 18 -4 0
+Affect O 1 -2 0
+Affect O 2 -2 0
+EDESC torso iron armor~
+The armor radiates magic and malevolence, daring any to wear it. 
+~
+End
+
+#16144
+NAME   sword iron antique~
+SHORT  a black iron antique longsword~
+DESCR 
+An old-looking iron sword lies on the ground.~
+MAT    iron~
+TYPE   weapon sword 5 9 slash D
+EXTRA  1 6 0 16847056
+WEAR   AN
+LEVEL  35
+WEIGHT 16
+COST   0
+COND   100
+Affect O 18 -5 0
+Affect O 13 -50 0
+Affect O 1 -2 0
+Affect O 19 -5 0
+EDESC antique iron sword~
+The sword doesn't look real, like it was taken from a sketch of a sword
+and given substance. It almost seems to be daring you to hold it in your
+hand. 
+~
+End
+
+#16145
+NAME   fountain marble mossy mosscovered~
+SHORT  a moss-covered fountain~
+DESCR 
+A large marble fountain, covered with black moss, has been built in the center   of the clearing.~
+MAT    mineral~
+TYPE   drink 100000 100000 'blood' 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  12
+WEIGHT 8
+COST   0
+COND   100
+EDESC marble fountain moss~
+The fountain may have been endlessly spraying water in its day, but now
+it has been corrupted and only endlessly spews forth a jet of thick red
+blood. 
+~
+End
+
+#16146
+NAME   blood pool thick~
+SHORT  a pool of blood~
+DESCR 
+A pool of thick red blood seeps from beneath a stone wall to the west.~
+MAT    liquid~
+TYPE   drink 100 100 'blood' 0 0
+EXTRA  1 3 0 17055744
+WEAR   0
+LEVEL  12
+WEIGHT 2
+COST   0
+COND   100
+EDESC pool blood thick~
+The blood is slowly coming from the wall to the west, but the wall is
+just high enough so that you can't see over it. 
+~
+End
+
+#16147
+NAME   log fallen grey tree~
+SHORT  a fallen grey log~
+DESCR 
+A fallen tree lies on the cold soil of the courtyard.~
+MAT    wood~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 17039376
+WEAR   0
+LEVEL  10
+WEIGHT 6
+COST   0
+COND   100
+EDESC tree fallen grey log~
+The tree seems to have been felled quite recently. 
+~
+End
+
+#16148
+NAME   scimitar sword grey~
+SHORT  a skeletal scimitar~
+DESCR 
+A sword rests here.~
+MAT    bone~
+TYPE   weapon sword 3 9 slash EF
+EXTRA  1 5 0 35408
+WEAR   AN
+LEVEL  30
+WEIGHT 20
+COST   0
+COND   100
+End
+
+#16149
+NAME   apple rotten~
+SHORT  a rotten apple~
+DESCR 
+An apple rots on the ground.~
+MAT    food~
+TYPE   food 0 0 0 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  1
+WEIGHT 4
+COST   0
+COND   100
+EDESC apple rotten~
+Ugh ... Not even the worms will eat this one. 
+~
+End
+
+#16150
+NAME   tapestry magic~
+SHORT  a tapestry depicting great magic~
+DESCR 
+A tapestry that shows great acts of magic lies stretched out on the floor.~
+MAT    cloth~
+TYPE   armor E ACE E BCDE 0
+EXTRA  1 7 0 17629251
+WEAR   AK
+LEVEL  35
+WEIGHT 7
+COST   0
+COND   100
+Affect O 2 -1 0
+Affect O 3 2 0
+Affect O 4 2 0
+Affect O 12 50 0
+EDESC tapestry magic~
+A great battle of sorcerers is shown on this old tapestry, and great
+magical power flows from the cloth. It shimmers with energy. 
+~
+End
+
+#16151
+NAME   tapestry war~
+SHORT  a tapestry depicting great war~
+DESCR 
+A tapestry showing a great scene of battle is laid out on the ground.~
+MAT    cloth~
+TYPE   armor E ACE E BCDE 0
+EXTRA  1 6 0 17629187
+WEAR   AK
+LEVEL  35
+WEIGHT 7
+COST   6500
+COND   100
+Affect O 2 1 0
+Affect O 5 2 0
+Affect O 1 2 0
+Affect O 19 4 0
+EDESC tapestry war~
+The tapestry exhibits explicit acts of war and violence. Strong bloodlust
+exudes from the cloth. 
+~
+End
+
+#16152
+NAME   bed bunked servants~
+SHORT  a set of bunked beds~
+DESCR 
+Two beds are bunked in the corner, one atop the other.~
+MAT    wood~
+TYPE   furniture 0 0 0 K 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  60
+WEIGHT 6
+COST   1000
+COND   100
+EDESC beds bunked servants~
+The beds look narrow but comfortable, just enough for the servants that
+were employed here. 
+~
+End
+
+#16153
+NAME   ring skull bone~
+SHORT  a ring embellished with a skull~
+DESCR 
+A small ring of bone lies on the floor.~
+MAT    bone~
+TYPE   armor AD BCD ABD BC 0
+EXTRA  1 2 0 80
+WEAR   AB
+LEVEL  30
+WEIGHT 4
+COST   0
+COND   100
+Affect O 13 -20 0
+Affect O 18 4 0
+Affect O 12 25 0
+Affect O 1 1 0
+EDESC ring skull bone~
+The ring is made from smooth carved bone, and at the top, where a jewel
+would normally be, is a very tiny skull, something that would probably not
+be an easy thing to find in Krynn. 
+~
+End
+
+#16154
+NAME   girdle steel black skull~
+SHORT  a black steel girdle decorated with a skull~
+DESCR 
+A tight girdle made of blackened steel is on the ground.~
+MAT    steel~
+TYPE   armor BE CD BE ABD 0
+EXTRA  1 4 0 4626
+WEAR   AL
+LEVEL  32
+WEIGHT 13
+COST   0
+COND   100
+Affect O 17 -15 0
+Affect O 18 -3 0
+Affect O 2 -1 0
+EDESC girdle steel black skull~
+The girth looks tight ... You might have a hard time of getting the thing
+off. And although horrible, it is strangely beautiful. Something about it
+compels you to look at it, something about the image of pain projected by
+the skull. 
+~
+End
+
+#16155
+NAME   rose ring black silver~
+SHORT  a silver ring of the Order of the Rose~
+DESCR 
+A silver ring with a black rose on it glistens in the light.~
+MAT    silver~
+TYPE   armor AE ACD AE ABD 0
+EXTRA  1 4 0 2130
+WEAR   AB
+LEVEL  34
+WEIGHT 4
+COST   0
+COND   100
+Affect O 5 -3 0
+Affect O 13 50 0
+Affect O 1 2 0
+Affect O 19 6 0
+EDESC rose ring silver black~
+It is beautiful and ugly at the same time. Obviously of Solamnic make,
+although very old, it has been desecrated by evil and something about it
+makes you feel stronger and weaker at the same time. 
+~
+End
+
+#16156
+NAME   ring ruby adamantite~
+SHORT  a ruby ring streaked with adamantite~
+DESCR 
+A ring of solid red crystal laced with metal sticks out strangely.~
+MAT    gem~
+TYPE   armor BD ABCD ACD ABD 0
+EXTRA  1 6 0 264401
+WEAR   AB
+LEVEL  32
+WEIGHT 3
+COST   0
+COND   100
+Affect O 3 -1 0
+Affect O 17 -5 0
+Affect O 19 3 0
+Affect O 1 2 0
+EDESC ring red ruby adamantite~
+The ring is solid ruby, somehow marbled with adamantite. The effect is
+somewhat startling, so much that the pattern sticks in your mind. The
+colours blend together well, creating a feeling of strength. 
+~
+End
+
+#16157
+NAME   scale vambraces stained~
+SHORT  a pair of stained scale-mail vambraces~
+DESCR 
+Some scale-mail vambraces lie on the floor, glowing with a strange light.~
+MAT    iron~
+TYPE   armor ACE E ABCE ABD 0
+EXTRA  1 3 0 81
+WEAR   AI
+LEVEL  31
+WEIGHT 26
+COST   1000
+COND   100
+Affect O 12 30 0
+Affect O 1 -1 0
+Affect O 17 -5 0
+EDESC scale vambraces stained~
+The armguards are stained, but still made of fine scale mail, closely
+linked to prevent a weapon from penetrating them and rendering the arms
+useless, which would be quite fatal in combat. But the stains ... They are
+quite strange. It is not blood which stains them, but the blemishes are red.
+~
+End
+
+#16158
+NAME   heavy scalemail greaves~
+SHORT  a set of heavy scalemail greaves~
+DESCR 
+A pair of long greaves made of scalemail lie on the floor.~
+MAT    iron~
+TYPE   armor CE ABCD BCE ABD 0
+EXTRA  1 2 0 18
+WEAR   AF
+LEVEL  32
+WEIGHT 28
+COST   0
+COND   100
+Affect O 13 20 0
+Affect O 14 -50 0
+Affect O 17 10 0
+Affect O 18 -4 0
+Affect O 2 -2 0
+End
+
+#16159
+NAME   shackle black iron~
+SHORT  a black iron shackle~
+DESCR 
+A thick band of forged iron lies on the floor, attached to a chain.~
+MAT    iron~
+TYPE   armor AE ACD BE AD 0
+EXTRA  1 3 0 4113
+WEAR   AM
+LEVEL  32
+WEIGHT 16
+COST   0
+COND   100
+Affect O 18 -2 0
+Affect O 19 2 0
+Affect O 1 1 0
+Affect O 2 -1 0
+EDESC shackle iron black~
+The shackle looks very strong. It looks like you wouldn't be able to take
+it off very easily. But it does look like it will give you a decent amount
+of protection. And it looks like it could be fun later. 
+~
+End
+
+#16160
+NAME   signet dargaard black~
+SHORT  the Dargaard signet ring~
+DESCR 
+A ring with royal symbols engraved on it lies on the floor, radiating evil.~
+MAT    iron~
+TYPE   armor BCD ABD ABCD ABC 0
+EXTRA  1 6 0 264401
+WEAR   AB
+LEVEL  32
+WEIGHT 4
+COST   4000
+COND   100
+Affect O 3 -1 0
+Affect O 17 10 0
+Affect O 19 3 0
+Affect O 1 2 0
+EDESC signet dargaard~
+A ring of Dargaard Keep's ruler, engraved with symbols of might. Once
+being a knight of Solamnia this ring was a symbol of loyality and honor, now
+it only burns as a symbol of death and unlife, once carried by an undead
+knight. 
+~
+End
+
+#16161
+NAME   head mummified dragon~
+SHORT  a mummified head of black dragon~
+DESCR 
+A mummified head of a giant scaled beast lies on the ground.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 6 0 17629187
+WEAR   AO
+LEVEL  35
+WEIGHT 6
+COST   7000
+COND   100
+Affect O 17 -15 0
+Affect O 2 1 0
+Affect O 5 2 0
+Affect O 19 10 0
+Affect O 1 2 0
+EDESC head dragon~
+A large head of the black dragon has been severed and mummified as a
+deadly and powerful artifact. Black scales flare as they are being polished,
+and the head seems to be alive. 
+~
+End
+
+#16162
+NAME   vial dragon blood~
+SHORT  a crystal vial of dragon blood~
+DESCR 
+A crystal vial filled with bubbling liquid lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 6 0 17629187
+WEAR   AO
+LEVEL  35
+WEIGHT 6
+COST   7000
+COND   100
+Affect O 17 -15 0
+Affect O 2 1 0
+Affect O 5 2 0
+Affect O 19 10 0
+Affect O 1 2 0
+EDESC vial blood~
+A large crystal vial has been filled with a strange, deep red liquid. It
+is bubbling with horrible smelling smoke. 
+~
+End
+
+#16163
+NAME   rod cold ice~
+SHORT  the black and blue crystal rod~
+DESCR 
+A rod forged from black and blue crystal lies on the ground.~
+MAT    gem~
+TYPE   weapon exotic 8 6 shbite D
+EXTRA  1 6 0 17043664
+WEAR   AN
+LEVEL  35
+WEIGHT 12
+COST   0
+COND   100
+Affect O 18 -5 0
+Affect O 13 -50 0
+Affect O 1 -2 0
+Affect O 19 -5 0
+EDESC rod crystal~
+A translucent crystal rod looks ghostly, absorbing the light around your
+hands. While you look at it, purple smoke appears inside it, shrouding the
+inside of the crystal. Creating a hypnotic feeling, it start shudders in
+your hands when all are effects gone, and rod starts to look like a useless
+piece of glass. 
+~
+End
+
+#16164
+NAME   pendant bone~
+SHORT  a pendant of two crossed bones~
+DESCR 
+A pendant made from trick of bones lies on the ground, radiating unholy powers.~
+MAT    bone~
+TYPE   armor CD ABE ABCD AD 0
+EXTRA  1 3 0 4113
+WEAR   AC
+LEVEL  32
+WEIGHT 10
+COST   0
+COND   100
+Affect O 19 2 0
+Affect O 1 1 0
+Affect O 2 -1 0
+EDESC pendant bone~
+A pendant made as some kind of evil symbol. Ancient runes are engraved on
+crossed bones. Between the bones you can see a small demonic skull grinning
+at you with immense hatred. 
+~
+End
+
+#16165
+NAME   whip bone~
+SHORT  a bone-handled leather whip~
+DESCR 
+A whip with the handle made from humanoid bone lies on the ground before your feet.~
+MAT    bone~
+TYPE   weapon whip 5 8 thwack 0
+EXTRA  1 4 0 83
+WEAR   AN
+LEVEL  37
+WEIGHT 10
+COST   13000
+COND   100
+Affect O 1 -1 0
+Affect O 14 -50 0
+Affect O 2 -2 0
+Affect O 19 6 0
+Affect O 18 -5 0
+EDESC whip bone bone-handled~
+A massive leather whip looks like a weapon of immense pain and torturing. 
+~
+End
+
+#16166
+NAME   wings skeletal dracolich red~
+SHORT  the red wings of a dracolich~
+DESCR 
+Two detached skeletal wings lie radiating hatred on the floor~
+MAT    bone~
+TYPE   armor AF ABEF ADF DE 0
+EXTRA  1 6 0 856144
+WEAR   AK
+LEVEL  45
+WEIGHT 21
+COST   0
+COND   100
+Affect O 19 7 0
+Affect O 4 -2 0
+Affect O 5 -1 0
+Affect O 14 -50 0
+Affect O 2 -3 0
+EDESC wings skeletal red dracolich~
+The wings are massive, and look heavy and unwieldy. They would probably
+restrict movement and agility drastically, but the aura of hate coming off
+them commands fear and weakness from foes. 
+~
+End
+
+#16167
+NAME   head dracolich red freezing~
+SHORT  the red skull of a mighty dracolich~
+DESCR 
+A skull lies on the ground, freezing the air around it.~
+MAT    bone~
+TYPE   armor AF ABEF ADF DE 0
+EXTRA  1 6 0 856144
+WEAR   AE
+LEVEL  45
+WEIGHT 21
+COST   0
+COND   100
+Affect O 18 4 0
+Affect O 13 -35 0
+Affect O 17 -15 0
+Affect O 2 -1 0
+EDESC skull red freezing head dracolich~
+The skull is far too large to be used as a helmet of any kind, but
+something about the arrangement of the bones on the back make it look like
+it would be good as a shield, perhaps ... If it didn't bite you and not let
+go. 
+~
+End
+
+#16168
+NAME   dracolich red claw helmet~
+SHORT  the clenched claw of a red dracolich~
+DESCR 
+A large clenched claw lies on the floor.~
+MAT    bone~
+TYPE   armor ACDE ACDF CF ACE 0
+EXTRA  1 8 0 17633488
+WEAR   AH
+LEVEL  45
+WEIGHT 16
+COST   0
+COND   100
+Affect O 12 15 0
+Affect O 4 -1 0
+Affect O 13 -20 0
+EDESC claw clenched dracolich red~
+The claw is a bit big to be used as a weapon, but it is clenched enough
+so that it might fit on your head ... It could be a little tight, though. 
+~
+End
+
+#16169
+NAME   spine red dracolich~
+SHORT  the red spine of a great dracolich~
+DESCR 
+A coiled mass of hard red bone absorbs light around it.~
+MAT    bone~
+TYPE   armor AF ABEF ADF DE 0
+EXTRA  1 7 0 17633360
+WEAR   AK
+LEVEL  45
+WEIGHT 21
+COST   0
+COND   100
+Affect O 3 -3 0
+Affect O 2 -2 0
+Affect O 19 5 0
+Affect O 13 -20 0
+EDESC spine red dracolich~
+The spine is very long, long enough to coil around you twice, and thick
+enough to give a decent amount of protection. But to trust such an evil
+artifact of undeath ... Requires either great courage or great stupidity. 
+~
+End
+
+#16170
+NAME   rib cage bone red dracolich~
+SHORT  the rib cage of a red dracolich~
+DESCR 
+A red pair of greaves made from dragonbone lie on the floor.~
+MAT    bone~
+TYPE   armor AE ABDE ACE ACD 0
+EXTRA  1 8 0 17633488
+WEAR   AF
+LEVEL  35
+WEIGHT 22
+COST   0
+COND   100
+Affect O 19 2 0
+Affect O 13 -35 0
+Affect O 1 -2 0
+Affect O 17 -15 0
+Affect O 14 -50 0
+EDESC red rib cage dracolich greaves~
+The rib cage is fairly small, considering it came from a dracolich. It's
+too small to fit onto your body, but you might be able to squeeze your legs
+into the bones. 
+~
+End
+
+#16171
+NAME   skeleton~
+SHORT  a skeleton~
+DESCR 
+A skeleton lies in a puddle of decayed flesh.~
+MAT    bone~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 2 0 16400
+WEAR   0
+LEVEL  35
+WEIGHT 8
+COST   0
+COND   100
+EDESC skeleton~
+The skeleton looks freshly decayed, as the puddle of molten flesh around
+it will testify. 
+~
+End
+
+#16172
+NAME   dirk white-bladed serpentine~
+SHORT  a serpentine white-bladed dirk~
+DESCR 
+A dirk with a white blade glistens in its own vileness.~
+MAT    dragonscale~
+TYPE   weapon dagger 5 9 pierce E
+EXTRA  1 6 0 524913
+WEAR   AN
+LEVEL  35
+WEIGHT 5
+COST   0
+COND   100
+Affect O 13 -25 0
+Affect O 4 1 0
+Affect O 12 40 0
+EDESC white-bladed dirk serpentine~
+The dirk's wide white blade looks very sharp, even though it is scratched
+and chipped in numerous places. The hilt of the dagger is shaped like a
+serpent biting its own tail. 
+~
+End
+
+#16173
+NAME   necklace tongue~
+SHORT  a necklace of dried elven tongues~
+DESCR 
+A shuddering necklace made of chunks of flesh twitches on the floor.~
+MAT    food~
+TYPE   armor AC AC AC AC 0
+EXTRA  1 2 0 528384
+WEAR   AC
+LEVEL  29
+WEIGHT 6
+COST   400
+COND   100
+Affect O 12 50 0
+Affect O 19 2 0
+Affect O 17 -10 0
+Affect O 1 -1 0
+EDESC tongue necklace~
+The tongues are strung together on a bit of iron wire. They are dried
+out, but strangely bloody. They writhe and twist, and occasionally they all
+scream at the same time, with a horrible noise to all. 
+~
+End
+
+#16174
+NAME   tongue ghoul~
+SHORT  the hideous black tongue of a ghoul-like being~
+DESCR 
+A tongue lies convulsing disquietingly on the floor, splashing saliva everywhere.~
+MAT    food~
+TYPE   armor BC BC BC BC 0
+EXTRA  1 2 0 528
+WEAR   AC
+LEVEL  32
+WEIGHT 6
+COST   5000
+COND   100
+Affect O 19 3 0
+Affect O 12 40 0
+Affect O 3 -2 0
+Affect O 2 -1 0
+Affect O 13 -25 0
+EDESC tongue black~
+The tongue writhes and writhes unceasingly, maddeningly, mindlessly. No
+rhyme or reason is behind it at all but black, foul magic from beyond the
+limits of imagination ... Magic from the edge of the world. 
+~
+End
+
+#16175
+NAME   spear ice~
+SHORT  an ice-tipped ebony spear~
+DESCR 
+A long and dangerous looking spear lies here.~
+MAT    magic~
+TYPE   weapon spear 7 6 freezingbite EF
+EXTRA  1 3 0 524801
+WEAR   AN
+LEVEL  35
+WEIGHT 7
+COST   2400
+COND   100
+Affect O 19 5 0
+Affect O 13 30 0
+End
+
+#16176
+NAME   bandage mummy~
+SHORT  some loose bandages of a mummy~
+DESCR 
+A pile of half-decayed cloth lies here.~
+MAT    cloth~
+TYPE   armor ABD BCD ABD CE 0
+EXTRA  1 2 0 4608
+WEAR   AI
+LEVEL  29
+WEIGHT 7
+COST   4000
+COND   100
+Affect O 1 -1 0
+Affect O 5 -2 0
+Affect O 19 4 0
+EDESC bandage mummy~
+The bandages reek of rot and decay. 
+~
+End
+
+#16177
+NAME   morningstar corroded~
+SHORT  a corroded iron morningstar~
+DESCR 
+A corroded morningstar lies here in a pool of blood.~
+MAT    steel~
+TYPE   weapon flail 9 4 crush 0
+EXTRA  1 1 0 2048
+WEAR   AN
+LEVEL  30
+WEIGHT 20
+COST   1400
+COND   100
+Affect O 18 2 0
+Affect O 19 5 0
+EDESC morningstar corroded~
+It's rusty, but still looks like it could be used safely. There are worse
+weapons one could use. 
+~
+End
+
+#16178
+NAME   crystal talisman~
+SHORT  a talisman of blue-green crystal~
+DESCR 
+A talisman carved from blue and green crystal lies on the ground.~
+MAT    gem~
+TYPE   armor ABC BD D ABC 0
+EXTRA  1 3 0 4113
+WEAR   AC
+LEVEL  24
+WEIGHT 8
+COST   0
+COND   100
+Affect O 17 -5 0
+Affect O 13 15 0
+Affect O 1 -1 0
+EDESC talisman crystal~
+What a beautiful necklace ... It radiates strange magics and mystical
+powers. 
+~
+End
+
+#16179
+NAME   bracer glass polished~
+SHORT  an bracer of polished black glass~
+DESCR 
+A small bracer made from dark glass lies on the ground, absorbing the light within itself.~
+MAT    glass~
+TYPE   armor ABCE ABC ACE BCD 0
+EXTRA  1 4 0 2640
+WEAR   AM
+LEVEL  34
+WEIGHT 12
+COST   0
+COND   100
+Affect O 2 1 0
+Affect O 12 35 0
+Affect O 13 30 0
+End
+
+#16180
+NAME   tablet golden skull~
+SHORT  a golden tablet engraved with a skull~
+DESCR 
+A tablet engraved with a skull lies here.~
+MAT    gold~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 66049
+WEAR   AO
+LEVEL  32
+WEIGHT 10
+COST   0
+COND   100
+Affect O 12 100 0
+EDESC tablet skull gold~
+The tablet is tarnished, and in the center is a skull. A few runes are on
+it, but not too many. 
+~
+End
+
+#16181
+NAME   cross silver burned~
+SHORT  a burned silver cross~
+DESCR 
+A cross made from silver lies here, covered by ash.~
+MAT    silver~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 1 0 512
+WEAR   AO
+LEVEL  32
+WEIGHT 9
+COST   0
+COND   100
+Affect O 13 50 0
+Affect O 17 -15 0
+EDESC cross burned silver~
+The cross was probably beautiful in its day, but it has been desecrated. 
+~
+End
+
+#16182
+NAME   banner of the dead~
+SHORT  a banner of the dead~
+DESCR 
+A banner of the dead lies here.~
+MAT    cloth~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 1 0 16
+WEAR   AO
+LEVEL  10
+WEIGHT 2
+COST   0
+COND   100
+EDESC banner dead~
+Something is not right about this banner. 
+~
+End
+
+#16183
+NAME   crystalline orb~
+SHORT  a crystalline orb named "quortek kul'gobsula"~
+DESCR 
+A crystalline orb lies here, dark energy swirling within it.~
+MAT    gem~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 8 0 34083540
+WEAR   AO
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+LIMIT  1
+RESTR  T
+End
+
+#0
+
+
+
+#ROOMDATA
+#16100
+NAME   A trail leading up the mountain~
+DESCR
+Up this side trail through the Vingaard Mountains, elevation increases
+slowly but steadily, so little that you are not quite going up the mountain,
+but enough so that you're not on a hillside. You can't see too well to the
+east, but something is up there ... Something that you can feel here. Cold
+fog and mist blankets the ground, condensing on your armor, chilling you
+more than it should. It is, after all, just mist. Maybe there's a place that
+you can rest up ahead. Back west lie the mountains. 
+~
+FLAGS  0
+Sect   5
+DOOR 0
+~
+~
+0 0 900
+DOOR 1
+The path heads up a mountain. 
+~
+~
+0 -1 16101
+DOOR 2
+~
+~
+0 -1 11000
+End
+
+#16101
+NAME   A trail leading up the mountain~
+DESCR
+Up this side trail through the Vingaard Mountains, elevation increases
+slowly but steadily, so little that you are not quite going up the mountain,
+but enough so that you're not on a hillside. You can't see too well to the
+east, but something is up there ... Something that you can feel here, very
+strongly. Cold fog and mist blankets the ground, condensing on your armor,
+chilling you more than it should. It is, after all, just mist. Maybe there's
+a place that you can rest up ahead. Back west lie the mountains. 
+~
+FLAGS  0
+Sect   5
+DOOR 1
+It looks like it leads to a castle of some sort. 
+~
+~
+0 -1 16102
+DOOR 3
+The path leads back to the mountains. 
+~
+~
+0 -1 16100
+End
+
+#16102
+NAME   Before a stone keep~
+DESCR
+You stand before a mighty fortress of cold, hard grey stone. A feeling of
+dread and chill overtakes you upon looking at its tall spires and high
+fortifications. A large wooden door is the only visible entrance into this
+keep. Wind howls all about, cold wind mixed with cold rain. It beats on your
+skin mercilessly. Overhead, the sky darkens and thunder rolls in the
+distance. And you notice that there are very few footprints in the dusty
+soil of the Vingaard mountains here; only deep, heavy impressions in the
+ground and some fairly gaunt-looking steps, as if a creature with bony feet
+walked here. Back west, the trail through the Vingaard mountains goes back
+to what feels much safer. 
+~
+FLAGS  0
+Sect   5
+DOOR 1
+Large wooden doors mark the entrance into the Keep. 
+~
+wooden door~
+AB -1 16103
+DOOR 3
+The trail leads back down the mountain. 
+~
+~
+0 -1 16101
+End
+
+#16103
+NAME   Foyer of Dargaard Keep~
+DESCR
+Horror. Destruction. Hate. Nothing else can shove its way into your mind.
+This is Dargaard Keep, or it was. How long has it stood undiscovered? Cries
+echo across the ruins. They sound unearthly and undead, and you get the
+distinct feeling that he is here ... Lord Soth. Damned by his elven wife as
+the Cataclysm struck Krynn to wander the realm in an eternal, dreadful life
+in this very place ... The man who was once the bravest and most honorable
+Solamnic Knight, now cursed to unlife until Krynn is destroyed again. To the
+west, regardless of what may be there, it is much safer, in the Vingaard
+mountains, even in the dark. Up here, nobody can hear you scream. Nobody can
+come help you. Nobody will find your body. Up here all alone, let alone in
+the dark. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+The hallway continues to the east. 
+~
+~
+0 -1 16104
+DOOR 3
+The Vingaard range is back west. 
+~
+~
+A -1 16102
+End
+
+#16104
+NAME   Inside the Keep~
+DESCR
+Footsteps echo faintly in the distant, narrow stone halls of the Keep. An
+insubstantial shadow moves before you, brushing your cheek, freezing it for
+a moment or two. Cries echo in the night, torches flicker eerie bluish-white
+light all about the keep, casting shadows that look like they're moving ...
+Or are they doing that on their own? The darkness overwhelms you when you
+look at one of them, lancing your eyes and stabbing into your skull. Back
+west, where it's safe, no matter what lies there, is the Vingaard mountain
+range. North, south and east, the halls stretch on, stretching on when you
+look at them. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16105
+DOOR 1
+~
+~
+0 -1 16107
+DOOR 2
+~
+~
+0 -1 16106
+DOOR 3
+~
+~
+0 -1 16103
+End
+
+#16105
+NAME   Inside the Keep~
+DESCR
+Footsteps echo faintly in the distant, narrow stone halls of the Keep. An
+insubstantial shadow moves before you, brushing your cheek, freezing it for
+a moment or two. Cries echo in the night, torches flicker eerie bluish-white
+light all about the keep, casting shadows that look like they're moving ...
+Or are they doing that on their own? The darkness overwhelms you when you
+look at one of them, lancing your eyes and stabbing into your skull. North
+and south, the hall stretches on, seeming to stretch even more when you look
+down its length. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+A -1 16108
+DOOR 2
+~
+~
+0 -1 16104
+End
+
+#16106
+NAME   Inside the Keep~
+DESCR
+Footsteps echo faintly in the distant, narrow stone halls of the Keep. An
+insubstantial shadow moves before you, brushing your cheek, freezing it for
+a moment or two. Cries echo in the night, torches flicker eerie bluish-white
+light all about the keep, casting shadows that look like they're moving ...
+Or are they doing that on their own? The darkness overwhelms you when you
+look at one of them, lancing your eyes and stabbing into your skull. North
+and south, the hall stretches on, seeming to stretch even more when you look
+down its length. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16104
+DOOR 2
+~
+~
+A -1 16109
+End
+
+#16107
+NAME   The main hallway of Dargaard~
+DESCR
+You walk down a large, wide hallway that is covered with old tapestries
+and paintings. Torches burn mysteriously, lighting the hall with blue-white
+flame. A strange mist hangs low to the floor, chilling your legs as you walk
+through it. It seems to exist on its own volition. A coldness fills the air,
+an unnatural coldness; it is like the coldness of death. Cries echo through
+the ruins of the stone keep. They sound sad and mournful, singing a
+terrifyingly beautiful song in an elven voice. The hall looms on to the
+east, and the entrance to the keep is west. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16110
+DOOR 3
+~
+~
+0 -1 16104
+End
+
+#16108
+NAME   Inside the Keep~
+DESCR
+Footsteps echo faintly in the distant, narrow stone halls of the Keep. An
+insubstantial shadow moves before you, brushing your cheek, freezing it for
+a moment or two. Cries echo in the night, torches flicker eerie bluish-white
+light all about the keep, casting shadows that look like they're moving ...
+Or are they doing that on their own? The darkness overwhelms you when you
+look at one of them, lancing your eyes and stabbing into your skull. South,
+the hall stretches on, seeming to stretch even more when you look down its
+length. A small stair winds its way up into the next floor above you. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+A -1 16105
+DOOR 4
+~
+~
+0 -1 16118
+End
+
+#16109
+NAME   Inside the Keep~
+DESCR
+Footsteps echo faintly in the distant, narrow stone halls of the Keep. An
+insubstantial shadow moves before you, brushing your cheek, freezing it for
+a moment or two. Cries echo in the night, torches flicker eerie bluish-white
+light all about the keep, casting shadows that look like they're moving ...
+Or are they doing that on their own? The darkness overwhelms you when you
+look at one of them, lancing your eyes and stabbing into your skull. North,
+the hall stretches on, seeming to stretch even more when you look down its
+length. A small stair winds its way up into the next floor above you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+A -1 16106
+DOOR 4
+~
+~
+0 -1 16119
+End
+
+#16110
+NAME   The main hallway of Dargaard~
+DESCR
+You walk down a large, wide hallway that is covered with old tapestries
+and paintings. Torches burn mysteriously, lighting the hall with blue-white
+flame. A strange mist hangs low to the floor, chilling your legs as you walk
+through it. It seems to exist on its own volition. A coldness fills the air,
+an unnatural coldness; it is like the coldness of death. Cries echo through
+the ruins of the stone keep. They sound sad and mournful, singing a
+terrifyingly beautiful song in an elven voice. The hall looms on to the
+east, and the entrance to the keep is west. A stairwell, which is set in the
+north wall, leads to a second floor. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16112
+DOOR 3
+~
+~
+0 -1 16107
+DOOR 4
+~
+~
+0 -1 16111
+End
+
+#16111
+NAME   Second floor landing~
+DESCR
+At the top of the main stair, no fog floats low to the ground. It is
+replaced by a mist that takes no notice of the solidarity of the world or of
+itself, it only clings to anything that it can, then moves on, like a cat
+that is restless and wandering about for no reason other than to keep moving
+at all costs. From in the shadows it crawls, and in the shadows it finds a
+way to go where it wants to go. To the west the passage extends, trying not
+to collapse under the psychic emotional pressure that forces it to stand
+beyond time, beyond life, beyond anything that is natural and good. And down
+lies the first floor, down lies the fog that clutches to your legs like a
+small lost child. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 -1 16113
+DOOR 5
+~
+~
+0 -1 16110
+End
+
+#16112
+NAME   The main hallway of Dargaard~
+DESCR
+You walk down a large, wide hallway that is covered with old tapestries
+and paintings. Torches burn mysteriously, lighting the hall with blue-white
+flame. A strange mist hangs low to the floor, chilling your legs as you walk
+through it. It seems to exist on its own volition. A coldness fills the air,
+an unnatural coldness; it is like the coldness of death. Cries echo through
+the ruins of the stone keep. They sound sad and mournful, singing a
+terrifyingly beautiful song in an elven voice. The hall looms on to the
+west. North and south, another hallway extends ominously, and to the east
+seems to be a dining hall. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16176
+DOOR 1
+~
+~
+0 -1 16136
+DOOR 2
+~
+~
+0 -1 16179
+DOOR 3
+~
+~
+0 -1 16110
+End
+
+#16113
+NAME   Second floor hallway~
+DESCR
+The second floor is colder than the first, and the fog is strangely gone.
+In its place is an odd sort of ether in the air, a few wisps of it here and
+there. The torches on the wall light the grey stone hallways in an odd sort
+of blue-white light, one that gives off no heat, only light. A few
+tapestries line the walls, with the occasional painting that must have been
+done by an artist well-known in his time. No windows are in this hall, no
+sign of life graces the floor. The only thing here is the feel of death, of
+fear, of something ancient and ageless. You can hear or discern anything
+about the outside world, as if it did not exist at this point in time. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16111
+DOOR 3
+~
+~
+0 -1 16114
+End
+
+#16114
+NAME   Second floor hallway~
+DESCR
+The second floor is colder than the first, and the fog is strangely gone.
+In its place is an odd sort of ether in the air, a few wisps of it here and
+there. The torches on the wall light the grey stone hallways in an odd sort
+of blue-white light, one that gives off no heat, only light. A few
+tapestries line the walls, with the occasional painting that must have been
+done by an artist well-known in his time. No windows are in this hall, no
+sign of life graces the floor. The only thing here is the feel of death, of
+fear, of something ancient and ageless. You can hear or discern anything
+about the outside world, as if it did not exist at this point in time.
+Hallways branch off from this main hall here, one to the north, the other to
+the south. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16116
+DOOR 1
+~
+~
+0 -1 16113
+DOOR 2
+~
+~
+0 -1 16115
+DOOR 3
+~
+~
+0 -1 16117
+End
+
+#16115
+NAME   Southern wing of the Keep~
+DESCR
+This is a dreamscape, something not real, something time should have
+forgotten about but couldn't. Bolted footsteps seem to follow you, but
+nothing is there to see, nothing is there to make those sounds of pensive
+walking and pondering. Life is just a dream of the waking, a dream long
+forgotten about in these halls of madness and sorrow. Mists wrap around
+nothing, float in some sort of twisted purpose through the air and through
+the silent stony walls of the hall. To the south lies the rest of this wing
+of the keep, and to the north is another hallway of dreams altogether. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16114
+DOOR 2
+~
+~
+0 -1 16150
+End
+
+#16116
+NAME   Northern wing of the Keep~
+DESCR
+In this hallway, screams echo too loudly, footsteps echo too near to you.
+Things seem too loud to be real, things are too mysterious and intangible to
+be here. There is no life save your own, no breathing but yours, nothing
+here that would make anything comfortable. Darkness settles in and makes its
+home here, mists trail through the air and through the walls. Great sadness
+and pain assail your mind, burning an image of lost love, of lost goodness
+and light. Torches burn blue, burning without heat or purpose other than to
+give an inkling of what life once was. South, another wing of the keep
+extends, and north is the rest of this part. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16147
+DOOR 2
+~
+~
+0 -1 16114
+End
+
+#16117
+NAME   Second floor hallway~
+DESCR
+The second floor is colder than the first, and the fog is strangely gone.
+In its place is an odd sort of ether in the air, a few wisps of it here and
+there. The torches on the wall light the grey stone hallways in an odd sort
+of blue-white light, one that gives off no heat, only light. A few
+tapestries line the walls, with the occasional painting that must have been
+done by an artist well-known in his time. No windows are in this hall, no
+sign of life graces the floor. The only thing here is the feel of death, of
+fear, of something ancient and ageless. You cannot hear or discern anything
+about the outside world, as if it did not exist at this point in time. An
+open arch leads west, the rest of the hall stretches on to the east, and
+what appears to be stairs are a short way north and south. In addition, a
+wide staircase leads up to the third floor of the Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16118
+DOOR 1
+~
+~
+0 -1 16114
+DOOR 2
+~
+~
+0 -1 16119
+DOOR 3
+~
+~
+0 -1 16120
+DOOR 4
+~
+~
+0 -1 16121
+End
+
+#16118
+NAME   At the top of a short staircase~
+DESCR
+You stand at the top of a short staircase that links the first and second
+floors. The stairs wind down from here, illuminated by a few smokeless
+torches that bestow an odd blue light over the area. The second floor
+hallway leads south from this point. The fog that was so prominent on the
+first floor is gone now, and only a few wisps of some ethereal material
+float through the air and the walls. The air has grown colder on this floor,
+and it is somewhat harder to breathe here, probably because of whatever is
+in the air. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16117
+DOOR 5
+~
+~
+0 -1 16108
+End
+
+#16119
+NAME   At the top of a short staircase~
+DESCR
+You stand at the top of a short staircase that links the first and second
+floors. The stairs wind down from here, illuminated by a few smokeless
+torches that bestow an odd blue light over the area. The second floor
+hallway leads north from this point. The fog that was so prominent on the
+first floor is gone now, and only a few wisps of some ethereal material
+float through the air and the walls. The air has grown colder on this floor,
+and it is somewhat harder to breathe here, probably because of whatever is
+in the air. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16117
+DOOR 5
+~
+~
+0 -1 16109
+End
+
+#16120
+NAME   On a balcony overlooking the mountains~
+DESCR
+On this stone balcony, with the cold air all around you and the sky
+growing dark with night, you feel somehow at peace. A haunting song echoes
+in the distance somewhere, a song sung by elven voices to Lord Soth. You can
+see most of the Vingaard mountains from here, and looking straight down, you
+can see the main gate of the keep. You might even be able to jump down
+there; it can't be more than a 15 foot fall. Back east, the keep reaches on,
+cold and dark. And somewhere, the undead elven maidens sing to Lord Soth all
+night long. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16117
+DOOR 5
+~
+~
+0 -1 16102
+End
+
+#16121
+NAME   Third floor landing~
+DESCR
+Choices overwhelm you here, just like the overwhelming feel of hate on
+this, the third floor. North, south, east and west lie cold stone hallways,
+up and down lie imposingly wide staircases that lead to old places consumed
+by old tradition and the pain of a time when something good dwelled here.
+Now there is nothing ... Nothing. Only memories of a warm hearth, of life
+and love that cannot exist here anymore. They were forced out when death and
+corruption were forced in. It doesn't take much to rip the air, thick as it
+is with a cramped longing for a glimpse of the grand bastion of light that
+it once was. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16122
+DOOR 1
+~
+~
+0 -1 16130
+DOOR 2
+~
+~
+0 -1 16125
+DOOR 3
+~
+~
+0 -1 16128
+DOOR 4
+~
+~
+0 -1 16137
+DOOR 5
+~
+~
+0 -1 16117
+End
+
+#16122
+NAME   Northern hallway~
+DESCR
+You are north of the center of the floor, where halls converge and then
+split apart again. Energies seem to streak through the halls here, strange
+mists materialize and dissipate before you can focus your eyes on them. The
+mists sometimes have faces in them, faces of horror and pain and screaming
+agony. The walls have the same emotions, the same feelings; they were never
+allowed to fall during the Cataclysm, but were forced to stand and become
+something that they shouldn't have been. Nothing is right; the hallways
+seems to almost rotate and twist before your eyes, but when you blink, all
+is right again for a time. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16123
+DOOR 2
+~
+~
+0 -1 16121
+End
+
+#16123
+NAME   Northern hallway~
+DESCR
+You are north of the center of the floor, where halls converge and then
+split apart again. Energies seem to streak through the halls here, strange
+mists materialize and dissipate before you can focus your eyes on them. The
+mists sometimes have faces in them, faces of horror and pain and screaming
+agony. The walls have the same emotions, the same feelings; they were never
+allowed to fall during the Cataclysm, but were forced to stand and become
+something that they shouldn't have been. Nothing is right; the hallways
+seems to almost rotate and twist before your eyes, but when you blink, all
+is right again for a time. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16124
+DOOR 2
+~
+~
+0 -1 16122
+End
+
+#16124
+NAME   End of the northern hallway~
+DESCR
+You are north of the center of the floor, where halls converge and then
+split apart again. Energies seem to streak through the halls here, strange
+mists materialize and dissipate before you can focus your eyes on them. The
+mists sometimes have faces in them, faces of horror and pain and screaming
+agony. The walls have the same emotions, the same feelings; they were never
+allowed to fall during the Cataclysm, but were forced to stand and become
+something that they shouldn't have been. Nothing is right; the hallways
+seems to almost rotate and twist before your eyes, but when you blink, all
+is right again for a time. A window is here, through which you can look out
+and see the outside, see the black seething clouds overhead before you have
+to turn around and brave the hallway and the fear and hate of Dargaard
+again. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16123
+End
+
+#16125
+NAME   Southern hallway~
+DESCR
+Just south of the main vortex of halls that span this level of Dargaard
+Keep, the walls are blank, the floor is blank, and there is nothing but a
+few torches to light the halls and bathe it in cold blue light. Behind you
+something walks, but you cannot see it. You are being trailed by something
+behind you. The sadness thick in the air burns it, chilling it as it slides
+down your throat with every inhale that you take. It chokes you, forcing you
+to fight for your own life even when you are not fighting. No one dared, no
+one cared to tell the keep that it had to stand after the Cataclysm, that it
+had to stay and be something twisted and evil. And so it still stands. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16121
+DOOR 2
+~
+~
+0 -1 16126
+End
+
+#16126
+NAME   Southern hallway~
+DESCR
+Just south of the main vortex of halls that span this level of Dargaard
+Keep, the walls are blank, the floor is blank, and there is nothing but a
+few torches to light the halls and bathe it in cold blue light. Behind you
+something walks, but you cannot see it. You are being trailed by something
+behind you. The sadness thick in the air burns it, chilling it as it slides
+down your throat with every inhale that you take. It chokes you, forcing you
+to fight for your own life even when you are not fighting. No one dared, no
+one cared to tell the keep that it had to stand after the Cataclysm, that it
+had to stay and be something twisted and evil. And so it still stands. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16125
+DOOR 2
+~
+~
+0 -1 16127
+End
+
+#16127
+NAME   End of the southern hallway~
+DESCR
+Just south of the main vortex of halls that span this level of Dargaard
+Keep, the walls are blank, the floor is blank, and there is nothing but a
+few torches to light the halls and bathe it in cold blue light. Behind you
+something walks, but you cannot see it. You are being trailed by something
+behind you. The sadness thick in the air burns it, chilling it as it slides
+down your throat with every inhale that you take. It chokes you, forcing you
+to fight for your own life even when you are not fighting. No one dared, no
+one cared to tell the keep that it had to stand after the Cataclysm, that it
+had to stay and be something twisted and evil. And so it still stands. Here
+is a window, where you can gaze out at the outside world and see what you
+can before you have to turn around and face the rest of the halls. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16126
+End
+
+#16128
+NAME   Western hallway~
+DESCR
+In this short hallway, you get a feeling of more comfort than you have
+felt in the rest of the keep, but it is still hateful towards you and it
+decidedly wants you to leave now. Here, you get the feeling that the Keep
+itself is alive, given life by the intensely evil presence that occupies it.
+Rather, perhaps the Keep is undead, like all that is inside it. Regardless,
+you are unwanted and despised. The Keep is a mystery of time and of the
+realm, something filled with knowledge held only by Gilean. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16121
+DOOR 3
+~
+~
+0 -1 16129
+End
+
+#16129
+NAME   Between two oaken doors~
+DESCR
+You are between two large doors of thick oak, one north and one south.
+The hallway is back to the east. This area of the keep feels more
+comfortable for some reason; it feels lived in. That's the only real way to
+describe it; not as much ill will and hatred is here as compared to the rest
+of the Keep. But still, something is wrong, something is terribly hateful
+and discordiant. The spirits of the old seem to be pushing you away because
+you are something alive and you have that spark of life in you, and that is
+something that is foreign, fearful and unwanted here. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+oak door~
+AB -1 16134
+DOOR 1
+~
+~
+0 -1 16128
+DOOR 2
+~
+oak door~
+AB -1 16135
+End
+
+#16130
+NAME   Eastern hall~
+DESCR
+There is somewhat of an aura of comfort surrounding these stone walls,
+but the evil mists still drift through them and choke the air and your
+throat with their presence. They get trapped there, and don't want to leave
+until you force them out with your breath. It is almost as if the mists were
+some sort of tangible emotion of hate and despise. Life like your own is
+something foreign here, just as the undead are foreign to the common
+citizens of Palanthas. Shrieks echo in the night that is eternal here,
+thunder somehow shakes the foundations of the stone walls and echoes through
+them, flickering the blue light of the torches that gives no heat, no
+comfort. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16131
+DOOR 3
+~
+~
+0 -1 16121
+End
+
+#16131
+NAME   Eastern hall~
+DESCR
+There is somewhat of an aura of comfort surrounding these stone walls,
+but the evil mists still drift through them and choke the air and your
+throat with their presence. They get trapped there, and don't want to leave
+until you force them out with your breath. It is almost as if the mists were
+some sort of tangible emotion of hate and despise. Life like your own is
+something foreign here, just as the undead are foreign to the common
+citizens of Palanthas. Shrieks echo in the night that is eternal here,
+thunder somehow shakes the foundations of the stone walls and echoes through
+them, flickering the blue light of the torches that gives no heat, no
+comfort. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16132
+DOOR 3
+~
+~
+0 -1 16130
+End
+
+#16132
+NAME   Before a large oak door~
+DESCR
+To the east is a large doorway, filled with a thick oaken door. The rest
+of the hallway stretches out to the west. When compared to the rest of the
+Keep, this hallway almost feels comfortable. Severe regret and pain emanate
+from the east, from behind the large oaken door. And when compared to the
+rest of the Keep, it almost doesn't register with you at all, since it feels
+so much less worse here. But lest you forget, you are in the fortress of the
+eternally damned Lord Soth, who commands an army of the undead. And you are
+alive, which is more odious than anything else to the inhabitants of this
+bastion of hate and death. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+large oak door~
+AB -1 16133
+DOOR 3
+~
+~
+0 -1 16131
+End
+
+#16133
+NAME   The master bedroom~
+DESCR
+The bedroom is large and filled with a musty odor of decay. The fog that
+soaks the first floor is here now, somehow flowing inside the room but not
+out of the door. It latches onto you, weighing you down and wanting to drag
+you into the floor and crush you from the ankles up, grinding you until you
+are nothing more than a mass of bone and gore on the floor, energies of
+death to be sucked up by the mist and reinforce the powers of Dargaard Keep
+and of Lord Soth. Comfort would be here were it not for the mist that hates
+you so, it is something alien and not of this world, somehow stemming from
+the Abyss to this realm but not back again. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+large oak door~
+AB -1 16132
+End
+
+#16134
+NAME   An old bedroom~
+DESCR
+This old bedroom is filled with the fog, the fog that creeps out of
+everything and up your legs, trying to drag you down with it. It is a fairly
+nondescript bedroom, with a bed, nightstand, a torch, and a window. It is
+all very old, and it seems to be saying something to you that it is
+insistent be heard and spread about Krynn. It seems to want you to stay
+until it is heard ... But something inside you says to run away from it, and
+to never come back this way again, no matter what the cost. Outside the
+window, the wind howls wildly, the storm boils overhead, and a flash of
+lightning strikes a mountaintop in the distance. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+oak door~
+AB -1 16129
+End
+
+#16135
+NAME   An old bedroom~
+DESCR
+This old bedroom is filled with the fog, the fog that creeps out of
+everything and up your legs, trying to drag you down with it. It is a fairly
+nondescript bedroom, with a bed, nightstand, a torch, and a window. It is
+all very old, and it seems to be saying something to you that it is
+insistent be heard and spread about Krynn. It seems to want you to stay
+until it is heard ... But something inside you says to run away from it, and
+to never come back this way again, no matter what the cost. Outside the
+window, the wind howls wildly, the storm boils overhead, and a flash of
+lightning strikes a mountaintop in the distance. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+oak door~
+AB -1 16129
+End
+
+#16136
+NAME   An ancient dining hall~
+DESCR
+Inside this grey dining hall, one that used to be draped with fine
+tapestries and banners of the Knights of Solamnia, you get the feeling of
+nostalgia, then hate. The old wooden table still stretches down most of the
+length of this great hall, and it is still set with silver plates, goblets,
+candelabras, and utensils. What used to be the finest linen is used as a
+tablecloth. Now, there's no telling what kind of feasts are held here, or
+what is drunk from those fine silver goblets. A chill fills the air and
+flows all around you. The mist present in the main hall isn't as thick as it
+is here. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+AB -1 16182
+DOOR 3
+~
+~
+0 -1 16112
+DOOR 5
+~
+~
+0 -1 27000
+End
+
+#16137
+NAME   Fourth floor landing~
+DESCR
+The mist is still missing from the fourth floor of the Keep. The halls
+echo strange voices in the night, strange faces by the day. It is as a dream
+that never ends, a dream that you can't wake up from. The undead citizens of
+this fortress all roam about in the same manner, all convinced that they are
+merely dreaming and that you are but a figure in the dream, perhaps sharing
+the same dream. Below you, the stairwell is dark, but to the east and west,
+the now-familiar blue-white glow of the cold torches lights the halls and
+shadows things in a way that doesn't seem quite right. And all about, the
+same elven song travels lightly on the dark air. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16138
+DOOR 3
+~
+~
+0 -1 16197
+DOOR 5
+~
+~
+0 -1 16121
+End
+
+#16138
+NAME   The fourth floor of the Keep~
+DESCR
+The mist is gone from this floor of the Keep. The halls echo strange
+screams in the night and the day. It is a dream that never ends, a dream
+that you can't wake up from. The undead citizens of this fortress all roam
+about in the same manner, all convinced that they are merely dreaming and
+that you are but a figure in the dream, perhaps sharing the same dream. This
+cruel trick of the mind does much to comfort the souls that are still
+trapped in the decaying bodies and rotting corpses. To the west, the
+now-familiar blue-white glow of the cold torches lights the halls and
+shadows things in a way that doesn't seem quite right. And all about, the
+same elven song travels lightly on the dark air. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16139
+DOOR 1
+~
+~
+0 -1 16141
+DOOR 2
+~
+~
+0 -1 16140
+DOOR 3
+~
+~
+0 -1 16137
+End
+
+#16139
+NAME   Inside a waiting hall~
+DESCR
+You are in what appears to be a waiting hall for persons seeking an
+audience with the Lord Soth of yore, the kind, benevolent Knight of
+Solamnia. The hall looks as if it were comfortable in its day, well-lit and
+warm. A few chairs still stand around the room, and they mostly look as if
+they could still be used. The hall extends east and south. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16142
+DOOR 2
+~
+~
+0 -1 16138
+End
+
+#16140
+NAME   Inside a waiting hall~
+DESCR
+You are in what appears to be a waiting hall for persons seeking an
+audience with the Lord Soth of yore, the kind, benevolent Knight of
+Solamnia. The hall looks as if it were comfortable in its day, well-lit and
+warm. A few chairs still stand around the room, and they mostly look as if
+they could still be used. The hall extends east and north. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16138
+DOOR 1
+~
+~
+0 -1 16143
+End
+
+#16141
+NAME   Inside a waiting hall~
+DESCR
+You are in what appears to be a waiting hall for persons seeking an
+audience with the Lord Soth of yore, the kind, benevolent Knight of
+Solamnia. The hall looks as if it were comfortable in its day, well-lit and
+warm. A few chairs still stand around the room, and they mostly look as if
+they could still be used. The hall extends west, north, and south, and a
+dark-looking staircase is to the east. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16142
+DOOR 1
+~
+~
+0 -1 16144
+DOOR 2
+~
+~
+0 -1 16143
+DOOR 3
+~
+~
+0 -1 16138
+End
+
+#16142
+NAME   Inside a waiting hall~
+DESCR
+You are in what appears to be a waiting hall for persons seeking an
+audience with the Lord Soth of yore, the kind, benevolent Knight of
+Solamnia. The hall looks as if it were comfortable in its day, well-lit and
+warm. A few chairs still stand around the room, and they mostly look as if
+they could still be used. The hall extends west and south. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16141
+DOOR 3
+~
+~
+0 -1 16139
+End
+
+#16143
+NAME   Inside a waiting hall~
+DESCR
+You are in what appears to be a waiting hall for persons seeking an
+audience with the Lord Soth of yore, the kind, benevolent Knight of
+Solamnia. The hall looks as if it were comfortable in its day, well-lit and
+warm. A few chairs still stand around the room, and they mostly look as if
+they could still be used. The hall stretches west and north. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16141
+DOOR 3
+~
+~
+0 -1 16140
+End
+
+#16144
+NAME   Before a long staircase~
+DESCR
+Just east of the waiting hall lies this staircase, so long that you
+cannot see the top of it. Thick fog rolls down it, like some sort of twisted
+waterfall, cold and evil, glowing with an unearthly white light and further
+illuminated by the blue glow of the torches that line the halls and give no
+warmth, just light. A heavy, resonant moaning can be heard from up above,
+but no sign is here as to its source. The entire stairwell is dark, and the
+light only penetrates a few feet up the staircase. A feeling of evil washes
+over the room as silence falls suddenly, as a portent of doom like the
+flaming mountain cast down upon the city of Istar. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 -1 16141
+DOOR 4
+~
+~
+0 -1 16145
+End
+
+#16145
+NAME   On the staircase~
+DESCR
+All is dark, and you can see nothing above or below. No torches line
+these walls, no heat is felt here. The temperature causes your breath to
+crystallize heavily on the air and fall to the floor to be joined with the
+thick fog that rolls down the staircase and up your legs, tendrils of it
+grasping at anything that it can latch onto. It seems to not be inhibited by
+the walls or by you, going right through anything in its way like an evil
+nightfall from which the sun will never rise again, in which the three moons
+will never be seen. The evil emanations from up above almost grab you by the
+neck and throttle the life out of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 4
+~
+~
+0 -1 16146
+DOOR 5
+~
+~
+0 -1 16144
+End
+
+#16146
+NAME   Before the Great Hall~
+DESCR
+You stand before a great set of iron doors, bolted firmly to the stone
+wall. Below you lies the impressively grand stairwell. Cold air flows all
+about you, mist rising from the floor only to melt again in the frigid air.
+Here especially is the atmosphere fearful and evil, here it is cold and
+shivering. And out of the shadows, a pair of eyes watches you, watches your
+every move, watches the fear, the cold, the panic in you, in your soul. Your
+limbs grow stiff and your entire body is caught in spasms of quaking of
+cold. There is but a single torch above the doorway to the east, causing
+shadows to flicker about uncontrollably. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+double iron door~
+ABCF 16112 16161
+DOOR 5
+~
+~
+0 -1 16145
+End
+
+#16147
+NAME   Northern wing of the Keep~
+DESCR
+In this hallway, screams echo too loudly, footsteps echo too near to you.
+Things seem too loud to be real, things are too mysterious and intangible to
+be here. There is no life save your own, no breathing but yours, nothing
+here that would make anything comfortable. Darkness settles in and makes its
+home here, mists trail through the air and through the walls. Great sadness
+and pain assail your mind, burning an image of lost love, of lost goodness
+and light. Torches burn blue, burning without heat or purpose other than to
+give an inkling of what life once was. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16148
+DOOR 2
+~
+~
+0 -1 16116
+End
+
+#16148
+NAME   Northern wing of the Keep~
+DESCR
+In this hallway, screams echo too loudly, footsteps echo too near to you.
+Things seem too loud to be real, things are too mysterious and intangible to
+be here. There is no life save your own, no breathing but yours, nothing
+here that would make anything comfortable. Darkness settles in and makes its
+home here, mists trail through the air and through the walls. Great sadness
+and pain assail your mind, burning an image of lost love, of lost goodness
+and light. Torches burn blue, burning without heat or purpose other than to
+give an inkling of what life once was. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16149
+DOOR 2
+~
+~
+0 -1 16147
+End
+
+#16149
+NAME   Northern wing of the Keep~
+DESCR
+In this hallway, screams echo too loudly, footsteps echo too near to you.
+Things seem too loud to be real, things are too mysterious and intangible to
+be here. There is no life save your own, no breathing but yours, nothing
+here that would make anything comfortable. Darkness settles in and makes its
+home here, mists trail through the air and through the walls. Great sadness
+and pain assail your mind, burning an image of lost love, of lost goodness
+and light. Torches burn blue, burning without heat or purpose other than to
+give an inkling of what life once was. East and west, short halls lie. South
+is the rest of this wing. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16153
+DOOR 2
+~
+~
+0 -1 16148
+DOOR 3
+~
+~
+0 -1 16155
+End
+
+#16150
+NAME   Southern wing of the Keep~
+DESCR
+This is a dreamscape, something not real, something time should have
+forgotten about but couldn't. Bolted footsteps seem to follow you, but
+nothing is there to see, nothing is there to make those sounds of pensive
+walking and pondering. Life is just a dream of the waking, a dream long
+forgotten about in these halls of madness and sorrow. Mists wrap around
+nothing, float in some sort of twisted purpose through the air and through
+the silent stony walls of the hall. To the south lies the rest of this wing
+of the keep, and to the north is another hallway of dreams altogether. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16115
+DOOR 2
+~
+~
+0 -1 16151
+End
+
+#16151
+NAME   Southern wing of the Keep~
+DESCR
+This is a dreamscape, something not real, something time should have
+forgotten about but couldn't. Bolted footsteps seem to follow you, but
+nothing is there to see, nothing is there to make those sounds of pensive
+walking and pondering. Life is just a dream of the waking, a dream long
+forgotten about in these halls of madness and sorrow. Mists wrap around
+nothing, float in some sort of twisted purpose through the air and through
+the silent stony walls of the hall. To the south lies the rest of this wing
+of the keep, and to the north is another hallway of dreams altogether. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16150
+DOOR 2
+~
+~
+0 -1 16152
+End
+
+#16152
+NAME   Southern wing of the Keep~
+DESCR
+This is a dreamscape, something not real, something time should have
+forgotten about but couldn't. Bolted footsteps seem to follow you, but
+nothing is there to see, nothing is there to make those sounds of pensive
+walking and pondering. Life is just a dream of the waking, a dream long
+forgotten about in these halls of madness and sorrow. Mists wrap around
+nothing, float in some sort of twisted purpose through the air and through
+the silent stony walls of the hall. To the north is another hallway of
+dreams, to the east and west are shorter, darker halls that end abruptly. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16151
+DOOR 1
+~
+~
+0 -1 16157
+DOOR 3
+~
+~
+0 -1 16159
+End
+
+#16153
+NAME   East branch of the northern hallway~
+DESCR
+You feel pain, you feel sorrow. These emotions are not your own, but of
+the cold stone that was mined, shaped and fitted together to form this
+imposing and dark keep. Once it was comfortable and a place of light,
+laughter and peace, but now ... Nothing. You are the only sign of life in
+this hall, everything else is a mere shadow of reality. Mist clings to the
+air and passes through the walls as if they were not there. The door to the
+east is silent, the hall to the west is quiet. Anything here is just a
+picture of the past, a picture of a life long forgotten in the realm of life
+and love. This is the realm of death and hate, of a fall from a grace so
+high that only one punishment could fit the crime. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+AB -1 16154
+DOOR 3
+~
+~
+0 -1 16149
+End
+
+#16154
+NAME   Servants' quarters~
+DESCR
+This must have been the servants' room when the servants were still
+needed. Without a doubt, they were cursed as Soth was, or perhaps they were
+cursed by Soth in anger and rage at his contemptible new state of being. The
+story will never be told, will never be known except by the gods and by
+Soth, none of whom are speaking about this dark chapter in the history of
+Krynn. The elven song does not echo in these rooms, the footsteps do not
+resound in this stone cell. The wind howls menacingly through the window
+that is in the room, the window that would have awaken the servants at
+sunrise every morning. But now, that does not happen. The sky is an endless
+dark mass, writhing and boiling above the cursed fearscape of Dargaard Keep.
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+A -1 16153
+End
+
+#16155
+NAME   West branch of the north hallway~
+DESCR
+You feel pain, you feel sorrow. These emotions are not your own, but of
+the cold stone that was mined, shaped and fitted together to form this
+imposing and dark keep. Once it was comfortable and a place of light,
+laughter and peace, but now ... Nothing. You are the only sign of life in
+this hall, everything else is a mere shadow of reality. Mist clings to the
+air and passes through the walls as if they were not there. The door to the
+west is silent, the hall to the east is quiet. Anything here is just a
+picture of the past, a picture of a life long forgotten in the realm of life
+and love. This is the realm of death and hate, of a fall from a grace so
+high that only one punishment could fit the crime. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16149
+DOOR 3
+~
+~
+AB -1 16156
+End
+
+#16156
+NAME   Servants' quarters~
+DESCR
+This must have been the servants' room when the servants were still
+needed. Without a doubt, they were cursed as Soth was, or perhaps they were
+cursed by Soth in anger and rage at his contemptible new state of being. The
+story will never be told, will never be known except by the gods and by
+Soth, none of whom are speaking about this dark chapter in the history of
+Krynn. The elven song does not echo in these rooms, the footsteps do not
+resound in this stone cell. The wind howls menacingly through the window
+that is in the room, the window that would have awaken the servants at
+sunrise every morning. But now, that does not happen. The sky is an endless
+dark mass, writhing and boiling above the cursed fearscape of Dargaard Keep.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+A -1 16155
+End
+
+#16157
+NAME   Eastern side of the south hall~
+DESCR
+This side of the hallway is dark and short, almost fearsome in its
+claustrophobic tendencies. A door is to the east, the rest of the hall to
+the west. This southern part is odd, something not felt anywhere else.
+Something here gives you the mental picture of something wrong, something
+that should not exist in this realm. The living might well have forgotten
+about the evil that dwells here, but time had no choice in the matter. The
+stone walls echo with madness and too many memories of the past. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+wooden door~
+A -1 16158
+DOOR 3
+~
+~
+0 -1 16152
+End
+
+#16158
+NAME   Inside a small library~
+DESCR
+This library is sparsely lit and decorated, though it is still beautiful
+in design; overall, very spartan. A window shows a glimpse of the outside
+world, and a small lamp that is beside the chair gives light to the room,
+the same eerie blue light that fills the rest of the halls here. This must
+have been one of Lord Soth's favorite rooms when he was alive, as it has a
+very comfortable feel to it at times ... However, this is not one of those
+times. Now the room is mysteriously colder than the rest of the hallways, as
+if you were not wanted here. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+wooden door~
+A -1 16157
+End
+
+#16159
+NAME   West side of the southern hall~
+DESCR
+This side of the hallway is dark and short, almost fearsome in its
+claustrophobic tendencies. A door is to the west, the rest of the hall to
+the east. This southern part is odd, something not felt anywhere else.
+Something here gives you the mental picture of something wrong, something
+that should not exist in this realm. The living might well have forgotten
+about the evil that dwells here, but time had no choice in the matter. The
+stone walls echo with madness and too many memories of the past. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16152
+DOOR 3
+~
+wooden door~
+A -1 16160
+End
+
+#16160
+NAME   A private study~
+DESCR
+The study is cold, colder than the majority of the Keep. A window shows a
+small look at the outside world, of grey storm clouds boiling overhead and
+of black shadows winging about in the cold air. An oak desk is also in the
+room, cluttered with a few papers, but most of them are on the floor now,
+blown off by the chill wind that pours in through the window. Something here
+makes you feel unwanted, something here makes you feel as if you were being
+watched. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+A -1 16159
+End
+
+#16161
+NAME   The Great Hall of Dargaard Keep~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16162
+DOOR 1
+~
+~
+0 -1 16164
+DOOR 2
+~
+~
+0 -1 16163
+DOOR 3
+~
+~
+ABCF -1 16146
+End
+
+#16162
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16167
+DOOR 2
+~
+~
+0 -1 16161
+End
+
+#16163
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16161
+DOOR 1
+~
+~
+0 -1 16166
+End
+
+#16164
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16167
+DOOR 1
+~
+~
+0 -1 16165
+DOOR 2
+~
+~
+0 -1 16166
+DOOR 3
+~
+~
+0 -1 16161
+End
+
+#16165
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16168
+DOOR 1
+~
+~
+0 -1 16194
+DOOR 2
+~
+~
+0 -1 16170
+DOOR 3
+~
+~
+0 -1 16164
+End
+
+#16166
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16164
+DOOR 1
+~
+~
+0 -1 16170
+DOOR 3
+~
+~
+0 -1 16163
+End
+
+#16167
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16168
+DOOR 2
+~
+~
+0 -1 16164
+DOOR 3
+~
+~
+0 -1 16162
+End
+
+#16168
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16169
+DOOR 2
+~
+~
+0 -1 16165
+DOOR 3
+~
+~
+0 -1 16167
+End
+
+#16169
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. North and east,
+doors are set into the walls and a force behind them sends images of death
+and sheer terror into your mind. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+AB -1 16172
+DOOR 1
+~
+~
+AB -1 16175
+DOOR 2
+~
+~
+0 -1 16168
+End
+
+#16170
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16165
+DOOR 2
+~
+~
+0 -1 16171
+DOOR 3
+~
+~
+0 -1 16166
+End
+
+#16171
+NAME   The Great Hall of Dargaard~
+DESCR
+In this, the Great Hall, you feel nothing but absolute terror and hate
+literally flowing from the walls in the form of the white fog that is so
+thick and cold on the ground that there is a real danger of your feet and
+legs going numb and you will be left to crawl away from the Keep, to be at
+the mercy of the undead minions that dwell here. Great tapestries line the
+walls, enormous paintings are mixed with them. You are not wanted here, you
+are not needed here, and whatever the driving force behind the thick fog it
+will do its best to drag you down into it and leave you there to die and
+then undie, to become just another horrible creature of the night and to
+terrify children in their sleep at the mere thought of you. South and east,
+doors bar the way into other rooms where something dwells that does not want
+you to disturb it, lest it be forced to abandon all thought of the little
+life that it still clings to and to devour you into the stony silence of
+Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16170
+DOOR 1
+~
+~
+AB -1 16174
+DOOR 2
+~
+~
+AB -1 16173
+End
+
+#16172
+NAME   A private counsel room~
+DESCR
+The room is small enough for only two people at one time, but that puts
+no limit on the number of malevolent spirits that can inhabit the space. The
+same fog rolls all around this room, up to waist level on a human, nearly up
+to a dwarf's or a kender's neck. It has no inhibitions as it did, because it
+knows somehow that you cannot escape it now and there is no possible way
+that you can run to get away from it. The deaths plotted in this room, all
+the negative energies and thought engineered over the years have sat and
+fermented here, building up over time and culminating in an evil so powerful
+that it alone can give power to Lord Soth for centuries to come. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+A -1 16169
+End
+
+#16173
+NAME   A private counsel room~
+DESCR
+The room is small enough for only two people at one time, but that puts
+no limit on the number of malevolent spirits that can inhabit the space. The
+same fog rolls all around this room, up to waist level on a human, nearly up
+to a dwarf's or a kender's neck. It has no inhibitions as it did, because it
+knows somehow that you cannot escape it now and there is no possible way
+that you can run to get away from it. The deaths plotted in this room, all
+the negative energies and thought engineered over the years have sat and
+fermented here, building up over time and culminating in an evil so powerful
+that it alone can give power to Lord Soth for centuries to come. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+A -1 16171
+End
+
+#16174
+NAME   A pious altar~
+DESCR
+This holy place still retains its holy feel; no fog lies here, forcing no
+feel of hate, but it is replaced by the ethereal mist that drifts through
+the walls and air. Two torches light the room with a blue glow, and a feel
+of something sad is here, the sounds of a forsaken being fill the room with
+utter despair and a wondering of why. The door to the hall is in the west
+wall, but whatever is sad here wants you to feel its pain and to do
+something for it before you leave ... 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+A -1 16171
+End
+
+#16175
+NAME   A quiet shrine~
+DESCR
+This room is quiet except for what seems like the sounds of something
+quietly weeping in an indeterminable place. It comes from all around and yet
+nowhere at once. The sound of it is maddeningly unreal, it should not exist
+at this place in time, not at a holy place like this. A shrine is in the
+room, a quiet place of prayer and peace. The fog is gone from this room, but
+the wisps of mist and ether drift through here. The door to the rest of the
+Great Hall is to the west, but something here wants your attention before
+you do anything else ... 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+A -1 16169
+End
+
+#16176
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall curves to the south, where the
+entrance to the dining hall is, or east, around the dining hall. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16177
+DOOR 2
+~
+~
+0 -1 16112
+End
+
+#16177
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall stretches east and west. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16178
+DOOR 3
+~
+~
+0 -1 16176
+End
+
+#16178
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall curves to the south, where the
+rear entrance to the dining hall is, or west, around the dining hall. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16182
+DOOR 3
+~
+~
+0 -1 16177
+End
+
+#16179
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall curves to the north, where the
+entrance to the dining hall is, or west, around the dining hall. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16112
+DOOR 1
+~
+~
+0 -1 16180
+End
+
+#16180
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall stretches to the east and west
+for a short distance. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16181
+DOOR 3
+~
+~
+0 -1 16179
+End
+
+#16181
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall curves to the north, where the
+rear entrance to the dining hall is, or west, around the dining hall. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16182
+DOOR 3
+~
+~
+0 -1 16180
+End
+
+#16182
+NAME   A hallway of Dargaard~
+DESCR
+You are walking in a small hallway that has a few old tapestries. Torches
+burn mysteriously, lighting the hall with blue-white flame. A strange mist
+hangs low to the floor, chilling your legs as you walk through it. It seems
+to exist on its own volition. A coldness fills the air, an unnatural
+coldness; it is like the coldness of death. Cries echo through the ruins of
+the stone keep. They sound sad and mournful, singing a terrifyingly
+beautiful song in an elven voice. The hall extends north and south. To the
+west is a oak door that leads to the dining hall, and an iron gate is set in
+the eastern wall. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16178
+DOOR 1
+~
+iron gate~
+ABC 16114 16183
+DOOR 2
+~
+~
+0 -1 16181
+DOOR 3
+~
+oaken door~
+AB -1 16136
+End
+
+#16183
+NAME   Entrance to the courtyard~
+DESCR
+You are just to the east of the iron gate that kept you from the
+courtyard. Now that you are in the courtyard, you can see the mist is much
+thicker here. Dead grey trees rise up out of the fog, dead flowers and herbs
+lie black in it. Below your feet is a stone pathway that leads east into the
+courtyard. You hear water gurgling somewhere from within. The chill outdoors
+is more natural, since you are very high up in the Dargaard mountains, but
+it is still teeming with the feel of death and something else that you can't
+define. But still, something is warm here. There are black scorches on the
+stone and some of the trees around here. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16184
+DOOR 3
+~
+~
+A -1 16182
+End
+
+#16184
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16185
+DOOR 1
+~
+~
+0 -1 16189
+DOOR 2
+~
+~
+0 -1 16187
+DOOR 3
+~
+~
+0 -1 16183
+End
+
+#16185
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16186
+DOOR 1
+~
+~
+0 -1 16190
+DOOR 2
+~
+~
+0 -1 16184
+End
+
+#16186
+NAME   Before a fountain in the courtyard~
+DESCR
+You stand in a clearing ringed by dead trees, their trunks warped and
+mutated by the undeath here. The strange white fog is especially thick here.
+And in the darkness that exists even during the day, it glows with an
+otherworldly aura. You can make out a marble fountain in the center of the
+clearing, covered with black moss. The liquid looks dark, but then again, it
+is dark outside all of the time. The fountain continues to gurgle, and on
+the air you can detect a faint odor of iron. To the south, the rest of the
+courtyard exists, and a tall stone wall blocks passage east. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16185
+End
+
+#16187
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16184
+DOOR 1
+~
+~
+0 -1 16192
+DOOR 2
+~
+~
+0 -1 16188
+End
+
+#16188
+NAME   A small orchard~
+DESCR
+At the southern end of the garden lies this small orchard, with some tall
+fruit trees planted amongst what used to be flowers and shrubbery. Now
+everything is dead and grey and cold. The translucent mist laps at your
+feet, like some sort of living entity that feeds on your lifeforce. It is
+thick here. The fruit trees are now twisted and grey, like all the other
+trees that are in this courtyard. Their bark doesn't look real, as if it
+were an outer casing made by the evil that flows through Dargaard Keep. The
+orchard appears to continue on to the east, and the rest of the courtyard is
+north. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16187
+DOOR 1
+~
+~
+0 -1 16193
+End
+
+#16189
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. To the east, a great wall rises up out
+of the fog, and from behind that wall emanates an evil power greater than
+any that you may have met. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16190
+DOOR 1
+~
+stone wall~
+ABC 16119 16195
+DOOR 2
+~
+~
+0 -1 16192
+DOOR 3
+~
+~
+0 -1 16184
+End
+
+#16190
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16191
+DOOR 2
+~
+~
+0 -1 16189
+DOOR 3
+~
+~
+0 -1 16185
+End
+
+#16191
+NAME   Before a pool of blood~
+DESCR
+At this alcove of the gardens, which at one time must have been quite
+cosy, a high wall stands to the west. And from underneath it, a pool of
+blood is trickling. The trees here seem to feed off the foul liquid,
+absorbing its energies like they once used to absorb water through their
+roots. Perhaps it is through this nourishment that the plants are now
+twisted and corrupt. All around, strange sounds echo. To the west, you hear
+the sounds of liquid splashing. South, the rest of the courtyard drones on. 
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 -1 16190
+End
+
+#16192
+NAME   In the courtyard~
+DESCR
+In the cold, dead courtyard that must have once been a beautiful, green
+garden, not a sound is to be heard save your own. The song echoes more
+faintly here, the footsteps and cries from the ruins are not as evident.
+Pain and fear hang heavy in the frigid air, like the translucent white fog
+that gives you chills and makes your legs feel heavier than they are. Great
+trees rise up, ones that must have been wonderful shade trees in their time.
+Now they are leafless and twisted, warped from the undead presence that
+pervades every mote of Dargaard Keep. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16189
+DOOR 2
+~
+~
+0 -1 16193
+DOOR 3
+~
+~
+0 -1 16187
+End
+
+#16193
+NAME   A small orchard~
+DESCR
+At the southern end of the garden lies this small orchard, with some tall
+fruit trees planted amongst what used to be flowers and shrubbery. Now
+everything is dead and grey and cold. The translucent mist laps at your
+feet, like some sort of living entity that feeds on your lifeforce. It is
+thick here. The fruit trees are now twisted and grey, like all the other
+trees that are in this courtyard. Their bark doesn't look real, as if it
+were an outer casing made by the evil that flows through Dargaard Keep. The
+orchard appears to continue on to the west, and the rest of the courtyard is
+north. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 -1 16192
+DOOR 3
+~
+~
+0 -1 16188
+End
+
+#16194
+NAME   Before Lord Soth's Black Throne~
+DESCR
+Raised up on a platform is a black throne that seems to be the focal
+point of the room, the focal point for all the undead legions controlled by
+the fallen knight that could not overcome his base selfishness in Krynn's
+hour of need. The fog is too thick to breathe, too thick to even think. Some
+sort of base survival instinct is in the very air, controlling what you
+think and feel at this moment in time. Nothing here can change the feeling
+in the Keep, nothing here can match the sheer terror and evil that radiates
+from the black throne of Lord Soth. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 -1 16165
+End
+
+#16195
+NAME   In a short, dark hall~
+DESCR
+Inside this dark passageway, the chill becomes a hundredfold more
+pronounced and vicious. Evil intent radiates from the east, and fog lies
+thick on the ground like the smoke from burning green wood. It creeps up
+your legs and seems to want to pull you down into it, so it can devour you
+in its life-sapping essence. There is no light here, all is dark. It is not
+just because you are inside; it is because something is absorbing the light.
+Something sinister and evil is close, so close you can feel it, and it knows
+that you are coming. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+Something evil this way lies. 
+~
+~
+0 -1 16196
+DOOR 3
+~
+~
+A -1 16189
+End
+
+#16196
+NAME   Lord Soth's Private Chamber~
+DESCR
+Here, at the eastern end of the courtyard behind Dargaard Keep, is Lord
+Soth's private chamber. Here he broods during the day, and at night, he
+listens to the never-ending song of the undead elven maidens that were
+cursed to spent forever with him. His seat is here and his arctic presence
+is here, chilling you deep down to the core of your soul, glaring into your
+mind with blazing orange eyes, ones that could appear any moment in front of
+you, appear with a look and a word of death for you, and with that single
+word of power keep you here with him until Krynn is utterly destroyed, keep
+you here body and soul. 
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 -1 16195
+End
+
+#16197
+NAME   The fourth floor of the Keep~
+DESCR
+The mist is gone from this floor of the Keep. The halls echo strange
+screams in the night and the day. It is a dream that never ends, a dream
+that you can't wake up from. The undead citizens of this fortress all roam
+about in the same manner, all convinced that they are merely dreaming and
+that you are but a figure in the dream, perhaps sharing the same dream. This
+cruel trick of the mind does much to comfort the souls that are still
+trapped in the decaying bodies and rotting corpses. To the east, the
+now-familiar blue-white glow of the cold torches lights the halls and
+shadows things in a way that doesn't seem quite right. And all about, the
+same elven song travels lightly on the dark air. West is a door that is not
+very special-looking, but a cold draft comes from under it. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 -1 16137
+DOOR 3
+~
+~
+AB -1 16198
+End
+
+#16198
+NAME   On a high balcony overlooking the mountains~
+DESCR
+On this stone balcony, with the cold air all around you and the sky
+growing dark with night, you feel somehow at peace. A haunting song echoes
+in the distance somewhere, a song sung by elven voices to Lord Soth. You can
+see most of the Vingaard mountains from here, and looking straight down, you
+can see the main gate of the keep. It is a long fall, one that would be
+fatal to you. Back east, the keep reaches on, cold and dark. And somewhere,
+the undead elven maidens sing to Lord Soth all night long. 
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+A -1 16197
+End
+
+#0
+
+
+
+#SPECIALS
+M 16101 spec_cast_undead
+M 16105 spec_cast_undead
+M 16106 spec_breath_fire
+M 16112 spec_cast_cleric
+M 16114 spec_cast_undead
+M 16116 spec_fido
+M 16120 spec_cast_mage
+M 16121 spec_breath_gas
+M 16123 spec_breath_lightning
+M 16124 spec_cast_undead
+S
+
+
+
+#RESETS
+D 0 16102 1 1
+D 0 16129 0 1
+D 0 16129 2 1
+D 0 16132 1 1
+D 0 16133 3 1
+D 0 16134 2 1
+D 0 16135 0 1
+D 0 16136 1 1
+D 0 16146 1 2
+D 0 16153 1 1
+D 0 16155 3 1
+D 0 16161 3 2
+D 0 16169 0 1
+D 0 16169 1 1
+D 0 16171 1 1
+D 0 16171 2 1
+D 0 16182 1 2
+D 0 16182 3 1
+D 0 16189 1 2
+D 0 16197 3 1
+M 0 16125 6 16101 1
+M 0 16114 1 16103 1
+E 0 16135 0 3
+E 0 16175 0 16
+M 0 16103 10 16104 1
+M 0 16105 6 16106 1
+E 0 16107 0 6
+M 0 16105 6 16107 1
+E 0 16176 0 10
+M 0 16102 6 16108 1
+E 0 16111 0 16
+M 0 16126 5 16109 1
+E 0 16173 0 3
+M 0 16101 4 16110 1
+E 0 16104 0 7
+M 0 16116 3 16111 1
+M 0 16103 10 16111 1
+E 0 16102 0 16
+M 0 16109 4 16112 1
+E 0 16178 0 3
+M 0 16126 5 16112 1
+E 0 16177 0 16
+M 0 16105 6 16117 1
+E 0 16165 0 16
+M 0 16109 4 16118 1
+E 0 16130 0 16
+M 0 16108 4 16119 1
+M 0 16103 10 16120 1
+E 0 16165 0 16
+M 0 16113 4 16121 1
+E 0 16143 0 5
+M 0 16102 6 16123 1
+E 0 16111 0 16
+O 0 16134 0 16124
+M 0 16105 6 16124 1
+O 0 16134 0 16127
+M 0 16109 4 16127 1
+E 0 16130 0 16
+M 0 16108 4 16128 1
+M 0 16103 10 16129 1
+E 0 16102 0 16
+M 0 16126 5 16130 1
+M 0 16103 10 16131 1
+E 0 16102 0 16
+M 0 16109 4 16131 1
+M 0 16113 4 16132 1
+E 0 16144 0 16
+E 0 16143 0 5
+O 0 16113 0 16133
+O 0 16124 0 16133
+O 0 16141 0 16133
+M 0 16110 1 16133 1
+E 0 16151 0 12
+E 0 16132 0 16
+E 0 16164 0 14
+O 0 16108 0 16134
+O 0 16124 0 16134
+O 0 16124 0 16134
+O 0 16142 0 16134
+M 0 16102 6 16134 1
+E 0 16111 0 16
+O 0 16108 0 16135
+O 0 16142 0 16135
+M 0 16102 6 16135 1
+E 0 16111 0 16
+O 0 16109 0 16136
+O 0 16110 0 16136
+O 0 16115 0 16136
+M 0 16107 1 16136 1
+E 0 16120 0 5
+E 0 16121 0 6
+E 0 16112 0 17
+M 0 16108 4 16137 1
+O 0 16122 0 16139
+M 0 16103 10 16139 1
+O 0 16122 0 16140
+O 0 16171 0 16140
+M 0 16124 1 16140 1
+E 0 16172 0 16
+E 0 16179 0 15
+M 0 16105 6 16141 1
+O 0 16122 0 16142
+M 0 16102 6 16142 1
+E 0 16111 0 16
+O 0 16122 0 16143
+M 0 16103 10 16143 1
+E 0 16102 0 16
+M 0 16104 1 16146 1
+E 0 16106 0 16
+E 0 16105 0 11
+E 0 16161 0 17
+E 0 16156 0 1
+G 0 16117 0
+M 0 16101 4 16147 1
+E 0 16104 0 7
+M 0 16126 5 16147 1
+E 0 16173 0 3
+M 0 16103 10 16150 1
+E 0 16102 0 16
+M 0 16126 5 16151 1
+E 0 16174 0 3
+M 0 16102 6 16153 1
+E 0 16111 0 16
+M 0 16115 4 16154 1
+M 0 16115 4 16154 1
+O 0 16134 0 16154
+O 0 16152 0 16154
+M 0 16115 4 16156 1
+M 0 16115 4 16156 1
+O 0 16134 0 16156
+O 0 16152 0 16156
+O 0 16136 0 16158
+O 0 16139 0 16158
+O 0 16138 0 16158
+O 0 16134 0 16158
+M 0 16113 4 16158 1
+E 0 16143 0 5
+O 0 16140 0 16160
+O 0 16134 0 16160
+M 0 16113 4 16160 1
+E 0 16144 0 16
+M 0 16103 10 16163 1
+M 0 16106 4 16168 1
+E 0 16162 0 12
+M 0 16105 6 16170 1
+E 0 16165 0 16
+M 0 16121 2 16172 1
+G 0 16180 0
+M 0 16121 2 16173 1
+O 0 16125 0 16174
+O 0 16126 0 16174
+M 0 16112 1 16174 1
+E 0 16131 0 16
+O 0 16125 0 16175
+M 0 16111 1 16175 1
+E 0 16133 0 16
+E 0 16181 0 17
+M 0 16116 3 16177 1
+M 0 16106 1 16183 1
+G 0 16119 0
+M 0 16101 4 16184 1
+E 0 16104 0 7
+M 0 16125 6 16184 1
+M 0 16117 3 16185 1
+O 0 16145 0 16186
+M 0 16123 1 16186 1
+E 0 16166 0 5
+E 0 16168 0 6
+E 0 16170 0 7
+E 0 16167 0 11
+E 0 16169 0 12
+M 0 16125 6 16187 1
+O 0 16149 0 16188
+M 0 16119 2 16188 1
+G 0 16149 0
+M 0 16116 3 16189 1
+M 0 16125 6 16189 1
+M 0 16125 6 16190 1
+O 0 16146 0 16191
+M 0 16117 3 16191 1
+M 0 16117 3 16192 1
+O 0 16149 0 16193
+M 0 16119 2 16193 1
+M 0 16101 4 16193 1
+E 0 16104 0 7
+M 0 16125 6 16193 1
+O 0 16101 0 16194
+O 0 16116 0 16194
+P 0 16114 1 16116 1
+P 0 16118 1 16116 1
+M 0 16100 1 16196 1
+E 0 16100 0 5
+E 0 16103 0 9
+E 0 16123 0 12
+E 0 16127 0 6
+E 0 16160 0 2
+E 0 16182 0 17
+O 0 16101 0 16196
+M 0 16103 10 16197 1
+M 0 16120 1 16198 1
+E 0 16150 0 12
+E 0 16163 0 16
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

@@ -1,0 +1,131 @@
+#AREADATA
+Name New City~
+Builders Tracerah~
+VNUMs 23600 23999
+Credits (null)~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#23600
+NAME  vuzlagguld elder necromancer illithid~
+SHORT Vuzlagguld the Elder Necromancer~
+LONG  The wraith-like form of a cloaked Illithid stands here, tentacles clutching an ancient manuscript.
+~
+DESCR
+~
+RACE  illithid~
+ACT   ABGLV
+AFF   DJT
+OFF   K
+IMM   A
+RES   P
+VULN  HS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 51
+HROLL 51
+ENHA  100.00%
+HDICE 106d18+516
+MDICE 51d11+95
+DDICE 18d2+41
+DTYPE punch
+AC    -27 -27 -27 -17
+POS   stand stand
+SEX   male
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#23600
+NAME   ghoulthorn obsidian kris obscenity~
+SHORT  'Ghoulthorn', the Obsidian Kris of Obscenity~
+DESCR 
+A long, slender obsidian kris is barely visible on the ground.~
+MAT    obsidian~
+TYPE   weapon dagger 6 9 acidbite 0
+EXTRA  1 4 0 2640
+WEAR   AN
+LEVEL  51
+WEIGHT 3
+COST   8000
+COND   100
+Affect O 5 3 0
+Affect O 19 3 0
+Affect O 18 3 0
+LIMIT  3
+RESTR  T
+End
+
+#23601
+NAME   no name~
+SHORT  the Infernal Apocrypha of Necruvian~
+DESCR 
+Level 54~
+MAT    lead~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 4 0 2640
+WEAR   AO
+LEVEL  54
+WEIGHT 10
+COST   0
+COND   100
+Affect O 12 100 0
+LIMIT  1
+RESTR  T
+End
+
+#0
+
+
+
+#ROOMDATA
+#23600
+NAME   ~
+DESCR
+~
+FLAGS  0
+Sect   0
+End
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 23600 1 23600 1
+E 0 23600 0 16
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

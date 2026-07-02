@@ -1,0 +1,1617 @@
+#AREADATA
+Name Arkham Swamps~
+Builders None~
+VNUMs 29400 29470
+Credits {15 25} Ceran   Arkham Swamps~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#29400
+NAME  ogre~
+SHORT a swamp ogre~
+LONG  A large swamp ogre wades towards you through the murky water.
+~
+DESCR
+This thing is big and stupid. All it really understands is hunger, and you 
+look like a viable meal.
+~
+RACE  unique~
+ACT   AFGT
+AFF   0
+OFF   CDE
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 20
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 3d10+360
+MDICE 1d1+100
+DDICE 4d4+6
+REGEN 0
+DTYPE bite
+AC    -5 -4 -6 7
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29401
+NAME  lizardman lizard man~
+SHORT a lizardman~
+LONG  A tall green lizardman hisses at you with a long pointed tongue.
+~
+DESCR
+~
+RACE  human~
+ACT   AFGT
+AFF   0
+OFF   CDF
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 20
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 4d10+360
+MDICE 1d1+100
+DDICE 2d8+6
+REGEN 0
+DTYPE claw
+AC    -2 -3 -4 4
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29402
+NAME  water snake~
+SHORT a water snake~
+LONG  A large slick snake slithers across the muddy ground.
+~
+DESCR
+~
+RACE  snake~
+ACT   AFGT
+AFF   0
+OFF   0
+IMM   0
+RES   L
+VULN  I
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 15
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 3d9+300
+MDICE 1d1+100
+DDICE 2d6+3
+REGEN 0
+DTYPE bite
+AC    -4 -3 -4 7
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#29403
+NAME  giant leech~
+SHORT a giant leech~
+LONG  A massive leech floats across the muddy waters and attaches itself to you!
+~
+DESCR
+~
+RACE  human~
+ACT   AFGT
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 14
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 2d10+150
+MDICE 1d1+100
+DDICE 1d12+3
+REGEN 0
+DTYPE suction
+AC    -1 -1 -1 8
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#29400
+NAME   corpses bodies~
+SHORT  a pile of bodies~
+DESCR 
+A pile of bodies lie floating in the muddy water.~
+MAT    flesh~
+TYPE   npc_corpse 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+EDESC corpses bodies corpse~
+Looks like the villagers who once lived here didn't all escape when whoever
+attacked them came by.
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#29400
+NAME   Outside the east gate of Arkham~
+DESCR
+You are on the eastern outskirts of Arkham. A rough, barely used path heads
+east from the city while the black gates of Arkham open out westwards into it.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29401
+DOOR 3
+~
+gate~
+AB 0 715
+End
+
+#29401
+NAME   On a rough and narrow path~
+DESCR
+You are on what appears to be a newly made path heading east out of Arkham.
+The dirt is barely trodden down and there doesn't appear to be much traffic
+though here. The path continues east and west.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29402
+DOOR 3
+~
+~
+0 0 29400
+End
+
+#29402
+NAME   On a rough and narrow path~
+DESCR
+The path here is narrow and only just discernable. The few people who seem to
+have trodden it have passed through recently and there doesn't look like it
+is being prepared for any real use.
+~
+FLAGS  8
+Sect   2
+DOOR 2
+~
+~
+0 0 29403
+DOOR 3
+~
+~
+0 0 29401
+End
+
+#29403
+NAME   On a rough and narrow path~
+DESCR
+The path here is a little wet and damp underfoot. A rather strong and foul
+smell is wafting in from the east, something smelling strongly like swamp gas.
+The path continues north and gets even less clear to the east.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29402
+DOOR 1
+~
+~
+0 0 29404
+End
+
+#29404
+NAME   On a damp, poorly walked path~
+DESCR
+The pathway here is almost non-existent as the damp waters from the swampy
+land east of Arkham obliterate the recent footsteps. A foul smell is wafting
+in from the east where the Arkham swamps begin.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29405
+DOOR 3
+~
+~
+0 0 29403
+End
+
+#29405
+NAME   In a damp patch of ground~
+DESCR
+You are in a damp marshland region just east of Arkham. At your feet the soft
+ground gives way to a rising water table that has turned the fertile lands of
+Arkham's east into a useless swamp.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29418
+DOOR 2
+~
+~
+0 0 29406
+DOOR 3
+~
+~
+0 0 29404
+End
+
+#29406
+NAME   Shallow swamp lands~
+DESCR
+The swamp is only just encroaching on this part of the land. Water seeps into
+your clothing and the foul stench of swamp gasses cling to everything. To the
+east the swamp really begins.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29405
+DOOR 1
+~
+~
+0 0 29407
+End
+
+#29407
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29408
+DOOR 1
+~
+~
+0 0 29415
+DOOR 2
+~
+~
+0 0 29409
+DOOR 3
+~
+~
+0 0 29406
+End
+
+#29408
+NAME   Before a large bog~
+DESCR
+~
+FLAGS  8
+Sect   3
+DOOR 2
+~
+~
+0 0 29407
+End
+
+#29409
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29407
+DOOR 1
+~
+~
+0 0 29410
+End
+
+#29410
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29415
+DOOR 1
+~
+~
+0 0 29413
+DOOR 2
+~
+~
+0 0 29411
+DOOR 3
+~
+~
+0 0 29409
+End
+
+#29411
+NAME   Edge of the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29410
+DOOR 1
+~
+~
+0 0 29412
+End
+
+#29412
+NAME   Before a huge mire~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29413
+DOOR 3
+~
+~
+0 0 29412
+End
+
+#29413
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29416
+DOOR 1
+~
+~
+0 0 29414
+DOOR 2
+~
+~
+0 0 29412
+DOOR 3
+~
+~
+0 0 29410
+End
+
+#29414
+NAME   Before a murky pool~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29417
+DOOR 3
+~
+~
+0 0 29413
+End
+
+#29415
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29416
+DOOR 2
+~
+~
+0 0 29410
+DOOR 3
+~
+~
+0 0 29407
+End
+
+#29416
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29421
+DOOR 1
+~
+~
+0 0 29417
+DOOR 2
+~
+~
+0 0 29413
+DOOR 3
+~
+~
+0 0 29415
+End
+
+#29417
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29422
+DOOR 2
+~
+~
+0 0 29414
+DOOR 3
+~
+~
+0 0 29416
+End
+
+#29418
+NAME   On a water logged ground~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29419
+DOOR 2
+~
+~
+0 0 29405
+End
+
+#29419
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29430
+DOOR 1
+~
+~
+0 0 29425
+DOOR 3
+~
+~
+0 0 29418
+End
+
+#29420
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29425
+DOOR 1
+~
+~
+0 0 29421
+End
+
+#29421
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29426
+DOOR 1
+~
+~
+0 0 29422
+DOOR 2
+~
+~
+0 0 29416
+DOOR 3
+~
+~
+0 0 29420
+End
+
+#29422
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29427
+DOOR 1
+~
+~
+0 0 29423
+DOOR 2
+~
+~
+0 0 29417
+DOOR 3
+~
+~
+0 0 29421
+End
+
+#29423
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29428
+DOOR 1
+~
+~
+0 0 29424
+DOOR 2
+~
+~
+0 0 29435
+DOOR 3
+~
+~
+0 0 29422
+End
+
+#29424
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29429
+DOOR 2
+~
+~
+0 0 29439
+DOOR 3
+~
+~
+0 0 29423
+End
+
+#29425
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29431
+DOOR 1
+~
+~
+0 0 29426
+DOOR 2
+~
+~
+0 0 29420
+DOOR 3
+~
+~
+0 0 29419
+End
+
+#29426
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29432
+DOOR 1
+~
+~
+0 0 29427
+DOOR 2
+~
+~
+0 0 29421
+DOOR 3
+~
+~
+0 0 29425
+End
+
+#29427
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29433
+DOOR 1
+~
+~
+0 0 29428
+DOOR 2
+~
+~
+0 0 29422
+DOOR 3
+~
+~
+0 0 29426
+End
+
+#29428
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29429
+DOOR 2
+~
+~
+0 0 29423
+DOOR 3
+~
+~
+0 0 29427
+End
+
+#29429
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 2
+~
+~
+0 0 29424
+DOOR 3
+~
+~
+0 0 29428
+End
+
+#29430
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29431
+DOOR 2
+~
+~
+0 0 29419
+End
+
+#29431
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29432
+DOOR 2
+~
+~
+0 0 29426
+DOOR 3
+~
+~
+0 0 29430
+End
+
+#29432
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29433
+DOOR 2
+~
+~
+0 0 29426
+DOOR 3
+~
+~
+0 0 29431
+End
+
+#29433
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29434
+DOOR 2
+~
+~
+0 0 29427
+DOOR 3
+~
+~
+0 0 29432
+End
+
+#29434
+NAME   On a murky trail through the swamp~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29451
+DOOR 3
+~
+~
+0 0 29433
+End
+
+#29435
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29423
+DOOR 1
+~
+~
+0 0 29439
+DOOR 2
+~
+~
+0 0 29436
+End
+
+#29436
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29435
+DOOR 1
+~
+~
+0 0 29437
+End
+
+#29437
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29439
+DOOR 1
+~
+~
+0 0 29438
+DOOR 3
+~
+~
+0 0 29436
+End
+
+#29438
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29440
+DOOR 3
+~
+~
+0 0 29437
+End
+
+#29439
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29424
+DOOR 1
+~
+~
+0 0 29440
+DOOR 2
+~
+~
+0 0 29437
+DOOR 3
+~
+~
+0 0 29435
+End
+
+#29440
+NAME   In the Arkham swamps~
+DESCR
+You are in a knee deep swamp filled with foul looking plants of insects. Loud
+plopping and slurping sounds come from all around you as the local wildlife
+feed in the slop. A foul stench almost overwhelms you as swamp gas rises in
+thick wisps of smoke all around.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29441
+DOOR 1
+~
+~
+0 0 29442
+DOOR 2
+~
+~
+0 0 29438
+DOOR 3
+~
+~
+0 0 29439
+End
+
+#29441
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29444
+DOOR 2
+~
+~
+0 0 29440
+End
+
+#29442
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29444
+DOOR 1
+~
+~
+0 0 29443
+DOOR 3
+~
+~
+0 0 29440
+End
+
+#29443
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29447
+DOOR 3
+~
+~
+0 0 29442
+End
+
+#29444
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29445
+DOOR 1
+~
+~
+0 0 29447
+DOOR 2
+~
+~
+0 0 29442
+DOOR 3
+~
+~
+0 0 29441
+End
+
+#29445
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29446
+DOOR 2
+~
+~
+0 0 29444
+End
+
+#29446
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 2
+~
+~
+0 0 29447
+DOOR 3
+~
+~
+0 0 29445
+End
+
+#29447
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29446
+DOOR 1
+~
+~
+0 0 29448
+DOOR 2
+~
+~
+0 0 29443
+DOOR 3
+~
+~
+0 0 29444
+End
+
+#29448
+NAME   Deep in the Arkham swamps~
+DESCR
+The swamp here is almost impassable. Large thick plants covered in wet vines
+and sharp thorns seem to grow everywhere, and it is only due to some recent
+clearing that you can move through it. The clearance of the swamp vegetation
+does not seem fully coordinated and wanders around a fair bit in what appears
+to be a hasty attempt to get somewhere.
+~
+FLAGS  8
+Sect   3
+DOOR 2
+~
+~
+0 0 29449
+DOOR 3
+~
+~
+0 0 29447
+End
+
+#29449
+NAME   Before an immersed wooden walkway~
+DESCR
+Here deep in the Arkham swamps you have come across a hastily constructed
+wooden walkway. The wood is partially beneath the slopping swamp waters but
+it is clearly here to aid in the passage through the thick swamp to the
+east of here. To the north the vegetation has been poorly cleared in a hasty
+attempt to make a pathway through it.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29448
+DOOR 1
+~
+~
+0 0 29450
+End
+
+#29450
+NAME   On a wooden walkway~
+DESCR
+You are on a hastily constructed wooden walkway over the deep swamp waters.
+Many recent footprints lead east across the walkway and you can hear the faint
+sounds of people far off in the distance.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29850
+DOOR 3
+~
+~
+0 0 29449
+End
+
+#29451
+NAME   On a murky trail through the swamps~
+DESCR
+You are on a muddy path that seems to have been trampled down by the frequent
+comings and goings of some local creatures. Muddy water sloshes at your feet
+and mud slurps noisily as you walk. The pathway continues north and south.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29452
+DOOR 2
+~
+~
+0 0 29434
+End
+
+#29452
+NAME   On a murky trail through the swamps~
+DESCR
+You are on a muddy path that seems to have been trampled down by the frequent
+comings and goings of some local creatures. Muddy water sloshes at your feet
+and mud slurps noisily as you walk. The pathway continues south and west.
+~
+FLAGS  8
+Sect   3
+DOOR 2
+~
+~
+0 0 29451
+DOOR 3
+~
+~
+0 0 29453
+End
+
+#29453
+NAME   Before a dirty and mired gate in the swamps~
+DESCR
+You are standing in front of a badly built wooden gate surrounded by a decayed
+and collapsing fence. There is very little workmanship evident on the making
+of this meagre barricade. A muddy pathway leads east, or you can go west into
+the small region surrounded by the fence.
+~
+FLAGS  8
+Sect   3
+DOOR 1
+~
+~
+0 0 29452
+DOOR 3
+~
+~
+0 0 29455
+End
+
+#29454
+NAME   In a wet and smelly hut~
+DESCR
+This hut is mostly collapsed and it mired in water and swamp mud. It appears
+that whoever lived here has been evicted in a rather violent fashion. You can
+go north out of the hut.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 29455
+End
+
+#29455
+NAME   On a murky little path through a village~
+DESCR
+You are on a muddy little path in a small village. The ruins of the village
+lie all around you and it is plain that something destroyed it in a hurry.
+There are some claw marks in the mud that appear quite recent.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29457
+DOOR 1
+~
+~
+0 0 29453
+DOOR 2
+~
+~
+0 0 29454
+DOOR 3
+~
+~
+0 0 29456
+End
+
+#29456
+NAME   Inside a collapsing wooden hut~
+DESCR
+This is one of the last remaining huts that even has a semblance of structure.
+It is now barely upright as the swamp waters lap at it's support and push it
+around.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29455
+End
+
+#29457
+NAME   Between two decrepit wooden huts~
+DESCR
+You are in a muddy village that has been destroyed in some recent event. Two
+huts still stand to the east and west of you.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29458
+DOOR 1
+~
+~
+0 0 29460
+DOOR 2
+~
+~
+0 0 29455
+DOOR 3
+~
+~
+0 0 29459
+End
+
+#29458
+NAME   Before a pair of burnt wooden huts~
+DESCR
+You are at the northern end of what was once a small village in the swamps. All
+that remains now are the burnt and collapsing ruins of small huts. One such hut
+lies to the north and another is in the east.
+~
+FLAGS  8
+Sect   3
+DOOR 0
+~
+~
+0 0 29462
+DOOR 1
+~
+~
+0 0 29461
+DOOR 2
+~
+~
+0 0 29457
+End
+
+#29459
+NAME   In a collapsing wooden hut~
+DESCR
+There is nothing in here but swamp water and a cold breeze. Whoever destroyed
+this village did a very good job.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 29457
+End
+
+#29460
+NAME   Inside a burnt hut~
+DESCR
+Another burnt hut. One more small remaineder of what was once a little town
+here in the Arkham swamps.
+~
+FLAGS  8
+Sect   3
+DOOR 3
+~
+~
+0 0 29457
+End
+
+#29461
+NAME   In a burnt hut filled with bodies~
+DESCR
+This hut is in better condition than the rest in the ruins. A pile of bloated
+and disgusting bodies lie on the ground, left over from when the village was
+destroyed. An awful smell of death is all around you.
+~
+FLAGS  8
+Sect   0
+DOOR 3
+~
+~
+0 0 29458
+End
+
+#29462
+NAME   In a large burnt out wooden hut~
+DESCR
+Just a burnt shell of what appears to have been the main house of the village.
+It may even have been the village meeting hall, but now it is just a broken and
+water-logged pile of wood.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 29458
+End
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 29400 3 1
+M 0 29400 1 29436 1
+O 0 29400 0 29461
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

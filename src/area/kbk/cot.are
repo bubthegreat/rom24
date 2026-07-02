@@ -1,0 +1,5282 @@
+#AREADATA
+Name Castle of Trials~
+Builders None~
+VNUMs 18200 18400
+Credits { 5 35} Lichen  Castle of Trials~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#18200
+NAME  knight obsidian skeleton man~
+SHORT A skeletal knight~
+LONG  A knight clad in obsidian armor is here to protect the fortress.
+~
+DESCR
+Before you stands the remains of a fallen knight, clad in dark armor and
+wielding a silver sword.  You see through the helmet a pair of glowing
+silver eyes burning with the desire to destroy all those who enter the tower
+uninvited. 
+~
+RACE  human~
+ACT   AFGT
+AFF   0
+OFF   DFHKT
+IMM   ALQ
+RES   DIMN
+VULN  HSZ
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 0d0+0
+DDICE 8d4+20
+REGEN 0
+DTYPE slash
+AC    -15 -15 -15 -20
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18201
+NAME  centipede nordinath worm~
+SHORT Nordinath~
+LONG  A giant centipede lies here weaving silver strands of web.
+~
+DESCR
+Before you is the biggest centipede you have ever seen before.  Towering
+towards near the ceiling of the cavern, you see it weaving intricate
+patterns of silver webbing which seem to come to life as soon as it's done
+with an area.  You realize the sounds you heard were from the hundreds of
+feet on this creature.  
+~
+RACE  centipede~
+ACT   AFG
+AFF   0
+OFF   DFHMO
+IMM   ABLQR
+RES   CFI
+VULN  E
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 0d0+0
+DDICE 10d4+25
+REGEN 0
+DTYPE digestion
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGHMOV
+PARTS ABCDEFK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18202
+NAME  crazed man prisoner~
+SHORT A crazed man~
+LONG  You see a man here devoted to the idea of escape.
+~
+DESCR
+This man has obviously lost his mind.  He walks around the room at a
+frantic pace muttering to himself about the webbing and the connection.  You
+dont know what he's talking about but as soon as he sees you, he attacks.  
+~
+RACE  dwarf~
+ACT   AFGS
+AFF   0
+OFF   DFIK
+IMM   0
+RES   LQ
+VULN  R
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 40
+HROLL 7
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 0d0+0
+DDICE 4d8+13
+REGEN 0
+DTYPE scratch
+AC    -13 -13 -13 -13
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18203
+NAME  rabid dog lewis~
+SHORT Lewis, the Giant Guard Dog~
+LONG  A huge saint bernard pulls at his chain in an attempt to rip off your leg.
+~
+DESCR
+You look at this dog and decide that you should be careful with this one.
+Besides being HUGE he is also foaming at the mouth and really seems
+interested in having you for dinner.  
+~
+RACE  dog~
+ACT   AG
+AFF   0
+OFF   CDHP
+IMM   ABCEFG
+RES   L
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 40
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1900
+MDICE 0d0+0
+DDICE 8d6+28
+REGEN 0
+DTYPE bite
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMV
+PARTS ABCDEFHJKUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18204
+NAME  Durion man berserker~
+SHORT Durion, The Berserker~
+LONG  A man of great size is running around looking for a fight.
+~
+DESCR
+Before you is a man towering at about 18 feet high and around 800 pounds
+of solid muscle.  He is covered in ebony armor from head to toe, gripping a
+large razor edged sword in one hand and a barbed whip in the other.  
+~
+RACE  unique~
+ACT   AFGT
+AFF   FVc
+OFF   CDEFHKO
+IMM   A
+RES   0
+VULN  Z
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 50
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 0d0+0
+DDICE 5d8+19
+REGEN 0
+DTYPE slash
+AC    -20 -20 -20 -15
+POS   stand stand
+SEX   male
+GOLD  200
+FORM  0
+PARTS 0
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18205
+NAME  lar'enth motur man~
+SHORT Lar'enth Motur~
+LONG  A mage wearing flowing robes of orange and black is here weaving enchantments.
+~
+DESCR
+The mage before you is dressed in orange and black robes covered in
+strange runes and symbols.  A hood covers most of his face only exposing his
+snowy white hair and an evil grin on his face.  
+~
+RACE  human~
+ACT   AFGR
+AFF   0
+OFF   AFHP
+IMM   ABCEHIJKLMNOPQRS
+RES   0
+VULN  Z
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 51
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5500
+MDICE 20d10+1000
+DDICE 5d8+19
+REGEN 0
+DTYPE wrath
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18206
+NAME  chaos drone machine~
+SHORT Chaos Drone~
+LONG  A huge machine with many faces is floating in front of you.
+~
+DESCR
+Before you is a large construction set with a variety of faces.  You
+notice that each face has different expressions but all have one thing in
+common...  All are looks of extreme anger.  
+~
+RACE  bat~
+ACT   AFGT
+AFF   0
+OFF   CFH
+IMM   ABCLMNPQ
+RES   0
+VULN  ORS
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 52
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5500
+MDICE 10d10+1000
+DDICE 6d7+20
+REGEN 0
+DTYPE suction
+AC    -22 -22 -22 -22
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGHMV
+PARTS ABCDEFHJKP
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18207
+NAME  beholder greater~
+SHORT A greater beholder~
+LONG  A huge eye floats in the air surrounded by tentacles surveying the area.
+~
+DESCR
+A huge eye floats in the air surrounded by tentacles surveying the area. 
+You see the eyes around you are almost hypnotic in movement.  Then all of a
+sudden beams of pure energy are fired in your direction.  
+~
+RACE  unique~
+ACT   AFG
+AFF   0
+OFF   CDFHP
+IMM   ABCLMQR
+RES   EFI
+VULN  H
+WSPEC 0
+ALIGN -400
+GROUP 0
+LEVEL 50
+HROLL 4
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 0d0+0
+DDICE 5d8+19
+REGEN 0
+DTYPE wrath
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEF
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18208
+NAME  demon hound dog~
+SHORT A demon hound~
+LONG  A demon conjured from the depths of hell is here sniffing the air for fresh meat.
+~
+DESCR
+A demon conjured from the depths of hell is here sniffing the air for
+fresh meat.  His blackened hide is covered in flames and noxious fumes are
+bellowing out of his mouth.  
+~
+RACE  dog~
+ACT   AFGT
+AFF   0
+OFF   CDFHOP
+IMM   ABHK
+RES   LMPQ
+VULN  INSZ
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 6
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 0d0+0
+DDICE 4d10+18
+REGEN 0
+DTYPE flbite
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMV
+PARTS ABCDEFHJKUV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18209
+NAME  el jefe man ~
+SHORT El Jefe~
+LONG  A man is here standing with a look that tells you, he's in charge.
+~
+DESCR
+Before you is a robust giant, standing at around twelve feet high.  His
+hair is short and a dirty blonde color, while the beard on his face is gray.
+You see a leash in one hand holding back the dog that is straining every
+muscle in its body to break lose from his master and rend you into shreds.  
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   CEHJKP
+IMM   ABCHIJKLMNOPQRS
+RES   DEFG
+VULN  Z
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+14000
+MDICE 0d0+0
+DDICE 8d6+28
+REGEN 0
+DTYPE divine
+AC    -30 -30 -30 -30
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18210
+NAME  viper snake crimson~
+SHORT A crimson viper~
+LONG  A large red snake is coiled and ready to strike!
+~
+DESCR
+Before you stands one of the four guardians of the stars you seek.  A
+huge viper is the chosen guardian for this star, and it doesn't look happy
+to see you.  
+~
+RACE  snake~
+ACT   ABFGT
+AFF   0
+OFF   ACFHM
+IMM   AB
+RES   CEHJKLMQ
+VULN  IZ
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 0d0+0
+DDICE 10d4+23
+REGEN 0
+DTYPE bite
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AGHMVXYc
+PARTS ABCDEFKLQVX
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18211
+NAME  viper snake blue coral~
+SHORT A coral blue snake~
+LONG  A large coral blue snake is set to strike anyone who touches it's treasure.
+~
+DESCR
+Before you stands one of the four guardians of the stars you seek.  A
+huge viper is the chosen guardian for this star, and it doesn't look happy
+to see you.  
+~
+RACE  snake~
+ACT   ABFGT
+AFF   0
+OFF   ACHM
+IMM   ABI
+RES   CJKLN
+VULN  IZ
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 0d0+0
+DDICE 10d4+23
+REGEN 0
+DTYPE bite
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMVXYc
+PARTS ABCDEFKLQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18212
+NAME  viper snake violet~
+SHORT A great violet python~
+LONG  A large violet hued snake is coiled around its precious treasure.
+~
+DESCR
+Before you stands one of the four guardians of the stars you seek.  A
+huge viper is the chosen guardian for this star, and it doesn't look happy
+to see you.  
+~
+RACE  snake~
+ACT   ABFGT
+AFF   0
+OFF   ACHM
+IMM   ABK
+RES   DFGLOP
+VULN  IZ
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 0d0+0
+DDICE 10d4+23
+REGEN 0
+DTYPE bite
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMVXYc
+PARTS ABCDEFKLQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18213
+NAME  snake viper ebony black~
+SHORT An ebony viper~
+LONG  A large ebony snake blends into the shadows behind it.
+~
+DESCR
+Before you stands one of the four guardians of the stars you seek.  A
+huge viper is the chosen guardian for this star, and it doesn't look happy
+to see you.  
+~
+RACE  snake~
+ACT   ABFGT
+AFF   0
+OFF   ACFH
+IMM   ABKLMQ
+RES   CGHL
+VULN  ISZ
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 0d0+0
+DDICE 10d4+23
+REGEN 0
+DTYPE acbite
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMVXYc
+PARTS ABCDEFKLQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18214
+NAME  pit viper snake~
+SHORT A pit viper~
+LONG  A large pit viper is coiled and ready to strike!
+~
+DESCR
+A large black snake lies here coiled up in a ball with its head staring
+straight at you.  It hisses and begins to flex its body ready to strike.  
+~
+RACE  snake~
+ACT   AFGT
+AFF   0
+OFF   AFHM
+IMM   AB
+RES   HLM
+VULN  IZ
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 0d0+0
+DDICE 4d8+13
+REGEN 0
+DTYPE bite
+AC    -13 -13 -13 -10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMVXYc
+PARTS ABCDEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18215
+NAME  wyvern dragon~
+SHORT A large shadowy wyvern~
+LONG  A large shadowy wyvern rests on a large mound of gold coins.
+~
+DESCR
+A large and shadowy wyvern rests on a large mound of gold.  The simple of
+the false coin can be seen branded on the creatures head showing that this
+creature is the Prince of Lies personal pet.  
+~
+RACE  wyvern~
+ACT   ABGT
+AFF   0
+OFF   CFH
+IMM   ABCDEFGHIJKLMNOPQRS
+RES   0
+VULN  S
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 1
+HROLL 20
+ENHA  100.00%
+MATER none~
+HDICE 0d0+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE bite
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  ABGHMVZ
+PARTS ABCDEFHJKQVX
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#18200
+NAME   sceptre imminent doom~
+SHORT  The Sceptre of Imminent Doom~
+DESCR 
+A sceptre pulsating with evil and malice lies here forcing you to take it~
+MAT    mineral~
+TYPE   weapon mace 9 6 grep CD
+EXTRA  1 7 0 787091
+WEAR   AN
+LEVEL  51
+WEIGHT 18
+COST   0
+COND   100
+Affect A 0 0 BQ
+Affect O 13 -50 0
+Affect O 12 100 0
+Affect O 19 8 0
+Affect O 18 5 0
+EDESC sceptre imminent~
+The weapon before you crackles with magical energy almost to the point you cannot even wield it. Evil emanates from its every being.~
+LIMIT  2
+End
+
+#18201
+NAME   silver needle~
+SHORT  a small needle~
+DESCR 
+A sliver or iron and silver lies here before you.~
+MAT    silver~
+TYPE   weapon exotic 6 6 blast 0
+EXTRA  1 2 0 528384
+WEAR   AN
+LEVEL  40
+WEIGHT 19
+COST   0
+COND   100
+Affect V 0 0 CM
+Affect A 0 0 K
+Affect O 18 2 0
+Affect O 19 4 0
+Affect O 24 5 0
+LIMIT  5
+End
+
+#18202
+NAME   chalice gold prize~
+SHORT  A golden chalice~
+DESCR 
+A large golden chalice awaits you to take it as your prize.~
+MAT    gold~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 524353
+WEAR   AO
+LEVEL  52
+WEIGHT 10
+COST   0
+COND   100
+Affect O 12 50 0
+Affect O 14 50 0
+Affect O 13 50 0
+LIMIT  4
+End
+
+#18203
+NAME   scroll confusion~
+SHORT  A scroll of confusion~
+DESCR 
+A psychadelic colored parchment shifts rapidly before your eyes.~
+MAT    paper~
+TYPE   scroll 55 'blindness' 'change sex' 'faerie fog' 'earthquake'
+EXTRA  1 3 0 17039424
+WEAR   AO
+LEVEL  51
+WEIGHT 3
+COST   0
+COND   100
+End
+
+#18204
+NAME   sword mind reaver~
+SHORT  A sword etched with the name, "Reaver of the Mind"~
+DESCR 
+A large sword seems to drain you mentally while you are around it.~
+MAT    bone~
+TYPE   weapon sword 8 6 blast D
+EXTRA  1 5 0 786578
+WEAR   AN
+LEVEL  50
+WEIGHT 13
+COST   1430
+COND   100
+Affect O 13 -100 0
+Affect O 12 150 0
+Affect O 19 5 0
+Affect O 18 5 0
+LIMIT  3
+End
+
+#18205
+NAME   dagger mage defense~
+SHORT  a mage's last defense~
+DESCR 
+A small blade of pure silver lies here on the ground.~
+MAT    magic~
+TYPE   weapon dagger 10 6 pierce G
+EXTRA  1 4 0 17039456
+WEAR   AN
+LEVEL  48
+WEIGHT 1
+COST   0
+COND   100
+Affect R 0 0 CF
+Affect O 4 0 0
+Affect O 4 2 0
+Affect O 3 2 0
+Affect O 24 -10 0
+Affect O 17 -20 0
+LIMIT  3
+End
+
+#18206
+NAME   razor whip~
+SHORT  A razor edged whip~
+DESCR 
+A large coil of steel covered with razor edged blades is left on the ground.~
+MAT    steel~
+TYPE   weapon whip 9 6 sting DH
+EXTRA  1 3 0 524801
+WEAR   AN
+LEVEL  50
+WEIGHT 13
+COST   0
+COND   100
+Affect O 18 -2 0
+Affect O 19 8 0
+Affect O 13 -40 0
+Affect O 2 -2 0
+LIMIT  15
+End
+
+#18207
+NAME   sword reaver soul~
+SHORT  A sword etched with the name, "Reaver of the Soul"~
+DESCR 
+A large sword seems to drain you physically while you are around it.~
+MAT    bone~
+TYPE   weapon sword 7 7 sound C
+EXTRA  1 5 0 17039506
+WEAR   AN
+LEVEL  51
+WEIGHT 13
+COST   9109
+COND   100
+Affect R 0 0 LQ
+Affect O 12 -50 0
+Affect O 19 5 0
+Affect O 18 5 0
+LIMIT  3
+End
+
+#18208
+NAME   spiked obsidian plate~
+SHORT  a set of spiked obsidian platemail~
+DESCR 
+A set of obsidian field plate is lying here on the ground.~
+MAT    mineral~
+TYPE   armor ACDF ABCDG ABEF BCEF 0
+EXTRA  1 3 0 16777281
+WEAR   AD
+LEVEL  45
+WEIGHT 26
+COST   0
+COND   100
+Affect O 24 -5 0
+Affect O 19 3 0
+Affect O 18 3 0
+End
+
+#18209
+NAME   armplates obsidian~
+SHORT  some spiked obsidian armplates~
+DESCR 
+A set of spiked obsidian armplates are lying on the ground.~
+MAT    mineral~
+TYPE   armor ABCF CG CDF BCDF 0
+EXTRA  1 4 0 16777283
+WEAR   AI
+LEVEL  49
+WEIGHT 21
+COST   0
+COND   100
+Affect O 2 -1 0
+Affect O 19 3 0
+Affect O 18 -1 0
+End
+
+#18210
+NAME   potion rage~
+SHORT  a potion of rage~
+DESCR 
+A small bottle containing a swirling red liquid is waiting to be drank.~
+MAT    glass~
+TYPE   potion 51 'frenzy' '' '' ''
+EXTRA  1 2 0 524352
+WEAR   AO
+LEVEL  30
+WEIGHT 7
+COST   0
+COND   100
+End
+
+#18211
+NAME   key silver~
+SHORT  a silver key~
+DESCR 
+A small key covered in silver webbing is hovering in the air.~
+MAT    silver~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 589888
+WEAR   AO
+LEVEL  40
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#18212
+NAME   key silk web~
+SHORT  a key covered with silk~
+DESCR 
+A key made of silken fabrics and obsidian lies on the ground.~
+MAT    cloth~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 589889
+WEAR   AO
+LEVEL  40
+WEIGHT 2
+COST   0
+COND   100
+End
+
+#18213
+NAME   key obsidian~
+SHORT  an obsidian key~
+DESCR 
+There is a key which looks like it is a part of the fortress itself.~
+MAT    mineral~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 589826
+WEAR   AO
+LEVEL  40
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#18214
+NAME   key emerald~
+SHORT  an emerald key~
+DESCR 
+A key made of cut emerald lies here on the ground.~
+MAT    magic~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 589888
+WEAR   AO
+LEVEL  40
+WEIGHT 1
+COST   0
+COND   100
+End
+
+#18215
+NAME   key burnt charred black~
+SHORT  a charred black key~
+DESCR 
+A charred black key lies burnt on the ground.~
+MAT    dragonscale~
+TYPE   key 0 0 0 0 0
+EXTRA  1 5 0 17629248
+WEAR   AO
+LEVEL  40
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#18216
+NAME   golden key~
+SHORT  a golden key~
+DESCR 
+A key of solid gold lies here on the ground.~
+MAT    gold~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 589888
+WEAR   AO
+LEVEL  40
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#18217
+NAME   wood key~
+SHORT  a wooden key~
+DESCR 
+A piece of carved wood lies here on the ground.~
+MAT    wood~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 589824
+WEAR   AO
+LEVEL  40
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#18218
+NAME   key third~
+SHORT  a key to the third floor~
+DESCR 
+A key with the number "3" etched on it lies here on the ground.~
+MAT    adamantite~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 589888
+WEAR   AO
+LEVEL  40
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#18219
+NAME   scales violet serpent~
+SHORT  scales of the violet serpent~
+DESCR 
+A large set of scales shimmers with a violet hue.~
+MAT    flesh~
+TYPE   armor BCDE BCDF ADE CE 0
+EXTRA  1 4 0 589827
+WEAR   AK
+LEVEL  50
+WEIGHT 16
+COST   0
+COND   100
+Affect O 2 3 0
+Affect O 17 -10 0
+Affect O 24 -5 0
+LIMIT  4
+End
+
+#18220
+NAME   scales ebony serpent~
+SHORT  scales of the ebony serpent~
+DESCR 
+A large set of darkened scales reflects light all around.~
+MAT    flesh~
+TYPE   armor BCDE BCDF ADE CE 0
+EXTRA  1 4 0 589827
+WEAR   AK
+LEVEL  50
+WEIGHT 16
+COST   0
+COND   100
+Affect O 1 3 0
+Affect O 19 5 0
+Affect O 17 -10 0
+LIMIT  4
+End
+
+#18221
+NAME   scales crimson serpent~
+SHORT  scales of the crimson serpent~
+DESCR 
+A large set of scales are covered with blood red hue.~
+MAT    flesh~
+TYPE   armor BCDE BCDF ADE CE 0
+EXTRA  1 4 0 589827
+WEAR   AK
+LEVEL  50
+WEIGHT 16
+COST   0
+COND   100
+Affect O 24 -8 0
+Affect O 13 50 0
+Affect O 12 0 0
+LIMIT  4
+End
+
+#18222
+NAME   scales coral blue serpent~
+SHORT  scales of the coral serpent~
+DESCR 
+A large set of coral blue scales lies here on the ground.~
+MAT    flesh~
+TYPE   armor BCDE BCDF ADE CE 0
+EXTRA  1 4 0 589827
+WEAR   AK
+LEVEL  50
+WEIGHT 16
+COST   0
+COND   100
+Affect O 23 -10 0
+Affect O 5 2 0
+Affect O 24 -5 0
+LIMIT  4
+End
+
+#18223
+NAME   no name~
+SHORT  (no short description)~
+DESCR 
+(no description)~
+MAT    unknown~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#18200
+NAME   Inside the castle gate~
+DESCR
+You are standing inside a huge ebony fortress.  The lights floating along
+the ceilings of the hallway give off just enough light to see a path extend
+westward into the midst of the castle.  Faint scratching noises can be heard
+in the distance and a cold breeze is blowing from the inner darkness ahead. 
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 0 26130
+DOOR 3
+~
+~
+0 -1 18201
+End
+
+#18201
+NAME   The outer keep~
+DESCR
+You are now standing on a marble floor covered in a metallic shine.  The
+walls are made of a similar substance seen on the outside of the mighty
+fortress.  As you walk, you notice that the walls are smooth and cold to the
+touch.  The eerie lights from the magical torches give a light green hue to
+everything.  To the east you no longer see the light of day from the gate,
+and to the west is nothing but darkness.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18200
+DOOR 3
+~
+~
+0 -1 18202
+End
+
+#18202
+NAME   The outer keep~
+DESCR
+You are now standing on a marble floor covered in a metallic shine.  The
+walls are made of a similar substance seen on the outside of the mighty
+fortress.  As you walk, you notice that the walls are smooth and cold to the
+touch.  The eerie lights from the magical torches give a light green hue to
+everything.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18201
+DOOR 3
+~
+~
+0 -1 18203
+End
+
+#18203
+NAME   The outer keep~
+DESCR
+You are now standing on a marble floor covered in a metallic shine.  The
+walls are made of a similar substance seen on the outside of the mighty
+fortress.  As you walk, you notice that the walls are smooth and cold to the
+touch.  The eerie lights from the magical torches give a light green hue to
+everything.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18202
+DOOR 3
+~
+~
+0 -1 18204
+End
+
+#18204
+NAME   The outer keep~
+DESCR
+You are now standing on a marble floor covered in a metallic shine.  The
+walls are made of a similar substance seen on the outside of the mighty
+fortress.  As you walk, you notice that the walls are smooth and cold to the
+touch.  The eerie lights from the magical torches give a light green hue to
+everything.  You notice further westward the faint outline of some figures
+standing in the hall.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18203
+DOOR 3
+~
+~
+0 -1 18205
+End
+
+#18205
+NAME   The main hall~
+DESCR
+At this point the hallway leading from the entrance of the fortress
+comes to break off into two directions.  You can see the hallway extending
+north and south from here.  On the west wall is a large wooden plaque etched
+with a series of words.  Also, you can see suits of armor on either side of
+the wooden plaque.  
+~
+FLAGS  2105344
+Sect   0
+EDESC  plaque sign words~
+For those who seek the price of the castle, one must reach the tallest tower. There you will find the golden chalice.~
+DOOR 0
+~
+~
+0 -1 18206
+DOOR 1
+~
+~
+0 -1 18204
+DOOR 2
+~
+~
+0 -1 18264
+End
+
+#18206
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18207
+DOOR 2
+~
+~
+0 -1 18205
+End
+
+#18207
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  The path continues to the
+north and south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18208
+DOOR 2
+~
+~
+0 -1 18206
+End
+
+#18208
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18209
+DOOR 2
+~
+~
+0 -1 18207
+End
+
+#18209
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18210
+DOOR 2
+~
+~
+0 -1 18208
+End
+
+#18210
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18211
+DOOR 2
+~
+~
+0 -1 18209
+End
+
+#18211
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the west and to the south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18210
+DOOR 3
+~
+~
+0 -1 18212
+End
+
+#18212
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18211
+DOOR 3
+~
+~
+0 -1 18213
+End
+
+#18213
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18212
+DOOR 3
+~
+~
+0 -1 18214
+End
+
+#18214
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18215
+DOOR 1
+~
+~
+0 -1 18213
+End
+
+#18215
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18216
+DOOR 2
+~
+~
+0 -1 18214
+End
+
+#18216
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of large
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18217
+DOOR 2
+~
+~
+0 -1 18215
+End
+
+#18217
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18218
+DOOR 2
+~
+~
+0 -1 18216
+End
+
+#18218
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18217
+DOOR 3
+~
+~
+0 -1 18219
+End
+
+#18219
+NAME   The northern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18218
+DOOR 3
+~
+~
+0 -1 18220
+End
+
+#18220
+NAME   The Northern Arch~
+DESCR
+At the northern end of the fortress, you come to a huge arch carved out
+of the obsidian castle.  Intricate patterns of weaving can be seen all
+around the arch with a strange symbol at the top.  You see on both sides of
+the arch that the web work seems to focus towards the south door.  The
+passageway continues on east and west.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18219
+DOOR 2
+~
+~
+AF 18201 18265
+DOOR 3
+~
+~
+0 -1 18221
+End
+
+#18221
+NAME   The northern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18220
+DOOR 3
+~
+~
+0 -1 18222
+End
+
+#18222
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18221
+DOOR 2
+~
+~
+0 -1 18223
+End
+
+#18223
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18222
+DOOR 2
+~
+~
+0 -1 18224
+End
+
+#18224
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18223
+DOOR 2
+~
+~
+0 -1 18225
+End
+
+#18225
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18224
+DOOR 2
+~
+~
+0 -1 18226
+End
+
+#18226
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18225
+DOOR 3
+~
+~
+0 -1 18227
+End
+
+#18227
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18226
+DOOR 3
+~
+~
+0 -1 18228
+End
+
+#18228
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18227
+DOOR 3
+~
+~
+0 -1 18229
+End
+
+#18229
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the east and to the south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18228
+DOOR 2
+~
+~
+0 -1 18230
+End
+
+#18230
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18229
+DOOR 2
+~
+~
+0 -1 18231
+End
+
+#18231
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18230
+DOOR 2
+~
+~
+0 -1 18232
+End
+
+#18232
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18231
+DOOR 2
+~
+~
+0 -1 18233
+End
+
+#18233
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18232
+DOOR 2
+~
+~
+0 -1 18234
+End
+
+#18234
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18233
+DOOR 2
+~
+~
+0 -1 18235
+End
+
+#18235
+NAME   The Western Arch~
+DESCR
+At the western end of the fortress, you come to a huge arch carved into
+the obsidian castle.  Intricate patterns of weaving can be seen all around
+the arch with a strange symbol at the top.  You see on both sides of the
+arch that the web work seems to focus towards the door to the east.  The
+passageway continues on north and south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18234
+DOOR 1
+~
+~
+A -1 18273
+DOOR 2
+~
+~
+0 -1 18236
+End
+
+#18236
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18235
+DOOR 2
+~
+~
+0 -1 18237
+End
+
+#18237
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18236
+DOOR 2
+~
+~
+0 -1 18238
+End
+
+#18238
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18237
+DOOR 2
+~
+~
+0 -1 18239
+End
+
+#18239
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18238
+DOOR 2
+~
+~
+0 -1 18240
+End
+
+#18240
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18239
+DOOR 2
+~
+~
+0 -1 18241
+End
+
+#18241
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the east.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18240
+DOOR 1
+~
+~
+0 -1 18242
+End
+
+#18242
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18243
+DOOR 3
+~
+~
+0 -1 18241
+End
+
+#18243
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18244
+DOOR 3
+~
+~
+0 -1 18242
+End
+
+#18244
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18245
+DOOR 3
+~
+~
+0 -1 18243
+End
+
+#18245
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18244
+DOOR 2
+~
+~
+0 -1 18246
+End
+
+#18246
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18245
+DOOR 2
+~
+~
+0 -1 18247
+End
+
+#18247
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18246
+DOOR 2
+~
+~
+0 -1 18248
+End
+
+#18248
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18247
+DOOR 1
+~
+~
+0 -1 18249
+End
+
+#18249
+NAME   The southern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18250
+DOOR 3
+~
+~
+0 -1 18248
+End
+
+#18250
+NAME   The Southern Arch~
+DESCR
+At the southern end of the fortress, you come to a huge arch carved into
+the obsidian castle.  Intricate patterns of weaving can be seen all around
+the arch with a strange symbol at the top.  You see on both sides of the
+arch that the web work seems to focus towards the door to the north.  The
+passageway continues on east and west.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+A -1 18274
+DOOR 1
+~
+~
+0 -1 18251
+DOOR 3
+~
+~
+0 -1 18249
+End
+
+#18251
+NAME   The southern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18252
+DOOR 3
+~
+~
+0 -1 18250
+End
+
+#18252
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18253
+DOOR 3
+~
+~
+0 -1 18251
+End
+
+#18253
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18254
+DOOR 2
+~
+~
+0 -1 18252
+End
+
+#18254
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18255
+DOOR 2
+~
+~
+0 -1 18253
+End
+
+#18255
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18256
+DOOR 2
+~
+~
+0 -1 18254
+End
+
+#18256
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18257
+DOOR 2
+~
+~
+0 -1 18255
+End
+
+#18257
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18258
+DOOR 3
+~
+~
+0 -1 18256
+End
+
+#18258
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18259
+DOOR 3
+~
+~
+0 -1 18257
+End
+
+#18259
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the west.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18260
+DOOR 3
+~
+~
+0 -1 18258
+End
+
+#18260
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18261
+DOOR 2
+~
+~
+0 -1 18259
+End
+
+#18261
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18262
+DOOR 2
+~
+~
+0 -1 18260
+End
+
+#18262
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18263
+DOOR 2
+~
+~
+0 -1 18261
+End
+
+#18263
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18264
+DOOR 2
+~
+~
+0 -1 18262
+End
+
+#18264
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18205
+DOOR 2
+~
+~
+0 -1 18263
+End
+
+#18265
+NAME   Inner hallway~
+DESCR
+Inside this inner hallway the only thing visible is the silver webbing
+which was found creeping on the black surface of the walls and ceiling in
+the northern halls.  The silver webbing seems to originate from something
+due south from your present location.  You can hear the skittering of what
+sounds like tiny feet and the snapping of twigs and leather.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+AF -1 18220
+DOOR 2
+~
+~
+0 -1 18266
+End
+
+#18266
+NAME   Inner hallway~
+DESCR
+Inside this inner hallway the only thing visible is the silver webbing
+which was found creeping on the black surface of the walls and ceiling in
+the northern halls.  The silver webbing seems to originate from something
+due south from your present location.  You can hear the skittering of what
+sounds like tiny feet and the snapping of twigs and leather.  
+~
+FLAGS  8193
+Sect   0
+DOOR 0
+~
+~
+0 -1 18265
+DOOR 2
+~
+~
+0 -1 18267
+End
+
+#18267
+NAME   Inner hallway~
+DESCR
+Inside this inner hallway the only thing visible is the silver webbing
+which was found creeping on the black surface of the walls and ceiling in
+the northern halls.  The silver webbing seems to originate from something
+due south from your present location.  You can hear the skittering of what
+sounds like tiny feet and the snapping of twigs and leather.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18266
+DOOR 2
+~
+~
+0 -1 18268
+End
+
+#18268
+NAME   The silver cavern~
+DESCR
+The hallway finally comes to an end into the mouth of a vast cavern.  It
+is hard to tell where the caverns boundaries are because of the silver
+webbing casting reflections everywhere.  The surface of the cavern is smooth
+and surprisingly soft to the touch.  You can see that the cavern continues
+to the south.  You hear the movements of something to the south of you as
+well.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18267
+DOOR 2
+~
+~
+0 -1 18269
+End
+
+#18269
+NAME   The silver cavern~
+DESCR
+The hallway finally comes to an end into the mouth of a vast cavern.  It
+is hard to tell where the caverns boundaries are because of the silver
+webbing casting reflections everywhere.  The surface of the cavern is smooth
+and surprisingly soft to the touch.  You can see that the cavern continues
+to the south.  The movements seem to be nearer than before.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18268
+DOOR 2
+~
+~
+0 -1 18270
+End
+
+#18270
+NAME   The silver cavern~
+DESCR
+The hallway finally comes to an end into the mouth of a vast cavern.  It
+is hard to tell where the caverns boundaries are because of the silver
+webbing casting reflections everywhere.  The surface of the cavern is smooth
+and surprisingly soft to the touch.  You can see that the cavern continues
+to the south.  The movements seem to be nearer than before.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18269
+DOOR 2
+~
+~
+0 -1 18271
+End
+
+#18271
+NAME   Lair of the Nordinath~
+DESCR
+Before you is what looks like a huge bed of silver and bones.  Metallic
+slime glistens all around you as silver fibers hang from the ceiling of the
+cavern.  Whatever lives here must be huge from the size of the indentions
+and lacerations made in the rock.  You hope you dont ever have to meet this
+creature.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18270
+DOOR 2
+~
+~
+AG 18212 18272
+End
+
+#18272
+NAME   At the foot of a giant stairwell~
+DESCR
+The silver webbing seems to die away from this stairwell which you found
+behind the lair of the great centipede.  You feel a brief wind coming down
+from the darkness above which seems to chill you for for a moment but you
+know you must procede.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+AF -1 18271
+DOOR 4
+~
+~
+0 -1 18275
+End
+
+#18273
+NAME   A silver chamber~
+DESCR
+Inside the door is a small room covered in silver fibers.  You see that
+the room almost looks as if it was the center of a web.  On the floor lies
+bones stacked in neat piles carefully placed in the corners of the room.  
+~
+FLAGS  8192
+Sect   0
+DOOR 3
+~
+~
+A -1 18235
+End
+
+#18274
+NAME   Room of the crazed man~
+DESCR
+Seems like you have interrupted this insane little man.  The room is in
+shambles and the web found all around has been collected into piles and made
+into various tools.  Seems like this man was left here as a form of
+punishment more than by choice.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+A -1 18250
+End
+
+#18275
+NAME   Top of the stairwell~
+DESCR
+You are standing at the top of the stairwell.  Even after slaying the
+worm, the presence of the silver webbing still attempts to overtake the
+walls of the obsidian fortress.  You notice that it is surprisingly warmer
+on this floor of the fortress and that sounds of clanging metal can be heard
+in the distance.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18276
+DOOR 5
+~
+~
+0 -1 18272
+End
+
+#18276
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18277
+DOOR 2
+~
+~
+0 -1 18275
+End
+
+#18277
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18278
+DOOR 2
+~
+~
+0 -1 18276
+End
+
+#18278
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18279
+DOOR 2
+~
+~
+0 -1 18277
+End
+
+#18279
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18280
+DOOR 2
+~
+~
+0 -1 18278
+End
+
+#18280
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18281
+DOOR 2
+~
+~
+0 -1 18279
+End
+
+#18281
+NAME   Inner hallway~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18282
+DOOR 2
+~
+~
+0 -1 18280
+End
+
+#18282
+NAME   Approaching the northern halls~
+DESCR
+As the hallway continues, you see to the north that two directions are
+available.  A passageway goes to the west and to the east.  The lamps
+continue lighting the way for you to see.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18283
+DOOR 2
+~
+~
+0 -1 18281
+End
+
+#18283
+NAME   The northern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18284
+DOOR 2
+~
+~
+0 -1 18282
+DOOR 3
+~
+~
+0 -1 18342
+End
+
+#18284
+NAME   The northern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18285
+DOOR 3
+~
+~
+0 -1 18283
+End
+
+#18285
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18286
+DOOR 3
+~
+~
+0 -1 18284
+End
+
+#18286
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18285
+DOOR 2
+~
+~
+0 -1 18287
+End
+
+#18287
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18286
+DOOR 2
+~
+~
+0 -1 18288
+End
+
+#18288
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18287
+DOOR 2
+~
+~
+0 -1 18289
+End
+
+#18289
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18288
+DOOR 1
+~
+~
+0 -1 18290
+End
+
+#18290
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18291
+DOOR 3
+~
+~
+0 -1 18289
+End
+
+#18291
+NAME   Northeastern corridor~
+DESCR
+The northeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18292
+DOOR 3
+~
+~
+0 -1 18290
+End
+
+#18292
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the west and to the south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18293
+DOOR 3
+~
+~
+0 -1 18291
+End
+
+#18293
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18292
+DOOR 2
+~
+~
+0 -1 18294
+End
+
+#18294
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18293
+DOOR 2
+~
+~
+0 -1 18295
+End
+
+#18295
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18294
+DOOR 2
+~
+~
+0 -1 18296
+End
+
+#18296
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18295
+DOOR 2
+~
+~
+0 -1 18297
+End
+
+#18297
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18296
+DOOR 2
+~
+~
+0 -1 18298
+End
+
+#18298
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  On the west wall you see a
+solid oak door with strange mystical carvings.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18297
+DOOR 2
+~
+~
+0 -1 18299
+DOOR 3
+~
+~
+AB -1 18349
+End
+
+#18299
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18298
+DOOR 2
+~
+~
+0 -1 18300
+End
+
+#18300
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  On the west wall, you notice
+a large iron door with a barred window.  You attempt to look into the window
+but cannot see anything inside.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18299
+DOOR 2
+~
+~
+0 -1 18301
+DOOR 3
+~
+~
+AG 18204 18351
+End
+
+#18301
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18300
+DOOR 2
+~
+~
+0 -1 18302
+End
+
+#18302
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18301
+DOOR 2
+~
+~
+0 -1 18303
+End
+
+#18303
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18302
+DOOR 2
+~
+~
+0 -1 18304
+End
+
+#18304
+NAME   The eastern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues north and westward.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18303
+DOOR 3
+~
+~
+0 -1 18305
+End
+
+#18305
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18304
+DOOR 3
+~
+~
+0 -1 18306
+End
+
+#18306
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  On the north wall, you see what looks to be a giant set of double
+doors.  A large crest and keyhole lies in the center.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18353
+DOOR 1
+~
+~
+0 -1 18305
+DOOR 3
+~
+~
+0 -1 18307
+End
+
+#18307
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18306
+DOOR 2
+~
+~
+0 -1 18308
+End
+
+#18308
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18307
+DOOR 2
+~
+~
+0 -1 18309
+End
+
+#18309
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18308
+DOOR 2
+~
+~
+0 -1 18310
+End
+
+#18310
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18309
+DOOR 2
+~
+~
+0 -1 18311
+End
+
+#18311
+NAME   Southeastern corridor~
+DESCR
+The southeastern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  The corridor continues to the west and to the north.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18310
+DOOR 3
+~
+~
+0 -1 18312
+End
+
+#18312
+NAME   The southern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18311
+DOOR 3
+~
+~
+0 -1 18313
+End
+
+#18313
+NAME   The southern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18312
+DOOR 3
+~
+~
+0 -1 18314
+End
+
+#18314
+NAME   The southern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18313
+DOOR 3
+~
+~
+0 -1 18315
+End
+
+#18315
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18316
+DOOR 1
+~
+~
+0 -1 18314
+End
+
+#18316
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18317
+DOOR 2
+~
+~
+0 -1 18315
+End
+
+#18317
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18318
+DOOR 2
+~
+~
+0 -1 18316
+End
+
+#18318
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18319
+DOOR 2
+~
+~
+0 -1 18317
+End
+
+#18319
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  The corridor continues westward and southward.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18318
+DOOR 3
+~
+~
+0 -1 18320
+End
+
+#18320
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18319
+DOOR 3
+~
+~
+0 -1 18321
+End
+
+#18321
+NAME   Southwestern corridor~
+DESCR
+The southwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18320
+DOOR 3
+~
+~
+0 -1 18322
+End
+
+#18322
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the east.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18323
+DOOR 1
+~
+~
+0 -1 18321
+End
+
+#18323
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18324
+DOOR 2
+~
+~
+0 -1 18322
+End
+
+#18324
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+On the eastern wall is a door which seems to be falling off its hinges. 
+Through the cracks you can see very little other than darkness and the faint
+glow of silver.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18325
+DOOR 1
+~
+~
+AB -1 18347
+DOOR 2
+~
+~
+0 -1 18323
+End
+
+#18325
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18326
+DOOR 2
+~
+~
+0 -1 18324
+End
+
+#18326
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+You notice on the eastern wall a simple door made of wood.  You notice that
+there are scratch marks made along the edges near the handle.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18327
+DOOR 1
+~
+~
+0 -1 18345
+DOOR 2
+~
+~
+0 -1 18325
+End
+
+#18327
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18328
+DOOR 2
+~
+~
+0 -1 18326
+End
+
+#18328
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+On the east side of the room is a large tapestry, depicting the demise of a
+small village at the hands of a giant.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18329
+DOOR 1
+~
+~
+ABF -1 18343
+DOOR 2
+~
+~
+0 -1 18327
+End
+
+#18329
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18330
+DOOR 2
+~
+~
+0 -1 18328
+End
+
+#18330
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18331
+DOOR 2
+~
+~
+0 -1 18329
+End
+
+#18331
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18332
+DOOR 2
+~
+~
+0 -1 18330
+End
+
+#18332
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18333
+DOOR 2
+~
+~
+0 -1 18331
+End
+
+#18333
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the north and to the south. 
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18334
+DOOR 2
+~
+~
+0 -1 18332
+End
+
+#18334
+NAME   The western halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues to the east and to the south.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18335
+DOOR 2
+~
+~
+0 -1 18333
+End
+
+#18335
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18336
+DOOR 3
+~
+~
+0 -1 18334
+End
+
+#18336
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18337
+DOOR 3
+~
+~
+0 -1 18335
+End
+
+#18337
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18338
+DOOR 3
+~
+~
+0 -1 18336
+End
+
+#18338
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18339
+DOOR 2
+~
+~
+0 -1 18337
+End
+
+#18339
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18340
+DOOR 2
+~
+~
+0 -1 18338
+End
+
+#18340
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18341
+DOOR 2
+~
+~
+0 -1 18339
+End
+
+#18341
+NAME   Northwestern corridor~
+DESCR
+The northwestern section of this floor looks similar to the rest of the
+castle.  Smooth black walls and floor with the the intricate silver webbing
+covering the entire hall.  You see large indentions on both sides of the
+hallways.  At closer examination you see that they have the shape of giant
+knights.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18342
+DOOR 2
+~
+~
+0 -1 18340
+End
+
+#18342
+NAME   The northern halls~
+DESCR
+You are standing in a hallway covered in smooth obsidian stones.  Small
+traces of silver can be seen etched in the cracks along the floor forming a
+type of web all around.  You can see more of the strange glowing lamps
+floating above you as the hallways continues.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18283
+DOOR 3
+~
+~
+0 -1 18341
+End
+
+#18343
+NAME   A small room~
+DESCR
+You are standing in a small room with a door on the eastern and western
+side.  There is absolutely no decoration in here save one chair and a series
+of torture devices stacked against the northern wall.  Blood covers the
+floor and ceilings.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+AB -1 18344
+DOOR 3
+~
+~
+AF -1 18328
+End
+
+#18344
+NAME   A back room~
+DESCR
+You are in a small room.  You dont see anything out of the ordinary
+except for a small lever on the northern wall.  Before you can do anything,
+a little imp runs up to the level and grabs it, sending a large stone
+crashing in front of the door way you had just came through.  A hatch on the
+bottom of the floor opens up.  You realize that this is your only way out of
+this room.  
+~
+FLAGS  8197
+Sect   0
+DOOR 5
+~
+~
+0 -1 18387
+End
+
+#18345
+NAME   A small room~
+DESCR
+You are standing in a small room with a door on the eastern and western
+side.  There is absolutely no decoration in here save one chair and a series
+of torture devices stacked against the northern wall.  Blood covers the
+floor and ceilings.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+ABCG 18213 18346
+DOOR 3
+~
+~
+0 -1 18326
+End
+
+#18346
+NAME   A back room~
+DESCR
+You are in a small room.  You dont see anything out of the ordinary
+except for a small lever on the northern wall.  A small creature lies
+motionless on the ground having looked like it was stomped by some large
+creature or crushed by a large rock.  
+~
+FLAGS  8192
+Sect   0
+DOOR 3
+~
+~
+A -1 18345
+End
+
+#18347
+NAME   A small room~
+DESCR
+You are standing in a small room with a door on the eastern and western
+side.  There is absolutely no decoration in here save one chair and a series
+of torture devices stacked against the northern wall.  Blood covers the
+floor and ceilings.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+ABCG 18215 18348
+DOOR 3
+~
+~
+A -1 18324
+End
+
+#18348
+NAME   A back room~
+DESCR
+You are in a small room.  You dont see anything out of the ordinary
+except for a small lever on the northern wall.  Before you can do anything,
+a little imp runs up to the level and grabs it, sending a large stone
+crashing in front of the door way you had just came through.  A hatch on the
+bottom of the floor opens up.  You realize that this is your only way out of
+this room.  
+~
+FLAGS  2105344
+Sect   0
+DOOR 5
+~
+~
+0 -1 18387
+End
+
+#18349
+NAME   A small room~
+DESCR
+You are standing in a small room with a door on the eastern and western
+side.  There is absolutely no decoration in here save one chair and a series
+of torture devices stacked against the northern wall.  Blood covers the
+floor and ceilings.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+A -1 18298
+DOOR 3
+~
+~
+ABCG 18217 18350
+End
+
+#18350
+NAME   A back room~
+DESCR
+You are in a small room.  You dont see anything out of the ordinary
+except for a small lever on the northern wall.  Before you can do anything,
+a little imp runs up to the level and grabs it, sending a large stone
+crashing in front of the door way you had just came through.  A hatch on the
+bottom of the floor opens up.  You realize that this is your only way out of
+this room.  
+~
+FLAGS  8192
+Sect   0
+DOOR 5
+~
+~
+0 -1 18387
+End
+
+#18351
+NAME   A small room~
+DESCR
+You are standing in a small room with a door on the eastern and western
+side.  There is absolutely no decoration in here save one chair and a series
+of torture devices stacked against the northern wall.  Blood covers the
+floor and ceilings.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+A -1 18300
+DOOR 3
+~
+~
+AF 18214 18352
+End
+
+#18352
+NAME   A back room~
+DESCR
+You are in a small room.  You dont see anything out of the ordinary
+except for a small lever on the northern wall.  A small creature lies
+motionless on the ground having looked like it was stomped by some large
+creature or crushed by a large rock.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+AF -1 18351
+End
+
+#18353
+NAME   A well decorated room~
+DESCR
+Inside of the locked door to the south is a well furnished room.  This
+room has been carefully modelled into what looks like a room fit for a king.
+Gold chains hold above you a great set of lights.  Jewels reflect light all
+around the room letting you better see the designs that have been carved
+into the walls.  The hallways continues to the north.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18354
+DOOR 2
+~
+~
+AF -1 18306
+End
+
+#18354
+NAME   A large meeting hall~
+DESCR
+You are standing in the middle of a large meeting hall.  You stare in awe
+at the immense size of this place.  Lines and lines of wooden tables are
+here set in rows which span for the entire length of the room.  You see a
+door set aside on the western wall which looks to lead outside.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18353
+DOOR 3
+~
+~
+ABCG 18218 18355
+End
+
+#18355
+NAME   A smokey passageway~
+DESCR
+Appearances can be deceiving.  What looked like a way out of this strange
+castle was actually just an illusion.  You see the misty tentacles cover and
+reach out for all that surrounds you.  You see that the mist seems to form a
+walkway which leads to the west.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+AF -1 18354
+DOOR 3
+~
+~
+0 -1 18356
+End
+
+#18356
+NAME   Below the grand staircase~
+DESCR
+You have reached the bottom of a large silver staircase.  Around the mist
+seems to actually form the staircase that is lying here before you.  The air
+is thick here and its almost too dense to breathe.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18355
+DOOR 4
+~
+~
+0 -1 18357
+End
+
+#18357
+NAME   A misty staircase~
+DESCR
+The stairwell you were on has now become a lot smaller and narrower
+forming into an upward spiral.  You see towards the top a small room with
+what looks like two figures guarding the top.  You look down and see
+absolutely nothing.  Lucky for you their is a railing on the sides which
+help you keep your balance.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18358
+DOOR 5
+~
+~
+0 -1 18356
+End
+
+#18358
+NAME   A room before the prize~
+DESCR
+You are standing in what looks like a waiting room of sorts.  You see red
+cordon everywhere forming somewhat of an orderly walkway towards one man. 
+At the end of the cordon is an old man with a large and fierce looking dog
+who is slowing foaming on the mouth and drooling all over the velvet carpet.
+You see two exits leading north and south and also, a large scafolding above
+you with a door.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18359
+DOOR 2
+~
+~
+0 -1 18373
+DOOR 4
+~
+~
+AG 18211 18397
+DOOR 5
+~
+~
+0 -1 18357
+End
+
+#18359
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18360
+DOOR 2
+~
+~
+0 -1 18358
+End
+
+#18360
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  You see a sign against
+northern wall.  
+~
+FLAGS  8192
+Sect   0
+EDESC  sign~
+Those seeking death, please continue towards the towers.~
+DOOR 1
+~
+~
+0 -1 18367
+DOOR 2
+~
+~
+0 -1 18359
+DOOR 3
+~
+~
+0 -1 18361
+End
+
+#18361
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18362
+DOOR 1
+~
+~
+0 -1 18360
+End
+
+#18362
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18361
+DOOR 3
+~
+~
+0 -1 18363
+End
+
+#18363
+NAME   At the foot of the northwest tower~
+DESCR
+At the bottom of this large tower, you see a small opening leading into
+the darkness.  The lights around you faintly reflect off a smooth stoned
+staircase which is leading upwards.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18362
+DOOR 4
+~
+~
+0 -1 18364
+End
+
+#18364
+NAME   Up the northwest tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18365
+DOOR 5
+~
+~
+0 -1 18363
+MHRATE 10 10
+End
+
+#18365
+NAME   Up the northwest tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18366
+DOOR 5
+~
+~
+0 -1 18364
+End
+
+#18366
+NAME   Cradle of the northwest tower~
+DESCR
+You are standing in what looks like a large nest of rocks and bones.  Mud
+has caked up around the sides giving the nest a structural support.  You
+then look around to see that there are eggs lying all around.  Large pieces
+of snake skin can be seen hanging off the ceiling.  
+~
+FLAGS  8192
+Sect   0
+DOOR 5
+~
+~
+0 -1 18365
+End
+
+#18367
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18368
+DOOR 3
+~
+~
+0 -1 18360
+End
+
+#18368
+NAME   The northern wing~
+DESCR
+You are standing on a large red velvet carpet in the north wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18369
+DOOR 2
+~
+~
+0 -1 18367
+End
+
+#18369
+NAME   At the foot of the northeast tower~
+DESCR
+At the bottom of this large tower, you see a small opening leading into
+the darkness.  The lights around you faintly reflect off a smooth stoned
+staircase which is leading upwards.  
+~
+FLAGS  8192
+Sect   0
+DOOR 3
+~
+~
+0 -1 18368
+DOOR 4
+~
+~
+0 -1 18370
+End
+
+#18370
+NAME   Up the northeast tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18371
+DOOR 5
+~
+~
+0 -1 18369
+End
+
+#18371
+NAME   Up the northeast tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18372
+DOOR 5
+~
+~
+0 -1 18370
+End
+
+#18372
+NAME   Cradle of the northeast tower~
+DESCR
+You are standing in what looks like a large nest of rocks and bones.  Mud
+has caked up around the sides giving the nest a structural support.  You
+then look around to see that there are eggs lying all around.  Large pieces
+of snake skin can be seen hanging off the ceiling.  
+~
+FLAGS  8192
+Sect   0
+DOOR 5
+~
+~
+0 -1 18371
+End
+
+#18373
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18358
+DOOR 2
+~
+~
+0 -1 18374
+End
+
+#18374
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  You see a sign on the
+southern wall.  
+~
+FLAGS  8192
+Sect   0
+EDESC  sign~
+Those seeking death, please continue towards the towers.~
+DOOR 0
+~
+~
+0 -1 18373
+DOOR 1
+~
+~
+0 -1 18381
+DOOR 3
+~
+~
+0 -1 18375
+End
+
+#18375
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  2105344
+Sect   0
+DOOR 1
+~
+~
+0 -1 18374
+DOOR 2
+~
+~
+0 -1 18376
+End
+
+#18376
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18375
+DOOR 3
+~
+~
+0 -1 18377
+End
+
+#18377
+NAME   At the foot of the southwest tower~
+DESCR
+At the bottom of this large tower, you see a small opening leading into
+the darkness.  The lights around you faintly reflect off a smooth stoned
+staircase which is leading upwards.  
+~
+FLAGS  8192
+Sect   0
+DOOR 1
+~
+~
+0 -1 18376
+DOOR 4
+~
+~
+0 -1 18378
+End
+
+#18378
+NAME   Up the southwest tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18379
+DOOR 5
+~
+~
+0 -1 18377
+End
+
+#18379
+NAME   Up the southwest tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18380
+DOOR 5
+~
+~
+0 -1 18378
+End
+
+#18380
+NAME   Cradle of the southwest tower~
+DESCR
+You are standing in what looks like a large nest of rocks and bones.  Mud
+has caked up around the sides giving the nest a structural support.  You
+then look around to see that there are eggs lying all around.  Large pieces
+of snake skin can be seen hanging off the ceiling.  
+~
+FLAGS  8192
+Sect   0
+DOOR 5
+~
+~
+0 -1 18379
+End
+
+#18381
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 2
+~
+~
+0 -1 18382
+DOOR 3
+~
+~
+0 -1 18374
+End
+
+#18382
+NAME   The southern wing~
+DESCR
+You are standing on a large red velvet carpet in the south wing.  You see
+random pieces of pottery, foreign antiques, and other eye pleasing
+attractions.  You are surprised to hear that...  Well, there is nothing at
+all.  It is absolutely quiet here in the wing.  
+~
+FLAGS  8192
+Sect   0
+DOOR 0
+~
+~
+0 -1 18381
+DOOR 1
+~
+~
+0 -1 18383
+End
+
+#18383
+NAME   At the foot of the southeast tower~
+DESCR
+At the bottom of this large tower, you see a small opening leading into
+the darkness.  The lights around you faintly reflect off a smooth stoned
+staircase which is leading upwards.  
+~
+FLAGS  8192
+Sect   0
+DOOR 3
+~
+~
+0 -1 18382
+DOOR 4
+~
+~
+0 -1 18384
+End
+
+#18384
+NAME   Up the southeast tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18385
+DOOR 5
+~
+~
+0 -1 18383
+End
+
+#18385
+NAME   Up the southeast tower~
+DESCR
+Climbing steadily up the staircase, you feel like you getting tired.  The
+actual tower seems to be alive and sucking the energy from your body.  You
+still though are capable to continue.  The same errie silence is still
+defeaning in your ears.  
+~
+FLAGS  8192
+Sect   0
+DOOR 4
+~
+~
+0 -1 18386
+DOOR 5
+~
+~
+0 -1 18384
+End
+
+#18386
+NAME   Cradle of the southeast tower~
+DESCR
+You are standing in what looks like a large nest of rocks and bones.  Mud
+has caked up around the sides giving the nest a structural support.  You
+then look around to see that there are eggs lying all around.  Large pieces
+of snake skin can be seen hanging off the ceiling.  
+~
+FLAGS  8192
+Sect   0
+DOOR 5
+~
+~
+0 -1 18385
+End
+
+#18387
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18388
+MHRATE 50 50
+End
+
+#18388
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18389
+DOOR 3
+~
+~
+0 -1 18387
+End
+
+#18389
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18390
+DOOR 3
+~
+~
+0 -1 18388
+End
+
+#18390
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18391
+DOOR 3
+~
+~
+0 -1 18389
+End
+
+#18391
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18392
+DOOR 3
+~
+~
+0 -1 18390
+End
+
+#18392
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18393
+DOOR 3
+~
+~
+0 -1 18391
+End
+
+#18393
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18394
+DOOR 3
+~
+~
+0 -1 18392
+End
+
+#18394
+NAME   In the dungeon~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  
+~
+FLAGS  8193
+Sect   0
+DOOR 1
+~
+~
+0 -1 18395
+DOOR 3
+~
+~
+0 -1 18393
+End
+
+#18395
+NAME   A small ladder~
+DESCR
+Seems you have come upon some bad luck and are now in the dungeon of the
+mighty fortress.  You look around and barely see anything at all.  The walls
+are covered in a black ooze and a pungent odor seeps from every crack in
+this sewer like tunnel.  You see a small ladder leading upwards toward an
+eerie glow.  
+~
+FLAGS  8193
+Sect   0
+DOOR 3
+~
+~
+0 -1 18394
+DOOR 4
+~
+~
+0 -1 18205
+End
+
+#18396
+NAME   The Throne of Hiddukel~
+DESCR
+It seems that you are in a room fit for a god. Lavish decoration and treasures of all kinds cover every last inch of this room. The red and violet carpet beneath your feet allows the utmost comfort not to mention being quite stylish. Mounds of gems, gold coins, and large silver bars
+are piled up around the two sides of the throne making a perfect place for the large wyvern behind it to rest its large and snake like body.
+Candles adorn the walls allowing a low light to be cast upon the treasures in the room.
+~
+FLAGS  24580
+Sect   0
+MHRATE 150 150
+End
+
+#18397
+NAME   A private treasure room~
+DESCR
+In this room is the prize of the castle.  A golden chalice, the prize
+possession of man you previously met.  It stands on a pedestal in the center
+of the room surrounded by misty curtains and silver chains.  
+~
+FLAGS  0
+Sect   0
+DOOR 5
+~
+~
+AF -1 18358
+End
+
+#0
+
+
+
+#SPECIALS
+M 18200 spec_guard
+M 18205 spec_cast_mage
+M 18206 spec_breath_lightning
+M 18210 spec_breath_fire
+M 18212 spec_cast_mage
+M 18213 spec_breath_gas
+M 18214 spec_poison
+S
+
+
+
+#RESETS
+D 0 18298 3 1
+D 0 18324 1 1
+D 0 18328 1 1
+D 0 18343 1 1
+D 0 18345 1 2
+D 0 18347 1 2
+D 0 18349 3 2
+D 0 18354 3 2
+M 0 18200 34 18213 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18215 2
+M 0 18200 34 18217 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18220 2
+M 0 18200 34 18223 2
+M 0 18200 34 18226 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18228 2
+M 0 18200 34 18232 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18237 2
+M 0 18200 34 18243 2
+M 0 18200 34 18245 2
+M 0 18200 34 18248 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18250 2
+M 0 18200 34 18253 2
+M 0 18200 34 18256 2
+E 0 18208 0 5
+E 0 18209 0 10
+M 0 18200 34 18258 2
+M 0 18200 34 18261 2
+M 0 18201 1 18271 1
+G 0 18212 0
+M 0 18202 1 18274 1
+G 0 18201 0
+M 0 18208 32 18284 2
+M 0 18208 32 18287 2
+M 0 18208 32 18290 2
+M 0 18208 32 18294 2
+M 0 18208 32 18297 2
+M 0 18208 32 18300 2
+M 0 18208 32 18304 2
+M 0 18208 32 18308 2
+M 0 18208 32 18312 2
+M 0 18208 32 18315 2
+M 0 18208 32 18318 2
+M 0 18208 32 18320 2
+M 0 18208 32 18322 2
+M 0 18208 32 18331 2
+M 0 18208 32 18338 2
+M 0 18208 32 18340 2
+M 0 18206 1 18343 1
+G 0 18213 0
+M 0 18207 1 18346 1
+G 0 18215 0
+M 0 18204 1 18348 1
+E 0 18204 0 16
+G 0 18207 0
+G 0 18217 0
+O 0 18214 0 18350
+M 0 18205 1 18352 1
+E 0 18200 0 16
+G 0 18218 0
+M 0 18209 1 18358 1
+M 0 18203 1 18358 1
+M 0 18211 1 18366 1
+G 0 18222 0
+M 0 18210 1 18372 1
+G 0 18221 0
+M 0 18212 1 18380 1
+G 0 18219 0
+M 0 18213 1 18386 1
+G 0 18220 0
+M 0 18214 20 18387 5
+M 0 18214 20 18388 3
+M 0 18214 20 18389 3
+M 0 18214 20 18390 3
+M 0 18214 20 18392 3
+M 0 18214 20 18393 3
+M 0 18215 1 18396 1
+O 0 18202 0 18397
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

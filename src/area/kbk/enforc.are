@@ -1,0 +1,477 @@
+#AREADATA
+Name Enforcer's Hall~
+Builders None~
+VNUMs 4521 4599
+Credits {CABAL} Tracera The Enforcer's Hall~
+Security 9
+Xplore 1
+End
+
+
+
+#MOBDATA
+#4521
+NAME  enforcer~
+SHORT the Enforcer~
+LONG  The Enforcer of Justice stands watch over his clanhall.
+~
+DESCR
+He is a strong looking guard with a sharp look in his eyes.  He seizes
+everybody in the vicinity.  He will never let intruders inside, before he
+dies.  
+~
+RACE  cloud~
+ACT   ABDGLVY
+AFF   HTVa
+OFF   C
+IMM   AB
+RES   DE
+VULN  NP
+WSPEC F
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 40
+ENHA  150.00%
+MATER none~
+HDICE 2d500+5000
+MDICE 1d1+1000
+DDICE 1d1+55
+REGEN 0
+DTYPE punch
+AC    -33 -33 -33 -21
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 3
+CABAL enforcer
+End
+
+#4522
+NAME  gnomish healer cleric gnome~
+SHORT the gnomish cleric~
+LONG  A small gnome covered in brown garb stands near a healing pool.
+~
+DESCR
+~
+RACE  gnome~
+ACT   ABGLac
+AFF   DFHNOPTc
+OFF   FG
+IMM   ABCDEFGHIJKLMNOPQRSTXYZ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 90
+ENHA  50.00%
+MATER none~
+HDICE 186d31+1819
+MDICE 90d11+95
+DDICE 31d2+67
+REGEN 0
+DTYPE sound
+AC    -55 -55 -55 -37
+POS   rest rest
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  tiny
+DMOD  70
+AMOD  0
+QUEST 0
+CABAL enforcer
+End
+
+#4523
+NAME  marshall~
+SHORT the marshall~
+LONG  The Marshall stands watch over the entrance to his hall.
+~
+DESCR
+~
+RACE  human~
+ACT   ABGLVWZ
+AFF   V
+OFF   C
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 2d500+4000
+MDICE 40d11+95
+DDICE 5d5+20
+REGEN 0
+DTYPE punch
+AC    -19 -19 -19 -11
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  50
+AMOD  0
+QUEST 0
+CABAL enforcer
+End
+
+#4524
+NAME  special guard~
+SHORT the special guard~
+LONG  A special guard stands here, awaiting orders.
+~
+DESCR
+A tall human gaurd dressed in simple armor stands ready, waiting for
+orders.  
+~
+RACE  human~
+ACT   A
+AFF   DFUVa
+OFF   FKTU
+IMM   A
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 51
+ENHA  150.00%
+MATER none~
+HDICE 30d15+500
+MDICE 51d11+95
+DDICE 4d4+20
+REGEN 0
+DTYPE punch
+AC    -27 -27 -27 -17
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  80
+AMOD  0
+QUEST 0
+End
+
+#4525
+NAME  arial channeler kza'rhee~
+SHORT kza'rhee the channeler~
+LONG  A tall, beautiful avian female stands here in the garb of a mystic.
+~
+DESCR
+~
+RACE  arial~
+ACT   ABGLRVYc
+AFF   DFHJUV
+OFF   FGK
+IMM   AB
+RES   ILQ
+VULN  JR
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 60
+ENHA  100.00%
+MATER none~
+HDICE 123d21+5000
+MDICE 60d11+95
+DDICE 21d2+47
+REGEN 0
+DTYPE magic
+AC    -33 -33 -33 -21
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  50
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#4521
+NAME   book laws~
+SHORT  the Book of Laws~
+DESCR 
+The Book of Laws is here.~
+MAT    paper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   A
+LEVEL  60
+WEIGHT 3
+COST   0
+COND   100
+CABAL  9
+End
+
+#4522
+NAME   donation pit~
+SHORT  the donation pit~
+DESCR 
+A donation pit is here.~
+MAT    stone~
+TYPE   container 1000 0 0 1000 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#4523
+NAME   enforcer tower shield~
+SHORT  an Enforcer's Tower Shield~
+DESCR 
+An Enforcer's Tower Shield is here.~
+MAT    silver~
+TYPE   armor BCEH EFG BCEH ACDEG 0
+EXTRA  1 4 0 131331
+WEAR   AJ
+LEVEL  51
+WEIGHT 39
+COST   0
+COND   100
+Affect O 19 8 0
+Affect O 18 8 0
+Affect O 20 -10 0
+Affect O 13 75 0
+Affect O 12 75 0
+End
+
+#4524
+NAME   enforcer longsword sword~
+SHORT  the Enforcer's Longsword~
+DESCR 
+A massive, silver longsword is here.~
+MAT    silver~
+TYPE   weapon sword 15 4 sflame A
+EXTRA  1 6 0 1611174144
+WEAR   AN
+LEVEL  51
+WEIGHT 16
+COST   0
+COND   100
+Affect O 30 3 0
+Affect O 18 10 0
+Affect O 19 10 0
+LIMIT  2
+End
+
+#4525
+NAME   potion sanc~
+SHORT  a potion of sanctuary~
+DESCR 
+A small white vial is here.~
+MAT    glass~
+TYPE   potion 51 'sanctuary' 'reserved' 'reserved' 'reserved'
+EXTRA  1 3 0 1611137024
+WEAR   A
+LEVEL  51
+WEIGHT 7
+COST   10000
+COND   100
+LIMIT  25
+End
+
+#4526
+NAME   scroll dispel magic~
+SHORT  a scroll of dispel magic~
+DESCR 
+A scroll is here.~
+MAT    paper~
+TYPE   scroll 60 'dispel magic' 'dispel magic' 'reserved' 'reserved'
+EXTRA  1 1 0 524288
+WEAR   A
+LEVEL  51
+WEIGHT 3
+COST   0
+COND   100
+LIMIT  30
+End
+
+#4527
+NAME   potion speed~
+SHORT  a potion of speed~
+DESCR 
+A potion is here.~
+MAT    glass~
+TYPE   potion 35 'haste' 'reserved' 'reserved' 'reserved'
+EXTRA  1 2 0 1610612736
+WEAR   A
+LEVEL  51
+WEIGHT 7
+COST   5000
+COND   100
+LIMIT  25
+End
+
+#4528
+NAME   potion flight~
+SHORT  a potion of flight~
+DESCR 
+A potion of flight is here.~
+MAT    glass~
+TYPE   potion 51 'fly' 'reserved' 'reserved' 'reserved'
+EXTRA  0 0
+WEAR   A
+LEVEL  51
+WEIGHT 7
+COST   1000
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#4521
+NAME   The Entrance~
+DESCR
+You are in a large hallway.  The floor is compleately marble, and on
+several locations, there are beautiful carvings.  The walls and windows are
+decorated with red curtains, swords, and ceramonial shields.  Bright armors
+decorates all exits from the room.  
+~
+FLAGS  5505026
+Sect   0
+DOOR 1
+~
+~
+0 0 651
+DOOR 3
+~
+~
+0 0 4522
+End
+
+#4522
+NAME   Inside the HQ~
+DESCR
+This hall connects to two rooms at north and west.  There is a large
+stairway leading up.  There is a big map of thera drawn on the east wall. 
+There is also a big symbol on the floor, it looks like the symbol of
+Justice, but you can't see if briefly.  
+~
+FLAGS  5505034
+Sect   0
+DOOR 0
+~
+~
+0 0 4524
+DOOR 1
+~
+~
+0 0 4521
+DOOR 3
+~
+~
+0 0 4523
+End
+
+#4523
+NAME   The Room of Laws~
+DESCR
+This place is the room where all Justices' study the laws, and learn how
+to use them.  There is a big big plaque on the north wall, the code of
+Justice.  There is also another big notice, a red curtain with silvery
+letters, the laws.  
+~
+FLAGS  5505034
+Sect   0
+DOOR 1
+~
+~
+0 0 4522
+End
+
+#4524
+NAME   The Chapel~
+DESCR
+You are in the Chapel of Head Quarters.  This place is for those
+defenders of laws, not to heal, and rest but also to pray to their gods, and
+listen their cleric to learn the manners of praying.  The western and
+eastern walls of chapel have shelves enlarging from up to down, and
+hunderets of candles emiting their soft light in to the room.  
+~
+FLAGS  5505034
+Sect   0
+DOOR 2
+~
+~
+0 0 4522
+End
+
+#0
+
+
+
+#SPECIALS
+M 4523 spec_marshall
+M 4524 spec_guard
+M 4525 spec_cast_mage
+S
+
+
+
+#RESETS
+M 0 4523 1 4521 1
+M 0 4525 1 4522 1
+G 0 4525 0
+G 0 4528 0
+G 0 4527 0
+M 0 4521 1 4523 1
+E 0 4524 0 16
+E 0 4524 0 18
+O 0 4522 0 4523
+M 0 4522 1 4524 1
+S
+
+
+
+#SHOPS
+4525 10 26 2 3 0 100 100 0 23
+0
+
+
+
+#IMPROGS
+I 4521 give_prog give_prog_cabal_item
+M 4521 greet_prog greet_prog_inner_guardian
+M 4521 death_prog death_prog_inner_guardian
+M 4521 speech_prog speech_prog_enforcer
+M 4523 greet_prog greet_prog_outer_guardian
+M 4523 death_prog death_prog_outer_guardian
+M 4523 attack_prog attack_prog_outer_guardian
+M 4523 move_prog move_prog_outer_guardian
+E
+
+
+
+#$
