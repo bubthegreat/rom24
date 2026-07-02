@@ -123,3 +123,60 @@ def test_kbk_text_real_data_room_3055_midgaard():
     assert "\033[1;32m" in ansi, "ANSI bold-green expected from {G"
     assert "\033[0m" in ansi, "ANSI reset expected from {x"
     assert "{G" not in ansi and "{x" not in ansi, "No rom tokens in final ANSI output"
+
+
+@pytest.mark.skipif(
+    not (_KBK_AREAS / "knightcastle.are").exists(),
+    reason="run make import-kbk first — KBK area files not found",
+)
+def test_kbk_text_real_data_knightcastle_room_edesc_plaque():
+    """Regression: knightcastle room EDESC "plaque" has {R codes.
+
+    Verifies that room extra_descr (EDESC keyword) is now processed
+    through _kbk_text in load_rooms_new.
+    """
+    area_file = _KBK_AREAS / "knightcastle.are"
+    content = area_file.read_text(encoding="latin-1")
+    # Find EDESC plaque~ followed by text up to closing ~
+    m = re.search(r"EDESC\s+plaque~\s*\n(.*?)^~", content, re.MULTILINE | re.DOTALL)
+    assert m is not None, "Could not find EDESC plaque in knightcastle.are"
+    raw_edesc = m.group(1)
+    assert "{R" in raw_edesc, "Precondition: plaque EDESC must contain {R"
+
+    out = data_loader._kbk_text(raw_edesc)
+    assert "{R" not in out, "rom {R must be converted to pyom [R at load time"
+    assert "[R" in out, "pyom [R token must be present after conversion"
+
+    ansi = miniboa_terminal.color_convert(out, "pyom", "ansi")
+    assert "\033[1;31m" in ansi, "ANSI bold-red expected from {R"
+    assert "{R" not in ansi, "No rom tokens in final ANSI output"
+
+
+@pytest.mark.skipif(
+    not (_KBK_AREAS / "knightcastle.are").exists(),
+    reason="run make import-kbk first — KBK area files not found",
+)
+def test_kbk_text_real_data_knightcastle_object_short_descr():
+    """Regression: knightcastle object short_descr 'Shield of White Roses' has {W codes.
+
+    Verifies that object short_descr (SHORT keyword) is now processed
+    through _kbk_text in load_objects_new.
+    """
+    area_file = _KBK_AREAS / "knightcastle.are"
+    content = area_file.read_text(encoding="latin-1")
+    # Find SHORT entry with 'a Shield of {WWhite{x Roses~'
+    m = re.search(r"SHORT\s+a Shield of \{W[^~]*?~", content)
+    assert m is not None, "Could not find object SHORT 'a Shield of {WWhite{x Roses' in knightcastle.are"
+    # Extract just the descriptive text part
+    m2 = re.search(r"SHORT\s+(.*?)~", m.group(0))
+    assert m2 is not None, "Could not extract SHORT text"
+    raw_short = m2.group(1)
+    assert "{W" in raw_short, "Precondition: Shield SHORT must contain {W"
+
+    out = data_loader._kbk_text(raw_short)
+    assert "{W" not in out, "rom {W must be converted to pyom [W at load time"
+    assert "[W" in out, "pyom [W token must be present after conversion"
+
+    ansi = miniboa_terminal.color_convert(out, "pyom", "ansi")
+    assert "\033[1;37m" in ansi, "ANSI bold-white expected from {W"
+    assert "{W" not in ansi, "No rom tokens in final ANSI output"

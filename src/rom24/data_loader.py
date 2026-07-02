@@ -535,6 +535,7 @@ def load_rooms_new(area: str, pArea) -> str:
                 ed = world_classes.ExtraDescrData()
                 area, ed.keyword = game_utils.read_string(area)
                 area, ed.description = game_utils.read_string(area)
+                ed.description = _kbk_text(ed.description)
                 room.extra_descr.append(ed)
             elif word.startswith("*"):
                 area, _ = game_utils.read_to_eol(area)
@@ -783,6 +784,7 @@ def load_objects_new(area: str, pArea) -> str:
                 area, item.name = game_utils.read_string(area)
             elif kw == "SHORT":
                 area, item.short_descr = game_utils.read_string(area)
+                item.short_descr = _kbk_text(item.short_descr)
             elif kw == "DESCR":
                 area, item.description = game_utils.read_string(area)
                 item.description = _kbk_text(item.description)
@@ -868,6 +870,7 @@ def load_objects_new(area: str, pArea) -> str:
                 ed = world_classes.ExtraDescrData()
                 area, ed.keyword = game_utils.read_string(area)
                 area, ed.description = game_utils.read_string(area)
+                ed.description = _kbk_text(ed.description)
                 item.extra_descr.append(ed)
             else:
                 logger.warning(
