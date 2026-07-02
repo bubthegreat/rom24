@@ -110,3 +110,51 @@ def test_load_npcs_new():
     assert npc.armor == [20, 20, 20, -10]
     assert npc.dam_mod == 120 and npc.quest_credit_reward == 5
     assert npc.cabal == "rager"
+
+
+OBJDATA = """#3010
+NAME sub issue sword~
+SHORT a sub issue sword~
+DESCR A sub issue sword lies here.
+~
+MAT iron~
+TYPE weapon sword 1 8 slash A
+WEAR AN
+Extra 1 2 3 0
+LEVEL 10
+COST 100
+COND 100
+End
+#3011
+NAME leather vest~
+SHORT a leather vest~
+DESCR A leather vest lies here.
+~
+MAT leather~
+TYPE armor 0 0 0 0 0
+WEAR AC
+LEVEL 30
+COST 50
+COND 100
+AFFECT O 13 5 0
+End
+#0
+"""
+
+
+def test_load_objects_new_weapon():
+    read_tables()
+    instance.item_templates.clear()
+    data_loader.load_objects_new(OBJDATA, _make_area())
+    sword = instance.item_templates[3010]
+    assert sword.level == 10
+    assert sword.value[1] == 1 and sword.value[2] == 8
+    assert sword.weight > 0   # derived from material iron
+
+
+def test_load_objects_new_armor_derives_ac():
+    vest = instance.item_templates[3011]
+    # AC_PER_ONE_PERCENT_DECREASE_DAMAGE is -75.0; C math double-negates
+    # (db.c:5059-5068), so derived armor values are POSITIVE protection ints
+    assert vest.value[0] > 0
+    assert vest.affected[0].modifier == 5

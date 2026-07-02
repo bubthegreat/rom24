@@ -124,6 +124,10 @@ class Items(
         self.timer = 0
         self.value = [0] * 5
         self.flags = item_flags.ItemFlags()
+        self.extra_bitmask: list = []
+        self.limtotal: int = 0
+        self.cabal: int = 0
+        self.restrict_flags: int = 0
         if kwargs:
             [setattr(self, k, copy.deepcopy(v)) for k, v in kwargs.items()]
         if template:

@@ -78,6 +78,8 @@ def load_area(area, index):
             area = load_rooms_new(area, area_instance)
         elif w == "#MOBDATA":
             area = load_npcs_new(area, area_instance)
+        elif w == "#OBJDATA":
+            area = load_objects_new(area, area_instance)
         elif w == "#SHOPS":
             area = load_shops(area)
         elif w == "#SOCIALS":
@@ -625,6 +627,186 @@ def load_npcs_new(area: str, pArea) -> str:
             else:
                 logger.warning(
                     "load_npcs_new: vnum %d unknown keyword %s", npc.vnum, word
+                )
+                area, _ = game_utils.read_to_eol(area)
+        area, w = game_utils.read_word(area, False)
+    return area
+
+
+# ---------------------------------------------------------------------------
+# KBK / Tartarus OLC #OBJDATA helpers
+# ---------------------------------------------------------------------------
+
+# Wear-slot → AC cap factor (db.c:4995-5049)
+_AC_CAP_BY_SLOT = [
+    ("finger", 0.667), ("neck", 0.8), ("body", 1.466), ("head", 1.067),
+    ("legs", 0.933), ("feet", 0.933), ("hands", 0.933), ("arms", 1.067),
+    ("shield", 2.50), ("about", 1.067), ("waist", 0.8), ("wrist", 0.8),
+    ("strapped", 0.5),
+]
+
+# Wear-slot → weight recommend factor (db.c:5070-5123)
+_WEIGHT_BY_SLOT = [
+    ("finger", 0.15), ("neck", 0.4), ("body", 1.0), ("head", 0.8),
+    ("legs", 0.85), ("feet", 0.7), ("hands", 0.6), ("arms", 0.8),
+    ("shield", 1.2), ("about", 0.8), ("waist", 0.4), ("wrist", 0.5),
+    ("strapped", 0.7),
+]
+
+# Weapon class → weight recommend factor (db.c:5124-5173)
+_WEIGHT_BY_WEAPON = {
+    "exotic": 0.6, "sword": 0.5, "dagger": 0.2, "spear": 0.65,
+    "mace": 0.7, "axe": 0.7, "flail": 0.6, "whip": 0.4,
+    "polearm": 0.8, "staff": 0.65, "hand": 0.3,
+}
+
+
+def _finalize_kbk_object(item):
+    """Derive armor AC values and weight from material/level/slot (db.c:4993-5173)."""
+    from rom24 import content
+    mat = content.MATERIALS.get(item.material, content.MATERIALS.get("unknown"))
+    slots = item.equips_to
+    if item.item_type == merc.ITEM_ARMOR:
+        cap = 0.0
+        for slot, factor in _AC_CAP_BY_SLOT:
+            if slot in slots:
+                cap = factor
+        hero2 = 1.5 * content.LEVEL_HERO * content.LEVEL_HERO
+        for i, prot in enumerate(("prot_pierce", "prot_bash", "prot_slash", "prot_magic")):
+            slope = cap * (content.AC_PER_ONE_PERCENT_DECREASE_DAMAGE * mat[prot] / 100.0) / hero2
+            item.value[i] = int(-1 * slope * item.level * item.level)
+    recommend = 0.3
+    for slot, factor in _WEIGHT_BY_SLOT:
+        if slot in slots:
+            recommend = factor
+    if item.item_type == merc.ITEM_WEAPON:
+        recommend = _WEIGHT_BY_WEAPON.get(item.value[0], 0.3)
+    item.weight = int(recommend * (mat["relative_weight"] / 100.0) * content.WEIGHT_STANDARD)
+
+
+def load_objects_new(area: str, pArea) -> str:
+    """Parse a #OBJDATA section (KBK / Tartarus OLC format)."""
+    area, w = game_utils.read_word(area, False)
+    while w != "#0":
+        flag_data = collections.namedtuple(
+            "item_flags", ("slots", "restrictions", "attributes", "weapon")
+        )
+        flag_data.slots = set({})
+        flag_data.restrictions = set({})
+        flag_data.weapon = set({})
+        flag_data.attributes = set({})
+        item = handler_item.Items(None)
+        item.vnum = int(w[1:])
+        instance.item_templates[item.vnum] = item
+        item.area = pArea.name
+        item.condition = 100
+        item.extra_bitmask = []
+        while True:
+            area, word = game_utils.read_word(area, False)
+            if not word:
+                break
+            kw = word.upper()
+            if kw == "END":
+                item.equips_to = flag_data.slots
+                item.item_restrictions = flag_data.restrictions
+                item.item_attributes = flag_data.attributes
+                _finalize_kbk_object(item)
+                break
+            elif word[0] == "*":
+                area, _ = game_utils.read_to_eol(area)
+            elif kw == "NAME":
+                area, item.name = game_utils.read_string(area)
+            elif kw == "SHORT":
+                area, item.short_descr = game_utils.read_string(area)
+            elif kw == "DESCR":
+                area, item.description = game_utils.read_string(area)
+                item.description = miniboa_terminal.escape(item.description, "pyom")
+            elif kw == "MAT":
+                area, item.material = game_utils.read_string(area)
+            elif kw == "TYPE":
+                area, item.item_type = game_utils.read_word(area, False)
+                if item.item_type == merc.ITEM_WEAPON:
+                    area, item.value[0] = game_utils.read_word(area, False)
+                    area, item.value[1] = game_utils.read_int(area)
+                    area, item.value[2] = game_utils.read_int(area)
+                    area, item.value[3] = game_utils.read_word(area, False)
+                    item.value[3] = state_checks.name_lookup(const.attack_table, item.value[3])
+                    area, item.value[4] = game_utils.read_flags(area)
+                    game_utils.item_flags_from_bits(item.value[4], flag_data, "weapon flags")
+                    item.weapon_attributes = flag_data.weapon
+                elif item.item_type == merc.ITEM_CONTAINER:
+                    area, item.value[0] = game_utils.read_int(area)
+                    area, item.value[1] = game_utils.read_flags(area)
+                    area, item.value[2] = game_utils.read_int(area)
+                    area, item.value[3] = game_utils.read_int(area)
+                    area, item.value[4] = game_utils.read_int(area)
+                elif item.item_type in (merc.ITEM_DRINK_CON, merc.ITEM_FOUNTAIN):
+                    area, item.value[0] = game_utils.read_int(area)
+                    area, item.value[1] = game_utils.read_int(area)
+                    area, item.value[2] = game_utils.read_word(area, False)
+                    area, item.value[3] = game_utils.read_int(area)
+                    area, item.value[4] = game_utils.read_int(area)
+                elif item.item_type in (merc.ITEM_WAND, merc.ITEM_STAFF):
+                    area, item.value[0] = game_utils.read_int(area)
+                    area, item.value[1] = game_utils.read_int(area)
+                    area, item.value[2] = game_utils.read_int(area)
+                    area, item.value[3] = game_utils.read_word(area, False)
+                    area, item.value[4] = game_utils.read_int(area)
+                elif item.item_type in (merc.ITEM_POTION, merc.ITEM_SCROLL, merc.ITEM_PILL):
+                    area, item.value[0] = game_utils.read_int(area)
+                    area, item.value[1] = game_utils.read_word(area, False)
+                    area, item.value[2] = game_utils.read_word(area, False)
+                    area, item.value[3] = game_utils.read_word(area, False)
+                    area, item.value[4] = game_utils.read_word(area, False)
+                else:
+                    for i in range(5):
+                        area, item.value[i] = game_utils.read_flags(area)
+            elif kw == "WEAR":
+                area, wear_bits = game_utils.read_flags(area)
+                game_utils.item_flags_from_bits(wear_bits, flag_data, "wear flags")
+            elif kw == "EXTRA":
+                area, masks = game_utils.read_int(area)
+                area, bits = game_utils.read_int(area)
+                for _ in range(masks):
+                    area, bset = game_utils.read_int(area)
+                    area, tar_mask = game_utils.read_int(area)
+                    item.extra_bitmask.append((bset, tar_mask))
+            elif kw == "LEVEL":
+                area, item.level = game_utils.read_int(area)
+            elif kw == "COST":
+                area, item.cost = game_utils.read_int(area)
+            elif kw == "COND":
+                area, item.condition = game_utils.read_int(area)
+            elif kw == "WEIGHT":
+                area, item.weight = game_utils.read_int(area)
+            elif kw == "LIMIT":
+                area, item.limtotal = game_utils.read_int(area)
+            elif kw == "CABAL":
+                area, item.cabal = game_utils.read_int(area)
+            elif kw == "RESTR":
+                area, item.restrict_flags = game_utils.read_flags(area)
+            elif kw == "AFFECT":
+                paf = handler_game.AFFECT_DATA()
+                area, where = game_utils.read_word(area, False)
+                paf.where = {
+                    "a": merc.TO_AFFECTS, "i": merc.TO_IMMUNE, "r": merc.TO_RESIST,
+                    "v": merc.TO_VULN, "o": merc.TO_OBJECT,
+                }.get(where, merc.TO_OBJECT)
+                paf.type = -1
+                paf.level = item.level
+                paf.duration = -1
+                area, paf.location = game_utils.read_int(area)
+                area, paf.modifier = game_utils.read_int(area)
+                area, paf.bitvector = game_utils.read_flags(area)
+                item.affected += [paf]
+            elif kw == "EDESC":
+                ed = world_classes.ExtraDescrData()
+                area, ed.keyword = game_utils.read_string(area)
+                area, ed.description = game_utils.read_string(area)
+                item.extra_descr.append(ed)
+            else:
+                logger.warning(
+                    "load_objects_new: vnum %d unknown keyword %s", item.vnum, word
                 )
                 area, _ = game_utils.read_to_eol(area)
         area, w = game_utils.read_word(area, False)
