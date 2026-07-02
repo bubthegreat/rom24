@@ -47,6 +47,7 @@ def load_area(area, index):
 
     area, w = game_utils.read_word(area, False)
     pArea = None
+    area_instance = None
     while area:
         if w == "#AREA":
             pArea = world_classes.Area(None)
@@ -73,6 +74,8 @@ def load_area(area, index):
             area = load_resets(area, area_instance)
         elif w == "#ROOMS":
             area = load_rooms(area, area_instance)
+        elif w == "#ROOMDATA":
+            area = load_rooms_new(area, area_instance)
         elif w == "#SHOPS":
             area = load_shops(area)
         elif w == "#SOCIALS":
@@ -435,6 +438,61 @@ def load_rooms(area, pArea):
         # Create our instances
         room_instance = object_creator.create_room(room)
         room_instance.environment = pArea.instance_id
+    return area
+
+
+def load_rooms_new(area: str, pArea) -> str:
+    area, w = game_utils.read_word(area, False)
+    while w != "#0":
+        room = handler_room.Room(None)
+        room.vnum = int(w[1:])
+        if room.vnum in instance.room_templates:
+            logger.error("load_rooms_new: duplicate room vnum %d", room.vnum)
+        instance.room_templates[room.vnum] = room
+        room.area = pArea.name
+        room.heal_rate = 100
+        room.mana_rate = 100
+        while True:
+            area, word = game_utils.read_word(area, False)
+            if word == "End":
+                break
+            elif word == "NAME":
+                area, room.name = game_utils.read_string(area)
+            elif word == "DESCR":
+                area, room.description = game_utils.read_string(area)
+                room.description = miniboa_terminal.escape(room.description, "pyom")
+            elif word == "FLAGS":
+                area, room.room_flags = game_utils.read_flags(area)
+            elif word in ("SECT", "Sect"):
+                area, room.sector_type = game_utils.read_int(area)
+            elif word == "MHRATE":
+                area, room.mana_rate = game_utils.read_int(area)
+                area, room.heal_rate = game_utils.read_int(area)
+            elif word == "CABAL":
+                area, room.cabal = game_utils.read_word(area, False)
+            elif word == "DOOR":
+                nexit = world_classes.Exit(None)
+                area, door = game_utils.read_int(area)
+                area, nexit.description = game_utils.read_string(area)
+                area, nexit.keyword = game_utils.read_string(area)
+                area = nexit.exit_info.read_bits(area)
+                area, nexit.key = game_utils.read_int(area)
+                area, nexit.to_room_vnum = game_utils.read_int(area)
+                nexit.name = "Exit %s %d to %d" % (nexit.keyword, room.vnum, nexit.to_room_vnum)
+                room.exit[door] = nexit
+            elif word == "EDESC":
+                ed = world_classes.ExtraDescrData()
+                area, ed.keyword = game_utils.read_string(area)
+                area, ed.description = game_utils.read_string(area)
+                room.extra_descr.append(ed)
+            elif word.startswith("*"):
+                area, _ = game_utils.read_to_eol(area)
+            else:
+                logger.warning("load_rooms_new: vnum %d unknown keyword %s", room.vnum, word)
+                area, _ = game_utils.read_to_eol(area)
+        room_instance = object_creator.create_room(room)
+        room_instance.environment = pArea.instance_id
+        area, w = game_utils.read_word(area, False)
     return area
 
 
