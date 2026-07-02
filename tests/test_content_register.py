@@ -19,6 +19,8 @@ def test_register_populates_engine_registries():
     assert ab.skill_level["channeler"] == 53
     banshee = const.skill_table["banshee call"]
     assert banshee.spell_fun is None          # unimplemented -> stub
+    # spell_fun fallback to skill name works (C fun 'invis' vs skill 'invisibility')
+    assert callable(const.skill_table["invisibility"].spell_fun)
     # a stock-only spell not in KBK's table is gone from the registry
     assert "floating disc" not in const.skill_table
     # groups: whitespace-collapsed reference resolvable

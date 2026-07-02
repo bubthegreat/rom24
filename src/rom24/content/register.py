@@ -33,7 +33,7 @@ def register():
     for name, s in content.SKILLS.items():
         const.skill_table[name] = const.skill_type(
             name=s["name"], skill_level=s["skill_level"], rating=s["rating"],
-            spell_fun=stock_funs.get(s["spell_fun"]) if s["spell_fun"] else None,
+            spell_fun=(stock_funs.get(s["spell_fun"]) or stock_funs.get(name)) if s["spell_fun"] else None,
             target=s["target"], minimum_position=s["minimum_position"],
             pgsn=s["pgsn"], slot=s["slot"], min_mana=s["min_mana"], beats=s["beats"],
             noun_damage=s["noun_damage"], msg_off=s["msg_off"], msg_obj=s["msg_obj"],
