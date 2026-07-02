@@ -112,13 +112,13 @@ def emit_races(race_entries, pc_entries, r, class_order):
             "who_name": r.value(e[1]).strip() if len(e) > 1 else "",
             "align": r.num(e[2]) if len(e) > 2 else 0,
             "xpadd": r.num(e[3]) if len(e) > 3 else 0,
-            "skills": [r.value(s) for s in e[4] if len(e) > 4 and r.value(s)],
-            "classes": {class_order[i]: bool(r.num(v))
-                        for i, v in enumerate(e[5]) if len(e) > 5 and i < len(class_order)},
-            "stats": [r.num(v) for v in e[6]] if len(e) > 6 else [],
-            "max_stats": [r.num(v) for v in e[7]] if len(e) > 7 else [],
+            "skills": [r.value(s) for s in (e[4] if len(e) > 4 else []) if r.value(s)],
+            "classes": {cls: bool(r.num(e[5][i])) if len(e) > 5 and i < len(e[5]) else False
+                        for i, cls in enumerate(class_order)},
+            "stats": [r.num(v) for v in (e[6] if len(e) > 6 else [])] if len(e) > 6 else [],
+            "max_stats": [r.num(v) for v in (e[7] if len(e) > 7 else [])] if len(e) > 7 else [],
             "size": r.num(e[8]) if len(e) > 8 else 0,
-            "set_race": r.value(e[9]) if len(e) > 9 else "",
+            "set_race": r.value(e[9]) if len(e) > 9 else False,
         }
     return HEADER + _fmt("RACES", races) + _fmt("PC_RACES", pc_races)
 
@@ -136,8 +136,7 @@ def emit_materials(text: str) -> str:
         name, rest = line.split("~", 1)
         name = name.strip()
         nums = [int(x) for x in rest.split()[:5]]
-        materials[name] = dict(zip(
-            ("prot_pierce", "prot_bash", "prot_slash", "prot_magic", "relative_weight"),
-            nums))
-        materials[name]["name"] = name
+        materials[name] = {"name": name,
+                           **dict(zip(("prot_pierce", "prot_bash", "prot_slash",
+                                       "prot_magic", "relative_weight"), nums))}
     return HEADER + _fmt("MATERIALS", materials)

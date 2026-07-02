@@ -33,6 +33,7 @@ def test_emit_races():
         Resolver(DEFS), ORDER)
     ns = {}
     exec(src, ns)
+    assert "null" in ns["RACES"]
     assert ns["RACES"]["dwarf"]["res"] == 256 | 512
     assert "null" not in ns["PC_RACES"] and "null race" not in ns["PC_RACES"]
     d = ns["PC_RACES"]["dwarf"]
@@ -45,3 +46,27 @@ def test_emit_materials():
     exec(emit.emit_materials(MATERIALS), ns)
     assert ns["MATERIALS"]["iron"]["relative_weight"] == 130
     assert ns["MATERIALS"]["plastic"]["prot_magic"] == 100
+
+
+def test_emit_races_tolerates_truncated_pc_entries():
+    c = '''
+const struct race_type race_table[] =
+{
+    {"stub", TRUE, 0, 0, 0, 0, 0, 0, 0, 0},
+};
+const struct pc_race_type pc_race_table[] =
+{
+    {"stub", "Stub", 0, 0},
+};
+'''
+    src = emit.emit_races(
+        cparse.parse_braces(cparse.extract_initializer(c, "race_table")),
+        cparse.parse_braces(cparse.extract_initializer(c, "pc_race_table")),
+        Resolver(DEFS), ORDER)
+    ns = {}
+    exec(src, ns)
+    s = ns["PC_RACES"]["stub"]
+    assert s["skills"] == []
+    assert s["classes"] == {cls: False for cls in ORDER}
+    assert s["stats"] == [] and s["max_stats"] == []
+    assert s["size"] == 0 and s["set_race"] is False
