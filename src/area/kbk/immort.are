@@ -1,0 +1,1538 @@
+#AREADATA
+Name Valhalla~
+Builders None~
+VNUMs 1200 1299
+Credits {51 60} ROM     Immortal Zone~
+Security 1
+Xplore 1
+End
+
+
+
+#MOBDATA
+#1200
+NAME  nightwalker~
+SHORT a nightwalker~
+LONG  A shadowy nightwalker lurks here, encircling its master.
+~
+DESCR
+An undead, ethereal-like being is here, emitting rays of black light.  It
+paces back and forth, awaiting a signal from its summoner.  
+~
+RACE  lich~
+ACT   AIOV
+AFF   0
+OFF   CK
+IMM   ABLMOPQa
+RES   0
+VULN  HKN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+1000
+MDICE 0d0+0
+DDICE 7d7+20
+REGEN 0
+DTYPE infinite
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  80
+AMOD  0
+QUEST 0
+End
+
+#1201
+NAME  WeaponHolder the Mighty~
+SHORT WeaponHolder the Mighty~
+LONG  WeaponHolder the Mighty..umm..holds a weapon here.
+~
+DESCR
+Some poor sap is here, hanging onto a weapon, for some dude..
+~
+RACE  human~
+ACT   A
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1000
+MDICE 1d1+1000
+DDICE 1d1+10
+REGEN 0
+DTYPE punch
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#1202
+NAME  cervantes~
+SHORT cervantes~
+LONG  (no long description)
+~
+DESCR
+~
+RACE  human~
+ACT   A
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 0d0+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE none
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  0
+AMOD  0
+QUEST 0
+End
+
+#1207
+NAME  Huge Oak Tree~
+SHORT A massive Oak Tree stands in the center of the Glade~
+LONG  A Massive Oak Tree stands in the center of the Glade
+~
+DESCR
+The Tree stands in the center of the glade making everything around it
+seem tiny.  It's branches sway in the wind making beautifull masic with it's
+branches.  It's age could not be counted if you had all the time in the
+world for this tree is as old as the world itself.  
+~
+RACE  angel~
+ACT   Aa
+AFF   0
+OFF   ACDEFGHIJKMNOQ
+IMM   ACDEFGHIJKMNOQRTXYZ
+RES   0
+VULN  HKMN
+WSPEC 0
+ALIGN 1000
+GROUP 12
+LEVEL 70
+HROLL 1000
+ENHA  100.00%
+MATER none~
+HDICE 5000d50+30000
+MDICE 100d100+1000
+DDICE 500d50+300
+REGEN 0
+DTYPE nature
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#1210
+NAME  guardian newbie lone man~
+SHORT A Lone Guardian Of Newbies Stands Here With His Trophies~
+LONG  A Lone Guardian Of Newbies Stands Here With His Trophies
+~
+DESCR
+~
+RACE  human~
+ACT   ABG
+AFF   0
+OFF   FHK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 10
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+10
+MDICE 10d10+10
+DDICE 0d0+0
+REGEN 0
+DTYPE none
+AC    0 0 0 0
+POS   rest rest
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#1201
+NAME   Bushes gateway portal~
+SHORT  a few bushes are bunched together making a sort of gateway through the leaves~
+DESCR 
+A few bushes are bunched together making a sort of gateway through the leaves~
+MAT    plant~
+TYPE   portal 0 0 0 B 0
+EXTRA  1 1 0 64
+WEAR   P
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#1202
+NAME   Penis Severed~
+SHORT  a Severed Penis~
+DESCR 
+A Severed Penis~
+MAT    unknown~
+TYPE   weapon mace 5 9 beating BCDH
+EXTRA  1 5 0 36995
+WEAR   AN
+LEVEL  0
+WEIGHT 20
+COST   0
+COND   100
+End
+
+#1203
+NAME   flail breaker flesh~
+SHORT  a flail made of elven flesh and skulls named, 'Will Breaker'~
+DESCR 
+A flail for a master drows hand sprawls across the floor here.~
+MAT    iron~
+TYPE   weapon flail 7 7 darkwrath HM
+EXTRA  1 5 0 6788
+WEAR   ANP
+LEVEL  52
+WEIGHT 19
+COST   0
+COND   100
+Affect R 0 -1 P
+Affect O 19 7 0
+Affect O 13 50 0
+Affect O 12 50 0
+LIMIT  1
+RESTR  Eb
+End
+
+#1204
+NAME   sword blade~
+SHORT  a wicked serrated blade~
+DESCR 
+A wicked, serrated blade has been left here.~
+MAT    energy~
+TYPE   weapon sword 12 12 chaotic ABCDEGH
+EXTRA  1 4 0 262179
+WEAR   AN
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+Affect O 28 -25 0
+Affect O 18 50 0
+Affect O 19 50 0
+End
+
+#1205
+NAME   Newbie Guide~
+SHORT  the Guide to Pos Domination~
+DESCR 
+A book with all the answers calls out to you here.~
+MAT    paper~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 3
+COST   10
+COND   100
+EDESC pagetwo~
+2. Training and getting the lay of the land.
+ 
+From market square in Midgaard, go one south, and three east to the sailor. It is here
+you can train your health points or mana, or other stats. Simply type TRAIN there to see
+how many training sessions you have and what you are able to spend them on. To Train them
+type Train hp..or train mana..etc to improve your stats. Once you are out of trains that
+is it..no more. If you have spare practices you can gain convert them. 10 pracs=one train
+here. Be careful of spending your practice sessions though, you might need them further
+down the road with cabal skills and the like. So you have armor and weapon and are trained.
+If you wish to spend your three hours as a protected newbie practicing your skills in
+a safe place, three west and three south, and one east of the market square in Midgaard
+would be the place to start. This is only able to be accessed by newbies, and the dummy
+does not hit that hard, so you will be able to practice parry, dodge..etc in relative
+safety. It's also a good place to learn what your skills *actually* do, if you have any
+questions on what a certain skill/spell/supplication does try looking to our helpfiles
+for an answer. For instance..typing HELP shield will bring up all related topics to 
+shields..helpful for newbie paladins. Onward you go! Doing well so far right? 
+~
+EDESC pageone~
+Welcome to the secret book of total POS domination. Count yourself lucky, people have 
+killed for this information. Now read on and learn all you need to know.
+ 
+Getting Started:
+ 
+1. Right when you create, your should first type Outfit. This will give you a basic set
+of armor to get started. Buying simple newbie weapons, one south and up of the altar in
+Mid should be your next stop. At the merchant, type LIST to show his wares..then simply
+type BUY Dagger..etc..whichever weapon you wish, or purchase all of them if you want.
+Congrats, you now have armor and weapons. Next type PRAC ALL, to practice all your skills,
+spells, or sups to 75%. You are now ready to get on with the training. Look at pagetwo.
+~
+EDESC guide~
+A bound book hums with untold wisdom..perhaps looking through these pages will get you
+on your way in these terrible lands. Looking at PageOne seems a good idea.
+~
+End
+
+#1210
+NAME   newbie breastplate~
+SHORT  a rusted newbie breastplate~
+DESCR 
+A rusty newbie breastplate lies here.~
+MAT    iron~
+TYPE   armor BCDEF EF CG BF 0
+EXTRA  1 3 0 17858560
+WEAR   AD
+LEVEL  45
+WEIGHT 33
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 2 0
+End
+
+#1211
+NAME   newbie armguards~
+SHORT  a pair of steel newbie armguards~
+DESCR 
+A pair of steel newbie armguards lie here.~
+MAT    iron~
+TYPE   armor ACDF ABF AEF DE 0
+EXTRA  1 2 0 1081344
+WEAR   AI
+LEVEL  45
+WEIGHT 26
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 2 0
+End
+
+#1212
+NAME   newbie gauntlets~
+SHORT  a pair of newbie gauntlets~
+DESCR 
+A pair of newbie gauntlets lie here.~
+MAT    iron~
+TYPE   armor ABCF BCDE ABDF ACE 0
+EXTRA  1 2 0 1081344
+WEAR   AH
+LEVEL  45
+WEIGHT 19
+COST   0
+COND   100
+Affect O 19 2 0
+End
+
+#1213
+NAME   Newbie Necklace~
+SHORT  a dusty newbie necklace~
+DESCR 
+A newbie necklace lies here, covered in dust.~
+MAT    gem~
+TYPE   armor DE ACF ABCDE CDE 0
+EXTRA  1 3 0 1081345
+WEAR   AC
+LEVEL  45
+WEIGHT 8
+COST   0
+COND   100
+Affect O 18 1 0
+Affect O 19 1 0
+Affect O 24 -3 0
+Affect O 12 10 0
+Affect O 13 5 0
+End
+
+#1214
+NAME   Newbie Ring~
+SHORT  a newbie ring set with a dull stone~
+DESCR 
+A dull newbie ring has been left here.~
+MAT    mineral~
+TYPE   armor CE CF ABCE DE 0
+EXTRA  1 3 0 1081345
+WEAR   AB
+LEVEL  45
+WEIGHT 4
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 2 0
+End
+
+#1215
+NAME   Newbie Bracer~
+SHORT  a charred newbie bracer~
+DESCR 
+A charred newbie bracer lies here.~
+MAT    cloth~
+TYPE   armor CE BDE CE ACF 0
+EXTRA  1 2 0 1081344
+WEAR   AM
+LEVEL  45
+WEIGHT 4
+COST   0
+COND   100
+Affect O 19 2 0
+Affect O 24 -1 0
+Affect O 18 1 0
+End
+
+#1216
+NAME   Newbie Belt~
+SHORT  an embroidered newbie belt~
+DESCR 
+An embroidered newbie belt has been left here.~
+MAT    leather~
+TYPE   armor ACE ACF ABCE DE 0
+EXTRA  1 3 0 1081345
+WEAR   AL
+LEVEL  45
+WEIGHT 7
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 2 0
+End
+
+#1217
+NAME   Newbie Leggings~
+SHORT  a pair of cloth newbie leggings~
+DESCR 
+A pair of cloth newbie leggings lie on the ground.~
+MAT    cloth~
+TYPE   armor ABCE BCDE ABCE ABDF 0
+EXTRA  1 2 0 1081344
+WEAR   AF
+LEVEL  45
+WEIGHT 7
+COST   0
+COND   100
+Affect O 18 2 0
+Affect O 19 2 0
+End
+
+#1218
+NAME   Newbie Boots~
+SHORT  a pair of tarnished newbie boots~
+DESCR 
+A pair of tarnished newbie boots lie here, damaged.~
+MAT    iron~
+TYPE   armor ABCF BCDE ABDF ACE 0
+EXTRA  1 2 0 1081344
+WEAR   AG
+LEVEL  45
+WEIGHT 23
+COST   0
+COND   100
+Affect O 19 2 0
+End
+
+#1219
+NAME   newbie head pole~
+SHORT  an unbalanced newbie pole~
+DESCR 
+An unbalanced newbie pole has been abandoned here.~
+MAT    iron~
+TYPE   light 0 0 ABCFGHIJ 0 0
+EXTRA  1 3 0 1081345
+WEAR   AO
+LEVEL  45
+WEIGHT 9
+COST   0
+COND   100
+Affect O 20 -10 0
+Affect O 12 30 0
+Affect O 13 30 0
+EDESC eyes~
+Two sunken eyes stare at you, lifelessly yet still eminating enough light
+to keep your surroundings visible.
+~
+End
+
+#1220
+NAME   Newbie Shield~
+SHORT  a polished newbie shield~
+DESCR 
+A polished newbie shield has been left here.~
+MAT    steel~
+TYPE   armor CEFG ACDG CEFG DG 0
+EXTRA  1 2 0 1081344
+WEAR   AJ
+LEVEL  45
+WEIGHT 41
+COST   0
+COND   100
+Affect O 18 3 0
+Affect O 19 3 0
+End
+
+#1221
+NAME   Newbie Backpack~
+SHORT  a leather newbie backpack~
+DESCR 
+A leather newbie backpack lies on the ground.~
+MAT    unknown~
+TYPE   container 100 0 0 50 100
+EXTRA  1 1 0 16777216
+WEAR   AK
+LEVEL  0
+WEIGHT 24
+COST   0
+COND   100
+End
+
+#1222
+NAME   Newbie Map~
+SHORT  a newbie map written on parchment~
+DESCR 
+A newbie map lies here.~
+MAT    unknown~
+TYPE   map 0 0 0 0 0
+EXTRA  1 3 0 17858560
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+EDESC map~
+To Practice: n,w,n,w 
+To Train: s,3e,s 
+Strange Mansion: 21e,8n,w,n 
+Riven Rock Canyon: 12e,3n,w,2n,e,n,e,2n,e,2n 
+Strange Carnival: s,2e,2s,8w,s,w,2e,7n 
+ Nightfall: 3e,4n,2w,7n,6e,4s,3e,d,s,d,2s,e,3s,e,2s,2e,2s,e,2s,2e,2s,3e,2s,u,2e,2n,e,n,e,4u,2e,  2d,e 
+Nightfall Keep: 
+3e,4n,2w,7n,6e,4s,3e,d,s,d,2s,e,3s,e,2s,2e,2s,e,2s,2e,2s,3e,2s,u,2e,2n,e,n, 
+4u,2e,2d,10e,s,2e,3u,e,3d,2e,s 
+ Ramadhn: 6e,n,w,2n,3w,7n,3e,17n
+ Dark Forest: 3e,4n,2w,13n 
+The Valley Inn: 4e,3n,2w 
+Lich Tower: n,d 
+The Hobo Train Yard: 4e,3n,2w,5n,w,2n,2e 
+ Mausoleum: 40e,n,6e,2n,2e,n,e,d,2s 
+Tar Valon: 6e,n,w,2n,3w 
+The Lost Prison: 21e,12n 
+ Battlefield: 3e,4n,2w,4n,w,5n,2w 
+Southern Swamps: 40e,n,6e, all south 
+Castle of Giants: 6e,4s,2e,s,2e,d,5n,2w,6n 
+Emerald Forest: 6s,w,s,2w,2s,e,s,w,2s,e,3s,w,s,w,u 
+Varggin Shih: n,d,3w,3s,d,2s,d,n,u,w,u,n,u,2n,e,d,n,d,2n
+~
+End
+
+#1223
+NAME   Newbie Gold~
+SHORT  a newbie stash~
+DESCR 
+A Small Stash of Newbie Gold~
+MAT    unknown~
+TYPE   money EIJKN 0 0 0 0
+EXTRA  1 1 0 1
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#1224
+NAME   Chicken~
+SHORT  a bucket of Col. Ormthrak's Fried Chicken~
+DESCR 
+A bucket of extra fattening fried chicken sizzles in a bucket here.~
+MAT    food~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 50335872
+WEAR   A
+LEVEL  60
+WEIGHT 4
+COST   250
+COND   100
+Affect O 4 -15 0
+Affect O 3 -15 0
+End
+
+#1225
+NAME   potion return~
+SHORT  a potion of return~
+DESCR 
+A potion of return is here.~
+MAT    magic~
+TYPE   potion 60 'word of recall' 'reserved' 'reserved' 'reserved'
+EXTRA  1 1 0 1
+WEAR   A
+LEVEL  51
+WEIGHT 1
+COST   400
+COND   100
+End
+
+#1226
+NAME   twin bladed battle axe conquer~
+SHORT  a twin-bladed battle axe named 'Conquer'~
+DESCR 
+Nurlidge's leader weapon is here, which is now Ormthrak's.~
+MAT    iron~
+TYPE   weapon axe 5 12 darkwrath E
+EXTRA  1 4 0 786437
+WEAR   AN
+LEVEL  60
+WEIGHT 23
+COST   15000
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+Affect O 20 -10 0
+Affect A 0 -1 H
+LIMIT  2
+End
+
+#1227
+NAME   tracerah dissolution claymore~
+SHORT  a flaming black claymore named 'Dissolution'~
+DESCR 
+Tracrah's sword is here.~
+MAT    energy~
+TYPE   weapon sword 15 15 light ABCDEGH
+EXTRA  1 7 0 840705
+WEAR   AN
+LEVEL  60
+WEIGHT 9
+COST   5000
+COND   100
+Affect O 18 100 0
+Affect O 19 300 0
+End
+
+#1228
+NAME   ivory flute~
+SHORT  a flute of the purest ivory~
+DESCR 
+A flute of the purest ivory has been left here.~
+MAT    mineral~
+TYPE   instrument 0 0 0 0 0
+EXTRA  1 2 0 32769
+WEAR   AO
+LEVEL  0
+WEIGHT 8
+COST   5000
+COND   100
+End
+
+#1229
+NAME   potion detect invis~
+SHORT  a potion of detect invis~
+DESCR 
+A green potion has been left here.~
+MAT    liquid~
+TYPE   potion 50 'detect invis' 'reserved' 'reserved' 'reserved'
+EXTRA  0 0
+WEAR   A
+LEVEL  51
+WEIGHT 2
+COST   5000
+COND   100
+End
+
+#1230
+NAME   battle hammer mace defender~
+SHORT  a rune-covered battle hammer named 'Defender'~
+DESCR 
+A flawless, rune-covered battle hammer lies here.~
+MAT    mithril~
+TYPE   weapon mace 9 6 wrath H
+EXTRA  1 3 0 786434
+WEAR   AN
+LEVEL  60
+WEIGHT 23
+COST   5000
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+Affect O 20 -10 0
+LIMIT  1
+RESTR  X
+End
+
+#1231
+NAME   scroll scrolls~
+SHORT  the Scrolls of Acumen~
+DESCR 
+A pair of carefully bound scrolls lay here.~
+MAT    paper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 269516800
+WEAR   AO
+LEVEL  60
+WEIGHT 3
+COST   0
+COND   100
+LIMIT  1
+End
+
+#1233
+NAME   sword~
+SHORT  a leader sword of d00m~
+DESCR 
+A leader sword is here.~
+MAT    iron~
+TYPE   weapon sword 15 5 slash AM
+EXTRA  1 3 0 786433
+WEAR   AN
+LEVEL  51
+WEIGHT 16
+COST   0
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+LIMIT  1
+RESTR  X
+End
+
+#0
+
+
+
+#ROOMDATA
+#1200
+NAME   The Chat Room~
+DESCR
+You are lounging in a quiet cosy parlour, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  This is one of the many rooms
+where the heroes and gods come to socialize.  It is by far one of the most
+comfortable! 
+~
+FLAGS  66056
+Sect   0
+DOOR 2
+Asgard lies to the south.
+~
+~
+0 -1 1213
+End
+
+#1201
+NAME   Ormthrak's Booze Den~
+DESCR
+An utter mess of a room, this place suggests it was once a fine chamber for only the
+wealthiest to enjoy. All the luxuries are here, a fireplace that now burns human skulls,
+a once fine chandelier that is nothing more than shattered glass and entrails hangs from
+the ceiling. The floor is coated with shards of broken bottles of ale and written in
+an odd yellow paste are the words, " He who makes a beast of himself gets rid of the pain
+of being a man" are spattered against the southern most wall of this hellhole.
+~
+FLAGS  10067978
+Sect   5
+EDESC  bell~
+Ring the bell for total wench service.
+~
+DOOR 0
+Asgard lies to the north.
+~
+~
+0 -1 1213
+End
+
+#1202
+NAME   The Center of the Universe~
+DESCR
+You are at the centre of the universe, everything is filled with bright
+light in all colors. You feel time and space no longer exist here.
+Exits fill the room in all 42 dimensions, leading everywhere.
+~
+FLAGS  66056
+Sect   0
+DOOR 1
+Asgard lies to the east.
+~
+~
+0 -1 1213
+End
+
+#1203
+NAME   Valhalla~
+DESCR
+This is the huge Hall of Valhalla, where the Gods rule supreme.  The
+cavernous building stretches infinitely in all directions.  Valhalla 
+continues to the east, and the gods make their homes north and south of
+the halls.  The golden gates are to the west.  You know not what lies 
+upward...
+~
+FLAGS  32776
+Sect   0
+DOOR 0
+Alander's workroom is to the north.
+~
+door~
+AB -1 1209
+DOOR 1
+Valhalla continues east.
+~
+~
+0 -1 1217
+DOOR 2
+A sea cave is south of here.
+~
+door~
+AB -1 1208
+DOOR 3
+The entrance to Valhalla is to the west.
+~
+~
+0 -1 1216
+DOOR 4
+If you want to know what is up there, you shall have to go look...
+~
+~
+0 -1 1
+End
+
+#1204
+NAME   Priscilla's Pleasure Palace ~
+DESCR
+As you look around you, you see the largest collection of erotic toys
+in the world!!!  On a table in the middle of the room lies a book titled :
+"All You Ever Wanted to Know About Sex..But Were Afraid to Ask"
+There are things here that you never even imagined in your wildest dreams!
+~
+FLAGS  33288
+Sect   0
+DOOR 0
+Valhalla is to the north.
+~
+door~
+AB -1 1218
+End
+
+#1205
+NAME   The Eye of the Hurricane~
+DESCR
+The shrieking winds of a monstrous storm surround you, spinning you around
+in an endless web of fury. But then, in the middle of turmoil, you find a
+strange calm. You find yourself hovering in the calm eye of a hurricane. All
+around you you can see the desruction caused by the powerful storm. White
+hot flashes of lightning flicker from the depths of the hurricane.  But
+everything is strangely peaceful in here, with the sun shining in from above
+and a flock of birds winging across the sky.  You stretch out and relax, this
+storm is going to be here a while.
+~
+FLAGS  25100
+Sect   9
+End
+
+#1206
+NAME   The Chamber of Holiness~
+DESCR
+In each of the cardinal directions a column of marble inlaid with gold
+supports the ceiling All around you the light bounces from one object to
+another giving the chamber a golden hue and preventing darkness from ever
+entering the chamber.  The small window carved into the eastern wall gives
+you a remarkable view of the rest of Valhalla.  
+~
+FLAGS  41484
+Sect   0
+EDESC  window~
+Looking out the window you can see the city of Vahalla in it's entirety.  
+~
+MHRATE 300 400
+End
+
+#1207
+NAME   The Satin Memorial Reading Room~
+DESCR
+Half read books lie everywhere: Yeats, Tennyson, Chandler, Barrie;
+a battered paperback de Laclos; a dusty leather-bound Donne.  A
+damp novel perches precariously on the edge of a large bathtub.
+As your eyes travel beyond the steam rising to the air toward the
+rose-brambled balcony railing, you notice a well-creased printout
+of a poem sitting on a the velvet cushions of a rosewood chair
+that has been set so as to see the stark black mountains
+from one angle, or the wine-dark sea from another.
+~
+FLAGS  41480
+Sect   4
+EDESC  rose rose-brambled balcony railing~
+Climbing white roses have swarmed over the original marble to obscure
+it almost completely.  The air is sweet not with roses, though,
+but with Satin's sandalwood perfume.
+~
+EDESC  rosewood chair~
+It looks comfortable, and the cushions are ivory velvet.
+~
+EDESC  stark black mountains wine wine-dark dark sea~
+The ocean is constantly smashing up against the cliffs and rending
+huge slabs from it.  The beach is scarcely a beach at all, more a
+collection of rough flakes varying in size from a small car to a
+small fist.  As the water comes up over the rocks and ebbs back
+down, it filters through the spaces and makes an unnerving rattling
+sound.
+~
+EDESC  print out print-out creased well poem~
+This page has been read over so many times that you can barely discern
+the words, and in fact with much poring only the following becomes
+clear:
+        'I know that I am studly - Heck, I'm sexy, cute and cuddly
+         And I know that I'm extremely modest too.'
+~
+EDESC  yeats~
+The page it is flipped open to reads:
+
+A sudden blow: the great wings beating still
+Above the staggering girl, her thighs carressed
+By the dark webs, her nape caught in his bill,
+he holds her helpless breast upon his breast.
+How can those terrified vague fingers push
+The feathered glory from her loosening thighs?
+And how can body, laid in that white rush,
+But feel that strange heart beating where it lies?
+A shudder in the loins engenders there
+The broken wall, the burning roof and tower
+And Agammemnon dead.  Being so caught up,
+So mastered by this brute blood of the air,
+Did she put on his knowledge with his power
+Before his indifferent beak could let her drop?
+~
+EDESC  chandler~
+She has just started the Lady in the Lake:
+
+Gillerain Regal, the Champagne of Perfumes.  It was definitely
+the stuff to get.  One drop of that in the hollow of your
+throat and the matched pink pearls started falling off you like
+summer rain.
+~
+EDESC  barrie~
+A copy of Peter Pan is opened near the end:
+
+What sort of form was Hook showing?  Misguided man though he
+was, we may be glad, without sympathising with him, that in
+the end he stayed true to the traditions of his race.  The
+other boys were flying about him now, flouting, scornful; and
+as he staggered about the deck striking at them impotently, his
+mind was no longer with them; it was slouching in the playing
+fields of long ago, or being sent up for good, or watching
+the wall-game from a famous wall.  And his shoes were right,
+and his waistcoat was right, and his tie was right, and his
+socks were right.
+
+James Hook, thou not wholly unheroic figure, farewell.
+~
+EDESC  tennyson~
+.       "My mariners
+         Souls that have toiled, and wrought, and thought with me -
+         The ever with a frolic welcome took
+         The thunder and the sunshine, and opposed
+         Free hearts, free foreheads - you and I are old;
+         Old age hath yet his honour and the toil
+         Death closes all; but something ere the end,
+         Some work of noble note, may yet be done,
+         Not unbecoming of men that strove with the gods.
+         The lights begin to twinkle from the rocks;
+         The long day wanes; the slow moon climbs; the deep
+         Moans round with many voices."
+~
+EDESC  battered paperback de Laclos~
+.       'One is very soon bored of everything, my angel; it is a law
+        of nature.  It is not my fault.
+        If, that is to say, that I am bored with an adventure that has
+        claimed my attentions for four mortal months, it is not my fault.
+        If, that is to say, my love is equal to your virtue - and that
+        is certainly saying a great deal - it is not surprising that
+        one should come to the end at the same time as the other.  It
+        is not my fault.
+        A woman that I love madly now insists that I give you up for
+        her.  It is not my fault.
+        I quite realize that this is the perfect opportunity to accuse
+        me of perjury: but if, where nature has gifted men with no
+        more than constancy, she has given women obstinacy, it is
+        not my fault.
+        Believe this, you should take another lover, even as I take
+        another mistress.  This is good, very good advice: if you
+        find it bad, it is not my fault.
+        Good-bye, my angel.  I took you with pleasure, I leave you
+        without regret.  I shall come back perhaps.  Such is life.
+        It is not my fault.
+~
+EDESC  dusty leather bound leather-bound Donne~
+.       `Cruel and sudden, hast thou since
+        Purpled thy nail in blood of innocence?
+        Wherein could this flea guilty be,
+        Except in the drop it sucked from thee?
+        Yet thou trimph'st and say'st that thou
+        Find'st not thyself, nor me the weaker now;
+          'Tis true, then learn how false fears be:
+          Just so much honour when thou yield'st to me
+          Will waste as this flea's death took life from thee.'
+~
+DOOR 2
+Valhalla is to the south.
+~
+door~
+AB -1 1217
+End
+
+#1208
+NAME   A Sea Cave~
+DESCR
+You are in a small cave in a cliff next to a deep green sea.  Fine
+gold and pink sand blanket the floor.  Shells are scattered and strewn
+about.  A blow hole in the roof of the cave allows beams of light to stream
+in and illuminate the cave.  The wind blows outside the entrance, but
+you are protected from the weather in your cozy cave.  The foamy surf
+never seems to quite reach your feet.  Several boulders here have been
+worn by time into a shape similar to a comfortable chair.
+~
+FLAGS  33288
+Sect   0
+DOOR 0
+Valhalla lies to the north.
+~
+door~
+AB -1 1203
+End
+
+#1209
+NAME   The Archmage's Workroom~
+DESCR
+This well-lit room is absolutely filled with clutter -- enchanting gear,
+reagents, spell components, ancient tomes, scrolls, braziers, exotic incense
+and countless other tools of the magical trade, all jumbled together with
+seemingly no attention paid to organization.  You have no doubts that Alander
+can find whatever he needs without delay, however.  A heavy oak door stands
+barred to the south, to discourage idle visitors, and Alander's quarters
+are east.
+~
+FLAGS  1032
+Sect   0
+EDESC  tools scrolls braziers components~
+It's all worth a fortune, but you'd better not touch it.  Alander keeps
+inventory and holds grudges.
+~
+EDESC  clutter mess~
+You notice Jimmy Hoffa's ring.
+~
+DOOR 2
+Valhalla is to the south.
+~
+door~
+AB -1 1203
+End
+
+#1210
+NAME   Office~
+DESCR
+The first thing you notice about this office is the floor; it
+is a black & white checkerboard pattern, with 8 squares to a side.  The
+south wall is a HUGE picture window that produces a magnificent view of 
+the land.  In front of the window is a large desk.  Completely covering
+the east wall is a bookshelf, that is crammed full.  In the northwest
+corner, you notice a statue.
+~
+FLAGS  33288
+Sect   0
+EDESC  desk~
+This desk is much larger than anyone could possibly need.  At one end you 
+notice a large, disorderly mass of papers; it must be all his immortal
+paperwork.  At the other end is a magnificent wooden inlaid board with
+handcrafted ebony and hardwood pieces.
+~
+EDESC  statue~
+You recognize this as a statue of Robert James Fischer, one of the most 
+creative, if not eccentric, players of all time.  The inscription on the
+base reads, "I like the moment when I crush a man's ego."
+~
+EDESC  bookshelf~
+This is the most amazing collection of chess books you have ever seen.
+Everything from Damiano's manuscripts, to a complete collection of the
+Encyclopedia of Chess Openings, to the latest Imformants are all here.
+~
+DOOR 0
+Valhalla is to the north
+~
+door~
+AB -1 1217
+End
+
+#1211
+NAME   Arena of Judgement~
+DESCR
+The scene lain before you is one that gives you the feeling of being placed
+under a higher authority.  The jury is out.  A statue of Pontius Pilate is
+in the aft of the Arena.  Staring balefully, the statue faces a distant
+hillside where many aged crosses still stand.  The Arena is set in a wide
+pit-like field of trampled bloodstained grass, and is guarded by high walls
+of veinous marble.  A bloodstone seat awaits the true paragon of Romanity.
+~
+FLAGS  33288
+Sect   0
+EDESC  statue~
+A statue of Pontius Pilate is here.  On it's face is the expression of some
+age old contemplation.  Standing at the statues bronzy feet is a Blood red
+shield that glimmers like a pool of blood.
+~
+DOOR 2
+Valhalla is to the south.
+~
+door~
+AB -1 1218
+End
+
+#1212
+NAME   The Realm of the Dead~
+DESCR
+You are standing on an immense, grey stone floor that stretches as far as you
+can see in all directions.  Rough winds plunging from the dark, starless sky
+tear savagely at your fragile body.
+~
+FLAGS  282599940
+Sect   0
+EDESC  sky wind winds~
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+EDESC  floor~
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+DOOR 0
+The hard floor seems to go on forever.
+~
+~
+0 -1 1212
+DOOR 1
+The hard floor seems to go on forever.
+~
+~
+0 -1 1212
+DOOR 2
+The hard floor seems to go on forever.
+~
+~
+0 -1 1212
+DOOR 3
+The hard floor seems to go on forever.
+~
+~
+0 -1 1212
+End
+
+#1213
+NAME   Asgard~
+DESCR
+You stand on a huge expanse of glass.  Below you are clouds and the 
+pains of mortality.  As you stand in Asgard, home of the bravest of the
+brave, you are frozen in awe of the power held within these walls.  A 
+huge mansion lies to the east beyond a set of magnificent golden doors. 
+~
+FLAGS  0
+Sect   0
+DOOR 0
+The chat room is to the north.
+~
+~
+0 -1 1200
+DOOR 1
+The golden doors of Valhalla are to the east
+~
+~
+0 -1 1216
+DOOR 2
+Moses' hangout is to the south.
+~
+~
+0 -1 1201
+DOOR 3
+The center of the universe is to the west.
+~
+~
+0 -1 1202
+DOOR 5
+The Rainbow Bridge is below you.  You can barely see it through the clouds.
+~
+~
+0 -1 1215
+End
+
+#1214
+NAME   The Room of Lost Souls~
+DESCR
+This is the room full of souls that never made it to Asgard.  They are 
+trapped here eternally, left to wander about in misery.  They were infidels
+and cowards.  Their cries of misery send a shiver down your spine.
+~
+FLAGS  8
+Sect   0
+DOOR 5
+~
+~
+0 -1 1219
+End
+
+#1215
+NAME   Head of the Rainbow Bridge~
+DESCR
+Standing on the mortal end of the Rainbow Bridge, the bridge arches up 
+before you and seems to disappear into the clouds.  You wonder if it is 
+wise to venture upward into the realm of the gods.  But it seems so calm
+and peaceful here that it would be a shame to leave...
+~
+FLAGS  0
+Sect   1
+DOOR 4
+The Rainbow Bridge stretches ahead before you.
+~
+~
+0 -1 1220
+End
+
+#1216
+NAME   The Entrance of Valhalla~
+DESCR
+The huge ornate entrance of Valhalla is before you.  It seems as though
+atleast eight-hundred soldiers could walk abreast of one another through
+these doors. You stare in awe at the sparkling mansion before you.  You
+wonder what secrets are held behind these doors and long to hear the stories
+of bravery and glory that you know are kept within the walls of Valhalla.
+~
+FLAGS  32768
+Sect   1
+DOOR 1
+Valhalla lies to the east.
+~
+~
+0 -1 1203
+DOOR 3
+Asgard lies to the west.
+~
+~
+0 -1 1213
+End
+
+#1217
+NAME   Valhalla~
+DESCR
+A multitude of sounds ring off the grey granite walls that make up this dismal little room
+~
+FLAGS  32768
+Sect   0
+DOOR 0
+The Satin Memorial Reading Room is north of here.
+~
+door~
+AB -1 1207
+DOOR 1
+Valhalla continues east.
+~
+~
+0 -1 1218
+DOOR 2
+Bigfoots' room is south of here.
+~
+door~
+AB -1 1210
+DOOR 3
+Valhalla continues west.
+~
+~
+0 -1 1203
+DOOR 4
+If you want to know what is up there you shall have to go and look...
+~
+~
+0 -1 1212
+End
+
+#1218
+NAME   Valhalla~
+DESCR
+You are standing in the halls of Valhalla.  Tapestries of the gods line
+the walls.  A statue of Odin is here.  The halls continue to the east and
+west, and there are doors to the north and south of you.  There is some 
+sort of exit above you, but you do not know where it leads...
+~
+FLAGS  32768
+Sect   0
+EDESC  statue odin~
+The statue of Odin has been exquisitely crafted.  It is of white marble
+with black and gold veins.  It looks to be of magical origin.
+~
+DOOR 0
+Pontius' room is north of here.
+~
+door~
+AB -1 1211
+DOOR 1
+Valhalla continues east.
+~
+~
+0 -1 1219
+DOOR 2
+Priscilla's Pleasure Palace is south of here.
+~
+door~
+AB -1 1204
+DOOR 3
+Valhalla continues west.
+~
+~
+0 -1 1217
+DOOR 4
+If you want to know what is up there you shall have to go up and see...
+~
+~
+0 -1 2
+End
+
+#1219
+NAME   Valhalla~
+DESCR
+You have reached the end of the halls of Valhalla.  There are heavy doors
+on 3 walls.  They lead into the rooms of the gods.  The hall goes back to
+the west, and there is some sort of an exit above you.  Torches sputter
+softly and the scent of incense is strong here.
+~
+FLAGS  32768
+Sect   0
+DOOR 0
+Melancholys' room is north of here.
+~
+~
+0 -1 3161
+DOOR 1
+Kates' room is east of here.
+~
+~
+0 -1 3150
+DOOR 2
+The Temple of Stupid is south of here.
+~
+~
+0 -1 3170
+DOOR 3
+Valhalla goes back to the west.
+~
+~
+0 -1 1218
+DOOR 4
+If you want to know what is up from here, you shall have to go up and see...
+~
+~
+0 -1 1214
+End
+
+#1220
+NAME   On the Rainbow Bridge~
+DESCR
+You have reached the center of the Rainbow Bridge.  Clouds and mist swirl
+around your feet.  The view from here is incredible.  It is little wonder 
+that the heavens were saved for the gods personal pleasures.
+~
+FLAGS  0
+Sect   1
+EDESC  clouds~
+The clouds are beautiful.  There are shades of gray, pink and purple swirled
+into the blue sky.
+~
+DOOR 4
+The Rainbow Bridge continues upwards into the heavens.
+~
+~
+0 -1 1221
+DOOR 5
+The Rainbow Bridge disappears down into the clouds.
+~
+~
+0 -1 1215
+End
+
+#1221
+NAME   The End of the Rainbow Bridge~
+DESCR
+You have reached the end of the Rainbow Bridge.  Asgard stretches out above 
+you.  Looking around, you search for the legendary guardian of Asgard.  The
+clouds are far below you and a sense of beauty and peacefulness surrounds you. 
+~
+FLAGS  0
+Sect   1
+DOOR 4
+Asgard is above you, spread out in all its glory.
+~
+~
+0 -1 1213
+DOOR 5
+Bifrost, the Rainbow Bridge leads down to the Temple of Midgaard.
+~
+~
+0 -1 1220
+End
+
+#1222
+NAME   Nature's Haven~
+DESCR
+Walking into this room it is as if you have steped through a protal to
+the outdoors.  You can see no roof to the room and no edges to it's
+expansive boundries.  A huge Oak Tree stands in the center of your view,
+looking as old as time itself.  Bushes and a small stream seem to gravitate
+towards the tree as it sways with the light breeze bringing scents of
+daisies and roses to your nostrils.  
+~
+FLAGS  4
+Sect   3
+MHRATE 200 200
+End
+
+#1223
+NAME   ~
+DESCR
+~
+FLAGS  4
+Sect   0
+End
+
+#1224
+NAME   The Sanctum of the Gods~
+DESCR
+You are standing within a large, majestic structure, the likes of which you
+cannot link to any civilization you know. Tasteful tapestries line the walls
+and complement the brilliant reflections of the white, marble-tiled floor. 
+Furniture of rich wood, plant life of every kind you can imagine, and objects
+you cannot even describe decorate the room. You see no doors here,
+but in the center of the structure is an open hole overlooking the distant
+earth below, shrouded partly in clouds. You feel a great sense of peace
+here, but a feeling in your gut tells you to finish your business and leave,
+for powers far beyond your imagining are at work in this place.
+~
+FLAGS  13639684
+Sect   0
+DOOR 5
+~
+~
+0 0 3001
+End
+
+#1299
+NAME   A Clearing in the Wilderness~
+DESCR
+The wilderness here is cleared out, leaving an open space surrounded by
+dense brush.  
+~
+FLAGS  5251076
+Sect   3
+End
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 1203 0 1
+D 0 1203 2 1
+D 0 1204 0 1
+D 0 1207 2 1
+D 0 1208 0 1
+D 0 1209 2 1
+D 0 1210 0 1
+D 0 1211 2 1
+D 0 1217 0 1
+D 0 1217 2 1
+D 0 1218 0 1
+D 0 1218 2 1
+M 0 1210 1 1202 1
+G 0 1222 0
+G 0 1221 0
+G 0 1220 0
+G 0 1219 0
+G 0 1218 0
+G 0 1217 0
+G 0 1216 0
+G 0 1215 0
+G 0 1215 0
+G 0 1214 0
+G 0 1214 0
+G 0 1213 0
+G 0 1213 0
+G 0 1212 0
+G 0 1211 0
+G 0 1210 0
+O 0 1201 0 1222
+M 0 1207 1 1222 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 1226 fight_prog fight_prog_cure_critical
+E
+
+
+
+#$

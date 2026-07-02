@@ -1,0 +1,888 @@
+#AREADATA
+Name Knight Cabal~
+Builders None~
+VNUMs 4500 4520
+Credits {CABAL} Zornath The Golden Fortress~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#4500
+NAME  healer adept~
+SHORT the Priest of the Knights~
+LONG  A wise priest stands here, ready to aid Knights in need.
+~
+DESCR
+This wise priest blesses the Knights with his god-given powers of
+healing, helping them in their struggle against evil.  His head is covered
+in fading white hair, and his slightly fat appearance, pleasant smile, and
+generous demeanor has earned him a deep respect within the Fortress.  
+~
+RACE  human~
+ACT   ABQVae
+AFF   0
+OFF   FHIK
+IMM   ABC
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1999
+MDICE 1d1+999
+DDICE 2d4+30
+REGEN 0
+DTYPE divine
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL knight
+End
+
+#4501
+NAME  guardian light protector knight~
+SHORT the Guardian of Light~
+LONG  The Guardian of Light presides over the Code of Honor here.
+~
+DESCR
+This silent human stands here in the northern end of the room.  He guards
+the monument with his life, protecting the Knight's Code of Honor.  He is
+clad in blessed golden armor and has been vested with the responsibility of
+guarding the Fortress by the very gods themselves.  
+~
+RACE  human~
+ACT   ABDGLTVWde
+AFF   H
+OFF   ANU
+IMM   ABN
+RES   0
+VULN  E
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 1d1+4999
+MDICE 1d200+1600
+DDICE 10d10+15
+REGEN 0
+DTYPE searing
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 3
+CABAL knight
+End
+
+#4502
+NAME  squire~
+SHORT A knight squire~
+LONG  A squire of the knight cabal stands here, awaiting orders.
+~
+DESCR
+A young man clad in simple leather armor serves as a knights blooded
+squire, with hopes of one day becoming a true knight of thera.  
+~
+RACE  human~
+ACT   ALT
+AFF   0
+OFF   EFHK
+IMM   ABNS
+RES   0
+VULN  M
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 51
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 1d1+2000
+MDICE 1d1+5000
+DDICE 40d3+10
+REGEN 0
+DTYPE punch
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL knight
+End
+
+#4503
+NAME  golden knight templar~
+SHORT the knight templar~
+LONG  A knight templar stands here, vigilantly guarding the entrance to the Fortress.
+~
+DESCR
+This human stands here silently, keeping close watch over those who enter
+and leave the Golden Fortress and protecting it from unwanted intruders.  He
+is clad in golden elysium battle armor, adorned with precious stones and
+tempered to unmatched quality.  
+~
+RACE  human~
+ACT   ABGLTVZ
+AFF   HNVa
+OFF   CDEOa
+IMM   ABN
+RES   NS
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 40
+ENHA  100.00%
+MATER none~
+HDICE 2d500+3000
+MDICE 1d1+4999
+DDICE 3d3+30
+REGEN 0
+DTYPE wrath
+AC    -35 -35 -35 -35
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL knight
+End
+
+#4505
+NAME  knight templar~
+SHORT the Knight Templar~
+LONG  A knight in golden armor prepares to defend his liege.
+~
+DESCR
+He is standing calmly, waiting for his liege lord to give him an order.
+~
+RACE  human~
+ACT   AJTW
+AFF   0
+OFF   ACFHKN
+IMM   ABN
+RES   0
+VULN  E
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 51
+HROLL 20
+ENHA  100.00%
+MATER none~
+HDICE 1d1+8999
+MDICE 1d1+1
+DDICE 10d10+30
+REGEN 0
+DTYPE searing
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL knight
+End
+
+#4520
+NAME  no name~
+SHORT (no short description)~
+LONG  (no long description)
+~
+DESCR
+~
+RACE  human~
+ACT   A
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 0d0+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE none
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#4500
+NAME   key small golden~
+SHORT  a small golden key~
+DESCR 
+A small golden key is on the ground.~
+MAT    gold~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   AO
+LEVEL  40
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#4501
+NAME   altar~
+SHORT  the altar~
+DESCR 
+An intricate and beautiful marble altar has been erected here.~
+MAT    gold~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   P
+LEVEL  60
+WEIGHT 10
+COST   20
+COND   100
+End
+
+#4502
+NAME   code honor~
+SHORT  the Code of Honor~
+DESCR 
+The Code of Honor lies here.~
+MAT    gold~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   A
+LEVEL  60
+WEIGHT 10
+COST   20000
+COND   100
+CABAL  2
+LIMIT  1
+End
+
+#4503
+NAME   golden claymore sword scimitar blade rapier broadsword cutlass~
+SHORT  a Golden Sword~
+DESCR 
+A shiny gold sword is resting on the ground.~
+MAT    iron~
+TYPE   weapon sword 8 7 searing 0
+EXTRA  1 8 0 4754691
+WEAR   AN
+LEVEL  52
+WEIGHT 16
+COST   0
+COND   100
+Affect A 0 0 C
+Affect O 19 5 0
+Affect O 18 5 0
+RESTR  Y
+End
+
+#4504
+NAME   golden dagger~
+SHORT  a golden dagger~
+DESCR 
+There is a shiny golden dagger on the ground.~
+MAT    gold~
+TYPE   weapon dagger 7 7 pierce D
+EXTRA  1 7 0 4754689
+WEAR   AN
+LEVEL  20
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4505
+NAME   golden mace~
+SHORT  a golden mace~
+DESCR 
+A shiny gold mace is on the ground.~
+MAT    gold~
+TYPE   weapon mace 7 7 crush 0
+EXTRA  1 7 0 4754689
+WEAR   AN
+LEVEL  20
+WEIGHT 24
+COST   0
+COND   100
+End
+
+#4506
+NAME   golden dragonplate plate armor battle~
+SHORT  ornately crafted golden battle armor~
+DESCR 
+A shining set of dragonplate lies on the floor.~
+MAT    gold~
+TYPE   armor ABCDEG DG BCFG CDEF B
+EXTRA  1 7 0 16780611
+WEAR   AD
+LEVEL  52
+WEIGHT 34
+COST   10000
+COND   100
+Affect O 24 -5 0
+Affect O 18 5 0
+Affect O 19 5 0
+Affect O 13 60 0
+Affect O 1 2 0
+Affect A 0 0 N
+RESTR  Y
+End
+
+#4507
+NAME   shield rose white~
+SHORT  a Shield of {WWhite{x Roses~
+DESCR 
+A beautiful shield of {Wwhite{x rose lies here.~
+MAT    magic~
+TYPE   armor ABCEG ABCEG ABCEG BCDFH 0
+EXTRA  1 3 0 3073
+WEAR   AJ
+LEVEL  51
+WEIGHT 7
+COST   10000
+COND   100
+Affect O 19 3 0
+Affect O 18 3 0
+RESTR  Y
+End
+
+#4508
+NAME   monument honor~
+SHORT  a monument of honor~
+DESCR 
+A monument has been erected here to hold the Code of Honor.~
+MAT    gold~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  60
+WEIGHT 10
+COST   0
+COND   100
+EDESC monument~
+This golden monument has been erected here to honor the deeds of the
+Knights of Thera.  A small area has been pushed into the monument at its
+center to hold the Code of Honor.  
+~
+End
+
+#4509
+NAME   beds bed~
+SHORT  a comfortable bed~
+DESCR 
+A multitude of comfortable beds line either side of the room here.~
+MAT    wood~
+TYPE   furniture BCDE EIJKN BEHK 0 0
+EXTRA  1 2 0 540672
+WEAR   P
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4510
+NAME   rack~
+SHORT  a wooden equipment rack~
+DESCR 
+A wooden rack stands here, waiting to hold equipment.~
+MAT    wood~
+TYPE   container 20000 0 0 10000 0
+EXTRA  1 2 0 540672
+WEAR   P
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4511
+NAME   duel circle~
+SHORT  a duel circle~
+DESCR 
+A circular outline on the ground forms a dueling circle here.~
+MAT    unknown~
+TYPE   furniture B FHIJKL C 0 0
+EXTRA  1 1 0 16384
+WEAR   P
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#4512
+NAME   flamberge phoenix legendary sword brand~
+SHORT  'Phoenix Brand' the Legendary Flamberge~
+DESCR 
+Pendragon's LEADER WEAPON is here.~
+MAT    silver~
+TYPE   weapon sword 8 8 wrath FM
+EXTRA  1 5 0 393475
+WEAR   AN
+LEVEL  55
+WEIGHT 24
+COST   0
+COND   100
+Affect O 29 2 0
+Affect O 18 10 0
+Affect O 19 10 0
+LIMIT  1
+RESTR  N
+End
+
+#0
+
+
+
+#ROOMDATA
+#4500
+NAME   Before a Golden Fortress~
+DESCR
+You stand at the foot of a gargantuan fortress of gold and stone.  The
+entrance is warded off by an immense steel gate, protruding at least 20 feet
+into the air.  Torches line the outer wall of the fortress as far as you can
+see towards the east and west, ultimately resulting in an endless horizon of
+shining gold.  Messengers, travelers, and even soldiers adorned in golden
+armor traverse the path here, entering and leaving the fortress as their
+business requires.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+The inner halls of the Golden Fortress lie in this direction.  
+~
+~
+0 -1 4501
+DOOR 2
+The path back to Ofcol lies to the south.  
+~
+~
+0 0 4518
+End
+
+#4501
+NAME   Within the Golden Fortress~
+DESCR
+You stand within the entrance hall of the Golden Fortress.  The hall
+appears to be highly maintained; the detailed marble tiles are polished to a
+brilliant luster and the gold-trimmed red carpet that runs in every visible
+direction is completely free of wrinkles, stains, and dirt. 
+Intricately-designed lamps line the walls of the hall in every direction,
+accentuating the Fortress's beautifully-crafted windows and doorways.  The
+Shrine of Honor lies to the north and the Altar of Purity lies to the west,
+while the rest of the fortress lies to the east.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+The Shrine of Honor lies in this direction.
+~
+~
+0 -1 4504
+DOOR 1
+The Knight Barracks lie to the east.
+~
+~
+0 -1 4502
+DOOR 2
+Entrance hall can be seen.
+~
+~
+0 -1 4500
+DOOR 3
+The Chapel of Purity lies to the west.
+~
+~
+0 0 4514
+End
+
+#4502
+NAME   The Knight Barracks~
+DESCR
+While one would expect a barracks to carry an unpleasant odor or fall
+into a condition of filth, these barracks are practically spotless. 
+Comfortable beds line either side of the room for the Knights and squires to
+sleep, and racks stand next to each bed, waiting to hold a Knight's
+equipment while they rest.  The red carpet from the entrance hall runs
+through the center of the room and towards the east, while a second red
+carpet splits towards the north from the first carpet, leading to the castle
+study.  The dueling chambers lie east, while the entrance hall lies west.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+The castle study is to the north.
+~
+~
+0 0 4517
+DOOR 1
+The dueling chambers are due east.
+~
+~
+0 0 4516
+DOOR 3
+The entrance hall of the Golden Fortress lies to the west.
+~
+~
+0 -1 4501
+End
+
+#4503
+NAME   Storage Room~
+DESCR
+You are inside the storge room of Knights of Thera.  Some heavily used 
+swords and armors are tossed aside.  This room generally fills with 
+equipment, when cabal wars happen.
+~
+FLAGS  9445388
+Sect   0
+End
+
+#4504
+NAME   The Shrine of Honor~
+DESCR
+This large room has been adorned with great statues of pure gold
+depicting Knights partaking in deeds of good and generousity.  Murals
+carefully drawn on the walls follow suit, as well as display the Knight's
+past and origins.  In the northern end of the room, a small monument has
+been erected.  A square shape has been pushed into the monument, intending
+to hold the Knight's sacred Code of Honor.  The main fortress hall lies to
+the south.  
+~
+FLAGS  13901832
+Sect   0
+DOOR 2
+The entrance hall of the Golden Fortress lies to the south.
+~
+~
+0 -1 4501
+End
+
+#4510
+NAME   The Arena~
+DESCR
+This large, open room houses tools of combat, while affording free space for
+combatants to duel comfortably. Several benches lie to the side for spectators,
+while the center is roped off so that no interference takes place. The doors
+to the rest of the knight castle seem to have been locked when the duel began,
+to prevent interference.
+~
+FLAGS  13639694
+Sect   0
+DOOR 0
+~
+~
+0 0 4511
+DOOR 2
+~
+~
+0 0 4515
+End
+
+#4511
+NAME   The Arena~
+DESCR
+This large, open room houses tools of combat, while affording free space
+for combatants to duel comfortably.  Several benches lie to the side for
+spectators, while the center is roped off so that no interference takes
+place.  
+~
+FLAGS  13115396
+Sect   0
+DOOR 0
+~
+~
+0 0 4515
+DOOR 1
+~
+~
+0 0 4512
+DOOR 2
+~
+~
+0 0 4510
+DOOR 3
+~
+~
+0 0 4513
+End
+
+#4512
+NAME   The Arena~
+DESCR
+This large, open room houses tools of combat, while affording free space
+for combatants to duel comfortably.  Several benches lie to the side for
+spectators, while the center is roped off so that no interference takes
+place.  
+~
+FLAGS  13115396
+Sect   0
+DOOR 0
+~
+~
+0 0 4515
+DOOR 2
+~
+~
+0 0 4510
+DOOR 3
+~
+~
+0 0 4511
+End
+
+#4513
+NAME   The Arena~
+DESCR
+This large, open room houses tools of combat, while affording free space
+for combatants to duel comfortably.  Several benches lie to the side for
+spectators, while the center is roped off so that no interference takes
+place.  
+~
+FLAGS  13115396
+Sect   0
+DOOR 0
+~
+~
+0 0 4515
+DOOR 1
+~
+~
+0 0 4511
+DOOR 2
+~
+~
+0 0 4510
+End
+
+#4514
+NAME   The Chapel of Purity~
+DESCR
+You stand within a well-decorated chapel.  Stained glass windows to the
+north and south cast light on the marble-tiled room in a spectrum of colors,
+creating a pleasant and welcoming effect when striking the grey-tiled marble
+floors.  Wooden pews line either side of the room, divided by a wide,
+gold-trimmed red carpet, and face due west, where an altar to the gods has
+been erected and a priest performs his holy services.  The rest of the
+Fortress lies to the east.  
+~
+FLAGS  7348232
+Sect   0
+DOOR 1
+The entrance hall of the Golden Fortress lies to the east.
+~
+~
+0 0 4501
+End
+
+#4515
+NAME   The Arena~
+DESCR
+This large, open room houses tools of combat, while affording free space
+for combatants to duel comfortably.  Several benches lie to the side for
+spectators, while the center is roped off so that no interference takes
+place.  
+~
+FLAGS  13115396
+Sect   0
+DOOR 0
+~
+~
+0 0 4510
+DOOR 1
+~
+~
+0 0 4512
+DOOR 2
+~
+~
+0 0 4511
+DOOR 3
+~
+~
+0 0 4513
+End
+
+#4516
+NAME   The Dueling Chambers~
+DESCR
+You stand within the duel chambers of the Knights of Thera.  Here, the
+Knights hold friendly duels of honor to declare the most skilled Knight
+within the ranks of the Fortress.  A circle has been set up in the center of
+the room, where honorable duels usually take place.  A number of other
+circles dot the room, but they are being used by the squires and other
+Knights.  Towards the west, the Knight barracks lie.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 3
+The Knight Barracks due west.
+~
+~
+0 0 4502
+End
+
+#4517
+NAME   The Castle Study~
+DESCR
+You stand within the study of the Golden Fortress.  Bookshelves line the
+room in every direction, filled with books concerning evil, the Knights, the
+struggle between Light and Shadow, and a multitude of other topics.  Squires
+sit at various tables throughout the room, increasing their knowledge of the
+world around them.  On the northern wall, a plaque outlines the Knight's
+Code of Honor.  
+~
+FLAGS  13639688
+Sect   0
+EDESC  plaque~
+THE CODE OF HONOR                         
+     1. You will destroy {RALL{x evil. The ONLY exception to this  
+        rule is when the evil-hearted truly seeks redemption for   
+        his sins.    
+               
+     2. As the strong-hearted and honorable warriors of Light and  
+        Honor, you must uphold the Fortress's values: you may not  
+        gang unless the Fortress is directly under assault, and in 
+        no instance should you ever full loot your opponent.       
+ 
+     3. You must defend the Code of Honor at all costs, even if you
+        must lay down your own life to save it. Without the Code of
+        Honor, the Fortress shall fall.                            
+       
+     4. There are to be no inner conflicts within the ranks of the 
+        Fortress. The Leader reserves the right to cast out any    
+        Knights he deems unbearably insubordinate or harmful to the
+        Fortress's cause. All disputes may be settled within the   
+        dueling ring, and ONLY the dueling ring. You have been     
+        warned.                       
+~
+DOOR 2
+The Knight Barracks are back towards the south.
+~
+~
+0 0 4502
+End
+
+#4518
+NAME   A road extending into the Ofcol mountains~
+DESCR
+This path appears to be partially overrun by shrubbery and wildlife.  It
+resides on a high ledge overlooking Ofcol, which lies to the southwest, and
+has been meticulously placed, hugging the cliffside to the east, to prevent
+the accidental fall and eventual death of unwary travelers.  The path
+extends southward, eventually meeting and entering the shaft of a large
+building in Ofcol, and northward, ending in what appears to be a massive
+golden castle.  
+~
+FLAGS  2
+Sect   0
+DOOR 0
+In this direction lies the outer gate of a large fortress.  
+~
+~
+0 0 4500
+DOOR 2
+The shaft from the Golden Citadel lies to the south.  
+~
+~
+0 0 697
+End
+
+#0
+
+
+
+#SPECIALS
+M 4501 spec_golden_knight
+M 4505 spec_templar
+S
+
+
+
+#RESETS
+M 0 4503 1 4500 1
+O 0 4510 0 4502
+O 0 4509 0 4502
+O 0 4508 0 4504
+M 0 4501 1 4504 1
+M 0 4500 1 4514 1
+O 0 4501 0 4514
+O 0 4511 0 4516
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 4502 give_prog give_prog_cabal_item
+I 4503 fight_prog fight_prog_golden_weapon
+I 4512 fight_prog fight_prog_golden_weapon
+M 4501 greet_prog greet_prog_inner_guardian
+M 4501 death_prog death_prog_inner_guardian
+M 4503 greet_prog greet_prog_outer_guardian
+M 4503 death_prog death_prog_outer_guardian
+M 4503 attack_prog attack_prog_outer_guardian
+M 4503 move_prog move_prog_outer_guardian
+E
+
+
+
+#$

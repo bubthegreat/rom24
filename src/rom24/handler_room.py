@@ -44,6 +44,7 @@ class Room(
         self.heal_rate = 100
         self.mana_rate = 100
         self.clan = None
+        self.cabal = None
         self.special_inventory = []
         if kwargs:
             [setattr(self, k, copy.deepcopy(v)) for k, v in kwargs.items()]

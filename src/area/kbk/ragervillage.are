@@ -1,0 +1,969 @@
+#AREADATA
+Name Rager Village~
+Builders None~
+VNUMs 5700 5799
+Credits {CABAL} Zornath Rager Village~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#5700
+NAME  Destructor~
+SHORT the Destructor of Magic~
+LONG  The Destructor of Magic is here, daring you to cast a spell.
+~
+DESCR
+This giant warrior is the best of the barbarian village.  He stands here
+unmoving, guarding the head of Thera's greatest magician with his life. 
+Numerous scars and battle wounds that would have otherwise been absolutely
+fatal are evidence of his unmatched constitution and combat prowess.  
+~
+RACE  fire~
+ACT   ABDTVe
+AFF   0
+OFF   ACDEIJV
+IMM   AB
+RES   DEH
+VULN  IJP
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 2d500+8000
+MDICE 1d1+4999
+DDICE 5d5+40
+REGEN 0
+DTYPE pound
+AC    -70 -70 -70 -70
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  75
+AMOD  0
+QUEST 3
+CABAL rager
+End
+
+#5701
+NAME  Grime~
+SHORT Grime~
+LONG  Grime sits here before the forge, crafting weapons for the Rager village.
+~
+DESCR
+A barbarian sits on a stool before you, staring intently at the forge. 
+He hammers away at weapons night and day for the Rager village to use in
+combat.  He is not the best craftsman in existence, considering his methods,
+but he appears sufficiently skilled, moreso than the other barbarians, for
+the job.  
+~
+RACE  human~
+ACT   ABTVe
+AFF   0
+OFF   CDEFIJKNV
+IMM   ACDEGHIJKLMNOPRSTXYZ
+RES   D
+VULN  P
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 999
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 3d300+4000
+MDICE 1d1+2000
+DDICE 1000d1+1000
+REGEN 0
+DTYPE grep
+AC    -30 -30 -30 -30
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL rager
+End
+
+#5702
+NAME  Healer~
+SHORT A healer~
+LONG  A healer is here tending to the wounded.
+~
+DESCR
+This healer stands here, healing Ragers.
+~
+RACE  human~
+ACT   ABQVae
+AFF   0
+OFF   FHIKV
+IMM   ABC
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1999
+MDICE 1d1+999
+DDICE 2d4+30
+REGEN 0
+DTYPE divine
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL rager
+End
+
+#5703
+NAME  barbarian swordsman~
+SHORT a barbarian swordsman~
+LONG  A massive barbarian stands here, awaiting a worthy opponent.
+~
+DESCR
+Muscled in every area possible, this behemoth challenges the other
+barbarians to strike at him.  A suit of field plate defends his body and his
+massive hand is gripped around an axe.  His face is covered in battle wounds
+and scars, and his armor is covered in just as much dried blood.  Catching
+your glance, he points towards you, and grinning, challenges you to a spar
+to the death.  
+~
+RACE  human~
+ACT   ABGLT
+AFF   0
+OFF   ABCFGHIJKLMNV
+IMM   ABC
+RES   DFGHJKLMNOPQRS
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 100
+ENHA  100.00%
+MATER none~
+HDICE 2d500+8000
+MDICE 1d1+4999
+DDICE 10d5+120
+REGEN 0
+DTYPE wrath
+AC    -100 -100 -100 -100
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#5704
+NAME  wooden practice dummy~
+SHORT A wooden practice dummy~
+LONG  A beaten practice dummy constructed of wood stands here collecting dust.
+~
+DESCR
+A large wooden post is here with a small wooden ball for a head and
+smaller wooden pegs for arms and legs.  
+~
+RACE  human~
+ACT   ABGKLVc
+AFF   0
+OFF   FK
+IMM   ABCDEFGHIJKLMNOPSTXYZ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d50+5000
+MDICE 1d1+100
+DDICE 1d1+1
+REGEN 0
+DTYPE punch
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#5710
+NAME  giant barbarian outer defender~
+SHORT the barbarian defender~
+LONG  A barbarian defender stands here, guarding the path from intruders.
+~
+DESCR
+This gargantuan giant has been chosen as the captain of the barbarians
+and Rager village.  He has given up the line of war to stand before his
+homeland and defend it from intruders.  
+~
+RACE  cloud~
+ACT   ABGLTVZ
+AFF   0
+OFF   CDEIJ
+IMM   AB
+RES   DEI
+VULN  NOP
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 2d500+4000
+MDICE 1d1+4999
+DDICE 5d5+30
+REGEN 0
+DTYPE cleave
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  50
+AMOD  0
+QUEST 0
+CABAL rager
+End
+
+#0
+
+
+
+#OBJDATA
+#5700
+NAME   massive pillar~
+SHORT  a massive pillar~
+DESCR 
+A black iron pillar, engraved with runes, towers over the village here.~
+MAT    iron~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+EDESC pillar~
+THE RAGER VILLAGE CODE
+------------------------------------------------------------------------
+|1.  Any Villagers caught ganging will have to explain their actions to|
+|    their Leaders.                                                    |
+|      a. You may only use such tactics to defend the Village or when  |
+|         you are reclaiming our item of power.                        |
+|                                                                      |
+|2.  Magical items of any nature are strictly forbidden.  (Items of the|
+|    world that are flagged magical are fine to use unless they proc   |
+|    something magical.  If you are unsure about an item, ask one of   |
+|    your leaders.)                                                    |
+|                                                                      |
+|3.  You will respect the Village elders.                              |
+|                                                                      |
+|4.  You are brothers in war.  Inner conflicts will be dealt with      |
+|    accordingly.  Use your battlegrounds to settle scores and then    |
+|    leave it at that.                                                 |
+|                                                                      |
+|5.  And lastly, you are honorable members of the Village.  Loot only  |
+|    what you need from your enemies.                                  |
+------------------------------------------------------------------------
+~
+RESTR  X
+End
+
+#5701
+NAME   head magician bloody~
+SHORT  the Bloody Head of a Magician~
+DESCR 
+The Bloody Head of a Magician lies here.~
+MAT    bone~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   A
+LEVEL  60
+WEIGHT 8
+COST   20000
+COND   100
+CABAL  4
+LIMIT  1
+End
+
+#5702
+NAME   throne skulls~
+SHORT  the large skull-throne~
+DESCR 
+The large throne made from skulls is sitting here.~
+MAT    bone~
+TYPE   furniture 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   0
+LEVEL  60
+WEIGHT 8
+COST   20
+COND   100
+RESTR  X
+End
+
+#5703
+NAME   pit~
+SHORT  the pit for donations~
+DESCR 
+A pit for sacrifices is in front of the altar.~
+MAT    ebony~
+TYPE   container 10000 0 0 1000 100
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 8
+COST   0
+COND   100
+EDESC pit~
+This is where you put money and items for other Rager.~
+RESTR  X
+End
+
+#5704
+NAME   sword rager standard~
+SHORT  a standard Rager sword~
+DESCR 
+A plain-looking sword of a Rager lies here.~
+MAT    steel~
+TYPE   weapon sword 8 4 slash 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 17
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5705
+NAME   axe rager standard~
+SHORT  a standard Rager axe~
+DESCR 
+A plain-looking axe of a Rager lies here.~
+MAT    steel~
+TYPE   weapon axe 8 4 chop 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 24
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5706
+NAME   mace rager standard~
+SHORT  a standard Rager mace~
+DESCR 
+A plain-looking mace of a Rager lies here.~
+MAT    steel~
+TYPE   weapon mace 8 4 smash 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 24
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5707
+NAME   dagger rager standard~
+SHORT  a standard Rager dagger~
+DESCR 
+A plain-looking dagger of a Rager lies here.~
+MAT    steel~
+TYPE   weapon dagger 8 4 pierce 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 6
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5708
+NAME   polearm rager standard~
+SHORT  a standard Rager polearm~
+DESCR 
+A plain-looking polearm of a Rager lies here.~
+MAT    steel~
+TYPE   weapon polearm 8 4 crush F
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 41
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5709
+NAME   staff rager standard~
+SHORT  a standard Rager staff~
+DESCR 
+A plain-looking staff of a Rager lies here.~
+MAT    steel~
+TYPE   weapon staff 8 4 smash 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 25
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5710
+NAME   whip rager standard~
+SHORT  a standard Rager whip~
+DESCR 
+A plain-looking whip of a Rager lies here.~
+MAT    steel~
+TYPE   weapon whip 8 4 whip 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 13
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5711
+NAME   spear rager standard~
+SHORT  a standard Rager spear~
+DESCR 
+A plain-looking spear of a Rager lies here.~
+MAT    steel~
+TYPE   weapon spear 8 4 pierce F
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 41
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5712
+NAME   flail standard rager~
+SHORT  a standard Rager flail~
+DESCR 
+A plain-looking flail of a Rager lies here.~
+MAT    iron~
+TYPE   weapon flail 8 4 crush 0
+EXTRA  1 1 0 32768
+WEAR   AN
+LEVEL  51
+WEIGHT 19
+COST   1
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+RESTR  X
+End
+
+#5713
+NAME   rager battleaxe axe~
+SHORT  a superior Rager battleaxe~
+DESCR 
+A Rager battleaxe of improved craftsmanship lies here.~
+MAT    bone~
+TYPE   weapon axe 6 8 slice DF
+EXTRA  1 6 0 34377856
+WEAR   AN
+LEVEL  51
+WEIGHT 28
+COST   1
+COND   100
+RESTR  X
+End
+
+#5714
+NAME   suit field plate~
+SHORT  a suit of field plate~
+DESCR 
+A suit of field plate lies here.~
+MAT    steel~
+TYPE   armor ABCEG BDEF ABCEG BCEF 0
+EXTRA  1 1 0 32768
+WEAR   AD
+LEVEL  51
+WEIGHT 34
+COST   1
+COND   100
+RESTR  X
+End
+
+#5715
+NAME   sword broadsword~
+SHORT  a massive broadsword named 'The Unrelenting Juggernaut'~
+DESCR 
+Arkayvorak's weapon is here.~
+MAT    mithril~
+TYPE   weapon sword 7 8 rending D
+EXTRA  1 4 0 786689
+WEAR   AN
+LEVEL  51
+WEIGHT 16
+COST   5000
+COND   100
+Affect O 18 6 0
+Affect O 19 6 0
+LIMIT  1
+RESTR  X
+End
+
+#5750
+NAME   pack explosives bag~
+SHORT  small bag of explosives~
+DESCR 
+A small bag of explosives lie here.~
+MAT    leather~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 5 0 50860034
+WEAR   AS
+LEVEL  0
+WEIGHT 12
+COST   0
+COND   100
+Affect O 2 -5 0
+Affect O 19 10 0
+End
+
+#5751
+NAME   vest resistant magic~
+SHORT  magic resistant vest~
+DESCR 
+A magic-resistant vest lies here.~
+MAT    leather~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 6 0 50892802
+WEAR   AS
+LEVEL  0
+WEIGHT 12
+COST   5000
+COND   100
+Affect O 20 -10 0
+RESTR  X
+End
+
+#5752
+NAME   massive wicked axe battleaxe battle vengeance~
+SHORT  a massive wicked battle-axe named 'Vengeance'~
+DESCR 
+Fordus' leader weapon is here, return it.~
+MAT    wood~
+TYPE   weapon axe 9 6 defilement DM
+EXTRA  1 6 0 934017
+WEAR   AN
+LEVEL  52
+WEIGHT 14
+COST   0
+COND   100
+Affect O 18 10 0
+Affect O 19 10 0
+LIMIT  1
+RESTR  X
+End
+
+#5753
+NAME   venomous barbed javelin spear~
+SHORT  a venomous barbed javelin~
+DESCR 
+A deadly, venomous javelin is here.~
+MAT    energy~
+TYPE   weapon spear 9 7 chaotic CEFH
+EXTRA  1 4 0 786435
+WEAR   AN
+LEVEL  60
+WEIGHT 21
+COST   0
+COND   100
+Affect O 31 1 0
+Affect O 19 15 0
+Affect O 29 1 0
+LIMIT  1
+RESTR  X
+End
+
+#0
+
+
+
+#ROOMDATA
+#5700
+NAME   A muddy track~
+DESCR
+Water from the waterfall to the east has drained onto this path, changing
+what would have otherwise been dirt into thick mud.  Multitudes of deep
+footprints create grooves within the muddy surface, making it apparent that
+this hidden path is often trudged upon.  Fields of tall, swaying grass line
+either side of the track, and trees can be seen in the distance to the north
+and south.  To the west, the mud ends abruptly and a field of grass begins,
+and in the distance, what appear to be a number of huts dot the landscape. 
+A sound reminiscent of clashing metal echoes throughout the fields.  
+~
+FLAGS  9437186
+Sect   3
+DOOR 1
+~
+~
+0 -1 5281
+DOOR 3
+A path is overrun by grass and other plant life to the west.
+~
+~
+0 -1 5701
+MHRATE 0 100
+End
+
+#5701
+NAME   Grassy fields~
+DESCR
+Grass has slowly overgrown and overrun this section of the east-west
+path.  Certain areas of trampled grass leave evidence of regular travel and
+movement.  Lining either side of the grassy path-like field are
+significantly taller grass and occasional trees.  Towards the east, the
+grass fades onto a muddy path.  Westward, a small gate gives way to an
+arrangement of primitive huts.  The sound of clashing metal echoes loudly
+from the village to the west and from a massive hut in the distant south,
+unreachable from here due to the overgrowth.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 1
+A muddy track lies to the east.
+~
+~
+0 -1 5700
+DOOR 3
+A set of village gates lie to the west.
+~
+~
+0 -1 5702
+End
+
+#5702
+NAME   The village gates~
+DESCR
+Gates to the village to the west stand erect here, decorated on either
+side by rows of skulls and bloody heads impaled on pikes.  The gates appear
+to be wide open, allowing easy access into and out of the village.  The
+advance of the grass from the east ends here, giving way to a wide area of
+dirt and pebbles.  Spread out towards the west upon a wide dirt path are a
+number of man-made huts, occupied by the barbarians inhabitants of the
+village.  Some barbarians roam the village, carrying resources such as
+firewood, meat, water, and even full-grown dead cattle, while others still
+spar within the village perimeter.  Towards the east, a grassy field
+blankets the landscape.  Southward, the entrance to a large hut, spewing
+smoke from a hole in the roof, stands.  Towards the north, the entrance to a
+second large hut stands.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 0
+The entrance to a large hut lies to the north.
+~
+~
+0 -1 5703
+DOOR 1
+A path leads out from the village into a grassy field to the east.  
+~
+~
+0 -1 5701
+DOOR 2
+The entrance to a large hut lies to the south.
+~
+~
+0 -1 5706
+DOOR 3
+The village square lies to the west.
+~
+~
+0 -1 5704
+End
+
+#5703
+NAME   A large wooden hut~
+DESCR
+Furs, hides, and even human flesh hang from the walls of this grotesque
+hut.  An assortment of scalps and entire heads, beast and human, hang from
+hooks on the walls as trophies of barbarian victory.  The floor is composed
+of rough dirt and rock, stained red with dried blood near the walls as a
+result of dripping blood from the barbarian trophies.  Barbarians enter the
+hut periodically to hang another body part on the walls, admire the
+surroundings briefly, and leave as quickly as they came.  The exit to the
+hut is towards the south.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 2
+The entrance to the village lies to the south.
+~
+~
+0 -1 5702
+End
+
+#5704
+NAME   The village square~
+DESCR
+A wide area of dirt is spread out here.  Huts encircle and face a large
+bonfire site in the middle of the village, where barbarians carry out
+ceremonies and customary rituals.  In the center of the bonfire site, a
+smooth and massive iron pillar protrudes from the ground high into the air. 
+To the north, a rune-covered arch stands before a hut where wounded
+barbarians appear to enter and be relieved of their injuries.  Southward an
+expanse of empty space is laid out.  The sound of intense combat rings out
+from the dirt field, and a stench of blood attacks the nostrils.  Towards
+the west, a hut stands taller than any other in the entire village.  The
+entrance is adorned with a large number of impaled heads and skulls lie on
+the ground before it.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 0
+The village temple lies to the north.
+~
+~
+0 0 5709
+DOOR 1
+The village gates lie to the east.
+~
+~
+0 -1 5702
+DOOR 2
+An open field lies to the south.  The sound of clashing swords and
+warcries fill the air.  
+~
+~
+0 0 5708
+DOOR 3
+The Shrine of Skulls lies to the west.
+~
+~
+0 0 5710
+End
+
+#5706
+NAME   The entrance to the forge~
+DESCR
+Loud clanging fills the air here.  The hot air is thick and dry, and
+smoke spills out from towards the east.  Shattered weapons and armor, as
+well as other indiscernable objects, of various materials litter the ground
+here, forcing visitors' steps to be meticulous and well-placed.  Contrasting
+the chaotic mess that has befallen the room, however, deadly weapons of
+great make adorn the walls in well-fashioned sheaths and cases.  From the
+east, an aura of immense heat and smoke permeates and the clanging noises
+reminiscent of a hammer grow ever louder.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 0
+The entrance to the village lies to the north.
+~
+~
+0 -1 5702
+DOOR 1
+A forge seemingly lies in this direction.
+~
+~
+0 -1 5707
+End
+
+#5707
+NAME   Grime's forge~
+DESCR
+An immense heat fills this room, emanating from a primitively-crafted
+steel forge.  Bright red rocks fill the forge and emit large amounts of
+smoke, most of which escapes into the sky through a well-placed hole in the
+ceiling over the forge.  Despite the hole, however, some smoke lingers,
+making the already thick, hot air even more difficult to breathe.  The walls
+are charred, black, and bare as a result of the heat and smoke.  A barbarian
+weaponsmith stands near the forge, making a living by tempering weapons of
+every sort for the rest of the village to use.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 3
+To the west lies the entrance to this forge.
+~
+~
+0 -1 5706
+End
+
+#5708
+NAME   The brawling square~
+DESCR
+The wide expanse of dirt here is covered in both dried and wet blood.  In
+the center of the square, a behemoth of a barbarian stands unopposed,
+challenging the other barbarians to test their strength against him in live
+combat.  Other barbarians fight to determine the superior elsewhere in the
+square.  Towards the west end of the field, a pile of corpses lie rotting,
+giving testament to those who were unprepared and defeated in combat. 
+Swords and other weapons also litter the ground, left behind by those who
+have fled and dishonored themselves.  The sounds of clashing swords can be
+heard all around and also towards the north, where the village square lies. 
+~
+FLAGS  13639680
+Sect   3
+DOOR 0
+The village square lies to the north.
+~
+~
+0 0 5704
+End
+
+#5709
+NAME   The village shrine~
+DESCR
+Barbarians roam this room in an almost zombie-like fashion.  As one
+wounded barbarian enters, a healthy one leaves.  A line of barbarians stands
+in front of a robed human near the end of the room who is in deep
+concentration, apparently healing wounds.  The rest of the hut is rather
+plainly decorated, with the exception of medicinal herbs and bandages strewn
+about the floor occasionally.  An altar erected behind the healer indicates
+that this hut is a shrine of some kind.  You can return to the village
+square to the south.  
+~
+FLAGS  13639680
+Sect   3
+DOOR 2
+The village square lies to the south.
+~
+~
+0 0 5704
+End
+
+#5710
+NAME   The Shrine of Skulls~
+DESCR
+The walls of this massive hut are covered with dried blood and bones
+litter the ground.  The floor is stained red with the blood of intruders and
+traitors.  True to the Shrine's name, skulls and impaled heads cover the
+ground here like grains of sand.  In the center of the room, the village's
+greatest warrior, the Destructor, stands guarding the gruesome head of
+Thera's greatest sorcerer, impaled upon a well-adorned silver pike.  The
+rest of the village lies back to the east.  
+~
+FLAGS  9707528
+Sect   0
+DOOR 1
+The village square lies to the east.
+~
+~
+0 0 5704
+End
+
+#0
+
+
+
+#SPECIALS
+M 5700 spec_destructor
+M 5710 spec_rager
+S
+
+
+
+#RESETS
+M 0 5710 1 5700 1
+M 0 3059 1 5703 1
+O 0 5700 0 5704
+M 0 5701 1 5707 1
+G 0 5704 0
+G 0 5705 0
+G 0 5706 0
+G 0 5707 0
+G 0 5708 0
+G 0 5709 0
+G 0 5710 0
+G 0 5711 0
+G 0 5751 0
+G 0 5712 0
+M 0 5703 1 5708 1
+E 0 5713 0 16
+E 0 5714 0 5
+M 0 5702 1 5709 1
+O 0 5703 0 5709
+M 0 5700 1 5710 1
+S
+
+
+
+#SHOPS
+5701 1 5 9 11 0 150 70 0 23
+0
+
+
+
+#IMPROGS
+I 5701 give_prog give_prog_cabal_item
+M 5700 greet_prog greet_prog_inner_guardian
+M 5700 death_prog death_prog_inner_guardian
+M 5710 greet_prog greet_prog_outer_guardian
+M 5710 death_prog death_prog_outer_guardian
+M 5710 attack_prog attack_prog_outer_guardian
+M 5710 move_prog move_prog_outer_guardian
+E
+
+
+
+#$

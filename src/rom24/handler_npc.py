@@ -40,6 +40,14 @@ class Npc(living.Living):
         self.killed = 0
         self.pShop = None
         self.listeners = {}
+        # KBK OLC extended attributes
+        self.cabal = 0
+        self.dam_mod = 100
+        self.enhanced_dam_mod = 100
+        self.regen_rate = 0
+        self.quest_credit_reward = 0
+        self.num_attacks = 0
+        self.extended_flags = 0
         if kwargs:
             [setattr(self, k, copy.deepcopy(v)) for k, v in kwargs.items()]
         if template:

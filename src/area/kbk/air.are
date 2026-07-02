@@ -1,0 +1,1411 @@
+#AREADATA
+Name In the Air~
+Builders None~
+VNUMs 1000 1099
+Credits { 5 10} Copper  In the Air~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#1000
+NAME  oldstyle fairy dragon~
+SHORT A fairy dragon~
+LONG  A fairy dragon is fluttering around here looking for something to do...
+~
+DESCR
+It's a cute little multi-colored dragon...about 2 foot long.
+It gracefully dances around your head.
+~
+RACE  human~
+ACT   AGR
+AFF   1 2 0 536
+OFF   FU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 500
+GROUP 0
+LEVEL 5
+HROLL 0
+ENHA  100.00%
+HDICE 2d7+46
+MDICE 5d9+100
+DDICE 1d5+0
+DTYPE none
+AC    6 6 6 8
+POS   stand stand
+SEX   none
+GOLD  1
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#1001
+NAME  oldstyle griffin~
+SHORT A griffin~
+LONG  A large black winged griffin swoops into an attack.
+~
+DESCR
+Golden maned and black all over.  It's quite a beautiful creature if not
+for the fact it is hungry and is attacking you!
+~
+RACE  human~
+ACT   AFG
+AFF   0 0
+OFF   EFNU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 300
+GROUP 0
+LEVEL 8
+HROLL 0
+ENHA  100.00%
+HDICE 2d7+96
+MDICE 4d9+100
+DDICE 1d7+2
+DTYPE none
+AC    3 3 3 9
+POS   stand stand
+SEX   male
+GOLD  25
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#1001
+NAME   rose~
+SHORT  a red rose~
+DESCR 
+A red rose is lying on the ground.~
+MAT    oldstyle~
+TYPE   treasure BC 0 0 0 0
+EXTRA  0 0
+WEAR   AE
+LEVEL  0
+WEIGHT 0
+COST   0
+COND   100
+EDESC rose~
+It's a beautiful red rose, with a soft and romantic fragrance.
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#1001
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the ground north of the city.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1006
+DOOR 2
+More of the same.
+~
+~
+0 0 1002
+DOOR 4
+More of the same.
+~
+~
+0 0 1021
+End
+
+#1002
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above the inside wall of West Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1001
+DOOR 1
+More of the same.
+~
+~
+0 0 1007
+DOOR 2
+More of the same.
+~
+~
+0 0 1003
+DOOR 4
+More of the same.
+~
+~
+0 0 1022
+End
+
+#1003
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above the west gate of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1002
+DOOR 1
+More of the same.
+~
+~
+0 0 1008
+DOOR 2
+More of the same.
+~
+~
+0 0 1004
+DOOR 4
+More of the same.
+~
+~
+0 0 1023
+End
+
+#1004
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1003
+DOOR 1
+More of the same.
+~
+~
+0 0 1009
+DOOR 2
+More of the same.
+~
+~
+0 0 1005
+DOOR 4
+More of the same.
+~
+~
+0 0 1024
+End
+
+#1005
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1004
+DOOR 1
+More of the same.
+~
+~
+0 0 1010
+DOOR 4
+More of the same.
+~
+~
+0 0 1025
+End
+
+#1006
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1011
+DOOR 2
+More of the same.
+~
+~
+0 0 1007
+DOOR 3
+More of the same.
+~
+~
+0 0 1001
+DOOR 4
+More of the same.
+~
+~
+0 0 1026
+End
+
+#1007
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above the magic shop.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1006
+DOOR 1
+More of the same.
+~
+~
+0 0 1012
+DOOR 2
+More of the same.
+~
+~
+0 0 1008
+DOOR 3
+More of the same.
+~
+~
+0 0 1002
+DOOR 4
+More of the same.
+~
+~
+0 0 1027
+End
+
+#1008
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1007
+DOOR 1
+More of the same.
+~
+~
+0 0 1013
+DOOR 2
+More of the same.
+~
+~
+0 0 1009
+DOOR 3
+More of the same.
+~
+~
+0 0 1003
+DOOR 4
+More of the same.
+~
+~
+0 0 1028
+End
+
+#1009
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above the Mage Guild Hall.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1008
+DOOR 1
+More of the same.
+~
+~
+0 0 1014
+DOOR 2
+More of the same.
+~
+~
+0 0 1010
+DOOR 3
+More of the same.
+~
+~
+0 0 1004
+DOOR 4
+More of the same.
+~
+~
+0 0 1029
+End
+
+#1010
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1009
+DOOR 1
+More of the same.
+~
+~
+0 0 1015
+DOOR 3
+More of the same.
+~
+~
+0 0 1005
+DOOR 4
+More of the same.
+~
+~
+0 0 1030
+End
+
+#1011
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1016
+DOOR 2
+More of the same.
+~
+~
+0 0 1012
+DOOR 3
+More of the same.
+~
+~
+0 0 1006
+DOOR 4
+More of the same.
+~
+~
+0 0 1031
+End
+
+#1012
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above the bakery.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1011
+DOOR 1
+More of the same.
+~
+~
+0 0 1017
+DOOR 2
+More of the same.
+~
+~
+0 0 1013
+DOOR 3
+More of the same.
+~
+~
+0 0 1007
+DOOR 4
+More of the same.
+~
+~
+0 0 1032
+End
+
+#1013
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1012
+DOOR 1
+More of the same.
+~
+~
+0 0 1018
+DOOR 2
+More of the same.
+~
+~
+0 0 1014
+DOOR 3
+More of the same.
+~
+~
+0 0 1008
+DOOR 4
+More of the same.
+~
+~
+0 0 1033
+End
+
+#1014
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 20 meters above Armoury.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1013
+DOOR 1
+More of the same.
+~
+~
+0 0 1019
+DOOR 2
+More of the same.
+~
+~
+0 0 1015
+DOOR 3
+More of the same.
+~
+~
+0 0 1009
+DOOR 4
+More of the same.
+~
+~
+0 0 1034
+End
+
+#1015
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1014
+DOOR 1
+More of the same.
+~
+~
+0 0 1020
+DOOR 3
+More of the same.
+~
+~
+0 0 1010
+DOOR 4
+More of the same.
+~
+~
+0 0 1035
+End
+
+#1016
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 10 meters above the temple spire of Midgaard
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 2
+More of the same.
+~
+~
+0 0 1017
+DOOR 3
+More of the same.
+~
+~
+0 0 1011
+DOOR 4
+More of the same.
+~
+~
+0 0 1036
+End
+
+#1017
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the Temple Square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1016
+DOOR 2
+More of the same.
+~
+~
+0 0 1018
+DOOR 3
+More of the same.
+~
+~
+0 0 1012
+DOOR 4
+More of the same.
+~
+~
+0 0 1037
+DOOR 5
+More of the same
+~
+~
+0 0 3057
+End
+
+#1018
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Market Square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1017
+DOOR 2
+More of the same.
+~
+~
+0 0 1019
+DOOR 3
+More of the same.
+~
+~
+0 0 1013
+DOOR 4
+More of the same.
+~
+~
+0 0 1038
+End
+
+#1019
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above Market and Commons.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1018
+DOOR 2
+More of the same.
+~
+~
+0 0 1020
+DOOR 3
+More of the same.
+~
+~
+0 0 1014
+DOOR 4
+More of the same.
+~
+~
+0 0 1039
+End
+
+#1020
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above ground, overlooking the Common Square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1019
+DOOR 3
+More of the same.
+~
+~
+0 0 1015
+DOOR 4
+More of the same.
+~
+~
+0 0 1040
+End
+
+#1021
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above the ground just north of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1026
+DOOR 2
+More of the same.
+~
+~
+0 0 1022
+DOOR 5
+More of the same.
+~
+~
+0 0 1001
+End
+
+#1022
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the west gate of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1021
+DOOR 1
+More of the same.
+~
+~
+0 0 1027
+DOOR 2
+More of the same.
+~
+~
+0 0 1023
+DOOR 5
+More of the same.
+~
+~
+0 0 1002
+End
+
+#1023
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above west gate of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1022
+DOOR 1
+More of the same.
+~
+~
+0 0 1028
+DOOR 2
+More of the same.
+~
+~
+0 0 1024
+DOOR 5
+More of the same.
+~
+~
+0 0 1003
+End
+
+#1024
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1023
+DOOR 1
+More of the same.
+~
+~
+0 0 1029
+DOOR 2
+More of the same.
+~
+~
+0 0 1025
+DOOR 5
+More of the same.
+~
+~
+0 0 1004
+End
+
+#1025
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1024
+DOOR 1
+More of the same.
+~
+~
+0 0 1030
+DOOR 5
+More of the same.
+~
+~
+0 0 1005
+End
+
+#1026
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1031
+DOOR 2
+More of the same.
+~
+~
+0 0 1027
+DOOR 3
+More of the same.
+~
+~
+0 0 1021
+DOOR 5
+More of the same.
+~
+~
+0 0 1006
+End
+
+#1027
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the magic shop.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1026
+DOOR 1
+More of the same.
+~
+~
+0 0 1032
+DOOR 2
+More of the same.
+~
+~
+0 0 1028
+DOOR 3
+More of the same.
+~
+~
+0 0 1022
+DOOR 5
+More of the same.
+~
+~
+0 0 1007
+End
+
+#1028
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1027
+DOOR 1
+More of the same.
+~
+~
+0 0 1033
+DOOR 2
+More of the same.
+~
+~
+0 0 1029
+DOOR 3
+More of the same.
+~
+~
+0 0 1023
+DOOR 5
+More of the same.
+~
+~
+0 0 1008
+End
+
+#1029
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the mage guild.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1028
+DOOR 1
+More of the same.
+~
+~
+0 0 1034
+DOOR 2
+More of the same.
+~
+~
+0 0 1030
+DOOR 3
+More of the same.
+~
+~
+0 0 1024
+DOOR 5
+More of the same.
+~
+~
+0 0 1009
+End
+
+#1030
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1029
+DOOR 1
+More of the same.
+~
+~
+0 0 1035
+DOOR 3
+More of the same.
+~
+~
+0 0 1025
+DOOR 5
+More of the same.
+~
+~
+0 0 1010
+End
+
+#1031
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 1
+More of the same.
+~
+~
+0 0 1036
+DOOR 2
+More of the same.
+~
+~
+0 0 1032
+DOOR 3
+More of the same.
+~
+~
+0 0 1026
+DOOR 5
+More of the same.
+~
+~
+0 0 1011
+End
+
+#1032
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above bakery and cleric guild.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1031
+DOOR 1
+More of the same.
+~
+~
+0 0 1037
+DOOR 2
+More of the same.
+~
+~
+0 0 1033
+DOOR 3
+More of the same.
+~
+~
+0 0 1027
+DOOR 5
+More of the same.
+~
+~
+0 0 1012
+End
+
+#1033
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1032
+DOOR 1
+More of the same.
+~
+~
+0 0 1038
+DOOR 2
+More of the same.
+~
+~
+0 0 1034
+DOOR 3
+More of the same.
+~
+~
+0 0 1028
+DOOR 5
+More of the same.
+~
+~
+0 0 1013
+End
+
+#1034
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 40 meters above the armoury.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1033
+DOOR 1
+More of the same.
+~
+~
+0 0 1039
+DOOR 2
+More of the same.
+~
+~
+0 0 1035
+DOOR 3
+More of the same.
+~
+~
+0 0 1029
+DOOR 5
+More of the same.
+~
+~
+0 0 1014
+End
+
+#1035
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1034
+DOOR 1
+More of the same.
+~
+~
+0 0 1040
+DOOR 3
+More of the same.
+~
+~
+0 0 1030
+DOOR 5
+More of the same.
+~
+~
+0 0 1015
+End
+
+#1036
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 30 meters above the temple spire.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 2
+More of the same.
+~
+~
+0 0 1037
+DOOR 3
+More of the same.
+~
+~
+0 0 1031
+DOOR 5
+More of the same.
+~
+~
+0 0 1016
+End
+
+#1037
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above the temple square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1036
+DOOR 2
+More of the same.
+~
+~
+0 0 1038
+DOOR 3
+More of the same.
+~
+~
+0 0 1032
+DOOR 5
+More of the same.
+~
+~
+0 0 1017
+End
+
+#1038
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above market square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1037
+DOOR 2
+More of the same.
+~
+~
+0 0 1039
+DOOR 3
+More of the same.
+~
+~
+0 0 1033
+DOOR 5
+More of the same.
+~
+~
+0 0 1018
+End
+
+#1039
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above market square and commons square.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1038
+DOOR 2
+More of the same.
+~
+~
+0 0 1040
+DOOR 3
+More of the same.
+~
+~
+0 0 1034
+DOOR 5
+More of the same.
+~
+~
+0 0 1019
+End
+
+#1040
+NAME   In the air ...~
+DESCR
+You are flying!
+Currently you are about 60 meters above commoners square and the dump.
+It seems like you can see forever!
+~
+FLAGS  0
+Sect   9
+DOOR 0
+More of the same.
+~
+~
+0 0 1039
+DOOR 3
+More of the same.
+~
+~
+0 0 1035
+DOOR 5
+More of the same.
+~
+~
+0 0 1020
+End
+
+#0
+
+
+
+#SPECIALS
+M 1000 spec_cast_mage
+S
+
+
+
+#RESETS
+M 0 1001 3 1034 3
+M 0 1000 10 1005 4
+M 0 1000 10 1019 4
+M 0 1000 10 1022 4
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

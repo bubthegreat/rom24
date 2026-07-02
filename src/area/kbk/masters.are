@@ -1,0 +1,652 @@
+#AREADATA
+Name Arcana Cabal~
+Builders None~
+VNUMs 5800 5899
+Credits {CABAL} Zornath Tower of Eternal Collective~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#5800
+NAME  inner seneschal guardian~
+SHORT The Seneschal~
+LONG  The Seneschal of Magic stands here, silently guarding the Tower's secrets.
+~
+DESCR
+This ghostly figure is among the strongest sorcerers of the land.  He
+wears thick, well-adorned robes bearing countless arcane runes and
+enchantments.  The very power of this wizard emanates forth from within him,
+forming an aura of pure magic about him.  He stands here, guarding the
+Tower's secrets and the Orb of Magic with his very life.  
+~
+RACE  elf~
+ACT   ABDRVde
+AFF   0
+OFF   I
+IMM   ABR
+RES   BCH
+VULN  Z
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 2d500+5500
+MDICE 1d1+3999
+DDICE 10d10+10
+REGEN 0
+DTYPE magic
+AC    -9 -9 -9 -20
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 3
+CABAL arcana
+End
+
+#5801
+NAME  healer adept~
+SHORT an adept~
+LONG  An adept and healer of the Eternal Collective is here.
+~
+DESCR
+He is an old, wise cleric giving aid to those of the Eternal Collective.
+~
+RACE  human~
+ACT   ABQVae
+AFF   0
+OFF   FHIK
+IMM   ABC
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1999
+MDICE 1d1+999
+DDICE 2d4+30
+REGEN 0
+DTYPE divine
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL arcana
+End
+
+#5802
+NAME  fiery red demon~
+SHORT a fiery demon~
+LONG  A red, fiery demon is looking around very angry.
+~
+DESCR
+A big red demon, you feel like it is flaming.
+~
+RACE  unique~
+ACT   AB
+AFF   0
+OFF   FHI
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+1
+DDICE 2d4+20
+REGEN 0
+DTYPE slash
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#5803
+NAME  sorceress outer~
+SHORT the high sorceress~
+LONG  The high sorceress stands calmly before the gate to her tower.
+~
+DESCR
+A tall elven sorceress stands garbed in gray robes. Her fists are laced in dark, thick charges of electricity.
+~
+RACE  elf~
+ACT   ABGLRZ
+AFF   NUV
+OFF   0
+IMM   AB
+RES   BCH
+VULN  Z
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 2d500+4500
+MDICE 1d1+4999
+DDICE 1d1+40
+REGEN 0
+DTYPE magic
+AC    -60 -60 -60 -60
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL arcana
+End
+
+#0
+
+
+
+#OBJDATA
+#5800
+NAME   tome large~
+SHORT  the Tome of Infinity~
+DESCR 
+The Tome of Infinity rests here upon a rune-covered altar.~
+MAT    mineral~
+TYPE   container 10 ABCD 5802 15 100
+EXTRA  1 4 0 16924673
+WEAR   P
+LEVEL  60
+WEIGHT 8
+COST   20
+COND   100
+End
+
+#5801
+NAME   orb magic arcana~
+SHORT  the Orb of Magic~
+DESCR 
+The Orb of Magic lies here.~
+MAT    ebony~
+TYPE   staff 0 0 0 '' 0
+EXTRA  1 3 0 540673
+WEAR   A
+LEVEL  60
+WEIGHT 8
+COST   20000
+COND   100
+CABAL  3
+LIMIT  1
+End
+
+#5802
+NAME   key~
+SHORT  a spider shaped key~
+DESCR 
+A spider shaped  key is on the ground.~
+MAT    steel~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   AO
+LEVEL  40
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#5803
+NAME   potion crimson~
+SHORT  a bloody crimson potion~
+DESCR 
+A small crimson potion overflows with what seems to be blood.~
+MAT    glass~
+TYPE   potion 55 'shield' 'armor' 'giant strength' 'bless'
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  51
+WEIGHT 7
+COST   2000
+COND   100
+EDESC potion crimson~
+A small crimson potion overflows with what seems to be blood.
+~
+End
+
+#5804
+NAME   scrying orb~
+SHORT  the scrying orb of Arcana~
+DESCR 
+A crystalline scrying orb hovers here, swirling with profound energy.~
+MAT    magic~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  60
+WEIGHT 1
+COST   0
+COND   100
+EDESC orb~
+Peering into the orb alone reveals nothing.  One must first conjure the
+image of the one he seeks to target and then focus his energy into the orb
+to utilize its magic.  
+~
+EDESC scrying~
+Peering into the orb alone reveals nothing.  One must first conjure the
+image of the one he seeks to target and then focus his energy into the orb
+to utilize its magic.  
+~
+End
+
+#5850
+NAME   phylactery tactics~
+SHORT  phylactery of tactics~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion tactics' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5851
+NAME   phylactery sanctuary~
+SHORT  phylactery of sanctuary~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion sanc' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5852
+NAME   phylactery flight~
+SHORT  phylactery of flight~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion flight' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5853
+NAME   phylactery silence~
+SHORT  phylactery of silence~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion sneak' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5854
+NAME   phylactery recall~
+SHORT  phylactery of recall~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion recall' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5855
+NAME   phylactery quickness~
+SHORT  phylactery of quickness~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion haste' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5856
+NAME   phylactery transparency~
+SHORT  phylactery of transparency~
+DESCR 
+An ancient symbol of evil hovers here.~
+MAT    mineral~
+TYPE   staff 50 1 1 'minion trans' 0
+EXTRA  1 7 0 50364563
+WEAR   AO
+LEVEL  50
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#5857
+NAME   sword scimitar flaming dis~
+SHORT  "Shadow's Touch" the Flaming Scimitar of Dis~
+DESCR 
+Elmer's leader weapon is here, return it or Tracerah will slay you a whole lot.~
+MAT    ebony~
+TYPE   weapon sword 9 7 acidbite C
+EXTRA  1 9 0 789191
+WEAR   AN
+LEVEL  60
+WEIGHT 13
+COST   0
+COND   100
+Affect O 19 10 0
+Affect O 18 10 0
+Affect O 20 -5 0
+Affect O 5 5 0
+Affect O 13 40 0
+LIMIT  1
+End
+
+#0
+
+
+
+#ROOMDATA
+#5800
+NAME   A Shimmering Portal - The Pinnacle~
+DESCR
+You stand in a rift in time and space, and perhaps reality itself.  Blue,
+teal, and purple hues move quickly and chaotically around you in every
+direction, and there are no defined walls or ceiling.  Countless cryptic
+runes dance in the air about the portal, giving testament to the immense
+amount of magical power harnessed by the founders to tear reality itself. 
+The air around you vibrates and hums with raw magical energy and the sheer
+potency of the magic can be felt in waves through the body.  In the chaos of
+this void, the Seneschal, the Tower's most powerful mage, stands watch over
+the sacred Orb of Magic and the Tome of Infinity, where the most powerful
+spells and magical secrets of the Tower are kept.  
+~
+FLAGS  13901832
+Sect   0
+DOOR 5
+The third floor of the Tower of the Collective lies down.  
+~
+~
+0 -1 5801
+End
+
+#5801
+NAME   The Tower of the Collective - Third Level~
+DESCR
+The third level of the Tower of the Collective is the first level where
+true sorcerers and magicians are admitted.  Students and other learners are
+forced to stay below in the lower levels, as serious study and delving into
+the realm of magic begins here.  On this floor, the members of Arcana
+further Thera's knowledge and uses of magic.  Tables with massive texts line
+the walls of the room, and the center of the room is entirely clear,
+intended for the sorcerers to experiment newfound magic.  The library and
+lower levels are down a spiral staircase on the eastern side of the room,
+while a large staircase leads up through a shimmering portal in the center
+of the room.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 2
+The smell of concoctions and bubbling noises emanate from the south.  
+~
+~
+0 0 5806
+DOOR 4
+A shimmering portal has been ripped in space at the Tower's peak.  
+~
+~
+0 -1 5800
+DOOR 5
+The second floor of the tower lies down.  
+~
+~
+0 -1 5802
+End
+
+#5802
+NAME   The Tower of the Collective - Second Level~
+DESCR
+The whole circumfrance of this room is lined with bookshelves.  Fellow
+students bustle about with books in thier hands reading books on spells and
+repeating incantions as they walk about.  Different chairs and couches fill
+the center of the room where students can sit and discuss different spells
+with one another.  Countless bookshelves adorn this massive room that forms
+the second level of the tower.  Students and full-fledged sorcerers alike
+find leisure in spending time here, reading books on magic and the history
+of the Collective.  Desks fill certain cleared areas of the library and are
+all populated to near-capacity by studious magicians, and couches are
+comfortably, and conveniently, placed to promote discussion about spells and
+knowledge between the library's visitors.  The outer walls retain their
+shimmering, glass-like appearance.  A large spiral staircase in the eastern
+end of the room leads back down to the first level, while another spiral
+staircase on the western end of the room leads upwards to the third level of
+the tower.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 4
+The third floor of the Tower of the Collective lies up.  
+~
+~
+0 -1 5801
+DOOR 5
+The bottom floor of the Tower of the Collective lies down.  
+~
+~
+0 -1 5803
+End
+
+#5803
+NAME   The Tower of the Collective - First Level~
+DESCR
+You stand in the lowest level of the tower, in a room reminiscent of an
+indoor courtyard.  The floors are tiled with white marble and what would be
+a large circular room is divided into several: some classrooms, and others
+practice rooms.  The outer walls are composed of a material similar to
+glass, but the tough, ethereal texture hints unnatural forces at work. 
+Students of magic and those hoping to one day be found among the tower's
+ranks comprise most of the magicians on this level, studying and practicing
+their magic.  A large spiral staircase begins on the western end of this
+room, leading to the second level, and the tower's exterior is towards the
+south.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 2
+The entrance to the Tower of the Collective, a spectral bridge, lies to
+the south.  
+~
+~
+0 -1 5804
+DOOR 4
+The second floor of the tower lies up.
+~
+~
+0 -1 5802
+End
+
+#5804
+NAME   Outside the Tower~
+DESCR
+You stand outside a tower wrought of pure magic.  The outer walls
+shimmer similarly to glass and reflect a spectrum of colors when the pulsing
+stars in the distance reach their peak brightness.  Near the entrance, large
+crystal spires pierce high into the dark sky above.  Mere proximity to the
+tower heightens the mind's awareness, and it is obvious that raw power
+radiates from the tower and spires themselves.  A rune-covered arch stands
+at the entrance to the tower to the north, while the mystical path continues
+to the south.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+The bottom floor of the Tower of the Collective lies north.  
+~
+~
+0 -1 5803
+DOOR 2
+The spectral bridge runs towards the south, ending at magnificent
+spectral gates.  
+~
+~
+0 -1 5805
+End
+
+#5805
+NAME   The Mystical Path~
+DESCR
+A shimmering arch, made of cyan-colored crystal, stands erect here. 
+Pulsing white runes not only cover the sides and top of the gate, but also
+float in mid-air about it.  The stars in the distance pulse in coordination
+with the runes, making the surrounding light shift repeatedly from
+significantly bright to eerily dim.  Past the gate, to the north, a road of
+flickering white leads the way through space towards the Tower of the
+Eternal Collective.  
+~
+FLAGS  13631498
+Sect   0
+DOOR 0
+The spectral bridge runs toward the north, ending in front of a looming tower.
+~
+~
+0 -1 5804
+DOOR 1
+Uncharted parts of the galaxy lie to the east.
+~
+~
+0 -1 9310
+End
+
+#5806
+NAME   The Arcane Brewery~
+DESCR
+Bubbling can be heard from all directions in this room.  Here, sorcerers
+delving in the art of potion-brewing and other physical creations infused
+with magic perform their work.  Laboratories in separate rooms nearby study
+the effects of certain concoctions, as well as how to transfer existing
+magic to bottles of liquid for the Collective to use.  A man stands behind a
+counter, being handed potions by workers and selling them as necessary. 
+Towards the north, the main room of the third level can be found.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+The third floor of the Tower lies back to the north.  
+~
+~
+0 0 5801
+End
+
+#5809
+NAME   The Source Of Magic~
+DESCR
+You are in a limitless area of white. The essence of pure magic surrounds you,
+and your power knows no limits in this sea of magic. You feel as though you are
+one with all magic.
+~
+FLAGS  8716
+Sect   1
+EDESC  skeletons~
+The skeletons looks like they had suffered the death of hunger.
+One of them looks like he has written something at the wall.
+~
+EDESC  writing wall~
+The writing says 'A pray to the GODS will not be heard, though
+the only exit is death..... Mother, I love you'.
+~
+End
+
+#0
+
+
+
+#SPECIALS
+M 5800 spec_seneschal
+M 5803 spec_cast_mage
+S
+
+
+
+#RESETS
+O 0 5800 0 5800
+M 0 5800 1 5800 1
+M 0 5803 1 5805 1
+O 0 5804 0 5805
+M 0 5801 1 5806 1
+G 0 5803 0
+S
+
+
+
+#SHOPS
+5801 0 0 0 0 0 100 15 0 23
+0
+
+
+
+#IMPROGS
+I 5801 give_prog give_prog_cabal_item
+I 5857 fight_prog fight_prog_arcana_sword
+M 5800 greet_prog greet_prog_inner_guardian
+M 5800 death_prog death_prog_inner_guardian
+M 5803 greet_prog greet_prog_outer_guardian
+M 5803 death_prog death_prog_outer_guardian
+M 5803 attack_prog attack_prog_outer_guardian
+M 5803 move_prog move_prog_outer_guardian
+E
+
+
+
+#$

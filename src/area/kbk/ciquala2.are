@@ -1,0 +1,1745 @@
+#AREADATA
+Name Ciquala's Lair~
+Builders None~
+VNUMs 13400 13499
+Credits {40 52} Binky   Ciquala's Lair~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#13400
+NAME  lich guardian~
+SHORT Guardian Lich~
+LONG  The Guardian Lich steps out of the shadows and attacks!
+~
+DESCR
+The Guardian lich looks like a decaying corpse, with small glowing points of
+light for eyes.
+~
+RACE  human~
+ACT   ABCF
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 33
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1100
+MDICE 329d1+1
+DDICE 6d4+10
+REGEN 0
+DTYPE slash
+AC    -11 -11 -11 5
+POS   stand stand
+SEX   male
+GOLD  4200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13401
+NAME  vampire assistant~
+SHORT the vampire lab assistant~
+LONG  A lab assistant turns toward you and bares his fangs!
+~
+DESCR
+This lab assistant was chosen from amongst the undead for both his knowledge
+of magic, and his rather nasty disposition.  He revels in creating loathesome,
+twisted, warped creatures to serve Ciquala.
+~
+RACE  human~
+ACT   ABCFH
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 13401
+LEVEL 22
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+400
+MDICE 219d1+1
+DDICE 4d4+6
+REGEN 0
+DTYPE beating
+AC    -5 -5 -5 7
+POS   stand stand
+SEX   male
+GOLD  1200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13402
+NAME  creature nightmare~
+SHORT a warped creature from a nightmare~
+LONG  A warped creature as if from a nightmare is here.
+~
+DESCR
+This creature may resemble some kind of serpent, but some parts of it are
+covered with scales, and others with hair.  It's head has 1 large bulbous eye,
+much like that of an insect.  Long talons reach out for you to shred you alive.
+~
+RACE  human~
+ACT   AFGH
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 399d1+1
+DDICE 4d8+13
+REGEN 0
+DTYPE beating
+AC    -13 -13 -13 4
+POS   stand stand
+SEX   male
+GOLD  5800
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13403
+NAME  creature docile~
+SHORT a docile creature~
+LONG  A docile creature stands here, probably from an experiment that failed.
+~
+DESCR
+The creature would probably not hurt a fly.  Actually, it is unaware of its own
+existence.
+~
+RACE  human~
+ACT   AB
+AFF   0
+OFF   HO
+IMM   BEJ
+RES   PS
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 35
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1300
+MDICE 349d1+1
+DDICE 4d7+11
+REGEN 0
+DTYPE pierce
+AC    -11 -11 -11 5
+POS   stand stand
+SEX   either
+GOLD  5199
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13404
+NAME  black pudding crate~
+SHORT the black pudding~
+LONG  A crate stands here.
+~
+DESCR
+As you examine this crate, a black tarlike substance seeps between the boards
+slowly eating the wood away.  It is a black pudding!
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   ABI
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 37
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1500
+MDICE 369d1+1
+DDICE 3d10+12
+REGEN 0
+DTYPE slash
+AC    -12 -12 -12 5
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13405
+NAME  gigantic automaton~
+SHORT a gigantic automaton~
+LONG  A gigantic automaton blocks your way.
+~
+DESCR
+This gigantic construct is made of a metallic substance that you do not
+recognize.  He stands about 8' tall, brushing the ceiling.
+~
+RACE  human~
+ACT   AB
+AFF   0
+OFF   BEF
+IMM   ABI
+RES   0
+VULN  K
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 50
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 499d1+1
+DDICE 5d8+19
+REGEN 0
+DTYPE beating
+AC    -20 -20 -20 3
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13406
+NAME  undead guardian~
+SHORT the undead guardian~
+LONG  An undead guardian screams at you and attacks!
+~
+DESCR
+This creature is a hovering dark shape.  It does not seem to have a body so
+to speak.  As it approaches you, a harsh chill makes you shiver.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   ABI
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 449d1+1
+DDICE 8d4+16
+REGEN 0
+DTYPE beating
+AC    -15 -15 -15 4
+POS   stand stand
+SEX   male
+GOLD  7500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13407
+NAME  roof ceiling lurker above~
+SHORT the lurker above~
+LONG  ~
+DESCR
+The ceiling appears rather shiny.  Not like dirt at all.  You suddenly realize
+that it isn't a ceiling, but a LURKER ABOVE!  You had better attack before
+it drops on you!
+~
+RACE  human~
+ACT   ABFH
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 27
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+650
+MDICE 269d1+1
+DDICE 5d4+7
+REGEN 0
+DTYPE pierce
+AC    -8 -8 -8 6
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13408
+NAME  vampire servant~
+SHORT a vampire servant~
+LONG  A vampire servant to Ciquala is here, hungering for your blood.
+~
+DESCR
+This vampire looks very pale and thin.  Ciquala has not been allowing him
+enough time at night to feed properly.  He is VERY happy that you walked in
+on him.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 37
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1500
+MDICE 369d1+1
+DDICE 3d10+12
+REGEN 0
+DTYPE none
+AC    -12 -12 -12 5
+POS   stand stand
+SEX   male
+GOLD  5300
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13409
+NAME  human automaton~
+SHORT the human automaton~
+LONG  A mindless automaton that used to be human is standing here.
+~
+DESCR
+This mindless lump of flesh used to be human.  It's flesh has been converted
+to a dull grey substance.  The automaton is very strong, and will be a fierce
+opponent.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 30
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 6d12+853
+MDICE 299d1+1
+DDICE 4d6+8
+REGEN 0
+DTYPE beating
+AC    -9 -9 -9 6
+POS   stand stand
+SEX   male
+GOLD  3400
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13410
+NAME  human automaton~
+SHORT the human automaton~
+LONG  A mindless automaton that used to be human is standing here.
+~
+DESCR
+This mindless lump of flesh used to be human.  It's flesh has been converted
+to a dull grey substance.  The automaton is very strong, and will be a fierce
+opponent.
+~
+RACE  human~
+ACT   AB
+AFF   0
+OFF   BEF
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -250
+GROUP 0
+LEVEL 33
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1100
+MDICE 329d1+1
+DDICE 6d4+10
+REGEN 0
+DTYPE beating
+AC    -11 -11 -11 5
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13411
+NAME  human automaton~
+SHORT the human automaton~
+LONG  A mindless automaton that used to be human is standing here.
+~
+DESCR
+This mindless lump of flesh used to be human.  It's flesh has been converted
+to a dull grey substance.  The automaton is very strong, and will be a fierce
+opponent.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN 250
+GROUP 0
+LEVEL 36
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1400
+MDICE 359d1+1
+DDICE 3d10+11
+REGEN 0
+DTYPE beating
+AC    -12 -12 -12 5
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13412
+NAME  human automaton~
+SHORT the human automaton~
+LONG  A mindless automaton that used to be human is standing here.
+~
+DESCR
+This mindless lump of flesh used to be human.  It's flesh has been converted
+to a dull grey substance.  The automaton is very strong, and will be a fierce
+opponent.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BEF
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 39
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1700
+MDICE 389d1+1
+DDICE 5d6+13
+REGEN 0
+DTYPE beating
+AC    -13 -13 -13 4
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13413
+NAME  torturer lich~
+SHORT the torturer lich~
+LONG  A blackened creature stands here, ready to cause you excruciating pain.
+~
+DESCR
+You'd better not look to close, he may charm you.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   B
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 41
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 409d1+1
+DDICE 4d8+14
+REGEN 0
+DTYPE pierce
+AC    -14 -14 -14 4
+POS   stand stand
+SEX   male
+GOLD  7500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13414
+NAME  undead dragon~
+SHORT Ciquala's Undead Dragon~
+LONG  Ciquala's undead pet dragon is here, snacking on a fresh corpse.
+~
+DESCR
+This skeletal dragon is an ancient red dragon preserved through arcane magic.
+~
+RACE  dragon~
+ACT   ABF
+AFF   0
+OFF   B
+IMM   AB
+RES   BEH
+VULN  FIK
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 50
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 499d1+1
+DDICE 5d8+19
+REGEN 0
+DTYPE beating
+AC    -20 -20 -20 3
+POS   stand stand
+SEX   female
+GOLD  9500
+FORM  AHZ
+PARTS ACDEFGHIJKPQUVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13415
+NAME  Ciquala lich~
+SHORT the lich Ciquala~
+LONG  A powerful, evil looking lich stands here, Ciquala, 
+the oldest of all the undead.
+~
+DESCR
+Ciquala still looks majestic after all these thousands of years.  But you can
+see the menace in her eye as she looks at you, and prepares her first spell.
+~
+RACE  human~
+ACT   ABF
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 52
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5500
+MDICE 519d1+1
+DDICE 6d7+20
+REGEN 0
+DTYPE pierce
+AC    -22 -22 -22 2
+POS   stand stand
+SEX   female
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13416
+NAME  lich~
+SHORT Lich~
+LONG  The Lich wonders what you are doing in its crypt.
+~
+DESCR
+The Lich looks like a decaying corpse, with small glowing points of
+light for eyes.
+~
+RACE  human~
+ACT   ABCF
+AFF   0
+OFF   B
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 37
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1500
+MDICE 369d1+1
+DDICE 3d10+12
+REGEN 0
+DTYPE slash
+AC    -12 -12 -12 5
+POS   stand stand
+SEX   male
+GOLD  6500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13417
+NAME  vampire~
+SHORT vampire~
+LONG  The vampire is very hungry.  
+With you here, he won't even have to go out hunting for fresh blood tonight.
+~
+DESCR
+The vampire looks incredibly strong.  He is wearing musty clothes, and has
+large fangs that seem to grow longer as he looks back at you.
+~
+RACE  human~
+ACT   ABCF
+AFF   0
+OFF   B
+IMM   AB
+RES   0
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 47
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3500
+MDICE 469d1+1
+DDICE 6d6+17
+REGEN 0
+DTYPE slash
+AC    -17 -17 -17 3
+POS   stand stand
+SEX   male
+GOLD  7800
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13418
+NAME  vampire assistant~
+SHORT the vampire lab assistant~
+LONG  A lab assistant turns toward you and bares her fangs!
+~
+DESCR
+This lab assistant was chosen from amongst the undead for both his knowledge
+of magic, and his rather nasty disposition.  She revels in creating loathesome,
+twisted, warped creatures to serve Ciquala.
+~
+RACE  human~
+ACT   ABCFH
+AFF   0
+OFF   BCDEH
+IMM   AB
+RES   T
+VULN  K
+WSPEC 0
+ALIGN -1000
+GROUP 13401
+LEVEL 22
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+400
+MDICE 219d1+1
+DDICE 4d4+6
+REGEN 0
+DTYPE beating
+AC    -5 -5 -5 7
+POS   stand stand
+SEX   female
+GOLD  1200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#13400
+NAME   ciquala's sword~
+SHORT  Ciquala's sword~
+DESCR 
+A large, black sword lies here.~
+MAT    iron~
+TYPE   weapon sword 5 11 slice C
+EXTRA  1 5 0 4742
+WEAR   AN
+LEVEL  51
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 18 7 0
+Affect O 19 7 0
+Affect O 1 2 0
+Affect O 5 2 0
+LIMIT  4
+End
+
+#13401
+NAME   ciquala's robe~
+SHORT  Ciquala's robe~
+DESCR 
+A heavy pile of black cloth lies in the dust.~
+MAT    leather~
+TYPE   armor ACF G DF BDF 0
+EXTRA  1 4 0 4800
+WEAR   AK
+LEVEL  51
+WEIGHT 14
+COST   20000
+COND   100
+Affect O 24 -4 0
+Affect O 17 -30 0
+Affect O 2 2 0
+LIMIT  4
+End
+
+#13402
+NAME   Ciquala's staff~
+SHORT  ciquala's staff~
+DESCR 
+A black staff lies on the ground.~
+MAT    wood~
+TYPE   staff 40 20 20 'cure critical' 0
+EXTRA  1 4 0 4800
+WEAR   AO
+LEVEL  45
+WEIGHT 6
+COST   20000
+COND   100
+Affect O 19 10 0
+Affect O 3 3 0
+Affect O 4 -1 0
+LIMIT  10
+End
+
+#13403
+NAME   crate~
+SHORT  crate~
+DESCR 
+A crate stands here.~
+MAT    iron~
+TYPE   furniture B EGHIJK NO CFG CFG
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13404
+NAME   key~
+SHORT  a key~
+DESCR 
+A key lies on the ground.~
+MAT    iron~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13405
+NAME   key~
+SHORT  a iron key~
+DESCR 
+A iron key lies on the ground.~
+MAT    iron~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13406
+NAME   key large~
+SHORT  a large key~
+DESCR 
+A large key lies on the ground.~
+MAT    iron~
+TYPE   key 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  1
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13407
+NAME   blue potion~
+SHORT  a blue potion~
+DESCR 
+A blue bottle of liquid lies here.~
+MAT    glass~
+TYPE   potion 38 'acid blast' 'change sex' '' 'detect invis'
+EXTRA  1 1 0 128
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   3200
+COND   100
+End
+
+#13408
+NAME   emerald vial~
+SHORT  an emerald vial~
+DESCR 
+An emerald vial lies here~
+MAT    glass~
+TYPE   potion 42 'heal' 'heal' 'blindness' 'change sex'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   3350
+COND   100
+End
+
+#13409
+NAME   purple potion~
+SHORT  purple potion~
+DESCR 
+A purple potion lies forgotten on the ground.~
+MAT    glass~
+TYPE   potion 25 'stone skin' 'teleport' 'blindness' ''
+EXTRA  1 2 0 160
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   5600
+COND   100
+LIMIT  15
+End
+
+#13410
+NAME   testube clear~
+SHORT  a clear testube~
+DESCR 
+A clear testube contains an unknown liquid.~
+MAT    glass~
+TYPE   potion 38 'burning hands' 'colour spray' 'protection evil' 'giant strength'
+EXTRA  1 1 0 128
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   3300
+COND   100
+End
+
+#13411
+NAME   vial green~
+SHORT  a green vial~
+DESCR 
+A green vial sits on  a shelf.~
+MAT    glass~
+TYPE   potion 28 'create spring' 'energy drain' 'poison' 'armor'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   2300
+COND   100
+End
+
+#13412
+NAME   gold liquid vial~
+SHORT  a vial with gold liquid~
+DESCR 
+A vial with a gold colored liquid sits on the floor.~
+MAT    glass~
+TYPE   potion 30 'weaken' 'poison' 'curse' 'teleport'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   4300
+COND   100
+End
+
+#13413
+NAME   milky liquid vial~
+SHORT  a vial with milky liquid~
+DESCR 
+A vial with milky liquid sits on the shelf.~
+MAT    glass~
+TYPE   potion 30 'heal' 'pass door' 'armor' 'teleport'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   4400
+COND   100
+End
+
+#13414
+NAME   black potion~
+SHORT  a black potion~
+DESCR 
+A black potion is waiting to be picked up.~
+MAT    glass~
+TYPE   potion 30 'shield' 'infravision' 'cause critical' 'protection good'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   4900
+COND   100
+End
+
+#13415
+NAME   beaker yellow~
+SHORT  a beaker with yellow liquid~
+DESCR 
+A beaker filled with yellow bubbling liquid sits on the counter.~
+MAT    glass~
+TYPE   potion 30 'harm' 'poison' 'weaken' 'sleep'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   3400
+COND   100
+End
+
+#13416
+NAME   iron maiden~
+SHORT  an iron maiden~
+DESCR 
+An iron maiden sits here, looking rather unused.  Why not try it on?~
+MAT    iron~
+TYPE   armor AF BDE CF BE 0
+EXTRA  0 0
+WEAR   AD
+LEVEL  33
+WEIGHT 33
+COST   0
+COND   100
+Affect O 13 -400 0
+Affect O 5 -5 0
+Affect O 1 -5 0
+Affect O 2 -1 0
+End
+
+#13417
+NAME   torturer's whip~
+SHORT  the torturer's whip~
+DESCR 
+An enormous whip lies here.~
+MAT    iron~
+TYPE   weapon whip 7 9 chop C
+EXTRA  1 4 0 99
+WEAR   AN
+LEVEL  40
+WEIGHT 13
+COST   14700
+COND   100
+Affect O 18 -6 0
+Affect O 19 10 0
+Affect O 17 -20 0
+LIMIT  4
+End
+
+#13418
+NAME   treasure coins gold~
+SHORT  a humongous pile of gold~
+DESCR 
+A humongous pile of gold is waiting to be picked up.~
+MAT    gold~
+TYPE   money EGHIJK 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#13419
+NAME   gems pile~
+SHORT  a pile of gems~
+DESCR 
+A pile of gems lies on the ground.~
+MAT    iron~
+TYPE   money DEFHIJL 0 0 0 0
+EXTRA  1 1 0 1
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13420
+NAME   crate~
+SHORT  crate~
+DESCR 
+A crate stands here.~
+MAT    iron~
+TYPE   furniture B EGHIJK NO CFG CFG
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13421
+NAME   crate~
+SHORT  crate~
+DESCR 
+A crate stands here.~
+MAT    iron~
+TYPE   furniture B EGHIJK NO CFG CFG
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13422
+NAME   crate~
+SHORT  crate~
+DESCR 
+A crate stands here.~
+MAT    iron~
+TYPE   furniture B EGHIJK NO CFG CFG
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13423
+NAME   crate~
+SHORT  crate~
+DESCR 
+A crate stands here.~
+MAT    iron~
+TYPE   furniture B EGHIJK NO CFG CFG
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#13424
+NAME   fizzing bottle~
+SHORT  a fizzing bottle~
+DESCR 
+A bottle of fizzing liquid lies here.~
+MAT    glass~
+TYPE   potion 28 'word of recall' 'sleep' 'poison' ''
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   1000
+COND   100
+End
+
+#13425
+NAME   grey potion~
+SHORT  a grey potion~
+DESCR 
+A grey potion sits on the counter.~
+MAT    glass~
+TYPE   potion 30 'energy drain' 'energy drain' 'create food' 'create spring'
+EXTRA  0 0
+WEAR   A
+LEVEL  20
+WEIGHT 7
+COST   1000
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#13400
+NAME   A large knothole in the abyss~
+DESCR
+You stand in a cramped space inside an abyss.  A frigid breeze rises 
+from the ground.
+     There is a small (Glowing) (Humming) tablet.
+~
+FLAGS  0
+Sect   1
+EDESC  small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                  +
++            This area has been converted and adapted by           +
++                             Kajko                                +
++                                                                  +
++                               &                                  +
++                                                                  +
++                      revised, debugged (?:)                      +
++               slightly enchanced and balanced by                 +
++                             Andeus                               +
++                                                                  +
++    PS. prepare to die - it is {40 50} area with aggro mobs       +
++                   only armed personel allowed                    +
++                                                       October'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+DOOR 5
+~
+trapdoor~
+AB -1 13401
+End
+
+#13401
+NAME   A ladder descending into the darkness!~
+DESCR
+You are climbing on a ladder.  Above you is a trapdoor.  Below you
+is only darkness, from which a frigid breeze blows.
+~
+FLAGS  1
+Sect   0
+DOOR 4
+~
+trapdoor~
+AB -1 13400
+DOOR 5
+~
+~
+0 -1 13402
+End
+
+#13402
+NAME   A ladder descending into the darkness!~
+DESCR
+You are climbing on a ladder.  Above you the ladder disappears in the
+dark.  Below is only darkness, from which a frigid breeze blows.
+~
+FLAGS  1
+Sect   0
+DOOR 4
+~
+~
+0 -1 13401
+DOOR 5
+~
+~
+0 -1 13403
+End
+
+#13403
+NAME   A dusty tunnel deep under the ground~
+DESCR
+You stand in a tunnel that appears to have been dug out of the dirt.
+You do not understand what is keeping the tunnel walls from caving in.  This
+would probably be a very bad place to use a dispel magic spell!  You do see
+some footprints in the dust, and looking up, you see who they belong to!
+~
+FLAGS  9
+Sect   0
+DOOR 1
+~
+~
+0 -1 13404
+DOOR 3
+~
+door~
+AB -1 13409
+DOOR 4
+~
+~
+0 -1 13402
+End
+
+#13404
+NAME   A room with a large pool of water in the center~
+DESCR
+This room has a large pool of black water in the center.  You see
+many runes and glyphs surrounding it.  The room is lit by torches held in
+sconces.  Each of these items in the room merits more investigation.
+~
+FLAGS  8
+Sect   0
+EDESC  runes~
+These runes are carved into the rock about the pool.  You think you
+recognize the rune of vision, and another that has something to do with
+projecting power at a distance.
+~
+EDESC  glyphs~
+The glyphs are drawn upon the stone with what appears to be blood.
+You do not recognize any of them, and it would probably be a good idea not to
+touch any of them.
+~
+EDESC  sconces~
+The sconces are black and shaped liked two hands, cradling the torches
+between their pointed nails.
+~
+EDESC  torches~
+The torches are made of a black wood, and as you draw nearer, you find
+that they do not emit any heat.  Indeed, they seem to be radiating cold.  The
+flames are an icy blue, that makes you think twice about getting too close to
+them.
+~
+EDESC  pool~
+As you lean forward and look in the pool, you see nothing but the dark
+murky water.  Gradually though, an image forms before you.  You recognize the
+person the image shows.  It is the Avatar!  Apparently this is a pool that
+Ciquala uses to scry upon her enemies. The image is so clear, you almost
+believe you could step into the pool, and appear in Lord British's castle.
+~
+DOOR 1
+~
+~
+0 -1 13405
+DOOR 3
+~
+~
+0 -1 13403
+End
+
+#13405
+NAME   Ciquala's Laboratory~
+DESCR
+This room is lined with shelves that contain a multitude of jars,
+boxes, vials, chests, tubes, glasses, beakers, and other assorted containers.
+You think that drinking the contents of any might have undesireable effects.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+celldoor~
+ABCF 13404 13408
+DOOR 1
+~
+celldoor~
+ABCF 13404 13407
+DOOR 2
+~
+door~
+AB -1 13406
+DOOR 3
+~
+~
+0 -1 13404
+End
+
+#13406
+NAME   Supply room~
+DESCR
+This supply room keeps many of the items that are too large to fit in
+the laboratory itself.  You see several corpses that are preserved by the
+ever-present cold that you have encountered in every room in this tunnel
+system.  Also several crates hold contents, whose scent is enought to make
+you wish to shut the door immediately.  You believe that you hear a noise
+from behind one of the crates.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+door~
+AB -1 13405
+End
+
+#13407
+NAME   Holding Cell~
+DESCR
+This is nothing more than a small room with a very heavy iron door
+closing it off from the laboratory.  This is where Ciquala's assistants keep
+the experiments they are working on.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+~
+celldoor~
+ABCF 13404 13405
+End
+
+#13408
+NAME   Holding Cell~
+DESCR
+This is nothing more than a small room with a very heavy iron door
+closing it off from the laboratory.  This is where Ciquala's minions keep
+the experiments they are working on.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+~
+celldoor~
+ABCF 13404 13405
+End
+
+#13409
+NAME   Guard room~
+DESCR
+The occupants of this room were obviously left here by the Lich to
+keep intruders like you from bothering her, or learning her plans.  There
+are doors to both the east and west.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+~
+door~
+AB -1 13403
+DOOR 3
+~
+door~
+AB -1 13410
+End
+
+#13410
+NAME   A seemingly empty tunnel~
+DESCR
+This empty tunnel has doors leading in all directions.  The roof of
+the tunnel seems abnormally low and shiny, almost as if it is not dirt.  This
+room is also as cold as all the others were.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+door~
+ABCF 13405 13411
+DOOR 1
+~
+door~
+AB -1 13409
+DOOR 2
+~
+door~
+AB -1 13412
+DOOR 3
+~
+door~
+AB -1 13413
+End
+
+#13411
+NAME   The Map Room~
+DESCR
+This room is filled with maps, apparently containing some of Ciquala's
+plans.  You notice many maps of Lord British's castle.  You might be able to
+gain some information on Ciquala's plans, as well as learn your way through
+British's castle if you examine the map more closely.
+~
+FLAGS  9
+Sect   0
+EDESC  map~
+As you reach for a map to examine it closer, it bursts into ice cold flames and
+disintegrates before your eyes.  Apparently Ciquala has taken precautions
+against people snooping in her Lair.
+~
+DOOR 2
+~
+door~
+ABCF 13405 13410
+End
+
+#13412
+NAME   Storage Room~
+DESCR
+You see many boxes before you, apparently this is a storage room of
+some sort.  You can bet that whatever a lich is storing, that it can't be good
+for the world in general.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+door~
+AB -1 13410
+End
+
+#13413
+NAME   A tunnel with a grate in the floor~
+DESCR
+You see a grate on the floor.  When you look down it, you see several
+creatures below, humanoid, but you can't make out exactly what they are.
+There are also doors leading all directions but west.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+door~
+AB -1 13415
+DOOR 1
+~
+door~
+AB -1 13410
+DOOR 2
+~
+door~
+AB -1 13416
+DOOR 5
+~
+grate~
+AB -1 13414
+End
+
+#13414
+NAME   The Room of the Automatons~
+DESCR
+You gasp as you realize that these pasty faced people do not seem to
+have a will of their own.  No doubt the work of the Lich.  If these
+monstrosities are allowed to escape into the world, they will cause no end
+of problems for Midgaard.
+~
+FLAGS  9
+Sect   0
+DOOR 4
+~
+grate~
+AB -1 13413
+End
+
+#13415
+NAME   Torture Chamber~
+DESCR
+This room is fitted with many instruments and tools designed to cause
+pain and fear in anyone who enters.  However, you don't pay as much attention
+to the racks and iron maidens as you would if were not for the lich in the
+room.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+~
+door~
+AB -1 13413
+End
+
+#13416
+NAME   Entrance to Ciquala's Throne Room~
+DESCR
+This does not look like any of the other rooms you have been in up till
+now.  The ceiling rises a full 40 feet in the air above you.  The walls are
+covered with murals proclaiming the might and majesty of Ciquala.  She does
+not look old and decayed as you would have pictured her.  Instead, she looks
+rather regal and stately, but undoubtedly evil.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+door~
+AB -1 13413
+DOOR 2
+~
+~
+0 -1 13417
+End
+
+#13417
+NAME   Ciquala's Throne Room~
+DESCR
+This room is clothed in darkness, and a chill eminates from the foul
+monarch of the undead.  A large tapestry hangs behind her throne.  The
+ceiling rises above you, hidden in the darkness beyond the range your
+light can penetrate.  A feeling of hopelessness and insignificance overwhelms
+you as you face the Lich, Ciquala!
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+~
+0 -1 13416
+DOOR 2
+~
+tapestry~
+ABCF 13406 13418
+End
+
+#13418
+NAME   Treasure Chamber of Ciquala~
+DESCR
+This room contains enough wealth to fund an army, perhaps a small
+kingdom.  Racks or weapons, and spellbooks, and potions, not to mention large
+piles of coins that cover the floor.  A large paving stone in this room seems
+slightly disturbed.
+~
+FLAGS  9
+Sect   0
+EDESC  paving~
+The paving stone seems to be masking a passage down into a pit below this room.
+~
+DOOR 0
+~
+tapestry~
+ABCF 13406 13417
+DOOR 5
+The stone appears to hide a secret passage going down.~
+stone~
+AB -1 13419
+End
+
+#13419
+NAME   The hidden crypt of Ciquala~
+DESCR
+This room contains several crypts where the lichs and vampires rest.
+Unfortunately, they all seem to be out of their crypts right now.
+~
+FLAGS  9
+Sect   0
+DOOR 4
+~
+stone~
+AB -1 13418
+End
+
+#0
+
+
+
+#SPECIALS
+M 13401 spec_cast_undead
+M 13403 spec_breath_acid
+M 13406 spec_cast_undead
+M 13408 spec_cast_undead
+M 13414 spec_breath_gas
+M 13415 spec_cast_undead
+M 13416 spec_cast_undead
+S
+
+
+
+#RESETS
+D 0 13400 5 1
+D 0 13401 4 1
+D 0 13403 3 1
+D 0 13405 0 2
+D 0 13405 1 2
+D 0 13405 2 1
+D 0 13406 0 1
+D 0 13407 3 2
+D 0 13408 2 2
+D 0 13409 1 1
+D 0 13409 3 1
+D 0 13410 0 2
+D 0 13410 1 1
+D 0 13410 2 1
+D 0 13410 3 1
+D 0 13411 2 2
+D 0 13412 0 1
+D 0 13413 0 1
+D 0 13413 1 1
+D 0 13413 2 1
+D 0 13413 5 1
+D 0 13414 4 1
+D 0 13415 2 1
+D 0 13416 0 1
+D 0 13417 2 2
+D 0 13418 0 2
+D 0 13418 5 1
+D 0 13419 4 1
+M 0 13400 1 13403 1
+M 0 13401 2 13405 1
+G 0 13404 0
+G 0 13413 0
+G 0 13414 0
+G 0 13415 0
+G 0 13424 0
+G 0 13425 0
+M 0 13418 2 13405 1
+G 0 13407 0
+G 0 13408 0
+G 0 13409 0
+G 0 13410 0
+G 0 13411 0
+G 0 13412 0
+M 0 13404 2 13406 1
+O 0 13403 0 13406
+O 0 13420 0 13406
+O 0 13421 0 13406
+M 0 13402 4 13407 2
+M 0 13403 4 13407 2
+M 0 13402 4 13408 2
+M 0 13403 4 13408 2
+M 0 13405 1 13409 1
+G 0 13405 0
+M 0 13406 1 13409 1
+M 0 13407 1 13410 1
+M 0 13408 1 13411 1
+M 0 13404 2 13412 1
+O 0 13422 0 13412
+O 0 13423 0 13412
+M 0 13409 1 13414 1
+M 0 13410 1 13414 1
+M 0 13411 1 13414 1
+M 0 13412 1 13414 1
+M 0 13413 1 13415 1
+E 0 13417 0 16
+O 0 13416 0 13415
+M 0 13414 1 13416 1
+M 0 13415 1 13417 1
+E 0 13400 0 16
+E 0 13401 0 12
+E 0 13402 0 17
+G 0 13406 0
+O 0 13418 0 13418
+O 0 13419 0 13418
+M 0 13416 4 13419 2
+M 0 13416 4 13419 2
+M 0 13417 4 13419 2
+M 0 13417 4 13419 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

@@ -1,0 +1,631 @@
+#AREADATA
+Name The Cave of Shadows~
+Builders None~
+VNUMs 3800 3850
+Credits {CABAL} Tracera The Citadel of the Ancients~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#3800
+NAME  black unholy counselor lich ancient~
+SHORT the Black Counselor~
+LONG  A tall, lithesome figure is here, shrouded in a heavy hooded robe.
+~
+DESCR
+A seemingly skeletal creature is here, protected only by a heavy robe and
+whatever dark power he may possess.  
+~
+RACE  lich~
+ACT   ABDGL
+AFF   DFHTUVZ
+OFF   AEV
+IMM   ABLMOPQa
+RES   BI
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 60
+ENHA  150.00%
+MATER none~
+HDICE 2d500+5500
+MDICE 60d11+95
+DDICE 5d5+35
+REGEN 0
+DTYPE drain
+AC    -33 -33 -33 -21
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  90
+AMOD  2
+QUEST 3
+CABAL ancient
+End
+
+#3801
+NAME  dark priest~
+SHORT the dark priest~
+LONG  A dark priest is here, head bowed before the urn.
+~
+DESCR
+Swabbed in dark robes.  He is a menacing force to be seen.  His pure
+presence invokes the darkest fears within your soul.  You surely will have
+to pay dearly for his dark arts.  
+~
+RACE  human~
+ACT   ABGVae
+AFF   H
+OFF   FHK
+IMM   ABCDEFGHIJKLMNOPQRSTXYZ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 60
+ENHA  100.00%
+MATER none~
+HDICE 121d20+1213
+MDICE 60d10+85
+DDICE 20d3+35
+REGEN 0
+DTYPE divine
+AC    -30 -30 -30 -18
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL ancient
+End
+
+#3802
+NAME  ancients ancient points point pointsmaster pointmaster~
+SHORT The Ancients Pointmaster~
+LONG  The Ancients pointmaster stands here awaiting scalps.
+~
+DESCR
+A tall, cloaked drow, stands before you.  His red eyes piercing through
+his hood.  He peers at you with discontent as he awaits your desposit to the
+dark lords collection of scalps.  
+~
+RACE  dark-elf~
+ACT   ABGV
+AFF   0
+OFF   FHIKOV
+IMM   ABCDE
+RES   BI
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1999
+MDICE 1d1+999
+DDICE 2d50+30
+REGEN 0
+DTYPE drain
+AC    -35 -35 -35 -35
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL ancient
+End
+
+#3803
+NAME  cloaked figure~
+SHORT the cloaked figure~
+LONG  A cloaked figure is here.
+~
+DESCR
+It is nearly impossible to discern anything of his shadowy figure,
+besides his immense size and strength.  
+~
+RACE  fire~
+ACT   ABGLVZ
+AFF   DFVZa
+OFF   ACO
+IMM   AB
+RES   BDEGHKQ
+VULN  0
+WSPEC A
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 60
+ENHA  100.00%
+MATER none~
+HDICE 2d500+4000
+MDICE 60d11+95
+DDICE 5d5+30
+REGEN 0
+DTYPE grep
+AC    -33 -33 -33 -21
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMVZ
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  80
+AMOD  0
+QUEST 0
+CABAL ancient
+End
+
+#0
+
+
+
+#OBJDATA
+#3800
+NAME   key skull black~
+SHORT  skull hilted black key~
+DESCR 
+a Skull hilted black key is on the ground.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 16924672
+WEAR   AO
+LEVEL  40
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#3801
+NAME   ancient prophecies~
+SHORT  the Ancient Prophecies~
+DESCR 
+A leather-bound book of ancient prophecies lies here.~
+MAT    paper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 3 0 540673
+WEAR   A
+LEVEL  60
+WEIGHT 3
+COST   20000
+COND   100
+CABAL  1
+LIMIT  1
+End
+
+#3802
+NAME   altar~
+SHORT  an altar~
+DESCR 
+an altar is hidden in the shadows here.~
+MAT    bone~
+TYPE   container 10 ABCD 3800 15 100
+EXTRA  1 3 0 16924672
+WEAR   P
+LEVEL  60
+WEIGHT 8
+COST   20
+COND   100
+End
+
+#3803
+NAME   urn~
+SHORT  the collection urn~
+DESCR 
+The collection urn is here.~
+MAT    stone~
+TYPE   container 10000 0 0 1000 100
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#3804
+NAME   decayed skull rigamortis~
+SHORT  a decayed skull suffering from rigamortis~
+DESCR 
+a decayed skull lies here rotting further.~
+MAT    bone~
+TYPE   weapon exotic 9 6 drain CD
+EXTRA  1 6 0 35473
+WEAR   AN
+LEVEL  51
+WEIGHT 16
+COST   5000
+COND   100
+Affect O 18 5 0
+Affect O 19 5 0
+End
+
+#3805
+NAME   black murky potion~
+SHORT  a murky black potion~
+DESCR 
+a black potion rests here.~
+MAT    energy~
+TYPE   potion 51 'cure blindness' 'armor' 'bless' ''
+EXTRA  1 5 0 32851
+WEAR   AO
+LEVEL  51
+WEIGHT 5
+COST   6000
+COND   100
+End
+
+#3806
+NAME   sign wooden~
+SHORT  a wooden sign~
+DESCR 
+~
+MAT    wood~
+TYPE   furniture 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+EDESC sign wooden~
+The Cave of Shadows was conceived and created by Lestregus.
+This area is not to be traded or used in any other mud without the
+permission of the author. Author reachable at JLein@mindspring.com
+c1999
+~
+End
+
+#3807
+NAME   manuscript uteroi unholy darkness ancient ancients pages~
+SHORT  the unholy manuscript of the Ancients~
+DESCR 
+An odd formation of pages is laying here, surrounded by darkness.~
+MAT    flesh~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 6 0 34607126
+WEAR   A
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+EDESC cover~
+The cover, as well as back, is formed from two scales of an onyx colored
+dragon. Some have rumored it to be two existing scales of Lord Erifdel's once
+mortal form. Uteroi is engraved at the very top in a crimson color while
+directly below are the words:
+ 
+The Uteroi is only for the strong willed. Any else risk death.
+ 
+With those words ringing in your head, you have the option of looking at the
+firstpage.
+~
+EDESC manuscript~
+An assortment of pages have been bound together to form an unholy manuscript
+governing the religion of the Dracolich. Each page is formed from the flesh of
+an existing race within these realms, and written upon with their own 
+lifeblood. Perhaps start by reading the cover...
+~
+RESTR  V
+End
+
+#3810
+NAME   writhing whip~
+SHORT  a writhing whip of shadows~
+DESCR 
+A dark whip lays here.~
+MAT    magic~
+TYPE   weapon whip 9 6 defilement C
+EXTRA  1 2 0 32896
+WEAR   AN
+LEVEL  55
+WEIGHT 2
+COST   0
+COND   100
+Affect A 20 -1 N
+RESTR  V
+End
+
+#3811
+NAME   writhing sword~
+SHORT  a writhing sword of shadows~
+DESCR 
+A dark sword lays here.~
+MAT    magic~
+TYPE   weapon sword 9 6 defilement CD
+EXTRA  1 2 0 32896
+WEAR   AN
+LEVEL  55
+WEIGHT 3
+COST   0
+COND   100
+Affect O 19 9 0
+Affect O 18 9 0
+RESTR  V
+End
+
+#3812
+NAME   writhing dagger~
+SHORT  a writhing dagger of shadows~
+DESCR 
+A dark shadow lays here.~
+MAT    magic~
+TYPE   weapon dagger 9 6 defilement C
+EXTRA  1 2 0 32896
+WEAR   AN
+LEVEL  55
+WEIGHT 1
+COST   0
+COND   100
+Affect O 19 9 0
+Affect O 18 9 0
+RESTR  V
+End
+
+#3813
+NAME   horn maiming~
+SHORT  'streea linath' the Horn of Maiming~
+DESCR 
+Sylus' weapon is here.~
+MAT    bone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 9 0 33823382
+WEAR   O
+LEVEL  60
+WEIGHT 8
+COST   0
+COND   100
+LIMIT  1
+RESTR  V
+End
+
+#3814
+NAME   demon hammer ruren malg rahn~
+SHORT  'Malg'Rahn', Demon Hammer of Ruren~
+DESCR 
+Ruren's leader weapon is here.~
+MAT    bone~
+TYPE   weapon mace 10 6 drain EM
+EXTRA  1 2 0 393216
+WEAR   AN
+LEVEL  52
+WEIGHT 18
+COST   0
+COND   100
+Affect O 19 15 0
+Affect O 18 15 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#3800
+NAME   Outside the Ancient Citadel~
+DESCR
+As if clawing its way from the earth, enormous slivers of rusted iron
+rise from the ground in a dome like pattern around this ancient sanctuary. 
+A path of scorched, scathing bones form entrance into the inner circle.  A
+broad shouldered figure of immense size and strength, cloaked in black,
+guards the entrance.  
+~
+FLAGS  1048578
+Sect   0
+DOOR 0
+~
+~
+0 0 873
+DOOR 2
+~
+~
+0 0 3801
+End
+
+#3801
+NAME   Along the Ritual Path~
+DESCR
+A wide path of burning bone and embers leads towards the inner sanctum of
+the Ancients.  The edges of the path are blocked by adamantite statues, each
+carved with its head bowed and griping the hand of a brethren, therefore
+blocking escape.  Ahead one can see the circular temple, where the Ancients
+gather.  
+~
+FLAGS  13639690
+Sect   0
+DOOR 0
+~
+~
+0 0 3800
+DOOR 2
+~
+~
+0 0 3802
+End
+
+#3802
+NAME   Within the Citadel of the Ancients~
+DESCR
+This circular temple is enclosed by shards and slivers of rusted iron
+which claw upward from the earth and meet at a center ring high above.  In
+the center of the citadel is a large urn, surrounded by a complex system of
+ducts, which seem to contain blood.  Behind that is another hooded figure,
+which however disguised, appears to be a priest of some kind.  Along the
+southern edge of the citadel is a pit in which lies an altar.  
+~
+FLAGS  13639690
+Sect   0
+DOOR 0
+~
+~
+0 0 3801
+DOOR 5
+~
+~
+0 -1 3805
+End
+
+#3803
+NAME   The Flickering Tunnel~
+DESCR
+These tunnels are empty and dark.  Only the bravest of creatures would
+dare venture further, for to do so without the proper mindset would surely
+cause one much harm.  A very low chanting can be heard coming from the
+north.  
+~
+FLAGS  13639688
+Sect   0
+DOOR 0
+~
+~
+0 -1 3804
+DOOR 3
+~
+~
+0 0 3807
+End
+
+#3804
+NAME   Altar of the Damned~
+DESCR
+The tunnel opens up in a small room filled with the sounds of demonic
+chants.  A huge altar to the Lord of the Ancients rests against the northern
+wall.  Small creatures scuttle about sliding in an out of the shadows. 
+Every now and then, a scream rings out from the distance, perhaps a
+sacrifice for the Dark One being carried out.  
+~
+FLAGS  13639689
+Sect   0
+DOOR 2
+~
+~
+0 -1 3803
+End
+
+#3805
+NAME   The Pit~
+DESCR
+The earthen floor of this pit is nearly fifteen feet below the rest of
+the citadel, and nearly twice that in diameter.  In the center is a simple
+altar made of obsidian, and its guardian.  Surrounding all of this are the
+many bones of its intruders and anyone else the Ancients find to be
+sacrilegious to their cause.  
+~
+FLAGS  9445387
+Sect   0
+EDESC  obelisk~
+BELOW ARE THE GUIDELINES FOR THE ANCIENT CABAL:
+-----------------------------------------------
+ 
+1) Should you use another character to place bounties so you can
+collect them, you will find yourself homeless very soon.
+ 
+2) Do not gang (3 or more people) anyone unless they do have a 
+bounty on their life.
+ 
+3) Killing among the cabal is frowned upon and the Leader may take
+action upon those who PK their cabal mates.
+ 
+4) Bounty-stealing is a good way to get the Ancient Immortals as
+well as your cabal mates pissed off at you. If someone has a bounty
+hurt don't time your strike to steal their point.
+ 
+5) The Leader of Ancient shall always be the individual with the
+most bounty kills.
+~
+DOOR 4
+~
+~
+0 -1 3802
+End
+
+#3806
+NAME   The Crimson Room~
+DESCR
+Decorated entirely in crimson, from the walls, ceiling and floor,
+to the scant furniture placed asymeterically throughout, this room
+sends a shiver down your spine as you sense death is but a breath
+away.  Here and there, you can just barely discern old bloodstains
+against the blooded reds of the room.  Weapons of every conceivable
+type, and some quite unimagineable, line the walls like trophies.
+~
+FLAGS  12
+Sect   1
+End
+
+#3807
+NAME   A flickering chasm~
+DESCR
+This large chasm is formed of a massive crack in the obsidian rock.  The
+only light provided is from the sacred torch of the ancients.  Standing in
+dead silence behind the sacred torch is a still decomposing lich, which
+forever guards the item.  
+~
+FLAGS  13901824
+Sect   0
+DOOR 1
+~
+~
+0 0 3803
+End
+
+#0
+
+
+
+#SPECIALS
+M 3801 spec_cast_cleric
+M 3802 spec_spectre_king
+M 3803 spec_flurry
+S
+
+
+
+#RESETS
+M 0 3803 1 3800 1
+O 0 3803 0 3802
+M 0 3801 1 3802 1
+M 0 3800 1 3805 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 3801 give_prog give_prog_cabal_item
+I 3814 fight_prog fight_prog_cure_critical
+M 3800 greet_prog greet_prog_inner_guardian
+M 3800 death_prog death_prog_inner_guardian
+M 3803 greet_prog greet_prog_outer_guardian
+M 3803 death_prog death_prog_outer_guardian
+M 3803 attack_prog attack_prog_outer_guardian
+M 3803 move_prog move_prog_outer_guardian
+E
+
+
+
+#$

@@ -1,0 +1,2401 @@
+#AREADATA
+Name Mausoleum~
+Builders None~
+VNUMs 4600 4699
+Credits {25 51} Khargqw Mausoleum~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#4600
+NAME  zombie disgusting rotting~
+SHORT a disgusting, rotting Zombie~
+LONG  A horribly disgusting zombie is here, looking to devour the living.
+~
+DESCR
+You can't tell if this was once a man or a woman, or even what race it
+once was.... Just that it is horribly decayed, and appears to be
+missing a few chunks of flesh, like something else had been eating off
+of it.
+ The zombie seems oblivious to you, until you draw close enough for it
+to make its kill.
+~
+RACE  unique~
+ACT   AFGO
+AFF   0
+OFF   CDEFK
+IMM   A
+RES   BM
+VULN  HNSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 31
+HROLL 7
+ENHA  100.00%
+MATER none~
+HDICE 20d5+1100
+MDICE 1d1+300
+DDICE 5d5+10
+REGEN 0
+DTYPE bite
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  50
+FORM  ABDIc
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4601
+NAME  zombie juju~
+SHORT the Juju zombie~
+LONG  A pale, withered man stands here, staring at you with an immense hatred.
+~
+DESCR
+This greyish skinned creature was once probably a powerful adventurer, such
+as yourself, before it was slain and reanimated for some dark and powerful
+creature. Upon closer examination, you notice that the thing before you
+actually has no eyes, but instead a faint red glow eminates from it's eye
+sockets.
+~
+RACE  unique~
+ACT   ABFGHO
+AFF   0
+OFF   DEFKN
+IMM   0
+RES   BM
+VULN  HSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 36
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 20d10+1700
+MDICE 1d1+400
+DDICE 9d3+15
+REGEN 0
+DTYPE claw
+AC    -5 -5 -5 -5
+POS   stand stand
+SEX   none
+GOLD  1500
+FORM  ABIc
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4602
+NAME  young vampire~
+SHORT a young vampire~
+LONG  A young vampire stands here, looking for something to kill.
+~
+DESCR
+This young lady looks quite famished and pale.
+~
+RACE  unique~
+ACT   AFO
+AFF   0
+OFF   DEFIKNV
+IMM   A
+RES   BIM
+VULN  FHNOSXY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 37
+HROLL 15
+ENHA  100.00%
+MATER none~
+HDICE 100d5+2000
+MDICE 0d0+100
+DDICE 7d4+20
+REGEN 0
+DTYPE magic
+AC    -5 -5 -5 -5
+POS   stand stand
+SEX   none
+GOLD  10000
+FORM  ABCDHIKMc
+PARTS ABCDEFGHIJKV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4603
+NAME  Kharzandra wizardress vampire~
+SHORT Kharzandra, the Dark-elf Vampire~
+LONG  A dark-skinned wizardress stands here, raising the dead.
+~
+DESCR
+Fear grips you upon looking at this frail, young looking creature, when you
+realize what it truly is... a Dark-elf enchantress which has become a
+creature of the undead.
+She looks a bit hungry after having a full day of reanimating corpses,
+perhaps you will be her dinner?
+~
+RACE  elf~
+ACT   ABFO
+AFF   0
+OFF   EFIK
+IMM   AI
+RES   BHIM
+VULN  FHNSYZ
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 56
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 100d5+6500
+MDICE 100d4+600
+DDICE 7d5+40
+REGEN 0
+DTYPE magic
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   none
+GOLD  17000
+FORM  ABCDHIMVc
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4604
+NAME  vampire shadar lunn~
+SHORT the Vampire, Shadar Lunn~
+LONG  A large, stout man stands here clad in darkened armor.
+~
+DESCR
+This large man is clad in high darkened armor, and was probably once
+a lieutenant in the Arkham guard... or else, he just knows good armor
+when he sees it.
+~
+RACE  lich~
+ACT   ABFO
+AFF   0
+OFF   AEFIKV
+IMM   ABLMOPQa
+RES   BIM
+VULN  FHKNSXY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 59
+HROLL 50
+ENHA  100.00%
+MATER none~
+HDICE 100d5+11000
+MDICE 100d3+2000
+DDICE 10d5+50
+REGEN 0
+DTYPE slash
+AC    -40 -40 -40 -30
+POS   stand stand
+SEX   none
+GOLD  20000
+FORM  ABCDHIKMVc
+PARTS ABCDEFGHIJKV
+SIZE  medium
+DMOD  80
+AMOD  0
+QUEST 1
+End
+
+#4605
+NAME  ghoul creature~
+SHORT a hungry ghoul~
+LONG  A horrible creature is here, feeding off of a decaying corpse.
+~
+DESCR
+This disgusting, withered humanoid creature greedily devours a decayed
+corpse in earnest, but drops it upon noticing the fresh meat that just
+walked into the room.
+~
+RACE  unique~
+ACT   AFGO
+AFF   0
+OFF   CEFKN
+IMM   A
+RES   BM
+VULN  HNSY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 33
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 100d3+1200
+MDICE 0d0+300
+DDICE 5d6+10
+REGEN 0
+DTYPE chill
+AC    -2 -2 -2 -2
+POS   stand stand
+SEX   none
+GOLD  200
+FORM  ABCDIc
+PARTS ABCDEFPU
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4606
+NAME  mastiff hound~
+SHORT the hell hound~
+LONG  A large mastiff stands here guarding something.
+~
+DESCR
+~
+RACE  dog~
+ACT   AFT
+AFF   0
+OFF   ADEFH
+IMM   A
+RES   BHM
+VULN  IN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 10d50+2000
+MDICE 1d1+200
+DDICE 8d3+23
+REGEN 0
+DTYPE acbite
+AC    -1 -1 -1 -1
+POS   stand stand
+SEX   none
+GOLD  1
+FORM  ACGV
+PARTS ABCDEFHJKUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4608
+NAME  bat vampire~
+SHORT the vampire bat~
+LONG  A pitch-black bat flaps its wings beneath the ceiling.
+~
+DESCR
+A horrible little face looks at you and bares its teeth. Ugh!
+You don't like it.
+~
+RACE  unique~
+ACT   AFGH
+AFF   0
+OFF   FHQ
+IMM   L
+RES   0
+VULN  S
+WSPEC 0
+ALIGN -700
+GROUP 0
+LEVEL 20
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 20d10+600
+MDICE 1d1+199
+DDICE 7d5+10
+REGEN 0
+DTYPE bite
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  200
+FORM  BIV
+PARTS ADFPV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4609
+NAME  demon familiar~
+SHORT the demon familiar~
+LONG  A small demon is here, hovering in mid-air.
+~
+DESCR
+This little guy looks very familar... you know it would be a bad thing to
+mess with it.
+~
+RACE  unique~
+ACT   ABFGT
+AFF   0
+OFF   DEFIJK
+IMM   ABH
+RES   0
+VULN  IN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 42
+HROLL 15
+ENHA  100.00%
+MATER none~
+HDICE 20d10+3100
+MDICE 1d1+400
+DDICE 7d6+25
+REGEN 0
+DTYPE drain
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   none
+GOLD  5000
+FORM  ACDG
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4610
+NAME  dracolich~
+SHORT the great Dracolich~
+LONG  A huge skeletal form raises from shadows.
+~
+DESCR
+Horrible skeletal form look at you and green evilly.
+~
+RACE  unique~
+ACT   ABFGT
+AFF   0
+OFF   EFKN
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 20
+ENHA  100.00%
+MATER none~
+HDICE 10d100+3500
+MDICE 1d1+400
+DDICE 7d8+40
+REGEN 0
+DTYPE claw
+AC    -30 -30 -30 -30
+POS   stand stand
+SEX   none
+GOLD  50000
+FORM  BCDI
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4611
+NAME  priest vampire~
+SHORT the dark priest vampire~
+LONG  A dark-robed man stands here, praying to his unholy god.
+~
+DESCR
+This dark-priest wears the sign of Loki about his neck, and is seeming
+disturbed by your intrusion during his meditation.
+~
+RACE  unique~
+ACT   AGLQ
+AFF   0
+OFF   AFIK
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 46
+HROLL 20
+ENHA  100.00%
+MATER none~
+HDICE 100d3+3500
+MDICE 1d1+500
+DDICE 6d8+25
+REGEN 0
+DTYPE divine
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   none
+GOLD  5000
+FORM  CGI
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#4612
+NAME  dark spectre~
+SHORT the dark spectre~
+LONG  A dark spectre is here, feeding off your lifeforce.
+~
+DESCR
+You can see right through this creature, except for the dark patch surrounding
+it's red, glowing eyes... it looks pissed off that you're still alive.
+~
+RACE  unique~
+ACT   ABFT
+AFF   0
+OFF   FK
+IMM   ABCD
+RES   0
+VULN  H
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 10
+ENHA  100.00%
+MATER none~
+HDICE 100d3+2500
+MDICE 1d1+500
+DDICE 5d8+25
+REGEN 0
+DTYPE bite
+AC    -15 -15 -15 -10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ACK
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#4600
+NAME   key black~
+SHORT  a small black skeleton key~
+DESCR 
+An ordinary skeleton key lies here.~
+MAT    wood~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 144
+WEAR   A
+LEVEL  15
+WEIGHT 6
+COST   100
+COND   100
+End
+
+#4601
+NAME   frostbrand sword~
+SHORT  a Frostbrand sword~
+DESCR 
+An ice-cold broad sword lies here.~
+MAT    iron~
+TYPE   weapon sword 9 6 frbite 0
+EXTRA  1 4 0 524736
+WEAR   AN
+LEVEL  35
+WEIGHT 16
+COST   12000
+COND   100
+Affect O 19 6 0
+Affect O 18 6 0
+Affect O 1 -2 0
+LIMIT  8
+End
+
+#4602
+NAME   symbol unholy lloth~
+SHORT  an unholy symbol of Lloth~
+DESCR 
+A forboding symbol of evil lies here.~
+MAT    gem~
+TYPE   armor DE ACF ABCDE CDE 0
+EXTRA  1 7 0 527188
+WEAR   AC
+LEVEL  45
+WEIGHT 8
+COST   20000
+COND   100
+Affect O 12 50 0
+Affect O 13 50 0
+Affect O 18 2 0
+Affect O 19 2 0
+Affect O 24 -5 0
+LIMIT  10
+End
+
+#4603
+NAME   ~
+SHORT  humanoid~
+DESCR 
+A decaying corpse lies here, feeding the worms and rats.~
+MAT    flesh~
+TYPE   container 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  1
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4604
+NAME   darkened boots~
+SHORT  a pair of darkened boots~
+DESCR 
+A pair of darkened boots lies here.~
+MAT    iron~
+TYPE   armor ABCDF CF ABEF ADE 0
+EXTRA  1 7 0 524887
+WEAR   AG
+LEVEL  49
+WEIGHT 23
+COST   20000
+COND   100
+Affect O 19 2 0
+Affect O 18 3 0
+Affect O 17 -4 0
+Affect O 13 40 0
+Affect O 2 1 0
+Affect O 5 1 0
+LIMIT  10
+End
+
+#4605
+NAME   darkened helm helmet~
+SHORT  a darkened helmet~
+DESCR 
+A darkened helmet lies here.~
+MAT    iron~
+TYPE   armor BCEF ADF ABDEF ACDE 0
+EXTRA  1 7 0 525079
+WEAR   AE
+LEVEL  49
+WEIGHT 26
+COST   20000
+COND   100
+Affect O 19 2 0
+Affect O 18 3 0
+Affect O 13 40 0
+Affect O 3 1 0
+Affect O 5 1 0
+Affect O 17 -5 0
+LIMIT  10
+End
+
+#4606
+NAME   darkened leggings~
+SHORT  a pair of darkened leggings~
+DESCR 
+A pair of darkened leggings is lying here.~
+MAT    iron~
+TYPE   armor ABCDF CF ABEF ADE 0
+EXTRA  1 7 0 525079
+WEAR   AF
+LEVEL  49
+WEIGHT 28
+COST   20000
+COND   100
+Affect O 19 3 0
+Affect O 18 2 0
+Affect O 17 -3 0
+Affect O 13 35 0
+Affect O 5 1 0
+EDESC darkened leggings~
+Upon closer examination of these leggings, you realize they are of
+extraordinary craftsmanship, and are very light for their huge size.
+Only a great warrior may wear them with little fear of death.
+~
+LIMIT  10
+End
+
+#4607
+NAME   arkham signet ring~
+SHORT  the Arkham signet ring~
+DESCR 
+A small, iron ring lies here.~
+MAT    iron~
+TYPE   armor AF BDE CF BE 0
+EXTRA  1 8 0 525143
+WEAR   AB
+LEVEL  49
+WEIGHT 4
+COST   20000
+COND   100
+Affect O 1 1 0
+Affect O 13 30 0
+Affect O 17 -15 0
+Affect O 19 3 0
+Affect O 18 3 0
+LIMIT  15
+End
+
+#4608
+NAME   darkened shield~
+SHORT  a darkened shield~
+DESCR 
+A darkened shield is propped up against the wall here.~
+MAT    iron~
+TYPE   armor AF ADE CF BE 0
+EXTRA  1 5 0 4739
+WEAR   AJ
+LEVEL  25
+WEIGHT 39
+COST   1
+COND   100
+Affect O 19 -6 0
+Affect O 18 -2 0
+Affect O 13 -20 0
+Affect O 5 -2 0
+Affect O 1 -3 0
+End
+
+#4609
+NAME   guardian sword~
+SHORT  a guardian sword~
+DESCR 
+A guardian sword lies here.~
+MAT    iron~
+TYPE   weapon sword 9 6 slash D
+EXTRA  1 9 0 529239
+WEAR   AN
+LEVEL  55
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 19 7 0
+Affect O 18 7 0
+LIMIT  8
+End
+
+#4610
+NAME   potion healing~
+SHORT  a potion of healing~
+DESCR 
+A crystal-clear potion lies here... it looks refreshing.~
+MAT    glass~
+TYPE   potion 30 'acid blast' 'blindness' 'plague' ''
+EXTRA  1 1 0 1
+WEAR   A
+LEVEL  5
+WEIGHT 7
+COST   15000
+COND   100
+LIMIT  5
+End
+
+#4611
+NAME   staff wrath~
+SHORT  a staff of wrath~
+DESCR 
+A long, golden staff is here~
+MAT    wood~
+TYPE   staff 20 5 5 'colour spray' 0
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  5
+WEIGHT 6
+COST   2000
+COND   100
+LIMIT  5
+End
+
+#4612
+NAME   cloak death~
+SHORT  the Cloak of Death~
+DESCR 
+A pile of blackened cloth is here.~
+MAT    cloth~
+TYPE   armor BDE ABF BDE AEF 0
+EXTRA  1 5 0 528468
+WEAR   AK
+LEVEL  45
+WEIGHT 7
+COST   20000
+COND   100
+Affect O 19 -3 0
+Affect O 13 -250 0
+Affect O 12 250 0
+Affect O 3 3 0
+Affect O 2 -3 0
+End
+
+#4613
+NAME   scroll yellow parchment~
+SHORT  an ancient yellow parchment~
+DESCR 
+A yellow from age, almost decayed parchment lies here.~
+MAT    paper~
+TYPE   scroll 50 'acid blast' '' '' ''
+EXTRA  1 5 0 561296
+WEAR   AO
+LEVEL  50
+WEIGHT 3
+COST   20000
+COND   100
+LIMIT  5
+End
+
+#4614
+NAME   copper ring fortitide~
+SHORT  a ring of fortitude~
+DESCR 
+A small copper ring lays here, shining with a dull gleam.~
+MAT    copper~
+TYPE   armor EF CF EF F 0
+EXTRA  1 10 0 528887
+WEAR   AB
+LEVEL  60
+WEIGHT 4
+COST   20000
+COND   100
+Affect O 17 -20 0
+Affect O 13 40 0
+Affect O 6 -1 0
+Affect O 5 4 0
+Affect O 1 1 0
+EDESC copper ring~
+An inscription is engraved inside the ring, stating 'accursed be the
+one not worthy of the true powers you behold'...
+~
+LIMIT  10
+End
+
+#4615
+NAME   ~
+SHORT  a corpse of an elfin wizard~
+DESCR 
+A freshly killed corpse lies here, waiting to be buried.~
+MAT    flesh~
+TYPE   container 0 0 0 10 0
+EXTRA  1 1 0 -2147483648
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4616
+NAME   flail pestilance~
+SHORT  the flail of Pestilance~
+DESCR 
+A worm-infested ball and chain lie here.~
+MAT    gold~
+TYPE   weapon flail 6 7 slime EH
+EXTRA  1 6 0 528903
+WEAR   AN
+LEVEL  40
+WEIGHT 20
+COST   16000
+COND   100
+Affect O 18 9 0
+Affect O 19 3 0
+Affect O 13 -25 0
+LIMIT  4
+End
+
+#4617
+NAME   poncho~
+SHORT  a rat-eaten poncho~
+DESCR 
+A pile of filthy rags lies here.~
+MAT    iron~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 2 0 4224
+WEAR   AK
+LEVEL  1
+WEIGHT 26
+COST   0
+COND   100
+Affect O 19 -6 0
+Affect O 17 20 0
+Affect O 13 -20 0
+Affect O 5 -5 0
+Affect O 1 -3 0
+End
+
+#4618
+NAME   ~
+SHORT  a half-eaten corpse~
+DESCR 
+A horribly mutilated, yet still fairly fresh corpse lies here.~
+MAT    flesh~
+TYPE   container 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4619
+NAME   emerald potion~
+SHORT  an emerald potion~
+DESCR 
+An emerald colored potion is here.~
+MAT    glass~
+TYPE   potion 47 'armor' 'curse' 'stone skin' ''
+EXTRA  1 3 0 4225
+WEAR   AO
+LEVEL  5
+WEIGHT 7
+COST   0
+COND   100
+LIMIT  5
+End
+
+#4620
+NAME   ~
+SHORT  a peaceful corpse~
+DESCR 
+This corpse appears to have been left alone by the ravaging undead here.~
+MAT    flesh~
+TYPE   container 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  30
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4621
+NAME   ulrician belt~
+SHORT  an ulrician belt~
+DESCR 
+A amber-tainted belt lies coiled up here.~
+MAT    iron~
+TYPE   armor ABDE CE ACDE BCD 0
+EXTRA  1 3 0 524305
+WEAR   AL
+LEVEL  40
+WEIGHT 13
+COST   19230
+COND   100
+Affect O 19 2 0
+Affect O 2 2 0
+Affect O 18 2 0
+LIMIT  3
+End
+
+#4622
+NAME   shadow dagger litrahth~
+SHORT  the Shadow Dagger~
+DESCR 
+A black, glinting blade lies here waiting to be picked up.~
+MAT    iron~
+TYPE   weapon dagger 8 6 pierce H
+EXTRA  1 5 0 528515
+WEAR   AN
+LEVEL  52
+WEIGHT 6
+COST   20000
+COND   100
+Affect O 19 8 0
+Affect O 18 8 0
+EDESC shadow dagger~
+Wear the dagger and speak the magic words, 'Litrahth Ezandor' to open
+the portal to the spirit realms...
+~
+LIMIT  4
+End
+
+#4623
+NAME   shadow dagger~
+SHORT  the Shadow Dagger~
+DESCR 
+A black, glinting blade lies here waiting to be picked up.~
+MAT    iron~
+TYPE   weapon dagger 1 1 pierce 0
+EXTRA  1 4 0 4227
+WEAR   AN
+LEVEL  52
+WEIGHT 6
+COST   0
+COND   100
+Affect O 13 -100 0
+Affect O 14 -200 0
+Affect O 2 -2 0
+Affect O 1 -8 0
+EDESC shadow dagger~
+Wear the dagger and speak the magic words, 'Litrahth Ezandor' to open
+the portal to the spirit realms...
+~
+End
+
+#4624
+NAME   claw dracolich~
+SHORT  the Claw of great Dracolich~
+DESCR 
+A claw of great ancient Dracolich is here.~
+MAT    bone~
+TYPE   weapon exotic 7 8 flbite C
+EXTRA  1 9 0 528855
+WEAR   AN
+LEVEL  60
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 19 6 0
+Affect O 18 5 0
+Affect O 12 -50 0
+Affect O 5 -2 0
+LIMIT  2
+End
+
+#4625
+NAME   coffin~
+SHORT  a coffin~
+DESCR 
+A plain, wooden coffin is here.~
+MAT    wood~
+TYPE   container 1000 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  1
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#4626
+NAME   sceptre chaos~
+SHORT  the flaming sceptre of Chaos~
+DESCR 
+A flaming rod of steel lies here.~
+MAT    energy~
+TYPE   weapon mace 9 6 wrath 0
+EXTRA  1 5 0 537395348
+WEAR   AN
+LEVEL  40
+WEIGHT 12
+COST   20000
+COND   100
+Affect O 18 6 0
+Affect O 19 6 0
+LIMIT  10
+End
+
+#4627
+NAME   libram gainful conjuration~
+SHORT  the Libram of Gainful Conjuration~
+DESCR 
+A large spellbook lies here waiting to be read.~
+MAT    paper~
+TYPE   scroll 50 'blindness' 'burning hands' 'chill touch' ''
+EXTRA  1 6 0 557079
+WEAR   AO
+LEVEL  50
+WEIGHT 3
+COST   20000
+COND   100
+End
+
+#4628
+NAME   potion protection divine~
+SHORT  a potion of divine protection~
+DESCR 
+A gleamy, white potion is here.~
+MAT    glass~
+TYPE   potion 30 'harm' 'shield' 'poison' 'chill touch'
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  50
+WEIGHT 7
+COST   20000
+COND   100
+LIMIT  5
+End
+
+#4629
+NAME   cloak wizardry~
+SHORT  the cloak of wizardry~
+DESCR 
+A mystical, maroon cloak lies here in a pile.~
+MAT    flesh~
+TYPE   container 750 0 0 500 10
+EXTRA  1 6 0 524343
+WEAR   AK
+LEVEL  50
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 17 -20 0
+Affect O 13 25 0
+Affect O 12 50 0
+Affect O 4 1 0
+Affect O 3 3 0
+LIMIT  4
+End
+
+#4630
+NAME   scroll overkill~
+SHORT  a scroll of ultimate overkill~
+DESCR 
+A scroll with the title 'Ultimate Overkill' lies here.~
+MAT    paper~
+TYPE   scroll 50 'lightning breath' 'acid blast' 'harm' ''
+EXTRA  1 1 0 524288
+WEAR   A
+LEVEL  38
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4631
+NAME   scroll truimph~
+SHORT  a scroll of truimph~
+DESCR 
+A scroll with the title 'Truimph' lies here.~
+MAT    paper~
+TYPE   scroll 43 'giant strength' 'cure serious' 'bless' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  34
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4632
+NAME   scroll feasting~
+SHORT  a scroll of feasting~
+DESCR 
+A scroll with the title 'Feasting' lies here.~
+MAT    paper~
+TYPE   scroll 35 'infravision' 'armor' 'colour spray' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  20
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4633
+NAME   scroll redecoration~
+SHORT  a scroll of room-redecoration~
+DESCR 
+A scroll with the title 'Room-redecoration' lies here.~
+MAT    paper~
+TYPE   scroll 38 'cause serious' 'energy drain' 'demonfire' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  45
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4634
+NAME   scroll protection~
+SHORT  a scroll of protection~
+DESCR 
+A scroll with the title 'Protection' lies here.~
+MAT    paper~
+TYPE   scroll 50 'armor' 'stone skin' 'pass door' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  40
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4635
+NAME   scroll invulnerability~
+SHORT  a scroll of invulnerability~
+DESCR 
+A scroll with the title 'Invulnerability' lies here.~
+MAT    paper~
+TYPE   scroll 34 'armor' 'teleport' '' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  12
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4636
+NAME   scroll wolverine~
+SHORT  a scroll of the Wolverine~
+DESCR 
+A scroll with the title 'Wolverine' lies here.~
+MAT    paper~
+TYPE   scroll 38 'frenzy' 'shield' '' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  20
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4637
+NAME   scroll lifebane~
+SHORT  a scroll of lifebane~
+DESCR 
+A scroll with the title 'Lifebane' lies here.~
+MAT    paper~
+TYPE   scroll 40 'energy drain' 'energy drain' '' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  33
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4638
+NAME   scroll destruction~
+SHORT  a scroll of destruction~
+DESCR 
+A scroll with the title 'Destruction' lies here.~
+MAT    paper~
+TYPE   scroll 42 'fireball' 'demonfire' '' ''
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  29
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4639
+NAME   scroll chaos~
+SHORT  a scroll of chaos~
+DESCR 
+A scroll with the title 'Chaos' lies here.~
+MAT    paper~
+TYPE   scroll 50 'teleport' 'teleport' 'sleep' 'curse'
+EXTRA  1 2 0 524289
+WEAR   A
+LEVEL  10
+WEIGHT 3
+COST   1500
+COND   100
+LIMIT  4
+End
+
+#4640
+NAME   potion healing bvumpertan~
+SHORT  a potion of healing~
+DESCR 
+A crystal-clear potion lies here... it looks refreshing.~
+MAT    glass~
+TYPE   potion 35 'change sex' 'acid blast' 'plague' ''
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  5
+WEIGHT 7
+COST   15000
+COND   100
+LIMIT  4
+End
+
+#4641
+NAME   potion life~
+SHORT  a potion of life~
+DESCR 
+A reddish-brown potion lies here.~
+MAT    glass~
+TYPE   potion 27 'cause critical' 'cause light' 'cure serious' ''
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  5
+WEIGHT 7
+COST   1000
+COND   100
+LIMIT  4
+End
+
+#4642
+NAME   darkened platemail plate~
+SHORT  a darkened platemail~
+DESCR 
+A darkened platemail lies here.~
+MAT    iron~
+TYPE   armor BDG ADEF AEG DF 0
+EXTRA  1 6 0 599
+WEAR   AD
+LEVEL  49
+WEIGHT 33
+COST   20000
+COND   100
+Affect O 19 3 0
+Affect O 18 4 0
+Affect O 13 50 0
+Affect O 5 2 0
+Affect O 24 -3 0
+LIMIT  3
+End
+
+#4643
+NAME   ivory statue maria~
+SHORT  an ivory statue~
+DESCR 
+An exquisite statue of a breathtaking woman stands here.~
+MAT    mineral~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 1 0 2
+WEAR   P
+LEVEL  10
+WEIGHT 8
+COST   0
+COND   100
+EDESC statue~
+The skill involved in creating such a magnificent statue is beyond the hands of mortals,
+only a divine touch could craft such flawless beauty. As you gaze at this awe-inspiring
+piece, the features upon the soft and delicate face of the female seem to twist into
+that of a festering zombie..eyes full of pain and despair. Thrust up from her body is a
+slender arm with delicate fingers gripping a dagger ending in an always sharp point.
+~
+LIMIT  1
+End
+
+#0
+
+
+
+#ROOMDATA
+#4600
+NAME   Outside of the mausoleum~
+DESCR
+The skies seem eternally dark and cloudy here, and the stench of
+death is almost overpowering as you stand north of the huge grey stone
+building. There are numerous heavy footprints in the dirt leading into
+and out of this accursed place, along with many deep grooves as if
+something heavy has been dragged inside.
+You hear a faint howling from within, and sense an occassional rustling
+in the graveyard surrounding you. Suddenly, it dawns on you that
+entering here may be a very bad idea...
+A sign is posted, urging caution.
+~
+FLAGS  524288
+Sect   0
+EDESC  sign~
+This area is for high level characters only... 25 to 50+, and most
+everything is aggressive, so keep in large groups of high levels.
+Once you go in, there may be no coming back alive... you have been
+warned.
+- Written by Khargqwzxdds
+- Idea by Khargqwzxdds, Ulric, and Harrap Jan-1995
+~
+DOOR 2
+~
+door~
+0 4600 4602
+DOOR 4
+~
+~
+0 0 717
+End
+
+#4601
+NAME   A grisly scene, NW corner of Mausoleum.~
+DESCR
+Half-decayed corpses have been dragged here and half-eaten by something
+with a ravenous appetite. Maybe it would be a good idea to find the way
+back outside now...
+A door leads back out to the south.
+~
+FLAGS  8201
+Sect   0
+DOOR 2
+~
+door~
+AB 0 4605
+End
+
+#4602
+NAME   Foyer of the mausoleum.~
+DESCR
+You are in the entrance hall of the accursed mausoleum. Rats and roaches
+scuttle about here, feeding on decaying flesh. You hear the door shut
+behind you and realize that you have indeed made a mistake.
+ To the north is the entryway back to the graveyard, to the south is
+the main area of the mausoleum.
+ Corpses litter the ground, obviously being dragged here for some vile
+purpose. You have an urge to leave this place now.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+ABC 4600 4600
+DOOR 2
+~
+door~
+AB 0 4606
+End
+
+#4603
+NAME   A grisly scene, NE corner of Mausoleum.~
+DESCR
+Half-decayed corpses have been dragged here and half-eaten by something
+with a ravenous appetite. Maybe it would be a good idea to find the way
+back outside now...
+A door to the south leaves this carnage.
+~
+FLAGS  8201
+Sect   0
+DOOR 2
+~
+door~
+AB 0 4607
+End
+
+#4604
+NAME   A small room.~
+DESCR
+This room is being used as a temporary storehouse for the corpses, until
+they can be dragged into the room to the south for some obviously
+horrible process to create the zombies you see roaming around here.
+To the south is a black wooden doorway, and to the east you may go back
+out to the main mausoleum area.
+~
+FLAGS  8201
+Sect   0
+DOOR 1
+~
+door~
+AB 0 4605
+DOOR 2
+~
+door~
+ABC 4600 4610
+End
+
+#4605
+NAME   Northwest main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There are doors to the north and west, and the mausoleum extends to the
+east and south.
+~
+FLAGS  2105353
+Sect   0
+DOOR 0
+~
+door~
+AB 0 4601
+DOOR 1
+~
+~
+0 0 4606
+DOOR 2
+~
+~
+0 0 4611
+DOOR 3
+~
+door~
+AB 0 4604
+End
+
+#4606
+NAME   Northern main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a door to the north, and the mausoleum extends to the west, east,
+and south.
+~
+FLAGS  2105353
+Sect   0
+DOOR 0
+~
+door~
+AB 0 4602
+DOOR 1
+~
+~
+0 0 4607
+DOOR 2
+~
+~
+0 0 4612
+DOOR 3
+~
+~
+0 0 4605
+DOOR 5
+~
+~
+AN 0 4638
+End
+
+#4607
+NAME   Northeastern main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a door to the north and east, and the mausoleum extends to the
+west and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+AB 0 4603
+DOOR 1
+~
+door~
+AB 0 4608
+DOOR 2
+~
+~
+0 0 4613
+DOOR 3
+~
+~
+0 0 4606
+End
+
+#4608
+NAME   A small room.~
+DESCR
+This room is being used as a temporary storehouse for the corpses, until
+they can be dragged into the room to the south for some obviously
+horrible process to create the zombies you see roaming around here.
+To the south is a black wooden doorway, and to the west you may go back
+out to the main mausoleum area.
+~
+FLAGS  2105353
+Sect   0
+DOOR 2
+~
+door~
+ABC 4600 4614
+DOOR 3
+~
+door~
+AB 0 4607
+End
+
+#4609
+NAME   The Kharzandra's coffin room~
+DESCR
+~
+FLAGS  8201
+Sect   0
+DOOR 1
+~
+~
+AB 0 4610
+End
+
+#4610
+NAME   The workroom of Kharzandra.~
+DESCR
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+ABC 4600 4604
+DOOR 3
+~
+~
+0 0 4609
+End
+
+#4611
+NAME   Western main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a wall to the west, and the mausoleum extends to the north, east,
+and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4605
+DOOR 1
+~
+~
+0 0 4612
+DOOR 2
+~
+~
+0 0 4617
+End
+
+#4612
+NAME   Central main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+The mausoleum extends to the west, east, north and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4606
+DOOR 1
+~
+~
+0 0 4613
+DOOR 2
+~
+~
+0 0 4618
+DOOR 3
+~
+~
+0 0 4611
+End
+
+#4613
+NAME   Eastern main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a wall to the east, and the mausoleum extends to the north, west,
+and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4607
+DOOR 2
+~
+~
+0 0 4619
+DOOR 3
+~
+~
+0 0 4612
+End
+
+#4614
+NAME   The workroom of Shadar Lunn~
+DESCR
+The room is very orderly and neat, except for a pile of gore and body
+parts against the far wall.  Weapons are displayed neatly in cases, and a
+suit of armor lies ready to be donned at a moment's notice.  The occupant is
+obviously a very organized, however twisted, individual.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+ABC 4600 4608
+DOOR 1
+~
+~
+0 0 4634
+End
+
+#4615
+NAME   The dark priest's coffin room.~
+DESCR
+This room has several black candles burning, and a small shrine to the
+god of Chaotic Evil, Loki. There is not much more worth noticing, besides
+the rancid odor coming from the opened crypts nearby.
+~
+FLAGS  8201
+Sect   0
+DOOR 1
+~
+hidden~
+0 0 4616
+End
+
+#4616
+NAME   The dark priest's workroom.~
+DESCR
+There is obviously an unholy resident that works in this room, judging by
+the evil and accursed relics strewn about.
+~
+FLAGS  2105353
+Sect   0
+DOOR 1
+~
+door~
+ABC 4600 4617
+DOOR 3
+~
+hidden~
+0 0 4615
+End
+
+#4617
+NAME   Western check point.~
+DESCR
+A pile of bodies lies by the doorway here, while burdened zombies dump
+more corpses slowly in with the rest. To the west appears to be some
+sort of important room in the building.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4611
+DOOR 1
+~
+~
+0 0 4618
+DOOR 2
+~
+~
+0 0 4622
+DOOR 3
+~
+door~
+ABC 4600 4616
+End
+
+#4618
+NAME   Central main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+The mausoleum extends to the west, east, north and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4612
+DOOR 1
+~
+~
+0 0 4619
+DOOR 2
+~
+~
+0 0 4623
+DOOR 3
+~
+~
+0 0 4617
+End
+
+#4619
+NAME   Eastern check point.~
+DESCR
+A pile of bodies lies by the doorway here, while burdened zombies dump
+more corpses slowly in with the rest. To the east appears to be some
+sort of important room in the building.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4613
+DOOR 1
+~
+door~
+ABC 4600 4620
+DOOR 2
+~
+~
+0 0 4624
+DOOR 3
+~
+~
+0 0 4618
+End
+
+#4620
+NAME   A vacant workroom.~
+DESCR
+This crypt area is seemingly undisturbed by the undead pillagers roaming
+around outside. Maybe this would be a good place to rest.
+~
+FLAGS  8201
+Sect   0
+DOOR 3
+~
+door~
+ABC 4600 4619
+End
+
+#4621
+NAME   The Rakshaka's workspace.~
+DESCR
+This room has several jungle-type plants in pots against the far wall,
+giving it a bit of scenery, despite the unspeakable things that have taken
+place to the dead bodies which lie piled up in the corner.
+~
+FLAGS  8201
+Sect   0
+DOOR 2
+~
+door~
+ABC 4600 4626
+DOOR 3
+~
+hidden~
+0 0 4636
+End
+
+#4622
+NAME   Western main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a wall to the west, and the mausoleum extends to the north, east,
+and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4617
+DOOR 1
+~
+~
+0 0 4623
+DOOR 2
+~
+~
+0 0 4627
+End
+
+#4623
+NAME   Central main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+The mausoleum extends to the west, east, north and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4618
+DOOR 1
+~
+~
+0 0 4624
+DOOR 2
+~
+~
+0 0 4628
+DOOR 3
+~
+~
+0 0 4622
+End
+
+#4624
+NAME   Eastern main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There is a wall to the east, and the mausoleum extends to the north, west,
+and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4619
+DOOR 2
+~
+~
+0 0 4629
+DOOR 3
+~
+~
+0 0 4623
+End
+
+#4625
+NAME   Roaming ground for the Demon.~
+DESCR
+A small demon has taken up residence in this room, and is hard at work in
+raising a small force of undead troops to please it's master.
+~
+FLAGS  8201
+Sect   0
+DOOR 1
+~
+hidden~
+AB 0 4637
+DOOR 2
+~
+door~
+ABC 4600 4630
+End
+
+#4626
+NAME   A small room.~
+DESCR
+This room is being used as a temporary storehouse for the corpses, until
+they can be dragged into the room to the north for some obviously
+horrible process to create the zombies you see roaming around here.
+To the north is a black wooden doorway, and to the east you may go back
+out to the main mausoleum area.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+ABC 4600 4621
+DOOR 1
+~
+door~
+AB 0 4627
+End
+
+#4627
+NAME   Southwest main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There are doors to the south and west, and the mausoleum extends to the
+east and north.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4622
+DOOR 1
+~
+~
+0 0 4628
+DOOR 2
+~
+door~
+AB 0 4631
+DOOR 3
+~
+door~
+AB 0 4626
+End
+
+#4628
+NAME   Central main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+The mausoleum extends to the west, east, north and south.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4623
+DOOR 1
+~
+~
+0 0 4629
+DOOR 2
+~
+~
+0 0 4632
+DOOR 3
+~
+~
+0 0 4627
+End
+
+#4629
+NAME   Southeast main area of the Mausoleum.~
+DESCR
+Zombies wander aimlessly around here. Most are oblivious to you, and go
+about their business of hauling corpses from one area to another, but
+a few of the unoccupied ones seem to have taken an interest in your life.
+There are doors to the south and east, and the mausoleum extends to the
+west and north.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4624
+DOOR 1
+~
+door~
+AB 0 4630
+DOOR 2
+~
+door~
+AB 0 4633
+DOOR 3
+~
+~
+0 0 4628
+End
+
+#4630
+NAME   A small room.~
+DESCR
+This room is being used as a temporary storehouse for the corpses, until
+they can be dragged into the room to them to them to theobviously
+horrible process to create the zombies you see roaming around here.
+To the north is a black wooden doorway, and to the west you may go back
+out to the main mausoleum area.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+ABC 4600 4625
+DOOR 3
+~
+door~
+AB 0 4629
+End
+
+#4631
+NAME   A grisly scene, SW corner of Mausoleum.~
+DESCR
+Half-decayed corpses have been dragged here and half-eaten by something
+with a ravenous appetite. Maybe it would be a good idea to find the way
+back outside now...
+A door leads back out to the nouth.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+door~
+AB 0 4627
+End
+
+#4632
+NAME   A hole in the southern wall.~
+DESCR
+A large hole has been smashed into the south end of the Mausoleum's wall,
+to allow something easier access in and out asiehe complex. To the south,
+a large crater is vaguely visible through the patches of fog and smoke.
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4628
+End
+
+#4633
+NAME   A grisly scene, SE corner of Mausoleum.~
+DESCR
+Half-decayed corpses have been dragged here and half-eaten by something
+with a ravenous appetite. Maybe it would be a good idea to find the way
+back outside now...
+A door leads back out to the nouth.
+~
+FLAGS  2105353
+Sect   0
+DOOR 0
+~
+door~
+AB 0 4629
+End
+
+#4634
+NAME   Shadar Lunn's coffin room~
+DESCR
+~
+FLAGS  2105353
+Sect   0
+DOOR 3
+~
+~
+AB 0 4614
+End
+
+#4635
+NAME   Lost in the graveyard fog.~
+DESCR
+~
+FLAGS  8201
+Sect   0
+DOOR 0
+~
+~
+0 0 4632
+End
+
+#4636
+NAME   A Rakshaka's lair.~
+DESCR
+The Rakshaka that has taken up residence in this crypt leaves little
+by way of personal belongings around. A few polished skulls, a couple of
+silver chains, and perhaps a coin or two from a country you have never
+heard of.
+~
+FLAGS  8201
+Sect   0
+DOOR 1
+~
+hidden~
+AB 0 4621
+End
+
+#4637
+NAME   A burnt room.~
+DESCR
+The walls of this crypt chamber have been covered in ash and cinder,
+leading you to believe there has been a large fire recently. In the
+far corner of the room, 3 huddled, burnt corpses lie resting.
+~
+FLAGS  8201
+Sect   0
+DOOR 3
+~
+hidden~
+0 0 4625
+End
+
+#4638
+NAME   A solemn chamber~
+DESCR
+Despite it's age, the stonework that makes up this chamber is in
+fantastic condition, as if it was built yesterday.  The mortar joints are
+smooth and flawless that bind the pale grey stones together that form the
+walls of this hidden sanctuary.  Dripping candles ooze wax down these
+immaculate walls endlessly but near the ground, not a puddle of dried wax
+can be seen.  It is if the candles squeeze out waxy tears that evaporate
+within this hushed place of rememberance, fading away before your eyes as
+the next drip begins.  
+~
+FLAGS  1048588
+Sect   0
+DOOR 0
+~
+~
+0 0 4639
+DOOR 4
+~
+~
+AN 0 4606
+End
+
+#4639
+NAME   Chamber of mourning~
+DESCR
+Flickering flames of dripping candles bring into view ancient portraits
+of a beautiful woman that line every inch of the cold, stone walls.  The
+feeling of being in a tomb leaves you and you feel as if you have stepped
+into an art gallery devoted to this pristine idol within the paintings.  How
+these masterpieces have survived this long within the confines of this musty
+place of rest surely must be to magic or even a divine hand.  
+~
+FLAGS  5242892
+Sect   0
+DOOR 2
+~
+~
+0 0 4638
+DOOR 5
+~
+~
+0 0 4640
+End
+
+#4640
+NAME   Tomb of Tears~
+DESCR
+A circular room of the same grey stone seems to envelop the only thing of note in this 
+chamber. A shimmering ivory statue stands out from the darkness in the middle of the room
+carved with loving care upon each hammer and chisel strike to form the awe-inspiring beauty
+of the same woman within the portraits above. A vibrant, youth trapped within time, the
+statue seems to flicker with life within the stone shell that is now it's prison.
+~
+FLAGS  5242892
+Sect   0
+DOOR 4
+~
+~
+0 0 4639
+DOOR 5
+~
+~
+AB 0 4641
+End
+
+#4641
+NAME   The Forgotten Tomb~
+DESCR
+For a tomb below the surface of the earth, the air carries on it the
+vibrant scent of freshly bloomed flowers on a spring day.  The sensation of
+the warming rays of the sun and the sweet smell quickly fades as wall
+sconces burning a dark blue flame bring into view a coffin of granite.  The
+lid slightly cracked shows the visage of a corpse of a once striking beauty,
+fallen before her time.  Decay and the rotworms have been denied their prize
+so far, as the corpse looks fresh, as if only fallen today.  Responsible for
+this, is a skeletal hand that waves over her resting form, ivory teeth
+chattering in a forgotten tongue to preserve her as she was known to all
+that loved her..  And still cherish her.  
+~
+FLAGS  5251082
+Sect   0
+DOOR 4
+~
+~
+AB 0 4640
+End
+
+#0
+
+
+
+#SPECIALS
+M 4603 spec_cast_mage
+M 4604 spec_cast_cold
+M 4605 spec_fido
+M 4606 spec_breath_fire
+M 4611 spec_cast_cleric
+M 4612 spec_cast_undead
+S
+
+
+
+#RESETS
+D 0 4601 2 1
+D 0 4602 0 2
+D 0 4602 2 1
+D 0 4603 2 1
+D 0 4604 1 1
+D 0 4604 2 2
+D 0 4605 0 1
+D 0 4605 3 1
+D 0 4606 0 1
+D 0 4607 0 1
+D 0 4607 1 1
+D 0 4608 2 2
+D 0 4608 3 1
+D 0 4609 1 1
+D 0 4610 0 2
+D 0 4614 0 2
+D 0 4616 1 2
+D 0 4617 3 2
+D 0 4619 1 2
+D 0 4620 3 2
+D 0 4621 2 2
+D 0 4625 1 1
+D 0 4625 2 2
+D 0 4626 0 2
+D 0 4626 1 1
+D 0 4627 2 1
+D 0 4627 3 1
+D 0 4629 1 1
+D 0 4629 2 1
+D 0 4630 0 2
+D 0 4630 3 1
+D 0 4631 0 1
+D 0 4633 0 1
+D 0 4634 3 1
+D 0 4636 1 1
+D 0 4640 5 1
+D 0 4641 4 1
+O 0 4603 0 4600
+M 0 4601 40 4600 10
+G 0 4600 0
+M 0 4605 12 4601 6
+M 0 4605 12 4603 6
+M 0 4601 40 4604 10
+G 0 4600 0
+O 0 4603 0 4605
+M 0 4600 35 4605 9
+O 0 4603 0 4606
+M 0 4600 35 4606 9
+G 0 4603 0
+O 0 4603 0 4607
+O 0 4615 0 4607
+M 0 4600 35 4607 9
+M 0 4600 35 4608 9
+M 0 4605 12 4608 4
+M 0 4601 40 4608 10
+G 0 4600 0
+O 0 4625 0 4609
+O 0 4603 0 4610
+O 0 4610 0 4610
+M 0 4603 1 4610 1
+E 0 4622 0 16
+G 0 4623 0
+G 0 4628 0
+G 0 4629 0
+G 0 4627 0
+P 0 4613 0 4627 1
+P 0 4630 0 4627 1
+P 0 4631 0 4627 1
+P 0 4632 0 4627 1
+P 0 4633 0 4627 1
+P 0 4634 0 4627 1
+P 0 4635 0 4627 1
+P 0 4636 0 4627 1
+P 0 4637 0 4627 1
+P 0 4638 0 4627 1
+P 0 4639 0 4627 1
+O 0 4603 0 4611
+O 0 4603 0 4612
+O 0 4618 0 4612
+M 0 4600 35 4612 9
+M 0 4600 35 4612 9
+G 0 4603 0
+O 0 4603 0 4614
+M 0 4604 1 4614 1
+E 0 4604 0 8
+E 0 4605 0 6
+E 0 4606 0 7
+E 0 4607 0 1
+E 0 4609 0 16
+G 0 4608 0
+E 0 4642 0 5
+M 0 4611 1 4615 1
+E 0 4626 0 16
+E 0 4602 0 3
+O 0 4625 0 4615
+P 0 4611 0 4625 1
+M 0 4602 2 4616 2
+E 0 4601 0 16
+E 0 4617 0 12
+M 0 4600 35 4617 9
+M 0 4601 40 4617 10
+G 0 4600 0
+O 0 4615 0 4618
+M 0 4600 35 4618 9
+G 0 4603 0
+M 0 4600 35 4619 9
+M 0 4600 35 4619 9
+M 0 4601 40 4619 10
+G 0 4600 0
+M 0 4600 35 4620 9
+M 0 4612 1 4620 1
+G 0 4619 0
+G 0 4619 0
+M 0 4600 35 4622 9
+M 0 4605 12 4622 4
+M 0 4600 35 4623 9
+M 0 4600 35 4623 9
+G 0 4603 0
+M 0 4605 12 4623 4
+M 0 4600 35 4624 9
+M 0 4605 12 4624 4
+O 0 4618 0 4625
+M 0 4602 2 4625 2
+E 0 4601 0 16
+E 0 4617 0 12
+M 0 4609 1 4625 1
+E 0 4616 0 16
+E 0 4621 0 13
+M 0 4605 12 4626 4
+M 0 4601 40 4626 10
+G 0 4600 0
+O 0 4620 0 4627
+M 0 4600 35 4627 9
+M 0 4600 35 4628 9
+G 0 4603 0
+M 0 4600 35 4629 9
+M 0 4605 12 4630 4
+M 0 4601 40 4630 10
+G 0 4600 0
+M 0 4605 12 4631 4
+O 0 4603 0 4632
+O 0 4619 0 4633
+M 0 4605 12 4633 4
+O 0 4610 0 4634
+O 0 4625 0 4634
+P 0 4640 0 4625 1
+O 0 4618 0 4635
+O 0 4625 0 4636
+O 0 4625 0 4637
+P 0 4640 0 4625 1
+P 0 4611 0 4625 1
+P 0 4641 0 4625 1
+O 0 4643 0 4640
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

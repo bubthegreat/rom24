@@ -1,0 +1,4097 @@
+#AREADATA
+Name The Minotaur Maze~
+Builders None~
+VNUMs 17900 17999
+Credits {25 50} Kyrissa The Minotaur Maze~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#17900
+NAME  minotaur commander~
+SHORT the minotaur commander~
+LONG  The minotaur commander orders you to be on your way.
+~
+DESCR
+Although he enjoys his high station in life and has made it to
+the top of his career, he hates his post and resents all who work
+for him.  Self pity has made him cruel and those assigned to him
+avoid him whenever possible.  He is not above using his fists to
+put his underlings in their place.
+~
+RACE  human~
+ACT   AFGT
+AFF   0
+OFF   CEFHIJKNO
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -900
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7000
+MDICE 1d1+1
+DDICE 10d4+23
+REGEN 0
+DTYPE drain
+AC    -25 -25 -25 -25
+POS   stand stand
+SEX   male
+GOLD  1000
+FORM  ABGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17901
+NAME  minotaur guard~
+SHORT a minotaur guard~
+LONG  A minotaur guard warns you to get on your way.
+~
+DESCR
+He sighs pitingly at himself, wondering what folly he committed to
+get himself such a degrading job.  He bucks up when he sees you and
+scans about, making sure no would-be lovers are using the maze for
+any purpose other than to meet their lifemate.
+~
+RACE  human~
+ACT   ACGT
+AFF   0
+OFF   EFHIJKNO
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 50
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 1d1+1
+DDICE 5d8+19
+REGEN 0
+DTYPE charge
+AC    -20 -20 -20 -20
+POS   stand stand
+SEX   male
+GOLD  200
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17902
+NAME  minotaur father~
+SHORT a minotaur father~
+LONG  A minotaur father eyes you up and down.
+~
+DESCR
+He loves his daughters, but wishes they would just find
+husbands, get married and start producing grand-children
+for him to play with.  But he'll be damned if he'll let
+them take lovers.
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   EFHIK
+IMM   0
+RES   AB
+VULN  0
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+1
+DDICE 8d4+16
+REGEN 0
+DTYPE charge
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  4000
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17903
+NAME  minotaur mother~
+SHORT a minotaur mother~
+LONG  A minotaur mother smiles distractedly.
+~
+DESCR
+She is already busy making plans for their weddings.  She wants
+everything to be perfect so she'll have something to talk about
+with her friends when they get together.  She doesn't care how
+they pay for the weddings, just so long as they are bigger and
+better than everyone elses.
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   FHIK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 1d1+1
+DDICE 4d8+13
+REGEN 0
+DTYPE charge
+AC    -13 -13 -13 -13
+POS   stand stand
+SEX   female
+GOLD  3000
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17904
+NAME  minotaur man~
+SHORT a minotaur man~
+LONG  A minotaur man tips his head politely as you pass.
+~
+DESCR
+He barely takes notice of you, as he is too busy trying to catch
+the eye of the lovely maidens wandering about.  Against their
+father's hopes, he has no intention of taking a bride until he
+is much older.  A mistress or two is what he seeks and he's
+determined to arrage it.
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   EFHIK
+IMM   0
+RES   AB
+VULN  0
+WSPEC 0
+ALIGN -300
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+1
+DDICE 8d4+16
+REGEN 0
+DTYPE charge
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  1500
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17905
+NAME  minotaur maiden~
+SHORT a minotaur maiden~
+LONG  A minotaur maiden smiles coquettishely at you.
+~
+DESCR
+She giggles flirtatiously as she was taught.  She has come in
+search of a husband and will do whatever it takes to get one,
+She's no fool, she knows it won't be easy changing his mind
+from wanting a just a bed partner to a wife, but when she wants
+something, she gets it, or else...
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   FHIK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 1d1+1
+DDICE 4d8+13
+REGEN 0
+DTYPE charge
+AC    -13 -13 -13 -13
+POS   stand stand
+SEX   female
+GOLD  1000
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17906
+NAME  minotaur lad~
+SHORT a minotaur lad~
+LONG  A minotaur lad searches for his misplaced pet.
+~
+DESCR
+He finds all this mushiness extremely boring.  To stir up some
+fun he has snuck away from his mother to start up a game of
+hide-and-seek.  He wass hiding and she was supposed to seek him
+out.  But now he is the seeker as his pet got loose and he must
+find him before his father finds out.
+~
+RACE  human~
+ACT   ACGH
+AFF   0
+OFF   FHIK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -400
+GROUP 0
+LEVEL 30
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 6d12+853
+MDICE 1d1+1
+DDICE 4d6+8
+REGEN 0
+DTYPE charge
+AC    -9 -9 -9 -9
+POS   stand stand
+SEX   male
+GOLD  100
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17907
+NAME  minotaur mongrel~
+SHORT a minotaur mongrel~
+LONG  A minotaur mongrel sniffs menacingly at you.
+~
+DESCR
+It is a huge, hulking mongrel, one of the ugliest creatures you
+have ever seen.  Two sets of teeth, as long and thick as your
+fingers, cause its jaws, dripping with saliva, to stay ajar.
+It's eye, a mixture of yellow and red stare warningly at you.
+~
+RACE  fido~
+ACT   ACG
+AFF   0
+OFF   DFHRU
+IMM   0
+RES   0
+VULN  C
+WSPEC 0
+ALIGN -700
+GROUP 0
+LEVEL 35
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1300
+MDICE 1d1+1
+DDICE 4d7+11
+REGEN 0
+DTYPE chomp
+AC    -11 -11 -11 -11
+POS   stand stand
+SEX   either
+GOLD  50
+FORM  ABGHV
+PARTS ACDEFHJKLQUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17908
+NAME  minotaur janitor~
+SHORT a minotaur janitor~
+LONG  A minotaur janitor mutters as he picks up another piece of trash.
+~
+DESCR
+He looks about in disgust, wondering whatever could have made
+him think being a janitor would be easy around such utter
+slobs.  He picks up another peice of litter and curses any in
+hearing distance.  No one pays him a bit of attention.
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   EFHIK
+IMM   0
+RES   AB
+VULN  0
+WSPEC 0
+ALIGN -500
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+1
+DDICE 8d4+16
+REGEN 0
+DTYPE charge
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17909
+NAME  minotaur gardener~
+SHORT a minotaur gardener~
+LONG  A minotaur gardener whistles happily to himself as he trims the hedges.
+~
+DESCR
+She loves her job and it shows in the beautifull grooming
+throughout the maze.  She carefully clips a piece of hedge,
+picks it up with a strange metallic device and drops it in
+a specially designed metallic, mesh sack.
+~
+RACE  human~
+ACT   ACG
+AFF   0
+OFF   EFHIK
+IMM   0
+RES   AB
+VULN  0
+WSPEC 0
+ALIGN -100
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+1
+DDICE 8d4+16
+REGEN 0
+DTYPE charge
+AC    -15 -15 -15 -15
+POS   stand stand
+SEX   female
+GOLD  1000
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#17910
+NAME  minotaur girl~
+SHORT a minotaur girl~
+LONG  A minotaur girl sobs quietly to herself.
+~
+DESCR
+She is lost and can't find her mother.  Her small frame shakes
+violently from her sobbing.  She tries to gain control of herself,
+looks around for a familiar face, finds none and starts crying
+again.  She clasps her hands around her knees and start rocking
+back and forth.
+~
+RACE  human~
+ACT   ABG
+AFF   0
+OFF   FHIK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -200
+GROUP 0
+LEVEL 30
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 6d12+853
+MDICE 1d1+1
+DDICE 4d6+8
+REGEN 0
+DTYPE charge
+AC    -9 -9 -9 -9
+POS   stand stand
+SEX   female
+GOLD  100
+FORM  AGHMV
+PARTS ABCDEFGHIJKLQW
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#17900
+NAME   water barrel~
+SHORT  a water barrel~
+DESCR 
+A barrel rests in the middle of the path, full of rain water.~
+MAT    wood~
+TYPE   fountain 100000 100000 'water' 0 0
+EXTRA  1 1 0 64
+WEAR   0
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#17901
+NAME   blue mushroom~
+SHORT  a blue mushroom~
+DESCR 
+A large, blue mushroom disturbs the perfectly manicured grass.~
+MAT    food~
+TYPE   food BD D 0 A 0
+EXTRA  1 1 0 64
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#17902
+NAME   chain-link collar~
+SHORT  a chain-link collar~
+DESCR 
+A chain-link collar glints dully on the ground.~
+MAT    iron~
+TYPE   armor CE E BCE ABD 0
+EXTRA  1 1 0 16
+WEAR   AC
+LEVEL  35
+WEIGHT 13
+COST   1000
+COND   100
+Affect O 1 1 0
+Affect O 18 2 0
+Affect O 19 2 0
+LIMIT  20
+End
+
+#17903
+NAME   opalescent ball~
+SHORT  an opalescent ball~
+DESCR 
+A fist sized ball glitters with an opalescent sheen.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  30
+WEIGHT 6
+COST   500
+COND   100
+Affect O 20 -5 0
+Affect O 13 40 0
+Affect O 12 40 0
+LIMIT  10
+End
+
+#17904
+NAME   jade bracelet~
+SHORT  a jade bracelet~
+DESCR 
+A green bracelet lies neglected on the floor.~
+MAT    stone~
+TYPE   armor BF ABE ACDE BCD 0
+EXTRA  1 1 0 256
+WEAR   AM
+LEVEL  40
+WEIGHT 16
+COST   4000
+COND   100
+Affect O 4 2 0
+Affect O 13 20 0
+Affect O 17 -7 0
+LIMIT  5
+End
+
+#17905
+NAME   studded cuff links~
+SHORT  some studded cuff links~
+DESCR 
+A pair of studded cuff links lays discarded in a corner.~
+MAT    cloth~
+TYPE   armor BDE ABF BDE AEF 0
+EXTRA  1 1 0 2
+WEAR   AI
+LEVEL  45
+WEIGHT 7
+COST   2000
+COND   100
+Affect O 18 4 0
+Affect O 19 4 0
+LIMIT  4
+End
+
+#17906
+NAME   mother's ring~
+SHORT  a mother's ring~
+DESCR 
+A gold studded ring lies fogotten on the ground.~
+MAT    gold~
+TYPE   armor ADE ABE ABDE E 0
+EXTRA  1 1 0 256
+WEAR   AB
+LEVEL  40
+WEIGHT 5
+COST   5000
+COND   100
+Affect O 5 2 0
+Affect O 12 40 0
+Affect O 17 -4 0
+LIMIT  5
+End
+
+#17907
+NAME   wool cloak~
+SHORT  a wool cloak~
+DESCR 
+A pile of wool lays balled up in a corner.~
+MAT    cloth~
+TYPE   armor BDE ABF BDE AEF 0
+EXTRA  1 1 0 2
+WEAR   AK
+LEVEL  45
+WEIGHT 7
+COST   6000
+COND   100
+Affect O 4 1 0
+Affect O 5 1 0
+Affect O 13 25 0
+Affect O 19 3 0
+LIMIT  4
+End
+
+#17908
+NAME   steel-toed boots~
+SHORT  some steel-toed boots~
+DESCR 
+A pair of steel-toed boots is covered in dust.~
+MAT    leather~
+TYPE   armor ABCDE ACEF AF ABF 0
+EXTRA  1 1 0 16777216
+WEAR   AG
+LEVEL  50
+WEIGHT 12
+COST   7000
+COND   100
+Affect O 1 1 0
+Affect O 13 50 0
+Affect O 14 10 0
+Affect O 18 2 0
+Affect O 19 4 0
+LIMIT  3
+End
+
+#17909
+NAME   gleaming belt buckle~
+SHORT  a gleaming belt buckle~
+DESCR 
+An oddly shaped piece of iron reflects the light.~
+MAT    steel~
+TYPE   armor BCDF BCDE BCDF CDE 0
+EXTRA  1 1 0 16777216
+WEAR   AL
+LEVEL  50
+WEIGHT 13
+COST   4000
+COND   100
+Affect O 3 2 0
+Affect O 6 1 0
+Affect O 17 -10 0
+Affect O 18 5 0
+Affect O 19 2 0
+LIMIT  3
+End
+
+#17910
+NAME   watchman's cudgel~
+SHORT  a watchman's cudgel~
+DESCR 
+A thick club lays menacingly in the dirt.~
+MAT    steel~
+TYPE   weapon exotic 6 8 shbite 0
+EXTRA  1 3 0 4256
+WEAR   AN
+LEVEL  50
+WEIGHT 20
+COST   8000
+COND   100
+Affect O 13 50 0
+Affect O 18 5 0
+Affect O 19 6 0
+LIMIT  3
+End
+
+#17911
+NAME   minotaur commander's combat uniform~
+SHORT  the minotaur commander's combat uniform~
+DESCR 
+A dashing uniform lays untouched on the floor.~
+MAT    cloth~
+TYPE   armor ABCEF DG ABCEF BCFG 0
+EXTRA  1 4 0 524307
+WEAR   AD
+LEVEL  55
+WEIGHT 9
+COST   15000
+COND   100
+Affect O 5 2 0
+Affect O 13 75 0
+Affect O 17 -15 0
+Affect O 19 3 0
+LIMIT  2
+End
+
+#17912
+NAME   minotaur commander's combat crest~
+SHORT  the minotaur commander's combat crest~
+DESCR 
+A militant helm with a leaders insignia rests on the ground.~
+MAT    ebony~
+TYPE   armor BDEF BCDEF BDEF CEF 0
+EXTRA  1 4 0 524307
+WEAR   AE
+LEVEL  55
+WEIGHT 21
+COST   12000
+COND   100
+Affect O 4 3 0
+Affect O 12 50 0
+Affect O 13 50 0
+Affect O 17 -5 0
+LIMIT  2
+End
+
+#17913
+NAME   minotaur commander's combat sollerets~
+SHORT  the minotaur commander's combat sollerets~
+DESCR 
+A mass of material lays in a forgotten heap.~
+MAT    ebony~
+TYPE   armor ABEF BCEF ABEF BCDF 0
+EXTRA  1 4 0 524307
+WEAR   AF
+LEVEL  55
+WEIGHT 22
+COST   18000
+COND   100
+Affect O 2 2 0
+Affect O 14 100 0
+Affect O 18 5 0
+Affect O 19 3 0
+LIMIT  2
+End
+
+#17914
+NAME   minotaur commander's combat gloves~
+SHORT  the minotaur commander's combat gloves~
+DESCR 
+A pair of gauntlets lies in a crumpled heap.~
+MAT    ebony~
+TYPE   armor ABEF BCEF ABEF BCDF 0
+EXTRA  1 4 0 524307
+WEAR   AH
+LEVEL  55
+WEIGHT 16
+COST   12000
+COND   100
+Affect O 2 3 0
+Affect O 12 75 0
+Affect O 17 -10 0
+Affect O 18 3 0
+LIMIT  2
+End
+
+#17915
+NAME   key~
+SHORT  a key~
+DESCR 
+A tiny black key lays hidden in the dirt.~
+MAT    ebony~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 98304
+WEAR   AO
+LEVEL  1
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#17916
+NAME   janitor's stick~
+SHORT  a janitor's stick~
+DESCR 
+A thin piece of wood with a sharp, pointed end lies in the grass.~
+MAT    wood~
+TYPE   weapon exotic 6 7 none 0
+EXTRA  1 2 0 4224
+WEAR   AN
+LEVEL  45
+WEIGHT 12
+COST   6000
+COND   100
+Affect O 18 4 0
+Affect O 19 4 0
+LIMIT  5
+End
+
+#17917
+NAME   belt sack~
+SHORT  a gardener's belt sack~
+DESCR 
+A metalic, mesh sack lies here.~
+MAT    metal~
+TYPE   container 300 A 0 100 0
+EXTRA  0 0
+WEAR   AK
+LEVEL  1
+WEIGHT 25
+COST   1000
+COND   100
+Affect O 12 25 0
+Affect O 13 25 0
+Affect O 14 25 0
+Affect O 17 -5 0
+LIMIT  3
+End
+
+#17918
+NAME   thin gold necklace~
+SHORT  a thin gold necklace~
+DESCR 
+A thin gold necklace glints brightly in the dirt.~
+MAT    gold~
+TYPE   armor AE ACD BE ABD 0
+EXTRA  1 1 0 1
+WEAR   AC
+LEVEL  30
+WEIGHT 13
+COST   1500
+COND   100
+Affect O 12 20 0
+Affect O 18 1 0
+Affect O 19 2 0
+LIMIT  20
+End
+
+#17919
+NAME   thin gold bracelet~
+SHORT  a thin gold bracelet~
+DESCR 
+A thin gold bracelet lies neglected in the dirt.~
+MAT    gold~
+TYPE   armor AE ACD BE ABD 0
+EXTRA  1 1 0 1
+WEAR   AM
+LEVEL  30
+WEIGHT 17
+COST   1500
+COND   100
+Affect O 13 20 0
+Affect O 18 2 0
+Affect O 19 1 0
+LIMIT  20
+End
+
+#17920
+NAME   thin gold ring~
+SHORT  a thin gold ring~
+DESCR 
+A thin gold ring lies fogotten in the dirt.~
+MAT    gold~
+TYPE   armor BCD BD ABCD AD 0
+EXTRA  1 1 0 1
+WEAR   AB
+LEVEL  30
+WEIGHT 5
+COST   1500
+COND   100
+Affect O 12 10 0
+Affect O 13 10 0
+Affect O 18 1 0
+Affect O 19 1 0
+LIMIT  20
+End
+
+#0
+
+
+
+#ROOMDATA
+#17900
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.  A large sign catches your attention!
+~
+FLAGS  0
+Sect   2
+EDESC  sign~
+*****************************************************
+**********************BEWARE*************************
+*****************************************************
+
+    Do not proceed unless you are brave of heart!
+If you are, then venture forth and seek your destiny!
+          If you are not, proceed south!
+
+~
+DOOR 0
+~
+~
+0 0 17910
+DOOR 1
+~
+~
+0 0 17901
+DOOR 3
+~
+~
+0 0 17909
+End
+
+#17901
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17911
+DOOR 1
+~
+~
+0 0 17902
+DOOR 2
+~
+~
+0 0 17991
+DOOR 3
+~
+~
+0 0 17900
+End
+
+#17902
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17912
+DOOR 1
+~
+~
+0 0 17903
+DOOR 2
+~
+~
+0 0 17992
+DOOR 3
+~
+~
+0 0 17901
+End
+
+#17903
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17993
+DOOR 1
+~
+~
+0 0 17904
+DOOR 0
+~
+~
+0 0 17913
+DOOR 3
+~
+~
+0 0 17902
+End
+
+#17904
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17914
+DOOR 1
+~
+~
+0 0 17905
+DOOR 2
+~
+~
+0 0 17994
+DOOR 3
+~
+~
+0 0 17903
+End
+
+#17905
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17915
+DOOR 1
+~
+~
+0 0 17906
+DOOR 2
+~
+~
+0 0 17995
+DOOR 3
+~
+~
+0 0 17904
+End
+
+#17906
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17916
+DOOR 3
+~
+~
+0 0 17905
+DOOR 1
+~
+~
+0 0 17907
+DOOR 2
+~
+~
+0 0 17996
+End
+
+#17907
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17917
+DOOR 1
+~
+~
+0 0 17908
+DOOR 2
+~
+~
+0 0 17997
+DOOR 3
+~
+~
+0 0 17906
+End
+
+#17908
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17918
+DOOR 1
+~
+~
+0 0 17909
+DOOR 2
+~
+~
+0 0 17998
+DOOR 3
+~
+~
+0 0 17907
+End
+
+#17909
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17908
+DOOR 2
+~
+~
+0 0 17999
+DOOR 1
+~
+~
+0 0 17900
+DOOR 0
+~
+~
+0 0 17919
+End
+
+#17910
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17920
+DOOR 1
+~
+~
+0 0 17911
+DOOR 2
+~
+~
+0 0 17900
+DOOR 3
+~
+~
+0 0 17919
+End
+
+#17911
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17921
+DOOR 1
+~
+~
+0 0 17912
+DOOR 2
+~
+~
+0 0 17901
+DOOR 3
+~
+~
+0 0 17910
+End
+
+#17912
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17913
+DOOR 3
+~
+~
+0 0 17911
+DOOR 0
+~
+~
+0 0 17922
+DOOR 2
+~
+~
+0 0 17902
+End
+
+#17913
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17923
+DOOR 1
+~
+~
+0 0 17914
+DOOR 2
+~
+~
+0 0 17903
+DOOR 3
+~
+~
+0 0 17912
+End
+
+#17914
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17924
+DOOR 1
+~
+~
+0 0 17915
+DOOR 2
+~
+~
+0 0 17904
+DOOR 3
+~
+~
+0 0 17913
+End
+
+#17915
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17916
+DOOR 2
+~
+~
+0 0 17905
+DOOR 3
+~
+~
+0 0 17914
+DOOR 0
+~
+~
+0 0 17925
+End
+
+#17916
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17926
+DOOR 1
+~
+~
+0 0 17917
+DOOR 2
+~
+~
+0 0 17906
+DOOR 3
+~
+~
+0 0 17915
+End
+
+#17917
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17927
+DOOR 1
+~
+~
+0 0 17918
+DOOR 2
+~
+~
+0 0 17907
+DOOR 3
+~
+~
+0 0 17916
+End
+
+#17918
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17919
+DOOR 0
+~
+~
+0 0 17928
+DOOR 3
+~
+~
+0 0 17917
+DOOR 2
+~
+~
+0 0 17908
+End
+
+#17919
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17929
+DOOR 1
+~
+~
+0 0 17910
+DOOR 2
+~
+~
+0 0 17909
+DOOR 3
+~
+~
+0 0 17918
+End
+
+#17920
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17930
+DOOR 1
+~
+~
+0 0 17921
+DOOR 2
+~
+~
+0 0 17910
+DOOR 3
+~
+~
+0 0 17929
+End
+
+#17921
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17911
+DOOR 0
+~
+~
+0 0 17931
+DOOR 3
+~
+~
+0 0 17920
+DOOR 1
+~
+~
+0 0 17922
+End
+
+#17922
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17932
+DOOR 1
+~
+~
+0 0 17923
+DOOR 2
+~
+~
+0 0 17912
+DOOR 3
+~
+~
+0 0 17921
+End
+
+#17923
+NAME   Dead End~
+DESCR
+You have reached a dead end.  There is nowhere to go but east.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17924
+End
+
+#17924
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17914
+DOOR 0
+~
+~
+0 0 17934
+DOOR 1
+~
+~
+0 0 17925
+DOOR 3
+~
+~
+0 0 17923
+End
+
+#17925
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17935
+DOOR 1
+~
+~
+0 0 17926
+DOOR 2
+~
+~
+0 0 17915
+DOOR 3
+~
+~
+0 0 17924
+End
+
+#17926
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17936
+DOOR 1
+~
+~
+0 0 17927
+DOOR 2
+~
+~
+0 0 17916
+DOOR 3
+~
+~
+0 0 17925
+End
+
+#17927
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17917
+DOOR 0
+~
+~
+0 0 17937
+DOOR 3
+~
+~
+0 0 17926
+DOOR 1
+~
+~
+0 0 17928
+End
+
+#17928
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17938
+DOOR 1
+~
+~
+0 0 17929
+DOOR 2
+~
+~
+0 0 17918
+DOOR 3
+~
+~
+0 0 17927
+End
+
+#17929
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17939
+DOOR 1
+~
+~
+0 0 17920
+DOOR 2
+~
+~
+0 0 17919
+DOOR 3
+~
+~
+0 0 17928
+End
+
+#17930
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17920
+DOOR 3
+~
+~
+0 0 17939
+DOOR 1
+~
+~
+0 0 17931
+DOOR 0
+~
+~
+0 0 17940
+End
+
+#17931
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17941
+DOOR 1
+~
+~
+0 0 17932
+DOOR 2
+~
+~
+0 0 17921
+DOOR 3
+~
+~
+0 0 17930
+End
+
+#17932
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17942
+DOOR 1
+~
+~
+0 0 17933
+DOOR 2
+~
+~
+0 0 17922
+DOOR 3
+~
+~
+0 0 17931
+End
+
+#17933
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17934
+DOOR 2
+~
+~
+0 0 17923
+DOOR 0
+~
+~
+0 0 17943
+DOOR 3
+~
+~
+0 0 17932
+End
+
+#17934
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17944
+DOOR 1
+~
+~
+0 0 17935
+DOOR 2
+~
+~
+0 0 17924
+DOOR 3
+~
+~
+0 0 17933
+End
+
+#17935
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17945
+DOOR 1
+~
+~
+0 0 17936
+DOOR 2
+~
+~
+0 0 17925
+DOOR 3
+~
+~
+0 0 17934
+End
+
+#17936
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17926
+DOOR 0
+~
+~
+0 0 17946
+DOOR 1
+~
+~
+0 0 17937
+DOOR 3
+~
+~
+0 0 17935
+End
+
+#17937
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17947
+DOOR 1
+~
+~
+0 0 17938
+DOOR 2
+~
+~
+0 0 17927
+DOOR 3
+~
+~
+0 0 17936
+End
+
+#17938
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17948
+DOOR 1
+~
+~
+0 0 17939
+DOOR 2
+~
+~
+0 0 17928
+DOOR 3
+~
+~
+0 0 17937
+End
+
+#17939
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17930
+DOOR 0
+~
+~
+0 0 17949
+DOOR 3
+~
+~
+0 0 17938
+DOOR 2
+~
+~
+0 0 17929
+End
+
+#17940
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17950
+DOOR 1
+~
+~
+0 0 17941
+DOOR 2
+~
+~
+0 0 17930
+DOOR 3
+~
+~
+0 0 17949
+End
+
+#17941
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17951
+DOOR 1
+~
+~
+0 0 17942
+DOOR 2
+~
+~
+0 0 17931
+DOOR 3
+~
+~
+0 0 17940
+End
+
+#17942
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17941
+DOOR 1
+~
+~
+0 0 17943
+DOOR 2
+~
+~
+0 0 17932
+DOOR 0
+~
+~
+0 0 17952
+End
+
+#17943
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17953
+DOOR 1
+~
+~
+0 0 17944
+DOOR 2
+~
+~
+0 0 17933
+DOOR 3
+~
+~
+0 0 17942
+End
+
+#17944
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17954
+DOOR 1
+~
+~
+0 0 17945
+DOOR 2
+~
+~
+0 0 17934
+DOOR 3
+~
+~
+0 0 17943
+End
+
+#17945
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17946
+DOOR 0
+~
+~
+0 0 17955
+DOOR 2
+~
+~
+0 0 17935
+DOOR 3
+~
+~
+0 0 17944
+End
+
+#17946
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17956
+DOOR 1
+~
+~
+0 0 17947
+DOOR 2
+~
+~
+0 0 17936
+DOOR 3
+~
+~
+0 0 17945
+End
+
+#17947
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17957
+DOOR 1
+~
+~
+0 0 17948
+DOOR 2
+~
+~
+0 0 17937
+DOOR 3
+~
+~
+0 0 17946
+End
+
+#17948
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17949
+DOOR 0
+~
+~
+0 0 17958
+DOOR 3
+~
+~
+0 0 17947
+DOOR 2
+~
+~
+0 0 17938
+End
+
+#17949
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17959
+DOOR 1
+~
+~
+0 0 17940
+DOOR 2
+~
+~
+0 0 17939
+DOOR 3
+~
+~
+0 0 17948
+End
+
+#17950
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17960
+DOOR 1
+~
+~
+0 0 17951
+DOOR 2
+~
+~
+0 0 17940
+DOOR 3
+~
+~
+0 0 17959
+End
+
+#17951
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17952
+DOOR 2
+~
+~
+0 0 17941
+DOOR 0
+~
+~
+0 0 17961
+DOOR 3
+~
+~
+0 0 17950
+End
+
+#17952
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17962
+DOOR 1
+~
+~
+0 0 17953
+DOOR 2
+~
+~
+0 0 17942
+DOOR 3
+~
+~
+0 0 17951
+End
+
+#17953
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17963
+DOOR 1
+~
+~
+0 0 17954
+DOOR 2
+~
+~
+0 0 17943
+DOOR 3
+~
+~
+0 0 17952
+End
+
+#17954
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17953
+DOOR 2
+~
+~
+0 0 17944
+DOOR 1
+~
+~
+0 0 17955
+DOOR 0
+~
+~
+0 0 17964
+End
+
+#17955
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17965
+DOOR 1
+~
+~
+0 0 17956
+DOOR 2
+~
+~
+0 0 17945
+DOOR 3
+~
+~
+0 0 17954
+End
+
+#17956
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17966
+DOOR 1
+~
+~
+0 0 17957
+DOOR 2
+~
+~
+0 0 17946
+DOOR 3
+~
+~
+0 0 17955
+End
+
+#17957
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17967
+DOOR 1
+~
+~
+0 0 17958
+DOOR 3
+~
+~
+0 0 17956
+DOOR 2
+~
+~
+0 0 17947
+End
+
+#17958
+NAME   Dead End~
+DESCR
+You have reached a dead end.  There is nowhere to go but south.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17948
+End
+
+#17959
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17969
+DOOR 1
+~
+~
+0 0 17950
+DOOR 2
+~
+~
+0 0 17949
+DOOR 3
+~
+~
+0 0 17958
+End
+
+#17960
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17970
+DOOR 1
+~
+~
+0 0 17961
+DOOR 2
+~
+~
+0 0 17950
+DOOR 3
+~
+~
+0 0 17969
+End
+
+#17961
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17971
+DOOR 1
+~
+~
+0 0 17962
+DOOR 2
+~
+~
+0 0 17951
+DOOR 3
+~
+~
+0 0 17960
+End
+
+#17962
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17972
+DOOR 1
+~
+~
+0 0 17963
+DOOR 2
+~
+~
+0 0 17952
+DOOR 3
+~
+~
+0 0 17961
+End
+
+#17963
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17962
+DOOR 0
+~
+~
+0 0 17973
+DOOR 1
+~
+~
+0 0 17964
+DOOR 2
+~
+~
+0 0 17953
+End
+
+#17964
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17974
+DOOR 1
+~
+~
+0 0 17965
+DOOR 2
+~
+~
+0 0 17954
+DOOR 3
+~
+~
+0 0 17963
+End
+
+#17965
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17975
+DOOR 1
+~
+~
+0 0 17966
+DOOR 2
+~
+~
+0 0 17955
+DOOR 3
+~
+~
+0 0 17964
+End
+
+#17966
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17976
+DOOR 2
+~
+~
+0 0 17956
+DOOR 1
+~
+~
+0 0 17967
+DOOR 3
+~
+~
+0 0 17965
+End
+
+#17967
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17977
+DOOR 1
+~
+~
+0 0 17968
+DOOR 2
+~
+~
+0 0 17957
+DOOR 3
+~
+~
+0 0 17966
+End
+
+#17968
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17978
+DOOR 1
+~
+~
+0 0 17969
+DOOR 2
+~
+~
+0 0 17958
+DOOR 3
+~
+~
+0 0 17967
+End
+
+#17969
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17979
+DOOR 2
+~
+~
+0 0 17959
+DOOR 1
+~
+~
+0 0 17960
+DOOR 3
+~
+~
+0 0 17968
+End
+
+#17970
+NAME   Dead End~
+DESCR
+You have reached a dead end.  There is nowhere to go but north.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17980
+End
+
+#17971
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17981
+DOOR 1
+~
+~
+0 0 17972
+DOOR 2
+~
+~
+0 0 17961
+DOOR 3
+~
+~
+0 0 17970
+End
+
+#17972
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17982
+DOOR 3
+~
+~
+0 0 17971
+DOOR 2
+~
+~
+0 0 17962
+DOOR 1
+~
+~
+0 0 17973
+End
+
+#17973
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17983
+DOOR 1
+~
+~
+0 0 17974
+DOOR 2
+~
+~
+0 0 17963
+DOOR 3
+~
+~
+0 0 17972
+End
+
+#17974
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17984
+DOOR 1
+~
+~
+0 0 17975
+DOOR 2
+~
+~
+0 0 17964
+DOOR 3
+~
+~
+0 0 17973
+End
+
+#17975
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 1
+~
+~
+0 0 17976
+DOOR 3
+~
+~
+0 0 17974
+DOOR 0
+~
+~
+0 0 17985
+DOOR 2
+~
+~
+0 0 17965
+End
+
+#17976
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17986
+DOOR 1
+~
+~
+0 0 17977
+DOOR 2
+~
+~
+0 0 17966
+DOOR 3
+~
+~
+0 0 17975
+End
+
+#17977
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17987
+DOOR 1
+~
+~
+0 0 17978
+DOOR 2
+~
+~
+0 0 17967
+DOOR 3
+~
+~
+0 0 17976
+End
+
+#17978
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17968
+DOOR 1
+~
+~
+0 0 17979
+DOOR 0
+~
+~
+0 0 17988
+DOOR 3
+~
+~
+0 0 17977
+End
+
+#17979
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17989
+DOOR 1
+~
+~
+0 0 17970
+DOOR 2
+~
+~
+0 0 17969
+DOOR 3
+~
+~
+0 0 17978
+End
+
+#17980
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17990
+DOOR 1
+~
+~
+0 0 17981
+DOOR 2
+~
+~
+0 0 17970
+DOOR 3
+~
+~
+0 0 17989
+End
+
+#17981
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17991
+DOOR 1
+~
+~
+0 0 17982
+DOOR 2
+~
+~
+0 0 17971
+DOOR 3
+~
+~
+0 0 17980
+End
+
+#17982
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17992
+DOOR 1
+~
+~
+0 0 17983
+DOOR 2
+~
+~
+0 0 17972
+DOOR 3
+~
+~
+0 0 17981
+End
+
+#17983
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17993
+DOOR 1
+~
+~
+0 0 17984
+DOOR 2
+~
+~
+0 0 17973
+DOOR 3
+~
+~
+0 0 17982
+End
+
+#17984
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 2
+~
+~
+0 0 17974
+DOOR 0
+~
+~
+0 0 17994
+DOOR 3
+~
+~
+0 0 17983
+DOOR 1
+~
+~
+0 0 17985
+End
+
+#17985
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17995
+DOOR 1
+~
+~
+0 0 17986
+DOOR 2
+~
+~
+0 0 17975
+DOOR 3
+~
+~
+0 0 17984
+End
+
+#17986
+NAME   A Four-Way Junction~
+DESCR
+You are taken by surprise when you notice and exquisitely sculpted
+flower nestled amonst the poisonous thorns.  The petals range in
+colors from the deepest purples to the palest yellows.  You wonder
+how such a flower could grow in such a deadly place.  Then you
+take a second look at it.  Maybe, at long last, you have found
+something to help you figure out where you are.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17996
+DOOR 1
+~
+~
+0 0 17987
+DOOR 2
+~
+~
+0 0 17976
+DOOR 3
+~
+~
+0 0 17985
+End
+
+#17987
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17997
+DOOR 3
+~
+~
+0 0 17986
+DOOR 2
+~
+~
+0 0 17977
+DOOR 1
+~
+~
+0 0 17988
+End
+
+#17988
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17998
+DOOR 1
+~
+~
+0 0 17989
+DOOR 2
+~
+~
+0 0 17978
+DOOR 3
+~
+~
+0 0 17987
+End
+
+#17989
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17999
+DOOR 1
+~
+~
+0 0 17980
+DOOR 2
+~
+~
+0 0 17979
+DOOR 3
+~
+~
+0 0 17988
+End
+
+#17990
+NAME   The Cell~
+DESCR
+The Commander's favorite place, this cell is used for any foolish
+enough to cross his path.  Completely austure, not even a chair
+graces the room.  The walls, floor and ceiling are painted the
+dullest of greys, and the doors, facing south, east and west have
+no latch of any kind.  Although they stand open when not in use,
+for any who wish to pass through, they work on a spring, timing
+mechanism when the Commander has locked someone in.  If he had to
+let them out himself, they would find themselves rotting in there
+permanently.
+~
+FLAGS  8204
+Sect   0
+DOOR 2
+~
+~
+AFGM 17915 17980
+End
+
+#17991
+NAME   A Four-Way Junction~
+DESCR
+You begin to feel dizzy as you look about.  Nothing changes.
+Everything looks the same.  You begin to wonder if you are going
+crazy.  You consider asking for directions, but no one looks very
+friendly.  Everyone is too busy doing other things to give you
+the time of day, let alone tell you how to leave seemingly exitless
+maze.  You wonder which direction you should go next, of if you
+should even bother to continue on.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17901
+DOOR 1
+~
+~
+0 0 17992
+DOOR 2
+~
+~
+0 0 17981
+DOOR 3
+~
+~
+0 0 17990
+End
+
+#17992
+NAME   A Four-Way Junction~
+DESCR
+Clustered in a tight circle near the edge of the thorn bushes,
+similar to a faerie ring, grows a patch of brilliantly colored
+blue mushrooms.  Dotted in lighter colored blue spots, they
+look very tempting.  You consider tasting one, but wonder if
+they too, like the thorns they grow near, are poisonous,
+especially as they seem so out of place in this perfectly
+manicured labyrinth.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17902
+DOOR 1
+~
+~
+0 0 17993
+DOOR 2
+~
+~
+0 0 17982
+DOOR 3
+~
+~
+0 0 17991
+End
+
+#17993
+NAME   A Four-Way Junction~
+DESCR
+An unnatural green light shines down over the hedges, casting
+grotesque shadows along the pathway.  You look about trying
+to see where it is coming from, but like everything else in
+this maze, you can't find anything.  You glance more closely
+at the shadows and notice that the thorns create the appearance
+of rows of razor-sharp teeth readying to tear your flesh to
+pieces.  Although you know this is an illusion, you hurry
+onward.
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17992
+DOOR 0
+~
+~
+0 0 17903
+DOOR 1
+~
+~
+0 0 17994
+DOOR 2
+~
+~
+0 0 17983
+End
+
+#17994
+NAME   A Four-Way Junction~
+DESCR
+Completely enshrouding the carpeted pathways, a dark, swirling
+mist hovers just above the ground here.  You step carefully into
+it and shudder as it engulfs your lower body.  It wraps around
+you, caressing your body with its darkness.  You can't quite be
+sure, but it almost feels alive.  You hurry through it, not quite
+caring which direction you go, just anywhere away from it, even
+if that means becoming more lost.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17904
+DOOR 1
+~
+~
+0 0 17995
+DOOR 2
+~
+~
+0 0 17984
+DOOR 3
+~
+~
+0 0 17993
+End
+
+#17995
+NAME   A Four-Way Junction~
+DESCR
+Lost and without hope of finding your way out, you stand in the
+middle of the intersection trying to figure out which way you
+should go next.  You face north, east, south, then west,
+scratching your head in utter bewilderment.  You step toward the
+north, then change your mind and start heading south.  You stop
+again and mutter irritably to yourself.  Which way to go?
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17905
+DOOR 1
+~
+~
+0 0 17996
+DOOR 2
+~
+~
+0 0 17985
+DOOR 3
+~
+~
+0 0 17994
+End
+
+#17996
+NAME   A Four-Way Junction~
+DESCR
+You stand at a four-way intersection.  Scanning about, you see that
+every direction appears to be exactly the same as all the other
+directions.  The wide paths are cast in perpetual shadow as thorn
+bushes tower above, as far as the eye can see.  The razor-sharp
+thorns are coated in a deadly venom and you can see that to touch
+them even slightly would be fatal, making passage through them
+virtually impossible.
+~
+FLAGS  0
+Sect   2
+DOOR 3
+~
+~
+0 0 17995
+DOOR 1
+~
+~
+0 0 17997
+DOOR 2
+~
+~
+0 0 17986
+DOOR 0
+~
+~
+0 0 17906
+End
+
+#17997
+NAME   A Four-Way Junction~
+DESCR
+You stare about you in dismay, you feel like you are standing in
+the exact place you just left.  Everything looks exactly the same.
+Wondering how this could be, you scan about hoping to see something
+that distinguishes itself from everything else.  Nothing pops out
+at you and you begin to wonder if you will ever find the exit or,
+a more likely possibility, be lost in here forever.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17907
+DOOR 1
+~
+~
+0 0 17998
+DOOR 2
+~
+~
+0 0 17987
+DOOR 3
+~
+~
+0 0 17996
+End
+
+#17998
+NAME   A Four-Way Junction~
+DESCR
+Standing perfectly centered in the middle of the interesction is a tall
+barrel, finely crafted in washed oak.  Upon closer inspection you notice
+that it is full of crisp, cool rainwater.  A silver dipper is hooked to
+the rim for any who wish to take a drink.  You wonder what divine hand
+reached down and put this generous reprieve in such an unfriendly place.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17908
+DOOR 1
+~
+~
+0 0 17999
+DOOR 2
+~
+~
+0 0 17988
+DOOR 3
+~
+~
+0 0 17997
+End
+
+#17999
+NAME   A Four-Way Junction~
+DESCR
+All about, the sounds of laugther and talk can be heard.  This is
+quite surprising as the thorn bushes are extremely dense and
+should be blocking the surrounding sounds.  You look about to see
+where the sounds are coming from and see an occasional scuff
+mark marring the lawn covered path.  Aside from these few marks,
+the grass is perfectly tended by someone who obviously takes great
+pride in his work.
+~
+FLAGS  0
+Sect   2
+DOOR 0
+~
+~
+0 0 17909
+DOOR 1
+~
+~
+0 0 17999
+DOOR 2
+~
+~
+0 0 17989
+DOOR 3
+~
+~
+0 0 17998
+End
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 17906 10 17900 1
+E 0 17903 0 17
+M 0 17904 15 17901 2
+M 0 17904 15 17901 2
+E 0 17905 0 10
+O 0 17900 0 17902
+M 0 17902 5 17903 1
+E 0 17907 0 12
+R 0 17903 4
+O 0 17901 0 17906
+R 0 17906 4
+M 0 17905 15 17907 1
+E 0 17904 0 15
+M 0 17901 9 17908 1
+E 0 17908 0 8
+M 0 17907 10 17909 1
+R 0 17909 4
+O 0 17901 0 17910
+M 0 17906 10 17911 1
+M 0 17901 9 17912 1
+E 0 17909 0 13
+R 0 17912 4
+M 0 17903 5 17913 1
+E 0 17906 0 2
+R 0 17915 4
+M 0 17904 15 17916 1
+O 0 17900 0 17916
+M 0 17907 10 17918 1
+E 0 17902 0 3
+R 0 17918 4
+M 0 17905 15 17919 2
+M 0 17905 15 17919 2
+O 0 17900 0 17920
+R 0 17921 4
+M 0 17906 10 17922 1
+E 0 17903 0 17
+M 0 17910 3 17923 1
+E 0 17918 0 3
+E 0 17919 0 15
+E 0 17920 0 2
+M 0 17904 15 17924 2
+E 0 17905 0 10
+M 0 17904 15 17924 2
+O 0 17901 0 17924
+R 0 17924 4
+M 0 17901 9 17925 1
+E 0 17910 0 16
+M 0 17905 15 17925 1
+E 0 17904 0 15
+M 0 17909 3 17926 1
+E 0 17917 0 13
+M 0 17902 5 17927 1
+M 0 17907 10 17927 1
+R 0 17927 4
+M 0 17901 9 17930 1
+E 0 17908 0 8
+M 0 17905 15 17930 2
+M 0 17905 15 17930 2
+R 0 17930 4
+M 0 17908 2 17932 1
+E 0 17916 0 16
+M 0 17906 10 17933 1
+R 0 17933 4
+O 0 17900 0 17934
+M 0 17907 10 17936 1
+E 0 17902 0 3
+R 0 17936 4
+M 0 17904 15 17937 1
+O 0 17901 0 17938
+M 0 17903 5 17939 1
+R 0 17939 4
+M 0 17904 15 17940 2
+E 0 17905 0 10
+M 0 17904 15 17940 2
+M 0 17902 5 17942 1
+E 0 17907 0 12
+O 0 17901 0 17942
+R 0 17942 4
+M 0 17906 10 17944 1
+E 0 17903 0 17
+M 0 17907 10 17945 1
+R 0 17945 4
+M 0 17905 15 17948 1
+E 0 17904 0 15
+O 0 17900 0 17948
+R 0 17948 4
+M 0 17901 9 17949 1
+E 0 17909 0 13
+M 0 17909 3 17950 1
+E 0 17917 0 13
+R 0 17951 4
+O 0 17900 0 17952
+M 0 17903 5 17954 1
+E 0 17906 0 2
+M 0 17907 10 17954 1
+E 0 17902 0 3
+R 0 17954 4
+M 0 17904 15 17955 1
+M 0 17906 10 17955 1
+M 0 17901 9 17956 1
+E 0 17910 0 16
+O 0 17901 0 17956
+R 0 17957 4
+M 0 17910 3 17958 1
+E 0 17918 0 3
+E 0 17919 0 15
+E 0 17920 0 2
+M 0 17905 15 17959 2
+M 0 17905 15 17959 2
+O 0 17901 0 17960
+R 0 17960 4
+M 0 17907 10 17963 1
+R 0 17963 4
+M 0 17901 9 17964 1
+E 0 17908 0 8
+M 0 17902 5 17966 1
+M 0 17905 15 17966 1
+E 0 17904 0 15
+M 0 17906 10 17966 1
+E 0 17903 0 17
+O 0 17900 0 17966
+R 0 17966 4
+M 0 17904 15 17969 2
+E 0 17905 0 10
+M 0 17904 15 17969 2
+R 0 17969 4
+M 0 17910 3 17970 1
+E 0 17918 0 3
+E 0 17919 0 15
+E 0 17920 0 2
+M 0 17907 10 17972 1
+E 0 17902 0 3
+R 0 17972 4
+M 0 17904 15 17973 1
+M 0 17905 15 17973 2
+M 0 17905 15 17973 2
+O 0 17901 0 17974
+M 0 17903 5 17975 1
+R 0 17975 4
+M 0 17900 1 17977 1
+E 0 17911 0 5
+E 0 17912 0 6
+E 0 17913 0 7
+E 0 17914 0 9
+E 0 17915 0 17
+M 0 17906 10 17977 1
+R 0 17978 4
+M 0 17905 15 17980 1
+E 0 17904 0 15
+M 0 17907 10 17981 1
+R 0 17981 4
+M 0 17901 9 17983 1
+E 0 17909 0 13
+O 0 17900 0 17984
+R 0 17984 4
+R 0 17987 4
+M 0 17904 15 17988 2
+M 0 17904 15 17988 2
+M 0 17906 10 17988 1
+E 0 17903 0 17
+M 0 17908 2 17988 1
+E 0 17916 0 16
+O 0 17901 0 17988
+M 0 17902 5 17989 1
+E 0 17907 0 12
+M 0 17907 10 17991 1
+E 0 17902 0 3
+M 0 17909 3 17992 1
+E 0 17917 0 13
+O 0 17901 0 17992
+R 0 17993 4
+M 0 17905 15 17994 2
+M 0 17905 15 17994 2
+M 0 17903 5 17996 1
+E 0 17906 0 2
+M 0 17904 15 17996 1
+R 0 17996 4
+M 0 17901 9 17997 1
+E 0 17910 0 16
+O 0 17900 0 17998
+M 0 17906 10 17999 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

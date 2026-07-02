@@ -1,0 +1,740 @@
+#AREADATA
+Name Esiraen River~
+Builders None~
+VNUMs 27500 27549
+Credits { ALL } Tracera The Esiraen River~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#27500
+NAME  elf vivimancer~
+SHORT the vivimancer~
+LONG  A lithesome elven figure swims without contention in the tumultuous water.
+~
+DESCR
+~
+RACE  elf~
+ACT   ABGLa
+AFF   DHJPUZb
+OFF   FGU
+IMM   ABDLMOPQa
+RES   BDEJR
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 53
+HROLL 75
+ENHA  100.00%
+MATER none~
+HDICE 155d26+1515
+MDICE 75d11+95
+DDICE 26d2+57
+REGEN 0
+DTYPE punch
+AC    -44 -44 -44 -29
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#27501
+NAME  vicious piranha~
+SHORT a vicious piranha~
+LONG  You can see the vague outline of a small fish in the water.
+~
+DESCR
+~
+RACE  fish~
+ACT   AFG
+AFF   DFJVb
+OFF   A
+IMM   ABIPRT
+RES   D
+VULN  C
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 51
+ENHA  135.00%
+MATER none~
+HDICE 106d18+516
+MDICE 51d11+95
+DDICE 18d2+41
+REGEN 0
+DTYPE bite
+AC    -27 -27 -27 -17
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS ADFKOQX
+SIZE  tiny
+DMOD  150
+AMOD  0
+QUEST 0
+End
+
+#27502
+NAME  storm giant combatant~
+SHORT the storm giant combatant~
+LONG  A storm giant combatant effortlessly makes his way through the water.
+~
+DESCR
+You see a tall, greenish giant clad in loose fitting armor making his way
+effortlessly through the water.  
+~
+RACE  storm~
+ACT   ABG
+AFF   b
+OFF   FK
+IMM   AB
+RES   DJR
+VULN  M
+WSPEC I
+ALIGN 1000
+GROUP 0
+LEVEL 51
+HROLL 50
+ENHA  100.00%
+MATER none~
+HDICE 165d27+1617
+MDICE 80d11+95
+DDICE 27d2+60
+REGEN 0
+DTYPE punch
+AC    -48 -48 -48 -32
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  75
+AMOD  0
+QUEST 0
+End
+
+#27503
+NAME  storm giant partroller~
+SHORT the storm giant patroller~
+LONG  A greenish storm giant patroller makes his way through the waters.
+~
+DESCR
+~
+RACE  storm~
+ACT   ABG
+AFF   DNVab
+OFF   C
+IMM   AB
+RES   DJR
+VULN  M
+WSPEC E
+ALIGN 1000
+GROUP 0
+LEVEL 51
+HROLL 99
+ENHA  100.00%
+MATER none~
+HDICE 204d34+1999
+MDICE 99d11+95
+DDICE 34d2+73
+REGEN 0
+DTYPE punch
+AC    -62 -62 -62 -41
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  75
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#27500
+NAME   rune covered rune-covered dagger~
+SHORT  a rune-covered dagger~
+DESCR 
+A small golden dagger lies here with dark markings on it.~
+MAT    stone~
+TYPE   weapon dagger 7 7 searing 0
+EXTRA  2 9 0 331075 1 4194304
+WEAR   AN
+LEVEL  53
+WEIGHT 6
+COST   0
+COND   100
+LIMIT  1
+RESTR  b
+End
+
+#27501
+NAME   bone talisman~
+SHORT  a bone talisman~
+DESCR 
+A tiny, dull looking object is here.~
+MAT    bone~
+TYPE   armor ABDE BDF AF CE 0
+EXTRA  1 3 0 528386
+WEAR   AC
+LEVEL  47
+WEIGHT 10
+COST   0
+COND   100
+LIMIT  4
+End
+
+#27502
+NAME   massive blackwood shillelagh~
+SHORT  a massive blackwood shillelagh~
+DESCR 
+A massive shillelagh made of blackwood is here.~
+MAT    wood~
+TYPE   weapon mace 7 7 crush 0
+EXTRA  1 3 0 3328
+WEAR   AN
+LEVEL  51
+WEIGHT 14
+COST   0
+COND   100
+LIMIT  2
+RESTR  K
+End
+
+#27503
+NAME   battlaxe wave maker~
+SHORT  a mithril battle-axe named 'Wave Maker'~
+DESCR 
+A heavy looking mithril battleaxe is here.~
+MAT    mithril~
+TYPE   weapon axe 15 4 asphyxiation B
+EXTRA  1 3 0 265216
+WEAR   AN
+LEVEL  51
+WEIGHT 23
+COST   0
+COND   100
+Affect O 18 5 0
+Affect O 19 12 0
+LIMIT  2
+RESTR  F
+End
+
+#0
+
+
+
+#ROOMDATA
+#27500
+NAME   Beneath a Tumultuous Waterfall~
+DESCR
+The deluge pounds and writhes about you as it spills forth into this
+large hollowed out river basin and eagerly froths toward the south. 
+Occasionally the tenacious form of a colorful salmon appears for a fleeting
+moment amidst the foaming white waters, locked in a primordial need to throw
+itself against the currents and oft-times fruitlessly seek out the place of
+its spawning.  Without a care for you, the wildly churning river continues
+onward towards the south.  
+~
+FLAGS  1
+Sect   6
+DOOR 2
+Fiercely churning with white water and foam, the river continues. 
+~
+~
+0 0 27501
+End
+
+#27501
+NAME   Headwaters of the Esiraen River~
+DESCR
+Swift, and unbridled in its perpetually flowing course the river broadens
+without warning, though its southward course seems to show no signs of
+slowing.  From the debris of felled trees and the odd piece of worked wood
+or rusted steel, it appears that this river often crests above its banks and
+makes short work of most things in its path.  The great river continues
+southward, the roaring tumult of water sounding from both directions.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The churning whitewater continues in this direction, towards a waterfall.  
+~
+~
+0 0 27500
+DOOR 2
+The swiftly flowing whitewater rushes onward in this direction, a distant
+roar audible towards the south.  
+~
+~
+0 0 27502
+End
+
+#27502
+NAME   Above a Tumultuous Waterfall~
+DESCR
+Shimmering plumes of mist rise in billowing clouds as the frothing white
+water rushes and careens over the lichenous rocks and boulders which line
+the sides and sit amidst the frightful currents.  Churning ferociously as it
+cast itself over the edge of the falls, the water rambles forward and
+follows the winding, serpentine path of the river.  Towering conifers, rowan
+and oaks rise with simple beauty towards the heavens, the swaying of their
+branches lost amidst the roar of the waterfall.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+Towards the north, the continuous roar of rapidly flowing white water
+greets you, and the wide expanse of the river lies spread before you.  
+~
+~
+0 0 27501
+DOOR 5
+Peering downward as you hold precariously against the currents, anything
+visible below is lost in the cloy, billowing mist which flows constantly.  
+~
+~
+0 0 27503
+End
+
+#27503
+NAME   Beneath a Tumultuous Waterfall~
+DESCR
+It's almost impossible to avoid getting wet, as you stand near this
+raging waterfall.  The soft hiss of foam is devoured by the unintelligable
+gurgling and splashing of water as it beats upon rocks and the frothing
+surface of the river.  Crystal clear stripes writhe about, appearing and
+vanishing as the water swirls with bubbles and suds.  At the sides of the
+waterfall miniature whirlpools form with impressive frequency before
+dispersing as the water rushes onward.  
+~
+FLAGS  1
+Sect   6
+DOOR 2
+Swirling wildly, the rapidly flowing water continues on its course.  
+~
+~
+0 0 27504
+DOOR 4
+Water rushes downward with crushing force as the river continues.  
+~
+~
+0 0 27502
+End
+
+#27504
+NAME   Along the Esiraen River~
+DESCR
+A loud crashing sounds from off toward the east, its point of origin hard
+to distinguish amidst the churning of the water as it rushes onward and laps
+at the sides of the river.  Towering rowans and oaks skirt the river on
+either side, the distant canopy of conifers visible toward the north, where
+the ground slopes steeply upward.  A great eagle preens itself over the
+partially devoured corpse of a salmon on the western bank, its luminous eyes
+turning towards you as you pause momentarily.  Heedless of anything save
+continuous motion, the Esiraen River flows ever southward.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+Swiftly flowing white-water rushes towards you as the river slopes
+gradually upward.  
+~
+~
+0 0 27503
+DOOR 2
+Churning and gurgling with vigorous strength, the river continues onward.  
+~
+~
+0 0 27505
+End
+
+#27505
+NAME   A bend in the Esiraen River~
+DESCR
+Rushing forward the indomitable river waters have carved a thick swathe
+into the rocky earth.  Flowing from the north towards the east, the river
+twists like an enormous, sinuous serpent, winding its forward like a
+shimmering juggernaut.  Luxuriant rowans rise skyward to the southwest,
+their leafy boughs swaying gently within the wind.  High above you see the
+graceful silhouette of an eagle as it glides upon the winds, its keen eyes
+no doubt scouring the frothing river for an unlucky salmon to feast upon.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+With a dull roar, the foam-covered waters rush onward.  
+~
+~
+0 0 27504
+DOOR 1
+Swirling and twisting, the fiercely flowing waters continue onward.  
+~
+~
+0 0 27506
+End
+
+#27506
+NAME   A bend in the Esiraen River~
+DESCR
+The exposed roots of ancient oaks and rowan trees some thirty or more
+meters upward upon the river slope, tell of how great the channel can become
+in times of flooding as you move along its path.  The shattered remnants of
+trees and oddly placed rocks and boulders of middling size lay strewn about
+haphazardly, still further testament to the potential strength of the
+onrushing waters.  The water about you has shifted into a dirty brown and
+off-colored white here and towards the south, while its winding form appears
+more wholesome toward the west.  
+~
+FLAGS  1
+Sect   6
+DOOR 2
+The murky brown water froths and rages onward.  
+~
+~
+0 0 27507
+DOOR 3
+The river winds westward, though the current pushes against you in this
+direction.  
+~
+~
+0 0 27505
+End
+
+#27507
+NAME   Along the Esiraen River~
+DESCR
+Murky brown water swirls and gurgles about you as it washes its way
+southward, thick tendrils of dirty-white foam forming and shifting along its
+protean surface.  Occasionally an errant branch washes past you with
+impressive speed, a hapless victim of the raging waters.  Along the
+riverbanks matted refuse composed of tree limbs, trunks and oddly placed
+rocks mar the lush beauty of the great oak and rowan trees.  Treacherous due
+to the errosive waters, the muddy banks are simply impassable, preventing
+you from venturing into the wilds, while likewise keeping any wildlife save
+for the bravest from attempting to quench their thirst here.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The river is a murky brown in this direction, its fierce currents
+fighting to push you back.  
+~
+~
+0 0 27506
+DOOR 2
+The roar of the river builds into a frightening crescendo as you look
+towards the south.  
+~
+~
+0 0 27508
+End
+
+#27508
+NAME   Above a Tumultuous Waterfall~
+DESCR
+The water froths and churns wildly around you, silt and fallen tree limbs
+inexorably flowing towards the east, despite being on the verge of a
+torrential waterfall.  A few brave fish wriggle in vain as they try to avoid
+the overwhelming strength of the currents, their slim bodies taking to the
+air in hopes of gaining against the onrushing waters.  Gossamer fine mists
+rise high into the air, only to waft downward anew.  The constant play of
+force creating a billowing cloud of moisture which has obviously aided the
+surrounding fauna with an abundance of life-giving sustenance.  Regardless,
+you know you can't remain here long as you fight against the warring
+currents.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The water towards the north is dark and murky, silt and earth reduced to
+miniscule granules caught amidst the rapid currents as they push you in two
+directions at once.  
+~
+~
+0 0 27507
+DOOR 1
+~
+~
+0 0 27516
+DOOR 5
+Devoid of the murky brown which marks the water which flows from the
+north, the great river plummets downward and out of sight.  
+~
+~
+0 0 27509
+End
+
+#27509
+NAME   Beneath a Tumultuous Waterfall~
+DESCR
+Plumes of foam rise amid the moisture burdened air, saturating your skin
+and garments with finely beaded water droplets as you gaze upward at the
+waterfall.  Wan shafts of light filter through the cloy deluge of mist,
+reflecting and refracting in beautifully eclectic patterns, no two of which
+are ever the same.  A variety of fish swim and cavort about the outer
+fringes of the waterfall, taking full advantage of the hapless insects,
+whose wings have succumbed to the weight of the moisture and have fallen
+into the swiftly flowing waters.  Fighting against the current, which
+gurgles and roils southward, you can attempt to make your way to the apex of
+the waterfall or let the waters carry you away.  
+~
+FLAGS  1
+Sect   6
+DOOR 2
+The raging white-water continues unabated.  
+~
+~
+0 0 27510
+DOOR 4
+The apex of the waterfall froths and roils high above you.  
+~
+~
+0 0 27508
+End
+
+#27510
+NAME   Along the Esiraen River~
+DESCR
+The air is alive with the sound of onrushing water and the reflective
+forms of nimble dragonflies as they wind speedily about.  Occasionally an
+agile bird tests itself against the dragonflies, darting from the precincts
+of the trees, which rise above the river's slopes, intent upon devouring one
+of the frantic insects.  Rarer still, are the instances where a fish erupts
+from the writhing surface of the river and attempts to make a meal of the
+aerial acrobats.  Why the dragonflies seem to gather in such profusion here
+is a mystery.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+A billowing mist rises from the falls in the distance.  
+~
+~
+0 0 27509
+DOOR 2
+The frothing white-water continues unabated.  
+~
+~
+0 0 27511
+End
+
+#27511
+NAME   Along the Esiraen River~
+DESCR
+You get the impression that large boulders line the riverbed here, as the
+currents roil and froth with renewed vigor.  An endless cacophonic symphony
+of gurgling and sloshing fills your ears as you fight the everflowing liquid
+torrent.  Lithe dragonflies wind about the steep banks, playing amidst the
+leafy ferns and occasional catstail which mark the water's edge.  Beyond
+this sparse vegetation lie towering rowan trees, their leafy boughs waving
+gently in the wind, the wholesome scent of nature filling the air.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The current pushes you southward as you gaze towards the northern expanse
+of the river.  
+~
+~
+0 0 27510
+DOOR 2
+The rapids wind southward, frothing white-water dancing atop the river's
+surface.  
+~
+~
+0 0 27512
+End
+
+#27512
+NAME   A bend in the Esiraen River~
+DESCR
+Child-sized whirlpools play along the southeastern bank of the river as
+the raging torrent twists sharply towards the west.  Fallen leaves swirl and
+cavort, seemingly trapped between the currents of the river and one
+particularly large watery vortex.  Occasionally an unlucky silver-hued fish
+swims too close and after a bit of abuse, wriggles frantically to escape the
+small bed of whirlpools.  The sight would make you laugh aloud, were it not
+for the fact that your attention is focused on keeping yourself from being
+washed away by the wild white-water.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+Frothing white water rushes towards you from the north.  
+~
+~
+0 0 27511
+DOOR 3
+Swirling wildly, the frothing river continues in this direction.  
+~
+~
+0 0 27513
+End
+
+#27513
+NAME   A bend in the Esiraen River~
+DESCR
+Swirling madly about you, the currents writhe and froth from the east as
+the river's swiftly flowing waters churn ever onward.  An avalanche of white
+foam, softly hissing as bubbles form and disperse with the motion of the
+water hide what fish or other creatures might be frolicking amidst beneath. 
+The broad channel curves steeply towards the south, the hiss of foam joined
+by a new oddly familiar sound from the east.  A distant roar seems to be
+emanating from further down the river, though what might be its source
+remains a mystery.  
+~
+FLAGS  1
+Sect   6
+DOOR 1
+The sucking sound of whirlpools and the everpresent gurgling of rushing
+water sound as the river rushes towards you.  
+~
+~
+0 0 27512
+DOOR 2
+The waters churn and froth as they rush swiftly in this direction.  
+~
+~
+0 0 27514
+End
+
+#27514
+NAME   Approaching a Monstrous Waterfall~
+DESCR
+Shimmering silverfish are joined by colorful rainbow trout and
+beautifully colored salmon each leaping high above this foam covered expanse
+of water as they fight the relentless current.  The flora and fauna around
+you has grown to prodigious size and is composed of vibrant, tenaciously
+clinging ferns and rich green tussocks of algae surrounding grass.  Massive
+plumes of mist rise towards the south and the roar of a monstrous waterfall
+makes anything but shouting or yelling in an attempt to communicate, almost
+laughable.  
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The water froths and churns as it rushes towards you.  
+~
+~
+0 0 27513
+DOOR 2
+Billowing mists and the ceaseless roar of a great waterfall sound in the
+distance.  
+~
+~
+0 0 27515
+End
+
+#27515
+NAME   Atop a Great Waterfall~
+DESCR
+Beautiful plumes of life-giving moisture rise high into the air, only to
+swirl about, stirred into billowing clouds by the passage of the great
+torrent of water.  Clinging water droplets douse you repeatedly as you
+tenuously stand at the apex of this great waterfall, the lush expanse of a
+beautiful forest and vast mist-enshrouded lake spreading out before you,
+made all the more magical by the view from this great height.  Colorful
+birds and their water fairing cousins rise and glide in small flocks as they
+move about the forest below, heedless of man and his interference.  The roar
+of passing water is deafening as it rages downward, both pushed by still
+more water and pulled by the unwavering strength of gravity.  Looking
+downward there appears to be a small expanse of muddy sludge which is
+littered with clinging vines and tenacious creepers, though whether it might
+provide a safe landing upon which to alight is another question altogether. 
+ 
+Looking down, you see only destruction in the waters below.
+~
+FLAGS  1
+Sect   6
+DOOR 0
+The water froths and churns as it rushes towards you.  
+~
+~
+0 0 27514
+DOOR 5
+~
+~
+N 0 27517
+End
+
+#27516
+NAME   Caught within a Voracious Whirlpool~
+DESCR
+A tumultuous noise fills the air as you gaze in stunned silence at the
+great whirlpool before you.  You try as best you can to fight the
+unrelenting current but realize in moments that there is no hope of escape. 
+Blackened with a profusion of silt and other varied refuse the water laps at
+you like the greedy tongue of some great beast, inexorably pulling you
+under...  
+~
+FLAGS  268443653
+Sect   12
+End
+
+#27517
+NAME   Under The Falls~
+DESCR
+All that can be heard or felt here is the sound of the waterfall
+pummeling your body.  For a brief moment, you manage to hold your head above
+the surface of the water and catch a glimpse of the magnificent lake around
+you.  The water aerated, making any hope of escaping the chaotic waters
+impossible.  
+~
+FLAGS  274210821
+Sect   12
+End
+
+#0
+
+
+
+#SPECIALS
+M 27500 spec_goodie
+S
+
+
+
+#RESETS
+M 0 27503 1 27507 1
+E 0 27503 0 16
+E 0 27503 0 18
+M 0 27502 1 27510 1
+E 0 27502 0 16
+E 0 27502 0 18
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 27500 wear_prog wear_prog_rune_dagger
+I 27500 remove_prog remove_prog_rune_dagger
+R 27517 entry_prog rprog_entry_esiraen_fall
+E
+
+
+
+#$

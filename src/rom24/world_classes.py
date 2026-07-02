@@ -41,6 +41,9 @@ class Area(instance.Instancer, type_bypass.ObjectType, environment.Environment):
         # As in, this area is just loaded and has no PC objects, True
         self.empty = False
         self.player_chars = []
+        self.security = 9
+        self.builders = ""
+        self.explore = 0
         if kwargs:
             [setattr(self, k, copy.deepcopy(v)) for k, v in kwargs.items()]
         if template:

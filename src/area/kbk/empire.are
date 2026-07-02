@@ -1,0 +1,873 @@
+#AREADATA
+Name Fortress of the Coming Order~
+Builders None~
+VNUMs 8100 8199
+Credits {CABAL} Ormthrak Fortress of the Coming Order~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#8100
+NAME  healer shaman~
+SHORT the old shaman~
+LONG  An old shaman stands here healing the troops.
+~
+DESCR
+You peer at thi withered old man.  His eyes are sunk back into his
+sockets.  His old pale skin showing out from under his many robes.  His hair
+greesy and held back with a leather strap, but you can sense a magic about
+him.  Perhaps it's nothing, but he doesn't seem like he's aged a day in his
+life.  S 
+~
+RACE  unique~
+ACT   ABGa
+AFF   0
+OFF   0
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 56
+ENHA  100.00%
+MATER none~
+HDICE 80d125+1234
+MDICE 300d200+1000
+DDICE 5d10+5
+REGEN 0
+DTYPE shbite
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL empire
+End
+
+#8101
+NAME  outer champion imperial~
+SHORT the Champion of Order~
+LONG  An Imperial champion of order guards the gates against invasion.
+~
+DESCR
+The Emperor's hand picked minion. This giant beast was sworn to
+protect the Emperor at all costs, even with his own life. His body
+is dressed in the finest armor the empire has to offer, and his
+blade infused with the magical energies of the elves.
+~
+RACE  troll~
+ACT   ABLTVZe
+AFF   DFV
+OFF   CDEIJ
+IMM   AB
+RES   DLQ
+VULN  HK
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 80
+ENHA  100.00%
+MATER none~
+HDICE 2d500+8000
+MDICE 1d1+4999
+DDICE 5d5+30
+REGEN 0
+DTYPE pound
+AC    -70 -70 -70 -70
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL empire
+End
+
+#8102
+NAME  imperial centurion~
+SHORT an Imperial Centurion~
+LONG  A Centurion stands here, collecting tithe for the Empire.
+~
+DESCR
+This Centurion of the Empire stands, blocking the road. He demands
+payment to pass as he collects tithe for the Empire.
+~
+RACE  human~
+ACT   Ac
+AFF   0
+OFF   CEFIJKNOU
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 1
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 1d1+0
+MDICE 1d1+0
+DDICE 1d1+0
+REGEN 0
+DTYPE slash
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+CABAL empire
+End
+
+#8103
+NAME  imperial taskmaster inner guardian~
+SHORT the Imperial Taskmaster~
+LONG  The Imperial Taskmaster looms here, barking out the Emperor's orders.
+~
+DESCR
+A massive giant paces along the chamber, training the lesser oaths and citizens beneath
+him in the art of warfare and of the imperial ways. He is the voice of the Emperor and
+the last defense against any who comes to pry the codex from his unending vigil. Stout
+and skilled at battle, the sneer that cuts across his face almost seems to welcome any
+to try their hand at besting him, and stealing away his meaning in this life.
+~
+RACE  fire~
+ACT   ABDGLTV
+AFF   0
+OFF   AENa
+IMM   AB
+RES   DEHM
+VULN  IJP
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 20
+ENHA  100.00%
+MATER none~
+HDICE 2d500+6000
+MDICE 1d1+4999
+DDICE 5d5+40
+REGEN 0
+DTYPE slash
+AC    -90 -90 -90 -90
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  75
+AMOD  0
+QUEST 3
+CABAL empire
+End
+
+#8120
+NAME  imperial robed shopkeeper~
+SHORT A robed mage~
+LONG  A robed mage is here, selling his strange artifacts.
+~
+DESCR
+Busying himself within the vast library of the Fortress, this mage
+consults the many volumes of potion brewing on the shelves creating many
+wonderful brews for the imperial army to use.  While not a perfect specimen
+as the Empire prefers, this mage was inducted to serve them as the head
+brewmaster in exchange for the knowledge within the library.  
+~
+RACE  human~
+ACT   ABGR
+AFF   DF
+OFF   0
+IMM   ABCDEFGHKLMNOPQTYZ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 45
+ENHA  100.00%
+MATER none~
+HDICE 1d1+7500
+MDICE 1d1+7500
+DDICE 1d1+60
+REGEN 0
+DTYPE magic
+AC    -50 -50 -50 -50
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#8100
+NAME   fountain~
+SHORT  a fountain~
+DESCR 
+A large fountain flows crystal clear water from a closed fist.~
+MAT    adamantite~
+TYPE   fountain 2000000 2000000 'water' 0 0
+EXTRA  0 0
+WEAR   N
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#8101
+NAME   imperial codex~
+SHORT  the Imperial Codex~
+DESCR 
+The Imperial Codex is here.~
+MAT    paper~
+TYPE   treasure 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   A
+LEVEL  60
+WEIGHT 3
+COST   20000
+COND   100
+CABAL  6
+LIMIT  1
+End
+
+#8102
+NAME   throne obsidian emperor~
+SHORT  the Emperor's Throne~
+DESCR 
+An exquisite obsidian throne towers over this chamber.~
+MAT    bone~
+TYPE   furniture A ABCD EHK BCDEGI BCDEGI
+EXTRA  1 3 0 16924672
+WEAR   P
+LEVEL  60
+WEIGHT 8
+COST   20
+COND   100
+End
+
+#8103
+NAME   pit~
+SHORT  the pit for donations~
+DESCR 
+A pit for sacrifices is in front of the altar.~
+MAT    ebony~
+TYPE   container 10000 0 0 1000 100
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8104
+NAME   tablet philosophy empire imperial~
+SHORT  the obsidian tablet of Imperial philosophy~
+DESCR 
+A slab of obsidian commands your attention here.~
+MAT    mineral~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  60
+WEIGHT 8
+COST   0
+COND   100
+EDESC tablet philosophy empire imperial~
+The principal concept of the Empire is to draw Thera under the
+Emperor's authority, which will, in effect, rid Thera of its plague
+of disorder.  Under the Emperor's reign, the chaotic influences will
+be dispersed, creating order, peace, and prosperity.
+
+The Bloodoathed, regardless of former path, are the foundation of
+the Empire.  The Bloodoathing process unites them in the pursuit of
+the Empire's goal.  Thus, even the Empire's greatest foes will
+become part of the Empire's inevitable glorious victory.
+~
+End
+
+#8105
+NAME   imperial plate~
+SHORT  suit of platemail bearing the Imperial Codex~
+DESCR 
+A heavy suit of plate rusts away along the path.~
+MAT    steel~
+TYPE   armor ABCEG BDEF ABCEG BCEF 0
+EXTRA  1 3 0 8391168
+WEAR   AD
+LEVEL  51
+WEIGHT 34
+COST   150000
+COND   100
+Affect O 19 4 0
+Affect O 2 -3 0
+End
+
+#8106
+NAME   no name~
+SHORT  (no short description)~
+DESCR 
+(no description)~
+MAT    unknown~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   0
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#8120
+NAME   flask orange~
+SHORT  a flask containing a deep orange liquid~
+DESCR 
+A bubbling orange liquid froths inside it's glassy container.~
+MAT    glass~
+TYPE   potion 51 'enlarge' 'giant strength' '' ''
+EXTRA  0 0
+WEAR   A
+LEVEL  51
+WEIGHT 7
+COST   80000
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#8100
+NAME   The Fortress gates~
+DESCR
+Nestled between two looming towers of ebon on each side, the teeth from a jagged iron
+porticullis can be seen above, the first line of defense to the entrace to the Imperial
+fortress. If the archers that have a clear shot from the towers on each side, and the
+gate is not enough, a stout figure paces back and forth menacingly before the entrance.
+~
+FLAGS  9437192
+Sect   1
+DOOR 0
+~
+~
+0 -1 8101
+DOOR 2
+~
+~
+0 -1 8109
+End
+
+#8101
+NAME   Courtyard of the Oath~
+DESCR
+From beyond the narrow gates to the south, a sprawling courtyard opens up that offers a 
+fantastic view of the imposing inner keep to the north. An obsidian tablet stands in the
+exact middle of the yard, raised upon a planter that is full of crimson flowers. Along
+the planter's stone walls has been emblazoned the mighty bloodoath to remind every citizen
+that passes of their loyalty to the mighty Empire. Watchtower entrances lie to the west
+and east, allowing the defenders of this fortress a commading view of would be raiders.
+~
+FLAGS  13639688
+Sect   1
+DOOR 0
+~
+~
+0 -1 8102
+DOOR 2
+~
+~
+0 -1 8100
+End
+
+#8102
+NAME   Inner fortress stairwell~
+DESCR
+A wide elaborate stair leads upwards into the inner sanctuary of the fortress. Fine
+stairs of granite gleam in the torchlight as they winds towards the heart of this defensive
+masterpiece. Along the walls beside the stairwell are arrow slits, allowing the residents
+of this fortress to fire a deadly barrage of arrows into the sides of any who should dare
+challenge the might of this fortress, or of the fiercesome Empire itself.
+~
+FLAGS  13639688
+Sect   0
+DOOR 2
+~
+~
+0 -1 8101
+DOOR 4
+~
+~
+0 0 8108
+End
+
+#8103
+NAME   Within the Palace of Dominace~
+DESCR
+You find yourself within the palace of dominance.  There is a large
+fountain in the center of the room.  Its stones carved into an iron fist,
+the water spurting out of the top of the fist.  There are knights of the
+Empire marching around, following procedures and gathering their training.  
+~
+FLAGS  13639688
+Sect   1
+DOOR 0
+~
+~
+0 -1 8104
+End
+
+#8104
+NAME   The Stairwell~
+DESCR
+Your are standing at the base of an ornate stairwell.  Its spiral stairs
+leading upward into the heart of the castle.  All around you there are
+Imperial knights rushing by you, trying to perform their tasks to the
+Emperor's satisfaction.  
+~
+FLAGS  13639688
+Sect   1
+DOOR 2
+~
+~
+0 -1 8103
+DOOR 4
+~
+~
+0 -1 8105
+End
+
+#8105
+NAME   A Hallway~
+DESCR
+You are walking in the hallway of the Palace.  The stone floors have a
+red carpet lining the center of the floor.  There are portraits of the great
+figures of Thera along the side of the wall.  Hung in the biggest frame is
+the picture of the Emperor, his giant staff in hand.  
+~
+FLAGS  13639688
+Sect   1
+DOOR 3
+~
+~
+0 -1 8107
+DOOR 5
+~
+~
+0 -1 8104
+End
+
+#8106
+NAME   The Altar Room~
+DESCR
+You find yourself in the altar room.  A pit for donations to the Empire
+and its Citizens stands in the center of the room.  
+~
+FLAGS  13639688
+Sect   1
+DOOR 1
+~
+~
+0 0 8120
+DOOR 2
+~
+~
+0 0 8108
+DOOR 3
+~
+~
+0 0 8123
+End
+
+#8107
+NAME   A Hallway~
+DESCR
+You're walking in the hallway of the Palace.  The stone floors have a red
+carpet lining the center of the floor.  There are portraits of the great
+figures of Thera along the side of the wall.  Hung in the biggest frame is
+the picture of the Emperor, his giant staff in hand.  
+~
+FLAGS  13639688
+Sect   1
+DOOR 1
+~
+~
+0 -1 8105
+End
+
+#8108
+NAME   Chamber of the Codex~
+DESCR
+Within this high domed ceiling rests the heart of the fortress. Murals run across the 
+walls and come to rest in a symbol of the codex under an onyx altar. Depicting the swords
+and spells that have defeated past, weaker villages the images spread across the room
+filling it with a lust for blood and power. Bathed in the bright colors of the paints is
+a monster of a citizen, guarding the codex and his life with a fanatic like zeal.
+~
+FLAGS  13893640
+Sect   0
+DOOR 0
+~
+~
+0 0 8106
+DOOR 5
+~
+~
+0 0 8102
+End
+
+#8109
+NAME   The Imperial Road~
+DESCR
+Along the pathway towards the fortress in the north, the pavestones begin to show signs
+of wear. With the many booted feet that trample along them in and out of the fortress
+it is no surprise. The looming structure is due north, while the rest of the road lies south.
+~
+FLAGS  1048584
+Sect   1
+DOOR 0
+~
+~
+0 -1 8100
+DOOR 2
+~
+~
+0 -1 8110
+End
+
+#8110
+NAME   The Imperial Road~
+DESCR
+The gleaming pavestones seem even more well maintained here, and the workers beside the
+road seem to be the reason for it. Their eyes glare from the side of the road, ever fearful
+that an imperial knight should come across and chastise and force them back into their
+backbreaking labor. The twin ebon towers of the fortress now rise above in clear sight
+of the road, and along the top figures move about watching all that is below.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 -1 8109
+DOOR 2
+~
+~
+0 -1 8111
+End
+
+#8111
+NAME   Before the Imperial Road~
+DESCR
+The finely kept cobblestones continue to shine in the sun as carts slowly roll past to
+the west. Knights with platemail brandishing the codex stroll about, keeping the peace
+and watching for any threats. From the west the grunts of hard labor and the cries of
+merchants echo while toward the north the fortified walls of the fortress loom.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 -1 8110
+DOOR 2
+~
+~
+0 -1 8112
+DOOR 3
+~
+~
+0 0 8114
+End
+
+#8112
+NAME   Bridge before the Fortress~
+DESCR
+A masterfully crafted bridge of dark oak cuts an arch over the powerful flow of the river
+below. Along the floorboards that make up the walkway has been engraved the symbol of the
+imperial codex, and as with the cobblestones along the road, they seem as if a foot has
+never fallen upon them. The imposing fortress begins to rise in the distance towards the north.
+~
+FLAGS  8
+Sect   1
+DOOR 0
+~
+~
+0 -1 8111
+DOOR 2
+The beginning of the imperial road is towards the south.
+~
+~
+0 -1 8113
+End
+
+#8113
+NAME   Before a grand bridge~
+DESCR
+A fine cobblestone road with no signs of wear leads up to a gradually arching bridge to
+the north. A gleaming piece of onyx has been planted deep in the ground along the road
+just east, with a bold warning carved into it. Gazing north jagged towers jut into the 
+sky rising from a solid looking structure, perhaps even a fortress of some sort.
+~
+FLAGS  8
+Sect   1
+EDESC  onyx~
+Harken traveller, for you are about to enter the lands of Imperial Rule. Those who wish
+harm to our great society turn back now or face our wrath. Those who wish a new and better
+life continue on, for within our walls, we shall sculpt this land together.
+~
+DOOR 0
+The great Imperial road continues north.
+~
+~
+0 -1 8112
+DOOR 2
+The smell of seawater drifts off of Tar Valons docks to the south.
+~
+~
+0 -1 1869
+End
+
+#8114
+NAME   Archway into the Imperial Market~
+DESCR
+A gleaming archway of obsidian towers into the skies, creating a fantastic entrance into
+the teeming marketplace of the Empire. The river thrashes at the banks towards the south
+as Centurions stand guard before it, to insure no unsavory characters venture from it and
+no citizens become lost in its violet current. The docks continue west, while the
+marketplace itself announces itself amidst a gaggle of merchants shouting to the north.
+~
+FLAGS  6
+Sect   1
+DOOR 0
+~
+~
+0 0 8117
+DOOR 1
+~
+~
+0 0 8111
+DOOR 3
+~
+~
+0 0 8115
+End
+
+#8115
+NAME   Imperial Docks~
+DESCR
+A solid slab of stone reaches out towards the south ending in rows of sturdy oak planks.
+A shallow bottomed boat rests at the end, bringing goods into the market and the fortress
+from lands unseen. An important supply line to the building empire, many guards bearing
+imperial crests roam about eyeing all that come near. A roaring marketplace rests north
+while the smell of water and the cursing of sailors echoes from the south.
+~
+FLAGS  0
+Sect   1
+DOOR 1
+~
+~
+0 0 8114
+DOOR 2
+~
+~
+0 0 8116
+End
+
+#8116
+NAME   Shallows of the river~
+DESCR
+Stones jut up from the furious river, allowing a cautious soul to gain access across them
+avoiding the main roads. Apparently man-made for the repair of ships on the nearby docks
+many sailors run about scraping the hulls of small ships and guarding their vulnerable
+cargo. The scent of brewing ale wafts in from Tar Valon to the south, tempting you away.
+~
+FLAGS  4194304
+Sect   7
+DOOR 0
+~
+~
+0 0 8115
+DOOR 2
+~
+~
+0 0 1871
+End
+
+#8117
+NAME   The imperial marketplace~
+DESCR
+The cobblestone road runs a web between a dizzying array of merchants and vendors that
+have set up crude stalls to hawk their wares. Howls of the best prices and the finest
+crafted weapons echo within the market. Imperial knights roam freely here, keeping a firm
+grip on all the exchanges of gold and a tighter grip on the peace here.
+~
+FLAGS  2
+Sect   1
+DOOR 0
+~
+~
+0 0 8118
+DOOR 2
+~
+~
+0 0 8114
+End
+
+#8118
+NAME   The Emperor's Chest~
+DESCR
+Solid wood walls surround a dazzling array of fine armors and fizzing potions for the 
+local citizen to purchase. The shopkeep eyes you warily, judging your worth to the mighty
+Empire. Everything a recruit, or even a veteran of the Imperial army can be had here,
+for the right price. If your soul was the price of admission, well, this should seem cheap.
+~
+FLAGS  1056778
+Sect   0
+DOOR 2
+~
+~
+0 0 8117
+End
+
+#8119
+NAME   The imperial marketplace~
+DESCR
+~
+FLAGS  4
+Sect   1
+End
+
+#8120
+NAME   Chamber of the Mind~
+DESCR
+The plain obsidian walls thrum with power, as the greatest minds in the Fortress gather
+here to focus their might towards the will of the Empire. Across from the warriors of 
+the struggle, those who congregate here are intent on proving that their minds are far
+superior to simple blades and brute strength, for within their minds, the power of the 
+Empire might truly rest. And any who oppose them, friend or foe, shall feel their wrath.
+~
+FLAGS  1056778
+Sect   0
+DOOR 3
+~
+~
+0 0 8106
+MHRATE 120 100
+End
+
+#8121
+NAME   ~
+DESCR
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 0 8122
+End
+
+#8122
+NAME   ~
+DESCR
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 8121
+End
+
+#8123
+NAME   Chamber of War~
+DESCR
+The same exquisite design of the fortress can be seen within this chamber, the room where
+all Imperial plans are made and executed under the Emperor's eye. It is here the mighty
+warriors of the Empire can rest themselves and prepare for the next battle that awaits
+their strong blades. Towards the east, the healer can be seen, to heal the wounds of battle.
+~
+FLAGS  5251082
+Sect   0
+DOOR 1
+~
+~
+0 0 8106
+End
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 8101 1 8100 1
+O 0 8104 0 8101
+O 0 8100 0 8103
+M 0 8100 1 8106 1
+O 0 8103 0 8106
+M 0 8103 1 8108 1
+O 0 8102 0 8108
+M 0 8120 1 8120 1
+G 0 8120 0
+S
+
+
+
+#SHOPS
+8120 0 10 4 26 0 5 2 1 23
+0
+
+
+
+#IMPROGS
+I 8101 give_prog give_prog_cabal_item
+M 8101 greet_prog greet_prog_outer_guardian
+M 8101 death_prog death_prog_outer_guardian
+M 8101 attack_prog attack_prog_outer_guardian
+M 8101 move_prog move_prog_outer_guardian
+M 8102 greet_prog greet_prog_centurion
+M 8103 greet_prog greet_prog_inner_guardian
+M 8103 death_prog death_prog_inner_guardian
+E
+
+
+
+#$

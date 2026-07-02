@@ -1,0 +1,3265 @@
+#AREADATA
+Name Skills~
+Builders None~
+VNUMs 2900 2999
+Credits { IMM } Immorta Odd Immortal Stuff~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#2901
+NAME  zombie~
+SHORT the zombie~
+LONG  A zombie stands rotting here, awaiting his masters command.
+~
+DESCR
+White bones peek out from beneath tattered rags as he grins at you with
+a malevolent aura.
+~
+RACE  human~
+ACT   AOT
+AFF   0
+OFF   CFJ
+IMM   ABLMQ
+RES   I
+VULN  HNY
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 4d6+1
+REGEN 0
+DTYPE drain
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHIMV
+PARTS ABCDEFGHIJKL
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2902
+NAME  fire elemental~
+SHORT a fire elemental~
+LONG  A burning column of flames stands here.
+~
+DESCR
+Like a huge bonfire he stands there burning, the heat he emits is overwhelming
+to you. 
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   CD
+IMM   ABHL
+RES   0
+VULN  I
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 5d3+5
+REGEN 0
+DTYPE flbite
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2903
+NAME  water elemental~
+SHORT a water elemental~
+LONG  A mass of surging water is here.
+~
+DESCR
+Shaped from salt water it stands here, gurgling and swirling. Awaiting his
+masters command.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   CDFJ
+IMM   ABR
+RES   I
+VULN  H
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 5d3+5
+REGEN 0
+DTYPE asphyxiation
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2904
+NAME  air elemental~
+SHORT an air elemental~
+LONG  A violent vortex of swirling air is here.
+~
+DESCR
+Seemingly made of pure air, it twirls about here awaiting for its masters
+mere word to do his bidding.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   CDFJ
+IMM   ABLQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 5d3+5
+REGEN 0
+DTYPE rending
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2905
+NAME  earth elemental~
+SHORT an earth elemental~
+LONG  A huge mass of solid earth stands here.
+~
+DESCR
+A tall mass of earth moves slowly here, with roots and small branches
+mixxed in with the dirt it makes quiet an impressive sight.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   CDFJ
+IMM   ABLQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 5d3+5
+REGEN 0
+DTYPE crush
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2906
+NAME  falcon~
+SHORT a falcon~
+LONG  A majestic looking falcon circles overhead.
+~
+DESCR
+With fine feathers he looks young, his eyes dart quickly to and fro looking
+for danger..or for dinner. 
+~
+RACE  unique~
+ACT   AT
+AFF   0
+OFF   FGHK
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 50
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 4d4+1
+REGEN 0
+DTYPE claw
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2907
+NAME  wolf~
+SHORT a grey wolf~
+LONG  A grey wolf stands here, snarling softly.
+~
+DESCR
+A thick heavy coat covers this beast and long sharp teeth protrude from his
+mouth. Making him look like something that is best seen, and not touched.
+~
+RACE  dog~
+ACT   AT
+AFF   0
+OFF   FHK
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 4d4+1
+REGEN 0
+DTYPE bite
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKUV
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2908
+NAME  bear~
+SHORT a grizzly bear~
+LONG  A large bear is here, sharpening is claws on the ground.
+~
+DESCR
+Larger then most men he towers above almost anything. Sharp claws, sharp
+teeth. One word sums it all up...sharp.
+~
+RACE  bear~
+ACT   AT
+AFF   0
+OFF   DEKO
+IMM   AR
+RES   EI
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 6d4+1
+REGEN 0
+DTYPE claw
+AC    -10 -10 -100 -100
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ABCDEFHJKUV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2909
+NAME  lion~
+SHORT a mountain lion~
+LONG  A large mountain lion stands here, eyeing you suspiciously.
+~
+DESCR
+It looks very mean, with sharp claws and intelligent eyes you'd better think
+twice before tangling with it.
+~
+RACE  cat~
+ACT   AT
+AFF   0
+OFF   DFHKM
+IMM   AR
+RES   0
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 4d4+1
+REGEN 0
+DTYPE claw
+AC    -10 -10 -100 -100
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKQUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2910
+NAME  guard special~
+SHORT a special guard~
+LONG  A special guard is standing here.
+~
+DESCR
+Selected from the strongest guard corp, these guards will stop at nothing
+to protect and uphold the law.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   DEKN
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 51
+HROLL 30
+ENHA  100.00%
+MATER none~
+HDICE 15d15+350
+MDICE 1d1+200
+DDICE 1d1+35
+REGEN 0
+DTYPE slash
+AC    -10 -10 -10 -8
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2911
+NAME  flesh golem~
+SHORT a flesh golem~
+LONG  A disgusting mass of stitched flesh stands here.
+~
+DESCR
+The product of some twisted mage who has been tampering with the powers 
+of necromancy. This horrible being is not quite alive, yet also not dead.
+~
+RACE  human~
+ACT   AOT
+AFF   0
+OFF   0
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 3d6+8
+REGEN 0
+DTYPE slash
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2912
+NAME  spirit unicorn~
+SHORT a spirit unicorn~
+LONG  A powerful white unicorn is here.
+~
+DESCR
+This unicorn is the spirit familiar of it's mortal form, summoned by a 
+master of the arcane arts to serve as a familiar on the mortal planes.~
+RACE  human~
+ACT   AR
+AFF   0
+OFF   0
+IMM   AB
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 25d10+3000
+DDICE 3d6+8
+REGEN 0
+DTYPE pierce
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2913
+NAME  spirit dragon~
+SHORT a spirit dragon~
+LONG  A strange dragon is here.
+~
+DESCR
+This familiar is the spirit familiar of it's mortal form, summoned by a 
+master of the arcane arts to serve as a familiar on the mortal planes.~
+RACE  human~
+ACT   AR
+AFF   0
+OFF   0
+IMM   AB
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 25d10+3000
+DDICE 3d6+8
+REGEN 0
+DTYPE slash
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2914
+NAME  shadow~
+SHORT a shadow~
+LONG  The shadow of %s has been severed and given substance.
+~
+DESCR
+A strange moving shadow is standing here restlessly, every few moments you 
+think you can make out a face below it's veil of darkness but as quickly 
+as it appears it is gone again.~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   0
+IMM   B
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+1
+DDICE 1d1+1
+REGEN 0
+DTYPE chill
+AC    10 10 10 10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2915
+NAME  iron golem~
+SHORT an iron golem~
+LONG  A large iron golem is here.
+~
+DESCR
+The product of some twisted mage who has been tampering with the powers 
+of necromancy. This horrible being is not quite alive, yet also not dead.
+~
+RACE  human~
+ACT   AOT
+AFF   0
+OFF   0
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 3d6+8
+REGEN 0
+DTYPE slash
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2916
+NAME  decoy~
+SHORT a decoy~
+LONG  The shadow of %s has been severed and given substance.
+~
+DESCR
+This life sized, scaled dummy looks exactly like someone...yet it also is
+strangely silent and unmoving.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   0
+IMM   B
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+1
+DDICE 1d1+1
+REGEN 0
+DTYPE chill
+AC    10 10 10 10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2917
+NAME  armor~
+SHORT a piece of armor~
+LONG  A large piece of armor is here.
+~
+DESCR
+This piece of armor seems to be impossibly alive. It floats in the air with
+a life of it's own, awaiting it's creator's command.
+~
+RACE  human~
+ACT   AGT
+AFF   0
+OFF   V
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL -5
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+100
+DDICE 2d4+1
+REGEN 0
+DTYPE beating
+AC    -18 -17 -17 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2918
+NAME  weapon~
+SHORT an animated weapon~
+LONG  A living weapon floats here.
+~
+DESCR
+This weapon seems to be impossibly alive. It floats in the air with a life of
+it's own, awaiting it's creator's command.
+~
+RACE  human~
+ACT   AGT
+AFF   0
+OFF   V
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+100
+DDICE 2d4+1
+REGEN 0
+DTYPE none
+AC    -7 -7 -7 -5
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2919
+NAME  key~
+SHORT an animated key~
+LONG  A key is floating here.
+~
+DESCR
+This key seems to be impossibly alive. It floats in the air with a life of
+it's own, awaiting it's creator's command.
+~
+RACE  human~
+ACT   AGT
+AFF   0
+OFF   V
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL -6
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+100
+DDICE 2d4+1
+REGEN 0
+DTYPE none
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  tiny
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2920
+NAME  fire giant slave~
+SHORT a fire-giant slave~
+LONG  A boughten fire-giant slave stands here.
+~
+DESCR
+A dark fire-giant stands here.  His entire body caked with dirt.  He
+peers around himself trying to be useful to his master.  
+~
+RACE  fire~
+ACT   AFGT
+AFF   0
+OFF   CDEGK
+IMM   ABILM
+RES   DEH
+VULN  IJNOPS
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+100
+DDICE 8d4+16
+REGEN 0
+DTYPE drain
+AC    -15 -15 -15 -5
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2921
+NAME  skeleton~
+SHORT the skeleton~
+LONG  A zombie stands rotting here, awaiting his masters command.
+~
+DESCR
+The bones of this undead are pristine clean and move with an impossible
+life of their own. Small burning points of red reside within the eye
+sockets, gleaming with dark magic.
+ ~
+RACE  human~
+ACT   AOT
+AFF   0
+OFF   CDFJ
+IMM   ABLQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 4d4+1
+REGEN 0
+DTYPE none
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHIMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2922
+NAME  mummie mummy~
+SHORT the mummy~
+LONG  A disgusting bloody mummy is here.
+~
+DESCR
+The tatttered and bloody remains of a corpse is here bound together by
+ragger bits of cloth. A dark set of hollow eyes stare back at you
+menacingly.
+~
+RACE  human~
+ACT   AOT
+AFF   0
+OFF   CDFJ
+IMM   ABLQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 5
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 4d10+100
+DDICE 6d7+1
+REGEN 0
+DTYPE pound
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHIMV
+PARTS ABCDEFGHIJKL
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2923
+NAME  shadow~
+SHORT a shadow~
+LONG  The shadow of %s has been severed and given substance.
+~
+DESCR
+A strange moving shadow is standing here restlessly, every few moments you 
+think you can make out a face below it's veil of darkness but as quickly 
+as it appears it is gone again.~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   K
+IMM   ABILMPQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 0
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+1
+MDICE 1d1+1
+DDICE 5d6+1
+REGEN 0
+DTYPE chill
+AC    100 100 100 100
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2924
+NAME  slave purgatory~
+SHORT a slave of purgatory~
+LONG  A dark figure floats here, lurking amongst the shadows.
+~
+DESCR
+*growl*
+~
+RACE  unique~
+ACT   AHIT
+AFF   0
+OFF   ACGIKNO
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 35
+ENHA  100.00%
+MATER none~
+HDICE 25d10+4000
+MDICE 1d1+200
+DDICE 8d6+45
+REGEN 0
+DTYPE drain
+AC    -22 -22 -22 -15
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2925
+NAME  stalker guard~
+SHORT the stalker~
+LONG  A stalker stands here, red with anger!
+~
+DESCR
+Angry, very angry.
+~
+RACE  unique~
+ACT   Ac
+AFF   0
+OFF   CEFIJKNO
+IMM   AB
+RES   M
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 1
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 1d1+0
+MDICE 1d1+0
+DDICE 1d1+0
+REGEN 0
+DTYPE slash
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2926
+NAME  nightmare~
+SHORT the nightmare~
+LONG  Your worst nightmare has been summoned by the Obsidian Prince to fight you.
+~
+DESCR
+Your worst nightmare has taken physical form in an assault against your body.
+~
+RACE  lich~
+ACT   ABGLOT
+AFF   0
+OFF   FHJKMU
+IMM   ABLMOPQRa
+RES   0
+VULN  HJKN
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 60
+HROLL 100
+ENHA  100.00%
+MATER none~
+HDICE 15d10+3500
+MDICE 4d10+100
+DDICE 10d10+15
+REGEN 0
+DTYPE chaotic
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGHMV
+PARTS ABCDEFGHIJKUV
+SIZE  huge
+DMOD  50
+AMOD  0
+QUEST 0
+End
+
+#2927
+NAME  storm~
+SHORT an electric storm~
+LONG  A storm rages on here.
+~
+DESCR
+This is a mighty storm made by magic.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   0
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+1000
+MDICE 1d1+0
+DDICE 4d4+9
+REGEN 0
+DTYPE bite
+AC    0 0 0 0
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2928
+NAME  blizzard~
+SHORT a raging blizzard~
+LONG  A blizzard rages on.
+~
+DESCR
+This is a blizzard.
+~
+RACE  human~
+ACT   AT
+AFF   0
+OFF   0
+IMM   AR
+RES   0
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d100+1
+MDICE 1d1+0
+DDICE 1d1+1
+REGEN 0
+DTYPE bite
+AC    0 0 0 0
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2929
+NAME  phantom~
+SHORT the phantom~
+LONG  A phantom flickers brightly here!
+~
+DESCR
+Ethereal Translucense
+~
+RACE  unique~
+ACT   Ac
+AFF   0
+OFF   FK
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 1d1+0
+MDICE 1d1+0
+DDICE 1d1+0
+REGEN 0
+DTYPE claw
+AC    0 0 0 0
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2930
+NAME  RATTLESNAKE~
+SHORT A large Rattlesnake~
+LONG  A large Rattlesnake is coiled here.
+~
+DESCR
+A large snake coils tightly shaking it's tail with a errie rattle sending shivers down your spine
+~
+RACE  snake~
+ACT   AI
+AFF   0
+OFF   DFHLM
+IMM   0
+RES   L
+VULN  I
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 1d1+50
+DDICE 10d10+25
+REGEN 0
+DTYPE bite
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  2
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2931
+NAME  SPRITE~
+SHORT A radiant Sprite~
+LONG  A small radiant Sprite stands here.
+~
+DESCR
+A small sprite weaves back and forth between the trees as it conjures magics to play with your head.
+~
+RACE  nymph~
+ACT   AI
+AFF   0
+OFF   DFHILN
+IMM   J
+RES   0
+VULN  G
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 1d1+10
+DDICE 10d10+100
+REGEN 0
+DTYPE magic
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  2
+FORM  ABG
+PARTS ACDEFHJKVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2932
+NAME  Lynx~
+SHORT A agile Lynx~
+LONG  A agile Lynx bounces all around.
+~
+DESCR
+A short tailed cat like creature bounds all over, agile as any cat could
+be.  It's paws are massive looking able to swat you with a pwerfull blow or
+disembowl you with its razor sharp claws and teeth.  
+~
+RACE  wolf~
+ACT   AI
+AFF   0
+OFF   DEFHJL
+IMM   0
+RES   DE
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 1d1+10
+DDICE 10d10+100
+REGEN 0
+DTYPE claw
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS ACDEFJKQV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2933
+NAME  LEECH~
+SHORT A large Leech~
+LONG  A very large Leech tries to attach to your leg.
+~
+DESCR
+Squirming all over this creature tries to bite you with its mouth opening
+it widely you see more teeth than you could count.  It flatens it's body and
+contorts around your boots as you try to kick it away.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   FHIJL
+IMM   0
+RES   EK
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE drain
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  Rc
+PARTS Q
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2934
+NAME  MOUND~
+SHORT A Mound~
+LONG  A huge Mound of leaves sways in the wind.
+~
+DESCR
+A large mound of leaves and twigs and rotting material seems to be given
+life and lunges towards you trying to smother you within its massive body 
+~
+RACE  human~
+ACT   AI
+AFF   0
+OFF   DEHJKL
+IMM   0
+RES   EF
+VULN  GH
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE digestion
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  A
+PARTS DN
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2935
+NAME  VINE~
+SHORT A Vine~
+LONG  A Vine tries to wrap around your neck.
+~
+DESCR
+A large vine wriggles about behind it's master.  With but a moments
+notice it is wraped about your feet and neck trying to strangle the life out
+of you.  
+~
+RACE  human~
+ACT   AI
+AFF   0
+OFF   DEFHIL
+IMM   0
+RES   EF
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE none
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  2
+FORM  AE
+PARTS DEFQ
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2936
+NAME  ALLIGATOR ~
+SHORT An Alligator lies here looking like a log~
+LONG  An Alligator lies here looking like a log.
+~
+DESCR
+Laying so still that you can not even see breath from it's gaping mouth. 
+It looks as though it has aged more then a milenium 
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   DIJLMNO
+IMM   0
+RES   DEFG
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE bite
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  X
+PARTS ACDEFKQUX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2937
+NAME  BAT~
+SHORT A large Bat~
+LONG  A large Bat flys high above.
+~
+DESCR
+Flying way overhead a large Bat divebombs you trying to suck the very
+lifeblood from your viens.  
+~
+RACE  song bird~
+ACT   AI
+AFF   0
+OFF   DFHL
+IMM   0
+RES   0
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE drain
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGWX
+PARTS ACDEFHKP
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2938
+NAME  GRIFFIN~
+SHORT A Griffin~
+LONG  A Griffin stands firm sending a shiver down your spine.
+~
+DESCR
+Standing over ten feet this half falcon half lion creature sends shivers
+down the base of your spine.  With claws of a lion that could disembowl you
+with but a quick swipe and the beak of a giant falcon to tear your eyes from
+your sockets, this beasts looks like it would eat you and pick your bones
+without a second thought.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   CDFHIJLO
+IMM   L
+RES   HI
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE claw
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  2
+FORM  V
+PARTS CDEFPQUV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2939
+NAME  BEAR~
+SHORT A brown Bear~
+LONG  A big brown Bear bounds towards you.
+~
+DESCR
+A very large brown bear paws the ground.  Its feet are almost the size of
+your torso and it's claws could rip you in two with ease.  
+~
+RACE  human~
+ACT   AI
+AFF   0
+OFF   DFIJKLa
+IMM   0
+RES   DEFG
+VULN  CH
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE crush
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2940
+NAME  WOLF~
+SHORT A large Wolf~
+LONG  A large wolf foams at the mouth ready to strike.
+~
+DESCR
+Standing at least six feet in height this wolf looks as though it is big
+enough to swollow you whole.  It drools so much you think it might be rabid,
+and the sent of your blood throws it into a frenzy.  
+~
+RACE  wolf~
+ACT   AI
+AFF   0
+OFF   DEFHIJL
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE scratch
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS ACDEFJKQV
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2941
+NAME  WOLVERINE~
+SHORT A large Wolverine~
+LONG  A large Wolverine brandishes its claws at you.
+~
+DESCR
+The size of a large dog, this beast is all muscle.  It ripples as it
+moves with gracelike fluidity.  Showings it's claws they are nearly as long
+as it's entire body, and as sharp as the blade at it's master's side.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   DFHIJLO
+IMM   0
+RES   DE
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE claw
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AV
+PARTS DEF
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2942
+NAME  WITCH~
+SHORT A cackling Witch~
+LONG  A Witch cackles gleefully at you.
+~
+DESCR
+With a manacle laughter this woman sends shivers down your spine.  Frail
+and gaunt this woman looks like she could not fight a cat for a scrap of
+food and win.  Yet there seems to be power radiating from her.  
+~
+RACE  human~
+ACT   AI
+AFF   0
+OFF   0
+IMM   CP
+RES   HIKLR
+VULN  D
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE nature
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2943
+NAME  JAGUAR ~
+SHORT A golden Jaguar~
+LONG  A golden Jaguar stands ready to pounce on you.
+~
+DESCR
+A golden of the sun this beast does not hide from it's foes it meats them
+with speed and agility ready to pounce with a moments notice.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   DFHIJK
+IMM   0
+RES   FG
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE claw
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS DEFU
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2944
+NAME  WSNAKE WaterSnake Water Snake~
+SHORT A WaterSnake~
+LONG  A WaterSnake glides around looking for something.
+~
+DESCR
+A Snake gildes gracefully over land as well as water.  Not detered from
+anything except to bask in the sun and digest it's prey.  
+~
+RACE  snake~
+ACT   AI
+AFF   0
+OFF   FHJL
+IMM   LR
+RES   0
+VULN  I
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE bite
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGXYc
+PARTS ADEFKLQVX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2945
+NAME  FISH Winged~
+SHORT A Winged Fish~
+LONG  A winged Fish flys about looking in mid jump.
+~
+DESCR
+Able to leap from the water this fish can soar about the land for a time.
+Using its wings it is able to flap them with such force it blows you almost
+over 
+~
+RACE  fish~
+ACT   AI
+AFF   0
+OFF   FHL
+IMM   R
+RES   AB
+VULN  J
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE sound
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS ADEFKOQX
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2946
+NAME  Naga~
+SHORT A greater Naga~
+LONG  A greater Naga gazes at you silently.
+~
+DESCR
+This half snake half something stares at you with cold eyes.  Seemingly
+statuesk yet able to strike with a swiftness unfathomable.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   HLMO
+IMM   CR
+RES   HI
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE defilement
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  Ac
+PARTS DEFQ
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2947
+NAME  LION~
+SHORT A lion~
+LONG  A lion sets itself ready for the hunt.
+~
+DESCR
+Ready for the hunt this lion body ripples with every movement.  Muscles
+taunt and strained from the wait for the prey to come within reach.  
+~
+RACE  unique~
+ACT   AI
+AFF   0
+OFF   ACDEFHKL
+IMM   0
+RES   DE
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE claw
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AV
+PARTS DEFU
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2948
+NAME  FALCON~
+SHORT A large Falcon~
+LONG  A large Falcon soar though the air magesticly.
+~
+DESCR
+Soaring in the sky at times you are not even able to see it.  All you
+hear is the rush of wind as it passes by your face for another try to
+debiliate you.  
+~
+RACE  human~
+ACT   AI
+AFF   0
+OFF   FHJL
+IMM   0
+RES   E
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+100
+MDICE 10d10+100
+DDICE 10d10+100
+REGEN 0
+DTYPE peck
+AC    1 1 1 1
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AW
+PARTS DEF
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2949
+NAME  rat~
+SHORT a rabid rat~
+LONG  A rabid rat loams here staggering slightly.
+~
+DESCR
+Its eyes glow with a crimson red.  It is obvious it is enslaved by some
+form of evil.  It mouth opens slightly to show a set of dagger like teeth.  
+~
+RACE  unique~
+ACT   A
+AFF   0
+OFF   0
+IMM   BM
+RES   C
+VULN  G
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 0d0+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE bite
+AC    -10 -10 -10 -10
+POS   stand stand
+SEX   male
+GOLD  100
+FORM  B
+PARTS ACDFQ
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#2950
+NAME  beast~
+SHORT a beast~
+LONG  A rugged animal is here, heeding the call of the wild.
+~
+DESCR
+This rugged beast is covered with coarse grey fur.  Its body structure
+resembles a cross between a bear and a boar.  Its eyes are large and
+intimidating, and saliva drips from its razor-sharp teeth as it glares about
+the room, seeking its next victim.  Its four legs end in serrated,
+blood-covered claws.  
+~
+RACE  wolf~
+ACT   AT
+AFF   0
+OFF   DFKO
+IMM   A
+RES   I
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 1
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 0d0+0
+MDICE 0d0+0
+DDICE 0d0+0
+REGEN 0
+DTYPE claw
+AC    -10 -10 -10 -100
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AGV
+PARTS ACDEFJKQV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#2901
+NAME   ranger sack~
+SHORT  a rangers sack~
+DESCR 
+a sack lies here.~
+MAT    flesh~
+TYPE   container 250 0 0 5 0
+EXTRA  0 0
+WEAR   AK
+LEVEL  0
+WEIGHT 16
+COST   9
+COND   100
+End
+
+#2902
+NAME   steak~
+SHORT  a steak~
+DESCR 
+a steak lies here.~
+MAT    flesh~
+TYPE   food BCDE CE 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 6
+COST   5
+COND   100
+End
+
+#2903
+NAME   potion silver~
+SHORT  a silver potion~
+DESCR 
+a potion of silver liquid lies here.~
+MAT    glass~
+TYPE   potion 1 'cure serious' '' '' ''
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  0
+WEIGHT 7
+COST   5
+COND   100
+End
+
+#2904
+NAME   shield battleshield battle crusader~
+SHORT  a Crusader Battleshield~
+DESCR 
+a shield of the fineste make lies here waiting to be used.~
+MAT    steel~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 2 0 3
+WEAR   AJ
+LEVEL  0
+WEIGHT 41
+COST   0
+COND   100
+End
+
+#2905
+NAME   staff~
+SHORT  a ranger staff~
+DESCR 
+a staff of purest wood lies here.~
+MAT    wood~
+TYPE   weapon staff 1 1 smash ABDFG
+EXTRA  1 2 0 65
+WEAR   AN
+LEVEL  0
+WEIGHT 23
+COST   0
+COND   100
+End
+
+#2906
+NAME   longsword sword avenger~
+SHORT  a holy avenger~
+DESCR 
+a beautiful sword of divine make lies here.~
+MAT    steel~
+TYPE   weapon sword 1 1 divine 0
+EXTRA  1 8 0 36291
+WEAR   AN
+LEVEL  0
+WEIGHT 17
+COST   0
+COND   100
+End
+
+#2907
+NAME   poncho carcass~
+SHORT  a poncho from the carcass of someone~
+DESCR 
+A blood stained carcass lies here.~
+MAT    flesh~
+TYPE   armor 0 0 0 0 BD
+EXTRA  0 0
+WEAR   AK
+LEVEL  1
+WEIGHT 16
+COST   0
+COND   100
+Affect O 12 35 0
+Affect O 13 35 0
+Affect O 19 6 0
+Affect O 18 6 0
+End
+
+#2910
+NAME   sword enforcer~
+SHORT  the sword of Enforcers~
+DESCR 
+A steel sword engraved with a clenched fist is here.~
+MAT    steel~
+TYPE   weapon sword 9 5 slash 0
+EXTRA  1 4 0 16797697
+WEAR   AN
+LEVEL  52
+WEIGHT 17
+COST   20000
+COND   100
+End
+
+#2911
+NAME   map north thera~
+SHORT  a map of nother Thera~
+DESCR 
+A map of north Thera lies here.~
+MAT    paper~
+TYPE   map 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  1
+WEIGHT 3
+COST   20
+COND   100
+EDESC map north thera~
+A map of Northern Thera
+
+	Icywastes       Elven Valley    Olympus         Ofcol--New Ofcol
+		|            |             |            |
+		|             \            |            |
+	Magic Forest           |           |            |
+		\               --------Plains----------+       
+		 \                         |            |
+		  --------------------Gallow Hills      Stone of G'Harne
+					   |                    |
+					   |                  Nightfall
+					[Midgaard]              
+
+This map shows the major areas north of midgaard. It is NOT to scale, and
+some of the directions are general only, indicating the basic location
+of each area relative to others.
+~
+End
+
+#2912
+NAME   protectorate plate~
+SHORT  a suit of protectorate platemail~
+DESCR 
+Some platemail with the symbol of a clenched fist is here.~
+MAT    steel~
+TYPE   armor ABCEG BDEF ABCEG BCEF BD
+EXTRA  1 2 0 33024
+WEAR   AD
+LEVEL  51
+WEIGHT 34
+COST   0
+COND   100
+Affect O 17 -5 0
+End
+
+#2913
+NAME   black blood badge~
+SHORT  a black and bloody sherrif's badge~
+DESCR 
+A charred and blood smeared badge lies here.~
+MAT    steel~
+TYPE   armor 0 0 0 0 AC
+EXTRA  0 0
+WEAR   AC
+LEVEL  1
+WEIGHT 13
+COST   0
+COND   100
+Affect O 5 1 0
+Affect O 1 1 0
+Affect O 17 -10 0
+End
+
+#2914
+NAME   quest sword~
+SHORT  A quest sword~
+DESCR 
+A sword for a quest is here.~
+MAT    steel~
+TYPE   weapon exotic 10 10 none 0
+EXTRA  1 6 0 33558915
+WEAR   AN
+LEVEL  1
+WEIGHT 20
+COST   20000
+COND   100
+Affect O 19 5 0
+Affect O 18 8 0
+End
+
+#2920
+NAME   potion ARCPOTION~
+SHORT  a silver potion~
+DESCR 
+A small glass flask containing a silvery liquid is here.~
+MAT    glass~
+TYPE   potion 1 '' '' '' ''
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  1
+WEIGHT 7
+COST   1000
+COND   100
+End
+
+#2921
+NAME   scroll ARCSCROLL~
+SHORT  a scroll~
+DESCR 
+A rolled up parchment is here.~
+MAT    paper~
+TYPE   scroll 1 '' '' '' ''
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  1
+WEIGHT 3
+COST   1000
+COND   100
+End
+
+#2922
+NAME   wand ARCWAND~
+SHORT  a glowing wand~
+DESCR 
+A long silvery rod with a blue-green glow lies here.~
+MAT    silver~
+TYPE   wand 1 1 1 '' 0
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  1
+WEIGHT 9
+COST   1000
+COND   100
+End
+
+#2923
+NAME   staff ARCSTAFF~
+SHORT  a glowing staff~
+DESCR 
+A long smooth stick is here, pulsing with magical power.~
+MAT    wood~
+TYPE   staff 1 1 1 '' 0
+EXTRA  1 2 0 65
+WEAR   AO
+LEVEL  1
+WEIGHT 6
+COST   1000
+COND   100
+End
+
+#2924
+NAME   berry~
+SHORT  a good berry~
+DESCR 
+A nice juicy berry is lying here.~
+MAT    food~
+TYPE   food BD BD 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 4
+COST   0
+COND   100
+End
+
+#2925
+NAME   skeleton npcskeleton npc_skeleton~
+SHORT  a skeleton~
+DESCR 
+A rotting skeleton lies here.~
+MAT    bone~
+TYPE   skeleton 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  1
+WEIGHT 8
+COST   1
+COND   100
+End
+
+#2951
+NAME   sword unholy~
+SHORT  an unholy sword~
+DESCR 
+An unholy sword lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon sword 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 17
+COST   0
+COND   100
+End
+
+#2952
+NAME   dagger unholy~
+SHORT  an unholy dagger~
+DESCR 
+An unholy dagger lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon dagger 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#2953
+NAME   spear unholy~
+SHORT  an unholy spear~
+DESCR 
+An unholy spear lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon spear 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 27
+COST   0
+COND   100
+End
+
+#2954
+NAME   mace unholy~
+SHORT  an unholy mace~
+DESCR 
+An unholy mace lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon mace 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 24
+COST   0
+COND   100
+End
+
+#2955
+NAME   axe unholy~
+SHORT  an unholy axe~
+DESCR 
+An unholy axe lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon axe 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 24
+COST   0
+COND   100
+End
+
+#2956
+NAME   flail unholy~
+SHORT  an unholy flail~
+DESCR 
+An unholy flail lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon flail 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 20
+COST   0
+COND   100
+End
+
+#2957
+NAME   whip unholy~
+SHORT  an unholy whip~
+DESCR 
+An unholy whip lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon whip 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 13
+COST   0
+COND   100
+End
+
+#2958
+NAME   polearm unholy~
+SHORT  an unholy polearm~
+DESCR 
+An unholy polearm lies here, pulsing with power.~
+MAT    steel~
+TYPE   weapon polearm 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 27
+COST   0
+COND   100
+End
+
+#2959
+NAME   clown mallet huge oversized hammer~
+SHORT  a huge oversized hammer~
+DESCR 
+A grossly oversized hammer is here, begging to be touched.~
+MAT    steel~
+TYPE   weapon mace 1 1 darkwrath 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 24
+COST   20000
+COND   100
+RESTR  D
+End
+
+#2960
+NAME   chunk maple wood~
+SHORT  a large chunk of maple wood~
+DESCR 
+A large chunk of maple wood lies here.~
+MAT    wood~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#2961
+NAME   large chunk magic~
+SHORT  a large chunk of magic wood~
+DESCR 
+A large chunk of magic wood lies here.~
+MAT    unknown~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#2962
+NAME   large chunk oak~
+SHORT  a large chunk of oak~
+DESCR 
+A large chunk of oak lies here.~
+MAT    unknown~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#2963
+NAME   maple wood staff~
+SHORT  a longstaff made of maple~
+DESCR 
+A large longstaff of maple lies here.~
+MAT    wood~
+TYPE   weapon staff 0 0 smash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 15
+COST   0
+COND   100
+Affect O 18 10 0
+Affect O 19 10 0
+End
+
+#2964
+NAME   magic staff~
+SHORT  a shortstaff made of magic wood~
+DESCR 
+A shortstaff made of magic wood lies here.~
+MAT    unknown~
+TYPE   weapon staff 0 0 magic 0
+EXTRA  1 2 0 320
+WEAR   AN
+LEVEL  0
+WEIGHT 22
+COST   0
+COND   100
+Affect O 13 50 0
+Affect O 18 8 0
+Affect O 19 8 0
+End
+
+#2965
+NAME   oak staff~
+SHORT  a shortstaff made of oak~
+DESCR 
+A shortstaff made of oak lies here.~
+MAT    wood~
+TYPE   weapon staff 0 0 smash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 15
+COST   0
+COND   100
+Affect O 13 50 0
+Affect O 18 8 0
+Affect O 19 8 0
+RESTR  P
+End
+
+#2966
+NAME   boots steel fur-lined step victory~
+SHORT  a pair of fur-lined steel boots named 'Step of Victory'~
+DESCR 
+A pair of steel, fur-lined boots lie here, forgotten.~
+MAT    steel~
+TYPE   armor ACDG ABEF ACDG EF 0
+EXTRA  1 1 0 16777216
+WEAR   AG
+LEVEL  60
+WEIGHT 24
+COST   0
+COND   100
+Affect O 13 25 0
+Affect O 2 2 0
+Affect O 1 2 0
+Affect O 19 9 0
+Affect O 18 5 0
+End
+
+#2967
+NAME   gauntlets grip victory~
+SHORT  a pair of mithril-bound gauntlets named 'Grip of Victory'~
+DESCR 
+A pair of gauntlets bound in mithril lie here.~
+MAT    steel~
+TYPE   armor ACDG ABEF ACDG EF 0
+EXTRA  1 1 0 16777216
+WEAR   AH
+LEVEL  60
+WEIGHT 20
+COST   0
+COND   100
+Affect O 1 1 0
+Affect O 19 4 0
+Affect O 18 10 0
+End
+
+#2968
+NAME   battle chest heart victory~
+SHORT  a finely-polished battle chest named 'Heart of Victory'~
+DESCR 
+A gleaming suit of armor lies here.~
+MAT    steel~
+TYPE   armor ADEFG AEG ADEFG CDG 0
+EXTRA  1 1 0 16777216
+WEAR   AD
+LEVEL  60
+WEIGHT 34
+COST   0
+COND   100
+Affect O 28 -5 0
+Affect O 20 -10 0
+Affect O 13 50 0
+Affect O 17 -100 0
+End
+
+#2969
+NAME   phylactery black sapphire~
+SHORT  a black sapphire phylactery~
+DESCR 
+A black sapphire phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   5
+RESTR  T
+End
+
+#2970
+NAME   phylactery fire opal~
+SHORT  a fire opal phylactery~
+DESCR 
+A fire opal phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   4
+RESTR  T
+End
+
+#2971
+NAME   phylactery black opal~
+SHORT  a black opal phylactery~
+DESCR 
+A black opal phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   5
+RESTR  T
+End
+
+#2972
+NAME   phylactery soapstone~
+SHORT  a soapstone phylactery~
+DESCR 
+A soapstone phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   3
+RESTR  T
+End
+
+#2973
+NAME   phylactery bloodstone~
+SHORT  a bloodstone phylactery~
+DESCR 
+A bloodstone phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   4
+RESTR  T
+End
+
+#2974
+NAME   phylactery black pearl~
+SHORT  a phylactery of black pearl~
+DESCR 
+A phylactery made of black pearl lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   3
+RESTR  T
+End
+
+#2975
+NAME   phylactery diamond~
+SHORT  a diamond phylactery~
+DESCR 
+A diamond phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   1
+RESTR  T
+End
+
+#2976
+NAME   phylactery pale jade~
+SHORT  a phylactery of pale jade~
+DESCR 
+A phylactery of pale jade lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   5
+RESTR  T
+End
+
+#2977
+NAME   phylactery violet garnet~
+SHORT  a phylactery of violet garnet~
+DESCR 
+A phylactery of violet garnet lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   2
+RESTR  T
+End
+
+#2978
+NAME   phylactery spherical malachite~
+SHORT  a phylactery of spherical malachite~
+DESCR 
+A phylactery of spherical malachite lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   3
+RESTR  T
+End
+
+#2979
+NAME   phylactery sunstone~
+SHORT  a sunstone phylactery~
+DESCR 
+A sunstone phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2980
+NAME   phylactery zircon~
+SHORT  a zircon phylactery~
+DESCR 
+A zircon phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2981
+NAME   phylactery striped glass~
+SHORT  a phylactery made of striped glass~
+DESCR 
+A phylactery made of striped glass lies here.~
+MAT    glass~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 7
+COST   0
+COND   6
+RESTR  T
+End
+
+#2982
+NAME   phylactery basalt~
+SHORT  a basalt phylactery~
+DESCR 
+A basalt phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2983
+NAME   phylactery star diopside~
+SHORT  a phylactery made of star diopside~
+DESCR 
+A phylactery made of star diopside lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2984
+NAME   phylactery rounded jade~
+SHORT  a phylactery of rounded jade~
+DESCR 
+A phylactery of rounded jade lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   4
+RESTR  T
+End
+
+#2985
+NAME   phylactery malachite disc~
+SHORT  a phylactery made from a malachite disc~
+DESCR 
+A phylactery made from a malachite disc lies here.~
+MAT    mineral~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   6
+RESTR  T
+End
+
+#2986
+NAME   phylactery pale aquamarine~
+SHORT  a pale aquamarine phylactery~
+DESCR 
+A pale aquamarine phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2987
+NAME   phylactery granite~
+SHORT  a granite phylactery~
+DESCR 
+A granite phylactery lies here.~
+MAT    mineral~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   3
+RESTR  T
+End
+
+#2988
+NAME   phylactery amethyst~
+SHORT  an amethyst phylactery~
+DESCR 
+An amethyst phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   3
+RESTR  T
+End
+
+#2989
+NAME   phylactery milky quartz~
+SHORT  a phylactery made of milky quartz~
+DESCR 
+A phylactery made of milky quartz lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   15
+RESTR  T
+End
+
+#2990
+NAME   phylactery tauroidal beryl~
+SHORT  a phylactery of tauroidal beryl~
+DESCR 
+A phylactery of tauroidal beryl lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   15
+RESTR  T
+End
+
+#2991
+NAME   phylactery something oily~
+SHORT  a phylactery made of something oily~
+DESCR 
+A phylactery made of something oily lies here.~
+MAT    unknown~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 9
+COST   0
+COND   5
+RESTR  T
+End
+
+#2992
+NAME   phylactery angled jasper~
+SHORT  a phylactery of angled jasper~
+DESCR 
+A phylactery of angled jasper lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   5
+RESTR  T
+End
+
+#2993
+NAME   phylactery jade~
+SHORT  a jade phylactery~
+DESCR 
+A jade phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   5
+RESTR  T
+End
+
+#2994
+NAME   phylactery cat's eye~
+SHORT  a cat's eye phylactery~
+DESCR 
+A cat's eye phylactery lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   20
+RESTR  T
+End
+
+#2995
+NAME   phylactery cat's eye agate~
+SHORT  a phylactery made from a cat's eye agate~
+DESCR 
+A phylactery made from a cat's eye agate lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   1
+RESTR  T
+End
+
+#2996
+NAME   phylactery faceted jasper~
+SHORT  a phylactery made from a faceted jasper~
+DESCR 
+A phylactery made from a faceted jasper lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   3
+RESTR  T
+End
+
+#2997
+NAME   phylactery rainbow moonstone~
+SHORT  a phylactery made from a rainbow moonstone~
+DESCR 
+A phylactery made from a rainbow moonstone lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   6
+RESTR  T
+End
+
+#2998
+NAME   phylactery black diamond~
+SHORT  a phylactery of black diamond~
+DESCR 
+A phylactery of black diamond lies here.~
+MAT    gem~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17317888
+WEAR   AO
+LEVEL  51
+WEIGHT 6
+COST   0
+COND   1
+RESTR  T
+End
+
+#2999
+NAME   fist victory warrior weapon~
+SHORT  an oddly-shaped steel weapon named 'Fist of Victory'~
+DESCR 
+The Fist of Victory lies here. A meticulously inscribed message is carved into it.~
+MAT    steel~
+TYPE   weapon exotic 7 10 nature 0
+EXTRA  1 2 0 16777218
+WEAR   AN
+LEVEL  55
+WEIGHT 20
+COST   0
+COND   100
+Affect O 29 1 0
+EDESC message~
+A message is inscribed on this essence of Victory. At first glance, its language escapes you. As you
+finish inspecting the weapon, a voice whispers in the back of your head...
+ 
+"I am the hand of victory," it whispers. "I bend to the will of my wielder, and become the
+harbinger of destruction to the enemy. There exists no defeat, for holding me, the earth trembles
+and quivers in fear."
+ 
+The voice fades and grows distant, leaving you only with one final, audible whisper...
+ 
+{b"Victory to the...!"{x
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#2900
+NAME   Inside a darkened plane~
+DESCR
+You find yourself within a plane of darkness, penetrated only by small
+points of light where strange shimmering gates can be found. Through the
+floating gates you can make out the strange flickering shapes of the real
+world beyond.
+~
+FLAGS  273687553
+Sect   0
+DOOR 1
+Inside a darkened plane.
+~
+~
+0 0 2901
+DOOR 2
+The Dark Road.
+~
+~
+0 0 873
+DOOR 4
+A very dark room.
+~
+~
+0 0 1462
+DOOR 5
+The entrance to Purgatory.
+~
+~
+0 0 27000
+MHRATE -20 -20
+End
+
+#2901
+NAME   Inside a darkened plane~
+DESCR
+You find yourself within a plane of darkness, penetrated only by small
+points of light where strange shimmering gates can be found. Through the
+floating gates you can make out the strange flickering shapes of the real
+world beyond.
+~
+FLAGS  273687553
+Sect   0
+DOOR 3
+In a darkened plane.
+~
+~
+0 0 2900
+End
+
+#2920
+NAME   Death!~
+DESCR
+~
+FLAGS  4
+Sect   0
+End
+
+#0
+
+
+
+#SPECIALS
+M 2902 spec_elemental
+M 2903 spec_elemental
+M 2904 spec_elemental
+M 2905 spec_elemental
+M 2910 spec_enforcer
+M 2912 spec_familiar
+M 2913 spec_familiar
+M 2930 spec_cast_mage
+M 2942 spec_cast_mage
+M 2944 spec_poison
+M 2946 spec_familiar
+M 2949 spec_poison
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 2963 fight_prog fight_prog_ranger_staff
+I 2964 fight_prog fight_prog_ranger_staff
+I 2965 fight_prog fight_prog_ranger_staff
+I 2966 wear_prog wear_prog_quest_reward_warrior_boots
+I 2966 remove_prog remove_prog_quest_reward_warrior_boots
+I 2967 remove_prog remove_prog_quest_reward_warrior_gauntlets
+I 2967 pulse_prog pulse_prog_quest_reward_warrior_gauntlets
+I 2968 remove_prog remove_prog_quest_reward_warrior_plate
+I 2968 pulse_prog pulse_prog_quest_reward_warrior_plate
+I 2969 invoke_prog invoke_prog_black_sapphire
+I 2970 invoke_prog invoke_prog_fire_opal
+I 2971 invoke_prog invoke_prog_black_opal
+I 2972 invoke_prog invoke_prog_soapstone
+I 2973 invoke_prog invoke_prog_bloodstone
+I 2974 invoke_prog invoke_prog_black_pearl
+I 2975 invoke_prog invoke_prog_diamond
+I 2976 invoke_prog invoke_prog_pale_jade
+I 2977 invoke_prog invoke_prog_violet_garnet
+I 2978 invoke_prog invoke_prog_spherical_malachite
+I 2979 invoke_prog invoke_prog_sunstone
+I 2980 invoke_prog invoke_prog_zircon
+I 2981 invoke_prog invoke_prog_striped_glass
+I 2982 invoke_prog invoke_prog_basalt
+I 2983 invoke_prog invoke_prog_star_diopside
+I 2984 invoke_prog invoke_prog_rounded_jade
+I 2985 invoke_prog invoke_prog_malachite_disc
+I 2986 invoke_prog invoke_prog_pale_aquamarine
+I 2987 invoke_prog invoke_prog_granite
+I 2988 invoke_prog invoke_prog_amethyst
+I 2989 invoke_prog invoke_prog_milky_quartz
+I 2990 invoke_prog invoke_prog_tauroidal_beryl
+I 2991 invoke_prog invoke_prog_something_oily
+I 2992 invoke_prog invoke_prog_angled_jasper
+I 2993 invoke_prog invoke_prog_jade
+I 2994 invoke_prog invoke_prog_cats_eye
+I 2995 invoke_prog invoke_prog_cats_eye_agate
+I 2996 invoke_prog invoke_prog_faceted_jasper
+I 2997 invoke_prog invoke_prog_rainbow_moonstone
+I 2998 invoke_prog invoke_prog_black_diamond
+I 2999 wear_prog wear_prog_quest_reward_warrior_weapon
+I 2999 remove_prog remove_prog_quest_reward_warrior_weapon
+I 2999 speech_prog speech_prog_quest_reward_warrior_weapon
+M 2917 fight_prog fight_prog_animate_armor
+M 2918 fight_prog fight_prog_animate_weapon
+E
+
+
+
+#$

@@ -1,0 +1,4673 @@
+#AREADATA
+Name Forgotten Isle~
+Builders None~
+VNUMs 8400 8499
+Credits {50 51} Zornath Forgotten Isle~
+Security 9
+Xplore 1
+End
+
+
+
+#MOBDATA
+#8400
+NAME  bloodthirsty lion~
+SHORT a bloodthirsty lion~
+LONG  A bloodthirsty lion leaps from the trees and strikes!
+~
+DESCR
+This lion appears to not have had anything to eat for a long while.  Its
+blood-red eyes fix on you and it roars with great ferocity, intending to
+make you his next meal.  
+~
+RACE  cat~
+ACT   ABFGT
+AFF   0
+OFF   AEFHMO
+IMM   AB
+RES   DI
+VULN  H
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 60
+HROLL 150
+ENHA  100.00%
+MATER none~
+HDICE 2d500+9500
+MDICE 1d5000+0
+DDICE 10d10+140
+REGEN 0
+DTYPE claw
+AC    -80 -80 -80 -80
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AGV
+PARTS ACDEFHJKQUV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8401
+NAME  tribal warrior~
+SHORT a tribal warrior~
+LONG  A tribal warrior stands here, guarding the path.
+~
+DESCR
+This large man protects the path from outsiders.  He is clothed in hides,
+feathers, and bones.  In his right hand he wields a large club, while he
+holds a makeshift shield in the other.  A disciplined warrior, he surveys
+the surroundings carefully, ensuring the safety of his tribe.  
+~
+RACE  human~
+ACT   ABFL
+AFF   0
+OFF   ACDEHJKNO
+IMM   ABC
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 55
+HROLL 140
+ENHA  100.00%
+MATER none~
+HDICE 2d500+5000
+MDICE 1d1+1000
+DDICE 10d6+35
+REGEN 0
+DTYPE slash
+AC    0 0 0 0
+POS   stand stand
+SEX   either
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8402
+NAME  tribesman defender warrior~
+SHORT a tribesman~
+LONG  A tribesman glares at your intrusion and strikes!
+~
+DESCR
+This tribesman has been trained ever since he was a child to defend his
+village with his life.  Recognizing you as a foreigner, as well as an
+intruder, he rushes to action.  
+~
+RACE  human~
+ACT   ABFLT
+AFF   0
+OFF   ADEFHIJK
+IMM   AB
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 51
+HROLL 250
+ENHA  100.00%
+MATER none~
+HDICE 2d500+3500
+MDICE 1d1+5
+DDICE 5d5+25
+REGEN 0
+DTYPE punch
+AC    0 0 0 0
+POS   stand stand
+SEX   male
+GOLD  500
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8403
+NAME  shaman tribe~
+SHORT the tribe shaman~
+LONG  The tribe shaman meditates here in his hut.
+~
+DESCR
+His face marked with ceremonial red paint, this tribal shaman meditates
+in his hut, trying to further his knowledge and the knowledge of his tribe. 
+He wears a vest of feathers, and around his waist, a shimmering belt is
+wrapped.  He is in such a deep state of thought that he does not even notice
+you glancing at him.  
+~
+RACE  human~
+ACT   ABLR
+AFF   0
+OFF   ACEFHKNO
+IMM   AB
+RES   DHIJ
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 57
+HROLL 300
+ENHA  100.00%
+MATER none~
+HDICE 3d555+14360
+MDICE 2d500+5000
+DDICE 15d10+140
+REGEN 0
+DTYPE wrath
+AC    -120 -120 -120 -120
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8404
+NAME  tribal female~
+SHORT a tribal female~
+LONG  A tribal female senses you in her home and charges!
+~
+DESCR
+This warrior woman looks no weaker than any man you've encountered thus
+far.  She wears a lion hide outfit that covers all of her body save her legs
+and arms.  A beaded bracelet glints on her wrist.  Her face wears a look of
+pure anger, likely because you have intruded within her home.  
+~
+RACE  human~
+ACT   ABFL
+AFF   0
+OFF   CDEFHIJKNO
+IMM   AB
+RES   D
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 53
+HROLL 250
+ENHA  100.00%
+MATER none~
+HDICE 2d555+3500
+MDICE 1d1+500
+DDICE 5d10+35
+REGEN 0
+DTYPE punch
+AC    -80 -80 -80 -80
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8405
+NAME  tribal religious zealot~
+SHORT a tribal religious zealot~
+LONG  A religious zealot from the tribe guards the Tower of Worship here.
+~
+DESCR
+This stone-faced zealot guards the Tower of Worship with his very life. 
+His face is perpetually in a serious and highly disciplined frown.  He walks
+back and forth along stone path through the tower, guarding the interior
+from intruders.  He wears a finely woven cloak of silk about his body as a
+symbol of his devotion to the Gods.  
+~
+RACE  human~
+ACT   ABFLRT
+AFF   0
+OFF   ACDEFHIJKNO
+IMM   AB
+RES   DMN
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 56
+HROLL 350
+ENHA  100.00%
+MATER none~
+HDICE 2d455+5000
+MDICE 1d2000+1000
+DDICE 10d10+80
+REGEN 0
+DTYPE wrath
+AC    -100 -100 -100 -100
+POS   stand stand
+SEX   male
+GOLD  1200
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8406
+NAME  lost adventurer~
+SHORT a shipwrecked adventurer~
+LONG  A shipwrecked adventurer slinks away in the shadows here, hiding from the tribespeople.
+~
+DESCR
+This adventurer appears to have been stranded on this island.  His face
+is covered in dirt and blood, but even injured, he is much more formidable
+than most opponents one could ever hope to face.  Still young, he appears to
+have been blessed on several occasions with great physical ability, among
+other things.  He hides here in this empty hut from the tribesmen, hoping to
+avoid conflict.  
+~
+RACE  human~
+ACT   ABLT
+AFF   0
+OFF   ACDEFHIJKNO
+IMM   AB
+RES   DHIJ
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 58
+HROLL 450
+ENHA  100.00%
+MATER none~
+HDICE 2d625+14650
+MDICE 1d1000+2000
+DDICE 15d10+235
+REGEN 0
+DTYPE slash
+AC    -130 -130 -130 -130
+POS   stand stand
+SEX   either
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8407
+NAME  saint triayn god temperance~
+SHORT Saint Triayn, God of Temperance~
+LONG  A robed holy man, Saint Triayn, stands here, praying softly for the souls of man.
+~
+DESCR
+This gargantuan robed man wears a long and elegant robe.  He concentrates
+deeply, praying for redemption for the sins of mankind.  Saint Triayn has
+existed since the dawn of time and watched over the world since its infancy.
+Seeing mortals destroy and wreak havoc everywhere they go and even reaching
+his realm itself, he feels he must stop the corruption and bloodthirst of
+man from spreading to the heavens themselves.  
+~
+RACE  human~
+ACT   ABFLRT
+AFF   DFNV
+OFF   ACDEFHIJKNO
+IMM   ABCN
+RES   DHIJKORS
+VULN  M
+WSPEC 0
+ALIGN 1000
+GROUP 1
+LEVEL 58
+HROLL 6000
+ENHA  100.00%
+MATER none~
+HDICE 2d550+17800
+MDICE 1d1+3000
+DDICE 10d10+175
+REGEN 0
+DTYPE chill
+AC    -150 -150 -150 -150
+POS   stand stand
+SEX   male
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#8408
+NAME  brooyan fallen god avarice~
+SHORT Brooyan the Fallen, God of Avarice~
+LONG  Brooyan the Fallen cackles manically as he devours the enslaved soul of a mortal.
+~
+DESCR
+This enormous creature looks like the corrupt form of a once gentle and
+majestic centaur.  He stomps about his realm in the heavens now, perpetually
+craving the souls of men robbed of living to feed his immortal hunger.  His
+centaur legs have thickened into massive pylons, and his hide appears to be
+changing from a welcoming white to a foreboding black.  
+~
+RACE  centaur~
+ACT   ABFLRT
+AFF   DFOV
+OFF   ACDEFHIJKMNO
+IMM   ABCM
+RES   DEHIJLQ
+VULN  NS
+WSPEC 0
+ALIGN -1000
+GROUP 3
+LEVEL 57
+HROLL 550
+ENHA  100.00%
+MATER none~
+HDICE 2d555+19000
+MDICE 2d500+3000
+DDICE 10d20+225
+REGEN 0
+DTYPE mental
+AC    -160 -160 -160 -160
+POS   stand stand
+SEX   male
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#8410
+NAME  karysia rosethorn goddess justice~
+SHORT Karysia Rosethorn, Goddess of Justice~
+LONG  An attractive female clad in armor stands here, watching the cruelties of man.
+~
+DESCR
+This tall female stands here, watching over the world and its cruelties
+and shaking her head in shame at the failures of mankind.  A sorrowful
+expression is won upon her white-skinned face, and her golden hair sways as
+she condemns the cruelties man commits.  She is clad in heavy shining armor,
+ready to uphold the laws set forth by the Gods.  
+~
+RACE  human~
+ACT   ABFLRT
+AFF   DFNV
+OFF   ACDEFHIJKNO
+IMM   ABCD
+RES   HIJ
+VULN  KM
+WSPEC 0
+ALIGN 1000
+GROUP 2
+LEVEL 60
+HROLL 700
+ENHA  100.00%
+MATER none~
+HDICE 2d535+19000
+MDICE 1d500+3000
+DDICE 10d10+195
+REGEN 0
+DTYPE acidicbite
+AC    -165 -165 -165 -165
+POS   stand stand
+SEX   female
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#8411
+NAME  soul temperance~
+SHORT a Soul of Temperance~
+LONG  A long-dead soul hovers here, assisting the gods in their endeavors.
+~
+DESCR
+This soul flickers with a curious white light.  It is surrounded in a
+translucent aura of blue-white flame, and hovers about near Saint Triayn,
+assisting him in his tasks.  
+~
+RACE  elf~
+ACT   ABFLT
+AFF   0
+OFF   ACDEFHIJKNO
+IMM   ABCN
+RES   BHIJ
+VULN  MZ
+WSPEC 0
+ALIGN 1000
+GROUP 1
+LEVEL 56
+HROLL 800
+ENHA  100.00%
+MATER none~
+HDICE 2d535+9500
+MDICE 1d5000+0
+DDICE 10d8+68
+REGEN 0
+DTYPE rending
+AC    -90 -90 -90 -90
+POS   stand stand
+SEX   none
+GOLD  3000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8412
+NAME  soul avarice~
+SHORT a Soul of Avarice~
+LONG  A long-dead soul hovers here, assisting the gods in their endeavors.
+~
+DESCR
+This soul flickers with a curious white light.  It is surrounded in a
+translucent aura of blue-white flame, and hovers about near Brooyan the
+Fallen, assisting him in his tasks.  
+~
+RACE  centaur~
+ACT   ABFLT
+AFF   0
+OFF   ACDEFHIJKNO
+IMM   ABCM
+RES   BEHIJ
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 3
+LEVEL 56
+HROLL 900
+ENHA  100.00%
+MATER none~
+HDICE 2d545+9200
+MDICE 5000d1+0
+DDICE 10d9+74
+REGEN 0
+DTYPE asphyxiation
+AC    -80 -80 -80 -80
+POS   stand stand
+SEX   none
+GOLD  3000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8413
+NAME  soul justice~
+SHORT a Soul of Justice~
+LONG  A long-dead soul hovers here, assisting the gods in their endeavors.
+~
+DESCR
+This soul flickers with a curious white light.  It is surrounded in a
+translucent aura of blue-white flame, and hovers about near Karysia
+Rosethorn, assisting her in her tasks.  
+~
+RACE  human~
+ACT   ABFLT
+AFF   0
+OFF   ACDEFHIJKMNO
+IMM   ABCMN
+RES   HIJ
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 2
+LEVEL 56
+HROLL 1000
+ENHA  100.00%
+MATER none~
+HDICE 2d545+9500
+MDICE 5000d1+0
+DDICE 10d11+75
+REGEN 0
+DTYPE shockingbite
+AC    -100 -100 -100 -100
+POS   stand stand
+SEX   none
+GOLD  3000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8414
+NAME  malatehsta god wrath demon~
+SHORT Malatehsta, God of Wrath~
+LONG  A massive winged demon stands here, watching man destroy itself with a devilish grin on its face.
+~
+DESCR
+A massive winged demon stands here.  Tough black skin covered in a thin
+layer of black hair covers most of his body, save his horned head.  The
+horns rise out about three feet into the air, but considering the size of
+this fiend, the horns are about proportional to the horns on a bull.  They
+curve multiple times and end at sharp points covered in dried blood.  He
+gazes out over Thera and grins, satisfied at the destruction and wrath in
+man's heart.  
+~
+RACE  malefisti~
+ACT   ABFLT
+AFF   DFHV
+OFF   ACDEFHIJKMNO
+IMM   ABCHMN
+RES   DIJK
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 4
+LEVEL 62
+HROLL 2500
+ENHA  100.00%
+MATER none~
+HDICE 2d566+22000
+MDICE 5000d1+0
+DDICE 10d20+230
+REGEN 0
+DTYPE defilement
+AC    -200 -200 -200 -200
+POS   stand stand
+SEX   male
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  huge
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#8415
+NAME  soul wrath~
+SHORT a Soul of Wrath~
+LONG  A long-dead soul hovers here, assisting the gods in their endeavors.
+~
+DESCR
+This soul flickers with a curious white light.  It is surrounded in a
+translucent aura of blue-white flame, and hovers about near Malatehsta,
+assisting him in his tasks.  
+~
+RACE  vuuhu~
+ACT   ABFLT
+AFF   0
+OFF   ACDEFHIJKMNO
+IMM   ABCMN
+RES   HIJKLQ
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 4
+LEVEL 56
+HROLL 900
+ENHA  100.00%
+MATER none~
+HDICE 2d535+9800
+MDICE 5000d1+0
+DDICE 10d11+78
+REGEN 0
+DTYPE wrath
+AC    0 0 0 0
+POS   stand stand
+SEX   none
+GOLD  3000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  small
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#8416
+NAME  uldak gutripper titan god creation~
+SHORT Uldak Gutripper the Titan, God of Creation~
+LONG  Uldak Gutripper, the God of All Creation, sits here upon his throne in the heavens.
+~
+DESCR
+The god of all creation sits here upon his golden throne.  The largest
+being you've ever met, this god's face shows age, unmatched wisdom, and
+immense strength.  His eyes lack any color with the exception of white, and
+his face is covered in a thick white beard.  His body is built in every
+possible location, and with certain bulges of muscle as large as your entire
+body, there is no wonder this god rules over all.  
+~
+RACE  titan~
+ACT   ABFLRT
+AFF   DFHNOV
+OFF   ACDEFHIJKMNO
+IMM   ABCMN
+RES   DEFGHIJKLOPQRSTXYZ
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 5
+LEVEL 65
+HROLL 9000
+ENHA  100.00%
+MATER none~
+HDICE 2d500+27000
+MDICE 5000d1+0
+DDICE 10d20+315
+REGEN 0
+DTYPE drain
+AC    -250 -250 -250 -250
+POS   stand stand
+SEX   male
+GOLD  20000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 1
+End
+
+#8417
+NAME  ethereal servant~
+SHORT an ethereal servant of Uldak Gutripper~
+LONG  An ethereal cloud of heavenly energy floats here, guarding Uldak Gutripper.
+~
+DESCR
+This cloud of heavenly energy has taken the form of a powerful warrior. 
+It stands in front of Uldak Gutripper's throne, guarding him with its life. 
+You can make out no features save arms and legs on it.  
+~
+RACE  ethereal~
+ACT   ABFT
+AFF   0
+OFF   ADEFIJKNO
+IMM   ABCLMN
+RES   DEHIP
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 5
+LEVEL 58
+HROLL 1100
+ENHA  100.00%
+MATER none~
+HDICE 2d535+10000
+MDICE 5000d1+0
+DDICE 10d12+80
+REGEN 0
+DTYPE freezingbite
+AC    -120 -120 -120 -120
+POS   stand stand
+SEX   none
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#8400
+NAME   shipwreck sunken ship~
+SHORT  a shipwreck~
+DESCR 
+The mast of a ship protrudes the water, revealing a sunken ship.~
+MAT    wood~
+TYPE   container 300 0 0 300 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  55
+WEIGHT 6
+COST   0
+COND   100
+EDESC sunken~
+The mast of this sunken ship thrusts out of the water, giving the ship's
+location away.  Upon closer inspection, you realize that this ship may just
+contain treasure.  
+~
+EDESC ship~
+The mast of this sunken ship thrusts out of the water, giving the ship's
+location away.  Upon closer inspection, you realize that this ship may just
+contain treasure.  
+~
+EDESC shipwreck~
+The mast of this sunken ship thrusts out of the water, giving the ship's
+location away.  Upon closer inspection, you realize that this ship may just
+contain treasure.  
+~
+End
+
+#8401
+NAME   treasure chest~
+SHORT  a treasure chest~
+DESCR 
+A wooden treasure chest lies here.~
+MAT    wood~
+TYPE   container 100 AC 0 5 0
+EXTRA  1 1 0 524288
+WEAR   AO
+LEVEL  50
+WEIGHT 6
+COST   0
+COND   100
+EDESC chest~
+This chest was acquired from a sunken ship in the Lost Ocean.  It may
+contain treasure.  
+~
+End
+
+#8402
+NAME   shipwreck ship sunken~
+SHORT  a shipwreck~
+DESCR 
+A long-abandoned ship has run atop a massive rock here.~
+MAT    wood~
+TYPE   container 300 0 0 300 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+EDESC shipwreck~
+This ship has driven itself onto the massive rock, trapping it.  The
+crew has long since either drowned or died of starvation.  Examining
+further, one might find abandoned treasure.  
+~
+EDESC ship~
+This ship has driven itself onto the massive rock, trapping it.  The crew
+has long since either drowned or died of starvation.  Examining further, one
+might find abandoned treasure.  
+~
+End
+
+#8403
+NAME   wealth gold~
+SHORT  a wealth of gold~
+DESCR 
+A wealth of gold lies here, shimmering in the light.~
+MAT    gold~
+TYPE   money DFGHIJ 0 0 0 0
+EXTRA  1 1 0 524288
+WEAR   A
+LEVEL  55
+WEIGHT 10
+COST   0
+COND   100
+End
+
+#8404
+NAME   massive rock~
+SHORT  a massive rock~
+DESCR 
+A massive rock juts out of the water.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  55
+WEIGHT 9
+COST   0
+COND   100
+EDESC rock~
+A massive rock thrusts out of the water into the air like a spire here. 
+An unfortunate ship has run aground on it.  
+~
+End
+
+#8405
+NAME   shadow sunken ship shipwreck~
+SHORT  a shipwreck~
+DESCR 
+An enormous shadow reveals a shipwreck in the shallow water.~
+MAT    wood~
+TYPE   container 300 0 0 300 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  55
+WEIGHT 6
+COST   0
+COND   100
+EDESC shadow~
+This shipwreck appears to have met its end at the jagged cliff face to
+the south.  It is broken in half like a twig and settled at the bottom of
+the shallow ocean.  It may contain treasure.  
+~
+EDESC shipwreck~
+This shipwreck appears to have met its end at the jagged cliff face to
+the south.  It is broken in half like a twig and settled at the bottom of
+the shallow ocean.  It may contain treasure.  
+~
+EDESC sunken~
+This shipwreck appears to have met its end at the jagged cliff face to
+the south.  It is broken in half like a twig and settled at the bottom of
+the shallow ocean.  It may contain treasure.  
+~
+EDESC ship~
+This shipwreck appears to have met its end at the jagged cliff face to
+the south.  It is broken in half like a twig and settled at the bottom of
+the shallow ocean.  It may contain treasure.  
+~
+End
+
+#8406
+NAME   leaf le'afah plant~
+SHORT  a leaf of a le'afah plant~
+DESCR 
+The leaf of a rare plant lies here.~
+MAT    unknown~
+TYPE   pill 51 'cure serious' 'cure serious' 'cure serious' 'cure serious'
+EXTRA  1 5 0 286785537
+WEAR   AO
+LEVEL  50
+WEIGHT 9
+COST   0
+COND   100
+LIMIT  15
+End
+
+#8407
+NAME   spear lost ancient~
+SHORT  'The Ancient', Spear of the Lost~
+DESCR 
+An ancient spear lies here, unearthed once more.~
+MAT    steel~
+TYPE   weapon spear 8 7 pierce EF
+EXTRA  1 6 0 25690433
+WEAR   AN
+LEVEL  54
+WEIGHT 41
+COST   0
+COND   100
+Affect O 17 20 0
+Affect O 24 -7 0
+Affect O 18 11 0
+Affect O 19 11 0
+Affect O 13 40 0
+Affect O 1 3 0
+Affect O 2 3 0
+LIMIT  1
+End
+
+#8408
+NAME   tightly secured chest~
+SHORT  a tightly secured chest~
+DESCR 
+A tightly secured chest lies at the bottom of the ocean, gleaming softly.~
+MAT    steel~
+TYPE   container 500 ABCD 8409 200 0
+EXTRA  1 4 0 268976136
+WEAR   0
+LEVEL  60
+WEIGHT 10
+COST   0
+COND   100
+EDESC chest~
+This chest appears to be securely locked in several places.  Whoever
+locked this wanted it to stay locked.  
+~
+End
+
+#8409
+NAME   plain steel key~
+SHORT  a plain steel key~
+DESCR 
+A plain steel key lies here.~
+MAT    unknown~
+TYPE   key 0 0 0 0 0
+EXTRA  1 6 0 295206912
+WEAR   AO
+LEVEL  60
+WEIGHT 9
+COST   0
+COND   100
+LIMIT  1
+End
+
+#8410
+NAME   ring lion tooth~
+SHORT  a ring inlaid with a polished lion tooth~
+DESCR 
+A ring set with a gleaming lion's tooth lies here.~
+MAT    bone~
+TYPE   armor ABCDE EF BCF ABCE 0
+EXTRA  1 4 0 17367168
+WEAR   AB
+LEVEL  55
+WEIGHT 4
+COST   0
+COND   100
+Affect O 13 80 0
+Affect O 12 100 0
+Affect O 3 4 0
+Affect O 4 4 0
+Affect O 5 4 0
+Affect O 24 -6 0
+LIMIT  3
+RESTR  b
+End
+
+#8411
+NAME   club tree trunk~
+SHORT  a hefty club crafted from a tree's trunk~
+DESCR 
+A chunk of a tree's trunk lies here, shaped into a club.~
+MAT    wood~
+TYPE   weapon mace 6 8 smash 0
+EXTRA  1 1 0 524288
+WEAR   AN
+LEVEL  52
+WEIGHT 14
+COST   0
+COND   100
+End
+
+#8412
+NAME   breastplate mammoth bone~
+SHORT  a breastplate of mammoth bone~
+DESCR 
+A breastplate of massive bones lies here.~
+MAT    bone~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 2 0 17301504
+WEAR   AD
+LEVEL  0
+WEIGHT 26
+COST   0
+COND   100
+Affect O 19 3 0
+Affect O 2 -5 0
+Affect O 18 3 0
+Affect O 17 -20 0
+End
+
+#8413
+NAME   shield bone~
+SHORT  a well-crafted shield of bone~
+DESCR 
+A bone shield of superior craftsmanship lies here.~
+MAT    bone~
+TYPE   armor ABCFG BFH AH ACDG 0
+EXTRA  1 2 0 17301504
+WEAR   AJ
+LEVEL  52
+WEIGHT 32
+COST   0
+COND   100
+Affect O 17 -10 0
+Affect O 24 -4 0
+Affect O 18 5 0
+Affect O 19 5 0
+LIMIT  20
+End
+
+#8414
+NAME   bone axe~
+SHORT  a razor-sharp bone axe~
+DESCR 
+A razor-sharp axe of bone lies here.~
+MAT    unknown~
+TYPE   weapon axe 6 6 chop D
+EXTRA  1 1 0 524288
+WEAR   AN
+LEVEL  53
+WEIGHT 20
+COST   0
+COND   100
+End
+
+#8415
+NAME   carpet~
+SHORT  the underside of the carpet~
+DESCR 
+A carpet lies here.~
+MAT    cloth~
+TYPE   container 100 0 0 1 0
+EXTRA  1 3 0 268976128
+WEAR   0
+LEVEL  0
+WEIGHT 2
+COST   0
+COND   100
+EDESC carpet~
+This carpet appears to be slightly higher than it should be.  Perhaps
+further examination is necessary.  
+~
+End
+
+#8416
+NAME   key~
+SHORT  an oddly-shaped key~
+DESCR 
+A oddly-shaped key is lying here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 2 0 1572864
+WEAR   AO
+LEVEL  55
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8417
+NAME   small hole~
+SHORT  a small hole~
+DESCR 
+A small hole is here in the ground.~
+MAT    dirt~
+TYPE   container 100 0 0 100 0
+EXTRA  1 3 0 268976128
+WEAR   0
+LEVEL  55
+WEIGHT 0
+COST   0
+COND   100
+End
+
+#8418
+NAME   twisted key~
+SHORT  a twisted key~
+DESCR 
+A twisted key lies here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 18350080
+WEAR   AO
+LEVEL  55
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8419
+NAME   gleaming white cloth belt~
+SHORT  a gleaming white belt~
+DESCR 
+A soft gleaming white belt is lying here.~
+MAT    cloth~
+TYPE   armor BCDE ABCF BCDE ABCEF 0
+EXTRA  1 4 0 524609
+WEAR   AL
+LEVEL  55
+WEIGHT 3
+COST   0
+COND   100
+Affect O 13 80 0
+Affect O 12 200 0
+Affect O 24 -3 0
+LIMIT  2
+End
+
+#8420
+NAME   tunic feather eagle~
+SHORT  a tunic crafted from eagle feathers~
+DESCR 
+A pile of eagle feathers lie on the ground in a shape of a tunic.~
+MAT    flesh~
+TYPE   container 300 AC 0 300 0
+EXTRA  1 4 0 17301570
+WEAR   AD
+LEVEL  55
+WEIGHT 20
+COST   0
+COND   100
+Affect O 2 4 0
+Affect O 13 15 0
+Affect O 19 5 0
+Affect O 18 5 0
+EDESC tunic~
+You realize that there is a hidden pouch on the side of the tunic!  
+~
+LIMIT  8
+End
+
+#8421
+NAME   key~
+SHORT  a chipped bone key~
+DESCR 
+A chipped bone key is lying here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 18350080
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8422
+NAME   herbs shielding~
+SHORT  the herbs of shielding~
+DESCR 
+Some glowing herbs lie here on the ground.~
+MAT    plant~
+TYPE   pill 25 'shield of dust' '' '' ''
+EXTRA  1 7 0 18415809
+WEAR   AO
+LEVEL  51
+WEIGHT 4
+COST   0
+COND   100
+LIMIT  5
+End
+
+#8423
+NAME   book meditation~
+SHORT  the book of nirvana~
+DESCR 
+A book of meditation lies here.~
+MAT    paper~
+TYPE   weapon exotic 11 6 mental EF
+EXTRA  1 6 0 17632256
+WEAR   AN
+LEVEL  60
+WEIGHT 10
+COST   0
+COND   100
+Affect O 18 15 0
+Affect O 19 15 0
+Affect O 24 -10 0
+Affect O 13 65 0
+LIMIT  1
+RESTR  ASY
+End
+
+#8425
+NAME   hole~
+SHORT  a hole in the wall behind the shelf~
+DESCR 
+A hole is hidden behind the shelf.~
+MAT    dirt~
+TYPE   container 20 ABCD 8426 20 0
+EXTRA  1 3 0 268976128
+WEAR   0
+LEVEL  53
+WEIGHT 0
+COST   0
+COND   100
+EDESC compartment~
+A piece of wood is firmly placed over this hole in the wall.  A small
+oddly-shaped hole in the center is indicative of a key of some kind.  
+~
+End
+
+#8426
+NAME   strange key~
+SHORT  a strange key~
+DESCR 
+A strange key is lying here, glinting softly.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 270024704
+WEAR   AO
+LEVEL  55
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8427
+NAME   bubbling mixture~
+SHORT  a bubbling aqua-colored mixture~
+DESCR 
+A bubbling mixture with a blue tint lies here.~
+MAT    glass~
+TYPE   potion 52 'word of recall' 'reserved' 'reserved' 'reserved'
+EXTRA  1 3 0 17301568
+WEAR   AO
+LEVEL  51
+WEIGHT 7
+COST   0
+COND   100
+End
+
+#8428
+NAME   beaded bracelet ceremonial~
+SHORT  a ceremonial beaded bracelet~
+DESCR 
+A ceremonial bracelets of beads lies here.~
+MAT    wood~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 3 0 17301505
+WEAR   AM
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+Affect O 2 3 0
+LIMIT  50
+End
+
+#8430
+NAME   broken key~
+SHORT  a broken key~
+DESCR 
+A key lies broken in half here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 18350080
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8431
+NAME   devotion worship~
+SHORT  the chest of the Gods~
+DESCR 
+Devotion and worship~
+MAT    energy~
+TYPE   container 100 0 0 100 0
+EXTRA  1 3 0 268976128
+WEAR   0
+LEVEL  51
+WEIGHT 5
+COST   0
+COND   100
+EDESC devotion~
+The chest of the Gods has been revealed to you.
+~
+EDESC worship~
+The chest of the Gods has been revealed to you.
+~
+End
+
+#8432
+NAME   tarnished key~
+SHORT  a tarnished key~
+DESCR 
+A tarnished key to some foreign door lies here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 3 0 18350080
+WEAR   AO
+LEVEL  51
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#8433
+NAME   keyhole~
+SHORT  the keyhole~
+DESCR 
+An object glints within this keyhole.~
+MAT    stone~
+TYPE   container 100 0 0 100 0
+EXTRA  1 2 0 268451840
+WEAR   0
+LEVEL  51
+WEIGHT 9
+COST   0
+COND   100
+End
+
+#8434
+NAME   cloak red silk~
+SHORT  a cloak of finely woven red silk~
+DESCR 
+A cloak of red silk lies here in a heap.~
+MAT    cloth~
+TYPE   armor CF ABCDF CF BG 0
+EXTRA  1 3 0 17301760
+WEAR   AK
+LEVEL  52
+WEIGHT 7
+COST   0
+COND   100
+Affect O 12 50 0
+Affect O 13 50 0
+Affect O 24 -4 0
+End
+
+#8435
+NAME   beam ray energy exzon'nera~
+SHORT  a short, focused ray of energy named "Exzon'nera"~
+DESCR 
+A focused beam of energy lies here.~
+MAT    energy~
+TYPE   weapon dagger 7 9 light A
+EXTRA  1 7 0 50856131
+WEAR   AN
+LEVEL  56
+WEIGHT 3
+COST   0
+COND   100
+Affect O 18 9 0
+Affect O 19 9 0
+LIMIT  2
+End
+
+#8436
+NAME   robe infused power god~
+SHORT  a robe infused with the power of a god~
+DESCR 
+A massive robe hovers in the air here, radiating god-like energy.~
+MAT    energy~
+TYPE   armor BG ADG BG ABCFG 0
+EXTRA  1 8 0 34084289
+WEAR   AK
+LEVEL  60
+WEIGHT 14
+COST   0
+COND   100
+Affect O 13 70 0
+Affect O 19 8 0
+Affect O 18 8 0
+Affect O 24 -7 0
+LIMIT  2
+End
+
+#8437
+NAME   rift~
+SHORT  a rift in time and space~
+DESCR 
+A rift in time and space floats here, pulsing with immense power.~
+MAT    magic~
+TYPE   portal 0 0 0 ABCDFIN 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  60
+WEIGHT 1
+COST   0
+COND   100
+End
+
+#8438
+NAME   shining armplates saint triayn~
+SHORT  the shining armplates of Saint Triayn~
+DESCR 
+The armplates of a god lie here on the ground.~
+MAT    energy~
+TYPE   armor ADEF G ADEF BDEG 0
+EXTRA  1 10 0 50863553
+WEAR   AI
+LEVEL  56
+WEIGHT 14
+COST   0
+COND   100
+Affect O 24 -6 0
+Affect O 18 7 0
+Affect O 19 7 0
+Affect O 14 300 0
+LIMIT  2
+End
+
+#8439
+NAME   gold-trimmed cloak heavens~
+SHORT  a gold-trimmed cloak of the heavens~
+DESCR 
+A gold-trimmed cloak lies here, radiating powerful energy.~
+MAT    energy~
+TYPE   armor ABDF EF ABDF ABG 0
+EXTRA  1 8 0 50861504
+WEAR   AC
+LEVEL  56
+WEIGHT 7
+COST   0
+COND   100
+Affect O 24 -6 0
+Affect O 5 3 0
+Affect O 1 6 0
+Affect O 12 150 0
+Affect O 13 80 0
+Affect O 18 5 0
+LIMIT  3
+RESTR  b
+End
+
+#8440
+NAME   shimmering circlet light~
+SHORT  a shimmering circlet forged of pure light~
+DESCR 
+A beam of concentrated light is lying here in the form of a circlet.~
+MAT    energy~
+TYPE   armor ADEF G ADEF BDEG 0
+EXTRA  1 10 0 50863553
+WEAR   AE
+LEVEL  56
+WEIGHT 14
+COST   0
+COND   100
+Affect O 20 -10 0
+Affect O 12 100 0
+Affect O 13 90 0
+LIMIT  2
+End
+
+#8441
+NAME   boots crafted hooves immortal centaur~
+SHORT  boots crafted from the hooves of the immortal centaur~
+DESCR 
+A pair of shining hooves crafted from centaur hooves lie here.~
+MAT    energy~
+TYPE   armor BEF DEF BEF BCDG 0
+EXTRA  1 8 0 50928256
+WEAR   AG
+LEVEL  56
+WEIGHT 12
+COST   0
+COND   100
+Affect O 14 135 0
+Affect O 18 8 0
+Affect O 19 6 0
+Affect O 13 50 0
+LIMIT  2
+End
+
+#8442
+NAME   twisted horns brooyan fallen~
+SHORT  the Twisted Horns of Brooyan the Fallen~
+DESCR 
+Massive twisted horns once belonging to a centaur lie here.~
+MAT    energy~
+TYPE   armor ADEF G ADEF BDEG 0
+EXTRA  1 12 0 50928594
+WEAR   AE
+LEVEL  56
+WEIGHT 14
+COST   0
+COND   100
+Affect R 0 -1 M
+Affect O 18 8 0
+Affect O 19 8 0
+Affect O 13 50 0
+Affect O 24 -8 0
+LIMIT  1
+End
+
+#8443
+NAME   centaur tail~
+SHORT  a centaur tail wrapped in flames~
+DESCR 
+A tail is here, blazing brightly.~
+MAT    energy~
+TYPE   weapon whip 7 10 flame A
+EXTRA  1 8 0 50401681
+WEAR   AN
+LEVEL  56
+WEIGHT 7
+COST   0
+COND   100
+Affect A 0 -1 N
+Affect A 0 -1 O
+Affect O 19 7 0
+Affect O 24 -9 0
+Affect O 4 8 0
+Affect O 3 8 0
+Affect O 12 50 0
+Affect O 13 100 0
+Affect O 18 10 0
+LIMIT  1
+RESTR  b
+End
+
+#8444
+NAME   mountainrock field plate~
+SHORT  the mountainrock field plate~
+DESCR 
+A massive plate of armor lies here, filling the room.~
+MAT    energy~
+TYPE   armor ABCDG DEG ABCDG ABDEFG 0
+EXTRA  1 6 0 50397632
+WEAR   AD
+LEVEL  56
+WEIGHT 18
+COST   0
+COND   100
+Affect O 28 -20 0
+Affect O 2 -5 0
+LIMIT  1
+End
+
+#8445
+NAME   ring justice~
+SHORT  a ring blessed with the essence of Justice ~
+DESCR 
+A ring of Justice lies here, infused with immortal power.~
+MAT    energy~
+TYPE   armor CF DF CF DEF 0
+EXTRA  1 11 0 50863555
+WEAR   AB
+LEVEL  56
+WEIGHT 2
+COST   0
+COND   100
+Affect O 20 -6 0
+Affect O 13 25 0
+Affect O 1 3 0
+Affect O 19 7 0
+Affect O 18 5 0
+LIMIT  3
+End
+
+#8446
+NAME   band corrupt souls~
+SHORT  a band of corrupt souls~
+DESCR 
+Corrupt souls lie here, twisted into a band.~
+MAT    energy~
+TYPE   armor ABDF EF ABDF ABG 0
+EXTRA  1 8 0 34083778
+WEAR   AM
+LEVEL  56
+WEIGHT 9
+COST   0
+COND   100
+Affect R 0 -1 L
+Affect R 0 -1 Q
+Affect O 18 7 0
+Affect O 19 7 0
+Affect O 13 40 0
+Affect O 17 -10 0
+Affect O 24 -4 0
+Affect O 2 2 0
+Affect O 14 20 0
+LIMIT  1
+End
+
+#8447
+NAME   demonhide leggings malatehsta~
+SHORT  a pair of black demonhide leggings~
+DESCR 
+A pair of glowing black demonhide leggings lie here.~
+MAT    energy~
+TYPE   armor BEF DEF BEF BCDG 0
+EXTRA  1 11 0 50928067
+WEAR   AF
+LEVEL  56
+WEIGHT 15
+COST   0
+COND   100
+Affect O 18 8 0
+Affect O 19 8 0
+Affect O 20 -8 0
+Affect O 13 35 0
+LIMIT  2
+End
+
+#8448
+NAME   wailing soul~
+SHORT  a wailing soul~
+DESCR 
+A wailing soul lies here.~
+MAT    energy~
+TYPE   armor ABDF EF ABDF ABG 0
+EXTRA  1 10 0 50863041
+WEAR   AL
+LEVEL  56
+WEIGHT 7
+COST   0
+COND   100
+Affect R 0 -1 E
+Affect O 12 100 0
+Affect O 13 100 0
+Affect O 24 -10 0
+Affect O 17 -25 0
+Affect O 3 3 0
+Affect O 4 3 0
+LIMIT  1
+RESTR  b
+End
+
+#8449
+NAME   mass energy~
+SHORT  a mass of energy~
+DESCR 
+A mass of energy lies here.~
+MAT    energy~
+TYPE   container 200 0 0 200 0
+EXTRA  1 3 0 268976128
+WEAR   0
+LEVEL  60
+WEIGHT 5
+COST   0
+COND   100
+EDESC mass~
+The object that appears to be a sun from a distance is no more than a
+small brilliant mass of energy.  You cannot even see if anything might be
+contained inside of it.  The only way to know would be to stick your hand in
+and find out.  
+~
+EDESC energy~
+The object that appears to be a sun from a distance is no more than a
+small brilliant mass of energy.  You cannot even see if anything might be
+contained inside of it.  The only way to know would be to stick your hand in
+and find out.  
+~
+End
+
+#8450
+NAME   bolt earthsplitter~
+SHORT  a sizzling bolt of energy named "The Earthsplitter"~
+DESCR 
+A crackling bolt of energy is lying here.~
+MAT    energy~
+TYPE   weapon exotic 10 7 sflame DG
+EXTRA  1 9 0 50860483
+WEAR   AN
+LEVEL  56
+WEIGHT 10
+COST   0
+COND   100
+Affect O 20 -4 0
+Affect O 3 2 0
+Affect O 5 2 0
+Affect O 4 2 0
+Affect O 2 2 0
+Affect O 1 2 0
+Affect O 13 100 0
+Affect O 24 -5 0
+Affect O 19 10 0
+Affect O 18 10 0
+LIMIT  1
+End
+
+#8451
+NAME   light creation~
+SHORT  the Light of Creation~
+DESCR 
+A blinding light is on the ground.~
+MAT    energy~
+TYPE   armor ABCDE BF ABCDE EF 0
+EXTRA  1 7 0 34148737
+WEAR   AS
+LEVEL  60
+WEIGHT 12
+COST   0
+COND   100
+Affect R 0 -1 M
+Affect R 0 -1 N
+Affect O 19 10 0
+Affect O 18 5 0
+Affect O 24 -10 0
+Affect O 14 300 0
+Affect O 13 100 0
+LIMIT  1
+End
+
+#8452
+NAME   ring god~
+SHORT  the gleaming ring of a god~
+DESCR 
+A ring lies here, radiating immense energy.~
+MAT    energy~
+TYPE   armor ADF BCDF ADF G 0
+EXTRA  1 9 0 50860483
+WEAR   AB
+LEVEL  60
+WEIGHT 2
+COST   0
+COND   100
+Affect O 18 10 0
+Affect O 19 10 0
+Affect O 13 50 0
+Affect O 20 -10 0
+LIMIT  1
+End
+
+#8453
+NAME   key temperance~
+SHORT  the Key of Temperance~
+DESCR 
+A key lies here.~
+MAT    energy~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 18415616
+WEAR   AO
+LEVEL  56
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#8454
+NAME   key avarice~
+SHORT  the Key of Avarice~
+DESCR 
+A key lies here.~
+MAT    energy~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 18415616
+WEAR   AO
+LEVEL  56
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#8455
+NAME   key justice~
+SHORT  the Key of Justice~
+DESCR 
+A key lies here.~
+MAT    energy~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 18415616
+WEAR   AO
+LEVEL  56
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#8456
+NAME   key wrath~
+SHORT  the Key of Wrath~
+DESCR 
+A key lies here.~
+MAT    energy~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 18415616
+WEAR   AO
+LEVEL  56
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#8457
+NAME   key creation~
+SHORT  the Key of Creation~
+DESCR 
+A key lies here.~
+MAT    energy~
+TYPE   key 0 0 0 0 0
+EXTRA  1 4 0 18415616
+WEAR   AO
+LEVEL  56
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#8458
+NAME   corpse sailor~
+SHORT  the corpse of a sailor~
+DESCR 
+The rotting corpse of a sailor lies here, covered in dried blood.~
+MAT    flesh~
+TYPE   container 500 0 0 50 0
+EXTRA  1 2 0 540672
+WEAR   0
+LEVEL  60
+WEIGHT 6
+COST   0
+COND   100
+End
+
+#0
+
+
+
+#ROOMDATA
+#8400
+NAME   An expanse branching from the Dragon Sea~
+DESCR
+A wide area of water branches southward from the Dragon Sea here.  Two
+mountains on either side of the expanse and a general decline in height have
+created rapids heading in the southern direction.  The white water furiously
+fizzes and boils around you, occasionally splashing up into the air.  The
+cliff walls towards the east and west are much too steep to climb, blocking
+any travel in those directions.  The uncontrollable force of the rapids
+force you to head southward, where they appear to calm into a wide area of
+water.  
+~
+FLAGS  1048581
+Sect   6
+EDESC  north~
+The immense force of the rapids prevent any travel back in this direction.  
+~
+EDESC  n~
+The immense force of the rapids prevent any travel back in this direction.  
+~
+EDESC  east~
+In this direction, the cliff face creates an unsurmountable wall.
+~
+EDESC  e~
+In this direction, the cliff face creates an unsurmountable wall.
+~
+EDESC  west~
+In this direction, the cliff face creates an unsurmountable wall.
+~
+EDESC  w~
+In this direction, the cliff face creates an unsurmountable wall.
+~
+EDESC  up~
+The sky is spread out above you.
+~
+EDESC  u~
+The sky is spread out above you.
+~
+EDESC  down~
+The rapids slosh and fizz violently, dragging you towards the south.  
+~
+EDESC  d~
+The rapids slosh and fizz violently, dragging you towards the south.  
+~
+DOOR 2
+In this direction, the rapids appear to calm and settle into a wide area
+of water.  
+~
+~
+0 0 8401
+End
+
+#8401
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Strangely enough,
+this area of water has never been charted.  Protruding from the surface of
+the shallow water here is a rotting wooden ship's mast and scanning below
+reveals a shipwreck.  Towards the north, rapids feed the ocean with such
+intensity that travel is impossible.  In every other direction, an ocean of
+water awaits the daring.  
+~
+FLAGS  1048576
+Sect   6
+EDESC  up~
+The sky is spread out above you.
+~
+EDESC  u~
+The sky is spread out above you.
+~
+DOOR 0
+Rapids pour into this ocean from the north with great ferocity, making
+travel in this direction impossible.  
+~
+~
+0 0 8400
+DOOR 1
+~
+~
+0 0 8402
+DOOR 2
+~
+~
+0 0 8432
+DOOR 3
+~
+~
+0 0 8403
+End
+
+#8402
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the north make traversing in that direction
+impossible.  Towards the south and west, however, the waters of the Lost
+Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8431
+DOOR 2
+~
+~
+0 0 8433
+DOOR 3
+~
+~
+0 0 8401
+End
+
+#8403
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see towards the south
+and east.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the north and west make traversing in
+those directions impossible.  Towards the south and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8401
+DOOR 2
+~
+~
+0 0 8404
+End
+
+#8404
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the west make traversing in that
+direction impossible.  Towards the north, south, and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8403
+DOOR 1
+~
+~
+0 0 8432
+DOOR 2
+~
+~
+0 0 8405
+End
+
+#8405
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the west make traversing in that
+direction impossible.  Towards the north, south, and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8404
+DOOR 1
+~
+~
+0 0 8444
+DOOR 2
+~
+~
+0 0 8406
+End
+
+#8406
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the west make traversing in that
+direction impossible.  Towards the north, south, and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8405
+DOOR 1
+~
+~
+0 0 8445
+DOOR 2
+~
+~
+0 0 8407
+End
+
+#8407
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the west make traversing in that
+direction impossible.  Towards the north, south, and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  A slight
+shimmering object can be seen at the bottom of the ocean.  
+~
+FLAGS  1048576
+Sect   6
+EDESC  object~
+Upon closer inspection, you realize the shimmering the object is a chest.  
+~
+DOOR 0
+~
+~
+0 0 8406
+DOOR 1
+~
+~
+0 0 8446
+DOOR 2
+~
+~
+0 0 8408
+End
+
+#8408
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the west make traversing in that direction
+impossible.  Towards the north, south, and east, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8407
+DOOR 1
+~
+~
+0 0 8447
+DOOR 2
+~
+~
+0 0 8409
+End
+
+#8409
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the west make traversing in that direction
+impossible.  Towards the north, south, and east, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8408
+DOOR 1
+~
+~
+0 0 8448
+DOOR 2
+~
+~
+0 0 8410
+End
+
+#8410
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see towards the north
+and east.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the south and west make traversing in
+those directions impossible.  Towards the north and east, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8409
+DOOR 1
+~
+~
+0 0 8411
+End
+
+#8411
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the south make traversing in that direction
+impossible.  Towards the north, east, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8448
+DOOR 1
+~
+~
+0 0 8413
+DOOR 3
+~
+~
+0 0 8410
+End
+
+#8412
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Towards the inner isle, the brush seems to thicken considerably, blocking
+passage.  The beach continues towards the west, and the thick underbrush has
+spread towards the east, halting travel.  The ocean can be ventured to the
+south.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 2
+~
+~
+0 0 8452
+DOOR 3
+~
+~
+0 0 8458
+End
+
+#8413
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the south make traversing in that direction
+impossible.  Towards the north, east, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8449
+DOOR 1
+~
+~
+0 0 8414
+DOOR 3
+~
+~
+0 0 8411
+End
+
+#8414
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the south make traversing in that direction
+impossible.  Towards the north, east, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8450
+DOOR 1
+~
+~
+0 0 8415
+DOOR 3
+~
+~
+0 0 8413
+End
+
+#8415
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the south make traversing in that direction
+impossible.  Towards the north, east, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8451
+DOOR 1
+~
+~
+0 0 8416
+DOOR 3
+~
+~
+0 0 8414
+End
+
+#8416
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the south make traversing in that
+direction impossible.  Towards the north, east, and west, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8452
+DOOR 1
+~
+~
+0 0 8417
+DOOR 3
+~
+~
+0 0 8415
+End
+
+#8417
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the south make traversing in that
+direction impossible.  Towards the north, east, and west, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8453
+DOOR 1
+~
+~
+0 0 8418
+DOOR 3
+~
+~
+0 0 8416
+End
+
+#8418
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the south make traversing in that direction
+impossible.  Towards the north, east, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8443
+DOOR 1
+~
+~
+0 0 8419
+DOOR 3
+~
+~
+0 0 8417
+End
+
+#8419
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see towards the north
+and west.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the south and east make traversing in
+those directions impossible.  Towards the north and west, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8420
+DOOR 3
+~
+~
+0 0 8418
+End
+
+#8420
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the east make traversing in that direction
+impossible.  Towards the north, south, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8421
+DOOR 2
+~
+~
+0 0 8419
+DOOR 3
+~
+~
+0 0 8443
+End
+
+#8421
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the east make traversing in that direction
+impossible.  Towards the north, south, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8422
+DOOR 2
+~
+~
+0 0 8420
+DOOR 3
+~
+~
+0 0 8442
+End
+
+#8422
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the east make traversing in that direction
+impossible.  Towards the north, south, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8423
+DOOR 2
+~
+~
+0 0 8421
+DOOR 3
+~
+~
+0 0 8441
+End
+
+#8423
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the east make traversing in that direction
+impossible.  Towards the north, south, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8424
+DOOR 2
+~
+~
+0 0 8422
+DOOR 3
+~
+~
+0 0 8440
+End
+
+#8424
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the east make traversing in that direction
+impossible.  Towards the north, south, and west, however, the waters of the
+Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8425
+DOOR 2
+~
+~
+0 0 8423
+DOOR 3
+~
+~
+0 0 8439
+End
+
+#8425
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the east make traversing in that
+direction impossible.  Towards the north, south, and west, however, the
+waters of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 0
+~
+~
+0 0 8426
+DOOR 2
+~
+~
+0 0 8424
+DOOR 3
+~
+~
+0 0 8438
+End
+
+#8426
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see towards the south
+and west.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the north and east make traversing in
+that direction impossible.  Towards the south and west, however, the waters
+of the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 2
+~
+~
+0 0 8425
+DOOR 3
+~
+~
+0 0 8427
+End
+
+#8427
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the north make traversing in that direction
+impossible.  Towards the south and west, however, the waters of the Lost
+Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8426
+DOOR 2
+~
+~
+0 0 8438
+DOOR 3
+~
+~
+0 0 8428
+End
+
+#8428
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the north make traversing in that direction
+impossible.  Towards the south and west, however, the waters of the Lost
+Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8427
+DOOR 2
+~
+~
+0 0 8437
+DOOR 3
+~
+~
+0 0 8429
+End
+
+#8429
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the north make traversing in that
+direction impossible.  Towards the south and west, however, the waters of
+the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8428
+DOOR 2
+~
+~
+0 0 8436
+DOOR 3
+~
+~
+0 0 8430
+End
+
+#8430
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all directions.
+The water is calm, gently rising and falling beneath you.  Fish from beneath
+the surface occasionally spring out of the water and disappear as quickly as
+they came, leaving behind nothing more than a small splash and a ripple of
+water.  Jagged cliffs to the north make traversing in that direction
+impossible.  Towards the south and west, however, the waters of the Lost
+Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8429
+DOOR 2
+~
+~
+0 0 8435
+DOOR 3
+~
+~
+0 0 8431
+End
+
+#8431
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in all
+directions.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  Jagged cliffs to the north make traversing in that
+direction impossible.  Towards the south and west, however, the waters of
+the Lost Ocean continue as far as the eye can see.  
+~
+FLAGS  1048576
+Sect   6
+DOOR 1
+~
+~
+0 0 8430
+DOOR 2
+~
+~
+0 0 8434
+DOOR 3
+~
+~
+0 0 8402
+End
+
+#8432
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in every
+direction.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  In the distance to the southeast you can make out the
+shrubbery of an island.  The water continues in all directions.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8401
+DOOR 1
+~
+~
+0 0 8433
+DOOR 2
+~
+~
+0 0 8444
+DOOR 3
+~
+~
+0 0 8404
+End
+
+#8433
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the south lies a tropical island, but a rock
+outcropping prevents you from landing in this location.  The water stretches
+north, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8402
+DOOR 1
+~
+~
+0 0 8434
+DOOR 3
+~
+~
+0 0 8432
+End
+
+#8434
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the south, a bay, surrounded on all sides by rock
+outcroppings, lies.  The water stretches north, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8431
+DOOR 1
+~
+~
+0 0 8435
+DOOR 2
+~
+~
+0 0 8454
+DOOR 3
+~
+~
+0 0 8433
+End
+
+#8435
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the south lies a tropical island, but a rock
+outcropping prevents you from landing in this location.  The water stretches
+north, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8430
+DOOR 1
+~
+~
+0 0 8436
+DOOR 3
+~
+~
+0 0 8434
+End
+
+#8436
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the south lies a beach of a tropical island.  The
+water stretches north, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8429
+DOOR 1
+~
+~
+0 0 8437
+DOOR 2
+~
+~
+0 0 8462
+DOOR 3
+~
+~
+0 0 8435
+End
+
+#8437
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the south lies a beach of a tropical island.  The
+water stretches north, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8428
+DOOR 1
+~
+~
+0 0 8438
+DOOR 2
+~
+~
+0 0 8455
+DOOR 3
+~
+~
+0 0 8436
+End
+
+#8438
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in every
+direction.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  A massive rock juts out of the water here, and a ship
+appears to have impaled itself upon it, sealing its fate.  In the distance
+to the southwest you can make out the shrubbery of an island.  The water
+continues in all directions.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8427
+DOOR 1
+~
+~
+0 0 8425
+DOOR 2
+~
+~
+0 0 8439
+DOOR 3
+~
+~
+0 0 8437
+End
+
+#8439
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the west lies a tropical island, but a rock
+outcropping prevents you from being able to make landfall in this location. 
+The water stretches south, north, and east.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8438
+DOOR 1
+~
+~
+0 0 8424
+DOOR 2
+~
+~
+0 0 8440
+End
+
+#8440
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the west lies a beach of a tropical island.  The
+water stretches south, north, and east.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8439
+DOOR 1
+~
+~
+0 0 8423
+DOOR 2
+~
+~
+0 0 8441
+DOOR 3
+~
+~
+0 0 8456
+End
+
+#8441
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the west lies a tropical island, but a rock
+outcropping prevents you from landing in this location.  The water stretches
+south, north, and east.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8440
+DOOR 1
+~
+~
+0 0 8422
+DOOR 2
+~
+~
+0 0 8442
+End
+
+#8442
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the west lies a beach of a tropical island.  The
+water stretches south, north, and east.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8441
+DOOR 1
+~
+~
+0 0 8421
+DOOR 2
+~
+~
+0 0 8443
+DOOR 3
+~
+~
+0 0 8457
+End
+
+#8443
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in every
+direction.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  In the distance to the northwest you can make out the
+shrubbery of an island.  The water continues in all directions.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8442
+DOOR 1
+~
+~
+0 0 8420
+DOOR 2
+~
+~
+0 0 8418
+DOOR 3
+~
+~
+0 0 8453
+End
+
+#8444
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the east lies a beach of a tropical island.  The
+water stretches north, south, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8432
+DOOR 1
+~
+~
+0 0 8461
+DOOR 2
+~
+~
+0 0 8445
+DOOR 3
+~
+~
+0 0 8405
+End
+
+#8445
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the east lies a tropical island, but the thick
+overgrowth prevents you from landing in this location.  The water stretches
+north, south, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8444
+DOOR 2
+~
+~
+0 0 8446
+DOOR 3
+~
+~
+0 0 8406
+End
+
+#8446
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the east lies a beach of a tropical island.  The
+water stretches north, south, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8445
+DOOR 1
+~
+~
+0 0 8460
+DOOR 2
+~
+~
+0 0 8447
+DOOR 3
+~
+~
+0 0 8407
+End
+
+#8447
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the east lies a tropical island, but the thick
+overgrowth prevents you from landing in this location.  The water stretches
+north, south, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8446
+DOOR 2
+~
+~
+0 0 8448
+DOOR 3
+~
+~
+0 0 8408
+End
+
+#8448
+NAME   The Lost Ocean~
+DESCR
+This area of water stretches out as far as you can see in every
+direction.  The water is calm, gently rising and falling beneath you.  Fish
+from beneath the surface occasionally spring out of the water and disappear
+as quickly as they came, leaving behind nothing more than a small splash and
+a ripple of water.  In the distance to the northeast you can make out the
+shrubbery of an island.  The water continues in all directions.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8447
+DOOR 1
+~
+~
+0 0 8449
+DOOR 2
+~
+~
+0 0 8411
+DOOR 3
+~
+~
+0 0 8409
+End
+
+#8449
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the north lies a beach of a tropical island.  The
+water stretches south, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8459
+DOOR 1
+~
+~
+0 0 8450
+DOOR 2
+~
+~
+0 0 8413
+DOOR 3
+~
+~
+0 0 8448
+End
+
+#8450
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the north lies a tropical island, but a cliff face
+prevents you from landing in this location.  The water stretches south,
+east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 1
+~
+~
+0 0 8451
+DOOR 2
+~
+~
+0 0 8414
+DOOR 3
+~
+~
+0 0 8449
+End
+
+#8451
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the north lies a beach of a tropical island.  The
+water stretches south, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8458
+DOOR 1
+~
+~
+0 0 8452
+DOOR 2
+~
+~
+0 0 8415
+DOOR 3
+~
+~
+0 0 8450
+End
+
+#8452
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the north lies a beach of a tropical island.  The
+water stretches south, east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 0
+~
+~
+0 0 8412
+DOOR 1
+~
+~
+0 0 8453
+DOOR 2
+~
+~
+0 0 8416
+DOOR 3
+~
+~
+0 0 8451
+End
+
+#8453
+NAME   The Lost Ocean~
+DESCR
+The water is calm, gently rising and falling beneath you.  Fish from
+beneath the surface occasionally spring out of the water and disappear as
+quickly as they came, leaving behind nothing more than a small splash and a
+ripple of water.  Towards the north lies a tropical island, but a cliff face
+prevents you from landing in this location.  The water stretches south,
+east, and west.  
+~
+FLAGS  1048580
+Sect   6
+DOOR 1
+~
+~
+0 0 8443
+DOOR 2
+~
+~
+0 0 8417
+DOOR 3
+~
+~
+0 0 8452
+End
+
+#8454
+NAME   A bay enclosed by cliff walls~
+DESCR
+Rocks enclose this bay smugly into the side of the tropical island. 
+Water plummets from the top of some of the higher rocks, creating majestic
+waterfalls.  High above you, palm trees and other tropical vegetation stand
+at the edge of the cliffs, gazing down over the bay and the ocean.  Towards
+the north, the Lost Ocean can be returned to.  
+~
+FLAGS  1048576
+Sect   6
+EDESC  object~
+Upon closer inspection, you make out that the shimmering object is a chest.
+~
+DOOR 0
+~
+~
+0 0 8434
+End
+
+#8455
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Towards the inner isle, the brush seems to thicken considerably, blocking
+passage.  The beach continues towards the west.  An outcropping of rocks
+blocks passage towards the east.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 0
+~
+~
+0 0 8437
+DOOR 3
+~
+~
+0 0 8462
+End
+
+#8456
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Towards the inner isle, the brush seems to thicken considerably, blocking
+passage.  Rock outcroppings block both the north and south directions,
+making this beach a dead end.  The ocean is back to the east.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 1
+~
+~
+0 0 8440
+End
+
+#8457
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+The jungle is too thick to enter from any direction and rock outcroppings
+block the beach towards the north and south.  The ocean is back east.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 1
+~
+~
+0 0 8442
+End
+
+#8458
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Towards the inner isle, the brush seems to thicken considerably, blocking
+passage.  The beach continues towards the east, and a cliff rises into the
+air to the west, halting travel.  The ocean can be ventured to the south.  A
+curious-looking plant stands here in the middle of the beach.  
+~
+FLAGS  1048576
+Sect   0
+EDESC  plant~
+This small plant's leaves glow softly.  You might be able to get one of
+the leaves and examine it further.  
+~
+DOOR 1
+~
+~
+0 0 8412
+DOOR 2
+~
+~
+0 0 8451
+End
+
+#8459
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+The jungle is too thick to enter towards the north and rock outcroppings
+block the beach towards the east and west, blocking travel in those
+directions.  The ocean is to the south.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 2
+~
+~
+0 0 8449
+End
+
+#8460
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Rock outcroppings block the beach towards the north and south, blocking
+travel in that direction.  The ocean is to the west, and you can enter the
+jungle to the east.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 1
+~
+~
+0 0 8466
+DOOR 3
+~
+~
+0 0 8446
+End
+
+#8461
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Rock outcroppings block the beach towards the south, blocking travel in that
+direction.  The ocean is to the west.  You can enter the jungle towards the
+east.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 1
+~
+~
+0 0 8463
+DOOR 3
+~
+~
+0 0 8444
+End
+
+#8462
+NAME   Upon a white sand beach~
+DESCR
+The waves roll softly onto this white sand beach.  Crabs and other
+creatures are free to roam about on the otherwise empty beach, and appear to
+have taken the opportunity to do so.  Palm trees and other tropical
+vegetation grow on the beach undisturbed, and the sound of seagulls and
+flapping wings rings through the air in a routine fashion every few moments.
+Towards the inner isle, the brush seems to thicken considerably, blocking
+passage.  The beach continues towards the east, and the thick underbrush has
+spread towards the west, halting travel.  
+~
+FLAGS  1048576
+Sect   2
+DOOR 0
+~
+~
+0 0 8436
+DOOR 1
+~
+~
+0 0 8455
+End
+
+#8463
+NAME   The jungle~
+DESCR
+The overgrowth is thick here, blocking passage in most directions. 
+Towards the south you can move slightly further, but in the distance you see
+another wall of brush.  The dirt is rough and covered in vines, leaves, and
+countless bugs.  The sounds of jungle creatures fill the air around you
+everywhere you turn.  The distant cry of seagulls alert you that the beach
+is towards the west, while the jungles continues south.  
+~
+FLAGS  1048576
+Sect   3
+DOOR 2
+~
+~
+0 0 8464
+DOOR 3
+~
+~
+0 0 8461
+End
+
+#8464
+NAME   The jungle~
+DESCR
+The overgrowth is thick here, blocking passage in most directions.  The
+jungle has completely overtaken this section of the island, and you can move
+no further in any direction except back north.  The dirt is rough and
+covered in vines, leaves, and countless bugs.  The sounds of jungle
+creatures fill the air around you everywhere you turn.  The only traversable
+path is towards the north.  
+~
+FLAGS  1048576
+Sect   3
+DOOR 0
+~
+~
+0 0 8463
+End
+
+#8466
+NAME   The jungle~
+DESCR
+The overgrowth is thick here, but pales in comparison to the rest of the
+jungle.  It appears to have been purposely cleared to form a path of sorts. 
+A soft tropical breeze passing through the trees and the sounds of bugs,
+birds, and other unknown creatures echo through the tropical isle, giving
+the surroundings a serene feel.  A makeshift path is slashed through the
+jungle growth to the east, and the beach is to the west.  
+~
+FLAGS  1048576
+Sect   3
+DOOR 1
+~
+~
+0 0 8467
+DOOR 3
+~
+~
+0 0 8460
+End
+
+#8467
+NAME   The jungle~
+DESCR
+The overgrowth is thick here, but pales in comparison to the rest of the
+jungle.  It appears to have been purposely cleared to form a path of sorts. 
+A soft tropical breeze passing through the trees and the sounds of bugs,
+birds, and other unknown creatures echo through the tropical isle, giving
+the surroundings a serene feel.  A makeshift path is slashed through the
+jungle growth to the east and west and towards the south.  You can almost
+swear you hear whispering nearby.  
+~
+FLAGS  1048576
+Sect   3
+DOOR 0
+~
+~
+0 0 8468
+DOOR 3
+~
+~
+0 0 8466
+End
+
+#8468
+NAME   Deep within the jungle~
+DESCR
+The overgrowth is thick here, but pales in comparison to the rest of the
+jungle.  It appears to have been purposely cleared to form a path of sorts. 
+A soft tropical breeze passing through the trees and the sounds of bugs,
+birds, and other unknown creatures echo through the tropical isle, giving
+the surroundings a serene feel.  A makeshift path is slashed through the
+jungle growth to the east and towards the south.  In the distance to the
+east you can make out smoke through the trees.  
+~
+FLAGS  1048576
+Sect   3
+DOOR 1
+~
+~
+0 0 8469
+DOOR 2
+~
+~
+0 0 8467
+End
+
+#8469
+NAME   The southwest corner of a tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  The jungle is towards the west.  A hut
+lies southward, while the rest of the village lies northward and eastward. 
+You notice a large stone tower towards the northeast.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8477
+DOOR 1
+~
+~
+0 0 8471
+DOOR 2
+~
+~
+0 0 8470
+DOOR 3
+~
+~
+0 0 8468
+End
+
+#8470
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the west
+wall.  The rest of the village is to the north.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 0
+~
+~
+0 0 8469
+End
+
+#8471
+NAME   The southern end of the village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  A large hut, clearly of some importance,
+lies southward, while the rest of the village lies westward and eastward. 
+You notice a large stone tower towards the north.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8488
+DOOR 1
+~
+~
+0 0 8472
+DOOR 2
+~
+~
+0 0 8478
+DOOR 3
+~
+~
+0 0 8469
+End
+
+#8472
+NAME   The southeastern corner of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  Huts lie to the south and the east,
+while the rest of the village lies westward and eastward.  You notice a
+large stone tower to the northwest.  A small hole catches your attention.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8473
+DOOR 1
+~
+~
+0 0 8479
+DOOR 2
+~
+~
+0 0 8487
+DOOR 3
+~
+~
+0 0 8471
+End
+
+#8473
+NAME   The eastern end of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  A hut lies to the east, while the rest
+of the village lies northward and southward.  You notice a large stone tower
+to the west, but cannot seem to enter it from here.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8474
+DOOR 1
+~
+~
+0 0 8480
+DOOR 2
+~
+~
+0 0 8472
+End
+
+#8474
+NAME   The northeastern corner of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  Huts lies to the north and east, while
+the rest of the village lies south and west.  You notice a large stone tower
+to the southwest.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8482
+DOOR 1
+~
+~
+0 0 8481
+DOOR 2
+~
+~
+0 0 8473
+DOOR 3
+~
+~
+0 0 8475
+End
+
+#8475
+NAME   The northern end of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle.
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  A wooden hut in the village lies to the
+north, while the rest of the village lies east and west.  You notice a large
+stone tower to the south, but cannot seem to enter it from here.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8483
+DOOR 1
+~
+~
+0 0 8474
+DOOR 3
+~
+~
+0 0 8476
+End
+
+#8476
+NAME   The northwestern corner of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  Huts lie to the north and west, while
+the rest of the village lies south and east.  You notice a large stone tower
+to the southeast.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8484
+DOOR 1
+~
+~
+0 0 8475
+DOOR 2
+~
+~
+0 0 8477
+DOOR 3
+~
+~
+0 0 8485
+End
+
+#8477
+NAME   The western end of the tribal village~
+DESCR
+Small huts and tents fill this tiny village in the center of the jungle. 
+The people here feed and live off of the jungle, struggling to survive.  All
+children are trained to become warriors here, to hunt and defend the
+village.  A number of tribesmen nearby notice your presence and are quick to
+take action to defend the village.  A hut lies to the west west, while the
+rest of the village lies north and south.  You notice a large stone tower to
+the east, but cannot seem to enter it from here.  
+~
+FLAGS  1048576
+Sect   1
+DOOR 0
+~
+~
+0 0 8476
+DOOR 2
+~
+~
+0 0 8469
+DOOR 3
+~
+~
+0 0 8486
+End
+
+#8478
+NAME   The tribe shaman hut~
+DESCR
+This hut is decorated more than any other hut in the village.  Red cloth
+hangs from spots on the wall, written on in an unknown language.  A
+makeshift bed of animal hides and fur has been pushed against the back wall
+and a wooden table has been laid down in the center of the room.  The floor
+is carpeted in lion hide, and the clay walls appear quite sturdy for such
+simplistic make.  Three windows peer out into the jungle on each side of the
+room save north, where the hut's door and the village are located.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 0
+~
+~
+0 0 8471
+End
+
+#8479
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the east
+wall.  The rest of the village is to the west.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 3
+~
+~
+0 0 8472
+End
+
+#8480
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+You spy something glinting on top of the table.  Fur carpets cover certain
+spots on the ground, likely serving as beds, and a shelf is pushed up
+against the east wall, next to a small, open window which lets a refreshing
+breeze into the room.  The rest of the village is to the west.  
+~
+FLAGS  1048576
+Sect   0
+EDESC  table~
+Examining the table further, you realize there is an odd key lying on it,
+glinting softly.  
+~
+EDESC  shelf~
+This crudely fashioned shelf holds a number of materials within it. 
+Firewood, tree bark, animal fur, and other objects await to be used by the
+shelf's owner.  Inspecting the shelf more closely, you realize there is a
+secret compartment hidden behind a mass of animal hides.  
+~
+DOOR 3
+~
+~
+0 0 8473
+End
+
+#8481
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the east
+wall.  The rest of the village is to the west.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 3
+~
+~
+0 0 8474
+End
+
+#8482
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the north
+wall.  The rest of the village is to the south.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 2
+~
+~
+0 0 8474
+End
+
+#8483
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the north
+wall.  The rest of the village is to the south.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 2
+~
+~
+0 0 8475
+End
+
+#8484
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the north
+wall.  The rest of the village is to the south.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 2
+~
+~
+0 0 8476
+End
+
+#8485
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the north
+wall.  The rest of the village is to the east.  A scroll hangs on the
+western wall, text written upon it meticulously in a language you can
+understand.  
+~
+FLAGS  1048576
+Sect   0
+EDESC  scroll~
+The tarnished scroll, written meticulously, reads:
+ 
+     'The sun does not rise in the west, but sets in    
+     the north. Nature around us is not what we perceive 
+     it to be, only what is shown to us. The Gods feed us,
+     nurture us, and provide us with what we need to survive. 
+     Where else would we turn if it not for them? A quick
+     death would await, as opposed to the long, plentiful 
+     lives we live currently. If we ignore the Gods and cast
+     them aside, we condemn ourselves to death and the fires of
+     eternity. Through devotion and worship, we shall flourish, 
+     and one day become divine. Only when you can see this 
+     reality lying before you will you hold the key to the future.'
+~
+DOOR 1
+~
+~
+0 0 8476
+End
+
+#8486
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the west
+wall.  The rest of the village is to the east.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 1
+~
+~
+0 0 8477
+End
+
+#8487
+NAME   Inside a hut~
+DESCR
+This hut is poorly crafted of wood and straw.  The floor is comprised of
+hardened dirt and clay.  A makeshift table sits in the middle of the room
+with a thin layer of animal hide sprawled out over to serve as a tablecloth.
+Fur carpets cover certain spots on the ground, likely serving as beds.  A
+small, open window lets a refreshing breeze into the room from the east
+wall.  The rest of the village is to the north.  
+~
+FLAGS  1048576
+Sect   0
+DOOR 0
+~
+~
+0 0 8472
+End
+
+#8488
+NAME   Outside the Tower of Worship~
+DESCR
+A massive black iron tower looms above you, thrusting high into the sky. 
+A wall of impermeable stone surrounds the gloomy structure, preventing
+intrusion.  A seemingly endless staircase climbs up the tower to the north,
+blocked at five points by guards and massive stone gates.  The sky itself
+seems to darken around you in this place.  You can escape the eerie scene to
+the south, where the village lies, or venture to the north, where the first
+checkpoint lies.  
+~
+FLAGS  1056768
+Sect   0
+DOOR 0
+~
+~
+0 0 8489
+DOOR 2
+~
+~
+0 0 8471
+End
+
+#8489
+NAME   The First Circle~
+DESCR
+A massive black iron tower looms over you, thrusting high into the sky. 
+A wall of impermeable stone surrounds the gloomy structure, preventing
+intrusion.  A seemingly endless staircase climbs up the tower to the north,
+blocked at four more points by guards and massive stone gates.  The sky
+itself seems to darken around you in this place.  The entrance to the tower
+is towards the south.  The gate here looks more somewhat curious and
+neglected in terms of maintenance, but beyond it the tower staircase
+stretches to the Second Circle.  
+~
+FLAGS  3153920
+Sect   0
+EDESC  gate~
+This gate appears quite sturdy, too sturdy for any physical means of
+breaking it down.  It is made of a hard, grey stone that is impermeable.  A
+small object glints in the keyhole near the center of the gate.  
+~
+DOOR 0
+~
+first~
+ABCFGM 8432 8490
+DOOR 2
+~
+~
+0 0 8488
+End
+
+#8490
+NAME   The Second Circle~
+DESCR
+A massive black iron tower looms over you, thrusting high into the sky. 
+A wall of impermeable stone surrounds the gloomy structure, preventing
+intrusion.  A seemingly endless staircase climbs up the tower to the north,
+blocked at three more points by guards and massive stone gates.  The sky
+itself seems to darken around you in this place.  The lower level of the
+tower is south and beyond the gate to the north the staircase stretches on
+to the Third Circle.  
+~
+FLAGS  1056768
+Sect   0
+DOOR 0
+~
+first~
+ABCFGM 8416 8491
+DOOR 2
+~
+~
+ABCFGM 0 8489
+End
+
+#8491
+NAME   The Third Circle~
+DESCR
+A massive black iron tower looms over you, thrusting high into the sky. 
+A wall of impermeable stone surrounds the gloomy structure, preventing
+intrusion.  A seemingly endless staircase climbs up the tower to the north,
+blocked at two more points by guards and massive stone gates.  The sky
+itself seems to darken around you in this place.  The lower levels of the
+tower are south and beyond the gate to the north the staircase stretches on
+to the Fourth Circle.  
+~
+FLAGS  1056768
+Sect   0
+DOOR 0
+~
+first~
+ABCFGM 8418 8492
+DOOR 2
+~
+~
+ABCFGM 0 8490
+End
+
+#8492
+NAME   The Fourth Circle~
+DESCR
+A massive black iron tower looms over you, thrusting high into the sky. 
+A wall of impermeable stone surrounds the gloomy structure, preventing
+intrusion.  A seemingly endless staircase climbs up the tower to the north,
+blocked at one more point by guards and a massive stone gate.  The sky
+itself seems to darken around you in this place.  The lower levels of the
+tower are south and beyond the gate to the north the staircase stretches on
+to the Fifth and final Circle.  
+~
+FLAGS  1056768
+Sect   0
+DOOR 0
+~
+first~
+ABCFGM 8421 8493
+DOOR 2
+~
+~
+ABCFGM 0 8491
+End
+
+#8493
+NAME   The Fifth Circle~
+DESCR
+This the final circle of checkpoints climbing the side of the tower.  The
+sky here is pitch-black, illuminated only by your light and the glowing to
+the north, where the staircase takes a final climb to the tower's peak.  The
+final gate stands before you.  The rest of the tower lies back to the south.
+It is difficult to discern what lies atop the tower to the north from here. 
+~
+FLAGS  1056768
+Sect   0
+DOOR 0
+~
+first~
+ABCFGM 8430 8494
+DOOR 2
+~
+~
+ABCFGM 0 8492
+End
+
+#8494
+NAME   Standing at a rift in time and space~
+DESCR
+Night falls all around you.  Standing atop the tower, you realize that a
+glowing rift has been torn here leading to an unknown and indescribable
+place.  The amount of energy flowing through here is immense, creating a
+great gust of wind that would knock all but the strongest straight off the
+tower and send them plummeting to certain death.  You can enter the rift,
+but a choice like this should be taken with great caution, as one never
+knows what may await on the other side.  
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+ABCFGM 0 8493
+End
+
+#8495
+NAME   The Realm of the Gods - Temperance~
+DESCR
+You stand high above the ground.  Looking down, you can make out the
+shape of Thera itself, but are too far away to see anything specific.  The
+clouds engulf this area, and a certain peace settles in with the comfortable
+breeze.  You are standing upon a transparent golden road leading high up
+into the heavens.  White wisps of smoke wander aimlessly in every direction
+you see.  
+~
+FLAGS  5775360
+Sect   0
+DOOR 4
+~
+~
+ABCFGM 8453 8496
+End
+
+#8496
+NAME   The Realm of the Gods - Avarice~
+DESCR
+Further along the road, the sky around darkens.  The light blue hue has
+taken on a navy blue color, and the earth seems so far away you can barely
+make it out.  The air echoes every sound around you, and the light of
+lightning flashes occasionally in the distance.  The scene would create a
+sense of paranoia and increased awareness even in the strongest of men.  
+~
+FLAGS  14163968
+Sect   0
+DOOR 4
+~
+~
+ABCFGM 8454 8497
+DOOR 5
+~
+~
+ABCFGM 0 8495
+End
+
+#8497
+NAME   The Realm of the Gods - Justice~
+DESCR
+Further along the road, the sky around darkens.  The light blue hue has
+taken on a navy blue color, and the earth seems so far away you can barely
+make it out.  The air echoes every sound around you, and the light of
+lightning flashes occasionally in the distance.  The scene would create a
+sense of paranoia and increased awareness even in the strongest of men.  
+~
+FLAGS  14163968
+Sect   0
+DOOR 4
+~
+~
+ABCFGM 8455 8498
+DOOR 5
+~
+~
+ABCFGM 0 8496
+End
+
+#8498
+NAME   The Realm of the Gods - Wrath~
+DESCR
+Further along the road, the sky around darkens.  The light blue hue has
+taken on a navy blue color, and the earth seems so far away you can barely
+make it out.  The air echoes every sound around you, and the light of
+lightning flashes occasionally in the distance.  The scene would create a
+sense of paranoia and increased awareness even in the strongest of men.  The
+sun shines brightly here.  
+~
+FLAGS  14163968
+Sect   0
+EDESC  sun~
+In the middle of the darkness, a sun shines brightly.  Peering closer at
+it, you realize that this sun is actually nothing more than a stray mass of
+energy.  
+~
+DOOR 4
+~
+~
+ABCFGM 8456 8499
+DOOR 5
+~
+~
+ABCFGM 0 8497
+End
+
+#8499
+NAME   The Realm of the Gods - Creation~
+DESCR
+You stand at the pinnacle of the heavens.  From here, you can no longer
+see anything, just blackness all around.  This area is a massive runed
+circle, gleaming in the darkness and creating a source of light.  At the
+opposite end of the circle, a massive throne of gold, encrusted with the
+most precious gemstones, has been placed.  Other than the sounds you create,
+all is silent here.  
+~
+FLAGS  14163968
+Sect   0
+DOOR 4
+~
+~
+ABCFGM 8457 3014
+DOOR 5
+~
+~
+ABCFGM 0 8498
+End
+
+#0
+
+
+
+#SPECIALS
+M 8407 spec_breath_lightning
+M 8408 spec_breath_acid
+M 8410 spec_breath_frost
+M 8414 spec_breath_fire
+M 8416 spec_flurry
+S
+
+
+
+#RESETS
+D 0 8489 0 2
+D 0 8490 0 2
+D 0 8490 2 2
+D 0 8491 0 2
+D 0 8491 2 2
+D 0 8492 0 2
+D 0 8492 2 2
+D 0 8493 0 2
+D 0 8493 2 2
+D 0 8494 2 2
+D 0 8495 4 2
+D 0 8496 4 2
+D 0 8496 5 2
+D 0 8497 4 2
+D 0 8497 5 2
+D 0 8498 4 2
+D 0 8498 5 2
+D 0 8499 4 2
+D 0 8499 5 2
+O 0 8400 0 8401
+O 0 8408 0 8407
+P 0 8407 1 8408 1
+O 0 8405 0 8416
+O 0 8404 0 8438
+O 0 8402 0 8438
+P 0 8401 1 8402 1
+P 0 8403 1 8401 1
+O 0 8406 0 8458
+O 0 8458 0 8459
+M 0 8400 1 8464 1
+G 0 8410 0
+M 0 8401 2 8468 2
+E 0 8411 0 16
+E 0 8412 0 5
+E 0 8413 0 11
+M 0 8401 2 8468 2
+E 0 8411 0 16
+E 0 8412 0 5
+E 0 8413 0 11
+M 0 8402 32 8469 4
+E 0 8414 0 16
+M 0 8402 32 8469 4
+E 0 8414 0 16
+M 0 8402 32 8469 4
+E 0 8414 0 16
+M 0 8402 32 8469 4
+E 0 8414 0 16
+M 0 8404 30 8470 3
+E 0 8428 0 14
+M 0 8404 30 8470 3
+E 0 8428 0 14
+M 0 8404 30 8470 3
+E 0 8428 0 14
+O 0 8415 0 8470
+P 0 8416 1 8415 1
+M 0 8402 32 8471 4
+E 0 8414 0 16
+M 0 8402 32 8471 4
+E 0 8414 0 16
+M 0 8402 32 8471 4
+E 0 8414 0 16
+M 0 8402 32 8471 4
+E 0 8414 0 16
+M 0 8402 32 8472 4
+E 0 8414 0 16
+M 0 8402 32 8472 4
+E 0 8414 0 16
+M 0 8402 32 8472 4
+E 0 8414 0 16
+M 0 8402 32 8472 4
+E 0 8414 0 16
+O 0 8417 0 8472
+P 0 8418 1 8417 1
+M 0 8402 32 8473 4
+E 0 8414 0 16
+M 0 8402 32 8473 4
+E 0 8414 0 16
+M 0 8402 32 8473 4
+E 0 8414 0 16
+M 0 8402 32 8473 4
+E 0 8414 0 16
+M 0 8402 32 8474 4
+E 0 8414 0 16
+M 0 8402 32 8474 4
+E 0 8414 0 16
+M 0 8402 32 8474 4
+E 0 8414 0 16
+M 0 8402 32 8474 4
+E 0 8414 0 16
+M 0 8402 32 8475 4
+E 0 8414 0 16
+M 0 8402 32 8475 4
+E 0 8414 0 16
+M 0 8402 32 8475 4
+E 0 8414 0 16
+M 0 8402 32 8475 4
+E 0 8414 0 16
+M 0 8402 32 8476 4
+E 0 8414 0 16
+M 0 8402 32 8476 4
+E 0 8414 0 16
+M 0 8402 32 8476 4
+E 0 8414 0 16
+M 0 8402 32 8476 4
+E 0 8414 0 16
+M 0 8402 32 8477 4
+E 0 8414 0 16
+M 0 8402 32 8477 4
+E 0 8414 0 16
+M 0 8402 32 8477 4
+E 0 8414 0 16
+M 0 8402 32 8477 4
+E 0 8414 0 16
+M 0 8403 1 8478 1
+E 0 8419 0 13
+E 0 8420 0 5
+G 0 8422 0
+P 0 8421 1 8420 1
+G 0 8423 0
+M 0 8404 30 8479 3
+E 0 8428 0 14
+M 0 8404 30 8479 3
+E 0 8428 0 14
+M 0 8404 30 8479 3
+E 0 8428 0 14
+M 0 8404 30 8480 3
+E 0 8428 0 14
+M 0 8404 30 8480 3
+E 0 8428 0 14
+M 0 8404 30 8480 3
+E 0 8428 0 14
+O 0 8426 0 8480
+O 0 8425 0 8480
+P 0 8427 1 8425 1
+M 0 8404 30 8481 3
+E 0 8428 0 14
+M 0 8404 30 8481 3
+E 0 8428 0 14
+M 0 8404 30 8481 3
+E 0 8428 0 14
+M 0 8404 30 8482 3
+E 0 8428 0 14
+M 0 8404 30 8482 3
+E 0 8428 0 14
+M 0 8404 30 8482 3
+E 0 8428 0 14
+M 0 8406 1 8483 1
+E 0 8435 0 16
+M 0 8404 30 8483 3
+E 0 8428 0 14
+M 0 8404 30 8483 3
+E 0 8428 0 14
+M 0 8404 30 8483 3
+E 0 8428 0 14
+M 0 8404 30 8484 3
+E 0 8428 0 14
+M 0 8404 30 8484 3
+E 0 8428 0 14
+M 0 8404 30 8484 3
+E 0 8428 0 14
+M 0 8404 30 8485 3
+E 0 8428 0 14
+M 0 8404 30 8485 3
+E 0 8428 0 14
+M 0 8404 30 8485 3
+E 0 8428 0 14
+O 0 8431 0 8485
+P 0 8430 1 8431 1
+M 0 8404 30 8486 3
+E 0 8428 0 14
+M 0 8404 30 8486 3
+E 0 8428 0 14
+M 0 8404 30 8486 3
+E 0 8428 0 14
+M 0 8404 30 8487 3
+E 0 8428 0 14
+M 0 8404 30 8487 3
+E 0 8428 0 14
+M 0 8404 30 8487 3
+E 0 8428 0 14
+O 0 8433 0 8489
+P 0 8432 1 8433 1
+M 0 8405 15 8489 1
+E 0 8434 0 12
+M 0 8405 15 8490 2
+E 0 8434 0 12
+M 0 8405 15 8490 2
+E 0 8434 0 12
+M 0 8405 15 8491 3
+E 0 8434 0 12
+M 0 8405 15 8491 3
+E 0 8434 0 12
+M 0 8405 15 8491 3
+E 0 8434 0 12
+M 0 8405 15 8492 4
+E 0 8434 0 12
+M 0 8405 15 8492 4
+E 0 8434 0 12
+M 0 8405 15 8492 4
+E 0 8434 0 12
+M 0 8405 15 8492 4
+E 0 8434 0 12
+M 0 8405 15 8493 5
+E 0 8434 0 12
+M 0 8405 15 8493 5
+E 0 8434 0 12
+M 0 8405 15 8493 5
+E 0 8434 0 12
+M 0 8405 15 8493 5
+E 0 8434 0 12
+M 0 8405 15 8493 5
+E 0 8434 0 12
+O 0 8437 0 8494
+M 0 8407 1 8495 1
+E 0 8436 0 12
+E 0 8438 0 10
+E 0 8439 0 3
+G 0 8453 0
+M 0 8411 3 8495 3
+M 0 8411 3 8495 3
+M 0 8411 3 8495 3
+M 0 8408 1 8496 1
+G 0 8443 0
+E 0 8442 0 6
+E 0 8441 0 8
+G 0 8454 0
+M 0 8412 3 8496 3
+M 0 8412 3 8496 3
+M 0 8412 3 8496 3
+M 0 8410 1 8497 1
+E 0 8440 0 6
+E 0 8445 0 1
+E 0 8444 0 5
+G 0 8455 0
+M 0 8413 3 8497 3
+M 0 8413 3 8497 3
+M 0 8413 3 8497 3
+M 0 8414 1 8498 1
+E 0 8446 0 14
+E 0 8447 0 7
+E 0 8448 0 13
+G 0 8456 0
+M 0 8415 3 8498 3
+M 0 8415 3 8498 3
+M 0 8415 3 8498 3
+O 0 8449 0 8498
+P 0 8409 1 8449 1
+M 0 8416 1 8499 1
+E 0 8450 0 16
+G 0 8451 0
+E 0 8452 0 1
+G 0 8457 0
+M 0 8417 3 8499 3
+M 0 8417 3 8499 3
+M 0 8417 3 8499 3
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 8450 fight_prog fight_prog_earthsplitter
+E
+
+
+
+#$

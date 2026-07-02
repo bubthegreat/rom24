@@ -1,0 +1,2772 @@
+#AREADATA
+Name Drow Enclaves~
+Builders None~
+VNUMs 18100 18199
+Credits {30 51} Ceran   Drannor, Drow Enclaves~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#18100
+NAME  drow patroller~
+SHORT a drow patroller~
+LONG  A dark skinned elf screams at your intrusion of the enclaves!
+~
+DESCR
+This dark elf guards his people's newest enclaves with deadly efficiency.
+He will not allow any inferiors to interefe in the move of the drow in
+freeing and allyng themselves withthe Lord of the ruins. 
+~
+RACE  elf~
+ACT   AFGT
+AFF   0
+OFF   CDEFK
+IMM   AB
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 37
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+1550
+MDICE 10d5+400
+DDICE 3d10+13
+REGEN 0
+DTYPE punch
+AC    -11 -12 -10 -3
+POS   stand stand
+SEX   male
+GOLD  3000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18101
+NAME  drider~
+SHORT a drider~
+LONG  A bloated spider with a humanoid torso deteches latches onto you!
+~
+DESCR
+This drider has the disgusting bloated form of a huge spider, but the
+torso of an elf. The drow who sacrificed his form to the Spider Queen has
+been rewarded by the bringing of his body into a more appropriate arcahnid
+one.
+ ~
+RACE  elf~
+ACT   AFGT
+AFF   0
+OFF   CDEFK
+IMM   AB
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN -950
+GROUP 0
+LEVEL 43
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+2000
+MDICE 10d10+300
+DDICE 8d4+18
+REGEN 0
+DTYPE bite
+AC    -18 -20 -20 -4
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18102
+NAME  spider daemon~
+SHORT a spider daemon~
+LONG  A chitinous creature hurtles down the corridor in a killing frenzy!
+~
+DESCR
+This viscous creature has a heavily armored carapice and razor-sharp claws.
+It resembles a spider except it's legs end in those wicked claws and it's
+manibles are almost as long as swords and just as sharp.
+~
+RACE  unique~
+ACT   AFGTW
+AFF   0
+OFF   DEFIKMR
+IMM   AKLQ
+RES   HI
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 45
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 25d10+2750
+MDICE 1d1+100
+DDICE 6d6+16
+REGEN 0
+DTYPE claw
+AC    -20 -28 -30 -5
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGM
+PARTS ABCDEFHILQUV
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18103
+NAME  beast demon~
+SHORT a forming demon~
+LONG  A beast is trying to bring itself into existence on the material plane.
+~
+DESCR
+This greater demon is trying to force it's way into the material planes.
+The nexus it has created for itself is unstable and it is only barely able
+to maintain it's prescence. Now might be a good time to get rid of it
+before the drow that called it forth unleashes it's wrath upon you.
+~
+RACE  unique~
+ACT   ABFGT
+AFF   0
+OFF   ACDFIJKMX
+IMM   ALMQ
+RES   EFG
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6500
+MDICE 25d10+800
+DDICE 7d6+22
+REGEN 0
+DTYPE wrath
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  20000
+FORM  ABHM
+PARTS ABCEGHIJKPQU
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18104
+NAME  drow priestess~
+SHORT a drow priestess~
+LONG  A dark skinned elven woman spits and froths at the mouth in rage!
+~
+DESCR
+The high priestess assigned to this enclaves is NOT please to see
+outsiders visiting her. She is far too busy trying to find a way to slay
+the rakshasa and beholders to bother with the likes of you.
+ ~
+RACE  elf~
+ACT   ABFGT
+AFF   0
+OFF   ACDFJKMWX
+IMM   AC
+RES   BDH
+VULN  NZ
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 53
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6000
+MDICE 10d10+400
+DDICE 6d7+21
+REGEN 0
+DTYPE none
+AC    -21 -21 -21 -5
+POS   stand stand
+SEX   female
+GOLD  15000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18105
+NAME  medusa~
+SHORT the Medusa~
+LONG  A hideous hag with hair of living snakes tries to catch your gaze.
+~
+DESCR
+The rock statues around this hag tell you something is very wrong.
+She glares with bright green-yellow eyes and raises her writhing mass
+of snakes to bite at you.
+~
+RACE  human~
+ACT   ABFGHQT
+AFF   0
+OFF   ADFIK
+IMM   AB
+RES   CD
+VULN  0
+WSPEC 0
+ALIGN -880
+GROUP 0
+LEVEL 53
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5500
+MDICE 10d10+900
+DDICE 6d7+20
+REGEN 0
+DTYPE bite
+AC    -22 -22 -22 -15
+POS   stand stand
+SEX   female
+GOLD  8000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18106
+NAME  drow warrior~
+SHORT a drow warrior~
+LONG  A drow warrior walks the passages in search of any outsiders.
+~
+DESCR
+This dark elf walks with the stance of one who knows he is in his rightful
+place. This enclave is to be one of the most powerful in Thera, and he
+knows he will reap the rewards. 
+~
+RACE  elf~
+ACT   AFGHT
+AFF   0
+OFF   CDEFK
+IMM   AB
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 48
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3250
+MDICE 1d1+100
+DDICE 6d6+18
+REGEN 0
+DTYPE punch
+AC    -18 -18 -18 -2
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18107
+NAME  spider~
+SHORT a clicking spider~
+LONG  A horse sized spider makes clicking sounds as it scuttles towards you.
+~
+DESCR
+This huge spider stands as tall as your head. It's long hairy legs carry
+it's bulbous, bloated stomach. As it approaches you hear a definite clicking
+sound coming from it...you realise that the clicking is from it's rock hard
+incisors.
+~
+RACE  unique~
+ACT   AFGHT
+AFF   0
+OFF   DFKN
+IMM   L
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -800
+GROUP 0
+LEVEL 47
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+3500
+MDICE 1d1+100
+DDICE 6d6+19
+REGEN 0
+DTYPE shbite
+AC    -16 -17 -18 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  ABGP
+PARTS CDEF
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18108
+NAME  demon spider~
+SHORT a demon spider~
+LONG  A gigantic spider with a man's face is here spinning a web.
+~
+DESCR
+One of the more deadly types of dark-elven worship is the becoming of
+spider in their most devout ritual. This drow has long since sacrificed
+his human form to take on that which he most admires, the spider.
+~
+RACE  unique~
+ACT   ABFQ
+AFF   0
+OFF   DEFIK
+IMM   ACD
+RES   0
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 53
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6000
+MDICE 1d1+900
+DDICE 6d7+21
+REGEN 0
+DTYPE suction
+AC    -23 -23 -23 -18
+POS   stand stand
+SEX   male
+GOLD  9000
+FORM  ABGP
+PARTS CDEF
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18109
+NAME  drow anti anti-paladin~
+SHORT a dark-elven antipaladin~
+LONG  A regal dark elf regards you with a sneer of contempt.
+~
+DESCR
+The drow 1st house have sent some it's finest here to establish the new
+enclaves in the ruins. This anti-paladin represents the latest  ideals of
+the dark-elves, hate, power and darkness all combined.
+~
+RACE  elf~
+ACT   ABFGT
+AFF   0
+OFF   ACDEK
+IMM   AB
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 54
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+7500
+MDICE 10d20+800
+DDICE 10d4+24
+REGEN 0
+DTYPE slash
+AC    -20 -26 -26 -15
+POS   stand stand
+SEX   male
+GOLD  10000
+FORM  ABGHMPV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18110
+NAME  vampire dark-elf drow nosferatu prince~
+SHORT a nosferatu drow prince~
+LONG  An ebon skinned elf turns flaming red eyes upon your soul!
+~
+DESCR
+This drow has been to the depths of Hell and returned renwed. His visit
+to the Spider Queen has resulted in his raising to a new level of
+existence, and here on the mortal plane he is one of the most powerful
+drow of the 1st House. Now he commands the latest drow exapnsion, here in
+the ruins where the new enclaves are to be constructed once the rakshasa
+are defeated and the beholders compromised with.
+~
+RACE  human~
+ACT   ABFGORT
+AFF   0
+OFF   ACDEFKOX
+IMM   ABILMPQ
+RES   CD
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+3500
+MDICE 1d1+2000
+DDICE 8d6+28
+REGEN 0
+DTYPE magic
+AC    -30 -30 -30 -15
+POS   stand stand
+SEX   none
+GOLD  10000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#18111
+NAME  black drow predator~
+SHORT a drow predator~
+LONG  Something black explodes out of the shadows!
+~
+DESCR
+It's a dark-elf but horribly twisted and deformed. Something from the
+Abyss that has been sent to fight alongside the mortal drow lords.
+It's starved for life.
+~
+RACE  elf~
+ACT   ABFGT
+AFF   0
+OFF   ACDEKO
+IMM   ABEIKLMP
+RES   BCDH
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 56
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6450
+MDICE 1d10+100
+DDICE 5d10+25
+REGEN 0
+DTYPE frbite
+AC    -30 -30 -30 -10
+POS   stand stand
+SEX   none
+GOLD  100
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#18100
+NAME   libram demonomican~
+SHORT  the Demonomican, Libram of the lower planes~
+DESCR 
+a libram of unspeakable evil festers on the ground.
+~
+MAT    energy~
+TYPE   armor 0 0 0 0 0
+EXTRA  1 10 0 168663
+WEAR   AO
+LEVEL  55
+WEIGHT 5
+COST   4000
+COND   100
+Affect O 24 -10 0
+Affect O 23 -10 0
+Affect O 19 4 0
+Affect O 18 1 0
+Affect O 13 50 0
+Affect O 12 50 0
+Affect O 4 -2 0
+Affect O 3 1 0
+Affect O 1 1 0
+LIMIT  6
+End
+
+#18101
+NAME   spider cloak~
+SHORT  a spider-spun cloak~
+DESCR 
+a piece of spider-silk has been spun into a cloak and dropped here.~
+MAT    cloth~
+TYPE   armor CE BDE CE ACF AC
+EXTRA  1 4 0 65620
+WEAR   AC
+LEVEL  45
+WEIGHT 3
+COST   10000
+COND   100
+Affect O 19 1 0
+Affect O 18 1 0
+Affect O 17 -7 0
+Affect O 14 30 0
+Affect O 2 1 0
+LIMIT  6
+End
+
+#18102
+NAME   pair spider leggings legs~
+SHORT  some spider-skin leggings~
+DESCR 
+a pair of severed spider legs have been left twitching on the floor.~
+MAT    flesh~
+TYPE   armor ABDE ADF ABCE BE AC
+EXTRA  1 3 0 65602
+WEAR   AF
+LEVEL  51
+WEIGHT 17
+COST   20000
+COND   100
+Affect O 19 3 0
+Affect O 18 -1 0
+Affect O 14 50 0
+Affect O 13 35 0
+Affect O 2 3 0
+LIMIT  6
+End
+
+#18103
+NAME   plate drow~
+SHORT  a suit of the drow battlearmor~
+DESCR 
+A dark suit of hardened plate armor lies here.~
+MAT    mineral~
+TYPE   armor BDEF BCFG AG ACG BD
+EXTRA  1 5 0 598
+WEAR   AD
+LEVEL  51
+WEIGHT 26
+COST   20000
+COND   100
+Affect O 19 4 0
+Affect O 17 -10 0
+Affect O 1 1 0
+LIMIT  2
+End
+
+#18104
+NAME   gloves dark-elf skin~
+SHORT  gloves of the dark-elven skin~
+DESCR 
+A piece of ebony skin formed into a glove lies here.~
+MAT    flesh~
+TYPE   armor ABDE ADF ABCE BE BD
+EXTRA  1 5 0 598
+WEAR   AH
+LEVEL  51
+WEIGHT 12
+COST   18000
+COND   100
+Affect O 19 3 0
+Affect O 17 -10 0
+Affect O 2 -1 0
+LIMIT  2
+End
+
+#18105
+NAME   helm dark-elf dark-elven battle~
+SHORT  a dark-elven battle helm~
+DESCR 
+An exquisite helm lies on the ground.~
+MAT    mineral~
+TYPE   armor BDF BDG EF BEF BD
+EXTRA  1 5 0 598
+WEAR   AE
+LEVEL  51
+WEIGHT 21
+COST   20000
+COND   100
+Affect O 24 -10 0
+Affect O 19 3 0
+Affect O 17 -10 0
+Affect O 2 -1 0
+LIMIT  2
+End
+
+#18106
+NAME   sleeves drow battle~
+SHORT  some drow battle sleeves~
+DESCR 
+some dark sleeves have been left here.~
+MAT    mineral~
+TYPE   armor BDF BDG EF BEF BD
+EXTRA  1 5 0 598
+WEAR   AI
+LEVEL  51
+WEIGHT 21
+COST   20000
+COND   100
+Affect O 18 2 0
+Affect O 19 3 0
+Affect O 17 -10 0
+Affect O 14 -30 0
+Affect O 5 1 0
+LIMIT  2
+End
+
+#18107
+NAME   boot dark-elf dark-elven~
+SHORT  a pair of dark-elven boots~
+DESCR 
+A pair of dark obsidian boots have been left here.~
+MAT    mineral~
+TYPE   armor ACF AG ADF CDF BD
+EXTRA  1 5 0 598
+WEAR   AG
+LEVEL  51
+WEIGHT 18
+COST   20000
+COND   100
+Affect O 19 3 0
+Affect O 17 -10 0
+Affect O 14 -30 0
+Affect O 5 1 0
+LIMIT  2
+End
+
+#18108
+NAME   leggings dark-elven dark-elf~
+SHORT  some dark-elven leggings~
+DESCR 
+Some dark obsidian leggings have been left here~
+MAT    mineral~
+TYPE   armor ACF AG ADF CDF BD
+EXTRA  1 5 0 598
+WEAR   AF
+LEVEL  51
+WEIGHT 22
+COST   20000
+COND   100
+Affect O 19 4 0
+Affect O 24 -5 0
+Affect O 14 -50 0
+Affect O 1 -1 0
+Affect O 2 2 0
+LIMIT  2
+End
+
+#18109
+NAME   hatred hate~
+SHORT  Hate~
+DESCR 
+An object of pure hatred lies here.~
+MAT    energy~
+TYPE   boat 0 0 0 0 0
+EXTRA  1 3 0 65556
+WEAR   AB
+LEVEL  51
+WEIGHT 2
+COST   20000
+COND   100
+Affect O 24 -3 0
+Affect O 19 2 0
+Affect O 18 4 0
+Affect O 17 -25 0
+Affect O 2 1 0
+Affect O 1 1 0
+LIMIT  1
+End
+
+#18110
+NAME   dark something~
+SHORT  something dark~
+DESCR 
+Something dark lies here.~
+MAT    energy~
+TYPE   wand 50 3 3 'gas breath' 0
+EXTRA  1 7 0 4822
+WEAR   AO
+LEVEL  51
+WEIGHT 5
+COST   3000
+COND   100
+Affect O 19 4 0
+Affect O 17 -10 0
+Affect O 13 30 0
+LIMIT  3
+End
+
+#18111
+NAME   hair snakes~
+SHORT  a wig made from thirteen deadly snakes~
+DESCR 
+some living snakes have been woven onto a headpiece and left here.~
+MAT    flesh~
+TYPE   armor CDE BDF ABCE BE AC
+EXTRA  1 6 0 4694
+WEAR   AE
+LEVEL  48
+WEIGHT 16
+COST   20000
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+Affect O 24 -8 0
+Affect O 12 20 0
+Affect O 3 1 0
+LIMIT  2
+End
+
+#18112
+NAME   drow necklace templars~
+SHORT  a necklace of the drow templars~
+DESCR 
+A necklace of bone lies on the ground.~
+MAT    bone~
+TYPE   armor BDE DF F ABE 0
+EXTRA  1 7 0 69845
+WEAR   AC
+LEVEL  46
+WEIGHT 10
+COST   9900
+COND   100
+Affect O 13 15 0
+Affect O 19 2 0
+Affect O 18 2 0
+LIMIT  5
+End
+
+#18113
+NAME   drow longsword~
+SHORT  a drow longsword~
+DESCR 
+A blade made from darkened material lies on the ground.~
+MAT    mineral~
+TYPE   weapon sword 7 5 slash 0
+EXTRA  1 2 0 2560
+WEAR   AN
+LEVEL  40
+WEIGHT 13
+COST   1000
+COND   100
+LIMIT  13
+End
+
+#18114
+NAME   stone black~
+SHORT  a black stone~
+DESCR 
+A strange black stone has been left on the ground.~
+MAT    gem~
+TYPE   wand 51 1 1 'fireball' 0
+EXTRA  1 2 0 66
+WEAR   AO
+LEVEL  30
+WEIGHT 6
+COST   900
+COND   100
+End
+
+#18115
+NAME   belt~
+SHORT  a quickling belt~
+DESCR 
+An ordinary looking belt lies on the ground.~
+MAT    cloth~
+TYPE   armor ADE BF ADE EF AC
+EXTRA  1 2 0 65
+WEAR   AL
+LEVEL  51
+WEIGHT 3
+COST   20000
+COND   100
+Affect O 19 1 0
+Affect O 18 1 0
+Affect O 24 -4 0
+Affect O 17 -9 0
+Affect O 2 3 0
+LIMIT  3
+End
+
+#18116
+NAME   demonkind key~
+SHORT  a demon-marked key~
+DESCR 
+a key of demonkind has been dropped here.~
+MAT    bone~
+TYPE   key 0 0 0 0 0
+EXTRA  1 1 0 1
+WEAR   AO
+LEVEL  40
+WEIGHT 8
+COST   0
+COND   100
+End
+
+#18117
+NAME   altar bloodstone~
+SHORT  a bloodstone altar~
+DESCR 
+an altar of Bloodstone is here.~
+MAT    energy~
+TYPE   container 1000 BCD 18116 0 0
+EXTRA  1 3 0 671744
+WEAR   0
+LEVEL  1
+WEIGHT 5
+COST   0
+COND   100
+End
+
+#18118
+NAME   spider kris blade~
+SHORT  a spider-shaped kris~
+DESCR 
+A wavy blade shaped like a spider is on the ground.~
+MAT    ebony~
+TYPE   weapon dagger 5 9 bite 0
+EXTRA  1 6 0 4820
+WEAR   AN
+LEVEL  50
+WEIGHT 5
+COST   20000
+COND   100
+Affect O 24 -5 0
+Affect O 17 -15 0
+Affect O 19 -3 0
+Affect O 18 3 0
+LIMIT  2
+End
+
+#0
+
+
+
+#ROOMDATA
+#18100
+NAME   Outside the howling hole~
+DESCR
+A strong chilling wind blows over you as it rushes down into a gaping hole
+in the ground. The dark ruins above you prevents any real view of what
+lies down below. All you know is that some terrible howling is coming from
+within. Above you soft grey light filters in from the ruins.
+~
+FLAGS  5
+Sect   5
+DOOR 4
+~
+rock boulder secret~
+A 0 13852
+DOOR 5
+Only pitch-black night can be seen.
+~
+~
+0 0 18101
+End
+
+#18101
+NAME   Inside the howling hole~
+DESCR
+This hole is dark and confined and the chilling winds from above blow down
+the hole with stunning force. A small pile of torn, crushed bones has been
+thrown in here like garbage. A hole leads up out of the hole and some dried
+encrusted bones have been piled up to the west, partly blocking out a tunnel.
+~
+FLAGS  13
+Sect   0
+DOOR 3
+Some bones have been piled up, partly blocking the view of a tunnel.
+~
+~
+AB 0 18102
+DOOR 4
+~
+~
+0 0 18100
+End
+
+#18102
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building.
+The darkness is almost total and cruel howling echoes all around you. In
+the distance you can hear the sounds of flesh being rendered apart. A pile
+of bones has been stacked to the east, partly blocking out some dark room
+beyond.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+~
+~
+0 0 18103
+DOOR 1
+~
+~
+AB 0 18101
+DOOR 2
+~
+~
+0 0 18111
+End
+
+#18103
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building.
+The darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+~
+~
+0 0 18102
+DOOR 3
+~
+~
+0 0 18104
+End
+
+#18104
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18103
+DOOR 3
+a dark hallway.
+~
+~
+0 0 18105
+End
+
+#18105
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18104
+DOOR 3
+a dark hallway.
+~
+~
+0 0 18106
+End
+
+#18106
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18105
+DOOR 2
+a dark hallway.
+~
+~
+0 0 18107
+End
+
+#18107
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart. Someone has
+piled up bones to the east, blocking out a room of some sort.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+a dark hallway.
+~
+~
+0 0 18106
+DOOR 1
+a pile of bones partly block the view of a dark room.
+~
+~
+AB 0 18112
+DOOR 2
+a dark hallway.
+~
+~
+0 0 18108
+End
+
+#18108
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+a dark hallway.
+~
+~
+0 0 18107
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18109
+End
+
+#18109
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building.
+The darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18110
+DOOR 3
+a dark hallway.
+~
+~
+0 0 18108
+End
+
+#18110
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+a dark hallway.
+~
+~
+0 0 18111
+DOOR 3
+a dark hallway.
+~
+~
+0 0 18109
+End
+
+#18111
+NAME   In a dark hallway~
+DESCR
+This hallway appears to have been part of some old, long gone building. The
+darkness is almost total and cruel howling echoes all around you. In the
+distance you can hear the sounds of flesh being rendered apart.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+a dark hallway.
+~
+~
+0 0 18102
+DOOR 3
+a dark hallway.
+~
+~
+0 0 18110
+End
+
+#18112
+NAME   In a collapsed room~
+DESCR
+This room has been crushed in by the surrounding mountains and is much the
+worse for wear. Through a hole below you there comes the sounds of demonic
+screaming and insidious snarling. 
+~
+FLAGS  9
+Sect   0
+DOOR 3
+a pile of bones partly block the view of a dark room.
+~
+~
+AB 0 18107
+DOOR 5
+It's too dark to see.
+~
+~
+0 0 18113
+End
+
+#18113
+NAME   The entrance to the enclaves~
+DESCR
+The darkness here is absolute, and there is a stench of decay in the air.
+All around you the walls close in and the darkness clings to your soul.
+There is a way up here or you can head west into the enclave.
+ ~
+FLAGS  13
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+~
+0 0 18126
+DOOR 4
+A dark room lies above.
+~
+~
+0 0 18112
+End
+
+#18114
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18115
+DOOR 4
+~
+~
+ABG 0 13852
+End
+
+#18115
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18116
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18114
+End
+
+#18116
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18117
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18115
+End
+
+#18117
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18121
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18124
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18116
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18120
+End
+
+#18118
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18119
+End
+
+#18119
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18120
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18118
+End
+
+#18120
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18117
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18119
+End
+
+#18121
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18122
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18117
+End
+
+#18122
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18121
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18123
+End
+
+#18123
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18122
+End
+
+#18124
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18125
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18117
+End
+
+#18125
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18126
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18124
+End
+
+#18126
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it. A small side corridor leads east.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18127
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18113
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18125
+End
+
+#18127
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18128
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18126
+End
+
+#18128
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18132
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18127
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18129
+End
+
+#18129
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18130
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18128
+End
+
+#18130
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18131
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18129
+End
+
+#18131
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18130
+End
+
+#18132
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18133
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18128
+End
+
+#18133
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18134
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18143
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18132
+End
+
+#18134
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18135
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18133
+End
+
+#18135
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18136
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18134
+End
+
+#18136
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18137
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18135
+End
+
+#18137
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18142
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18138
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18141
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18136
+End
+
+#18138
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18139
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18137
+End
+
+#18139
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18140
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18138
+End
+
+#18140
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18139
+End
+
+#18141
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18137
+End
+
+#18142
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18137
+End
+
+#18143
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18144
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18133
+End
+
+#18144
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18145
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18143
+End
+
+#18145
+NAME   Within the darkened enclaves~
+DESCR
+The darkness clings to your very soul and the walls seem to be moving in on
+you. Somewhere a creature lets out a howl of anguish, and sounds of tearing
+flesh accompany it. Some thick spider webs have been strung across the
+corridor to the east while to the south faint trails of webbing hang from
+the roof.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18144
+DOOR 1
+Something seems to have blocked the way with thick webs.
+~
+web~
+AB 0 18146
+DOOR 2
+Some thick sticky webs hang cascade down the corridor.
+~
+~
+0 0 18148
+End
+
+#18146
+NAME   It's too dark to see!~
+DESCR
+You can't see a thing, the darkness is almost total.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 0 18147
+DOOR 3
+Something seems to have blocked the way with thick webs.
+~
+web~
+AB 0 18145
+End
+
+#18147
+NAME   It's too dark to see!~
+DESCR
+You can't see a thing, the darkness is almost total.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+~
+0 0 18146
+End
+
+#18148
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18145
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18149
+End
+
+#18149
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18148
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18150
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18154
+End
+
+#18150
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18151
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18149
+End
+
+#18151
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18150
+DOOR 2
+It's too dark to see.
+~
+web~
+AB 0 18152
+End
+
+#18152
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+web~
+AB 0 18151
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18153
+End
+
+#18153
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18152
+End
+
+#18154
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18149
+DOOR 3
+It's too dark to see.
+~
+~
+0 0 18155
+End
+
+#18155
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 0 18154
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18156
+End
+
+#18156
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18155
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18157
+End
+
+#18157
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18156
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18161
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18166
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18158
+End
+
+#18158
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18157
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18159
+End
+
+#18159
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18160
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18158
+End
+
+#18160
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18159
+End
+
+#18161
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18162
+DOOR 3
+It's too dark to see.
+~
+web~
+A 0 18157
+End
+
+#18162
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 0 18163
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18161
+End
+
+#18163
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18162
+DOOR 2
+It's too dark to see.
+~
+web~
+AB 0 18164
+End
+
+#18164
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+web~
+AB 0 18163
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18165
+End
+
+#18165
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard. A section of the floor has been caved in to
+make a large jagged hole.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18164
+DOOR 5
+The darkness is total in that direction.
+~
+~
+0 0 18169
+End
+
+#18166
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 0 18157
+DOOR 2
+It's too dark to see.
+~
+web~
+AB 0 18167
+End
+
+#18167
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+web~
+AB 0 18166
+DOOR 3
+It's too dark to see.
+~
+web~
+AB 0 18168
+End
+
+#18168
+NAME   A webbed corridor in the enclaves~
+DESCR
+Thick sticky spider webs hang from the roof and floor, trying to catch you
+like some insect. The darkness makes it hard to see them and you are soon
+totally wrapped in the silky fine strands. Small spiders the size of your
+hand crawl over and around you but seem uninterested. All around you loud
+clicking sounds can be heard....
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+web~
+AB 0 18167
+End
+
+#18169
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18170
+DOOR 4
+It's too dark to see.
+~
+~
+0 0 18165
+End
+
+#18170
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18171
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18181
+DOOR 3
+~
+~
+0 -1 18169
+End
+
+#18171
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18172
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18170
+End
+
+#18172
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...To the north is a mass of thick webs that seem as tough as
+iron.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+Massive thick strands of spider web.
+~
+web~
+AB 0 18173
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18174
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18171
+End
+
+#18173
+NAME   On a huge web~
+DESCR
+The corridor has opened out onto a huge web spanning a vast bottomless pit.
+Webs extend in all directions and leave almost nothing untouched. Large
+spiders of all sizes crawl across it in response to your prescence. Somewhere
+in the distance a huge round shape uncurls and rises up on huge hairy legs.
+~
+FLAGS  9
+Sect   0
+DOOR 2
+Large thick webs block the way.
+~
+web~
+AB 0 18172
+End
+
+#18174
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18175
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18172
+End
+
+#18175
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...a huge black door is in the eastern wall.
+~
+FLAGS  9
+Sect   0
+DOOR 0
+Its too dark to see.
+~
+~
+0 -1 18174
+DOOR 1
+It's too dark to see.
+~
+black door~
+AB 0 18176
+DOOR 2
+It's too dark to see.
+~
+~
+0 -1 18178
+End
+
+#18176
+NAME   In a throne room~
+DESCR
+A huge throne of ebonite set into the eastern wall dominates this room.
+Scattered around it are dozens of corpses, ranging from small to gigantic,
+but all ripped and shredded. The aura of evil that resides here is so total
+that you feel your very soul shrivel up. A door leads west.
+~
+FLAGS  9
+Sect   0
+DOOR 1
+~
+throne~
+AB -1 18177
+DOOR 3
+It's too dark to see.
+~
+black door~
+AB 0 18175
+End
+
+#18177
+NAME   In the altar room~
+DESCR
+Darkness and silence. This room seems almost tranquil, as if somehow
+seperated in space from the rest of the area.
+~
+FLAGS  9
+Sect   0
+DOOR 3
+~
+throne~
+AB 0 18176
+End
+
+#18178
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18175
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18179
+End
+
+#18179
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18178
+DOOR 3
+It's too dark to see.
+~
+~
+0 -1 18181
+End
+
+#18181
+NAME   In the Lower enclaves~
+DESCR
+A soft chill breeze rustles through the corridor. Your light flickers and
+dies, only to flare back up again in the darkness. Around you the cries of
+demonkind intensify. From the back of your mind you sense something evil
+comes this way...
+~
+FLAGS  9
+Sect   0
+DOOR 0
+It's too dark to see.
+~
+~
+0 -1 18170
+DOOR 1
+It's too dark to see.
+~
+~
+0 -1 18179
+End
+
+#0
+
+
+
+#SPECIALS
+M 18104 spec_cast_cleric
+M 18105 spec_breath_gas
+M 18107 spec_poison
+M 18108 spec_poison
+M 18109 spec_cast_mage
+M 18110 spec_breath_frost
+S
+
+
+
+#RESETS
+D 0 18101 3 1
+D 0 18102 1 1
+D 0 18107 1 1
+D 0 18112 3 1
+D 0 18114 4 1
+D 0 18145 1 1
+D 0 18146 3 1
+D 0 18149 1 1
+D 0 18149 3 1
+D 0 18150 3 1
+D 0 18151 2 1
+D 0 18152 0 1
+D 0 18154 1 1
+D 0 18157 1 1
+D 0 18157 3 1
+D 0 18158 1 1
+D 0 18158 3 1
+D 0 18159 1 1
+D 0 18161 1 1
+D 0 18162 3 1
+D 0 18163 2 1
+D 0 18164 0 1
+D 0 18164 1 1
+D 0 18165 3 1
+D 0 18166 2 1
+D 0 18167 0 1
+D 0 18167 3 1
+D 0 18168 1 1
+D 0 18172 0 1
+D 0 18173 2 1
+D 0 18175 1 1
+D 0 18176 1 1
+D 0 18176 3 1
+D 0 18177 3 1
+M 0 18100 8 18103 1
+M 0 18100 8 18105 1
+M 0 18100 8 18107 1
+M 0 18100 8 18109 1
+M 0 18100 8 18111 1
+M 0 18101 4 18115 1
+M 0 18102 2 18117 1
+M 0 18106 4 18118 1
+E 0 18113 0 16
+M 0 18106 4 18122 1
+E 0 18113 0 16
+M 0 18100 8 18125 1
+M 0 18100 8 18128 1
+M 0 18103 1 18131 1
+G 0 18114 0
+M 0 18106 4 18133 1
+E 0 18113 0 16
+M 0 18101 4 18136 1
+M 0 18105 1 18140 1
+E 0 18104 0 9
+E 0 18111 0 6
+M 0 18101 4 18144 1
+M 0 18100 8 18145 1
+M 0 18111 1 18147 1
+E 0 18107 0 8
+M 0 18102 2 18148 1
+M 0 18107 5 18151 1
+M 0 18107 5 18153 1
+M 0 18107 5 18154 1
+M 0 18101 4 18155 1
+M 0 18108 1 18160 1
+G 0 18115 0
+M 0 18107 5 18164 1
+M 0 18107 5 18168 1
+M 0 18106 4 18171 1
+E 0 18113 0 16
+M 0 18104 1 18173 1
+E 0 18105 0 6
+E 0 18106 0 10
+E 0 18112 0 3
+M 0 18109 1 18176 1
+E 0 18118 0 16
+E 0 18101 0 3
+E 0 18108 0 7
+M 0 18110 1 18177 1
+G 0 18116 0
+E 0 18109 0 1
+E 0 18103 0 5
+E 0 18110 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+E
+
+
+
+#$

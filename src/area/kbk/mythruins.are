@@ -1,0 +1,6389 @@
+#AREADATA
+Name Ruins of Drannor~
+Builders None~
+VNUMs 13700 13899
+Credits {30 51} Ceran   Ruins of Myth Drannor~
+Security 9
+Xplore 0
+End
+
+
+
+#MOBDATA
+#13700
+NAME  spirit~
+SHORT a spirit of Myth Drannor~
+LONG  A ghastly insubstantial elf wanders amongst the ruins.
+~
+DESCR
+The ghost of a lost elf, killed in violence without last rites and with nobody
+to guide the lost soul to where it belongs.
+~
+RACE  human~
+ACT   AFGOT
+AFF   0
+OFF   CDFGK
+IMM   ABLMPQ
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 40
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 15d10+1850
+MDICE 1d1+100
+DDICE 4d8+13
+REGEN 0
+DTYPE drain
+AC    -13 -13 -13 -4
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13701
+NAME  beast cacodaemon daemon~
+SHORT a horned cacodaemon~
+LONG  A huge beast with a twisted horn snarls and charges you!
+~
+DESCR
+This unearthly creature is an example of what has replaced the once peaceful
+elves of the ancient city. It has eyes of darkness and seems at home amidst
+the ruins.
+~
+RACE  unique~
+ACT   AFGT
+AFF   0
+OFF   CDEFKU
+IMM   AB
+RES   D
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 48
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3500
+MDICE 1d1+100
+DDICE 6d6+18
+REGEN 0
+DTYPE claw
+AC    -18 -18 -18 -8
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13702
+NAME  knight~
+SHORT a knight of Myth Drannor~
+LONG  A tall knight stands here watching for signs of evil.
+~
+DESCR
+This man stands watch over the ruins, making sure the evil within it stays
+there. 
+~
+RACE  human~
+ACT   ABGT
+AFF   0
+OFF   CDEFKU
+IMM   A
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 13702
+LEVEL 50
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+4500
+MDICE 1d1+100
+DDICE 5d8+19
+REGEN 0
+DTYPE punch
+AC    -20 -20 -20 -10
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13703
+NAME  drow marauder~
+SHORT a drow marauder~
+LONG  An ebon skinned elf is here scowling at the shadows.
+~
+DESCR
+This dark elven scout seems angry and disturbed. His rightful position, at
+least in his mind, is inside the lower level of the enclaves where the true
+power is held.
+~
+RACE  dark-elf~
+ACT   ABFGT
+AFF   0
+OFF   CDEFK
+IMM   A
+RES   BI
+VULN  Z
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 46
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3250
+MDICE 1d1+100
+DDICE 6d6+16
+REGEN 0
+DTYPE punch
+AC    -20 -20 -20 -15
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13704
+NAME  plant trap~
+SHORT a man-eater trap~
+LONG  A wickedly spiked plant sways gently in the breeze.
+~
+DESCR
+The plants that are growing here in the ruins are not quite as harmless as the
+normal ones in the forests around the rest of Thera. This one has evil looking
+branches covered in sharp thorns, and it actually moves and lashes at you!
+~
+RACE  human~
+ACT   ABGT
+AFF   0
+OFF   AEFKW
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 24
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+500
+MDICE 1d1+100
+DDICE 2d10+6
+REGEN 0
+DTYPE grep
+AC    -6 -6 -6 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13706
+NAME  golem~
+SHORT a golem of red stone~
+LONG  A golem carved from red stone stands here.
+~
+DESCR
+This huge automaton stands eternally vigilant over the tower before it.
+It's body is shaped like a giant but it has nothing in it's mind but the
+commands of it's long dead masters.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEKWX
+IMM   ABD
+RES   HIJKLM
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+100
+DDICE 8d4+16
+REGEN 0
+DTYPE crush
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13707
+NAME  green dragon~
+SHORT an ancient green dragon~
+LONG  A massive green dragon stands amidst a cloud of toxic gas.
+~
+DESCR
+This is one of the largest dragons you have ever seen. Larger even than
+the massive reds that are found in the dragon towers. It's body is covered
+in thick green scales as hard as steel and a cloud of corrosive, poison gas
+clings to it like an outer shell.
+~
+RACE  dragon~
+ACT   ABGT
+AFF   0
+OFF   ACDEKMX
+IMM   ABKL
+RES   BEH
+VULN  FI
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 57
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+6000
+MDICE 1d1+100
+DDICE 5d10+25
+REGEN 0
+DTYPE acbite
+AC    -28 -28 -28 -18
+POS   stand stand
+SEX   none
+GOLD  6000
+FORM  AHZ
+PARTS ACDEFGHIJKPQUVX
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13708
+NAME  lizard man lizardman~
+SHORT a lizardman~
+LONG  A giant lizardman is here scavangeing amongst the ruins.
+~
+DESCR
+A creature with green, dirty-looking skin gazes at you and grins evilly at
+your presence.
+~
+RACE  draconian~
+ACT   AFGT
+AFF   0
+OFF   CDEFKMU
+IMM   AL
+RES   GKQ
+VULN  I
+WSPEC 0
+ALIGN -1000
+GROUP 13708
+LEVEL 32
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1000
+MDICE 1d1+100
+DDICE 6d4+10
+REGEN 0
+DTYPE claw
+AC    -10 -10 -10 5
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13709
+NAME  shadow demon~
+SHORT a shadow demon~
+LONG  A dark shadow is moving in silence between the rubble.
+~
+DESCR
+A blood-red eyes looks at you with immense hatred, sharp claws flashing in
+the moonlight. Creation of Forgotten Gods shadow demon guards lost secrets
+of Myth Drannor.
+~
+RACE  human~
+ACT   AFGT
+AFF   0
+OFF   CDEFGHKU
+IMM   ABIJKLMPQ
+RES   0
+VULN  HS
+WSPEC 0
+ALIGN -1000
+GROUP 13709
+LEVEL 37
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1500
+MDICE 1d1+100
+DDICE 3d10+12
+REGEN 0
+DTYPE frbite
+AC    -13 -12 -13 -10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13711
+NAME  blue golem~
+SHORT a golem of blue stone~
+LONG  A golem carved from blue stone stands here.
+~
+DESCR
+This huge automaton stands eternally vigilant over the tower before it.
+It's body is shaped like a giant but it has nothing in it's mind but the
+commands of it's long dead masters.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEKWX
+IMM   ABD
+RES   HIJKLM
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+100
+DDICE 8d4+16
+REGEN 0
+DTYPE crush
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13712
+NAME  green golem~
+SHORT a golem of green stone~
+LONG  A golem carved from green stone stands here.
+~
+DESCR
+This huge automaton stands eternally vigilant over the tower before it.
+It's body is shaped like a giant but it has nothing in it's mind but the
+commands of it's long dead masters.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEKWX
+IMM   ABD
+RES   HIJKLM
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+100
+DDICE 8d4+16
+REGEN 0
+DTYPE crush
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13713
+NAME  black golem~
+SHORT a golem of black stone~
+LONG  A golem carved from black stone stands here.
+~
+DESCR
+This huge automaton stands eternally vigilant over the tower before it.
+It's body is shaped like a giant but it has nothing in it's mind but the
+commands of it's long dead masters.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEKWX
+IMM   ABD
+RES   HIJKLM
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 45
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3000
+MDICE 1d1+100
+DDICE 8d4+16
+REGEN 0
+DTYPE crush
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13715
+NAME  draconian three tyranthraxus~
+SHORT Tyranthraxus~
+LONG  A massive three headed draconian hisses in fury!
+~
+DESCR
+Creature with three heads hisses at you in primal fury.  Lord of Astral
+planes Tyranthraxus now rides Thera.  
+~
+RACE  draconian~
+ACT   ABGT
+AFF   0
+OFF   ACDEKMOUX
+IMM   ABIKLMQ
+RES   GKQ
+VULN  I
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 58
+HROLL 33
+ENHA  100.00%
+MATER none~
+HDICE 50d10+10500
+MDICE 1d1+100
+DDICE 8d8+45
+REGEN 0
+DTYPE acbite
+AC    -30 -30 -30 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13716
+NAME  dark prescence spectre king~
+SHORT the spectre of the elven First king~
+LONG  A cold and dark prescence forms out of the freezing air.
+~
+DESCR
+When the last of the elves had fallen in Myth Drannor the ancient evil that
+had been buried beneath it arose to return to the world. But there was still
+another unforseen step required and the darkness, while searching for that
+last piece, required servants to guard It. The last elf king of Myth Drannor
+was one of these, and now his spectre guards the way to the greatest evil.
+~
+RACE  unique~
+ACT   ABGQT
+AFF   0
+OFF   AEFGHKUX
+IMM   ABIJKLMQ
+RES   0
+VULN  H
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 58
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+10000
+MDICE 1d1+100
+DDICE 9d6+30
+REGEN 0
+DTYPE frbite
+AC    -33 -32 -34 -27
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13717
+NAME  fallen angel~
+SHORT a Fallen Angel~
+LONG  A tall man with pale eyes and shredded bloody wings is here.
+~
+DESCR
+As part of the evil one's final return to the world he has called upon all
+of his most powerful servants. When failing to find the last piece required
+to break the imprisonment this Fallen angel was posted as a guard to prevent
+anyone from entering while It was still vulnerable and imprisoned.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDEGHKOUX
+IMM   ABKLMP
+RES   0
+VULN  N
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 60
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 50d10+15000
+MDICE 1d1+100
+DDICE 10d6+34
+REGEN 0
+DTYPE wrath
+AC    -35 -35 -35 -25
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13718
+NAME  lord bane~
+SHORT the Lord Bane~
+LONG  A towering prescence of indescribable power dominates the room!
+~
+DESCR
+You see nothing special about it. In fact it is so pure pitch-black around
+this being you can see nothing at all!
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   ACDKOUX
+IMM   ABIJKLM
+RES   CD
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 13700
+LEVEL 60
+HROLL 3
+ENHA  100.00%
+MATER none~
+HDICE 1d1+15499
+MDICE 1d1+100
+DDICE 10d5+40
+REGEN 0
+DTYPE divine
+AC    -35 -35 -35 -35
+POS   stand stand
+SEX   male
+GOLD  0
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13719
+NAME  rock imp~
+SHORT a rock imp~
+LONG  A fiendish looking imp with stone-grey wings watches the ruins.
+~
+DESCR
+~
+RACE  human~
+ACT   AGT
+AFF   0
+OFF   CDFK
+IMM   A
+RES   BCD
+VULN  0
+WSPEC 0
+ALIGN -600
+GROUP 0
+LEVEL 46
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3250
+MDICE 1d1+100
+DDICE 6d6+16
+REGEN 0
+DTYPE claw
+AC    -15 -15 -15 -10
+POS   stand stand
+SEX   none
+GOLD  2000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13721
+NAME  ogre~
+SHORT a rock ogre~
+LONG  A huge ogre is here gnawing on the bone of some unfortunate creature.
+~
+DESCR
+This ogre has the look of someone who's prepetually hungry. It seems a little
+dull witted even for an ogre, and you notice it's eyes a red from lack of
+sleep. It seems even the creatures who prey on others are not safe in these
+ruins.
+~
+RACE  unique~
+ACT   ABGT
+AFF   0
+OFF   CDEKO
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 47
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 25d10+3800
+MDICE 1d1+100
+DDICE 6d6+20
+REGEN 0
+DTYPE smash
+AC    -21 -20 -17 -2
+POS   stand stand
+SEX   male
+GOLD  1900
+FORM  0
+PARTS 0
+SIZE  large
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13722
+NAME  stone giant~
+SHORT a stone giant~
+LONG  A grey skinned giant is grinning as he walks amongsth the ruins.
+~
+DESCR
+This giant is right at home here within the broken stones of Myth Drannor.
+It's skin matches the colour of the rocks and debri, making it very hard to
+see as it hunts for victims to satisfy it's hunger and bloodlust.
+~
+RACE  unique~
+ACT   AGT
+AFF   0
+OFF   CDEFKOU
+IMM   E
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -600
+GROUP 13722
+LEVEL 51
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+5500
+MDICE 1d1+100
+DDICE 5d9+23
+REGEN 0
+DTYPE punch
+AC    -25 -25 -23 -7
+POS   stand stand
+SEX   male
+GOLD  2000
+FORM  0
+PARTS 0
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13723
+NAME  paladin lord knight~
+SHORT a paladin knight of Myth Drannor~
+LONG  A tall man rests upon a rock as he surveys the ruins.
+~
+DESCR
+This lord paladin has entered to find the greatest evil that resides within
+the ruins. His quest so far has been to no avail for he cannot breach the
+inner regions of the black tower and is unable to fight his way past what he
+suspects may hold the key.
+~
+RACE  human~
+ACT   ABGQT
+AFF   0
+OFF   ACDEFK
+IMM   AB
+RES   MN
+VULN  0
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 58
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9000
+MDICE 1d1+1000
+DDICE 8d6+28
+REGEN 0
+DTYPE punch
+AC    -28 -27 -28 -20
+POS   stand stand
+SEX   male
+GOLD  5000
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13724
+NAME  hydra neo neohydra~
+SHORT a massive Neohydra~
+LONG  A huge triple headed hydra swings it's heads about in seach of prey!
+~
+DESCR
+This thing is HUGE. It's body is the size of a house and the three heads that
+swing around scanning for victims are like dragon heads, only there are three
+of them at once.
+~
+RACE  dragon~
+ACT   AGT
+AFF   0
+OFF   ACDKM
+IMM   ABEL
+RES   BCDEH
+VULN  FI
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 2
+ENHA  100.00%
+MATER none~
+HDICE 1d1+29999
+MDICE 1d1+100
+DDICE 6d8+28
+REGEN 0
+DTYPE bite
+AC    -27 -25 -25 -20
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHZ
+PARTS ACDEFGHIJKPQUVX
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13725
+NAME  skeletal elf skeleton~
+SHORT a skeletal elf~
+LONG  A heap of staggering bones is trying to seek out a new life.
+~
+DESCR
+These bones are all that are left of one of the thousands of elves that tried
+to flee the destruction of Myth Drannor so many centuries ago. Now cursed to
+live forever in the state of undying hell in the bone graveyards, it seeks a
+new life to live and will kill for it...
+~
+RACE  human~
+ACT   AGOT
+AFF   0
+OFF   CDK
+IMM   B
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 27
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+650
+MDICE 1d1+100
+DDICE 5d4+8
+REGEN 0
+DTYPE none
+AC    0 0 0 10
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13726
+NAME  girl lady elf~
+SHORT a lady in green-blue~
+LONG  A stunning elven girl with crystal clear blue eyes stands here.
+~
+DESCR
+This girl is totally out of place here. She has a look of ancient sadness about
+her that is totally uncharacteristic for an elf. She seems to want you to do
+something for her...
+~
+RACE  elf~
+ACT   ABGT
+AFF   0
+OFF   AW
+IMM   ABCDEFGHIJKL
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN 1000
+GROUP 0
+LEVEL 60
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 1d1+20000
+MDICE 1d1+100
+DDICE 8d6+28
+REGEN 0
+DTYPE divine
+AC    -30 -30 -30 -30
+POS   stand stand
+SEX   female
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13728
+NAME  mud dweller~
+SHORT a mud dweller~
+LONG  A slimy lump of mud oozes out of the ground and slides towards you.
+~
+DESCR
+This piece of disgusting matter seems to be made of the very dirt and slime
+that you walk upon. It has very little sense other than it's hunger, but it is
+still a dangerous creature to be around.
+~
+RACE  human~
+ACT   AGT
+AFF   0
+OFF   CDFK
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 0
+LEVEL 35
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 10d10+1300
+MDICE 1d1+100
+DDICE 4d7+11
+REGEN 0
+DTYPE suction
+AC    -11 -11 -10 -2
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13729
+NAME  hissing frog~
+SHORT a hissing frog~
+LONG  A giant frog hisses and flicks it's pointed tongue out at you.
+~
+DESCR
+This frog seems to have suffered from some kind of unnatural growth and dark
+mutation. It's body is about the size of a horse, and as it hisses a spray of
+burning acid lands on the ground sizzling.
+~
+RACE  human~
+ACT   AFT
+AFF   0
+OFF   CDFIU
+IMM   0
+RES   0
+VULN  0
+WSPEC 0
+ALIGN 0
+GROUP 13729
+LEVEL 25
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+550
+MDICE 1d1+100
+DDICE 2d10+7
+REGEN 0
+DTYPE acbite
+AC    -6 -5 -4 4
+POS   rest stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13730
+NAME  elf knight~
+SHORT an elven knight of ages past~
+LONG  A shimmering elven knight with a ghostly form is here.
+~
+DESCR
+The knights of ancient Myth Drannor still respond to the call of their horn and
+will return to serve in times of great need, as proven by this knights return
+from the dead.
+~
+RACE  elf~
+ACT   AGT
+AFF   0
+OFF   CDEFKU
+IMM   AB
+RES   BH
+VULN  Z
+WSPEC 0
+ALIGN 700
+GROUP 13730
+LEVEL 51
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 50d10+3500
+MDICE 1d1+100
+DDICE 6d8+15
+REGEN 0
+DTYPE none
+AC    -15 -16 -15 -15
+POS   stand stand
+SEX   either
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13731
+NAME  bone demon~
+SHORT the bone demon~
+LONG  A huge creature composed of hundreds of elven bones stands here.
+~
+DESCR
+This being seems to be from the pieces of elven bones that lie scattered all
+around the region. It's size is tremendous, easily dwarfing even a giant or
+small dragon. There is something extremely evil about it's prescence here at
+the blocked river, as if it were the symbol of the darkness that trapped the
+doomed elves here in their ships.
+~
+RACE  human~
+ACT   ABGOT
+AFF   0
+OFF   ABCDEFKOWX
+IMM   ABFLMPQ
+RES   CD
+VULN  0
+WSPEC 0
+ALIGN -1000
+GROUP 0
+LEVEL 55
+HROLL 1
+ENHA  100.00%
+MATER none~
+HDICE 50d10+9000
+MDICE 1d1+100
+DDICE 10d4+25
+REGEN 0
+DTYPE pound
+AC    -25 -25 -25 -15
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  giant
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#13732
+NAME  mist wraith~
+SHORT a mist wraith~
+LONG  A misty insubstantial wraith is rising out of the ground here.
+~
+DESCR
+There is little to see of this undead wraith, other than that it appears to be
+some kind of elven spirit seeking something long lost.
+~
+RACE  human~
+ACT   AGOT
+AFF   0
+OFF   DFKU
+IMM   AB
+RES   0
+VULN  0
+WSPEC 0
+ALIGN -700
+GROUP 13732
+LEVEL 22
+HROLL 0
+ENHA  100.00%
+MATER none~
+HDICE 5d10+550
+MDICE 1d1+100
+DDICE 2d10+7
+REGEN 0
+DTYPE none
+AC    -5 -5 -5 0
+POS   stand stand
+SEX   none
+GOLD  0
+FORM  AHMV
+PARTS ABCDEFGHIJK
+SIZE  medium
+DMOD  100
+AMOD  0
+QUEST 0
+End
+
+#0
+
+
+
+#OBJDATA
+#13700
+NAME   spear~
+SHORT  a rusty spear~
+DESCR 
+A long rusted spear is on the ground.~
+MAT    iron~
+TYPE   weapon spear 6 5 stab 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  30
+WEIGHT 26
+COST   1000
+COND   100
+Affect O 19 2 0
+Affect O 18 -2 0
+End
+
+#13701
+NAME   scimitar~
+SHORT  a rusty scimitar~
+DESCR 
+A large but rusted scimitar is on the ground.~
+MAT    iron~
+TYPE   weapon sword 6 5 slash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  30
+WEIGHT 16
+COST   1000
+COND   100
+Affect O 19 -1 0
+Affect O 18 -1 0
+End
+
+#13702
+NAME   large iron shield~
+SHORT  a large iron shield~
+DESCR 
+A piece of iron battered into the shape of a shield is here.~
+MAT    iron~
+TYPE   armor ABD AD CD BC 0
+EXTRA  0 0
+WEAR   AJ
+LEVEL  15
+WEIGHT 39
+COST   100
+COND   100
+Affect O 19 1 0
+End
+
+#13703
+NAME   chainmail~
+SHORT  chainmail armor~
+DESCR 
+Some chainmail armor is on the ground.~
+MAT    steel~
+TYPE   armor BCE ABCD BCE BCD 0
+EXTRA  0 0
+WEAR   AD
+LEVEL  26
+WEIGHT 34
+COST   2000
+COND   100
+Affect O 19 2 0
+End
+
+#13704
+NAME   longsword~
+SHORT  a smooth-bladed longsword~
+DESCR 
+A smooth-bladed longsword is on the ground.~
+MAT    steel~
+TYPE   weapon sword 6 6 slash 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  34
+WEIGHT 17
+COST   2000
+COND   100
+Affect O 19 3 0
+Affect O 18 2 0
+End
+
+#13705
+NAME   armor field plate~
+SHORT  a suit of field plate~
+DESCR 
+A set of light field armor is on the ground.~
+MAT    steel~
+TYPE   armor BCEF CF BCEF AF AC
+EXTRA  0 0
+WEAR   AD
+LEVEL  40
+WEIGHT 34
+COST   9000
+COND   100
+Affect O 14 25 0
+Affect O 13 15 0
+Affect O 19 2 0
+Affect O 18 1 0
+LIMIT  25
+End
+
+#13706
+NAME   leather gauntlets~
+SHORT  a pair of leather gauntlets~
+DESCR 
+A pair of hard leather gauntlets are on the ground.~
+MAT    leather~
+TYPE   armor CE BF ACE BCE 0
+EXTRA  0 0
+WEAR   AH
+LEVEL  40
+WEIGHT 10
+COST   3000
+COND   100
+Affect O 2 1 0
+Affect O 19 1 0
+Affect O 18 1 0
+LIMIT  20
+End
+
+#13707
+NAME   red quartz ring~
+SHORT  a ring of red stained quartz~
+DESCR 
+A ring made of some red stone is on the ground.~
+MAT    mineral~
+TYPE   armor E CDE BE ABE AC
+EXTRA  1 4 0 54
+WEAR   AB
+LEVEL  40
+WEIGHT 4
+COST   13500
+COND   100
+Affect O 24 5 0
+Affect O 1 2 0
+Affect O 19 3 0
+Affect O 18 2 0
+LIMIT  6
+End
+
+#13708
+NAME   green quartz ring~
+SHORT  a ring of green stained quartz~
+DESCR 
+A ring made of some green stone is on the ground.~
+MAT    mineral~
+TYPE   armor E CDE BE ABE AC
+EXTRA  1 4 0 54
+WEAR   AB
+LEVEL  40
+WEIGHT 4
+COST   12500
+COND   100
+Affect O 19 1 0
+Affect O 18 1 0
+Affect O 13 30 0
+Affect O 4 2 0
+LIMIT  4
+End
+
+#13709
+NAME   blue quartz ring~
+SHORT  a ring of blue stained quartz~
+DESCR 
+A ring made of some green stone is on the ground.~
+MAT    mineral~
+TYPE   armor E CDE BE ABE AC
+EXTRA  1 4 0 54
+WEAR   AB
+LEVEL  40
+WEIGHT 4
+COST   11500
+COND   100
+Affect O 24 -3 0
+Affect O 19 1 0
+Affect O 18 1 0
+Affect O 12 40 0
+Affect O 3 2 0
+LIMIT  4
+End
+
+#13710
+NAME   black quartz ring~
+SHORT  a ring of black stained quartz~
+DESCR 
+A ring made of some black stone is on the ground.~
+MAT    mineral~
+TYPE   armor E CDE BE ABE AC
+EXTRA  1 4 0 54
+WEAR   AB
+LEVEL  40
+WEIGHT 4
+COST   16500
+COND   100
+Affect O 24 -3 0
+Affect O 17 -5 0
+Affect O 19 2 0
+Affect O 18 2 0
+LIMIT  3
+End
+
+#13711
+NAME   bloody shredded angel wings~
+SHORT  the shredded wings of a fallen angel~
+DESCR 
+The shredded and bloody remains of some creature's wings are here.~
+MAT    energy~
+TYPE   armor EF ACEF EF BDG 0
+EXTRA  1 7 0 70356
+WEAR   AK
+LEVEL  51
+WEIGHT 14
+COST   20000
+COND   100
+Affect O 2 -10 0
+Affect A 0 0 T
+Affect O 19 2 0
+Affect O 18 2 0
+LIMIT  1
+End
+
+#13712
+NAME   horns bane~
+SHORT  the horns of Bane~
+DESCR 
+A pair of black horns rimmed with blue-green flames is here.~
+MAT    energy~
+TYPE   armor EF ACEF EF BDG 0
+EXTRA  1 9 0 2807
+WEAR   AE
+LEVEL  51
+WEIGHT 14
+COST   20000
+COND   100
+Affect O 17 -15 0
+EDESC horns bane~
+These remains of the ancient god Bane still have the last flames of the magic
+used to imprison him. The blue-green fire burns softly around the horns and
+gives them an unreal appearance, as if they are ready to vanish into thin air.
+~
+End
+
+#13713
+NAME   scroll binding power~
+SHORT  a scroll of binding power~
+DESCR 
+A scroll with intricate writing has been left here.~
+MAT    paper~
+TYPE   scroll 60 'enchant weapon' 'enchant weapon' 'enchant weapon' 'enchant weapon'
+EXTRA  1 5 0 589891
+WEAR   AO
+LEVEL  45
+WEIGHT 3
+COST   20000
+COND   100
+EDESC scroll binding power~
+This is one of the last great artifacts of the ancient city of Myth Drannor.
+The elven archmages had prepared it in order to help create a weapon powerful
+enough to fight the evil that was coming, but they were defeated first and the
+scroll was taken by Bane in order to help him break the bonds that held him
+beneath the ancient city.
+~
+LIMIT  1
+End
+
+#13714
+NAME   red sword planes~
+SHORT  the sword of planes~
+DESCR 
+A straight red sword lies on the ground.~
+MAT    energy~
+TYPE   weapon sword 5 7 slice 0
+EXTRA  1 3 0 352
+WEAR   AN
+LEVEL  45
+WEIGHT 9
+COST   20000
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+LIMIT  1
+End
+
+#13715
+NAME   torque restoration silver circle~
+SHORT  the torque of restoration~
+DESCR 
+A shiny circle of silver is on the ground.~
+MAT    silver~
+TYPE   armor EF ABF EF BCDE 0
+EXTRA  1 8 0 34085395
+WEAR   AC
+LEVEL  51
+WEIGHT 13
+COST   10000
+COND   100
+Affect O 13 -100 0
+Affect O 12 -100 0
+Affect O 14 -100 0
+LIMIT  1
+End
+
+#13716
+NAME   crown frozen blood red~
+SHORT  a crown of frozen blood~
+DESCR 
+A crown of frozen red blood is here.~
+MAT    liquid~
+TYPE   armor BE CDE BE ABCDF 0
+EXTRA  1 5 0 4212
+WEAR   AE
+LEVEL  48
+WEIGHT 7
+COST   20000
+COND   100
+Affect O 2 -1 0
+Affect O 5 -2 0
+Affect O 19 2 0
+LIMIT  1
+End
+
+#13717
+NAME   rod lordly might~
+SHORT  the rod of lordly might~
+DESCR 
+A beautifully carved rod of steel is on the ground.~
+MAT    steel~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 65858
+WEAR   AO
+LEVEL  51
+WEIGHT 10
+COST   20000
+COND   100
+EDESC sword~
+There are some words scrawled next to the symbol of the sword on the rod's
+surface, reading 'the strong rule the weak'.
+~
+EDESC mace~
+The words 'rule with an iron fist' are written alongside the mace etched into
+the rod's surfaec.
+~
+EDESC star star-like~
+The words 'rulership is for the divine' are written alongside the star etched
+into the rod's surface.
+~
+EDESC markings~
+There are several scratches and words on the rod, one looks like a mace,
+another like a sword, and yet another which is some kind of strange star-like
+symbol. The words 'rulers are just figureheads' are etched into the base of it.
+~
+EDESC rod lordly might~
+It appears to be a dull and useless ceremonial staff.
+There are some strange markings on the rod...
+~
+LIMIT  1
+End
+
+#13718
+NAME   steel mace~
+SHORT  a shiny steel mace~
+DESCR 
+A shiny mace of steel is here.~
+MAT    steel~
+TYPE   weapon mace 6 6 pound 0
+EXTRA  1 1 0 1024
+WEAR   AN
+LEVEL  35
+WEIGHT 24
+COST   4000
+COND   100
+Affect O 19 1 0
+Affect O 18 3 0
+End
+
+#13720
+NAME   circle bracelet frozen elf blood~
+SHORT  a bracelet of frozen elf blood~
+DESCR 
+A horrible circle of congealed, frozen blood is on the ground.~
+MAT    liquid~
+TYPE   armor ACD CE ACD AF BE
+EXTRA  1 10 0 72692
+WEAR   AM
+LEVEL  47
+WEIGHT 4
+COST   20000
+COND   100
+EDESC circle bracelet frozen blood elf~
+The blood is congealed and disgustingly frozen, yet there almost seems to be
+some kind of life within it, screaming for release. It as is if the elf whose
+blood was taken is still contained, screaming for release.,
+~
+LIMIT  3
+End
+
+#13722
+NAME   skull ancient god~
+SHORT  the skull of an ancient god~
+DESCR 
+A huge black skull with a demonic leer is watching you!~
+MAT    bone~
+TYPE   light 0 0 DEGJ 0 0
+EXTRA  1 11 0 71639
+WEAR   A
+LEVEL  40
+WEIGHT 8
+COST   20000
+COND   100
+Affect O 19 8 0
+Affect O 18 4 0
+LIMIT  1
+End
+
+#13723
+NAME   suffering~
+SHORT  Suffering~
+DESCR 
+An object of pure suffering is on the ground.~
+MAT    energy~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 65620
+WEAR   AC
+LEVEL  55
+WEIGHT 7
+COST   20000
+COND   100
+Affect O 19 5 0
+Affect O 18 5 0
+LIMIT  1
+End
+
+#13724
+NAME   wrath~
+SHORT  Wrath~
+DESCR 
+An object of unholy wrath is lying on the floor.~
+MAT    energy~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 4 0 65620
+WEAR   AB
+LEVEL  55
+WEIGHT 2
+COST   20000
+COND   100
+Affect O 19 5 0
+Affect O 18 5 0
+LIMIT  1
+End
+
+#13725
+NAME   bracelet woven elf hair~
+SHORT  a bracelet woven from the hair an elf~
+DESCR 
+A beautiful bracelet made fomr woven elf hair is on the ground.~
+MAT    liquid~
+TYPE   armor ACD CE ACD AF BE
+EXTRA  1 5 0 3393
+WEAR   AM
+LEVEL  47
+WEIGHT 4
+COST   20000
+COND   100
+Affect O 19 3 0
+Affect O 18 1 0
+LIMIT  4
+End
+
+#13727
+NAME   stone club~
+SHORT  a stone club~
+DESCR 
+A large club made from a long piece of stone is here.~
+MAT    stone~
+TYPE   weapon mace 7 5 pound 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  35
+WEIGHT 23
+COST   1000
+COND   100
+Affect O 19 2 0
+Affect O 18 -3 0
+LIMIT  250
+End
+
+#13728
+NAME   poncho skin stone~
+SHORT  a poncho from the skin of a stone giant~
+DESCR 
+A piece of very tough skin the colour of stone is lying here.~
+MAT    flesh~
+TYPE   armor ABCD ABCE ACD BD 0
+EXTRA  1 4 0 660
+WEAR   AK
+LEVEL  36
+WEIGHT 16
+COST   13000
+COND   100
+Affect O 19 3 0
+Affect O 2 -1 0
+Affect O 1 1 0
+LIMIT  4
+End
+
+#13730
+NAME   rear green dragon claws~
+SHORT  the rear claws of a green dragon~
+DESCR 
+A large pair of green dragon claws lie on the ground.~
+MAT    bone~
+TYPE   armor BCE ABF CDE AE 0
+EXTRA  1 1 0 64
+WEAR   AG
+LEVEL  40
+WEIGHT 18
+COST   17000
+COND   100
+Affect O 19 3 0
+Affect O 2 -1 0
+LIMIT  4
+End
+
+#13731
+NAME   stone green orb dragonorb~
+SHORT  a green dragonorb~
+DESCR 
+A large green stone lies on the ground.~
+MAT    stone~
+TYPE   staff 40 3 3 'heal' 0
+EXTRA  1 1 0 64
+WEAR   AO
+LEVEL  35
+WEIGHT 9
+COST   2500
+COND   100
+Affect O 19 3 0
+LIMIT  100
+End
+
+#13732
+NAME   shining mace~
+SHORT  the mace of shining light~
+DESCR 
+A ball of brilliant green light rests here.~
+MAT    energy~
+TYPE   weapon mace 5 9 light A
+EXTRA  1 6 0 7427
+WEAR   AN
+LEVEL  50
+WEIGHT 12
+COST   14000
+COND   100
+Affect O 19 4 0
+Affect O 18 6 0
+EDESC mace shining~
+This weapon appears to be made of pure energy. The green light that constitutes
+the mace's head radiates an aura of holy righteousness that seems to sooth your
+worries. It doesn't appear as powerful as many weapons you have heard of, yet
+there is something about it that suggests it is for a special purpose.
+~
+LIMIT  1
+End
+
+#13733
+NAME   scroll protection~
+SHORT  a scroll of divine protection~
+DESCR 
+A white scroll is resting here waiting to be used.~
+MAT    paper~
+TYPE   scroll 30 'poison' 'stone skin' 'curse' ''
+EXTRA  1 3 0 322
+WEAR   AO
+LEVEL  40
+WEIGHT 3
+COST   9000
+COND   100
+LIMIT  5
+End
+
+#13734
+NAME   helm brilliance~
+SHORT  the helm of brilliance~
+DESCR 
+A beautiful helm studded with glowing gems is here.~
+MAT    energy~
+TYPE   armor BDF ABCDF BDF BG CD
+EXTRA  1 4 0 1346
+WEAR   AE
+LEVEL  48
+WEIGHT 14
+COST   13000
+COND   100
+Affect O 19 2 0
+Affect O 18 2 0
+Affect O 12 30 0
+Affect O 3 3 0
+LIMIT  2
+End
+
+#13735
+NAME   flawless cape white knights~
+SHORT  the cape of white knights~
+DESCR 
+A flowing white cape of flawless make is on the ground.~
+MAT    cloth~
+TYPE   armor E ACE E BCDE BD
+EXTRA  1 4 0 3392
+WEAR   AK
+LEVEL  35
+WEIGHT 7
+COST   8000
+COND   100
+Affect O 13 30 0
+Affect O 24 -7 0
+Affect O 17 -5 0
+Affect O 2 2 0
+Affect O 1 2 0
+LIMIT  10
+End
+
+#13736
+NAME   black key~
+SHORT  the black key~
+DESCR 
+A large sheer black key is here.~
+MAT    steel~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   AO
+LEVEL  0
+WEIGHT 10
+COST   0
+COND   100
+LIMIT  500
+End
+
+#13737
+NAME   hydra neohydra head~
+SHORT  the head of a neohydra~
+DESCR 
+A huge head of a decapitated hydra is here.~
+MAT    flesh~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   A
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+LIMIT  500
+End
+
+#13738
+NAME   ornate ceremonial rapier~
+SHORT  a ceremonial rapier~
+DESCR 
+An ornate, ceremonial rapier lies here.~
+MAT    iron~
+TYPE   weapon sword 6 8 slice 0
+EXTRA  1 3 0 515
+WEAR   AN
+LEVEL  50
+WEIGHT 16
+COST   20000
+COND   100
+LIMIT  5
+End
+
+#13739
+NAME   horn valere~
+SHORT  the horn of valere~
+DESCR 
+A large horn of ancient elven make is on the ground.~
+MAT    steel~
+TYPE   instrument 0 0 0 0 0
+EXTRA  1 5 0 1219
+WEAR   AO
+LEVEL  40
+WEIGHT 10
+COST   3000
+COND   100
+Affect O 19 5 0
+Affect O 18 10 0
+EDESC horn valere~
+The horn is made of some uniquely tempered steel and seems to be alive with
+some holy power. You can hear the faint sounds of royal battle calls echoing in
+the depths of the horn's recess.
+~
+LIMIT  3
+End
+
+#13740
+NAME   rusty sword~
+SHORT  a rusty sword~
+DESCR 
+A rusty sword is lying half buried in the muck.~
+MAT    steel~
+TYPE   weapon sword 1 1 slash 0
+EXTRA  1 1 0 16384
+WEAR   AN
+LEVEL  0
+WEIGHT 17
+COST   0
+COND   100
+EDESC rusty rusted sword~
+The weapon is totally rusted through and almost attached to the ground now
+after all the time it has lain here in the swampy muck.
+~
+End
+
+#13741
+NAME   axe~
+SHORT  a broken axe~
+DESCR 
+A large decayed axe is sticking out of the muddy ground here.~
+MAT    steel~
+TYPE   weapon axe 1 1 slice 0
+EXTRA  0 0
+WEAR   AN
+LEVEL  0
+WEIGHT 24
+COST   0
+COND   100
+EDESC axe~
+This weapon of ages past is so broken it's even more useless than your bare
+hands would be in a fight.
+~
+End
+
+#13742
+NAME   rusted rusty armor~
+SHORT  a rusty set of armor~
+DESCR 
+A pile of rusted armor lies buried in the dirt.~
+MAT    steel~
+TYPE   trash 0 0 0 0 0
+EXTRA  0 0
+WEAR   AD
+LEVEL  0
+WEIGHT 34
+COST   0
+COND   100
+Affect O 2 -2 0
+Affect O 17 10 0
+EDESC rusty armor~
+This armor is so far gone into decay and ruin that it actually hinders your
+ability to fight.
+~
+End
+
+#13745
+NAME   skeleton~
+SHORT  a skeleton~
+DESCR 
+A half buried skeleton is poking up from the ground.~
+MAT    bone~
+TYPE   npc_corpse 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 8
+COST   0
+COND   100
+EDESC skeleton~
+It looks like one of the ancient elves that fell in the city's death, left here
+to rot away like garbage.
+~
+End
+
+#13746
+NAME   ~
+SHORT  soaked~
+DESCR 
+A blood soaked corpse of a dark elf is here.~
+MAT    flesh~
+TYPE   npc_corpse 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 6
+COST   0
+COND   100
+EDESC ~
+This corpse looks very recent, and shows signs of violent beastial bites and
+claw wounding. The creatures that did this must have very little care for the
+lives of others.
+~
+End
+
+#13747
+NAME   rock boulder~
+SHORT  a large boulder~
+DESCR 
+A large smooth boulder rests on the ground here.~
+MAT    stone~
+TYPE   trash 0 0 0 0 0
+EXTRA  1 1 0 16384
+WEAR   0
+LEVEL  0
+WEIGHT 9
+COST   0
+COND   100
+EDESC boulder rock~
+This rock seems to be placed here rather purposefully compared to the rest of
+the chaotic ruins lying all around...perhaps there is something under it...
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#13700
+NAME   In the ruins of the south gate~
+DESCR
+You stand before a pile of rubble marking the entrance to what looked to once
+be a fabulous elven city. Remains of what was once great still linger even
+here in the rocks and creeping undergrowth. The shattered archway leading
+into the city bears the markings of elvish highlords of longpast. To the
+east and west you can make out rock strewn paths around the city
+battlements. South of here heads into the dark forests.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13736
+DOOR 1
+~
+~
+0 0 13701
+DOOR 2
+~
+~
+0 0 22523
+DOOR 3
+~
+~
+0 0 13723
+End
+
+#13701
+NAME   In the ruins of the southern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13702
+DOOR 3
+~
+~
+0 0 13700
+End
+
+#13702
+NAME   In the ruins of the southern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13703
+DOOR 3
+~
+~
+0 0 13701
+End
+
+#13703
+NAME   In the ruins of the southern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13704
+DOOR 3
+~
+~
+0 0 13702
+DOOR 4
+~
+~
+0 0 13735
+End
+
+#13704
+NAME   In the ruins of the eastern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13705
+DOOR 2
+~
+~
+0 0 13703
+End
+
+#13705
+NAME   In the ruins of the eastern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling. To the east
+there is a gap in the broekn walls, leading out to the surrroudning
+forests. ~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13706
+DOOR 1
+~
+~
+0 0 22519
+DOOR 2
+~
+~
+0 0 13704
+End
+
+#13706
+NAME   In the ruins of the eastern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13707
+DOOR 2
+~
+~
+0 0 13705
+End
+
+#13707
+NAME   In the ruins of the eastern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13708
+DOOR 2
+~
+~
+0 0 13706
+End
+
+#13708
+NAME   In the ruins of the eastern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13709
+DOOR 2
+~
+~
+0 0 13707
+End
+
+#13709
+NAME   In the northeastern corner wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13708
+DOOR 3
+~
+~
+0 0 13710
+DOOR 4
+~
+~
+0 0 13730
+End
+
+#13710
+NAME   In the ruins of the northern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13709
+DOOR 3
+~
+~
+0 0 13711
+End
+
+#13711
+NAME   In the ruins of the northern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13710
+DOOR 3
+~
+~
+0 0 13712
+End
+
+#13712
+NAME   In the ruins of the northern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling. To the north is
+a break in the shattered walls, leading out to the surrounding forests.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 22524
+DOOR 1
+~
+~
+0 0 13711
+DOOR 3
+~
+~
+0 0 13713
+End
+
+#13713
+NAME   In the ruins of the northern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13712
+DOOR 3
+~
+~
+0 0 13714
+End
+
+#13714
+NAME   In the ruins of the northern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13713
+DOOR 3
+~
+~
+0 0 13715
+End
+
+#13715
+NAME   In the northwest corner wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13714
+DOOR 2
+~
+~
+0 0 13716
+DOOR 4
+~
+~
+0 0 13724
+End
+
+#13716
+NAME   In the ruins of the western wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13715
+DOOR 2
+~
+~
+0 0 13717
+End
+
+#13717
+NAME   In the ruins of the western wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling. There is a
+slight chip in the easter wall here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13716
+DOOR 1
+~
+secret wall~
+AB 0 13875
+DOOR 2
+~
+~
+0 0 13718
+End
+
+#13718
+NAME   In the ruins of the western wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13717
+DOOR 2
+~
+~
+0 0 13719
+End
+
+#13719
+NAME   In the ruins of the western wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13718
+DOOR 2
+~
+~
+0 0 13720
+End
+
+#13720
+NAME   In the ruins of the western wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13719
+DOOR 2
+~
+~
+0 0 13721
+End
+
+#13721
+NAME   In the southwest corner~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13720
+DOOR 1
+~
+~
+0 0 13722
+End
+
+#13722
+NAME   In the ruins of the southern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13723
+DOOR 3
+~
+~
+0 0 13721
+End
+
+#13723
+NAME   In the ruins of the southern wall~
+DESCR
+You are standing amidst the ruins of the great city. Large rocks have
+fallen carelessly along the pathway and their absence from the walls is
+plain from the large holes in it. A strong smell of decay is evident, and
+the wind that whistles softly down the rocks is chilling.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13700
+DOOR 3
+~
+~
+0 0 13722
+End
+
+#13724
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east or back down to the ruined path of the
+city's old walls.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13725
+DOOR 5
+~
+~
+0 0 13715
+End
+
+#13725
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east and west.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13726
+DOOR 3
+~
+~
+0 0 13724
+End
+
+#13726
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east and west.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13727
+DOOR 3
+~
+~
+0 0 13725
+End
+
+#13727
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east and west.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13728
+DOOR 3
+~
+~
+0 0 13726
+End
+
+#13728
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east and west.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13729
+DOOR 3
+~
+~
+0 0 13727
+End
+
+#13729
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads east and west.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13730
+DOOR 3
+~
+~
+0 0 13728
+End
+
+#13730
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads south and west, or you can go down to the
+rubble of the walkway around the city walls.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13731
+DOOR 3
+~
+~
+0 0 13729
+DOOR 5
+~
+~
+0 0 13709
+End
+
+#13731
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads north and south.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13730
+DOOR 2
+~
+~
+0 0 13732
+End
+
+#13732
+NAME   On the remains of the battlement walls~
+DESCR
+The battlements here have totally collapsed. To the south the magnificent
+stone walls have caved in to make an impassable pile of rubble seperating
+this northern end of the wall from the southern. You can only head back
+north.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13731
+End
+
+#13733
+NAME   On the remains of the battlement walls~
+DESCR
+The battlements here have totally collapsed. To the north the magnificent
+stone walls have caved in to make an impassable pile of rubble seperating
+this southern end of the wall from the northern. You can only head back
+south.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13734
+End
+
+#13734
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads north and south.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13733
+DOOR 2
+~
+~
+0 0 13735
+End
+
+#13735
+NAME   On the remains of the battlement walls~
+DESCR
+You are standing up on the rubbled remains of the city walls. The walls are
+broken and rubbled, and the walkway around them is dangerous. Cold wind blows
+over you and a dark shadow from the surrounding forest seems to cover
+everything. The walkway heads north or you can go down to the rubbled ruins
+of the city walls.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13734
+DOOR 5
+~
+~
+0 0 13703
+End
+
+#13736
+NAME   In the ruins of the southern courtyard~
+DESCR
+The courtyard here is shattered and ruined after the devestation of some ages
+past and long forgotten conflict. Rubble has fallen freely across the once
+beautiful marble courts, and the stone fountain is dry and crumbling. To the
+north lies the ruins of Myth Drannor. A large collapsed archway heads south
+out of the city and toward the surrounding forest.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13739
+DOOR 2
+~
+~
+0 0 13700
+End
+
+#13737
+NAME   In the corner of the stone ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. The ground here is level
+and reasonably flat, indicating that it was probably a market or common
+area.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13742
+DOOR 1
+~
+~
+0 0 13738
+End
+
+#13738
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13743
+DOOR 1
+~
+~
+0 0 13739
+DOOR 3
+~
+~
+0 0 13737
+End
+
+#13739
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13744
+DOOR 1
+~
+~
+0 0 13740
+DOOR 2
+~
+~
+0 0 13736
+DOOR 3
+~
+~
+0 0 13738
+End
+
+#13740
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13745
+DOOR 1
+~
+~
+0 0 13741
+DOOR 3
+~
+~
+0 0 13739
+End
+
+#13741
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13746
+DOOR 3
+~
+~
+0 0 13740
+End
+
+#13742
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13747
+DOOR 1
+~
+~
+0 0 13743
+DOOR 2
+~
+~
+0 0 13737
+End
+
+#13743
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13748
+DOOR 1
+~
+~
+0 0 13744
+DOOR 2
+~
+~
+0 0 13738
+DOOR 3
+~
+~
+0 0 13742
+End
+
+#13744
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13745
+DOOR 2
+~
+~
+0 0 13739
+DOOR 3
+~
+~
+0 0 13743
+End
+
+#13745
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13749
+DOOR 1
+~
+~
+0 0 13746
+DOOR 2
+~
+~
+0 0 13740
+DOOR 3
+~
+~
+0 0 13744
+End
+
+#13746
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13750
+DOOR 1
+~
+~
+0 0 13770
+DOOR 2
+~
+~
+0 0 13741
+DOOR 3
+~
+~
+0 0 13745
+End
+
+#13747
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13751
+DOOR 1
+~
+~
+0 0 13748
+DOOR 2
+~
+~
+0 0 13742
+DOOR 3
+~
+~
+0 0 13761
+End
+
+#13748
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13752
+DOOR 2
+~
+~
+0 0 13743
+DOOR 3
+~
+~
+0 0 13747
+End
+
+#13749
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13754
+DOOR 1
+~
+~
+0 0 13750
+DOOR 2
+~
+~
+0 0 13745
+End
+
+#13750
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13755
+DOOR 2
+~
+~
+0 0 13746
+DOOR 3
+~
+~
+0 0 13749
+End
+
+#13751
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13756
+DOOR 1
+~
+~
+0 0 13752
+DOOR 2
+~
+~
+0 0 13747
+End
+
+#13752
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13757
+DOOR 1
+~
+~
+0 0 13753
+DOOR 2
+~
+~
+0 0 13748
+DOOR 3
+~
+~
+0 0 13751
+End
+
+#13753
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13758
+DOOR 1
+~
+~
+0 0 13754
+DOOR 3
+~
+~
+0 0 13752
+End
+
+#13754
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13759
+DOOR 1
+~
+~
+0 0 13755
+DOOR 2
+~
+~
+0 0 13749
+DOOR 3
+~
+~
+0 0 13753
+End
+
+#13755
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13760
+DOOR 2
+~
+~
+0 0 13750
+DOOR 3
+~
+~
+0 0 13754
+End
+
+#13756
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13757
+DOOR 2
+~
+~
+0 0 13751
+End
+
+#13757
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13758
+DOOR 2
+~
+~
+0 0 13752
+DOOR 3
+~
+~
+0 0 13756
+End
+
+#13758
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13779
+DOOR 1
+~
+~
+0 0 13759
+DOOR 2
+~
+~
+0 0 13753
+DOOR 3
+~
+~
+0 0 13757
+End
+
+#13759
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13760
+DOOR 2
+~
+~
+0 0 13754
+DOOR 3
+~
+~
+0 0 13758
+End
+
+#13760
+NAME   Swampy grounds amidst the ruins~
+DESCR
+You are within the rubbled remains of an ancient city. Plants and weeds have
+grown across everything, and much of the time it almost seems as if the
+forest is trying to bury the city into the past. There is a lot of wet, damp
+puddles of mud in the ground here, almost like a swamp was starting to form.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13811
+DOOR 2
+~
+~
+0 0 13755
+DOOR 3
+~
+~
+0 0 13759
+End
+
+#13761
+NAME   Under a broken archway~
+DESCR
+Above you is a majestic but shattered stone archway. Intricately carved signs
+have been cut into it, and fine gems still lie embedded on it's surface. If
+ever there was an indication of an abandoned city this is it, gems left here
+untouched by even common looters and scavangers that usually haunt ruins. To
+the east the ruins open out into a large open space filled with swampish weeds
+and wet muddy gorund. In the distant north you can make out the ruins of some
+towers.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13762
+DOOR 1
+~
+~
+0 0 13747
+End
+
+#13762
+NAME   Walking through the rubbled ruins~
+DESCR
+You are amidst the ruins of the ancient elven city. All around you the stones
+have been crushed and scattered, left to erode with time. The greatness that
+was once here is long since gone and only the fine delicate stonework gives
+any indication of what once was. The ruins wind north towards some towers, or
+south to what appears to be a large broken archway.`
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13763
+DOOR 2
+~
+~
+0 0 13761
+End
+
+#13763
+NAME   Walking through the rubbled ruins~
+DESCR
+You are amidst the ruins of the ancient elven city. All around you the stones
+have been crushed and scattered, left to erode with time. The greatness that
+was once here is long since gone and only the fine delicate stonework gives
+any indication of what once was. The ruins wind west and north towards some
+towers.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13762
+DOOR 3
+~
+~
+0 0 13764
+End
+
+#13764
+NAME   Walking through the rubbled ruins~
+DESCR
+You are amidst the ruins of the ancient elven city. All around you the stones
+have been crushed and scattered, left to erode with time. The greatness that
+was once here is long since gone and only the fine delicate stonework gives
+any indication of what once was. The ruins wind north towards a junction.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13765
+DOOR 1
+~
+~
+0 0 13763
+End
+
+#13765
+NAME   Between the Towers of Passing~
+DESCR
+You are standing in a large open space that appears almost as if maintained
+and kept clear. The rubble and overgrown forest flora seems to have avoided
+this region, and the destruction is more subdued here. Three towers lead off
+from the square here: a green tinted one to the north, blue tinted to the
+east and a blood red one to the west. The rubbled ruins lead southwards
+away from here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13767
+DOOR 1
+~
+~
+0 0 13766
+DOOR 2
+~
+~
+0 0 13764
+DOOR 3
+~
+~
+0 0 13768
+End
+
+#13766
+NAME   Before a tower of Blue tinged stone~
+DESCR
+You are standing at the entrance to a small but conspicuous tower. Unlike
+the rest of the ancient city this tower appears to be in almost perfect
+condition. The wind here seems stilled and unnaturally quiet, not even the
+sound of your own footsteps seems to reach your ears. A large stone door
+tinged with some strange blue colour blocks the way east into the tower.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+blue door~
+AB 0 23230
+DOOR 3
+~
+~
+0 0 13765
+End
+
+#13767
+NAME   Before a tower of Green tinged stone~
+DESCR
+You are standing at the entrance to a small but conspicuous tower. Unlike
+the rest of the ancient city this tower appears to be in almost perfect
+condition. The wind here seems stilled and unnaturally quiet, not even the
+sound of your own footsteps seems to reach your ears. A large door made from
+some green coloured stone is blocking the way north into the tower.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+green door~
+AB -1 23260
+DOOR 2
+~
+~
+0 0 13765
+End
+
+#13768
+NAME   Before a tower of Red tinged stone~
+DESCR
+You are standing at the entrance to a small but conspicuous tower. Unlike
+the rest of the ancient city this tower appears to be in almost perfect
+condition. The wind here seems stilled and unnaturally quiet, not even the
+sound of your own footsteps seems to reach your ears. A large stone door
+tinged with some strange red colour blocks the way west into the tower.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13765
+DOOR 3
+~
+red door~
+AB 0 23200
+End
+
+#13770
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13771
+DOOR 1
+~
+~
+0 0 13773
+DOOR 3
+~
+~
+0 0 13746
+End
+
+#13771
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13772
+DOOR 2
+~
+~
+0 0 13770
+End
+
+#13772
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13773
+DOOR 3
+~
+~
+0 0 13771
+End
+
+#13773
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13772
+DOOR 1
+~
+~
+0 0 13775
+DOOR 2
+~
+~
+0 0 13774
+DOOR 3
+~
+~
+0 0 13770
+End
+
+#13774
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13773
+DOOR 1
+~
+~
+0 0 13776
+End
+
+#13775
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13776
+DOOR 3
+~
+~
+0 0 13773
+End
+
+#13776
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13775
+DOOR 1
+~
+~
+0 0 13777
+DOOR 3
+~
+~
+0 0 13774
+End
+
+#13777
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13778
+DOOR 3
+~
+~
+0 0 13776
+End
+
+#13778
+NAME   On a swampy part of the ruins~
+DESCR
+The ruins here are overgrown with dark wet swamp growth. Thick wisps of foul
+marsh gas rise up and hang in the air, almost burying the ruins beneath them.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13812
+DOOR 3
+~
+~
+0 0 13777
+End
+
+#13779
+NAME   On a crumbling bridge over a black river~
+DESCR
+You stand on a wide but decayed stone bridge. Large portions of the span have
+collapsed into the stagnant black waters beneath it, leaving huge holes that
+threaten to swallow any who venture too close. To the south the ruins seem
+to have become swamped with water and covered in marsh-like flora. North of
+here there is a pile of rubbled ruins, most of which is impassable, but a
+small section can be seen cleared away to allow some exploration.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13781
+DOOR 2
+~
+~
+0 0 13758
+End
+
+#13780
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13784
+DOOR 1
+~
+~
+0 0 13781
+End
+
+#13781
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13785
+DOOR 1
+~
+~
+0 0 13782
+DOOR 2
+~
+~
+0 0 13779
+DOOR 3
+~
+~
+0 0 13780
+End
+
+#13782
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13786
+DOOR 1
+~
+~
+0 0 13783
+DOOR 3
+~
+~
+0 0 13781
+End
+
+#13783
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13787
+DOOR 3
+~
+~
+0 0 13782
+End
+
+#13784
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13792
+DOOR 1
+~
+~
+0 0 13785
+DOOR 2
+~
+~
+0 0 13780
+DOOR 3
+~
+~
+0 0 13792
+End
+
+#13785
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13789
+DOOR 1
+~
+~
+0 0 13786
+DOOR 2
+~
+~
+0 0 13781
+DOOR 3
+~
+~
+0 0 13784
+End
+
+#13786
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13790
+DOOR 1
+~
+~
+0 0 13787
+DOOR 2
+~
+~
+0 0 13782
+DOOR 3
+~
+~
+0 0 13785
+End
+
+#13787
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13800
+DOOR 2
+~
+~
+0 0 13783
+DOOR 3
+~
+~
+0 0 13786
+End
+
+#13788
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13789
+DOOR 2
+~
+~
+0 0 13784
+DOOR 3
+~
+~
+0 0 13791
+End
+
+#13789
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here. The ruins lead north, east, south and west.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13850
+DOOR 1
+~
+~
+0 0 13790
+DOOR 2
+~
+~
+0 0 13785
+DOOR 3
+~
+~
+0 0 13788
+End
+
+#13790
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13786
+DOOR 3
+~
+~
+0 0 13789
+End
+
+#13791
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13788
+DOOR 2
+~
+~
+0 0 13792
+DOOR 3
+~
+~
+0 0 13793
+End
+
+#13792
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13791
+DOOR 1
+~
+~
+0 0 13784
+DOOR 3
+~
+~
+0 0 13870
+End
+
+#13793
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13791
+DOOR 3
+~
+~
+0 0 13794
+End
+
+#13794
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13793
+DOOR 2
+~
+~
+0 0 13795
+End
+
+#13795
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13794
+DOOR 1
+~
+~
+0 0 13870
+DOOR 2
+~
+~
+0 0 13796
+End
+
+#13796
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13795
+DOOR 1
+~
+~
+0 0 13797
+End
+
+#13797
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13870
+DOOR 3
+~
+~
+0 0 13796
+End
+
+#13798
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13799
+DOOR 2
+~
+~
+0 0 13800
+End
+
+#13799
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13801
+DOOR 3
+~
+~
+0 0 13798
+End
+
+#13800
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13798
+DOOR 1
+~
+~
+0 0 13801
+DOOR 2
+~
+~
+0 0 13802
+DOOR 3
+~
+~
+0 0 13787
+End
+
+#13801
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13799
+DOOR 2
+~
+~
+0 0 13803
+DOOR 3
+~
+~
+0 0 13800
+End
+
+#13802
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13800
+DOOR 1
+~
+~
+0 0 13803
+End
+
+#13803
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13801
+DOOR 1
+~
+~
+0 0 13804
+DOOR 2
+~
+~
+0 0 13805
+DOOR 3
+~
+~
+0 0 13802
+End
+
+#13804
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13807
+DOOR 1
+~
+~
+0 0 13809
+DOOR 2
+~
+~
+0 0 13806
+DOOR 3
+~
+~
+0 0 13803
+End
+
+#13805
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13803
+DOOR 1
+~
+~
+0 0 13806
+DOOR 3
+~
+~
+0 0 13810
+End
+
+#13806
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13804
+DOOR 3
+~
+~
+0 0 13805
+End
+
+#13807
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here. To the north you can see a large building that
+appears to have been restored by someone.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13901
+DOOR 1
+~
+~
+0 0 13808
+DOOR 2
+~
+~
+0 0 13804
+End
+
+#13808
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13809
+DOOR 3
+~
+~
+0 0 13807
+End
+
+#13809
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13808
+DOOR 3
+~
+~
+0 0 13804
+End
+
+#13810
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13805
+DOOR 3
+~
+~
+0 0 13811
+End
+
+#13811
+NAME   In the ruins of an ancient city~
+DESCR
+You are standing in the remains of a very old ruined city. The rubble here
+is blasted and crushed beyond the power of anything you have ever seen before.
+Around you thick bushes and trees have grown from between the cracks in the
+stone ground, although nowhere near as much as would be expected from the time
+that the city has been here.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 0 13810
+DOOR 2
+~
+~
+0 0 13760
+End
+
+#13812
+NAME   Before a bloody signpost~
+DESCR
+Here in the middle of the marshy ruins there is a large wooden sign covered in
+dried blood and adorned with blackened and cracked skulls. The ruins to the
+north of this sign seem ominous and less disturbed than to the west, and you
+notice that almost all the tracks lead out from the north, rather than into it.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13813
+DOOR 3
+~
+~
+0 0 13778
+End
+
+#13813
+NAME   At a junction in the swampy ruins~
+DESCR
+The wet marshlands that have grown here in the ruined elven city are almost
+completely taking over the land. There is very little sign in this part of the
+city of what once was, and the way through is blocked by the dense swamp muck
+and deep holes of water. There is a wide, cleared path leading east, and a
+darker path heading west. To the south the swamps seem to recede a little.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 -1 13814
+DOOR 2
+~
+~
+0 -1 13812
+DOOR 3
+~
+~
+0 -1 13819
+End
+
+#13814
+NAME   Walking through the swamp drowned ruins~
+DESCR
+The ground here is like a normal swamp...wet, muddy and stinking. There is
+almost no signs of the ancient city that once held power in this region, and
+it's almost as if it never had been here. This swampy region is the most
+blatantly obliterated part of the entire elven city.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 -1 13815
+DOOR 3
+~
+~
+0 -1 13813
+End
+
+#13815
+NAME   Walking through the swamp drowned ruins~
+DESCR
+The ground here is like a normal swamp...wet, muddy and stinking. There is
+almost no signs of the ancient city that once held power in this region, and
+it's almost as if it never had been here. This swampy region is the most
+blatantly obliterated part of the entire elven city. The path heads north
+and west, and to the east you can smell the faint smell of salty air.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13816
+DOOR 1
+~
+~
+0 -1 13890
+DOOR 3
+~
+~
+0 -1 13814
+End
+
+#13816
+NAME   Walking through the swamp drowned ruins~
+DESCR
+The ground here is like a normal swamp...wet, muddy and stinking. There is
+almost no signs of the ancient city that once held power in this region, and
+it's almost as if it never had been here. This swampy region is the most
+blatantly obliterated part of the entire elven city.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13817
+DOOR 2
+~
+~
+0 -1 13815
+End
+
+#13817
+NAME   Walking through the swamp drowned ruins~
+DESCR
+The ground here is like a normal swamp...wet, muddy and stinking. There is
+almost no signs of the ancient city that once held power in this region, and
+it's almost as if it never had been here. This swampy region is the most
+blatantly obliterated part of the entire elven city. To the east you can make
+out what looks like a raised clearing of rock above the swampy waters.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 -1 13818
+DOOR 2
+~
+~
+0 -1 13816
+End
+
+#13818
+NAME   The residence of an Ancient Green dragon~
+DESCR
+You stand upon a wide upraised part of the swamp. Large claw marks have been
+scratched into the rocky surface of the rock and the burning smell of chlorine
+fills the air.
+~
+FLAGS  8
+Sect   0
+DOOR 3
+~
+~
+0 -1 13817
+End
+
+#13819
+NAME   In a quiet swampy part of the ruins~
+DESCR
+The ruins here are almost buried by the swamp that has grown over it. Unlike
+most of the ancient elven city this part seems to have been almost obliterated
+by the destruction, leaving barely the smallest signs of what once was. There
+is an unnerving stillness in this region.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13820
+DOOR 1
+~
+~
+0 -1 13813
+End
+
+#13820
+NAME   In a quiet swampy part of the ruins~
+DESCR
+The ruins here are almost buried by the swamp that has grown over it. Unlike
+most of the ancient elven city this part seems to have been almost obliterated
+by the destruction, leaving barely the smallest signs of what once was. There
+is an unnerving stillness in this region.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 -1 13819
+DOOR 3
+~
+~
+0 -1 13821
+End
+
+#13821
+NAME   In a quiet swampy part of the ruins~
+DESCR
+The ruins here are almost buried by the swamp that has grown over it. Unlike
+most of the ancient elven city this part seems to have been almost obliterated
+by the destruction, leaving barely the smallest signs of what once was. There
+is an unnerving stillness in this region.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13822
+DOOR 1
+~
+~
+0 -1 13820
+End
+
+#13822
+NAME   In a quiet swampy part of the ruins~
+DESCR
+The ruins here are almost buried by the swamp that has grown over it. Unlike
+most of the ancient elven city this part seems to have been almost obliterated
+by the destruction, leaving barely the smallest signs of what once was. There
+is an unnerving stillness in this region. To the northeast you can see what
+looks like a black tower standing within the swampy ruins.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13823
+DOOR 2
+~
+~
+0 -1 13821
+End
+
+#13823
+NAME   In a quiet swampy part of the ruins~
+DESCR
+The ruins here are almost buried by the swamp that has grown over it. Unlike
+most of the ancient elven city this part seems to have been almost obliterated
+by the destruction, leaving barely the smallest signs of what once was. There
+is an unnerving stillness in this region. To the east you can see what looks
+like a black tower standing within the swampy ruins.
+~
+FLAGS  8
+Sect   0
+DOOR 1
+~
+~
+0 -1 13824
+DOOR 2
+~
+~
+0 -1 13822
+End
+
+#13824
+NAME   Before the Black tinged tower in the swampy ruins~
+DESCR
+You find yourself at the end of the swamp paths and before a large tower black
+tinged stone. The surface of the strange building appears smooth and strong,
+and it looks new even though the swamp growth has covered almost halfway up
+it's height. There is a black door leading north into the tower.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+black door~
+AB -1 13825
+DOOR 3
+~
+~
+0 -1 13823
+End
+
+#13825
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads east and west, and there is a black
+door in the south wall leading outside.
+~
+FLAGS  5242888
+Sect   0
+DOOR 1
+~
+~
+0 -1 13826
+DOOR 2
+~
+black door~
+AB -1 13824
+DOOR 3
+~
+~
+0 -1 13832
+End
+
+#13826
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads north and west.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13827
+DOOR 3
+~
+~
+0 -1 13825
+End
+
+#13827
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads north and south.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13828
+DOOR 2
+~
+~
+0 -1 13826
+End
+
+#13828
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads south and west.
+~
+FLAGS  5242888
+Sect   0
+DOOR 2
+~
+~
+0 -1 13827
+DOOR 3
+~
+~
+0 -1 13829
+End
+
+#13829
+NAME   Before a huge black door~
+DESCR
+You are in a hallway surrounded by black stone and silence. To the south you
+can almost feel a prescence of pure evil through a massive green door.
+~
+FLAGS  5242888
+Sect   0
+DOOR 1
+~
+~
+0 -1 13828
+DOOR 2
+~
+green door~
+ABCFGM 23260 13833
+DOOR 3
+~
+~
+0 -1 13830
+End
+
+#13830
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads south and east.
+~
+FLAGS  5242888
+Sect   0
+DOOR 1
+~
+~
+0 -1 13829
+DOOR 2
+~
+~
+0 -1 13831
+End
+
+#13831
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads north and south.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13830
+DOOR 2
+~
+~
+0 -1 13832
+End
+
+#13832
+NAME   In a black hallway~
+DESCR
+You are in a hallway surrounded by black stone and silence. Nothing seems to
+stir, not even the air from the marshes outside. Their is something cold and
+evil in the air here. The hallway heads north and east.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13831
+DOOR 1
+~
+~
+0 -1 13825
+End
+
+#13833
+NAME   A cold dark room~
+DESCR
+You have entered a room of the coldest winter. The air from your breath
+freezes upon your lips and your body almost goes into shock from the cold.
+There is nothing but ice and darkness in here. A massive green door lies in
+the northern wall and a stairwell heads up into the cold night.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+green door~
+ABCFGM 23260 13829
+DOOR 4
+~
+~
+0 -1 13834
+End
+
+#13834
+NAME   In a chilling dark hallway~
+DESCR
+The hallway here is not only dark but freezing cold. Ice hangs from the roof
+and staligmites of frozen blood protrude from the floor. The hallway heads off
+south, or you can take a staircase leading down.
+~
+FLAGS  5242888
+Sect   0
+DOOR 2
+~
+~
+0 -1 13835
+DOOR 5
+~
+~
+0 -1 13833
+End
+
+#13835
+NAME   Before a door of frozen blood~
+DESCR
+You are standing in a freezing room where even the walls themselves seem to
+be shivering. To the south there is a door of what looks like frozen blood.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13834
+DOOR 2
+~
+blood red door~
+ABCFGM 23200 13836
+End
+
+#13836
+NAME   In a pitch black room~
+DESCR
+It's totally dark in here, your own light can't even penetrate more than two
+feet into the night. The air freezes on your breath, and even more chilling is
+the sound of something horribly powerful breathing and sending tremors through
+the tower. There is a bloody frozen door in the north wall and a staircase
+leading up.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+blood red door~
+ABCFGM 23200 13835
+DOOR 4
+~
+~
+0 -1 13837
+End
+
+#13837
+NAME   In a patch black hallway~
+DESCR
+It's totally dark here and you only know it is a hallway by the shape of the
+walls around you. Somewhere nearby a deep rumbling sends tremors through the
+floor and a heart stopping breathing sound can be heard. There is a staircase
+leading down, or you can go north along the hallway.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+~
+0 -1 13838
+DOOR 5
+~
+~
+0 -1 13836
+End
+
+#13838
+NAME   Before a dark blue door~
+DESCR
+You are in a totally dark hallway and the only thing you can see is the faint
+glow of a blue door in the north wall. As you approach it a physical feeling
+of pure hate and malice seems to come washing through it at you.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+blue door~
+ABCFGM 23230 13839
+DOOR 2
+~
+~
+0 -1 13837
+End
+
+#13839
+NAME   In a bare black room~
+DESCR
+This room is totally bare, like a monastic refuge. The atmosphere, however, is
+chilling and almost overpowering in it's hate and evil. You can hear what is
+unmistakably the breathing of some massive and powerful creature nearby. To
+the south is a huge dark blue door, and a staircase heads up.
+~
+FLAGS  5242888
+Sect   0
+DOOR 2
+~
+blue door~
+ABCFGM 23230 13838
+DOOR 4
+~
+~
+0 -1 13841
+End
+
+#13841
+NAME   Before a massive door of blackened heartstone~
+DESCR
+You are standing in a room of pure black rock. A prescence of immense power
+can be physically felt from here, almost like it was existing beyond the normal
+sense of real. In the north wall there is a door of indestructable heartstone
+that has somehow been charred and blackend.
+~
+FLAGS  5242888
+Sect   0
+DOOR 0
+~
+black heartstone door~
+AB -1 13842
+DOOR 5
+~
+~
+0 -1 13839
+End
+
+#13842
+NAME   In the room of Binding Light~
+DESCR
+This room is totally different to those before it. In here there is light that
+seems almost blinding and the atmosphere is one of subdued violence. Somehow
+something of divine power has created a room to nullify the darkest powers that
+reside in this ruined city, but not powerful enough to destroy it. The only
+way out is through the blackened heartstone door in the south wall.
+~
+FLAGS  5242888
+Sect   0
+DOOR 2
+~
+black heartstone door~
+AB -1 13841
+End
+
+#13843
+NAME   On a dock in a bloody harbour~
+DESCR
+You are on a collapsed and ruined dock made of rusted steel and decayed wood.
+To the south you can see one of the harbours of Myth Drannor, filled with a
+shallow blood red water that laps continuosly upon the ruined harbour. The
+salty smell of blood fills the air, and there is something powerful and
+disturbing about the way the region seems locked in time. It is as if the
+bloodshed of the elves were only yesterday and not centuries ago. There is a
+ruined boathouse to the north, or you can walk east across the docks. West of
+here lie the marshlands of the Drannor ruins.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13848
+DOOR 1
+~
+~
+0 0 13844
+DOOR 3
+~
+~
+0 0 13894
+End
+
+#13844
+NAME   On a dock in a bloody harbour~
+DESCR
+You are on a collapsed and ruined dock made of rusted steel and decayed wood.
+To the south you can see one of the harbours of Myth Drannor, filled with a
+shallow blood red water that laps continuosly upon the ruined harbour. The
+salty smell of blood fills the air, and there is something powerful and
+disturbing about the way the region seems locked in time. It is as if the
+bloodshed of the elves were only yesterday and not centuries ago. You can walk
+east and west across the docks, or head south into the shallow blood red
+waters of the harbour.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13845
+DOOR 2
+~
+~
+0 0 13891
+DOOR 3
+~
+~
+0 0 13843
+End
+
+#13845
+NAME   On a dock in a bloody harbour~
+DESCR
+You are on a collapsed and ruined dock made of rusted steel and decayed wood.
+To the south you can see one of the harbours of Myth Drannor, filled with a
+shallow blood red water that laps continuosly upon the ruined harbour. The
+salty smell of blood fills the air, and there is something powerful and
+disturbing about the way the region seems locked in time. It is as if the
+bloodshed of the elves were only yesterday and not centuries ago. You can walk
+east and west across the docks, or head south into the shallow blood red
+waters of the harbour.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13846
+DOOR 2
+~
+~
+0 0 13892
+DOOR 3
+~
+~
+0 0 13844
+End
+
+#13846
+NAME   On a dock in a bloody harbour~
+DESCR
+You are on a collapsed and ruined dock made of rusted steel and decayed wood.
+To the south you can see one of the harbours of Myth Drannor, filled with a
+shallow blood red water that laps continuosly upon the ruined harbour. The
+salty smell of blood fills the air, and there is something powerful and
+disturbing about the way the region seems locked in time. It is as if the
+bloodshed of the elves were only yesterday and not centuries ago. You can walk
+east and west across the docks, or head south into the shallow blood red
+waters of the harbour. There is a ruined old boat house to the north.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13849
+DOOR 1
+~
+~
+0 0 13847
+DOOR 2
+~
+~
+0 0 13853
+DOOR 3
+~
+~
+0 0 13845
+End
+
+#13847
+NAME   End of a dock in a bloody harbour~
+DESCR
+You are on a collapsed and ruined dock made of rusted steel and decayed wood.
+To the south you can see one of the harbours of Myth Drannor, filled with a
+shallow blood red water that laps continuosly upon the ruined harbour. The
+salty smell of blood fills the air, and there is something powerful and
+disturbing about the way the region seems locked in time. It is as if the
+bloodshed of the elves were only yesterday and not centuries ago. There is an
+old boat house to the north, or the docks head west towards the harbour.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13893
+DOOR 3
+~
+~
+0 0 13846
+End
+
+#13848
+NAME   In a destroyed boat house~
+DESCR
+This old wooden shack on the harbour is totally demolished. The wood and
+scraps left over from the city's destruction lie cluttered amidst the wet,
+bloody waters seeping in from the harbour. The only exit is back to the
+south to the ruined docks of the Drannor harbour.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13843
+End
+
+#13849
+NAME   Within a blood soaked boat house~
+DESCR
+This destroyed boat house is still covered in wet, warm blood. It is
+almost as if the annihilation of the elven people in the city had only
+just occurred in the last few hours, rather than centuries ago. The scent
+of warm salty blood still hangs in the air, and the waters outside lap up
+into the shack carrying more bloody red waters. The only exit is back to
+the south onto the ruined docks of the harbour.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13846
+End
+
+#13850
+NAME   In the northern ruins of the city~
+DESCR
+The ruins here seem to have been cleared somewhat and it is possible to just
+make your way through the rubble and into the northern part of the ruins. All
+around you the air seems unnaturally still an atmosphere of contained evil
+hangs all around you.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13851
+DOOR 2
+~
+~
+0 0 13789
+End
+
+#13851
+NAME   In the northern ruins of the city~
+DESCR
+You are standing in the rubbled remains of the ancient elven city. Very little
+has been left to observe and it's hard to see the old grandeur that once was.
+You can just make your way a little more north through the cleared rubble or
+head south to the main ruins.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 -1 13852
+DOOR 2
+~
+~
+0 -1 13850
+End
+
+#13852
+NAME   In the northern ruins of the city~
+DESCR
+You are standing at the most northern part of the ruins that seems accessable.
+From here the rubble and ruin is impassable in all but the south, and even
+there it is only passable because someone has recently cleared a narrow path.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 -1 13851
+DOOR 5
+~
+~
+0 0 18114
+End
+
+#13853
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour heads south and west, or you can go north onto the
+ruined docks.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13846
+DOOR 2
+~
+~
+0 0 13856
+DOOR 3
+~
+~
+0 0 13892
+End
+
+#13854
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters go north, east and south. You can make out the
+docks off to the north.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13891
+DOOR 1
+~
+~
+0 0 13855
+DOOR 2
+~
+~
+0 0 13857
+End
+
+#13855
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters head off in all directions around you. In the
+distance to the north you can make out some docks.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13892
+DOOR 1
+~
+~
+0 0 13856
+DOOR 2
+~
+~
+0 0 13858
+DOOR 3
+~
+~
+0 0 13854
+End
+
+#13856
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters head off to the north, south and west. You can
+just make out the docks in the distance to the north.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13853
+DOOR 2
+~
+~
+0 0 13859
+DOOR 3
+~
+~
+0 0 13855
+End
+
+#13857
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters head off to the north and east.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13854
+DOOR 1
+~
+~
+0 0 13858
+End
+
+#13858
+NAME   Before a bloody river outlet in the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters head off to the north, east and west. To the
+south the harbour narrows into a small channel of blood filled water.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13855
+DOOR 1
+~
+~
+0 0 13859
+DOOR 2
+~
+~
+0 0 13860
+DOOR 3
+~
+~
+0 0 13857
+End
+
+#13859
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very 
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour waters head off to the north and west.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13856
+DOOR 3
+~
+~
+0 0 13858
+End
+
+#13860
+NAME   Wading through the bloody river outlet~
+DESCR
+You stand knee deep in the murky blood red waters of a small river
+flowing out of the harbour to the north. There is no sign of the normal
+animal activity you expect from a river in fertile forest land, and
+something dark and disturbing is in the air. The river continues to flow
+south, or you can head north into the shallow harbour waters of one of
+Drannor's ancient ports.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13858
+DOOR 2
+~
+~
+0 0 13861
+End
+
+#13861
+NAME   Wading through the bloody river outlet~
+DESCR
+You stand knee deep in the murky blood red waters of a small river
+flowing out of the harbour to the north. There is no sign of the normal
+animal activity you expect from a river in fertile forest land, and
+something dark and disturbing is in the air. The river continues to flow
+east or you can wade back north through it.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13860
+DOOR 1
+~
+~
+0 0 13862
+End
+
+#13862
+NAME   Wading through the bloody river outlet~
+DESCR
+You stand knee deep in the murky blood red waters of a small river
+flowing out of the harbour to the north. There is no sign of the normal
+animal activity you expect from a river in fertile forest land, and
+something dark and disturbing is in the air. The river continues to flow
+east or you can wade back west through it.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13863
+DOOR 3
+~
+~
+0 0 13861
+End
+
+#13863
+NAME   Wading through the bloody river outlet~
+DESCR
+You stand knee deep in the murky blood red waters of a small river
+flowing out of the harbour to the west and north. There is no sign of the
+normal animal activity you expect from a river in fertile forest land, and
+something dark and disturbing is in the air. The river continues to flow
+east or you can wade back west through it.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13864
+DOOR 3
+~
+~
+0 0 13862
+End
+
+#13864
+NAME   A bend in the bloody river outlet~
+DESCR
+You stand knee deep in the murky blood red waters of a small river
+flowing out of the harbours to the west and north. There is no sign of the
+normal animal activity you expect from a river in fertile forest land, and
+something dark and disturbing is in the air. The river continues to flow
+south or you can wade back west through it.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13865
+DOOR 3
+~
+~
+0 0 13863
+End
+
+#13865
+NAME   In a bone and blood filled river outlet~
+DESCR
+The blood red river is mixed with floating bones of elven origin. All
+around you bones of all sizes, from babies to adults, bob up and down in
+the murky river. None show signs of corrosiion or decay as you would
+expect after centuries in the water, and some even appear to almost have
+flesh still hanging off them. It is as if the region were preserved as it
+was on the day that the massacres occured. The river heads east where you
+can make out a large embankment of bones sitting high upon the river, or
+back north.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13864
+DOOR 1
+~
+~
+0 0 13866
+End
+
+#13866
+NAME   At the edge of a bone embankment~
+DESCR
+You have reached the edge of a huge, isle-like embankment made of bones
+from long dead elves. The bloody waters of the river flow around and
+through the gaps in the bone isle, and it is almost as if the massacre
+were yesterday rather than centuries ago. Something further off in the
+bone structure stirs, sending a tremor through them. The river heads back
+west, or you can go east onto the bone isle.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13867
+DOOR 3
+~
+~
+0 0 13865
+End
+
+#13867
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. Something very dark
+and disturbing sends a chill through you as you gaze over the piles of
+bones. To the north and east you can see the ruins of many ships that were
+destroyed as the elves tried to flee the massacre. West of here the isle
+heads out to the river.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13884
+DOOR 1
+~
+~
+0 0 13868
+DOOR 3
+~
+~
+0 0 13866
+End
+
+#13868
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. For a moment it seems
+the isle shifts beneath you as if the bones were still alive...a chill
+through you as you gaze over the isle of bones. To the north you can see
+the ruins of many ships that were destroyed as the elves tried to flee the
+massacre.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13871
+DOOR 1
+~
+~
+0 0 13869
+DOOR 3
+~
+~
+0 0 13867
+End
+
+#13869
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. For a moment it seems
+the isle shifts beneath you as if the bones were still alive...a chill
+through you as you gaze over the isle of bones. To the north  and west you
+can see the ruins of many ships that were destroyed as the elves tried to
+flee the massacre. East of here there is a huge mountain of bones blocking
+the river flow.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13872
+DOOR 1
+~
+~
+0 0 13873
+DOOR 3
+~
+~
+0 0 13868
+End
+
+#13870
+NAME   At the entrance to a restored building~
+DESCR
+Here amongst the ruins of Myth Drannor a single building seems to have been
+restored from the destruction. The stone building shows the signs of massive
+damage that everything else shows, but it has been restored to an almost decent
+level by someone or something. As you walk by the building your feet slip in
+some thick, sticky fluid that gives off a terribly stench. A doorway leads
+north into the building or you can go east, south or west around the rubble of
+the city.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 17700
+DOOR 1
+~
+~
+0 0 13792
+DOOR 2
+~
+~
+0 0 13797
+DOOR 3
+~
+~
+0 0 13795
+End
+
+#13871
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. For a moment it seems
+the isle shifts beneath you as if the bones were still alive...a chill
+through you as you gaze over the isle of bones. To the north you can see
+the ruins of many ships that were destroyed as the elves tried to flee the
+massacre.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13874
+DOOR 1
+~
+~
+0 0 13872
+DOOR 2
+~
+~
+0 0 13868
+DOOR 3
+~
+~
+0 0 13884
+End
+
+#13872
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. For a moment it seems
+the isle shifts beneath you as if the bones were still alive...a chill
+through you as you gaze over the isle of bones. To the west and north you
+can see the ruins of many ships that were destroyed as the elves tried to
+flee the massacre.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13869
+DOOR 3
+~
+~
+0 0 13871
+End
+
+#13873
+NAME   Before a dam built from elven bones~
+DESCR
+You are at the edge of the isle of bones where a huge pile has been
+erected to totally seal of the river. There must be thousands of dead
+elves left here to dam up the river, preventing the waters from flowing
+out of the harbours of Myth Drannor, and keeping it forever in a state of
+bloody waters. The bones around you seem to shift slightly, and it's like
+being in an earthquake of bones. The isle heads back to the west, and
+there is no way through the solid blockade to the east.
+~
+FLAGS  0
+Sect   0
+DOOR 3
+~
+~
+0 0 13869
+End
+
+#13874
+NAME   Standing at the edge of a huge graveyard of ships~
+DESCR
+Here at the northern edge of the bone isle you can see the extent of the
+massacre that must have occured centuries ago. Scores of large ships and
+boats have been totally demolished and left to rot in the bloody, bone
+filled waters. Burnt and blasted hulls litter the entire region, and
+skeletons of elves hang lifelessly from the helms and bridges of them.
+There is no doubt that the forces that blocked and slayed the elves as
+they tried to flee were powerful beyond anything seen in recent times. The
+smashed boat graveyard is too hazardous to explore, and you can only head
+back south onto the isle of elf bones.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13871
+End
+
+#13875
+NAME   In the ruins of the city walls~
+DESCR
+The walls here is hollowed out for defence, but the dried skeletons that
+lie scattered across the floor show that it did little good. The air is
+dusty and dry, stale with ages of being kept locked up. There is slight
+break in the west wall here, or you can head south along the inside of the
+wall.
+~
+FLAGS  8
+Sect   0
+DOOR 2
+~
+~
+0 0 13876
+DOOR 3
+~
+secret rock~
+AB -1 13717
+End
+
+#13876
+NAME   In the ruins of the city walls~
+DESCR
+The crumbling walls here are just as bad as outside, and the air is stale
+and stinks of death. You can head south or north.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13875
+DOOR 2
+~
+~
+0 0 13877
+End
+
+#13877
+NAME   Above a hole in the city walls~
+DESCR
+Here in the crumbling walls of the city you can see a small hole that has
+been excavated in the ground. The work is poor and hasty, and there is no
+signs of life down below. The wall passage heads back north.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13876
+DOOR 5
+~
+~
+0 0 13878
+End
+
+#13878
+NAME   In a small excavated hole beneath the walls~
+DESCR
+You are in a small hole that seems to have been dug out in a hurry. The
+ground is littered with long dead elven skeletons, and there is nothing of
+interest that hasn't already long been decayed. A hole leads back up, or
+you can go north to what appears to be a door.
+~
+FLAGS  8
+Sect   0
+DOOR 0
+~
+~
+0 0 13879
+DOOR 4
+~
+~
+0 0 13877
+End
+
+#13879
+NAME   Outside a door in the crumbling walls~
+DESCR
+You are standing in the dark tunnel beneath the city walls. For some
+reason the tunnel here hasn't collapsed like most of the ruins, and there
+is a large oak door in the east wall which is in extremely good condition.
+~
+FLAGS  8
+Sect   0
+EDESC  oak door~
+The door seems to feel warm, almost like it were alive. There is, however,
+nothing that really seems special about it.
+~
+DOOR 1
+~
+oak door~
+AB -1 13881
+DOOR 2
+~
+~
+0 0 13878
+End
+
+#13881
+NAME   Inside a small room beneath the crumbling walls~
+DESCR
+You are in a tiny, bare room that is in almost perfect condition. Unlike
+the rest of the ruins this room has no signs of decay or ruin, and it is
+almost as if it had been built yesterday. There is, however, nothing of
+interest in it but the large oak door in the west wall.
+~
+FLAGS  8
+Sect   0
+EDESC  oak door~
+The door seems to feel warm, almost like it were alive. There is, however,
+nothing that really seems special about it.
+~
+DOOR 3
+~
+oak door~
+AB -1 13879
+End
+
+#13884
+NAME   On an isle of elven bones~
+DESCR
+You stand on an isle consisting almost purely of bones from long dead
+elves. There must be thousands of bodies piled up here, all left to rot
+and decay in the bloody waters. Yet somehow they seem recent, like they
+were slain only recently rather than centuries ago. For a moment it seems
+the isle shifts beneath you as if the bones were still alive...a chill
+through you as you gaze over the isle of bones. To the east and north you
+can see the ruins of many ships that were destroyed as the elves tried to
+flee the massacre.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13871
+DOOR 2
+~
+~
+0 0 13867
+End
+
+#13890
+NAME   On a wet, marshland path in the ruins~
+DESCR
+You are on a path through the marshlands that have overgrown the ancient
+ruins. There is a faint smell of salty sea water coming from the east,
+and to the west the path heads back to a T-junction in the swamps.
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13894
+DOOR 3
+~
+~
+0 0 13815
+End
+
+#13891
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour heads east and south, or you can go north onto the
+ruined docks.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13844
+DOOR 1
+~
+~
+0 0 13892
+DOOR 2
+~
+~
+0 0 13854
+End
+
+#13892
+NAME   Wading through the bloody waters of the harbour~
+DESCR
+You are standing knee deep in the red tinted waters of the ancient
+harbour. Your steps are made harder by the sucking and clinging mud
+beneath the murky water, and the air is warm with the smell of blood.
+There are no fish to be seen and there is a total lack of animal prescence
+where normally water would attract much attention. Something very
+disturbing has happened here, and the power of it still lingers in the
+region. The harbour heads east, south and west, or you can go north onto
+the ruined docks.
+~
+FLAGS  0
+Sect   0
+DOOR 0
+~
+~
+0 0 13845
+DOOR 1
+~
+~
+0 0 13853
+DOOR 2
+~
+~
+0 0 13855
+DOOR 3
+~
+~
+0 0 13891
+End
+
+#13893
+NAME   In a burnt out harbour-master's room~
+DESCR
+You are in the ruined remains of what was once the harbour master's room
+for this port of Myth Drannor's boats. There is nothing here now but the
+smell of blood and a feeling of disturbed peace. It is as if time has
+stopped here, capturing the feel and blood of the ancient fall of the
+city, rather than being just another dried out hole that you would expect.
+You can head south onto the docks.
+~
+FLAGS  0
+Sect   0
+DOOR 2
+~
+~
+0 0 13847
+End
+
+#13894
+NAME   At the edge of the swampland ruins~
+DESCR
+You are at the eastern edge of the ruins amongst the overgrown swamps. To
+the east you can make out what looks like the ruins of one of the city's
+ancient harbours. Unlike the rest of the swampy ruins the harbour to the
+east seems to be relatively free of swamp and forest growth, and there is
+the strong smell of salt water, or blood, in the air...
+~
+FLAGS  0
+Sect   0
+DOOR 1
+~
+~
+0 0 13843
+DOOR 3
+~
+~
+0 0 13890
+End
+
+#0
+
+
+
+#SPECIALS
+M 13707 spec_breath_gas
+M 13715 spec_black_dragon
+M 13716 spec_spectre_king
+M 13717 spec_fallen_angel
+M 13718 spec_cast_mage
+M 13724 spec_hydra
+M 13730 spec_valere_knight
+M 13731 spec_bone_demon
+M 13732 spec_drannor_wraith
+S
+
+
+
+#RESETS
+D 0 13717 1 1
+D 0 13766 1 1
+D 0 13767 0 1
+D 0 13768 3 1
+D 0 13824 0 1
+D 0 13825 2 1
+D 0 13829 2 2
+D 0 13833 0 2
+D 0 13835 2 2
+D 0 13836 0 2
+D 0 13838 0 2
+D 0 13839 2 2
+D 0 13841 0 1
+D 0 13842 2 1
+D 0 13875 3 1
+D 0 13879 1 1
+D 0 13881 3 1
+M 0 13702 8 13703 1
+E 0 13705 0 5
+E 0 13706 0 9
+E 0 13704 0 16
+M 0 13702 8 13706 1
+E 0 13705 0 5
+E 0 13706 0 9
+E 0 13704 0 16
+O 0 13741 0 13707
+M 0 13702 8 13709 1
+E 0 13705 0 5
+E 0 13706 0 9
+E 0 13704 0 16
+M 0 13702 8 13713 1
+E 0 13705 0 5
+E 0 13704 0 16
+E 0 13706 0 9
+O 0 13740 0 13716
+M 0 13702 8 13717 1
+E 0 13705 0 5
+E 0 13704 0 16
+E 0 13706 0 9
+O 0 13740 0 13720
+M 0 13702 8 13721 1
+E 0 13718 0 16
+E 0 13705 0 5
+E 0 13706 0 9
+O 0 13742 0 13726
+M 0 13702 8 13726 1
+E 0 13718 0 16
+E 0 13705 0 5
+E 0 13706 0 9
+M 0 13702 8 13731 1
+E 0 13718 0 16
+E 0 13705 0 5
+E 0 13706 0 9
+M 0 13700 12 13733 1
+O 0 13745 0 13738
+M 0 13704 12 13738 1
+M 0 13709 9 13738 1
+M 0 13700 12 13739 1
+O 0 13740 0 13740
+M 0 13704 12 13741 1
+M 0 13708 8 13741 1
+E 0 13702 0 11
+E 0 13703 0 5
+M 0 13701 3 13742 1
+M 0 13704 12 13742 1
+O 0 13741 0 13743
+M 0 13704 12 13744 1
+M 0 13704 12 13746 1
+O 0 13745 0 13747
+O 0 13742 0 13747
+M 0 13700 12 13747 1
+O 0 13745 0 13749
+M 0 13700 12 13749 1
+M 0 13704 12 13749 1
+M 0 13708 8 13749 1
+E 0 13700 0 16
+E 0 13702 0 11
+E 0 13703 0 5
+M 0 13704 12 13751 1
+M 0 13709 9 13752 1
+M 0 13700 12 13753 1
+M 0 13709 9 13754 1
+O 0 13741 0 13755
+M 0 13708 8 13755 1
+E 0 13701 0 16
+E 0 13702 0 11
+O 0 13740 0 13756
+O 0 13742 0 13756
+M 0 13704 12 13757 1
+O 0 13745 0 13760
+O 0 13742 0 13762
+M 0 13703 1 13763 1
+M 0 13709 9 13763 1
+M 0 13711 1 13766 1
+E 0 13709 0 1
+M 0 13712 1 13767 1
+E 0 13708 0 1
+M 0 13706 1 13768 1
+E 0 13707 0 1
+M 0 13704 12 13770 1
+M 0 13709 9 13770 1
+M 0 13708 8 13771 1
+E 0 13700 0 16
+E 0 13702 0 11
+M 0 13704 12 13772 1
+M 0 13708 8 13773 1
+E 0 13702 0 11
+E 0 13703 0 5
+M 0 13704 12 13774 1
+M 0 13708 8 13774 1
+E 0 13701 0 16
+E 0 13703 0 5
+O 0 13741 0 13775
+M 0 13704 12 13775 1
+M 0 13708 8 13776 1
+E 0 13703 0 5
+E 0 13701 0 16
+M 0 13708 8 13777 1
+E 0 13702 0 11
+E 0 13703 0 5
+M 0 13701 3 13780 1
+O 0 13745 0 13784
+M 0 13700 12 13784 1
+M 0 13709 9 13784 1
+M 0 13700 12 13786 1
+M 0 13709 9 13787 1
+O 0 13740 0 13788
+M 0 13719 3 13791 1
+M 0 13700 12 13794 1
+M 0 13709 9 13794 1
+M 0 13722 2 13794 1
+E 0 13727 0 16
+E 0 13728 0 12
+M 0 13721 1 13796 1
+E 0 13727 0 16
+O 0 13741 0 13797
+M 0 13700 12 13797 1
+M 0 13722 2 13799 1
+E 0 13727 0 16
+E 0 13728 0 12
+O 0 13740 0 13800
+M 0 13700 12 13800 1
+M 0 13701 3 13802 1
+M 0 13719 3 13803 1
+O 0 13746 0 13807
+M 0 13700 12 13808 1
+M 0 13709 9 13808 1
+M 0 13700 12 13811 1
+O 0 13741 0 13812
+M 0 13707 1 13818 1
+E 0 13730 0 8
+E 0 13731 0 17
+M 0 13723 1 13822 1
+E 0 13732 0 16
+E 0 13733 0 17
+E 0 13734 0 6
+E 0 13735 0 12
+M 0 13729 4 13823 1
+M 0 13713 1 13824 1
+E 0 13710 0 1
+M 0 13716 1 13833 1
+E 0 13717 0 17
+E 0 13716 0 6
+E 0 13720 0 1
+M 0 13715 1 13836 1
+E 0 13714 0 16
+E 0 13715 0 3
+M 0 13717 1 13839 1
+E 0 13711 0 12
+E 0 13723 0 1
+M 0 13718 1 13842 1
+E 0 13712 0 6
+E 0 13724 0 1
+G 0 13713 0
+G 0 13722 0
+M 0 13729 4 13844 1
+M 0 13719 3 13850 1
+O 0 13747 0 13852
+O 0 13745 0 13854
+M 0 13728 5 13855 1
+M 0 13728 5 13857 1
+M 0 13728 5 13859 1
+M 0 13729 4 13861 1
+M 0 13728 5 13862 1
+M 0 13731 1 13873 1
+O 0 13745 0 13877
+O 0 13740 0 13877
+M 0 13726 1 13881 1
+O 0 13742 0 13890
+M 0 13729 4 13890 1
+M 0 13728 5 13891 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#IMPROGS
+I 13711 fight_prog fight_prog_shredded_wings
+I 13720 fight_prog fight_prog_blood_bracelet
+I 13725 fight_prog fight_prog_hair_bracelet
+E
+
+
+
+#$
