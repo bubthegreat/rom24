@@ -83,13 +83,11 @@ def fire_arrival(ch):
     if room is None:
         return
 
-    # Single pass: compute has_pc (ch contributes if PC) and collect residents.
-    # has_pc is needed to decide whether mob greet_progs fire (C :493).
-    has_pc = not ch.is_npc()
+    # Two-pass structure matches C act_move.c:475-500.
+    # Pass 1: compute has_pc for ALL room occupants including the mover (C :475-480).
+    has_pc = False
     residents = []
     for cid in room.people[:]:
-        if cid == ch.instance_id:
-            continue
         other = instance.characters.get(cid)
         if other is None:
             continue
@@ -97,24 +95,34 @@ def fire_arrival(ch):
             has_pc = True
         residents.append(other)
 
+    # Pass 2: fire greet_progs for every person in room including the mover (C :482-494).
+    # C iterates to_room->people INCLUDING ch; the mover's own carried greet items fire,
+    # and an NPC mover self-greets (individual progs guard with IS_NPC(ch) checks in C).
     for other in residents:
-        # (1) Items carried by chars already in the room: greet_prog(obj, ch)
-        for item_id in other.items:
-            item = instance.items.get(item_id)
-            if item is not None:
-                dispatch.fire(item, "greet_prog", ch)
+        # (1) Items carried by chars in the room: greet_prog(obj, ch) — C :486
+        # Gated on room_has_pc matching C `for (obj = fch->carrying; room_has_pc && ...)`.
+        if has_pc:
+            for item_id in other.items:
+                item = instance.items.get(item_id)
+                if item is not None:
+                    dispatch.fire(item, "greet_prog", ch)
 
-        # (2) Mob greet_prog(mob, ch) — only when room contains a PC
+        # (2) Mob greet_prog(mob, ch) — only when room contains a PC (C :492)
         if other.is_npc() and has_pc:
             dispatch.fire(other, "greet_prog", ch)
 
-    # (3) ch's carried items: entry_prog(obj)
-    for item_id in ch.items:
-        item = instance.items.get(item_id)
-        if item is not None:
-            dispatch.fire(item, "entry_prog")
+    # (3) ch's carried items: entry_prog(obj) — C :496, gated on room_has_pc
+    if has_pc:
+        for item_id in ch.items:
+            item = instance.items.get(item_id)
+            if item is not None:
+                dispatch.fire(item, "entry_prog")
 
     # (4) ch is an NPC with entry_prog: fire entry_prog(ch)
+    # NOTE: C fires this AFTER the follower cascade and circular-move early-return
+    # (act_move.c:533-534). Python fires here, before move_char's follower cascade.
+    # Census = 2 entry progs in area data; this timing deviation is acceptable and
+    # documented here as a deliberate deviation from strict C ordering.
     if ch.is_npc():
         dispatch.fire(ch, "entry_prog")
 

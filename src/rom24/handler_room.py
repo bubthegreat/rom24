@@ -128,8 +128,11 @@ class Room(
         instance_object.environment = self.instance_id
         # Room entry_prog: fires on every char-to-room transition —
         # movement, login, teleport, recall (C handler.c:2009 char_to_room).
-        # Suppressed during boot (fBootDb) and on explicit no-prog puts
-        # (fire_progs=False, used by death_cry's temporary room visits).
+        # SAFETY DEVIATION from C: C has no fBootDb guard in char_to_room and
+        # survives by luck of data (prog tables not fully populated at boot).
+        # Python adds the guard to prevent prog dispatch before data is loaded.
+        # Also suppressed on explicit no-prog puts (fire_progs=False), used by
+        # death_cry's temporary room visits.
         if (
             instance_object.is_living
             and fire_progs

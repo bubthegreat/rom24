@@ -26,7 +26,7 @@ system (`emit_signal`/`register_signal`) with only the "say" signal wired (do_sa
 | IPROG | GREET | someone enters room; fires for items CARRIED by chars present (act_move.c:486) | (obj, ch=enterer) | no |
 | IPROG | FIGHT | violence pulse, owner fighting (fight.c:264) | (obj, ch=owner) | no |
 | IPROG | DEATH | owner dies (fight.c:4026) | (obj, victim) -> bool | **TRUE prevents death** |
-| IPROG | SPEECH | say in room; fires for room contents AND all carried items (act_comm.c:939-946) | (obj, ch=speaker, speech) | no |
+| IPROG | SPEECH | say in room; fires for room contents AND the SPEAKER's carried items (ch->carrying only, act_comm.c:939-946) | (obj, ch=speaker, speech) | no |
 | IPROG | ENTRY | carrier enters room, POST-move (act_move.c:498) | (obj) | no |
 | IPROG | PULSE | every pulse (update.c:2248) | (obj, isTick) | no |
 | IPROG | INVOKE | `invoke <worn item>` command (iprog.c:488 do_invoke) | (obj, ch, argument) | no |

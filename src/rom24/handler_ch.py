@@ -51,10 +51,6 @@ def move_char(ch, door, follow):
     if not ch.is_room_owner(to_room) and to_room.is_private():
         ch.send("That room is private right now.\n")
         return
-    # PRE-move: fire move_progs for NPCs in current room (C act_move.c:294).
-    # Must run before any PC cost (lag/move deduction) so a veto never costs.
-    if progs_hooks.fire_pre_move(ch, door):
-        return
     if not ch.is_npc():
         for gn, guild in const.guild_table.items():
             for room_vnum in guild.guild_rooms:
@@ -81,6 +77,12 @@ def move_char(ch, door, follow):
             if not boats and not ch.is_immortal():
                 ch.send("You need a boat to go there.\n")
                 return
+        # PRE-move: fire move_progs for NPCs in ch's current room (C act_move.c:291-295).
+        # Fires only for PC movers, inside the !IS_NPC block, after the boat check and
+        # before move-cost calculation — a veto never charges the PC movement points.
+        # NPC movers skip this entirely, matching C which guards with !IS_NPC(ch).
+        if progs_hooks.fire_pre_move(ch, door):
+            return
         move = (
             merc.movement_loss[min(merc.SECT_MAX - 1, in_room.sector_type)]
             + merc.movement_loss[min(merc.SECT_MAX - 1, to_room.sector_type)]

@@ -268,18 +268,24 @@ class TestFireArrival:
 
         assert seen == ["item_entry"]
 
-    def test_greet_skips_mover(self):
-        """The arriving char must not trigger its own greet_prog as a resident."""
+    def test_greet_includes_mover(self):
+        """C includes the just-arrived mover in the greet loop (act_move.c:482-494).
+
+        An NPC mover entering a room that has a PC triggers its own greet_prog
+        (self-greet). Individual C progs guard against undesired effects via IS_NPC(ch)
+        checks. The previous Python skip was wrong; this test asserts C parity.
+        """
         seen = []
+        pc = FakeChar(npc=False)       # PC presence makes has_pc=True
         mover = FakeChar(npc=True)
-        mover.progs = {"greet_prog": [lambda mob, ch: seen.append(ch)]}
-        room = FakeRoom(people_ids=(mover.instance_id,))
+        mover.progs = {"greet_prog": [lambda mob, ch: seen.append(mob)]}
+        room = FakeRoom(people_ids=(pc.instance_id, mover.instance_id))
         mover._room = room
 
-        with _patch_instance(chars={mover.instance_id: mover}):
+        with _patch_instance(chars={pc.instance_id: pc, mover.instance_id: mover}):
             hooks.fire_arrival(mover)
 
-        assert seen == []
+        assert mover in seen
 
 
 # ---------------------------------------------------------------------------
