@@ -59,6 +59,10 @@ def load_area(area, index):
             instance.area_templates[pArea.name] = pArea
             area_instance = world_classes.Area(pArea)
 
+        elif w == "#AREADATA":
+            area, pArea = load_area_data(area, index)
+            area_instance = world_classes.Area(pArea)
+
         elif w == "#HELPS":
             area = load_helps(area)
         elif w == "#MOBILES":
@@ -81,6 +85,35 @@ def load_area(area, index):
             logger.error("Bad section name: %s", w)
 
         area, w = game_utils.read_word(area, False)
+
+
+def load_area_data(area, index):
+    pArea = world_classes.Area(None)
+    pArea.index = index
+    pArea.security = 9
+    while True:
+        area, word = game_utils.read_word(area, False)
+        if word == "End":
+            break
+        elif word == "Name":
+            area, pArea.name = game_utils.read_string(area)
+        elif word == "Builders":
+            area, pArea.builders = game_utils.read_string(area)
+        elif word == "Credits":
+            area, pArea.credits = game_utils.read_string(area)
+        elif word == "Security":
+            area, pArea.security = game_utils.read_int(area)
+        elif word == "VNUMs":
+            area, pArea.min_vnum = game_utils.read_int(area)
+            area, pArea.max_vnum = game_utils.read_int(area)
+        elif word == "Xplore":
+            area, pArea.explore = game_utils.read_int(area)
+        else:
+            logger.warning("load_area_data: unknown keyword %s", word)
+            area, _ = game_utils.read_to_eol(area)
+    pArea.file_name = pArea.name
+    instance.area_templates[pArea.name] = pArea
+    return area, pArea
 
 
 def load_helps(area):
