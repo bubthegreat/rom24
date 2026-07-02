@@ -159,6 +159,12 @@ def emit_aux(tables: dict, r) -> str:
     App tables: keyed by int index; values are plain lists matching Python namedtuple field count,
     so read_tables can call tupletype._make(v) directly.
     """
+    known = {"attack_table", "liq_table", "str_app", "int_app", "wis_app",
+             "dex_app", "con_app", "weapon_table"}
+    for name in tables:
+        if name not in known:
+            raise ValueError(f"emit_aux: unrecognized table {name!r}")
+
     parts = [HEADER]
 
     if "attack_table" in tables:
@@ -174,7 +180,9 @@ def emit_aux(tables: dict, r) -> str:
                 "name": name,
                 "noun": r.value(e[1]),
                 "damage": r.num(e[2]),
-                # e[3] is KBK's modifier field — not in attack_type namedtuple, omitted
+                # Phase 3 NOTE: KBK attack_table has a 4th field `modifier` we DROP here —
+                # only 'infinite' uses it (modifier=-30, feeds chance calc at kbk fight.c:2751).
+                # Extend rom24 attack_type with defaults=(0,) and re-emit when porting KBK combat.
             }
         parts.append(_fmt("ATTACKS", attacks))
 
