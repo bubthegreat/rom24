@@ -10,9 +10,27 @@ import json
 import logging
 import os
 
+import jsonschema
+
 from rom24 import settings
 
 logger = logging.getLogger(__name__)
+
+# Schema for a pack.json manifest. Extra keys are allowed (forward-compatible).
+MANIFEST_SCHEMA = {
+    "type": "object",
+    "required": ["name", "version"],
+    "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "depends": {"type": "array", "items": {"type": "string"}},
+        "data_dir": {"type": "string"},
+        "code_dirs": {"type": "array", "items": {"type": "string"}},
+        "provides": {"type": "array", "items": {"type": "string"}},
+        "_comment": {"type": "string"},
+    },
+    "additionalProperties": True,
+}
 
 
 class Pack:
@@ -38,10 +56,15 @@ def _load_manifest(pack_dir):
     except (ValueError, OSError) as exc:
         logger.error("Skipping pack '%s': bad manifest: %s", pack_dir, exc)
         return None
-    name = data.get("name")
-    if not name:
-        logger.error("Skipping pack '%s': manifest has no 'name'.", pack_dir)
+    try:
+        jsonschema.validate(data, MANIFEST_SCHEMA)
+    except jsonschema.ValidationError as exc:
+        field = "/".join(str(p) for p in exc.absolute_path) or "(root)"
+        logger.error(
+            "Skipping pack '%s': manifest invalid at %s: %s", manifest_path, field, exc.message
+        )
         return None
+    name = data.get("name")
     return Pack(
         name=name,
         path=pack_dir,

@@ -67,3 +67,20 @@ def test_load_order_cycle_raises():
     b = _pack("b", depends=["a"])
     with pytest.raises(ValueError):
         packs.resolve_load_order([a, b])
+
+
+def test_discover_skips_schema_invalid_manifest(tmp_path):
+    root = str(tmp_path)
+    # missing required "version"
+    _write_pack(root, "bad", {"name": "bad"})
+    _write_pack(root, "good", {"name": "good", "version": "1.0.0"})
+    found = packs.discover_packs(root)
+    assert [p.name for p in found] == ["good"]
+
+
+def test_discover_skips_wrong_typed_field(tmp_path):
+    root = str(tmp_path)
+    # depends must be an array of strings
+    _write_pack(root, "bad2", {"name": "bad2", "version": "1.0", "depends": "core"})
+    found = packs.discover_packs(root)
+    assert found == []
