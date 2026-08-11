@@ -8,6 +8,7 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import update
 from rom24 import data_loader
+from rom24 import area_loader_json
 from rom24 import object_creator
 from rom24 import handler_item
 from rom24 import settings
@@ -27,7 +28,7 @@ def boot_db():
     init_time()
     init_instance()
     read.read_tables()
-    data_loader.load_areas()
+    area_loader_json.load_areas_json()
     # fix_exits()
     area_update()
     object_creator.setup_exits()
