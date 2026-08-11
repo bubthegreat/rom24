@@ -27,6 +27,29 @@ class SOCIAL_DATA:
         self.char_auto = ""
         self.others_auto = ""
 
+    def to_json(self, outer_encoder=None):
+        if outer_encoder is None:
+            outer_encoder = json.JSONEncoder.default
+        tmp_dict = {
+            k: v
+            for k, v in self.__dict__.items()
+            if str(type(v)) not in ("<class 'function'>", "<class 'method'>")
+        }
+        cls_name = "__class__/" + __name__ + "." + self.__class__.__name__
+        return {cls_name: outer_encoder(tmp_dict)}
+
+    @classmethod
+    def from_json(cls, data, outer_decoder=None):
+        if outer_decoder is None:
+            outer_decoder = json.JSONDecoder.decode
+        cls_name = "__class__/" + __name__ + "." + cls.__name__
+        if cls_name in data:
+            tmp_data = outer_decoder(data[cls_name])
+            obj = cls()
+            obj.__dict__.update(tmp_data)
+            return obj
+        return data
+
 
 # An affect.
 class AFFECT_DATA:
@@ -79,6 +102,29 @@ class HELP_DATA:
 
     def __repr__(self):
         return "<%s:%d>" % (self.keyword, self.level)
+
+    def to_json(self, outer_encoder=None):
+        if outer_encoder is None:
+            outer_encoder = json.JSONEncoder.default
+        tmp_dict = {
+            k: v
+            for k, v in self.__dict__.items()
+            if str(type(v)) not in ("<class 'function'>", "<class 'method'>")
+        }
+        cls_name = "__class__/" + __name__ + "." + self.__class__.__name__
+        return {cls_name: outer_encoder(tmp_dict)}
+
+    @classmethod
+    def from_json(cls, data, outer_decoder=None):
+        if outer_decoder is None:
+            outer_decoder = json.JSONDecoder.decode
+        cls_name = "__class__/" + __name__ + "." + cls.__name__
+        if cls_name in data:
+            tmp_data = outer_decoder(data[cls_name])
+            obj = cls()
+            obj.__dict__.update(tmp_data)
+            return obj
+        return data
 
 
 class time_info_data:
