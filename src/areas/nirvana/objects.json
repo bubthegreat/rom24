@@ -1,0 +1,218 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 5,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 5,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Nirvana",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 8800,
+      "count": 0,
+      "description": "THE long sword of Primus is here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This is an extremely long and heavy sword, with many magical runes inscribed\non it.  It glows with the power of Primus, Lord of the Plane of Nirvana.",
+            "keyword": "sword long the"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil",
+              "anti_good"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": [
+              "two_handed",
+              "vorpal"
+            ]
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 39,
+      "long_descr": "",
+      "material": "adamantite",
+      "name": "sword long the",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "THE long sword",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "sword",
+        5,
+        6,
+        3,
+        48
+      ],
+      "vnum": 9000,
+      "was_in_room": null,
+      "weight": 400,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Nirvana",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 500,
+      "count": 0,
+      "description": "A softly glowing white stone rests on the floor.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Looking into the smooth surface of this moonstone, you feel strangely at\npeace and balance with the world around you.",
+            "keyword": "moonstone moon stone white"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "no_locate"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "warp_stone",
+      "level": 0,
+      "long_descr": "",
+      "material": "gem",
+      "name": "moonstone moon stone white",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a luminescent moonstone",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 9001,
+      "was_in_room": null,
+      "weight": 0,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]
