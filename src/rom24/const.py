@@ -79,5 +79,10 @@ attack_table: Dict[str, Any] = OrderedDict()
 wiznet_type = namedtuple("wiznet_type", "name bit level")
 wiznet_table: Dict[str, Any] = OrderedDict()
 
+# Register wiznet_table so bit.Bit serializes a name reference, not the table.
+from rom24 import flag_registry as _flag_registry
+
+_flag_registry.register("wiznet_table", wiznet_table)
+
 liq_type = namedtuple("liq_type", "name color proof full thirst food ssize")
 liq_table: Dict[str, Any] = OrderedDict()
