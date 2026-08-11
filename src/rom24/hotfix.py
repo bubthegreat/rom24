@@ -58,6 +58,10 @@ def init_monitoring():
         init_module(module)
     for directory in directories_to_init:
         init_directory_module(directory)
+    # Load code shipped by content packs (community commands/spells).
+    from rom24 import packs
+
+    packs.load_pack_code()
     logger.info("done. (Monitoring system)")
 
 
