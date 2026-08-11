@@ -4,7 +4,8 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
-from rom24 import pyprogs
+from rom24 import instance
+from rom24 import prog_triggers
 from rom24.handler_game import act
 
 
@@ -15,7 +16,12 @@ def do_say(ch, argument):
 
     act("$n says '$T'", ch, None, argument, merc.TO_ROOM)
     act("You say '$T'", ch, None, argument, merc.TO_CHAR)
-    pyprogs.emit_signal("say", actor=ch, argument=argument, audience=ch.in_room.people)
+    # Fire speech progs for each mob that heard it.
+    if ch.in_room is not None:
+        for vch_id in ch.in_room.people[:]:
+            vch = instance.characters.get(vch_id)
+            if vch is not None and vch is not ch and vch.is_npc():
+                prog_triggers.fire_speech(vch, ch, argument, ch.in_room)
     return
 
 

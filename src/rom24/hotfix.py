@@ -50,7 +50,6 @@ def init_monitoring():
         "handler_room",
         "shop_utils",
         "game_utils",
-        "pyprogs",
         "affects",
         "effects",
     ]

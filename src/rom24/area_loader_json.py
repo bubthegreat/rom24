@@ -7,13 +7,29 @@ instance each room, append resets to the area instance, and relink shop
 back-references. Downstream boot steps (``area_update`` -> ``reset_area``,
 ``setup_exits``) then run unchanged.
 """
+import importlib.util
 import json
 import logging
 import os
 
-from rom24 import instance, settings, merc, world_classes, object_creator
+from rom24 import instance, settings, merc, world_classes, object_creator, prog_triggers
 
 logger = logging.getLogger(__name__)
+
+
+def _load_progs(area_dir):
+    """Import an area's progs.py (if present); its decorators self-register."""
+    progs_path = os.path.join(area_dir, "progs.py")
+    if not os.path.isfile(progs_path):
+        return
+    mod_name = "rom24_areaprogs_" + os.path.basename(area_dir.rstrip("/"))
+    spec = importlib.util.spec_from_file_location(mod_name, progs_path)
+    module = importlib.util.module_from_spec(spec)
+    try:
+        spec.loader.exec_module(module)
+        logger.info("Loaded progs for area %s", os.path.basename(area_dir))
+    except Exception:
+        logger.exception("Failed to load progs for area %s", area_dir)
 
 
 def _load(path):
@@ -60,6 +76,7 @@ def _load_globals(areas_dir):
 
 def load_areas_json(areas_dir=None):
     areas_dir = areas_dir or settings.AREAS_DIR
+    prog_triggers.clear()  # start clean so a re-load does not stack handlers
 
     for d in _area_dirs(areas_dir):
         area_tmpl = _load(os.path.join(d, "area.json"))
@@ -83,5 +100,7 @@ def load_areas_json(areas_dir=None):
             keeper = instance.npc_templates.get(shop.keeper)
             if keeper is not None:
                 keeper.pShop = shop
+
+        _load_progs(d)
 
     _load_globals(areas_dir)

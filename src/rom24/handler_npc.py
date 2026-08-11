@@ -8,7 +8,6 @@ import json
 logger = logging.getLogger(__name__)
 
 from rom24 import living
-from rom24 import pyprogs
 from rom24 import bit
 from rom24 import tables
 from rom24 import handler_item
@@ -43,7 +42,6 @@ class Npc(living.Living):
         self.count = 0
         self.killed = 0
         self.pShop = None
-        self.listeners = {}
         if kwargs:
             [setattr(self, k, copy.deepcopy(v)) for k, v in kwargs.items()]
         if template:
@@ -159,9 +157,6 @@ class Npc(living.Living):
             cmd.do_fun(self, cmd.default_arg)
             return
         cmd.do_fun(self, argument.lstrip())
-
-    register_signal = pyprogs.register_signal
-    absorb = pyprogs.absorb
 
     # Serialization
     def to_json(self, outer_encoder=None):
