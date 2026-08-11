@@ -13,12 +13,13 @@ logger = logging.getLogger(__name__)
 
 
 class Ctx:
-    def __init__(self, mob=None, actor=None, victim=None, arg="", room=None):
+    def __init__(self, mob=None, actor=None, victim=None, arg="", room=None, obj=None):
         self.mob = mob        # the entity reacting (None for room-only triggers)
-        self.actor = actor    # who caused the event (speaker / enterer)
+        self.actor = actor    # who caused the event (speaker / enterer / killer)
         self.victim = victim
         self.arg = arg or ""
         self.room = room
+        self.obj = obj        # the object involved (give trigger)
 
     # --- output -----------------------------------------------------------
     def say(self, text):

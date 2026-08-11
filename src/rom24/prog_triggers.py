@@ -19,6 +19,9 @@ logger = logging.getLogger(__name__)
 _speech = {}  # mob_vnum -> [(keyword_or_None, func)]
 _greet = {}   # mob_vnum -> [func]
 _entry = {}   # room_vnum -> [func]
+_give = {}    # mob_vnum -> [func]
+_death = {}   # mob_vnum -> [func]
+_random = {}  # mob_vnum -> [func]
 
 
 def on_speech(mob, keyword=None):
@@ -51,11 +54,44 @@ def on_entry(room):
     return deco
 
 
+def on_give(mob):
+    """Fire when a character gives the mob an object."""
+
+    def deco(func):
+        _give.setdefault(mob, []).append(func)
+        return func
+
+    return deco
+
+
+def on_death(mob):
+    """Fire when the mob is killed."""
+
+    def deco(func):
+        _death.setdefault(mob, []).append(func)
+        return func
+
+    return deco
+
+
+def on_random(mob):
+    """Fire periodically (each npc update tick) for the mob."""
+
+    def deco(func):
+        _random.setdefault(mob, []).append(func)
+        return func
+
+    return deco
+
+
 def clear():
     """Drop all registered progs (called before (re)loading areas)."""
     _speech.clear()
     _greet.clear()
     _entry.clear()
+    _give.clear()
+    _death.clear()
+    _random.clear()
 
 
 def _run(func, ctx):
@@ -80,3 +116,21 @@ def fire_greet(mob, actor, room):
 def fire_entry(room, actor):
     for func in _entry.get(room.vnum, []):
         _run(func, Ctx(mob=None, actor=actor, arg="", room=room))
+
+
+def fire_give(mob, actor, obj, room):
+    for func in _give.get(mob.vnum, []):
+        _run(func, Ctx(mob=mob, actor=actor, obj=obj, room=room))
+
+
+def fire_death(mob, killer, room):
+    for func in _death.get(mob.vnum, []):
+        _run(func, Ctx(mob=mob, actor=killer, room=room))
+
+
+def fire_random(mob):
+    handlers = _random.get(mob.vnum)
+    if not handlers:
+        return
+    for func in handlers:
+        _run(func, Ctx(mob=mob, room=mob.in_room))

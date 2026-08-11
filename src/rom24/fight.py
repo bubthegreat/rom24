@@ -643,6 +643,10 @@ def damage(ch, victim, dam, dt, dam_type, show):
 
         if victim.is_npc():
             handler_game.wiznet(log_buf, None, None, WIZ_MOBDEATHS, 0, 0)
+            # Fire the victim's death prog before it is removed from the world.
+            from rom24 import prog_triggers
+
+            prog_triggers.fire_death(victim, ch, victim.in_room)
         else:
             handler_game.wiznet(log_buf, None, None, WIZ_DEATHS, 0, 0)
 

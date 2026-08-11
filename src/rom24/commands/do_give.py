@@ -134,6 +134,10 @@ def do_give(ch, argument):
     handler_game.act("$n gives $p to $N.", ch, item, victim, merc.TO_NOTVICT)
     handler_game.act("$n gives you $p.", ch, item, victim, merc.TO_VICT)
     handler_game.act("You give $p to $N.", ch, item, victim, merc.TO_CHAR)
+    if victim.is_npc():
+        from rom24 import prog_triggers
+
+        prog_triggers.fire_give(victim, ch, item, victim.in_room)
     return
 
 
