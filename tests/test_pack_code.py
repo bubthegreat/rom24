@@ -42,6 +42,6 @@ def test_core_dotted_code_dirs_are_skipped(booted_world, tmp_path):
     os.makedirs(pack)
     with open(os.path.join(pack, "pack.json"), "w") as fp:
         json.dump(
-            {"name": "coreish", "version": "1.0.0", "code_dirs": ["rom24.commands"]}, fp
+            {"name": "coreish", "version": "1.0.0", "code_dirs": ["rom24.some_installed_pkg"]}, fp
         )
     packs.load_pack_code(root)  # must not raise

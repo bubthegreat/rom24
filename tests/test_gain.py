@@ -19,10 +19,9 @@ def _find_gainable_skill(guild_name):
     return None
 
 
-def test_do_gain_grants_skill(booted_world):
+def test_do_gain_grants_skill(booted_world, command):
     from rom24 import const, instance, merc, object_creator
     from rom24 import handler_pc
-    from rom24.commands import do_gain
 
     # A real warrior PC with training sessions to spend.
     pc = handler_pc.Pc("Zgaintest")
@@ -47,7 +46,7 @@ def test_do_gain_grants_skill(booted_world):
     room.put(pc)
 
     assert skill_name not in pc.learned
-    do_gain.do_gain(pc, skill_name)
+    command('gain')(pc, skill_name)
 
     assert skill_name in pc.learned, (
         "do_gain refused to grant a valid skill; output was: %r" % captured

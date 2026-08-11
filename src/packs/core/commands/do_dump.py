@@ -4,7 +4,7 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
-from rom24.commands.do_memory import _memory_lines
+from rom24 import mem_report
 
 
 def do_dump(ch, argument):
@@ -15,7 +15,7 @@ def do_dump(ch, argument):
     filename (safe: never an arbitrary/attacker-controlled path) and dump the
     same summary counts do_memory reports, then confirm to the immortal.
     """
-    lines = _memory_lines()
+    lines = mem_report.memory_lines()
     report = "\n".join(lines) + "\n"
 
     try:
