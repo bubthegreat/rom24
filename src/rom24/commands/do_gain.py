@@ -11,7 +11,6 @@ from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import instance
 
-# TODO: Known broken. Probably needs some significant cleanup, doesn't appear to be granting skills properly. Needs more testing with non-immortal characters.
 def do_gain(ch, argument):
     if ch.is_npc():
         return
@@ -53,7 +52,7 @@ def do_gain(ch, argument):
             if (
                 sn not in ch.learned
                 and skill.rating[ch.guild.name] > 0
-                and skill.spell_fun == magic.spell_null
+                and (skill.spell_fun is None or skill.spell_fun == magic.spell_null)
             ):
                 ch.send(
                     "%-18s %-5d "
@@ -151,7 +150,7 @@ def do_gain(ch, argument):
 
     if argument.lower() in const.skill_table:
         sn = const.skill_table[argument.lower()]
-        if sn.spell_fun is not None:
+        if sn.spell_fun is not None and sn.spell_fun != magic.spell_null:
             handler_game.act(
                 "$N tells you 'You must learn the full group.'",
                 ch,

@@ -1,4 +1,5 @@
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -36,7 +37,6 @@ month_name = [
     "the Great Evil",
 ]
 
-# TODO: Known broken. Doesn't show startup or longevity.
 def do_time(ch, argument):
     day = handler_game.time_info.day + 1
     suf = ""
@@ -64,7 +64,12 @@ def do_time(ch, argument):
             month_name[handler_game.time_info.month],
         )
     )
-    # ch.send("ROM started up at %s\nThe system time is %s.\n", str_boot_time, (char *) ctime(&current_time)
+    from rom24 import pyom
+
+    ch.send(
+        "ROM started up at %s\nThe system time is %s.\n"
+        % (time.ctime(pyom.startup_time), time.ctime(time.time()))
+    )
     return
 
 

@@ -8,7 +8,6 @@ from rom24 import game_utils
 from rom24 import state_checks
 from rom24 import instance
 
-# TODO: Known broken. Exit flags or locks are messed up.
 def do_rstat(ch, argument):
     argument, arg = game_utils.read_word(argument)
     location = ch.in_room if not arg else game_utils.find_location(ch, arg)
@@ -59,7 +58,7 @@ def do_rstat(ch, argument):
             ch.send(
                 "Door: %d.  To: %d.  Key: %d.  Exit flags: %d.\nKeyword: '%s'.  Description: %s"
                 % (
-                    door,  # TODO:  come back and fix this
+                    door,
                     -1 if pexit.to_room is None else instance.rooms[pexit.to_room].vnum,
                     -1 if pexit.key is None else pexit.key,
                     pexit.exit_info,

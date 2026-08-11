@@ -182,7 +182,7 @@ def do_cast(ch, argument):
             or (sn.target == merc.TAR_OBJ_CHAR_OFF and target == merc.TARGET_CHAR)
         )
         and victim != ch
-        and victim.master != ch
+        and victim.master != ch.instance_id
     ):
         for vch_id in ch.in_room.people[:]:
             vch = instance.characters[vch_id]

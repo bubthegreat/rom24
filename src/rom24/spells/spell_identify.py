@@ -1,4 +1,5 @@
 from rom24 import const
+from rom24 import instance
 from rom24 import merc
 from rom24.merc import (
     affect_loc_name,
@@ -9,14 +10,13 @@ from rom24.merc import (
     cont_bit_name,
 )
 
-# TODO: Make this ROM-like formatting
 def spell_identify(sn, level, ch, victim, target):
     item = victim
     if type(item) is int:
         item = instance.items[item]
     ch.send(
         "Item '{item.name}' is type {item.item_type}, "
-        "weight is {weight}".format(item=item, weight=(item.weight // 10))
+        "weight is {weight}\n".format(item=item, weight=(item.weight // 10))
     )
     ch.send("Equips to: {item.equips_to_names}\n".format(item=item))
     ch.send("Item Attribute Flags: {item.item_attribute_names}\n".format(item=item))
@@ -28,7 +28,7 @@ def spell_identify(sn, level, ch, victim, target):
         or item.item_type == merc.ITEM_PILL
     ):
         ch.send("Level {item.value[0]} spells of:".format(item=item))
-        for i in item.value:
+        for i in item.value[1:]:
             if 0 <= i < merc.MAX_SKILL:
                 ch.send(" '{skill}'".format(skill=const.skill_table[i].name))
         ch.send(".\n")
@@ -98,7 +98,7 @@ def spell_identify(sn, level, ch, victim, target):
             "{item.value[2]} slash, and {item.value[3]} vs. magic.\n".format(item=item)
         )
 
-    affected = item.affected
+    affected = list(item.affected)
     if not item.enchanted:
         affected.extend(instance.item_templates[item.vnum].affected)
 

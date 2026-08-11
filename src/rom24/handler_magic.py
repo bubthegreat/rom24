@@ -220,7 +220,7 @@ def obj_cast_spell(sn, level, ch, victim, obj):
             or (sn.target == merc.TAR_OBJ_CHAR_OFF and target == merc.TARGET_CHAR)
         )
         and victim != ch
-        and victim.master != ch
+        and victim.master != ch.instance_id
     ):
         for vch in ch.in_room.people[:]:
             if victim == vch and not victim.fighting:
