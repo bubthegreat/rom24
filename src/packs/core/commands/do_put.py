@@ -9,6 +9,7 @@ from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import instance
 
 
 def do_put(ctx):
@@ -71,7 +72,8 @@ def do_put(ctx):
             handler_game.act("You put $p in $P.", ch, item, container, merc.TO_CHAR)
     else:
         # 'put all container' or 'put all.obj container'
-        for item in ch.inventory[:]:
+        for item_id in ch.inventory[:]:
+            item = instance.items[item_id]
             if (
                 (len(arg1) == 3 or arg1[4:] in item.name)
                 and ch.can_see_item(item)
