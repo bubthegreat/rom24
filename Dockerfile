@@ -1,42 +1,38 @@
 FROM python:3.12-slim
 
-# Install required packages
+# Runtime certs (uv fetches deps over TLS).
 RUN apt-get -y update && \
-    apt-get -y install --no-install-recommends \
-        curl \
-        ca-certificates && \
+    apt-get -y install --no-install-recommends ca-certificates && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Install UV package manager
+# Install the UV package manager.
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
-ENV PATH="/root/.cargo/bin:${PATH}"
 
-# Set working directory
 WORKDIR /pyrom
 
-# Copy source code and data
+# Project metadata + source. ./src carries the game data too
+# (src/packs/**, src/areas/**, src/data/**), which the server reads at runtime.
+COPY ./pyproject.toml /pyrom/pyproject.toml
+COPY ./README.md /pyrom/README.md
 COPY ./src /pyrom/src
-COPY ./requirements.txt /pyrom/requirements.txt
-COPY ./setup.py /pyrom/setup.py
-COPY ./MANIFEST.in /pyrom/MANIFEST.in
 
-# Install dependencies using UV
-RUN uv pip install --system -r requirements.txt
+# Editable install: pulls runtime deps (jsonschema, psutil) and installs the
+# rom24 package in place, so settings.py resolves INSTALLED_DIR=/pyrom and finds
+# /pyrom/src/{packs,areas,data}. (A non-editable wheel would drop the data.)
 RUN uv pip install --system -e .
 
-# Create necessary directories for persistent storage
+# Persistent-storage mount points (player saves, world, system state).
 RUN mkdir -p /pyrom-persistent/players \
     /pyrom-persistent/world \
     /pyrom-persistent/system
 
-# Expose the default port (1337)
+# Telnet port.
 EXPOSE 1337
 
-# Health check - check if the port is listening
-HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-    CMD curl -f http://localhost:1337 || exit 1
+# The port speaks telnet, not HTTP — probe it with a raw TCP connect.
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+    CMD python -c "import socket; socket.create_connection(('127.0.0.1', 1337), 3).close()" || exit 1
 
-# Run the MUD server
+# Run the MUD server (console script from pyproject: rom24 = rom24.pyom:pyom).
 CMD ["rom24"]
-

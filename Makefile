@@ -17,15 +17,14 @@ deploy-staging: push
 	kubectl apply -k k8s/overlays/staging
 
 install-deps:
-	uv pip install --system -r requirements.txt
-	uv pip install --system -e .
+	uv sync
 
 run-local:
 	@echo "Running pyrom locally..."
-	rom24
+	uv run rom24
 
 test:
-	pytest tests/
+	uv run pytest tests/
 
 clean:
 	find . -type d -name __pycache__ -exec rm -rf {} +
