@@ -13,6 +13,43 @@ from rom24 import const
 from rom24 import instance
 
 
+def _show_container(ch, item):
+    """Show a container/corpse/drink's contents or fill level.
+
+    Returns True if ``item`` was such a type (and its contents were shown),
+    False otherwise. Shared by 'look in <x>' and a bare 'look <x>' so a bare
+    look at a container defaults to look-in behavior.
+    """
+    item_type = item.item_type
+    if item_type == merc.ITEM_DRINK_CON:
+        if item.value[1] <= 0:
+            ch.send("It is empty.\n")
+            return True
+        if item.value[1] < item.value[0] // 4:
+            amnt = "less than half-"
+        elif item.value[1] < 3 * item.value[0] // 4:
+            amnt = "abount half-"
+        else:
+            amnt = "more than half-"
+        ch.send(
+            "It's %sfilled with a %s liquid.\n"
+            % (amnt, const.liq_table[item.value[2]].color)
+        )
+        return True
+    if (
+        item_type == merc.ITEM_CONTAINER
+        or item_type == merc.ITEM_CORPSE_NPC
+        or item_type == merc.ITEM_CORPSE_PC
+    ):
+        if state_checks.IS_SET(item.value[1], merc.CONT_CLOSED):
+            ch.send("It is closed.\n")
+            return True
+        handler_game.act("$p holds:", ch, item, None, merc.TO_CHAR)
+        handler_ch.show_list_to_char(item.inventory, ch, True, True)
+        return True
+    return False
+
+
 def do_look(ctx):
     ch = ctx.ch
     argument = ctx.arg
@@ -67,38 +104,25 @@ def do_look(ctx):
         if not item:
             ch.send("You do not see that here.\n")
             return
-        item_type = item.item_type
-        if item_type == merc.ITEM_DRINK_CON:
-            if item.value[1] <= 0:
-                ch.send("It is empty.\n")
-                return
-            if item.value[1] < item.value[0] // 4:
-                amnt = "less than half-"
-            elif item.value[1] < 3 * item.value[0] // 4:
-                amnt = "abount half-"
-            else:
-                amnt = "more than half-"
-            ch.send(
-                "It's %sfilled with a %s liquid.\n"
-                % (amnt, const.liq_table[item.value[2]].color)
-            )
-        elif (
-            item_type == merc.ITEM_CONTAINER
-            or item_type == merc.ITEM_CORPSE_NPC
-            or item_type == merc.ITEM_CORPSE_PC
-        ):
-            if state_checks.IS_SET(item.value[1], merc.CONT_CLOSED):
-                ch.send("It is closed.\n")
-                return
-            handler_game.act("$p holds:", ch, item, None, merc.TO_CHAR)
-            handler_ch.show_list_to_char(item.inventory, ch, True, True)
-            return
-        else:
+        if not _show_container(ch, item):
             ch.send("That is not a container.\n")
-            return
+        return
     victim = ch.get_char_room(arg1)
     if victim:
         handler_ch.show_char_to_char_1(victim, ch)
+        return
+    # A bare 'look <container/corpse>' defaults to look-in: show its contents.
+    # This takes precedence over the extra-description match below, so a pit
+    # or a corpse (which often carries a same-named extra_descr) shows what is
+    # inside rather than only its flavor text.
+    citem = ch.get_item_here(arg1)
+    if citem and citem.item_type in (
+        merc.ITEM_CONTAINER,
+        merc.ITEM_CORPSE_NPC,
+        merc.ITEM_CORPSE_PC,
+        merc.ITEM_DRINK_CON,
+    ):
+        _show_container(ch, citem)
         return
     item_list = list(ch.items) + list(room.items)
     for obj_id in item_list:
