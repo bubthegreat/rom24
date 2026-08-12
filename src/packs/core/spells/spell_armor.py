@@ -1,46 +1,36 @@
-from rom24 import const
-from rom24 import handler_game
-from rom24 import merc
-from rom24 import state_checks
+"""ctx-style pilot: the armor spell (defensive buff)."""
+from rom24 import api
 
 
-def spell_armor(sn, level, ch, victim, target):
-    if state_checks.is_affected(victim, sn):
-        if victim == ch:
-            ch.send("You are already armored.\n")
+@api.spell(
+    "armor",
+    skill_level={"mage": 7, "cleric": 2, "thief": 10, "warrior": 5},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=api.TAR_CHAR_DEFENSIVE,
+    min_pos=api.POS_STANDING,
+    slot=api.SLOT(1),
+    min_mana=5,
+    beats=12,
+    msg_off="You feel less armored.",
+)
+def spell_armor(ctx):
+    victim = ctx.target
+    if ctx.engine.state_checks.is_affected(victim, ctx.sn):
+        if victim == ctx.ch:
+            ctx.send("You are already armored.")
         else:
-            handler_game.act("$N is already armored.", ch, None, victim, merc.TO_CHAR)
+            ctx.act("$N is already armored.", None, victim, to=api.TO_CHAR)
         return
-    af = handler_game.AFFECT_DATA()
-    af.where = merc.TO_AFFECTS
-    af.type = sn
-    af.level = level
+
+    af = ctx.engine.handler_game.AFFECT_DATA()
+    af.where = api.TO_AFFECTS
+    af.type = ctx.sn
+    af.level = ctx.level
     af.duration = 24
     af.modifier = -20
-    af.location = merc.APPLY_AC
+    af.location = api.APPLY_AC
     af.bitvector = 0
     victim.affect_add(af)
     victim.send("You feel someone protecting you.\n")
-    if ch is not victim:
-        handler_game.act(
-            "$N is protected by your magic.", ch, None, victim, merc.TO_CHAR
-        )
-
-
-const.register_spell(
-    const.skill_type(
-        "armor",
-        {"mage": 7, "cleric": 2, "thief": 10, "warrior": 5},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_armor,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(1),
-        5,
-        12,
-        "",
-        "You feel less armored.",
-        "",
-    )
-)
+    if ctx.ch is not victim:
+        ctx.act("$N is protected by your magic.", None, victim, to=api.TO_CHAR)

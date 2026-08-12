@@ -1,44 +1,26 @@
-import random
-import logging
-
-logger = logging.getLogger(__name__)
-
-from rom24 import state_checks
-from rom24 import merc
-from rom24 import fight
-from rom24 import const
-from rom24 import interp
+"""ctx-style pilot: the kick command (skill-gated combat)."""
+from rom24 import api
 
 
-def do_kick(ch, argument):
-    if (
-        not ch.is_npc()
-        and ch.level < const.skill_table["kick"].skill_level[ch.guild.name]
-    ):
-        ch.send("You better leave the martial arts to fighters.\n")
+@api.command("kick", pos=api.POS_FIGHTING, level=0)
+def do_kick(ctx):
+    ch = ctx.ch
+    if not ch.is_npc() and ch.level < ctx.skill_level("kick"):
+        ctx.send("You better leave the martial arts to fighters.")
         return
-    if ch.is_npc() and not ch.off_flags.is_set(merc.OFF_KICK):
+    if ch.is_npc() and not ch.off_flags.is_set(api.OFF_KICK):
         return
-    victim = ch.fighting
+
+    victim = ctx.fighting
     if not victim:
-        ch.send("You aren't fighting anyone.\n")
+        ctx.send("You aren't fighting anyone.")
         return
 
-    state_checks.WAIT_STATE(ch, const.skill_table["kick"].beats)
-    if ch.get_skill("kick") > random.randint(1, 99):
-        fight.damage(
-            ch, victim, random.randint(1, ch.level), "kick", merc.DAM_BASH, True
-        )
-        if ch.is_pc:
-            ch.check_improve("kick", True, 1)
+    ctx.wait(ctx.skill_beats("kick"))
+    if ctx.skill("kick") > ctx.rand(1, 99):
+        ctx.damage(victim, ctx.rand(1, ch.level), "kick", api.DAM_BASH, True)
+        ctx.improve("kick", True, 1)
     else:
-        fight.damage(ch, victim, 0, "kick", merc.DAM_BASH, True)
-        if ch.is_pc:
-            ch.check_improve("kick", False, 1)
-    fight.check_killer(ch, victim)
-    return
-
-
-interp.register_command(
-    interp.cmd_type("kick", do_kick, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+        ctx.damage(victim, 0, "kick", api.DAM_BASH, True)
+        ctx.improve("kick", False, 1)
+    ctx.check_killer(victim)
