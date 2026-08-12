@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_haste(sn, level, ch, victim, target):
+@api.spell(
+    "haste",
+    skill_level={"mage": 21, "cleric": 53, "thief": 26, "warrior": 29},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(502),
+    min_mana=30,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel yourself slow down.",
+    msg_obj="",
+)
+def spell_haste(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT haste spell */
     if (
         state_checks.is_affected(victim, sn)
@@ -47,22 +66,3 @@ def spell_haste(sn, level, ch, victim, target):
     handler_game.act("$n is moving more quickly.", victim, None, None, merc.TO_ROOM)
     if ch != victim:
         ch.send("Ok.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "haste",
-        {"mage": 21, "cleric": 53, "thief": 26, "warrior": 29},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_haste,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(502),
-        30,
-        12,
-        "",
-        "You feel yourself slow down.",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import instance
 from rom24 import merc
@@ -10,7 +11,25 @@ from rom24.merc import (
     cont_bit_name,
 )
 
-def spell_identify(sn, level, ch, victim, target):
+@api.spell(
+    "identify",
+    skill_level={"mage": 15, "cleric": 16, "thief": 18, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_INV,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(53),
+    min_mana=12,
+    beats=24,
+    noun_damage="",
+    msg_off="!Identify!",
+    msg_obj="",
+)
+def spell_identify(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     item = victim
     if type(item) is int:
         item = instance.items[item]
@@ -146,22 +165,3 @@ def spell_identify(sn, level, ch, victim, target):
                             bit_name=paf.where, bit=paf.bitvector
                         )
                     )
-
-
-const.register_spell(
-    const.skill_type(
-        "identify",
-        {"mage": 15, "cleric": 16, "thief": 18, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_identify,
-        merc.TAR_OBJ_INV,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(53),
-        12,
-        24,
-        "",
-        "!Identify!",
-        "",
-    )
-)

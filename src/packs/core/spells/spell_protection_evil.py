@@ -1,9 +1,28 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_protection_evil(sn, level, ch, victim, target):
+@api.spell(
+    "protection evil",
+    skill_level={"mage": 12, "cleric": 9, "thief": 17, "warrior": 11},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(34),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel less protected.",
+    msg_obj="",
+)
+def spell_protection_evil(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_PROTECT_EVIL) or victim.is_affected(
         merc.AFF_PROTECT_GOOD
     ):
@@ -24,22 +43,3 @@ def spell_protection_evil(sn, level, ch, victim, target):
     victim.send("You feel holy and pure.\n")
     if ch != victim:
         handler_game.act("$N is protected from evil.", ch, None, victim, merc.TO_CHAR)
-
-
-const.register_spell(
-    const.skill_type(
-        "protection evil",
-        {"mage": 12, "cleric": 9, "thief": 17, "warrior": 11},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_protection_evil,
-        merc.TAR_CHAR_SELF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(34),
-        5,
-        12,
-        "",
-        "You feel less protected.",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_curse(sn, level, ch, victim, target):
+@api.spell(
+    "curse",
+    skill_level={"mage": 18, "cleric": 18, "thief": 26, "warrior": 22},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_CHAR_OFF,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(17),
+    min_mana=20,
+    beats=12,
+    noun_damage="curse",
+    msg_off="The curse wears off.",
+    msg_obj="$p is no longer impure.",
+)
+def spell_curse(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # deal with the object case first */
     if target == merc.TARGET_ITEM:
         obj = victim
@@ -74,22 +93,3 @@ def spell_curse(sn, level, ch, victim, target):
     victim.send("You feel unclean.\n")
     if ch != victim:
         handler_game.act("$N looks very uncomfortable.", ch, None, victim, merc.TO_CHAR)
-
-
-const.register_spell(
-    const.skill_type(
-        "curse",
-        {"mage": 18, "cleric": 18, "thief": 26, "warrior": 22},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_curse,
-        merc.TAR_OBJ_CHAR_OFF,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(17),
-        20,
-        12,
-        "curse",
-        "The curse wears off.",
-        "$p is no longer impure.",
-    )
-)

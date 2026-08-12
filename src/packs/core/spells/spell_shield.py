@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_shield(sn, level, ch, victim, target):
+@api.spell(
+    "shield",
+    skill_level={"mage": 20, "cleric": 35, "thief": 35, "warrior": 40},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(67),
+    min_mana=12,
+    beats=18,
+    noun_damage="",
+    msg_off="Your force shield shimmers then fades away.",
+    msg_obj="",
+)
+def spell_shield(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if state_checks.is_affected(victim, sn):
         if victim == ch:
             ch.send("You are already shielded from harm.\n")
@@ -27,22 +46,3 @@ def spell_shield(sn, level, ch, victim, target):
     )
     victim.send("You are surrounded by a force shield.\n")
     return
-
-
-const.register_spell(
-    const.skill_type(
-        "shield",
-        {"mage": 20, "cleric": 35, "thief": 35, "warrior": 40},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_shield,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(67),
-        12,
-        18,
-        "",
-        "Your force shield shimmers then fades away.",
-        "",
-    )
-)

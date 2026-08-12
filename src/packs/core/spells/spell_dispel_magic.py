@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_dispel_magic(sn, level, ch, victim, target):
+@api.spell(
+    "dispel magic",
+    skill_level={"mage": 16, "cleric": 24, "thief": 30, "warrior": 30},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(59),
+    min_mana=15,
+    beats=12,
+    noun_damage="",
+    msg_off="!Dispel Magic!",
+    msg_obj="",
+)
+def spell_dispel_magic(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # modified for enhanced use */
     if handler_magic.saves_spell(level, victim, merc.DAM_OTHER):
         victim.send("You feel a brief tingling sensation.\n")
@@ -70,22 +89,3 @@ def spell_dispel_magic(sn, level, ch, victim, target):
         ch.send("Ok.\n")
     else:
         ch.send("Spell failed.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "dispel magic",
-        {"mage": 16, "cleric": 24, "thief": 30, "warrior": 30},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_dispel_magic,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(59),
-        15,
-        12,
-        "",
-        "!Dispel Magic!",
-        "",
-    )
-)

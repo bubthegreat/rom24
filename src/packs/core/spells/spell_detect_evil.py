@@ -1,9 +1,28 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_detect_evil(sn, level, ch, victim, target):
+@api.spell(
+    "detect evil",
+    skill_level={"mage": 11, "cleric": 4, "thief": 12, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(18),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="The red in your vision disappears.",
+    msg_obj="",
+)
+def spell_detect_evil(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_DETECT_EVIL):
         if victim == ch:
             ch.send("You can already sense evil.\n")
@@ -24,22 +43,3 @@ def spell_detect_evil(sn, level, ch, victim, target):
     victim.send("Your eyes tingle.\n")
     if ch != victim:
         ch.send("Ok.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "detect evil",
-        {"mage": 11, "cleric": 4, "thief": 12, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_detect_evil,
-        merc.TAR_CHAR_SELF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(18),
-        5,
-        12,
-        "",
-        "The red in your vision disappears.",
-        "",
-    )
-)

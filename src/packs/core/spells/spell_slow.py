@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_slow(sn, level, ch, victim, target):
+@api.spell(
+    "slow",
+    skill_level={"mage": 23, "cleric": 30, "thief": 29, "warrior": 32},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(515),
+    min_mana=30,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel yourself speed up.",
+    msg_obj="",
+)
+def spell_slow(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if state_checks.is_affected(victim, sn) or victim.is_affected(merc.AFF_SLOW):
         if victim == ch:
             ch.send("You can't move any slower! \n")
@@ -45,22 +64,3 @@ def spell_slow(sn, level, ch, victim, target):
     handler_game.act(
         "$n starts to move in slow motion.", victim, None, None, merc.TO_ROOM
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "slow",
-        {"mage": 23, "cleric": 30, "thief": 29, "warrior": 32},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_slow,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(515),
-        30,
-        12,
-        "",
-        "You feel yourself speed up.",
-        "",
-    )
-)

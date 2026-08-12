@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -6,7 +7,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_demonfire(sn, level, ch, victim, target):
+@api.spell(
+    "demonfire",
+    skill_level={"mage": 53, "cleric": 34, "thief": 53, "warrior": 45},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(505),
+    min_mana=20,
+    beats=12,
+    noun_damage="torments",
+    msg_off="!Demonfire!",
+    msg_obj="",
+)
+def spell_demonfire(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT replacement demonfire spell */
     if not ch.is_npc() and not ch.is_evil():
         victim = ch
@@ -37,22 +56,3 @@ def spell_demonfire(sn, level, ch, victim, target):
     const.skill_table["curse"].spell_fun(
         "curse", 3 * level // 4, ch, victim, merc.TARGET_CHAR
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "demonfire",
-        {"mage": 53, "cleric": 34, "thief": 53, "warrior": 45},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_demonfire,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(505),
-        20,
-        12,
-        "torments",
-        "!Demonfire!",
-        "",
-    )
-)

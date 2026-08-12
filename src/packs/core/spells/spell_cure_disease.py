@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_cure_disease(sn, level, ch, victim, target):
+@api.spell(
+    "cure disease",
+    skill_level={"mage": 53, "cleric": 13, "thief": 53, "warrior": 14},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(501),
+    min_mana=20,
+    beats=12,
+    noun_damage="",
+    msg_off="!Cure Disease!",
+    msg_obj="",
+)
+def spell_cure_disease(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if not state_checks.is_affected(victim, const.skill_table["plague"]):
         if victim == ch:
             ch.send("You aren't ill.\n")
@@ -23,22 +42,3 @@ def spell_cure_disease(sn, level, ch, victim, target):
         return
 
     ch.send("Spell failed.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "cure disease",
-        {"mage": 53, "cleric": 13, "thief": 53, "warrior": 14},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_cure_disease,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(501),
-        20,
-        12,
-        "",
-        "!Cure Disease!",
-        "",
-    )
-)

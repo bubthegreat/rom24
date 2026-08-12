@@ -1,5 +1,6 @@
 # RT calm spell stops all fighting in the room */
 import random
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_game
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_calm(sn, level, ch, victim, target):
+@api.spell(
+    "calm",
+    skill_level={"mage": 48, "cleric": 16, "thief": 50, "warrior": 20},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(509),
+    min_mana=30,
+    beats=12,
+    noun_damage="",
+    msg_off="You have lost your peace of mind.",
+    msg_obj="",
+)
+def spell_calm(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # get sum of all mobile levels in the room */
     count = 0
     mlevel = 0
@@ -62,22 +81,3 @@ def spell_calm(sn, level, ch, victim, target):
 
             af.location = merc.APPLY_DAMROLL
             vch.affect_add(af)
-
-
-const.register_spell(
-    const.skill_type(
-        "calm",
-        {"mage": 48, "cleric": 16, "thief": 50, "warrior": 20},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_calm,
-        merc.TAR_IGNORE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(509),
-        30,
-        12,
-        "",
-        "You have lost your peace of mind.",
-        "",
-    )
-)

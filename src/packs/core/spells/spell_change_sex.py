@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_change_sex(sn, level, ch, victim, target):
+@api.spell(
+    "change sex",
+    skill_level={"mage": 53, "cleric": 53, "thief": 53, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(82),
+    min_mana=15,
+    beats=12,
+    noun_damage="",
+    msg_off="Your body feels familiar again.",
+    msg_obj="",
+)
+def spell_change_sex(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if state_checks.is_affected(victim, sn):
         if victim == ch:
             ch.send("You've already been changed.\n")
@@ -35,22 +54,3 @@ def spell_change_sex(sn, level, ch, victim, target):
     handler_game.act(
         "$n doesn't look like $mself anymore...", victim, None, None, merc.TO_ROOM
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "change sex",
-        {"mage": 53, "cleric": 53, "thief": 53, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_change_sex,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(82),
-        15,
-        12,
-        "",
-        "Your body feels familiar again.",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -6,7 +7,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_chain_lightning(sn, level, ch, victim, target):
+@api.spell(
+    "chain lightning",
+    skill_level={"mage": 33, "cleric": 53, "thief": 39, "warrior": 36},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(500),
+    min_mana=25,
+    beats=12,
+    noun_damage="lightning",
+    msg_off="!Chain Lightning!",
+    msg_obj="",
+)
+def spell_chain_lightning(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # H first strike */
     handler_game.act(
         "A lightning bolt leaps from $n's hand and arcs to $N.",
@@ -89,22 +108,3 @@ def spell_chain_lightning(sn, level, ch, victim, target):
             level = level - 4  # decrement damage */
             if ch == None:
                 return
-
-
-const.register_spell(
-    const.skill_type(
-        "chain lightning",
-        {"mage": 33, "cleric": 53, "thief": 39, "warrior": 36},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_chain_lightning,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(500),
-        25,
-        12,
-        "lightning",
-        "!Chain Lightning!",
-        "",
-    )
-)

@@ -1,4 +1,5 @@
 import random
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import update
 
 
-def spell_energy_drain(sn, level, ch, victim, target):
+@api.spell(
+    "energy drain",
+    skill_level={"mage": 19, "cleric": 22, "thief": 26, "warrior": 23},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(25),
+    min_mana=35,
+    beats=12,
+    noun_damage="energy drain",
+    msg_off="!Energy Drain!",
+    msg_obj="",
+)
+def spell_energy_drain(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # Drain XP, MANA, HP.
     # Caster gains HP.
     if victim != ch:
@@ -28,22 +47,3 @@ def spell_energy_drain(sn, level, ch, victim, target):
     victim.send("You feel your life slipping away! \n")
     ch.send("Wow....what a rush! \n")
     fight.damage(ch, victim, dam, sn, merc.DAM_NEGATIVE, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "energy drain",
-        {"mage": 19, "cleric": 22, "thief": 26, "warrior": 23},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_energy_drain,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(25),
-        35,
-        12,
-        "energy drain",
-        "!Energy Drain!",
-        "",
-    )
-)

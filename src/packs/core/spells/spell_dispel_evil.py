@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_dispel_evil(sn, level, ch, victim, target):
+@api.spell(
+    "dispel evil",
+    skill_level={"mage": 53, "cleric": 15, "thief": 53, "warrior": 21},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(22),
+    min_mana=15,
+    beats=12,
+    noun_damage="dispel evil",
+    msg_off="!Dispel Evil!",
+    msg_obj="",
+)
+def spell_dispel_evil(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if not ch.is_npc() and ch.is_evil():
         victim = ch
 
@@ -28,22 +47,3 @@ def spell_dispel_evil(sn, level, ch, victim, target):
     if handler_magic.saves_spell(level, victim, merc.DAM_HOLY):
         dam = dam // 2
     fight.damage(ch, victim, dam, sn, merc.DAM_HOLY, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "dispel evil",
-        {"mage": 53, "cleric": 15, "thief": 53, "warrior": 21},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_dispel_evil,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(22),
-        15,
-        12,
-        "dispel evil",
-        "!Dispel Evil!",
-        "",
-    )
-)

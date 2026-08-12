@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_ray_of_truth(sn, level, ch, victim, target):
+@api.spell(
+    "ray of truth",
+    skill_level={"mage": 53, "cleric": 35, "thief": 53, "warrior": 47},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(518),
+    min_mana=20,
+    beats=12,
+    noun_damage="ray of truth",
+    msg_off="!Ray of Truth!",
+    msg_obj="",
+)
+def spell_ray_of_truth(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if ch.is_evil():
         victim = ch
         ch.send("The energy explodes inside you! \n")
@@ -44,22 +63,3 @@ def spell_ray_of_truth(sn, level, ch, victim, target):
     const.skill_table["blindness"].spell_fun(
         "blindness", 3 * level // 4, ch, victim, merc.TARGET_CHAR
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "ray of truth",
-        {"mage": 53, "cleric": 35, "thief": 53, "warrior": 47},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_ray_of_truth,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(518),
-        20,
-        12,
-        "ray of truth",
-        "!Ray of Truth!",
-        "",
-    )
-)

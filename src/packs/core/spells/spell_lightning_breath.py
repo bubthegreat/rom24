@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import effects
 from rom24 import fight
@@ -9,7 +10,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_lightning_breath(sn, level, ch, victim, target):
+@api.spell(
+    "lightning breath",
+    skill_level={"mage": 37, "cleric": 40, "thief": 43, "warrior": 46},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(204),
+    min_mana=150,
+    beats=24,
+    noun_damage="blast of lightning",
+    msg_off="!Lightning Breath!",
+    msg_obj="",
+)
+def spell_lightning_breath(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     handler_game.act(
         "$n breathes a bolt of lightning at $N.", ch, None, victim, merc.TO_NOTVICT
     )
@@ -37,21 +56,4 @@ def spell_lightning_breath(sn, level, ch, victim, target):
         # * Spells for mega1.are from Glop//Erkenbrand.
 
 
-const.register_spell(
-    const.skill_type(
-        "lightning breath",
-        {"mage": 37, "cleric": 40, "thief": 43, "warrior": 46},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_lightning_breath,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(204),
-        150,
-        24,
-        "blast of lightning",
-        "!Lightning Breath!",
-        "",
-    )
-)
 # * Spells for mega1.are from Glop/Erkenbrand. */)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_bless(sn, level, ch, victim, target):
+@api.spell(
+    "bless",
+    skill_level={"mage": 53, "cleric": 7, "thief": 53, "warrior": 8},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_CHAR_DEF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(3),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel less righteous.",
+    msg_obj="$p's holy aura fades.",
+)
+def spell_bless(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # deal with the object case first */
     if target == merc.TARGET_ITEM:
         obj = victim
@@ -77,22 +96,3 @@ def spell_bless(sn, level, ch, victim, target):
         handler_game.act(
             "You grant $N the favor of your god.", ch, None, victim, merc.TO_CHAR
         )
-
-
-const.register_spell(
-    const.skill_type(
-        "bless",
-        {"mage": 53, "cleric": 7, "thief": 53, "warrior": 8},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_bless,
-        merc.TAR_OBJ_CHAR_DEF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(3),
-        5,
-        12,
-        "",
-        "You feel less righteous.",
-        "$p's holy aura fades.",
-    )
-)

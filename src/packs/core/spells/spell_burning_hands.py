@@ -1,11 +1,30 @@
 import random
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_burning_hands(sn, level, ch, victim, target):
+@api.spell(
+    "burning hands",
+    skill_level={"mage": 7, "cleric": 53, "thief": 10, "warrior": 9},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(5),
+    min_mana=15,
+    beats=12,
+    noun_damage="burning hands",
+    msg_off="!Burning Hands!",
+    msg_obj="",
+)
+def spell_burning_hands(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     dam_each = [
         0,
         0,
@@ -66,22 +85,3 @@ def spell_burning_hands(sn, level, ch, victim, target):
     if handler_magic.saves_spell(level, victim, merc.DAM_FIRE):
         dam = dam // 2
     fight.damage(ch, victim, dam, sn, merc.DAM_FIRE, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "burning hands",
-        {"mage": 7, "cleric": 53, "thief": 10, "warrior": 9},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_burning_hands,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(5),
-        15,
-        12,
-        "burning hands",
-        "!Burning Hands!",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_game
@@ -6,7 +7,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_word_of_recall(sn, level, ch, victim, target):
+@api.spell(
+    "word of recall",
+    skill_level={"mage": 32, "cleric": 28, "thief": 40, "warrior": 30},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_RESTING,
+    slot=const.SLOT(42),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="!Word of Recall!",
+    msg_obj="",
+)
+def spell_word_of_recall(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT recall spell is back */
     if victim.is_npc():
         return
@@ -31,22 +50,3 @@ def spell_word_of_recall(sn, level, ch, victim, target):
     location.put(victim)
     handler_game.act("$n appears in the room.", victim, None, None, merc.TO_ROOM)
     victim.do_look("auto")
-
-
-const.register_spell(
-    const.skill_type(
-        "word of recall",
-        {"mage": 32, "cleric": 28, "thief": 40, "warrior": 30},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_word_of_recall,
-        merc.TAR_CHAR_SELF,
-        merc.POS_RESTING,
-        None,
-        const.SLOT(42),
-        5,
-        12,
-        "",
-        "!Word of Recall!",
-        "",
-    )
-)  # * Dragon breath */)

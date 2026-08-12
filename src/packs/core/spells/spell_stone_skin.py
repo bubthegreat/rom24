@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_stone_skin(sn, level, ch, victim, target):
+@api.spell(
+    "stone skin",
+    skill_level={"mage": 25, "cleric": 40, "thief": 40, "warrior": 45},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(66),
+    min_mana=12,
+    beats=18,
+    noun_damage="",
+    msg_off="Your skin feels soft again.",
+    msg_obj="",
+)
+def spell_stone_skin(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if state_checks.is_affected(ch, sn):
         if victim == ch:
             ch.send("Your skin is already as hard as a rock.\n")
@@ -24,22 +43,3 @@ def spell_stone_skin(sn, level, ch, victim, target):
     victim.affect_add(af)
     handler_game.act("$n's skin turns to stone.", victim, None, None, merc.TO_ROOM)
     victim.send("Your skin turns to stone.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "stone skin",
-        {"mage": 25, "cleric": 40, "thief": 40, "warrior": 45},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_stone_skin,
-        merc.TAR_CHAR_SELF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(66),
-        12,
-        18,
-        "",
-        "Your skin feels soft again.",
-        "",
-    )
-)

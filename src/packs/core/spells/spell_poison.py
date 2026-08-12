@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_poison(sn, level, ch, victim, target):
+@api.spell(
+    "poison",
+    skill_level={"mage": 17, "cleric": 12, "thief": 15, "warrior": 21},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_CHAR_OFF,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(33),
+    min_mana=10,
+    beats=12,
+    noun_damage="poison",
+    msg_off="You feel less sick.",
+    msg_obj="The poison on $p dries up.",
+)
+def spell_poison(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if target == merc.TARGET_ITEM:
         obj = victim
 
@@ -74,22 +93,3 @@ def spell_poison(sn, level, ch, victim, target):
     victim.affect_join(af)
     victim.send("You feel very sick.\n")
     handler_game.act("$n looks very ill.", victim, None, None, merc.TO_ROOM)
-
-
-const.register_spell(
-    const.skill_type(
-        "poison",
-        {"mage": 17, "cleric": 12, "thief": 15, "warrior": 21},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_poison,
-        merc.TAR_OBJ_CHAR_OFF,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(33),
-        10,
-        12,
-        "poison",
-        "You feel less sick.",
-        "The poison on $p dries up.",
-    )
-)

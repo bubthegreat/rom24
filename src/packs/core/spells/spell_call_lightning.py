@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -7,7 +8,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_call_lightning(sn, level, ch, victim, target):
+@api.spell(
+    "call lightning",
+    skill_level={"mage": 26, "cleric": 18, "thief": 31, "warrior": 22},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(6),
+    min_mana=15,
+    beats=12,
+    noun_damage="lightning bolt",
+    msg_off="!Call Lightning!",
+    msg_obj="",
+)
+def spell_call_lightning(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if not state_checks.IS_OUTSIDE(ch):
         ch.send("You must be out of doors.\n")
         return
@@ -46,22 +65,3 @@ def spell_call_lightning(sn, level, ch, victim, target):
             and vch.is_awake()
         ):
             vch.send("Lightning flashes in the sky.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "call lightning",
-        {"mage": 26, "cleric": 18, "thief": 31, "warrior": 22},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_call_lightning,
-        merc.TAR_IGNORE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(6),
-        15,
-        12,
-        "lightning bolt",
-        "!Call Lightning!",
-        "",
-    )
-)

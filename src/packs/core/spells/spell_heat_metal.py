@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_game
@@ -8,7 +9,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_heat_metal(sn, level, ch, victim, target):
+@api.spell(
+    "heat metal",
+    skill_level={"mage": 53, "cleric": 16, "thief": 53, "warrior": 23},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(516),
+    min_mana=25,
+    beats=18,
+    noun_damage="spell",
+    msg_off="!Heat Metal!",
+    msg_obj="",
+)
+def spell_heat_metal(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     fail = True
 
     if not handler_magic.saves_spell(
@@ -153,22 +172,3 @@ def spell_heat_metal(sn, level, ch, victim, target):
         if handler_magic.saves_spell(level, victim, merc.DAM_FIRE):
             dam = 2 * dam // 3
         fight.damage(ch, victim, dam, sn, merc.DAM_FIRE, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "heat metal",
-        {"mage": 53, "cleric": 16, "thief": 53, "warrior": 23},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_heat_metal,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(516),
-        25,
-        18,
-        "spell",
-        "!Heat Metal!",
-        "",
-    )
-)

@@ -1,12 +1,31 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_enchant_armor(sn, level, ch, victim, target):
+@api.spell(
+    "enchant armor",
+    skill_level={"mage": 16, "cleric": 53, "thief": 53, "warrior": 53},
+    rating={"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
+    target=merc.TAR_OBJ_INV,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(510),
+    min_mana=100,
+    beats=24,
+    noun_damage="",
+    msg_off="!Enchant Armor!",
+    msg_obj="",
+)
+def spell_enchant_armor(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     obj = victim
     if obj.item_type != merc.ITEM_ARMOR:
         ch.send("That isn't an armor.\n")
@@ -121,22 +140,3 @@ def spell_enchant_armor(sn, level, ch, victim, target):
         paf.modifier = added
         paf.bitvector = 0
         obj.affected.append(paf)
-
-
-const.register_spell(
-    const.skill_type(
-        "enchant armor",
-        {"mage": 16, "cleric": 53, "thief": 53, "warrior": 53},
-        {"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
-        spell_enchant_armor,
-        merc.TAR_OBJ_INV,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(510),
-        100,
-        24,
-        "",
-        "!Enchant Armor!",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -8,7 +9,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_charm_person(sn, level, ch, victim, target):
+@api.spell(
+    "charm person",
+    skill_level={"mage": 20, "cleric": 53, "thief": 25, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(7),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel more self-confident.",
+    msg_obj="",
+)
+def spell_charm_person(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if fight.is_safe(ch, victim):
         return
 
@@ -47,22 +66,3 @@ def spell_charm_person(sn, level, ch, victim, target):
         handler_game.act(
             "$N looks at you with adoring eyes.", ch, None, victim, merc.TO_CHAR
         )
-
-
-const.register_spell(
-    const.skill_type(
-        "charm person",
-        {"mage": 20, "cleric": 53, "thief": 25, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_charm_person,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(7),
-        5,
-        12,
-        "",
-        "You feel more self-confident.",
-        "",
-    )
-)

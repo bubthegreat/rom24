@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
@@ -7,7 +8,25 @@ from rom24 import object_creator
 from rom24 import state_checks
 
 
-def spell_floating_disc(sn, level, ch, victim, target):
+@api.spell(
+    "floating disc",
+    skill_level={"mage": 4, "cleric": 10, "thief": 7, "warrior": 16},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(522),
+    min_mana=40,
+    beats=24,
+    noun_damage="",
+    msg_off="!Floating disc!",
+    msg_obj="",
+)
+def spell_floating_disc(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     floating = ch.slots.float
     if floating and floating.flags.no_remove:
         handler_game.act("You can't remove $p.", ch, floating, None, merc.TO_CHAR)
@@ -24,22 +43,3 @@ def spell_floating_disc(sn, level, ch, victim, target):
     ch.send("You create a floating disc.\n")
     ch.put(disc)
     ch.equip(disc, True, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "floating disc",
-        {"mage": 4, "cleric": 10, "thief": 7, "warrior": 16},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_floating_disc,
-        merc.TAR_IGNORE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(522),
-        40,
-        24,
-        "",
-        "!Floating disc!",
-        "",
-    )
-)

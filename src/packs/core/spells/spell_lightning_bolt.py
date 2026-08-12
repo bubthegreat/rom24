@@ -1,11 +1,30 @@
 import random
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_lightning_bolt(sn, level, ch, victim, target):
+@api.spell(
+    "lightning bolt",
+    skill_level={"mage": 13, "cleric": 23, "thief": 18, "warrior": 16},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(30),
+    min_mana=15,
+    beats=12,
+    noun_damage="lightning bolt",
+    msg_off="!Lightning Bolt!",
+    msg_obj="",
+)
+def spell_lightning_bolt(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     dam_each = [
         0,
         0,
@@ -66,22 +85,3 @@ def spell_lightning_bolt(sn, level, ch, victim, target):
     if handler_magic.saves_spell(level, victim, merc.DAM_LIGHTNING):
         dam = dam // 2
     fight.damage(ch, victim, dam, sn, merc.DAM_LIGHTNING, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "lightning bolt",
-        {"mage": 13, "cleric": 23, "thief": 18, "warrior": 16},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_lightning_bolt,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(30),
-        15,
-        12,
-        "lightning bolt",
-        "!Lightning Bolt!",
-        "",
-    )
-)

@@ -1,9 +1,28 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_infravision(sn, level, ch, victim, target):
+@api.spell(
+    "infravision",
+    skill_level={"mage": 9, "cleric": 13, "thief": 10, "warrior": 16},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(77),
+    min_mana=5,
+    beats=18,
+    noun_damage="",
+    msg_off="You no longer see in the dark.",
+    msg_obj="",
+)
+def spell_infravision(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_INFRARED):
         if victim == ch:
             ch.send("You can already see in the dark.\n")
@@ -25,22 +44,3 @@ def spell_infravision(sn, level, ch, victim, target):
     victim.affect_add(af)
     victim.send("Your eyes glow red.\n")
     return
-
-
-const.register_spell(
-    const.skill_type(
-        "infravision",
-        {"mage": 9, "cleric": 13, "thief": 10, "warrior": 16},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_infravision,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(77),
-        5,
-        18,
-        "",
-        "You no longer see in the dark.",
-        "",
-    )
-)

@@ -4,7 +4,12 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_ventriloquate(sn, level, ch, victim, target):
+def spell_ventriloquate(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     target_name, speaker = game_utils.read_word(target_name)
     buf1 = "%s says '%s'.\n" % (speaker.capitalize(), target_name)
     buf2 = "Someone makes %s say '%s'.\n" % (speaker, target_name)

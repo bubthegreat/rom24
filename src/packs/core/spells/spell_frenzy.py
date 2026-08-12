@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_frenzy(sn, level, ch, victim, target):
+@api.spell(
+    "frenzy",
+    skill_level={"mage": 53, "cleric": 24, "thief": 53, "warrior": 26},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(504),
+    min_mana=30,
+    beats=24,
+    noun_damage="",
+    msg_off="Your rage ebbs.",
+    msg_obj="",
+)
+def spell_frenzy(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT clerical berserking spell */
     if state_checks.is_affected(victim, sn) or victim.is_affected(merc.AFF_BERSERK):
         if victim == ch:
@@ -59,22 +78,3 @@ def spell_frenzy(sn, level, ch, victim, target):
     handler_game.act(
         "$n gets a wild look in $s eyes! ", victim, None, None, merc.TO_ROOM
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "frenzy",
-        {"mage": 53, "cleric": 24, "thief": 53, "warrior": 26},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_frenzy,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(504),
-        30,
-        24,
-        "",
-        "Your rage ebbs.",
-        "",
-    )
-)

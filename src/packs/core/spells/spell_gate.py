@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_gate(sn, level, ch, victim, target):
+@api.spell(
+    "gate",
+    skill_level={"mage": 27, "cleric": 17, "thief": 32, "warrior": 28},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(83),
+    min_mana=80,
+    beats=12,
+    noun_damage="",
+    msg_off="!Gate!",
+    msg_obj="",
+)
+def spell_gate(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT ROM-style gate */
     victim = ch.get_char_world(handler_magic.target_name)
     if (
@@ -55,22 +74,3 @@ def spell_gate(sn, level, ch, victim, target):
             "$n has arrived through a gate.", ch.pet, None, None, merc.TO_ROOM
         )
         ch.pet.do_look("auto")
-
-
-const.register_spell(
-    const.skill_type(
-        "gate",
-        {"mage": 27, "cleric": 17, "thief": 32, "warrior": 28},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_gate,
-        merc.TAR_IGNORE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(83),
-        80,
-        12,
-        "",
-        "!Gate!",
-        "",
-    )
-)

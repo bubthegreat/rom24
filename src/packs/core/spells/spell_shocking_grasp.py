@@ -1,3 +1,4 @@
+from rom24 import api
 import random
 from rom24 import const
 from rom24 import fight
@@ -5,7 +6,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_shocking_grasp(sn, level, ch, victim, target):
+@api.spell(
+    "shocking grasp",
+    skill_level={"mage": 10, "cleric": 53, "thief": 14, "warrior": 13},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(53),
+    min_mana=15,
+    beats=12,
+    noun_damage="shocking grasp",
+    msg_off="!Shocking Grasp!",
+    msg_obj="",
+)
+def spell_shocking_grasp(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     dam_each = [
         0,
         0,
@@ -66,22 +85,3 @@ def spell_shocking_grasp(sn, level, ch, victim, target):
     if handler_magic.saves_spell(level, victim, merc.DAM_LIGHTNING):
         dam = dam // 2
     fight.damage(ch, victim, dam, sn, merc.DAM_LIGHTNING, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "shocking grasp",
-        {"mage": 10, "cleric": 53, "thief": 14, "warrior": 13},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_shocking_grasp,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(53),
-        15,
-        12,
-        "shocking grasp",
-        "!Shocking Grasp!",
-        "",
-    )
-)

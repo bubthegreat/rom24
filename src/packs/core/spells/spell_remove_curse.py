@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_remove_curse(sn, level, ch, victim, target):
+@api.spell(
+    "remove curse",
+    skill_level={"mage": 53, "cleric": 18, "thief": 53, "warrior": 22},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_CHAR_DEF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(35),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="!Remove Curse!",
+    msg_obj="",
+)
+def spell_remove_curse(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     found = False
     # do object cases first */
     if target == merc.TARGET_ITEM:
@@ -43,22 +62,3 @@ def spell_remove_curse(sn, level, ch, victim, target):
                 handler_game.act("Your $p glows blue.", victim, obj, None, merc.TO_CHAR)
                 handler_game.act("$n's $p glows blue.", victim, obj, None, merc.TO_ROOM)
                 break
-
-
-const.register_spell(
-    const.skill_type(
-        "remove curse",
-        {"mage": 53, "cleric": 18, "thief": 53, "warrior": 22},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_remove_curse,
-        merc.TAR_OBJ_CHAR_DEF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(35),
-        5,
-        12,
-        "",
-        "!Remove Curse!",
-        "",
-    )
-)

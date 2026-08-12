@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import effects
 from rom24 import fight
@@ -9,7 +10,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_frost_breath(sn, level, ch, victim, target):
+@api.spell(
+    "frost breath",
+    skill_level={"mage": 34, "cleric": 36, "thief": 38, "warrior": 40},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(202),
+    min_mana=125,
+    beats=24,
+    noun_damage="blast of frost",
+    msg_off="!Frost Breath!",
+    msg_obj="",
+)
+def spell_frost_breath(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     handler_game.act(
         "$n breathes out a freezing cone of frost! ", ch, None, victim, merc.TO_NOTVICT
     )
@@ -49,22 +68,3 @@ def spell_frost_breath(sn, level, ch, victim, target):
             else:
                 effects.cold_effect(vch, level // 2, dam // 4, merc.TARGET_CHAR)
                 fight.damage(ch, vch, dam // 2, sn, merc.DAM_COLD, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "frost breath",
-        {"mage": 34, "cleric": 36, "thief": 38, "warrior": 40},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_frost_breath,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(202),
-        125,
-        24,
-        "blast of frost",
-        "!Frost Breath!",
-        "",
-    )
-)

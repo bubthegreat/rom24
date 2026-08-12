@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_invis(sn, level, ch, victim, target):
+@api.spell(
+    "invisibility",
+    skill_level={"mage": 5, "cleric": 53, "thief": 9, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_CHAR_DEF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(29),
+    min_mana=5,
+    beats=12,
+    noun_damage="",
+    msg_off="You are no longer invisible.",
+    msg_obj="$p fades into view.",
+)
+def spell_invis(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # object invisibility */
     if target == merc.TARGET_ITEM:
         obj = victim
@@ -39,22 +58,3 @@ def spell_invis(sn, level, ch, victim, target):
     victim.affect_add(af)
     victim.send("You fade out of existence.\n")
     return
-
-
-const.register_spell(
-    const.skill_type(
-        "invisibility",
-        {"mage": 5, "cleric": 53, "thief": 9, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_invis,
-        merc.TAR_OBJ_CHAR_DEF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(29),
-        5,
-        12,
-        "",
-        "You are no longer invisible.",
-        "$p fades into view.",
-    )
-)

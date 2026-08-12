@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import effects
 from rom24 import fight
@@ -9,7 +10,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_acid_breath(sn, level, ch, victim, target):
+@api.spell(
+    "acid breath",
+    skill_level={"mage": 31, "cleric": 32, "thief": 33, "warrior": 34},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(200),
+    min_mana=100,
+    beats=24,
+    noun_damage="blast of acid",
+    msg_off="!Acid Breath!",
+    msg_obj="",
+)
+def spell_acid_breath(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # NPC spells.
     handler_game.act("$n spits acid at $N.", ch, None, victim, merc.TO_NOTVICT)
     handler_game.act(
@@ -29,22 +48,3 @@ def spell_acid_breath(sn, level, ch, victim, target):
     else:
         effects.acid_effect(victim, level, dam, merc.TARGET_CHAR)
         fight.damage(ch, victim, dam, sn, merc.DAM_ACID, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "acid breath",
-        {"mage": 31, "cleric": 32, "thief": 33, "warrior": 34},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_acid_breath,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(200),
-        100,
-        24,
-        "blast of acid",
-        "!Acid Breath!",
-        "",
-    )
-)

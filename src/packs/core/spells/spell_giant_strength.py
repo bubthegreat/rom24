@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_giant_strength(sn, level, ch, victim, target):
+@api.spell(
+    "giant strength",
+    skill_level={"mage": 11, "cleric": 53, "thief": 22, "warrior": 20},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(39),
+    min_mana=20,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel weaker.",
+    msg_obj="",
+)
+def spell_giant_strength(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if state_checks.is_affected(victim, sn):
         if victim == ch:
             ch.send("You are already as strong as you can get! \n")
@@ -26,22 +45,3 @@ def spell_giant_strength(sn, level, ch, victim, target):
     handler_game.act(
         "$n's muscles surge with heightened power.", victim, None, None, merc.TO_ROOM
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "giant strength",
-        {"mage": 11, "cleric": 53, "thief": 22, "warrior": 20},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_giant_strength,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(39),
-        20,
-        12,
-        "",
-        "You feel weaker.",
-        "",
-    )
-)

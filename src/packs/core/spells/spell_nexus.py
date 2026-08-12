@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -6,7 +7,25 @@ from rom24 import object_creator
 from rom24 import state_checks
 
 
-def spell_nexus(sn, level, ch, victim, target):
+@api.spell(
+    "nexus",
+    skill_level={"mage": 40, "cleric": 35, "thief": 50, "warrior": 45},
+    rating={"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(520),
+    min_mana=150,
+    beats=36,
+    noun_damage="",
+    msg_off="!Nexus!",
+    msg_obj="",
+)
+def spell_nexus(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     from_room = ch.in_room
     victim = ch.get_char_world(handler_magic.target_name)
     to_room = victim.in_room
@@ -83,22 +102,3 @@ def spell_nexus(sn, level, ch, victim, target):
         handler_game.act(
             "$p rises up from the ground.", vch, portal, None, merc.TO_CHAR
         )
-
-
-const.register_spell(
-    const.skill_type(
-        "nexus",
-        {"mage": 40, "cleric": 35, "thief": 50, "warrior": 45},
-        {"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
-        spell_nexus,
-        merc.TAR_IGNORE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(520),
-        150,
-        36,
-        "",
-        "!Nexus!",
-        "",
-    )
-)

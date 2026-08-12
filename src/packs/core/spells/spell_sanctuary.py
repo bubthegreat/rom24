@@ -1,9 +1,28 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_sanctuary(sn, level, ch, victim, target):
+@api.spell(
+    "sanctuary",
+    skill_level={"mage": 36, "cleric": 20, "thief": 42, "warrior": 30},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(36),
+    min_mana=75,
+    beats=12,
+    noun_damage="",
+    msg_off="The white aura around your body fades.",
+    msg_obj="",
+)
+def spell_sanctuary(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_SANCTUARY):
         if victim == ch:
             ch.send("You are already in sanctuary.\n")
@@ -26,22 +45,3 @@ def spell_sanctuary(sn, level, ch, victim, target):
         "$n is surrounded by a white aura.", victim, None, None, merc.TO_ROOM
     )
     victim.send("You are surrounded by a white aura.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "sanctuary",
-        {"mage": 36, "cleric": 20, "thief": 42, "warrior": 30},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_sanctuary,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(36),
-        75,
-        12,
-        "",
-        "The white aura around your body fades.",
-        "",
-    )
-)

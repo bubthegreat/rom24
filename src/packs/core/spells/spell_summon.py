@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -5,7 +6,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_summon(sn, level, ch, victim, target):
+@api.spell(
+    "summon",
+    skill_level={"mage": 24, "cleric": 12, "thief": 29, "warrior": 22},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(40),
+    min_mana=50,
+    beats=12,
+    noun_damage="",
+    msg_off="!Summon!",
+    msg_obj="",
+)
+def spell_summon(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     victim = ch.get_char_world(handler_magic.target_name)
     if (
         not victim
@@ -36,22 +55,3 @@ def spell_summon(sn, level, ch, victim, target):
     handler_game.act("$n arrives suddenly.", victim, None, None, merc.TO_ROOM)
     handler_game.act("$n has summoned you! ", ch, None, victim, merc.TO_VICT)
     victim.do_look("auto")
-
-
-const.register_spell(
-    const.skill_type(
-        "summon",
-        {"mage": 24, "cleric": 12, "thief": 29, "warrior": 22},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_summon,
-        merc.TAR_IGNORE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(40),
-        50,
-        12,
-        "",
-        "!Summon!",
-        "",
-    )
-)

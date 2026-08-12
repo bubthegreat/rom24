@@ -177,19 +177,40 @@ class SpellCtx(BaseCtx):
         self.target_type = target
 
 
-def command(name, *, pos, level=0, log=merc.LOG_NORMAL, show=1, aliases=()):
-    """Register a ctx-style command. The wrapped func takes a single ctx."""
-
-    def deco(func):
+def _command_shim(func):
+    """One ctx shim per command func (shared across all its registered names)."""
+    shim = getattr(func, "_ctx_shim", None)
+    if shim is None:
         def shim(ch, argument):
             func(CommandCtx(ch, argument))
 
         # cmd_type binds do_fun onto Living by __name__ (ch.do_x); keep it.
         shim.__name__ = func.__name__
         shim.__doc__ = func.__doc__
-        interp.register_command(interp.cmd_type(name, shim, pos, level, log, show))
+        func._ctx_shim = shim
+    return shim
+
+
+def register(name, func, *, pos, level=0, log=merc.LOG_NORMAL, show=1):
+    """Register a ctx-style command under ONE name.
+
+    Maps 1:1 to the old ``interp.register_command(interp.cmd_type(name, func,
+    pos, level, log, show))`` call, so a command with several names/aliases
+    becomes one ``api.register(...)`` per original registration — preserving each
+    name's exact position/level/log/show.
+    """
+    shim = _command_shim(func)
+    interp.register_command(interp.cmd_type(name, shim, pos, level, log, show))
+    return func
+
+
+def command(name, *, pos, level=0, log=merc.LOG_NORMAL, show=1, aliases=()):
+    """Decorator sugar for register(): a primary name plus simple aliases."""
+
+    def deco(func):
+        register(name, func, pos=pos, level=level, log=log, show=show)
         for alias in aliases:
-            interp.register_command(interp.cmd_type(alias, shim, pos, level, log, 0))
+            register(alias, func, pos=pos, level=level, log=log, show=0)
         return func
 
     return deco

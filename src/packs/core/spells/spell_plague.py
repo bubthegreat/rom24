@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_plague(sn, level, ch, victim, target):
+@api.spell(
+    "plague",
+    skill_level={"mage": 23, "cleric": 17, "thief": 36, "warrior": 26},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(503),
+    min_mana=20,
+    beats=12,
+    noun_damage="sickness",
+    msg_off="Your sores vanish.",
+    msg_obj="",
+)
+def spell_plague(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT plague spell, very nasty */
     if handler_magic.saves_spell(level, victim, merc.DAM_DISEASE) or (
         victim.is_npc() and victim.act.is_set(merc.ACT_UNDEAD)
@@ -35,22 +54,3 @@ def spell_plague(sn, level, ch, victim, target):
         None,
         merc.TO_ROOM,
     )
-
-
-const.register_spell(
-    const.skill_type(
-        "plague",
-        {"mage": 23, "cleric": 17, "thief": 36, "warrior": 26},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_plague,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(503),
-        20,
-        12,
-        "sickness",
-        "Your sores vanish.",
-        "",
-    )
-)

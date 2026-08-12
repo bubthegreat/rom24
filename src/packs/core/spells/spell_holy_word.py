@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import game_utils
@@ -6,7 +7,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_holy_word(sn, level, ch, victim, target):
+@api.spell(
+    "holy word",
+    skill_level={"mage": 53, "cleric": 36, "thief": 53, "warrior": 42},
+    rating={"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(506),
+    min_mana=200,
+    beats=24,
+    noun_damage="divine wrath",
+    msg_off="!Holy Word!",
+    msg_obj="",
+)
+def spell_holy_word(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     # RT really nasty high-level attack spell */
     handler_game.act("$n utters a word of divine power! ", ch, None, None, merc.TO_ROOM)
     ch.send("You utter a word of divine power.\n")
@@ -47,22 +66,3 @@ def spell_holy_word(sn, level, ch, victim, target):
     ch.send("You feel drained.\n")
     ch.move = 0
     ch.hit = ch.hit // 2
-
-
-const.register_spell(
-    const.skill_type(
-        "holy word",
-        {"mage": 53, "cleric": 36, "thief": 53, "warrior": 42},
-        {"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
-        spell_holy_word,
-        merc.TAR_IGNORE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(506),
-        200,
-        24,
-        "divine wrath",
-        "!Holy Word!",
-        "",
-    )
-)

@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -6,7 +7,25 @@ from rom24 import merc
 from rom24 import state_checks
 
 
-def spell_teleport(sn, level, ch, victim, target):
+@api.spell(
+    "teleport",
+    skill_level={"mage": 13, "cleric": 22, "thief": 25, "warrior": 36},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(2),
+    min_mana=35,
+    beats=12,
+    noun_damage="",
+    msg_off="!Teleport!",
+    msg_obj="",
+)
+def spell_teleport(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if (
         victim.in_room == None
         or state_checks.IS_SET(victim.in_room.room_flags, merc.ROOM_NO_RECALL)
@@ -32,22 +51,3 @@ def spell_teleport(sn, level, ch, victim, target):
         "$n slowly fades into existence.", victim, None, None, merc.TO_ROOM
     )
     victim.do_look("auto")
-
-
-const.register_spell(
-    const.skill_type(
-        "teleport",
-        {"mage": 13, "cleric": 22, "thief": 25, "warrior": 36},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_teleport,
-        merc.TAR_CHAR_SELF,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(2),
-        35,
-        12,
-        "",
-        "!Teleport!",
-        "",
-    )
-)

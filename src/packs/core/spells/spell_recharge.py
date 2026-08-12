@@ -1,3 +1,4 @@
+from rom24 import api
 import random
 
 from rom24 import const
@@ -5,7 +6,25 @@ from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_recharge(sn, level, ch, victim, target):
+@api.spell(
+    "recharge",
+    skill_level={"mage": 9, "cleric": 53, "thief": 53, "warrior": 53},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_OBJ_INV,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(517),
+    min_mana=60,
+    beats=24,
+    noun_damage="",
+    msg_off="!Recharge!",
+    msg_obj="",
+)
+def spell_recharge(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     obj = victim
     if obj.item_type != merc.ITEM_WAND and obj.item_type != merc.ITEM_STAFF:
         ch.send("That item does not carry charges.\n")
@@ -57,22 +76,3 @@ def spell_recharge(sn, level, ch, victim, target):
             "$p glows brightly and explodes! ", ch, obj, None, merc.TO_ROOM
         )
         obj.extract()
-
-
-const.register_spell(
-    const.skill_type(
-        "recharge",
-        {"mage": 9, "cleric": 53, "thief": 53, "warrior": 53},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_recharge,
-        merc.TAR_OBJ_INV,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(517),
-        60,
-        24,
-        "",
-        "!Recharge!",
-        "",
-    )
-)

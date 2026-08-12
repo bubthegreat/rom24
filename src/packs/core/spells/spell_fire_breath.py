@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import effects
 from rom24 import fight
@@ -9,7 +10,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_fire_breath(sn, level, ch, victim, target):
+@api.spell(
+    "fire breath",
+    skill_level={"mage": 40, "cleric": 45, "thief": 50, "warrior": 51},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(201),
+    min_mana=200,
+    beats=24,
+    noun_damage="blast of flame",
+    msg_off="The smoke leaves your eyes.",
+    msg_obj="",
+)
+def spell_fire_breath(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     handler_game.act(
         "$n breathes forth a cone of fire.", ch, None, victim, merc.TO_NOTVICT
     )
@@ -45,22 +64,3 @@ def spell_fire_breath(sn, level, ch, victim, target):
             else:
                 effects.fire_effect(vch, level // 2, dam // 4, merc.TARGET_CHAR)
                 fight.damage(ch, vch, dam // 2, sn, merc.DAM_FIRE, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "fire breath",
-        {"mage": 40, "cleric": 45, "thief": 50, "warrior": 51},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_fire_breath,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(201),
-        200,
-        24,
-        "blast of flame",
-        "The smoke leaves your eyes.",
-        "",
-    )
-)

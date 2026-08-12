@@ -1,9 +1,28 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_fly(sn, level, ch, victim, target):
+@api.spell(
+    "fly",
+    skill_level={"mage": 10, "cleric": 18, "thief": 20, "warrior": 22},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_DEFENSIVE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(56),
+    min_mana=10,
+    beats=18,
+    noun_damage="",
+    msg_off="You slowly float to the ground.",
+    msg_obj="",
+)
+def spell_fly(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_FLYING):
         if victim == ch:
             ch.send("You are already airborne.\n")
@@ -24,22 +43,3 @@ def spell_fly(sn, level, ch, victim, target):
     victim.send("Your feet rise off the ground.\n")
     handler_game.act("$n's feet rise off the ground.", victim, None, None, merc.TO_ROOM)
     return
-
-
-const.register_spell(
-    const.skill_type(
-        "fly",
-        {"mage": 10, "cleric": 18, "thief": 20, "warrior": 22},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_fly,
-        merc.TAR_CHAR_DEFENSIVE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(56),
-        10,
-        18,
-        "",
-        "You slowly float to the ground.",
-        "",
-    )
-)

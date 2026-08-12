@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import fight
 from rom24 import handler_game
@@ -7,7 +8,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_chill_touch(sn, level, ch, victim, target):
+@api.spell(
+    "chill touch",
+    skill_level={"mage": 4, "cleric": 53, "thief": 6, "warrior": 6},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_OFFENSIVE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(8),
+    min_mana=15,
+    beats=12,
+    noun_damage="chilling touch",
+    msg_off="You feel less cold.",
+    msg_obj="",
+)
+def spell_chill_touch(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     dam_each = [
         0,
         0,
@@ -79,22 +98,3 @@ def spell_chill_touch(sn, level, ch, victim, target):
     else:
         dam = dam // 2
     fight.damage(ch, victim, dam, sn, merc.DAM_COLD, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "chill touch",
-        {"mage": 4, "cleric": 53, "thief": 6, "warrior": 6},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_chill_touch,
-        merc.TAR_CHAR_OFFENSIVE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(8),
-        15,
-        12,
-        "chilling touch",
-        "You feel less cold.",
-        "",
-    )
-)

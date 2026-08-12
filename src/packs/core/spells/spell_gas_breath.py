@@ -1,5 +1,6 @@
 import random
 
+from rom24 import api
 from rom24 import const
 from rom24 import effects
 from rom24 import fight
@@ -9,7 +10,25 @@ from rom24 import handler_magic
 from rom24 import merc
 
 
-def spell_gas_breath(sn, level, ch, victim, target):
+@api.spell(
+    "gas breath",
+    skill_level={"mage": 39, "cleric": 43, "thief": 47, "warrior": 50},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_FIGHTING,
+    slot=const.SLOT(203),
+    min_mana=175,
+    beats=24,
+    noun_damage="blast of gas",
+    msg_off="!Gas Breath!",
+    msg_obj="",
+)
+def spell_gas_breath(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     handler_game.act(
         "$n breathes out a cloud of poisonous gas! ", ch, None, None, merc.TO_ROOM
     )
@@ -38,22 +57,3 @@ def spell_gas_breath(sn, level, ch, victim, target):
         else:
             effects.poison_effect(vch, level, dam, merc.TARGET_CHAR)
             fight.damage(ch, vch, dam, sn, merc.DAM_POISON, True)
-
-
-const.register_spell(
-    const.skill_type(
-        "gas breath",
-        {"mage": 39, "cleric": 43, "thief": 47, "warrior": 50},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_gas_breath,
-        merc.TAR_IGNORE,
-        merc.POS_FIGHTING,
-        None,
-        const.SLOT(203),
-        175,
-        24,
-        "blast of gas",
-        "!Gas Breath!",
-        "",
-    )
-)

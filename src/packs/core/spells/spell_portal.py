@@ -1,3 +1,4 @@
+from rom24 import api
 from rom24 import const
 from rom24 import handler_game
 from rom24 import handler_magic
@@ -6,7 +7,25 @@ from rom24 import object_creator
 from rom24 import state_checks
 
 
-def spell_portal(sn, level, ch, victim, target):
+@api.spell(
+    "portal",
+    skill_level={"mage": 35, "cleric": 30, "thief": 45, "warrior": 40},
+    rating={"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
+    target=merc.TAR_IGNORE,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(519),
+    min_mana=100,
+    beats=24,
+    noun_damage="",
+    msg_off="!Portal!",
+    msg_obj="",
+)
+def spell_portal(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     victim = ch.get_char_world(handler_magic.target_name)
 
     if (
@@ -56,22 +75,3 @@ def spell_portal(sn, level, ch, victim, target):
 
     handler_game.act("$p rises up from the ground.", ch, portal, None, merc.TO_ROOM)
     handler_game.act("$p rises up before you.", ch, portal, None, merc.TO_CHAR)
-
-
-const.register_spell(
-    const.skill_type(
-        "portal",
-        {"mage": 35, "cleric": 30, "thief": 45, "warrior": 40},
-        {"mage": 2, "cleric": 2, "thief": 4, "warrior": 4},
-        spell_portal,
-        merc.TAR_IGNORE,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(519),
-        100,
-        24,
-        "",
-        "!Portal!",
-        "",
-    )
-)

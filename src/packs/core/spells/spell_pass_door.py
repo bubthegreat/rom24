@@ -1,10 +1,29 @@
+from rom24 import api
 from rom24 import const
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import merc
 
 
-def spell_pass_door(sn, level, ch, victim, target):
+@api.spell(
+    "pass door",
+    skill_level={"mage": 24, "cleric": 32, "thief": 25, "warrior": 37},
+    rating={"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
+    target=merc.TAR_CHAR_SELF,
+    min_pos=merc.POS_STANDING,
+    slot=const.SLOT(74),
+    min_mana=20,
+    beats=12,
+    noun_damage="",
+    msg_off="You feel solid again.",
+    msg_obj="",
+)
+def spell_pass_door(ctx):
+    sn = ctx.sn
+    level = ctx.level
+    ch = ctx.ch
+    victim = ctx.target
+    target = ctx.target_type
     if victim.is_affected(merc.AFF_PASS_DOOR):
         if victim == ch:
             ch.send("You are already out of phase.\n")
@@ -25,22 +44,3 @@ def spell_pass_door(sn, level, ch, victim, target):
     victim.affect_add(af)
     handler_game.act("$n turns translucent.", victim, None, None, merc.TO_ROOM)
     victim.send("You turn translucent.\n")
-
-
-const.register_spell(
-    const.skill_type(
-        "pass door",
-        {"mage": 24, "cleric": 32, "thief": 25, "warrior": 37},
-        {"mage": 1, "cleric": 1, "thief": 2, "warrior": 2},
-        spell_pass_door,
-        merc.TAR_CHAR_SELF,
-        merc.POS_STANDING,
-        None,
-        const.SLOT(74),
-        20,
-        12,
-        "",
-        "You feel solid again.",
-        "",
-    )
-)
