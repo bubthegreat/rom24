@@ -10,5 +10,10 @@ spec:
       port: 1337
       targetPort: 1337
       name: telnet
-  type: ClusterIP
+  # LoadBalancer so each env gets its own MetalLB IP (all on 1337). The overlay
+  # pins the IP via the metallb.universe.tf/loadBalancerIPs annotation, and DNS
+  # points <env>-pyrom.bubtaylor.com at it. externalTrafficPolicy=Local keeps
+  # the real client IP (useful for MUD logging/bans).
+  type: LoadBalancer
+  externalTrafficPolicy: Local
 
