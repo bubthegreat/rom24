@@ -8,18 +8,16 @@ spec:
   generators:
     - list:
         elements:
+          # Each env is a MetalLB LoadBalancer on port 1337 with its own pinned
+          # IP (see k8s/overlays/<env>/pyrom-service-patch.yaml).
           - environment: prod
             namespace: pyrom-prod
             overlay: prod
             telnetPort: "1337"
-          - environment: staging
-            namespace: pyrom-staging
-            overlay: staging
-            telnetPort: "1338"
           - environment: dev
             namespace: pyrom-dev
             overlay: dev
-            telnetPort: "1339"
+            telnetPort: "1337"
   
   template:
     metadata:
