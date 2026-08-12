@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_worth(ch, argument):
+def do_worth(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         ch.send("You have %ld gold and %ld silver.\n" % (ch.gold, ch.silver))
         return
@@ -21,6 +24,4 @@ def do_worth(ch, argument):
     )
 
 
-interp.register_command(
-    interp.cmd_type("worth", do_worth, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("worth", do_worth, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

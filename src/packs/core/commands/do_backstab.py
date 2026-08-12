@@ -9,10 +9,13 @@ from rom24 import fight
 from rom24 import const
 from rom24 import state_checks
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 
 
-def do_backstab(ch, argument):
+def do_backstab(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -66,10 +69,5 @@ def do_backstab(ch, argument):
             fight.damage(ch, victim, 0, "backstab", merc.DAM_NONE, True)
     return
 
-
-interp.register_command(
-    interp.cmd_type("backstab", do_backstab, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("bs", do_backstab, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("backstab", do_backstab, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("bs", do_backstab, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=0)

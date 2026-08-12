@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_commands(ch, argument):
+def do_commands(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     col = 0
     for key, cmd in interp.cmd_table.items():
         if cmd.level < merc.LEVEL_HERO and cmd.level <= ch.trust and cmd.show:
@@ -19,6 +22,4 @@ def do_commands(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("commands", do_commands, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("commands", do_commands, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

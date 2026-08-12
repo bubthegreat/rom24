@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
 # RT deaf blocks out all shouts
-def do_deaf(ch, argument):
+def do_deaf(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_DEAF):
         ch.send("You can now hear tells again.\n")
         ch.comm.rem_bit(merc.COMM_DEAF)
@@ -16,6 +19,4 @@ def do_deaf(ch, argument):
         ch.comm.set_bit(merc.COMM_DEAF)
 
 
-interp.register_command(
-    interp.cmd_type("deaf", do_deaf, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("deaf", do_deaf, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

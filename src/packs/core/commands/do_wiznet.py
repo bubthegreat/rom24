@@ -6,9 +6,12 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import const
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_wiznet(ch, argument):
+def do_wiznet(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if state_checks.IS_SET(ch.wiznet, merc.WIZ_ON):
             ch.send("Signing off of Wiznet.\n")
@@ -58,6 +61,4 @@ def do_wiznet(ch, argument):
         return
 
 
-interp.register_command(
-    interp.cmd_type("wiznet", do_wiznet, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("wiznet", do_wiznet, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 
 # RT to replace the two load commands
-def do_load(ch, argument):
+def do_load(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Syntax:\n")
@@ -24,6 +27,4 @@ def do_load(ch, argument):
     ch.do_load("")
 
 
-interp.register_command(
-    interp.cmd_type("load", do_load, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("load", do_load, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

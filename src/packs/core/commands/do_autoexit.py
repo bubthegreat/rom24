@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_autoexit(ch, argument):
+def do_autoexit(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -17,7 +20,4 @@ def do_autoexit(ch, argument):
         ch.send("Exits will now be displayed.\n")
         ch.act.set_bit(merc.PLR_AUTOEXIT)
 
-
-interp.register_command(
-    interp.cmd_type("autoexit", do_autoexit, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autoexit", do_autoexit, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_autosac(ch, argument):
+def do_autosac(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if ch.act.is_set(merc.PLR_AUTOSAC):
@@ -16,7 +19,4 @@ def do_autosac(ch, argument):
         ch.send("Automatic corpse sacrificing set.\n")
         ch.act.set_bit(merc.PLR_AUTOSAC)
 
-
-interp.register_command(
-    interp.cmd_type("autosac", do_autosac, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autosac", do_autosac, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

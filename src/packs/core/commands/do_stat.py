@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 # RT to replace the 3 stat commands
-def do_stat(ch, argument):
+def do_stat(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     string, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Syntax:\n")
@@ -41,6 +44,4 @@ def do_stat(ch, argument):
     ch.send("Nothing by that name found anywhere.\n")
 
 
-interp.register_command(
-    interp.cmd_type("stat", do_stat, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("stat", do_stat, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

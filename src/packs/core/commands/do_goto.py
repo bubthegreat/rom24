@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import fight
 from rom24 import game_utils
 from rom24 import instance
 
 
-def do_goto(ch, argument):
+def do_goto(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Goto where?\n")
         return
@@ -52,6 +55,4 @@ def do_goto(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("goto", do_goto, merc.POS_DEAD, merc.L8, merc.LOG_NORMAL, 1)
-)
+api.register("goto", do_goto, pos=merc.POS_DEAD, level=merc.L8, log=merc.LOG_NORMAL, show=1)

@@ -10,9 +10,12 @@ from rom24 import handler_magic
 from rom24 import state_checks
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_zap(ch, argument):
+def do_zap(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg and not ch.fighting:
         ch.send("Zap whom or what?\n")
@@ -83,6 +86,4 @@ def do_zap(ch, argument):
         wand.extract()
 
 
-interp.register_command(
-    interp.cmd_type("zap", do_zap, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("zap", do_zap, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

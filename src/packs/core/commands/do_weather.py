@@ -6,9 +6,12 @@ from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_weather(ch, argument):
+def do_weather(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     sky_look = ["cloudless", "cloudy", "rainy", "lit by flashes of lightning"]
     if not state_checks.IS_OUTSIDE(ch):
         ch.send("You can't see the weather indoors.\n")
@@ -26,6 +29,4 @@ def do_weather(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("weather", do_weather, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("weather", do_weather, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

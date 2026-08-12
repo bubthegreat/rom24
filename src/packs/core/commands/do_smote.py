@@ -2,13 +2,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 from rom24 import instance
 
 
-def do_smote(ch, argument):
+def do_smote(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.is_npc() and ch.comm.is_set(merc.COMM_NOEMOTE):
         ch.send("You can't show your emotions.\n")
         return
@@ -31,6 +34,4 @@ def do_smote(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("smote", do_smote, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("smote", do_smote, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

@@ -9,9 +9,12 @@ from rom24 import update
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import instance
+from rom24 import api
 
 
-def do_drink(ch, argument):
+def do_drink(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     obj = None
     if not arg:
@@ -96,6 +99,4 @@ def do_drink(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("drink", do_drink, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("drink", do_drink, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -7,9 +7,12 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_wake(ch, argument):
+def do_wake(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.do_stand("")
@@ -33,6 +36,4 @@ def do_wake(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("wake", do_wake, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("wake", do_wake, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
+from rom24 import api
 
 
-def do_echo(ch, argument):
+def do_echo(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Global echo what?\n")
         return
@@ -19,6 +22,4 @@ def do_echo(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("gecho", do_echo, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("gecho", do_echo, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

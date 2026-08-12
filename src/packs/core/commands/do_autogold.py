@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import state_checks
 
 
-def do_autogold(ch, argument):
+def do_autogold(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -18,7 +21,4 @@ def do_autogold(ch, argument):
         ch.send("Automatic gold looting set.\n")
         ch.act.set_bit(merc.PLR_AUTOGOLD)
 
-
-interp.register_command(
-    interp.cmd_type("autogold", do_autogold, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autogold", do_autogold, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

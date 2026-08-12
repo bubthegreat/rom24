@@ -8,10 +8,13 @@ from rom24 import interp
 from rom24 import const
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import api
 
 
 # for poisoning weapons and food/drink
-def do_envenom(ch, argument):
+def do_envenom(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # find out what
     if not argument:
         ch.send("Envenom what item?\n")
@@ -101,6 +104,4 @@ def do_envenom(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("envenom", do_envenom, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("envenom", do_envenom, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

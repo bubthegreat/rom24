@@ -8,9 +8,12 @@ from rom24 import fight
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_deny(ch, argument):
+def do_deny(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Deny whom?\n")
@@ -42,6 +45,4 @@ def do_deny(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("deny", do_deny, merc.POS_DEAD, merc.L1, merc.LOG_ALWAYS, 1)
-)
+api.register("deny", do_deny, pos=merc.POS_DEAD, level=merc.L1, log=merc.LOG_ALWAYS, show=1)

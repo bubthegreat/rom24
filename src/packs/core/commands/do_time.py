@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import handler_game
+from rom24 import api
 
 
 day_name = [
@@ -37,7 +38,9 @@ month_name = [
     "the Great Evil",
 ]
 
-def do_time(ch, argument):
+def do_time(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     day = handler_game.time_info.day + 1
     suf = ""
     if day > 4 and day < 20:
@@ -73,6 +76,4 @@ def do_time(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("time", do_time, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("time", do_time, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

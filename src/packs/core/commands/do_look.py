@@ -8,11 +8,14 @@ from rom24 import handler_ch
 from rom24 import handler_game
 from rom24 import state_checks
 from rom24 import interp
+from rom24 import api
 from rom24 import const
 from rom24 import instance
 
 
-def do_look(ch, argument):
+def do_look(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc() or not ch.desc:
         return
     if ch.position < merc.POS_SLEEPING:
@@ -160,9 +163,5 @@ def do_look(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("look", do_look, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("read", do_look, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("look", do_look, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("read", do_look, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import const
 from rom24 import interp
@@ -10,7 +11,9 @@ from rom24 import game_utils
 from rom24 import state_checks
 
 
-def do_mset(ch, argument):
+def do_mset(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
     argument, arg3 = game_utils.read_word(argument)
@@ -224,6 +227,4 @@ def do_mset(ch, argument):
     ch.do_mset("")
 
 
-interp.register_command(
-    interp.cmd_type("mset", do_mset, merc.POS_DEAD, merc.L2, merc.LOG_ALWAYS, 1)
-)
+api.register("mset", do_mset, pos=merc.POS_DEAD, level=merc.L2, log=merc.LOG_ALWAYS, show=1)

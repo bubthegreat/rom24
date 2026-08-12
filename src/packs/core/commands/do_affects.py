@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_affects(ch, argument):
+def do_affects(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     paf_last = None
     if ch.affected:
         ch.send("You are affected by the following spells:\n")
@@ -32,7 +35,4 @@ def do_affects(ch, argument):
     else:
         ch.send("You are not affected by any spells.\n")
 
-
-interp.register_command(
-    interp.cmd_type("affects", do_affects, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("affects", do_affects, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

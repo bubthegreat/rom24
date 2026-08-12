@@ -8,9 +8,12 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 from rom24 import instance
+from rom24 import api
 
 
-def do_drop(ch, argument):
+def do_drop(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     found = False
     argument, arg = game_utils.read_word(argument)
 
@@ -114,6 +117,4 @@ def do_drop(ch, argument):
                 )
 
 
-interp.register_command(
-    interp.cmd_type("drop", do_drop, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("drop", do_drop, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

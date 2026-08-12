@@ -2,13 +2,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 
 # RT set replaces sset, mset, oset, and rset
-def do_set(ch, argument):
+def do_set(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -34,6 +37,4 @@ def do_set(ch, argument):
     ch.do_set("")
 
 
-interp.register_command(
-    interp.cmd_type("set", do_set, merc.POS_DEAD, merc.L2, merc.LOG_ALWAYS, 1)
-)
+api.register("set", do_set, pos=merc.POS_DEAD, level=merc.L2, log=merc.LOG_ALWAYS, show=1)

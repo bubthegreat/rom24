@@ -8,9 +8,12 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import settings
 from rom24 import fight
+from rom24 import api
 
 
-def do_delete(ch, argument):
+def do_delete(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -37,13 +40,11 @@ def do_delete(ch, argument):
     handler_game.wiznet("$N is contemplating deletion.", ch, None, 0, 0, ch.trust)
 
 
-def do_delet(ch, argument):
+def do_delet(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("You must type the full command to delete yourself.\n")
 
 
-interp.register_command(
-    interp.cmd_type("delete", do_delete, merc.POS_STANDING, 0, merc.LOG_ALWAYS, 1)
-)
-interp.register_command(
-    interp.cmd_type("delet", do_delet, merc.POS_DEAD, 0, merc.LOG_ALWAYS, 0)
-)
+api.register("delete", do_delete, pos=merc.POS_STANDING, level=0, log=merc.LOG_ALWAYS, show=1)
+api.register("delet", do_delet, pos=merc.POS_DEAD, level=0, log=merc.LOG_ALWAYS, show=0)

@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
+from rom24 import api
 
 
-def do_examine(ch, argument):
+def do_examine(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Examine what?\n")
@@ -46,6 +49,4 @@ def do_examine(ch, argument):
             ch.do_look("in %s" % arg)
 
 
-interp.register_command(
-    interp.cmd_type("examine", do_examine, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("examine", do_examine, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

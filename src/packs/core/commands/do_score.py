@@ -3,12 +3,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import state_checks
 from rom24 import merc
 from rom24 import interp
 
 
-def do_score(ch, argument):
+def do_score(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send(
         "You are %s%s, level %d, %d years old (%d hours).\n"
         % (
@@ -193,6 +196,4 @@ def do_score(ch, argument):
         ch.do_affects("")
 
 
-interp.register_command(
-    interp.cmd_type("score", do_score, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("score", do_score, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

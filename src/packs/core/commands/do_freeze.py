@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_freeze(ch, argument):
+def do_freeze(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Freeze whom?\n")
@@ -53,6 +56,4 @@ def do_freeze(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("freeze", do_freeze, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("freeze", do_freeze, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

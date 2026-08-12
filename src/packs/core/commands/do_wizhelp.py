@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_wizhelp(ch, argument):
+def do_wizhelp(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     col = 0
     for key, cmd in interp.cmd_table.items():
         try:
@@ -22,6 +25,4 @@ def do_wizhelp(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("wizhelp", do_wizhelp, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("wizhelp", do_wizhelp, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

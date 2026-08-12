@@ -4,6 +4,7 @@ logger = logging.getLogger(__name__)
 
 from rom24 import handler_game
 from rom24 import interp
+from rom24 import api
 from rom24 import merc
 import random
 from rom24 import fight
@@ -12,7 +13,9 @@ from rom24 import state_checks
 from rom24 import update
 
 
-def do_recall(ch, argument):
+def do_recall(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc() and not ch.act.is_set(merc.ACT_PET):
         ch.send("Only players can recall.\n")
         return
@@ -55,9 +58,5 @@ def do_recall(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("recall", do_recall, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("/", do_recall, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("recall", do_recall, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("/", do_recall, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=0)

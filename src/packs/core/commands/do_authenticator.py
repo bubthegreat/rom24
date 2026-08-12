@@ -8,10 +8,13 @@ logger = logging.getLogger(__name__)
 from rom24 import auth
 from rom24 import game_utils
 from rom24 import interp
+from rom24 import api
 from rom24 import merc
 
 
-def do_authenticator(ch, argument):
+def do_authenticator(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -84,9 +87,4 @@ def do_authenticator(ch, argument):
                     ch.send("Authentication is now disabled.\n")
                     return
 
-
-interp.register_command(
-    interp.cmd_type(
-        "authenticator", do_authenticator, merc.POS_DEAD, 0, merc.LOG_NEVER, 1
-    )
-)
+api.register("authenticator", do_authenticator, pos=merc.POS_DEAD, level=0, log=merc.LOG_NEVER, show=1)

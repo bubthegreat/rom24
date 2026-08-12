@@ -9,10 +9,13 @@ from rom24 import state_checks
 from rom24 import const
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import instance
 
 
-def do_heal(ch, argument):
+def do_heal(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # check for healer
     for mob_id in ch.in_room.people[:]:
         healer = instance.characters[mob_id]
@@ -124,6 +127,4 @@ def do_heal(ch, argument):
     spell(sn, mob.level, mob, ch, merc.TARGET_CHAR)
 
 
-interp.register_command(
-    interp.cmd_type("heal", do_heal, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("heal", do_heal, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

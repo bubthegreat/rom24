@@ -6,9 +6,12 @@ from rom24 import merc
 from rom24 import game_utils
 from rom24 import update
 from rom24 import interp
+from rom24 import api
 
 
-def do_advance(ch, argument):
+def do_advance(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
 
@@ -63,7 +66,4 @@ def do_advance(ch, argument):
     victim.save()
     return
 
-
-interp.register_command(
-    interp.cmd_type("advance", do_advance, merc.POS_DEAD, merc.ML, merc.LOG_ALWAYS, 1)
-)
+api.register("advance", do_advance, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_ALWAYS, show=1)

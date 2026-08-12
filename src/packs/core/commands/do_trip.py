@@ -10,9 +10,12 @@ from rom24 import interp
 from rom24 import fight
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_trip(ch, argument):
+def do_trip(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     arghold, arg = game_utils.read_word(argument)
     chance = ch.get_skill("trip")
     if (
@@ -109,6 +112,4 @@ def do_trip(ch, argument):
     fight.check_killer(ch, victim)
 
 
-interp.register_command(
-    interp.cmd_type("trip", do_trip, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("trip", do_trip, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

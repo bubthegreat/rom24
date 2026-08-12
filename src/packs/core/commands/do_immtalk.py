@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import state_checks
 from rom24 import handler_game
 
 
-def do_immtalk(ch, argument):
+def do_immtalk(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOWIZ):
             ch.send("Immortal channel is now ON\n")
@@ -32,9 +35,5 @@ def do_immtalk(ch, argument):
             )
 
 
-interp.register_command(
-    interp.cmd_type("immtalk", do_immtalk, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type(":", do_immtalk, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 0)
-)
+api.register("immtalk", do_immtalk, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)
+api.register(":", do_immtalk, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=0)

@@ -9,9 +9,12 @@ from rom24 import interp
 from rom24 import nanny
 from rom24 import tables
 from rom24 import handler_ch
+from rom24 import api
 
 # New 'who' command originally by Alander of Rivers of Mud.
-def do_who(ch, argument):
+def do_who(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     fClassRestrict = False
     fClanRestrict = False
     fClan = False
@@ -131,6 +134,4 @@ def do_who(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("who", do_who, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("who", do_who, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

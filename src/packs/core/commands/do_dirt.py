@@ -10,9 +10,12 @@ from rom24 import merc
 from rom24 import const
 from rom24 import interp
 from rom24 import fight
+from rom24 import api
 
 
-def do_dirt(ch, argument):
+def do_dirt(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     arghold, arg = game_utils.read_word(argument)
     chance = ch.get_skill("dirt kicking")
     if (
@@ -123,6 +126,4 @@ def do_dirt(ch, argument):
     fight.check_killer(ch, victim)
 
 
-interp.register_command(
-    interp.cmd_type("dirt", do_dirt, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("dirt", do_dirt, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

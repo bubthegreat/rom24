@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_autoassist(ch, argument):
+def do_autoassist(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -17,7 +20,4 @@ def do_autoassist(ch, argument):
         ch.send("You will now assist when needed.\n")
         ch.act.set_bit(merc.PLR_AUTOASSIST)
 
-
-interp.register_command(
-    interp.cmd_type("autoassist", do_autoassist, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autoassist", do_autoassist, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import const
 from rom24 import interp
@@ -9,7 +10,9 @@ from rom24 import game_utils
 from rom24 import state_checks
 
 
-def do_slookup(ch, argument):
+def do_slookup(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Lookup which skill or spell?\n")
@@ -32,6 +35,4 @@ def do_slookup(ch, argument):
         )
 
 
-interp.register_command(
-    interp.cmd_type("slookup", do_slookup, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("slookup", do_slookup, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

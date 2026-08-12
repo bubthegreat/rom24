@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import tables
 from rom24 import game_utils
 from rom24 import state_checks
 
 
-def do_guild(ch, argument):
+def do_guild(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
 
@@ -41,6 +44,4 @@ def do_guild(ch, argument):
     ch.send("dbeug")
 
 
-interp.register_command(
-    interp.cmd_type("guild", do_guild, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("guild", do_guild, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

@@ -12,9 +12,12 @@ from rom24 import interp
 from rom24 import fight
 from rom24 import update
 from rom24 import instance
+from rom24 import api
 
 
-def do_flee(ch, argument):
+def do_flee(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     victim = ch.fighting
     if not victim:
         if ch.position == merc.POS_FIGHTING:
@@ -64,6 +67,4 @@ def do_flee(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("flee", do_flee, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("flee", do_flee, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

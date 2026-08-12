@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import comm
 from rom24 import handler_ch
 from rom24 import handler_game
 
 
-def do_quit(ch, argument):
+def do_quit(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if ch.position == merc.POS_FIGHTING:
@@ -42,14 +45,12 @@ def do_quit(ch, argument):
     return
 
 
-def do_qui(ch, argument):
+def do_qui(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("If you want to QUIT, you have to spell it out.\n")
     return
 
 
-interp.register_command(
-    interp.cmd_type("quit", do_quit, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("qui", do_qui, merc.POS_DEAD, 0, merc.LOG_NORMAL, 0)
-)
+api.register("quit", do_quit, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("qui", do_qui, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=0)

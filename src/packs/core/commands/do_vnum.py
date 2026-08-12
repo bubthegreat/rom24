@@ -5,10 +5,13 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
+from rom24 import api
 
 
 # ofind and mfind replaced with vnum, vnum skill also added */
-def do_vnum(ch, argument):
+def do_vnum(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     string, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -33,6 +36,4 @@ def do_vnum(ch, argument):
     ch.do_ofind(argument)
 
 
-interp.register_command(
-    interp.cmd_type("vnum", do_vnum, merc.POS_DEAD, merc.L4, merc.LOG_NORMAL, 1)
-)
+api.register("vnum", do_vnum, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_NORMAL, show=1)

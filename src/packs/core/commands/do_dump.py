@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import mem_report
+from rom24 import api
 
 
-def do_dump(ch, argument):
+def do_dump(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     """Faithful minimal port of stock ROM's do_dump.
 
     Stock do_dump writes a heavy debug report of data-structure usage to a file
@@ -30,6 +33,4 @@ def do_dump(ch, argument):
     ch.send("Dumped.\n")
 
 
-interp.register_command(
-    interp.cmd_type("dump", do_dump, merc.POS_DEAD, merc.ML, merc.LOG_ALWAYS, 0)
-)
+api.register("dump", do_dump, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_ALWAYS, show=0)

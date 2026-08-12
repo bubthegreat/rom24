@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import handler_ch
 
 
-def do_nofollow(ch, argument):
+def do_nofollow(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if ch.act.is_set(merc.PLR_NOFOLLOW):
@@ -19,6 +22,4 @@ def do_nofollow(ch, argument):
         handler_ch.die_follower(ch)
 
 
-interp.register_command(
-    interp.cmd_type("nofollow", do_nofollow, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("nofollow", do_nofollow, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

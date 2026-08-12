@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_replay(ch, argument):
+def do_replay(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         ch.send("You can't replay.\n")
         return
@@ -17,6 +20,4 @@ def do_replay(ch, argument):
     ch.buffer = []
 
 
-interp.register_command(
-    interp.cmd_type("replay", do_replay, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("replay", do_replay, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

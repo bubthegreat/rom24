@@ -8,9 +8,12 @@ from rom24 import interp
 from rom24 import game_utils
 from rom24 import state_checks
 from rom24 import merc
+from rom24 import api
 
 
-def do_unlock(ch, argument):
+def do_unlock(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -91,6 +94,4 @@ def do_unlock(ch, argument):
             to_room.exit[merc.rev_dir[door]].exit_info.rem_bit(merc.EX_LOCKED)
 
 
-interp.register_command(
-    interp.cmd_type("unlock", do_unlock, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("unlock", do_unlock, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

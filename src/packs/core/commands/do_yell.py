@@ -7,9 +7,12 @@ from rom24 import interp
 from rom24 import nanny
 from rom24 import handler_game
 from rom24 import state_checks
+from rom24 import api
 
 
-def do_yell(ch, argument):
+def do_yell(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_NOSHOUT):
         ch.send("You can't yell.\n")
         return
@@ -28,6 +31,4 @@ def do_yell(ch, argument):
             handler_game.act("$n yells '$t'", ch, argument, d.character, merc.TO_VICT)
 
 
-interp.register_command(
-    interp.cmd_type("yell", do_yell, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("yell", do_yell, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

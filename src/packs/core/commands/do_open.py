@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import interp
 from rom24 import merc
 from rom24 import game_utils
@@ -11,7 +12,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 
-def do_open(ch, argument):
+def do_open(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Open what?\n")
@@ -78,6 +81,4 @@ def do_open(ch, argument):
                 )
 
 
-interp.register_command(
-    interp.cmd_type("open", do_open, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("open", do_open, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

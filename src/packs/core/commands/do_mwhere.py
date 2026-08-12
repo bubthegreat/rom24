@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
@@ -9,7 +10,9 @@ from rom24 import nanny
 from rom24 import instance
 
 
-def do_mwhere(ch, argument):
+def do_mwhere(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     count = 0
     if not argument:
         # show characters logged
@@ -59,6 +62,4 @@ def do_mwhere(ch, argument):
         handler_game.act("You didn't find any $T.", ch, None, argument, merc.TO_CHAR)
 
 
-interp.register_command(
-    interp.cmd_type("mwhere", do_mwhere, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("mwhere", do_mwhere, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

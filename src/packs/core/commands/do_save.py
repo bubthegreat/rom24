@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import state_checks
 
 
-def do_save(ch, argument):
+def do_save(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     ch.save()
@@ -17,6 +20,4 @@ def do_save(ch, argument):
     return
 
 
-interp.cmd_table["save"] = interp.cmd_type(
-    "save", do_save, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1
-)
+api.register("save", do_save, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

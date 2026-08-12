@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import const
 from rom24 import interp
+from rom24 import api
 
 
-def do_groups(ch, argument):
+def do_groups(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     col = 0
@@ -53,9 +56,5 @@ def do_groups(ch, argument):
         ch.send("\n")
 
 
-interp.register_command(
-    interp.cmd_type("info", do_groups, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("groups", do_groups, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("info", do_groups, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("groups", do_groups, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

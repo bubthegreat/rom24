@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import interp
 from rom24 import merc
 from rom24 import const
@@ -13,7 +14,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 
-def do_pick(self, argument):
+def do_pick(ctx):
+    self = ctx.ch
+    argument = ctx.arg
     ch = self
     argument, arg = game_utils.read_word(argument)
 
@@ -122,6 +125,4 @@ def do_pick(self, argument):
                 to_room.exit[merc.rev_dir[door]].exit_info.rem_bit(merc.EX_LOCKED)
 
 
-interp.register_command(
-    interp.cmd_type("pick", do_pick, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("pick", do_pick, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

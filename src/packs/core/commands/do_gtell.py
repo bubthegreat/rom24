@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 from rom24 import instance
 
 
-def do_gtell(ch, argument):
+def do_gtell(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Tell your group what?\n")
         return
@@ -36,9 +39,5 @@ def do_gtell(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("gtell", do_gtell, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type(";", do_gtell, merc.POS_DEAD, 0, merc.LOG_NORMAL, 0)
-)
+api.register("gtell", do_gtell, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)
+api.register(";", do_gtell, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=0)

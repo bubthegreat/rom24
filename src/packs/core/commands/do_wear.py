@@ -6,9 +6,12 @@ from rom24 import game_utils
 from rom24 import merc
 from rom24 import interp
 from rom24 import instance
+from rom24 import api
 
 
-def do_wear(ch, argument):
+def do_wear(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Wear, wield, or hold what?\n")
@@ -28,12 +31,6 @@ def do_wear(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("wield", do_wear, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("hold", do_wear, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("wear", do_wear, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("wield", do_wear, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("hold", do_wear, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("wear", do_wear, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

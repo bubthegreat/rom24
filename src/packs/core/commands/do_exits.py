@@ -5,10 +5,13 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import instance
+from rom24 import api
 
 
 # Thanks to Zrin for auto-exit part.
-def do_exits(ch, argument):
+def do_exits(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     fAuto = argument == "auto"
     buf = ""
     if not ch.check_blind():
@@ -57,6 +60,4 @@ def do_exits(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("exits", do_exits, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("exits", do_exits, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

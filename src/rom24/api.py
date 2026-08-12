@@ -191,16 +191,16 @@ def _command_shim(func):
     return shim
 
 
-def register(name, func, *, pos, level=0, log=merc.LOG_NORMAL, show=1):
+def register(name, func, *, pos, level=0, log=merc.LOG_NORMAL, show=1, default_arg=None):
     """Register a ctx-style command under ONE name.
 
     Maps 1:1 to the old ``interp.register_command(interp.cmd_type(name, func,
-    pos, level, log, show))`` call, so a command with several names/aliases
-    becomes one ``api.register(...)`` per original registration — preserving each
-    name's exact position/level/log/show.
+    pos, level, log, show[, default_arg]))`` call, so a command with several
+    names/aliases becomes one ``api.register(...)`` per original registration —
+    preserving each name's exact position/level/log/show and any default_arg.
     """
     shim = _command_shim(func)
-    interp.register_command(interp.cmd_type(name, shim, pos, level, log, show))
+    interp.register_command(interp.cmd_type(name, shim, pos, level, log, show, default_arg))
     return func
 
 

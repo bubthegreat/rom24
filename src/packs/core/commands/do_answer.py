@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 from rom24 import handler_ch
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import handler_game
 
 
 # RT answer channel - uses same line as questions
-def do_answer(ch, argument):
+def do_answer(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOQUESTION):
             ch.send("Q/A channel is now ON.\n")
@@ -44,7 +47,4 @@ def do_answer(ch, argument):
                     merc.POS_SLEEPING,
                 )
 
-
-interp.register_command(
-    interp.cmd_type("answer", do_answer, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("answer", do_answer, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

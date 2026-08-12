@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import state_checks
 from rom24 import instance
 
-def do_rstat(ch, argument):
+def do_rstat(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     location = ch.in_room if not arg else game_utils.find_location(ch, arg)
     if not location:
@@ -69,6 +72,4 @@ def do_rstat(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("rstat", do_rstat, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("rstat", do_rstat, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

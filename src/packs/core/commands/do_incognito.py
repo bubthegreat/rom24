@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 
 
-def do_incognito(ch, argument):
+def do_incognito(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # RT code for taking a level argument
     argument, arg = game_utils.read_word(argument)
     if not arg:
@@ -35,8 +38,4 @@ def do_incognito(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type(
-        "incognito", do_incognito, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1
-    )
-)
+api.register("incognito", do_incognito, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

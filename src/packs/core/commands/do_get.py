@@ -5,13 +5,16 @@ logger = logging.getLogger(__name__)
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_item
 from rom24 import state_checks
 from rom24 import instance
 
 
-def do_get(ch, argument):
+def do_get(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     logger.info("%s tried to get %s", ch.name, argument)
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
@@ -105,9 +108,5 @@ def do_get(ch, argument):
                     )
 
 
-interp.register_command(
-    interp.cmd_type("get", do_get, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("take", do_get, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("get", do_get, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("take", do_get, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

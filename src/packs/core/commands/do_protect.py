@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import state_checks
 from rom24 import handler_game
 
 
-def do_protect(ch, argument):
+def do_protect(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Protect whom from snooping?\n")
         return
@@ -35,6 +38,4 @@ def do_protect(ch, argument):
         victim.comm = state_checks.SET_BIT(victim.comm, merc.COMM_SNOOP_PROOF)
 
 
-interp.register_command(
-    interp.cmd_type("protect", do_protect, merc.POS_DEAD, merc.L1, merc.LOG_ALWAYS, 1)
-)
+api.register("protect", do_protect, pos=merc.POS_DEAD, level=merc.L1, log=merc.LOG_ALWAYS, show=1)

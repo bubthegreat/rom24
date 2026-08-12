@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import fight
@@ -12,7 +13,9 @@ from rom24 import state_checks
 from rom24 import const
 
 
-def do_steal(ch, argument):
+def do_steal(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
 
@@ -141,6 +144,4 @@ def do_steal(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("steal", do_steal, merc.POS_STANDING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("steal", do_steal, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -9,7 +10,9 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_switch(ch, argument):
+def do_switch(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -64,6 +67,4 @@ def do_switch(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("switch", do_switch, merc.POS_DEAD, merc.L6, merc.LOG_ALWAYS, 1)
-)
+api.register("switch", do_switch, pos=merc.POS_DEAD, level=merc.L6, log=merc.LOG_ALWAYS, show=1)

@@ -2,13 +2,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import game_utils
 from rom24 import merc
 from rom24 import const
 from rom24 import interp
 
 
-def do_ostat(ch, argument):
+def do_ostat(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Stat what?\n")
@@ -172,6 +175,4 @@ def do_ostat(ch, argument):
                 ch.send("Unknown bit %d: %d\n" % paf.where, paf.bitvector)
 
 
-interp.register_command(
-    interp.cmd_type("ostat", do_ostat, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("ostat", do_ostat, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

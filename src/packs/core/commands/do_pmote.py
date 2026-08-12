@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
@@ -9,7 +10,9 @@ from rom24 import game_utils
 from rom24 import instance
 
 
-def do_pmote(ch, argument):
+def do_pmote(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.is_npc() and ch.comm.is_set(merc.COMM_NOEMOTE):
         ch.send("You can't show your emotions.\n")
         return
@@ -29,6 +32,4 @@ def do_pmote(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("pmote", do_pmote, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("pmote", do_pmote, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

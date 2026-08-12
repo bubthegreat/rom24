@@ -4,12 +4,15 @@ import logging
 logger = logging.getLogger(__name__)
 
 import random
+from rom24 import api
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
 
 
-def do_sneak(ch, argument):
+def do_sneak(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("You attempt to move silently.\n")
     ch.affect_strip("sneak")
 
@@ -34,6 +37,4 @@ def do_sneak(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("sneak", do_sneak, merc.POS_STANDING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("sneak", do_sneak, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=1)

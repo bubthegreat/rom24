@@ -5,13 +5,14 @@ logger = logging.getLogger(__name__)
 from rom24 import handler_ch
 from rom24 import interp
 from rom24 import merc
+from rom24 import api
 
 
-def do_up(ch, argument):
+def do_up(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     handler_ch.move_char(ch, merc.DIR_UP, False)
     return
 
 
-interp.register_command(
-    interp.cmd_type("up", do_up, merc.POS_STANDING, 0, merc.LOG_NEVER, 0)
-)
+api.register("up", do_up, pos=merc.POS_STANDING, level=0, log=merc.LOG_NEVER, show=0)

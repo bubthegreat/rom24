@@ -8,13 +8,16 @@ from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import handler_room
 from rom24 import interp
+from rom24 import api
 from rom24 import object_creator
 from rom24 import shop_utils
 from rom24 import state_checks
 from rom24 import instance
 
 
-def do_buy(ch, argument):
+def do_buy(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Buy what?\n")
         return
@@ -197,7 +200,4 @@ def do_buy(ch, argument):
             if cost < t_obj.cost:
                 t_obj.cost = cost
 
-
-interp.register_command(
-    interp.cmd_type("buy", do_buy, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("buy", do_buy, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

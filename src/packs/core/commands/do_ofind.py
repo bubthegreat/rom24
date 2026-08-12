@@ -2,13 +2,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 from rom24 import instance
 
 
-def do_ofind(ch, argument):
+def do_ofind(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Find what?\n")
@@ -36,6 +39,4 @@ def do_ofind(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("ofind", do_ofind, merc.POS_DEAD, merc.L4, merc.LOG_NORMAL, 1)
-)
+api.register("ofind", do_ofind, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_NORMAL, show=1)

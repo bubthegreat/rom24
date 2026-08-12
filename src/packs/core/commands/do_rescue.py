@@ -7,12 +7,15 @@ from rom24 import merc
 from rom24 import const
 from rom24 import fight
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_rescue(ch, argument):
+def do_rescue(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -59,6 +62,4 @@ def do_rescue(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("rescue", do_rescue, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("rescue", do_rescue, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=0)

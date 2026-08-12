@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
+from rom24 import api
 
 
-def do_title(ch, argument):
+def do_title(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if not argument:
@@ -20,6 +23,4 @@ def do_title(ch, argument):
     ch.send("Ok.\n")
 
 
-interp.register_command(
-    interp.cmd_type("title", do_title, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("title", do_title, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

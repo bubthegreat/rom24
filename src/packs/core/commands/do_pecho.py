@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 
-def do_pecho(ch, argument):
+def do_pecho(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not argument or not arg:
         ch.send("Personal echo what?\n")
@@ -27,6 +30,4 @@ def do_pecho(ch, argument):
     ch.send("\n")
 
 
-interp.register_command(
-    interp.cmd_type("pecho", do_pecho, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("pecho", do_pecho, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

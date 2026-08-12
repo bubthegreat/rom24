@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import instance
 
 
-def do_sacrifice(ch, argument):
+def do_sacrifice(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg or arg == ch.name.lower():
@@ -68,12 +71,6 @@ def do_sacrifice(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("sacrifice", do_sacrifice, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("junk", do_sacrifice, merc.POS_RESTING, 0, merc.LOG_NORMAL, 0)
-)
-interp.register_command(
-    interp.cmd_type("tap", do_sacrifice, merc.POS_RESTING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("sacrifice", do_sacrifice, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("junk", do_sacrifice, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=0)
+api.register("tap", do_sacrifice, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=0)

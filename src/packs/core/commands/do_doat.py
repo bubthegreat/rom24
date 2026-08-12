@@ -6,9 +6,12 @@ from rom24 import game_utils
 from rom24 import merc
 from rom24 import interp
 from rom24 import instance
+from rom24 import api
 
 
-def do_at(ch, argument):
+def do_at(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg or not argument:
         ch.send("At where what?\n")
@@ -40,6 +43,4 @@ def do_at(ch, argument):
             break
 
 
-interp.register_command(
-    interp.cmd_type("doat", do_at, merc.POS_DEAD, merc.L6, merc.LOG_NORMAL, 1)
-)
+api.register("doat", do_at, pos=merc.POS_DEAD, level=merc.L6, log=merc.LOG_NORMAL, show=1)

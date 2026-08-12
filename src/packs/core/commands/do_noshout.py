@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -9,7 +10,9 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_noshout(ch, argument):
+def do_noshout(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Noshout whom?\n")
@@ -51,6 +54,4 @@ def do_noshout(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("noshout", do_noshout, merc.POS_DEAD, merc.L5, merc.LOG_ALWAYS, 1)
-)
+api.register("noshout", do_noshout, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_ALWAYS, show=1)

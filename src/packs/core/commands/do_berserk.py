@@ -8,10 +8,13 @@ from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import const
 from rom24 import interp
+from rom24 import api
 from rom24 import state_checks
 
 
-def do_berserk(ch, argument):
+def do_berserk(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     chance = ch.get_skill("berserk")
     if (
         chance == 0
@@ -87,7 +90,4 @@ def do_berserk(ch, argument):
             if ch.is_pc:
                 ch.check_improve("berserk", False, 2)
 
-
-interp.register_command(
-    interp.cmd_type("berserk", do_berserk, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("berserk", do_berserk, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

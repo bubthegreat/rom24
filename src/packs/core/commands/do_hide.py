@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_hide(ch, argument):
+def do_hide(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("You attempt to hide.\n")
 
     if ch.is_affected(merc.AFF_HIDE):
@@ -23,6 +26,4 @@ def do_hide(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("hide", do_hide, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("hide", do_hide, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

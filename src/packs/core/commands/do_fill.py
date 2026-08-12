@@ -8,9 +8,12 @@ from rom24 import interp
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import instance
+from rom24 import api
 
 
-def do_fill(ch, argument):
+def do_fill(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Fill what?\n")
@@ -55,6 +58,4 @@ def do_fill(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("fill", do_fill, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("fill", do_fill, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

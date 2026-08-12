@@ -6,9 +6,12 @@ from rom24 import handler_pc
 from rom24 import game_utils
 from rom24 import interp
 from rom24 import merc
+from rom24 import api
 
 
-def do_debug(ch, argument):
+def do_debug(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send(
             "Syntax: debug <command> "
@@ -26,6 +29,4 @@ def do_debug(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("debug", do_debug, merc.POS_DEAD, merc.ML, merc.LOG_NORMAL, 1)
-)
+api.register("debug", do_debug, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_NORMAL, show=1)

@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 
 
-def do_alias(ch, argument):
+def do_alias(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -51,14 +54,11 @@ def do_alias(ch, argument):
     return
 
 
-def do_alia(ch, argument):
+def do_alia(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("I'm sorry, alias must be entered in full.\n")
     return
 
-
-interp.register_command(
-    interp.cmd_type("alias", do_alias, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("alia", do_alia, merc.POS_DEAD, 0, merc.LOG_NORMAL, 0)
-)
+api.register("alias", do_alias, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("alia", do_alia, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=0)

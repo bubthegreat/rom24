@@ -7,9 +7,12 @@ from rom24 import interp
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import shop_utils
+from rom24 import api
 
 
-def do_value(ch, argument):
+def do_value(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Value what?\n")
@@ -48,6 +51,4 @@ def do_value(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("value", do_value, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("value", do_value, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

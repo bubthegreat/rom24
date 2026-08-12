@@ -4,13 +4,16 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import handler_ch
 from rom24 import handler_game
 
 
 # RT chat replaced with ROM gossip
-def do_gossip(ch, argument):
+def do_gossip(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOGOSSIP):
             ch.send("Gossip channel is now ON.\n")
@@ -45,9 +48,5 @@ def do_gossip(ch, argument):
                 )
 
 
-interp.register_command(
-    interp.cmd_type(".", do_gossip, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 0)
-)
-interp.register_command(
-    interp.cmd_type("gossip", do_gossip, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register(".", do_gossip, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=0)
+api.register("gossip", do_gossip, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

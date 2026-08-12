@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_brief(ch, argument):
+def do_brief(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_BRIEF):
         ch.send("Full descriptions activated.\n")
         ch.comm.rem_bit(merc.COMM_BRIEF)
@@ -14,7 +17,4 @@ def do_brief(ch, argument):
         ch.send("Short descriptions activated.\n")
         ch.comm.set_bit(merc.COMM_BRIEF)
 
-
-interp.register_command(
-    interp.cmd_type("brief", do_brief, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("brief", do_brief, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

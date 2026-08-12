@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 
 # New routines by Dionysos.
-def do_invis(ch, argument):
+def do_invis(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # RT code for taking a level argument
     argument, arg = game_utils.read_word(argument)
     if not arg:
@@ -41,9 +44,5 @@ def do_invis(ch, argument):
             return
 
 
-interp.register_command(
-    interp.cmd_type("invis", do_invis, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 0)
-)
-interp.register_command(
-    interp.cmd_type("wizinvis", do_invis, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("invis", do_invis, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=0)
+api.register("wizinvis", do_invis, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

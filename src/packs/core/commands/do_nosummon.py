@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import state_checks
 
 
-def do_nosummon(ch, argument):
+def do_nosummon(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         if state_checks.IS_SET(ch.imm_flags, merc.IMM_SUMMON):
             ch.send("You are no longer immune to summon.\n")
@@ -24,6 +27,4 @@ def do_nosummon(ch, argument):
             ch.act.set_bit(merc.PLR_NOSUMMON)
 
 
-interp.register_command(
-    interp.cmd_type("nosummon", do_nosummon, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("nosummon", do_nosummon, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

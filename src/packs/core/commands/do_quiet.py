@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 # RT quiet blocks out all communication
-def do_quiet(ch, argument):
+def do_quiet(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_QUIET):
         ch.send("Quiet mode removed.\n")
         ch.comm.rem_bit(merc.COMM_QUIET)
@@ -16,6 +19,4 @@ def do_quiet(ch, argument):
         ch.comm.set_bit(merc.COMM_QUIET)
 
 
-interp.register_command(
-    interp.cmd_type("quiet", do_quiet, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("quiet", do_quiet, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

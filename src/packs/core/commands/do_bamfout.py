@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_bamfout(ch, argument):
+def do_bamfout(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.is_npc():
         if not argument:
             ch.send("Your poofout is %s\n" % ch.bamfout)
@@ -18,7 +21,4 @@ def do_bamfout(ch, argument):
         ch.send("Your poofout is now %s\n" % ch.bamfout)
     return
 
-
-interp.register_command(
-    interp.cmd_type("poofout", do_bamfout, merc.POS_DEAD, merc.L8, merc.LOG_NORMAL, 1)
-)
+api.register("poofout", do_bamfout, pos=merc.POS_DEAD, level=merc.L8, log=merc.LOG_NORMAL, show=1)

@@ -9,10 +9,13 @@ import collections
 from rom24 import merc
 from rom24 import handler_room
 from rom24 import interp
+from rom24 import api
 from rom24 import instance
 
 
-def do_list(ch, argument):
+def do_list(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if state_checks.IS_SET(ch.in_room.room_flags, merc.ROOM_PET_SHOP):
         # hack to make new thalos pets work
         pRoomIndexNext = None
@@ -83,6 +86,4 @@ def do_list(ch, argument):
             ch.send("\n")
 
 
-interp.register_command(
-    interp.cmd_type("list", do_list, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("list", do_list, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

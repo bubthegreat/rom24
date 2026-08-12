@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import state_checks
 
 
-def do_log(ch, argument):
+def do_log(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Log whom?\n")
@@ -39,6 +42,4 @@ def do_log(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("log", do_log, merc.POS_DEAD, merc.L1, merc.LOG_ALWAYS, 1)
-)
+api.register("log", do_log, pos=merc.POS_DEAD, level=merc.L1, log=merc.LOG_ALWAYS, show=1)

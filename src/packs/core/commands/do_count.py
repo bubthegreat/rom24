@@ -6,12 +6,15 @@ from rom24 import handler_ch
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
+from rom24 import api
 
 # for  keeping track of the player count
 max_on = 0
 
 
-def do_count(ch, argument):
+def do_count(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     global max_on
     count = len(
         [
@@ -30,6 +33,4 @@ def do_count(ch, argument):
         )
 
 
-interp.register_command(
-    interp.cmd_type("count", do_count, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("count", do_count, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,11 +2,14 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 
 
-def do_noloot(ch, argument):
+def do_noloot(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if ch.act.is_set(merc.PLR_CANLOOT):
@@ -17,6 +20,4 @@ def do_noloot(ch, argument):
         ch.act.set_bit(merc.PLR_CANLOOT)
 
 
-interp.register_command(
-    interp.cmd_type("noloot", do_noloot, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("noloot", do_noloot, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

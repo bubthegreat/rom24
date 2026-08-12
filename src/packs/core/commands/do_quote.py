@@ -4,13 +4,16 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import handler_ch
 from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_quote(ch, argument):
+def do_quote(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOQUOTE):
             ch.send("Quote channel is now ON.\n")
@@ -46,6 +49,4 @@ def do_quote(ch, argument):
                 )
 
 
-interp.register_command(
-    interp.cmd_type("quote", do_quote, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("quote", do_quote, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

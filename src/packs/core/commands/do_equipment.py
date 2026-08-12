@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import handler_item
+from rom24 import api
 
 
-def do_equipment(ch, argument):
+def do_equipment(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("You are using:\n")
     found = False
     for slot, item_id in ch.equipped.items():
@@ -31,6 +34,4 @@ def do_equipment(ch, argument):
         ch.send("Nothing.\n")
 
 
-interp.register_command(
-    interp.cmd_type("equipment", do_equipment, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("equipment", do_equipment, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

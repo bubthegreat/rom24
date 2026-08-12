@@ -6,6 +6,7 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 from rom24 import miniboa
+from rom24 import api
 
 
 def usage(ch):
@@ -15,7 +16,9 @@ def usage(ch):
     )
 
 
-def do_term(ch, argument):
+def do_term(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send(
             "Terminal Type is %s (%d columns, %d rows)\n"
@@ -66,6 +69,4 @@ def do_term(ch, argument):
             )
 
 
-interp.register_command(
-    interp.cmd_type("term", do_term, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("term", do_term, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

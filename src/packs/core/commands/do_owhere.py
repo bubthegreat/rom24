@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -9,7 +10,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 
-def do_owhere(ch, argument):
+def do_owhere(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     found = False
     number = 0
     max_found = 200
@@ -78,6 +81,4 @@ def do_owhere(ch, argument):
         ch.send("Nothing like that in heaven or earth.\n")
 
 
-interp.register_command(
-    interp.cmd_type("owhere", do_owhere, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("owhere", do_owhere, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 import random
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import handler_magic
 
 
-def do_recite(ch, argument):
+def do_recite(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
     scroll = ch.get_item_carry(arg1, ch)
@@ -50,6 +53,4 @@ def do_recite(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("recite", do_recite, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("recite", do_recite, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -10,7 +11,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 
-def do_order(ch, argument):
+def do_order(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     remainder, arg2 = game_utils.read_word(argument)
 
@@ -66,6 +69,4 @@ def do_order(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("order", do_order, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("order", do_order, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

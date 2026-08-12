@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import fight
@@ -10,7 +11,9 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_murder(ch, argument):
+def do_murder(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
@@ -49,14 +52,12 @@ def do_murder(ch, argument):
     return
 
 
-def do_murde(ch, argument):
+def do_murde(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("If you want to MURDER, spell it out.\n")
     return
 
 
-interp.register_command(
-    interp.cmd_type("murder", do_murder, merc.POS_FIGHTING, 5, merc.LOG_ALWAYS, 1)
-)
-interp.register_command(
-    interp.cmd_type("murde", do_murde, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("murder", do_murder, pos=merc.POS_FIGHTING, level=5, log=merc.LOG_ALWAYS, show=1)
+api.register("murde", do_murde, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=0)

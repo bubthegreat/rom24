@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_holylight(ch, argument):
+def do_holylight(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     if ch.act.is_set(merc.PLR_HOLYLIGHT):
@@ -18,8 +21,4 @@ def do_holylight(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type(
-        "holylight", do_holylight, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1
-    )
-)
+api.register("holylight", do_holylight, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

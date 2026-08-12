@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import object_creator
 from rom24 import interp
@@ -10,7 +11,9 @@ from rom24 import handler_game
 from rom24 import instance
 
 
-def do_oload(ch, argument):
+def do_oload(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
 
@@ -44,6 +47,4 @@ def do_oload(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("oload", do_oload, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("oload", do_oload, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

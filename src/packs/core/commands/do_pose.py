@@ -5,6 +5,7 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 
 
@@ -169,7 +170,9 @@ pose_table = {
 }
 
 
-def do_pose(ch, argument):
+def do_pose(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     band = merc.LEVEL_HERO // len(pose_table["to_ch"][ch.guild.name])
@@ -185,6 +188,4 @@ def do_pose(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("pose", do_pose, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("pose", do_pose, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -10,7 +11,9 @@ from rom24 import state_checks
 from rom24 import special
 
 
-def do_string(ch, argument):
+def do_string(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, type = game_utils.read_word(argument)
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
@@ -93,6 +96,4 @@ def do_string(ch, argument):
     ch.do_string("")
 
 
-interp.register_command(
-    interp.cmd_type("string", do_string, merc.POS_DEAD, merc.L5, merc.LOG_ALWAYS, 1)
-)
+api.register("string", do_string, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_ALWAYS, show=1)

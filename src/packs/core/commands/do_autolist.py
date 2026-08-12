@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
 # RT this following section holds all the auto commands from ROM, as well as replacements for config
-def do_autolist(ch, argument):
+def do_autolist(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # lists most player flags */
     if ch.is_npc():
         return
@@ -79,7 +82,4 @@ def do_autolist(ch, argument):
     else:
         ch.send("You accept followers.\n")
 
-
-interp.register_command(
-    interp.cmd_type("autolist", do_autolist, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autolist", do_autolist, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

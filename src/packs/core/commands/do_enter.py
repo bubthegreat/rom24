@@ -9,10 +9,13 @@ from rom24 import interp
 from rom24 import handler_room
 from rom24 import state_checks
 from rom24 import instance
+from rom24 import api
 
 
 # RT Enter portals
-def do_enter(ch, argument):
+def do_enter(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.fighting:
         return
     # nifty portal stuff
@@ -159,9 +162,5 @@ def do_enter(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("enter", do_enter, merc.POS_STANDING, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("go", do_enter, merc.POS_STANDING, 0, merc.LOG_NORMAL, 0)
-)
+api.register("enter", do_enter, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("go", do_enter, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=0)

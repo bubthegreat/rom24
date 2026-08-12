@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import fight
@@ -9,7 +10,9 @@ from rom24 import game_utils
 from rom24 import handler_game
 
 
-def do_slay(ch, argument):
+def do_slay(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Slay whom?\n")
@@ -31,14 +34,12 @@ def do_slay(ch, argument):
     return
 
 
-def do_sla(ch, argument):
+def do_sla(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("If you want to SLAY, spell it out.\n")
     return
 
 
-interp.register_command(
-    interp.cmd_type("slay", do_slay, merc.POS_DEAD, merc.L3, merc.LOG_ALWAYS, 1)
-)
-interp.register_command(
-    interp.cmd_type("sla", do_sla, merc.POS_DEAD, merc.L3, merc.LOG_NORMAL, 0)
-)
+api.register("slay", do_slay, pos=merc.POS_DEAD, level=merc.L3, log=merc.LOG_ALWAYS, show=1)
+api.register("sla", do_sla, pos=merc.POS_DEAD, level=merc.L3, log=merc.LOG_NORMAL, show=0)

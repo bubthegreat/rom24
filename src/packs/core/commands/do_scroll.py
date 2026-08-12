@@ -3,13 +3,16 @@ import logging
 logger = logging.getLogger(__name__)
 
 # changes your scroll
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 # Note: this command is correct per stock ROM 2.4; the pager subsystem that
 # consumes ch.lines is separate and out of scope here.
-def do_scroll(ch, argument):
+def do_scroll(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         if ch.lines == 0:
@@ -32,6 +35,4 @@ def do_scroll(ch, argument):
     ch.lines = lines - 2
 
 
-interp.register_command(
-    interp.cmd_type("scroll", do_scroll, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("scroll", do_scroll, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

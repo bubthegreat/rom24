@@ -8,11 +8,14 @@ from rom24 import handler_magic
 from rom24 import state_checks
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import fight
 from rom24 import instance
 
 
-def do_cast(ch, argument):
+def do_cast(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # Switched NPC's can cast spells, but others can't.
     if ch.is_npc() and not ch.desc:
         return
@@ -192,7 +195,4 @@ def do_cast(ch, argument):
                 break
     return
 
-
-interp.register_command(
-    interp.cmd_type("cast", do_cast, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("cast", do_cast, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

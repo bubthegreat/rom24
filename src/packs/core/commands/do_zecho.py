@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
+from rom24 import api
 
 
-def do_zecho(ch, argument):
+def do_zecho(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Zone echo what?\n")
         return
@@ -23,6 +26,4 @@ def do_zecho(ch, argument):
             d.send(argument + "\n")
 
 
-interp.register_command(
-    interp.cmd_type("zecho", do_zecho, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("zecho", do_zecho, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

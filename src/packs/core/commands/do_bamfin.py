@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_bamfin(ch, argument):
+def do_bamfin(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.is_npc():
         if not argument:
             ch.send("Your poofin is %s\n" % ch.bamfin)
@@ -18,7 +21,4 @@ def do_bamfin(ch, argument):
         ch.send("Your poofin is now %s\n" % ch.bamfin)
     return
 
-
-interp.register_command(
-    interp.cmd_type("poofin", do_bamfin, merc.POS_DEAD, merc.L8, merc.LOG_NORMAL, 1)
-)
+api.register("poofin", do_bamfin, pos=merc.POS_DEAD, level=merc.L8, log=merc.LOG_NORMAL, show=1)

@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 
-def do_sockets(ch, argument):
+def do_sockets(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     count = 0
     argument, arg = game_utils.read_word(argument)
     for d in merc.descriptor_list:
@@ -36,6 +39,4 @@ def do_sockets(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("sockets", do_sockets, merc.POS_DEAD, merc.L4, merc.LOG_NORMAL, 1)
-)
+api.register("sockets", do_sockets, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_NORMAL, show=1)

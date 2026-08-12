@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import tables
@@ -11,7 +12,9 @@ from rom24 import game_utils
 from rom24 import state_checks
 
 
-def do_mstat(ch, argument):
+def do_mstat(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Stat whom?\n")
@@ -170,6 +173,4 @@ def do_mstat(ch, argument):
         )
 
 
-interp.register_command(
-    interp.cmd_type("mstat", do_mstat, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("mstat", do_mstat, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

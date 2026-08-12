@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 
 
-def do_recho(ch, argument):
+def do_recho(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Local echo what?\n")
         return
@@ -20,6 +23,4 @@ def do_recho(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("echo", do_recho, merc.POS_DEAD, merc.L6, merc.LOG_ALWAYS, 1)
-)
+api.register("echo", do_recho, pos=merc.POS_DEAD, level=merc.L6, log=merc.LOG_ALWAYS, show=1)

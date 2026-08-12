@@ -2,13 +2,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import handler_game
 from rom24 import interp
 from rom24 import merc
 from rom24 import state_checks
 
 
-def do_sit(ch, argument):
+def do_sit(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     obj = None
     if ch.position == merc.POS_FIGHTING:
         ch.send("Maybe you should finish this fight first?\n")
@@ -99,6 +102,4 @@ def do_sit(ch, argument):
         ch.position = merc.POS_SITTING
 
 
-interp.register_command(
-    interp.cmd_type("sit", do_sit, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("sit", do_sit, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

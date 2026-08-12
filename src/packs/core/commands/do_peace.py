@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import fight
 from rom24 import interp
@@ -9,7 +10,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 
-def do_peace(ch, argument):
+def do_peace(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     for rch_id in ch.in_room.people[:]:
         rch = instance.characters[rch_id]
         if rch.fighting:
@@ -20,6 +23,4 @@ def do_peace(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("peace", do_peace, merc.POS_DEAD, merc.L5, merc.LOG_NORMAL, 1)
-)
+api.register("peace", do_peace, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_NORMAL, show=1)

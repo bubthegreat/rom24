@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import handler_magic
 
 
-def do_quaff(ch, argument):
+def do_quaff(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Quaff what?\n")
@@ -36,6 +39,4 @@ def do_quaff(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("quaff", do_quaff, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("quaff", do_quaff, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

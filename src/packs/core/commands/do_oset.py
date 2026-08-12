@@ -2,12 +2,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
 
-def do_oset(ch, argument):
+def do_oset(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
     arg3 = argument
@@ -67,6 +70,4 @@ def do_oset(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("oset", do_oset, merc.POS_DEAD, merc.L2, merc.LOG_ALWAYS, 1)
-)
+api.register("oset", do_oset, pos=merc.POS_DEAD, level=merc.L2, log=merc.LOG_ALWAYS, show=1)

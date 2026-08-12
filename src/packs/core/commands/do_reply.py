@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_reply(ch, argument):
+def do_reply(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_NOTELL):
         ch.send("Your message didn't get through.\n")
         return
@@ -75,6 +78,4 @@ def do_reply(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("reply", do_reply, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("reply", do_reply, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

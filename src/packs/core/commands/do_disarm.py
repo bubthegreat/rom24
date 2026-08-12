@@ -9,9 +9,12 @@ from rom24 import merc
 from rom24 import const
 from rom24 import interp
 from rom24 import fight
+from rom24 import api
 
 
-def do_disarm(ch, argument):
+def do_disarm(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     hth = 0
     chance = ch.get_skill("disarm")
     if chance == 0:
@@ -77,6 +80,4 @@ def do_disarm(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("disarm", do_disarm, merc.POS_FIGHTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("disarm", do_disarm, pos=merc.POS_FIGHTING, level=0, log=merc.LOG_NORMAL, show=1)

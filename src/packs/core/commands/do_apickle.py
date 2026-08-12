@@ -6,12 +6,15 @@ logger = logging.getLogger(__name__)
 
 import os
 from rom24 import interp
+from rom24 import api
 from rom24 import merc
 from rom24 import save
 from rom24 import settings
 
 
-def do_apickle(ch, argument):
+def do_apickle(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("Saving areas to pickle format..\n\n")
     save.area_pickler()
     open(
@@ -36,7 +39,4 @@ def do_apickle(ch, argument):
         ch.send("Social List Saved.\n\n")
     return
 
-
-interp.register_command(
-    interp.cmd_type("apickle", do_apickle, merc.POS_DEAD, merc.ML, merc.LOG_ALWAYS, 1)
-)
+api.register("apickle", do_apickle, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_ALWAYS, show=1)

@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
@@ -11,7 +12,9 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_shout(ch, argument):
+def do_shout(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_SHOUTSOFF):
             ch.send("You can hear shouts again.\n")
@@ -37,6 +40,4 @@ def do_shout(ch, argument):
             handler_game.act("$n shouts '$t'", ch, argument, d.character, merc.TO_VICT)
 
 
-interp.register_command(
-    interp.cmd_type("shout", do_shout, merc.POS_RESTING, 3, merc.LOG_NORMAL, 1)
-)
+api.register("shout", do_shout, pos=merc.POS_RESTING, level=3, log=merc.LOG_NORMAL, show=1)

@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_autoloot(ch, argument):
+def do_autoloot(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
 
@@ -17,7 +20,4 @@ def do_autoloot(ch, argument):
         ch.send("Automatic corpse looting set.\n")
         ch.act.set_bit(merc.PLR_AUTOLOOT)
 
-
-interp.register_command(
-    interp.cmd_type("autoloot", do_autoloot, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("autoloot", do_autoloot, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

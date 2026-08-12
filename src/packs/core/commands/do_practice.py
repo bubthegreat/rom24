@@ -6,12 +6,15 @@ from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import const
 from rom24 import state_checks
 from rom24 import instance
 
 
-def do_practice(ch, argument):
+def do_practice(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     temp, argument = game_utils.read_word(argument)
     if ch.is_npc():
         return
@@ -88,6 +91,4 @@ def do_practice(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("practice", do_practice, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("practice", do_practice, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

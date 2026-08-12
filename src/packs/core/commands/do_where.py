@@ -10,9 +10,12 @@ from rom24 import state_checks
 from rom24 import handler_ch
 from rom24 import handler_game
 from rom24 import instance
+from rom24 import api
 
 
-def do_where(ch, argument):
+def do_where(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Players near you:\n")
@@ -59,6 +62,4 @@ def do_where(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("where", do_where, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("where", do_where, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

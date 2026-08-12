@@ -10,9 +10,12 @@ from rom24 import interp
 from rom24 import fight
 from rom24 import game_utils
 from rom24 import instance
+from rom24 import api
 
 
-def do_violate(ch, argument):
+def do_violate(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         ch.send("Goto where?\n")
         return
@@ -51,6 +54,4 @@ def do_violate(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("violate", do_violate, merc.POS_DEAD, merc.ML, merc.LOG_ALWAYS, 1)
-)
+api.register("violate", do_violate, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_ALWAYS, show=1)

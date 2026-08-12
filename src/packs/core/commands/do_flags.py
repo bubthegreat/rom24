@@ -6,13 +6,16 @@ from rom24 import interp
 from rom24 import merc
 from rom24 import game_utils
 from rom24 import tables
+from rom24 import api
 
 __author__ = "venom"
 
 # int flag_lookup args( ( const char *name, const struct flag_type *flag_table) );
 
 
-def do_flags(ch, argument):
+def do_flags(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     fadd = None
     frem = None
     fequals = None
@@ -287,6 +290,4 @@ def do_flags(ch, argument):
         )
 
 
-interp.register_command(
-    interp.cmd_type("flag", do_flags, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("flag", do_flags, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

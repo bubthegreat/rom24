@@ -2,11 +2,14 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 
 
-def do_omni(ch, argument):
+def do_omni(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.act.is_set(merc.PLR_OMNI):
         ch.send("Omnimode removed\n")
         ch.act.rem_bit(merc.PLR_OMNI)
@@ -15,6 +18,4 @@ def do_omni(ch, argument):
         ch.act.set_bit(merc.PLR_OMNI)
 
 
-interp.register_command(
-    interp.cmd_type("omni", do_omni, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
+api.register("omni", do_omni, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)

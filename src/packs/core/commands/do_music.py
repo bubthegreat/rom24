@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
@@ -11,7 +12,9 @@ from rom24 import state_checks
 
 
 # RT music channel
-def do_music(ch, argument):
+def do_music(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOMUSIC):
             ch.send("Music channel is now ON.\n")
@@ -46,6 +49,4 @@ def do_music(ch, argument):
                 )
 
 
-interp.register_command(
-    interp.cmd_type("music", do_music, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("music", do_music, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

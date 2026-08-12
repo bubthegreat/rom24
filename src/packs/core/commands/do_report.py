@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 
 
-def do_report(ch, argument):
+def do_report(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send(
         "You say 'I have %d/%d hp %d/%d mana %d/%d mv %d xp.'\n"
         % (ch.hit, ch.max_hit, ch.mana, ch.max_mana, ch.move, ch.max_move, ch.exp)
@@ -25,6 +28,4 @@ def do_report(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("report", do_report, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("report", do_report, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

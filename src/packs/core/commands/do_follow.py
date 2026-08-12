@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_ch
 from rom24 import handler_game
 
 
-def do_follow(ch, argument):
+def do_follow(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # RT changed to allow unlimited following and follow the NOFOLLOW rules
     argument, arg = game_utils.read_word(argument)
     if not arg:
@@ -46,6 +49,4 @@ def do_follow(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("follow", do_follow, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("follow", do_follow, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

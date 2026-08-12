@@ -8,9 +8,12 @@ from rom24 import fight
 from rom24 import interp
 from rom24 import nanny
 from rom24 import game_utils
+from rom24 import api
 
 
-def do_transfer(ch, argument):
+def do_transfer(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
     if not arg1:
@@ -65,9 +68,5 @@ def do_transfer(ch, argument):
     ch.send("Ok.\n")
 
 
-interp.register_command(
-    interp.cmd_type("teleport", do_transfer, merc.POS_DEAD, merc.L5, merc.LOG_ALWAYS, 1)
-)
-interp.register_command(
-    interp.cmd_type("transfer", do_transfer, merc.POS_DEAD, merc.L5, merc.LOG_ALWAYS, 1)
-)
+api.register("teleport", do_transfer, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_ALWAYS, show=1)
+api.register("transfer", do_transfer, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_ALWAYS, show=1)

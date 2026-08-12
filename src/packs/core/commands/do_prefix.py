@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 
-def do_prefix(ch, argument):
+def do_prefix(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if not ch.prefix:
             ch.send("You have no prefix to clear.\n")
@@ -22,14 +25,12 @@ def do_prefix(ch, argument):
     ch.prefix = argument
 
 
-def do_prefi(ch, argument):
+def do_prefi(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.send("You cannot abbreviate the prefix command.\n")
     return
 
 
-interp.register_command(
-    interp.cmd_type("prefix", do_prefix, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("prefi", do_prefi, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 0)
-)
+api.register("prefix", do_prefix, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1)
+api.register("prefi", do_prefi, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=0)

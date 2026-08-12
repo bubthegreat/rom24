@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -9,7 +10,9 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_tell(ch, argument):
+def do_tell(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.comm.is_set(merc.COMM_NOTELL) or ch.comm.is_set(merc.COMM_DEAF):
         ch.send("Your message didn't get through.\n")
         return
@@ -80,6 +83,4 @@ def do_tell(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("tell", do_tell, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("tell", do_tell, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

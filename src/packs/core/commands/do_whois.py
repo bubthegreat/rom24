@@ -8,9 +8,12 @@ from rom24 import const
 from rom24 import interp
 from rom24 import nanny
 from rom24 import handler_ch
+from rom24 import api
 
 
-def do_whois(ch, argument):
+def do_whois(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     found = False
     argument, arg = game_utils.read_word(argument)
 
@@ -72,6 +75,4 @@ def do_whois(ch, argument):
         return
 
 
-interp.register_command(
-    interp.cmd_type("whois", do_whois, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("whois", do_whois, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

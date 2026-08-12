@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import interp
 from rom24 import merc
+from rom24 import api
 
 
 # Contributed by Alander.
-def do_visible(ch, argument):
+def do_visible(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     ch.affect_strip("invisibility")
     ch.affect_strip("mass invis")
     ch.affect_strip("sneak")
@@ -17,6 +20,4 @@ def do_visible(ch, argument):
     ch.send("Ok.\n")
 
 
-interp.register_command(
-    interp.cmd_type("visible", do_visible, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("visible", do_visible, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

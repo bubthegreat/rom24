@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import game_utils
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 
 # 'Wimpy' originally by Dionysos.
-def do_wimpy(ch, argument):
+def do_wimpy(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         wimpy = ch.max_hit // 5
@@ -24,6 +27,4 @@ def do_wimpy(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("wimpy", do_wimpy, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("wimpy", do_wimpy, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

@@ -3,6 +3,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_room
 from rom24 import merc
 from rom24 import game_utils
@@ -11,7 +12,9 @@ from rom24 import handler_game
 from rom24 import instance
 
 
-def do_close(ch, argument):
+def do_close(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Close what?\n")
@@ -70,7 +73,4 @@ def do_close(ch, argument):
                     "The $d closes.", rch, None, pexit_rev.keyword, merc.TO_CHAR
                 )
 
-
-interp.register_command(
-    interp.cmd_type("close", do_close, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("close", do_close, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -4,11 +4,14 @@ logger = logging.getLogger(__name__)
 
 from rom24 import handler_game
 from rom24 import interp
+from rom24 import api
 from rom24 import merc
 from rom24 import state_checks
 
 
-def do_rest(self, argument):
+def do_rest(ctx):
+    self = ctx.ch
+    argument = ctx.arg
     ch = self
     obj = None
     if ch.position == merc.POS_FIGHTING:
@@ -129,6 +132,4 @@ def do_rest(self, argument):
         return
 
 
-interp.register_command(
-    interp.cmd_type("rest", do_rest, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("rest", do_rest, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

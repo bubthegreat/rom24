@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import handler_ch
 from rom24 import handler_game
 
 
-def do_auction(ch, argument):
+def do_auction(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         if ch.comm.is_set(merc.COMM_NOAUCTION):
             ch.send("Auction channel is now ON.\n")
@@ -44,7 +47,4 @@ def do_auction(ch, argument):
                     merc.POS_DEAD,
                 )
 
-
-interp.register_command(
-    interp.cmd_type("auction", do_auction, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("auction", do_auction, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

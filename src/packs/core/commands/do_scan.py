@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import handler_game
 from rom24 import game_utils
@@ -18,7 +19,9 @@ distance = [
 ]
 
 # Thanks to Zrin for auto-exit part.
-def do_scan(ch, argument):
+def do_scan(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
 
     if not arg1:
@@ -93,6 +96,4 @@ def scan_ch(victim, ch, depth, door):
     return
 
 
-interp.register_command(
-    interp.cmd_type("scan", do_scan, merc.POS_STANDING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("scan", do_scan, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=1)

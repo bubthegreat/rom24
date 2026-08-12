@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import const
@@ -10,7 +11,9 @@ from rom24 import instance
 
 
 # equips a character
-def do_outfit(ch, argument):
+def do_outfit(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.level > 5 or ch.is_npc():
         ch.send("Find it yourself!\n")
         return
@@ -61,6 +64,4 @@ def do_outfit(ch, argument):
     ch.send("You have been equipped by Mota.\n")
 
 
-interp.register_command(
-    interp.cmd_type("outfit", do_outfit, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("outfit", do_outfit, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

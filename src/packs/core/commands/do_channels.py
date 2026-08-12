@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import state_checks
 
 # RT code to display channel status
-def do_channels(ch, argument):
+def do_channels(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     # lists all channels and their status
     ch.send("   channel     status\n")
     ch.send("---------------------\n")
@@ -83,7 +86,4 @@ def do_channels(ch, argument):
     if state_checks.IS_SET(ch.comm, merc.COMM_NOEMOTE):
         ch.send("You cannot show emotions.\n")
 
-
-interp.register_command(
-    interp.cmd_type("channels", do_channels, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("channels", do_channels, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

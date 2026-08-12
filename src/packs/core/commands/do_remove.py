@@ -4,10 +4,13 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 
 
-def do_remove(ch, argument):
+def do_remove(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Remove what?\n")
@@ -26,6 +29,4 @@ def do_remove(ch, argument):
         return
 
 
-interp.register_command(
-    interp.cmd_type("remove", do_remove, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("remove", do_remove, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

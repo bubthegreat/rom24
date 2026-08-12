@@ -4,9 +4,12 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import handler_game
 
-def do_return(ch, argument):
+def do_return(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.desc:
         return
     if not ch.desc.original:
@@ -30,6 +33,4 @@ def do_return(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("return", do_return, merc.POS_DEAD, merc.L6, merc.LOG_NORMAL, 1)
-)
+api.register("return", do_return, pos=merc.POS_DEAD, level=merc.L6, log=merc.LOG_NORMAL, show=1)

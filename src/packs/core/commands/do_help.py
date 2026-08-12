@@ -5,9 +5,12 @@ logger = logging.getLogger(__name__)
 from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
+from rom24 import api
 
 
-def do_help(ch, argument):
+def do_help(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not argument:
         argument = "summary"
 
@@ -38,26 +41,10 @@ def do_help(ch, argument):
         ch.send("No help on that word.\n")
 
 
-interp.register_command(
-    interp.cmd_type("help", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
-interp.register_command(
-    interp.cmd_type("motd", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1, "motd")
-)
-interp.register_command(
-    interp.cmd_type(
-        "imotd", do_help, merc.POS_DEAD, merc.IM, merc.LOG_NORMAL, 1, "imotd"
-    )
-)
-interp.register_command(
-    interp.cmd_type("rules", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1, "rules")
-)
-interp.register_command(
-    interp.cmd_type("story", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1, "story")
-)
-interp.register_command(
-    interp.cmd_type("wizlist", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1, "wizlist")
-)
-interp.register_command(
-    interp.cmd_type("credits", do_help, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1, "credits")
-)
+api.register("help", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)
+api.register("motd", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1, default_arg="motd")
+api.register("imotd", do_help, pos=merc.POS_DEAD, level=merc.IM, log=merc.LOG_NORMAL, show=1, default_arg="imotd")
+api.register("rules", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1, default_arg="rules")
+api.register("story", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1, default_arg="story")
+api.register("wizlist", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1, default_arg="wizlist")
+api.register("credits", do_help, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1, default_arg="credits")

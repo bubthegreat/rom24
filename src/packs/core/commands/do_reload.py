@@ -6,9 +6,12 @@ from rom24 import merc
 from rom24 import nanny
 from rom24 import hotfix
 from rom24 import interp
+from rom24 import api
 
 
-def do_reload(ch, argument):
+def do_reload(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     hotfix.reload_files(ch)
     for d in merc.descriptor_list:
         if d.is_connected(nanny.con_playing):
@@ -16,6 +19,4 @@ def do_reload(ch, argument):
                 d.send(f"imp> {ch.name} reloaded files.")
 
 
-interp.register_command(
-    interp.cmd_type("reload", do_reload, merc.POS_DEAD, merc.ML, merc.LOG_NORMAL, 1)
-)
+api.register("reload", do_reload, pos=merc.POS_DEAD, level=merc.ML, log=merc.LOG_NORMAL, show=1)

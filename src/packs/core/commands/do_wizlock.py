@@ -6,9 +6,12 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import settings
 from rom24 import handler_game
+from rom24 import api
 
 
-def do_wizlock(ch, argument):
+def do_wizlock(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not settings.WIZLOCK:
         handler_game.wiznet("$N has wizlocked the game.", ch, None, 0, 0, 0)
         ch.send("Game wizlocked.\n")
@@ -20,6 +23,4 @@ def do_wizlock(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("wizlock", do_wizlock, merc.POS_DEAD, merc.L2, merc.LOG_ALWAYS, 1)
-)
+api.register("wizlock", do_wizlock, pos=merc.POS_DEAD, level=merc.L2, log=merc.LOG_ALWAYS, show=1)

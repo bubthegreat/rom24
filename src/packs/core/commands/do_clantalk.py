@@ -4,12 +4,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import nanny
 from rom24 import state_checks
 
 
 # clan channels
-def do_clantalk(ch, argument):
+def do_clantalk(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if not ch.is_clan() or ch.clan.independent:
         ch.send("You aren't in a clan.\n")
         return
@@ -39,7 +42,4 @@ def do_clantalk(ch, argument):
                 "$n clans '$t'", ch, argument, d.character, merc.TO_VICT, merc.POS_DEAD
             )
 
-
-interp.register_command(
-    interp.cmd_type("clan", do_clantalk, merc.POS_SLEEPING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("clan", do_clantalk, pos=merc.POS_SLEEPING, level=0, log=merc.LOG_NORMAL, show=1)

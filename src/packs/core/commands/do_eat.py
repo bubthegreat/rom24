@@ -8,9 +8,12 @@ from rom24 import update
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import handler_magic
+from rom24 import api
 
 
-def do_eat(ch, argument):
+def do_eat(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Eat what?\n")
@@ -58,6 +61,4 @@ def do_eat(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("eat", do_eat, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("eat", do_eat, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

@@ -3,13 +3,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import const
 from rom24 import game_utils
 
 
-def do_skills(ch, argument):
+def do_skills(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     fAll = False
     found = False
     min_lev = 1
@@ -90,6 +93,4 @@ def do_skills(ch, argument):
     ch.send("\n")
 
 
-interp.register_command(
-    interp.cmd_type("skills", do_skills, merc.POS_DEAD, 0, merc.LOG_NORMAL, 1)
-)
+api.register("skills", do_skills, pos=merc.POS_DEAD, level=0, log=merc.LOG_NORMAL, show=1)

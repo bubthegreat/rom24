@@ -5,12 +5,15 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import state_checks
 
 
-def do_put(ch, argument):
+def do_put(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
 
@@ -103,6 +106,4 @@ def do_put(ch, argument):
                     )
 
 
-interp.register_command(
-    interp.cmd_type("put", do_put, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("put", do_put, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

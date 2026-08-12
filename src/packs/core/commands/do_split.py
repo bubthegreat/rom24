@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+from rom24 import api
 from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
@@ -10,7 +11,9 @@ from rom24 import state_checks
 from rom24 import instance
 
 # 'Split' originally by Gnort, God of Chaos.
-def do_split(ch, argument):
+def do_split(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg1 = game_utils.read_word(argument)
     argument, arg2 = game_utils.read_word(argument)
     if not arg1:
@@ -90,6 +93,4 @@ def do_split(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("split", do_split, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("split", do_split, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

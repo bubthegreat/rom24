@@ -6,12 +6,15 @@ from rom24 import handler_game
 from rom24 import merc
 from rom24 import comm
 from rom24 import interp
+from rom24 import api
 from rom24 import game_utils
 from rom24 import state_checks
 from rom24 import instance
 
 
-def do_purge(ch, argument):
+def do_purge(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         for victim_id in ch.in_room.people:
@@ -58,6 +61,4 @@ def do_purge(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("purge", do_purge, merc.POS_DEAD, merc.L4, merc.LOG_ALWAYS, 1)
-)
+api.register("purge", do_purge, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

@@ -6,9 +6,12 @@ from rom24 import handler_game
 from rom24 import merc
 from rom24 import interp
 from rom24 import instance
+from rom24 import api
 
 
-def do_train(ch, argument):
+def do_train(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     stat = -1
     pOutput = ""
     if ch.is_npc():
@@ -104,6 +107,4 @@ def do_train(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("train", do_train, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("train", do_train, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

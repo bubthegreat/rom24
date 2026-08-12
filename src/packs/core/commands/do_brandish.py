@@ -7,12 +7,15 @@ from rom24 import merc
 from rom24 import handler_game
 from rom24 import handler_magic
 from rom24 import interp
+from rom24 import api
 from rom24 import const
 from rom24 import state_checks
 from rom24 import instance
 
 
-def do_brandish(ch, argument):
+def do_brandish(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     staff = ch.get_eq("held")
     if not staff:
         ch.send("You hold nothing in your hand.\n")
@@ -70,7 +73,4 @@ def do_brandish(ch, argument):
         )
         staff.extract()
 
-
-interp.register_command(
-    interp.cmd_type("brandish", do_brandish, merc.POS_RESTING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("brandish", do_brandish, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

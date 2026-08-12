@@ -7,9 +7,12 @@ from rom24 import interp
 from rom24 import comm
 from rom24 import game_utils
 from rom24 import handler_game
+from rom24 import api
 
 
-def do_disconnect(ch, argument):
+def do_disconnect(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
     if not arg:
         ch.send("Disconnect whom?\n")
@@ -40,8 +43,4 @@ def do_disconnect(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type(
-        "disconnect", do_disconnect, merc.POS_DEAD, merc.L3, merc.LOG_ALWAYS, 1
-    )
-)
+api.register("disconnect", do_disconnect, pos=merc.POS_DEAD, level=merc.L3, log=merc.LOG_ALWAYS, show=1)

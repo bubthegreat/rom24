@@ -4,6 +4,7 @@ logger = logging.getLogger(__name__)
 
 from rom24 import merc
 from rom24 import interp
+from rom24 import api
 from rom24 import skills
 from rom24 import const
 from rom24 import magic
@@ -11,7 +12,9 @@ from rom24 import game_utils
 from rom24 import handler_game
 from rom24 import instance
 
-def do_gain(ch, argument):
+def do_gain(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
     if ch.is_npc():
         return
     # find a trainer
@@ -200,6 +203,4 @@ def do_gain(ch, argument):
     return
 
 
-interp.register_command(
-    interp.cmd_type("gain", do_gain, merc.POS_STANDING, 0, merc.LOG_NORMAL, 1)
-)
+api.register("gain", do_gain, pos=merc.POS_STANDING, level=0, log=merc.LOG_NORMAL, show=1)
