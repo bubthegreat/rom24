@@ -49,6 +49,13 @@ target-version = ["py312"]
 [tool.ty.environment]
 python-version = "3.12"
 
+[tool.ty.src]
+# Per-area test files live under src/areas/<name>/tests/ but are pytest files,
+# not shipped game logic. They import the gameplay `helpers` module off sys.path
+# (wired in the repo-root conftest), which ty cannot resolve statically. CI runs
+# `ty check src`, so exclude these test dirs to keep it meaningful for real code.
+exclude = ["src/areas/*/tests/"]
+
 # This is a legacy ROM 2.4 port with almost no type annotations. These rules
 # fire pervasively (~460 diagnostics) on the un-annotated engine — the dynamic
 # JSON to_json/from_json codec, attribute injection, positional flag tables —
