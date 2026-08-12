@@ -19,12 +19,26 @@ spec:
             overlay: dev
             telnetPort: "1337"
   
+  # Let ArgoCD Image Updater's argocd-write-back parameter override survive
+  # ApplicationSet reconciliation (otherwise the set reverts the pinned image).
+  ignoreApplicationDifferences:
+    - jsonPointers:
+        - /spec/source/kustomize/images
+
   template:
     metadata:
       name: 'pyrom-{{environment}}'
       labels:
         app: pyrom
         environment: '{{environment}}'
+      annotations:
+        # Auto-update within the pinned 0.0.x line (alphas allowed), via ArgoCD
+        # write-back (no git creds). Push a higher 0.0.x tag -> pods roll.
+        argocd-image-updater.argoproj.io/image-list: pyrom=bubthegreat/pyrom
+        argocd-image-updater.argoproj.io/pyrom.update-strategy: semver
+        argocd-image-updater.argoproj.io/pyrom.allow-tags: 'regexp:^0\.0\.\d+(-alpha[0-9]+)?$'
+        argocd-image-updater.argoproj.io/pyrom.kustomize.image-name: bubthegreat/pyrom
+        argocd-image-updater.argoproj.io/write-back-method: argocd
     spec:
       project: default
       

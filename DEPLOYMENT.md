@@ -271,3 +271,20 @@ The homelab publishes raw-TCP apps through the shared `homelab-gateway`
 (own IP, any port, self-contained in the app repo) vs shared-gateway-TCPRoute
 (central config, port-per-env, KBK style). Pick one convention for all telnet/TCP
 apps and document it so new apps don't each choose differently.
+
+### Routing reality (2026-08-12, clarified)
+External path is: AWS wildcard DNS `*.bubtaylor.com` -> home public IP -> WAN
+router forwards TCP **1337-1339, 8987-8989, 443, 80** -> MetalLB IP **192.168.0.20**
+(the shared istio gateway) -> gateway listeners/TCPRoutes + internal DNS route to
+the service. So **ports 1337/1338 are already forwarded to the gateway** — the
+only missing piece for external telnet is the gateway listeners + TCPRoutes for
+pyrom (the config.yaml `gateway.tcp_routes` render above). No AWS change needed.
+MetalLB-LB-per-env (`.42/.43`) is LAN-only and does NOT traverse the gateway,
+which is why `pyrom.bubtaylor.com:1337` fails externally today.
+
+### Image auto-update (wired)
+ArgoCD Image Updater (v0.15.2, argocd ns) watches `bubthegreat/pyrom`, pinned to
+the `0.0.x` line (alphas allowed) via the annotations on the pyrom ApplicationSet,
+ArgoCD write-back (no git creds). Overlays pin the baseline tag (`0.0.1-alpha2`).
+Release flow: bump `version` in pyproject.toml, `make build`, tag+push
+`bubthegreat/pyrom:<version>`; the updater rolls pods to the new 0.0.x tag.
