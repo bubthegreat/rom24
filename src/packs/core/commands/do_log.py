@@ -9,7 +9,12 @@ from rom24 import game_utils
 from rom24 import state_checks
 
 
+# Module-level toggle for "log all players" (stock ROM's global fLogAll).
+fLogAll = False
+
+
 def do_log(ctx):
+    global fLogAll
     ch = ctx.ch
     argument = ctx.arg
     argument, arg = game_utils.read_word(argument)
@@ -17,7 +22,6 @@ def do_log(ctx):
         ch.send("Log whom?\n")
         return
     if arg == "all":
-        # TODO: fix this by either adding it to merc, or figuring out an alternative
         if fLogAll:
             fLogAll = False
             ch.send("Log ALL off.\n")

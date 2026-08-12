@@ -53,3 +53,8 @@ python_version = "3.12"
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
 addopts = "-v --cov=rom24 --cov-report=term-missing"
+
+[dependency-groups]
+dev = [
+    "pyflakes>=3.4.0",
+]

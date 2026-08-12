@@ -7,6 +7,7 @@ from rom24 import handler_game
 from rom24 import handler_magic
 from rom24 import merc
 from rom24 import state_checks
+from rom24 import instance
 
 
 @api.spell(
@@ -29,6 +30,7 @@ def spell_heat_metal(ctx):
     victim = ctx.target
     target = ctx.target_type
     fail = True
+    dam = 0
 
     if not handler_magic.saves_spell(
         level + 2, victim, merc.DAM_FIRE

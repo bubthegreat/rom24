@@ -3,6 +3,7 @@ from rom24 import const
 from rom24 import handler_game
 from rom24 import merc
 from rom24 import object_creator
+from rom24 import instance
 
 
 @api.spell(

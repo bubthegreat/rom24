@@ -2,6 +2,7 @@ from rom24 import api
 from rom24 import const
 from rom24 import merc
 from rom24 import state_checks
+from rom24 import instance
 
 
 @api.spell(

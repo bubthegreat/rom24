@@ -28,7 +28,7 @@ def spell_create_water(ctx):
         ch.send("It is unable to hold water.\n")
         return
 
-    if obj.value[2] != LIQ_WATER and obj.value[1] != 0:
+    if obj.value[2] != 0 and obj.value[1] != 0:
         ch.send("It contains some other liquid.\n")
         return
 
@@ -38,7 +38,7 @@ def spell_create_water(ctx):
     )
 
     if water > 0:
-        obj.value[2] = LIQ_WATER
+        obj.value[2] = 0
         obj.value[1] += water
         if "water" in obj.name.lower():
             obj.name = "%s water" % obj.name

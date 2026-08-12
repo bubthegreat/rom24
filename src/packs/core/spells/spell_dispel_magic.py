@@ -64,6 +64,7 @@ def spell_dispel_magic(ctx):
         "weaken": "$n looks stronger.",
     }
 
+    found = False
     for k, v in spells.items():
         if handler_magic.check_dispel(level, victim, const.skill_table[k]):
             if v:
