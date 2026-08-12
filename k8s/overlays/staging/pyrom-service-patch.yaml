@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pyrom-service
+  annotations:
+    # Pin this env's MetalLB LoadBalancer IP so DNS stays stable.
+    metallb.universe.tf/loadBalancerIPs: "192.168.0.44"
