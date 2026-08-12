@@ -27,7 +27,7 @@ def do_oset(ctx):
         ch.send("Nothing like that in heaven or earth.\n")
         return
     # Snarf the value (which need not be numeric).
-    value = int(arg3) if arg3.isdigit else -1
+    value = int(arg3) if arg3.isdigit() else -1
     if value == -1:
         ch.do_oset("")
     # Set something.

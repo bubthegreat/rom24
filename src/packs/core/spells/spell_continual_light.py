@@ -4,6 +4,7 @@ from rom24 import handler_game
 from rom24 import merc
 from rom24 import object_creator
 from rom24 import state_checks
+from rom24 import instance
 
 
 @api.spell(
@@ -32,11 +33,11 @@ def spell_continual_light(ctx):
             ch.send("You don't see that here.\n")
             return
 
-        if item.flags.glow:
+        if light.flags.glow:
             handler_game.act("$p is already glowing.", ch, light, None, merc.TO_CHAR)
             return
 
-        item.flags.glow = True
+        light.flags.glow = True
         handler_game.act("$p glows with a white light.", ch, light, None, merc.TO_ALL)
         return
 

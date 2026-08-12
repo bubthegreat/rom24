@@ -113,7 +113,7 @@ def do_pick(ctx):
             ch.send("*Click*\n")
             handler_game.act("$n picks the $d.", ch, None, pexit.keyword, merc.TO_ROOM)
             if ch.is_pc:
-                ch.check_improve("pick_lock", True, 2)
+                ch.check_improve("pick lock", True, 2)
 
             # unlock the other side
             to_room = pexit.to_room

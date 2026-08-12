@@ -5,6 +5,7 @@ from rom24 import handler_magic
 from rom24 import merc
 from rom24 import object_creator
 from rom24 import state_checks
+from rom24 import instance
 
 
 @api.spell(

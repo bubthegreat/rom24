@@ -22,7 +22,8 @@ def spell_detect_poison(ctx):
     ch = ctx.ch
     victim = ctx.target
     target = ctx.target_type
-    if victim.item_type == merc.ITEM_DRINK_CON or obj.item_type == merc.ITEM_FOOD:
+    obj = victim  # TAR_OBJ_INV: the target is the object
+    if obj.item_type == merc.ITEM_DRINK_CON or obj.item_type == merc.ITEM_FOOD:
         if obj.value[3] != 0:
             ch.send("You smell poisonous fumes.\n")
         else:
