@@ -28,7 +28,7 @@ spec:
             claimName: pyrom-system-pvc
       initContainers:
         - name: init-pyrom-data
-          image: bubthegreat/pyrom:latest
+          image: bubthegreat/pyrom:0.0.1-alpha2
           command: ['sh', '-c']
           args:
             - |
@@ -60,7 +60,7 @@ spec:
               mountPath: /pyrom-persistent/system
       containers:
         - name: pyrom
-          image: bubthegreat/pyrom:latest
+          image: bubthegreat/pyrom:0.0.1-alpha2
           imagePullPolicy: Always
           env:
             - name: PYROM_PORT
