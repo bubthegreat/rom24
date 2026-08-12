@@ -14,8 +14,11 @@ def do_wimpy(ctx):
     argument, arg = game_utils.read_word(argument)
     if not arg:
         wimpy = ch.max_hit // 5
-    else:
+    elif arg.lstrip("-").isdigit():
         wimpy = int(arg)
+    else:
+        ch.send("Wimpy must be a number.\n")
+        return
     if wimpy < 0:
         ch.send("Your courage exceeds your wisdom.\n")
         return

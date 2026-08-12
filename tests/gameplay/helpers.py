@@ -8,11 +8,23 @@ from rom24 import handler_pc, const, merc, instance, object_creator
 
 
 class _Desc:
-    """Minimal descriptor stand-in (commands like do_look bail if not ch.desc)."""
+    """Descriptor stand-in with the surface commands read off ch.desc."""
 
     def __init__(self):
         self.original = None
         self.snoop_by = None
+        self.terminal_type = "ANSI"
+        self.ansi = True
+        self.connected = None
+        self.columns = 80
+        self.lines = 24
+        self.rows = 24
+
+    def is_connected(self, *args, **kwargs):
+        return False
+
+    def send(self, text):
+        pass
 
     def __bool__(self):
         return True
@@ -40,6 +52,10 @@ def make_pc(name="Tester", guild="warrior", race="human",
 
     room = _room(room_vnum)
     room.put(pc)
+    # Register as a live character so commands that scan instance.characters
+    # (gtell, who, etc.) see the pc like a real logged-in player.
+    if pc.instance_id is not None:
+        instance.characters[pc.instance_id] = pc
     return pc
 
 

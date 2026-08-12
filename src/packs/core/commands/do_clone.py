@@ -10,6 +10,7 @@ from rom24 import handler_game
 from rom24 import handler_item
 from rom24 import object_creator
 from rom24 import state_checks
+from rom24 import instance
 
 
 # command that is similar to load
@@ -45,7 +46,7 @@ def do_clone(ctx):
         if not handler_item.item_check(ch, obj):
             ch.send("Your powers are not great enough for such a task.\n")
             return
-        clone = object_creator.create_item(obj.vnum, 0)
+        clone = object_creator.create_item(instance.item_templates[obj.vnum], 0)
         object_creator.clone_item(obj, clone)
         if obj.in_living:
             clone.put(ch)
@@ -72,12 +73,13 @@ def do_clone(ctx):
         ):
             ch.send("Your powers are not great enough for such a task.\n")
             return
-        clone = object_creator.create_mobile(mob.vnum)
+        clone = object_creator.create_mobile(instance.npc_templates[mob.vnum])
         object_creator.clone_mobile(mob, clone)
 
-        for obj in mob.contents:
+        for obj_id in mob.inventory:
+            obj = instance.items[obj_id]
             if handler_item.item_check(ch, obj):
-                new_obj = object_creator.create_item(obj.vnum, 0)
+                new_obj = object_creator.create_item(instance.item_templates[obj.vnum], 0)
                 object_creator.clone_item(obj, new_obj)
                 handler_item.recursive_clone(ch, obj, new_obj)
                 new_obj.put(clone)

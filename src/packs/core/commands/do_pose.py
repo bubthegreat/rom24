@@ -175,9 +175,10 @@ def do_pose(ctx):
     argument = ctx.arg
     if ch.is_npc():
         return
-    band = merc.LEVEL_HERO // len(pose_table["to_ch"][ch.guild.name])
+    poses = pose_table["to_ch"][ch.guild.name]
+    band = merc.LEVEL_HERO // len(poses)
     level = min(ch.level, merc.LEVEL_HERO) // band
-    choice = random.randint(0, level)
+    choice = min(random.randint(0, level), len(poses) - 1)
 
     handler_game.act(
         pose_table["to_ch"][ch.guild.name][choice], ch, None, None, merc.TO_CHAR

@@ -38,10 +38,12 @@ class Grouping:
         if self is None or bch is None:
             return False
 
+        # leader is an instance_id; fall back to self if it's stale/invalid
+        # (e.g. the leader logged off) so group checks never crash the command.
         if self.leader is not None:
-            self = instance.characters[self.leader]
+            self = instance.characters.get(self.leader, self)
         if bch.leader is not None:
-            bch = instance.characters[bch.leader]
+            bch = instance.characters.get(bch.leader, bch)
         return self == bch
 
     @property

@@ -295,8 +295,8 @@ def clone_mobile(parent, clone):
     clone.invis_level = parent.invis_level
     clone.affected_by = parent.affected_by
     clone.position = parent.position
-    clone.practice = parent.practice
-    clone.train = parent.train
+    clone.practice = getattr(parent, "practice", 0)  # PC-only fields
+    clone.train = getattr(parent, "train", 0)
     clone.saving_throw = parent.saving_throw
     clone.alignment = parent.alignment
     clone.hitroll = parent.hitroll

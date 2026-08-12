@@ -17,6 +17,7 @@ def do_heal(ctx):
     ch = ctx.ch
     argument = ctx.arg
     # check for healer
+    mob = None
     for mob_id in ch.in_room.people[:]:
         healer = instance.characters[mob_id]
         if healer.is_npc() and healer.act.is_set(merc.ACT_IS_HEALER):
