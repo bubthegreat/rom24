@@ -288,7 +288,7 @@ class Exit:
                 logger.error("Exit(): bad to_room_vnum %d.", self.to_room_vnum)
             else:
                 self.to_room = None
-            if self.key <= 0:
+            if self.key is not None and self.key <= 0:
                 self.key = None
         if kwargs:
             import copy
