@@ -1,0 +1,936 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 10,
+      "count": 0,
+      "description": "A pewter candlestick is standing here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is a rather old-looking three-armed candlestick made from pewter.  Its\ncandles are a yellowish white colour.",
+            "keyword": "candlestick"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "light",
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "light",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "candlestick",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a candlestick",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      "vnum": 3600,
+      "was_in_room": null,
+      "weight": 50,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 100,
+      "count": 0,
+      "description": "A brandy bottle is lying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped\nlike a small dragon's head.  Bottles like these are often worth a small\namount money, even when empty.",
+            "keyword": "brandy bottle"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "drink",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "brandy bottle",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a brandy bottle",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        32,
+        32,
+        "whisky",
+        0,
+        0
+      ],
+      "vnum": 3601,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 100,
+      "count": 0,
+      "description": "A brandy bottle is lying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped\nlike a small dragon's head.  Bottles like these are often worth some money,\neven when empty.",
+            "keyword": "brandy bottle"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "drink",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "brandy bottle",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a brandy bottle",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        32,
+        0,
+        "whisky",
+        0,
+        0
+      ],
+      "vnum": 3602,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 50,
+      "count": 0,
+      "description": "A green-painted wheelbarrow is standing here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is a heavy wheelbarrow made from solid oaken planks that have been painted\na dark, green colour.",
+            "keyword": "wheelbarrow"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "boat",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "wheelbarrow",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a wheelbarrow",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 3603,
+      "was_in_room": null,
+      "weight": 1000,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 169,
+      "count": 0,
+      "description": "A shovel is lying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is a large metal shovel with a solid wooden handle.",
+            "keyword": "shovel"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "shovel",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a shovel",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "mace",
+        1,
+        5,
+        7,
+        0
+      ],
+      "vnum": 3604,
+      "was_in_room": null,
+      "weight": 80,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 140,
+      "count": 0,
+      "description": "A rake is lying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is a large metal rake with a solid wooden handle.",
+            "keyword": "rake"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "rake",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a rake",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "mace",
+        1,
+        4,
+        5,
+        0
+      ],
+      "vnum": 3605,
+      "was_in_room": null,
+      "weight": 80,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "A dusty skeleton lies here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The dusty bones are almost brown.  It must have been buried for a very long\ntime.\nA dusty skeleton is in an excellent condition.",
+            "keyword": "skeleton"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "furniture",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "skeleton",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a dusty skeleton",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 3610,
+      "was_in_room": null,
+      "weight": 150,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 2500,
+      "count": 0,
+      "description": "A large, beautifully polished amethyst has been left here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It has a very deep purple colour.",
+            "keyword": "amethyst"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "no_locate"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "warp_stone",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "amethyst gem",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a amethyst",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 3611,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 1,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 800,
+      "count": 0,
+      "description": "A silver pendant has been left here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It resembles Thor's hammer and appears to be made of solid silver.",
+            "keyword": "pendant silver"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "collar",
+              "neck"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "jewelry",
+      "level": 7,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "pendant silver",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a silver pendant",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 3612,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Graveyard",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 430,
+      "count": 0,
+      "description": "A long silver dagger is lying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It has a long, sharp blade that is made entirely from silver.  A small rune\nhas been engraved on the blade next to the hilt.",
+            "keyword": "dagger silver"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 6,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "dagger silver",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a silver dagger",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "dagger",
+        2,
+        4,
+        11,
+        0
+      ],
+      "vnum": 3613,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

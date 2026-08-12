@@ -1,0 +1,52 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
+from rom24 import merc
+from rom24 import interp
+from rom24 import api
+from rom24 import game_utils
+from rom24 import handler_ch
+from rom24 import handler_game
+
+
+def do_follow(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
+    # RT changed to allow unlimited following and follow the NOFOLLOW rules
+    argument, arg = game_utils.read_word(argument)
+    if not arg:
+        ch.send("Follow whom?\n")
+        return
+    victim = ch.get_char_room(arg)
+    if not victim:
+        ch.send("They aren't here.\n")
+        return
+    if ch.is_affected(merc.AFF_CHARM) and ch.master:
+        handler_game.act(
+            "But you'd rather follow $N!", ch, None, ch.master, merc.TO_CHAR
+        )
+        return
+    if victim == ch:
+        if ch.master is None:
+            ch.send("You already follow yourself.\n")
+            return
+        handler_ch.stop_follower(ch)
+        return
+    if (
+        not victim.is_npc()
+        and victim.act.is_set(merc.PLR_NOFOLLOW)
+        and not ch.is_immortal()
+    ):
+        handler_game.act(
+            "$N doesn't seem to want any followers.\n", ch, None, victim, merc.TO_CHAR
+        )
+        return
+    ch.act.rem_bit(merc.PLR_NOFOLLOW)
+    if ch.master:
+        handler_ch.stop_follower(ch)
+    handler_ch.add_follower(ch, victim)
+    return
+
+
+api.register("follow", do_follow, pos=merc.POS_RESTING, level=0, log=merc.LOG_NORMAL, show=1)

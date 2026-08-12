@@ -1,0 +1,5205 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.\nIn front of you stands a mysterious gypsy.  She whispers 'Your fate and\ndestiny lie beyond this world.'  You are still wondering what she means when\nyou suddenly notice the crystal ball ... it glows fiercely and displays the\nUniverse!",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The shadows cloud your vision.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9301 to 1306",
+            "to_room": null,
+            "to_room_vnum": 1306
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9301 to 9302",
+            "to_room": null,
+            "to_room_vnum": 9302
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a Tavern",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 9301,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have touched the crystal ball and find that you have gone inside it:\na world of stars and wonders!  As you look back you figure out there is no\nchoice but to go forward.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9302 to 9303",
+            "to_room": null,
+            "to_room_vnum": 9303
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside the Crystal Ball",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9302,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are now inside the galaxy, around you you see stars and nebulae smiling\nat your presence, and comets and meteors wandering around you.  You realize\nthat this world may not be the true galaxy after all, but just another\nfantasy zone.  Exits lie virtually in all directions.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9303 to 9304",
+            "to_room": null,
+            "to_room_vnum": 9304
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9303 to 9308",
+            "to_room": null,
+            "to_room_vnum": 9308
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9303 to 9302",
+            "to_room": null,
+            "to_room_vnum": 9302
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9303 to 9321",
+            "to_room": null,
+            "to_room_vnum": 9321
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside the Galaxy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9303,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on a well-paved path which seems that it was made deliberately for\nvisitors like you.  The walkway continues north and a small exit lies west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9304 to 9305",
+            "to_room": null,
+            "to_room_vnum": 9305
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9304 to 9303",
+            "to_room": null,
+            "to_room_vnum": 9303
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9304 to 9322",
+            "to_room": null,
+            "to_room_vnum": 9322
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On an InterGalactic Walkway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9304,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You notice the walkway has come to an abrupt end and you wonder why. You see\nthat there is still a small path which leads north and one to the west.\nTo the east lies a bridge.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9305 to 9306",
+            "to_room": null,
+            "to_room_vnum": 9306
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9305 to 9309",
+            "to_room": null,
+            "to_room_vnum": 9309
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9305 to 9304",
+            "to_room": null,
+            "to_room_vnum": 9304
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9305 to 9323",
+            "to_room": null,
+            "to_room_vnum": 9323
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "End of the InterGalactic Walkway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9305,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This place looks deserted, covered with space debris.  Not a sign of life\nis around.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9306 to 9305",
+            "to_room": null,
+            "to_room_vnum": 9305
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9306 to 9324",
+            "to_room": null,
+            "to_room_vnum": 9324
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the Undeveloped Part of the Galaxy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9306,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This bridge has been made by the stars to honour their ancestors.  The\nbridge itself shines brightly and makes you feel that you are walking on\na path of light.  An entrance to an ancient building lies north and to\nthe east lies the Milky Way.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9308 to 9331",
+            "to_room": null,
+            "to_room_vnum": 9331
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9308 to 9312",
+            "to_room": null,
+            "to_room_vnum": 9312
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9308 to 9303",
+            "to_room": null,
+            "to_room_vnum": 9303
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Bridge of Stars",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9308,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This bridge, like the other, was made as a memorial.  The nebulae had to\nmake one just to show that they are as capable as the stars.  North lies\na throne room.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9309 to 9310",
+            "to_room": null,
+            "to_room_vnum": 9310
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9309 to 9314",
+            "to_room": null,
+            "to_room_vnum": 9314
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9309 to 9305",
+            "to_room": null,
+            "to_room_vnum": 9305
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Bridge of Nebulae",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9309,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You can only faintly make out that it is a throne room as it is too\ndark in here.  In the middle is an empty throne.  You wonder where\nthe King has gone, maybe he is hiding from you?",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9310 to 9309",
+            "to_room": null,
+            "to_room_vnum": 9309
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Throne Room of the Nebula King",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 9310,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "It is here that the famous old Milky Way starts flowing.  You are surrounded\nby streams of mist the moment you tread on it.  You can't see well in\nhere ... luckily you haven't fallen yet!",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9312 to 9313",
+            "to_room": null,
+            "to_room_vnum": 9313
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9312 to 9308",
+            "to_room": null,
+            "to_room_vnum": 9308
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the Start of the Milky Way",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9312,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are still travelling inside this path of mist.  You notice a small\nopening to the east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9313 to 9314",
+            "to_room": null,
+            "to_room_vnum": 9314
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9313 to 9317",
+            "to_room": null,
+            "to_room_vnum": 9317
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9313 to 9312",
+            "to_room": null,
+            "to_room_vnum": 9312
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Along the Milky Way",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9313,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Just as you started enjoying this journey inside the mist, you have come to\nthe end of it.  West leads to a bridge and east leads to somewhere else.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9314 to 9318",
+            "to_room": null,
+            "to_room_vnum": 9318
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9314 to 9313",
+            "to_room": null,
+            "to_room_vnum": 9313
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9314 to 9309",
+            "to_room": null,
+            "to_room_vnum": 9309
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the End of the Milky Way",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9314,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are inside a small clearing.  You can see that there are signs of a\nliving creature nearby.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9317 to 9318",
+            "to_room": null,
+            "to_room_vnum": 9318
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9317 to 9313",
+            "to_room": null,
+            "to_room_vnum": 9313
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Small Clearing",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9317,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on the very edge of the galaxy.  Nothing is here except that there\nis a path which leads down.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9318 to 9317",
+            "to_room": null,
+            "to_room_vnum": 9317
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9318 to 9314",
+            "to_room": null,
+            "to_room_vnum": 9314
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9318 to 9319",
+            "to_room": null,
+            "to_room_vnum": 9319
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Edge of the Galaxy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9318,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are very near to a gigantic red star.  While you are still fascinated\nby its beauty, the star keeps on growing ... suddenly you realize that you'd\nbetter leave.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9319 to 9320",
+            "to_room": null,
+            "to_room_vnum": 9320
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9319 to 9320",
+            "to_room": null,
+            "to_room_vnum": 9320
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9319 to 9320",
+            "to_room": null,
+            "to_room_vnum": 9320
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9319 to 9320",
+            "to_room": null,
+            "to_room_vnum": 9320
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Very Near to a Gigantic Star",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 4,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9319,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Indeed it is too bright to tell.  Because what you are witnessing is the\nrare event of a Supernova, how a star explodes itself into galactic dust.\nYou may find yourself lucky to witness this rare event but even luckier,\nyou have finally got out of this galaxy as your body turns into dust.\nThat really HURTS!",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Too Bright to Tell",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 6,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 9320,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are inside the home of the stars.  All you can see around you are stars\nand nothing else.  You eyes become pretty hurt as you look at them.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9321 to 9322",
+            "to_room": null,
+            "to_room_vnum": 9322
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9321 to 9303",
+            "to_room": null,
+            "to_room_vnum": 9303
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Star Cluster",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9321,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is another uninhabited place.  Exits lie north, east and south.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9322 to 9323",
+            "to_room": null,
+            "to_room_vnum": 9323
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9322 to 9304",
+            "to_room": null,
+            "to_room_vnum": 9304
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9322 to 9321",
+            "to_room": null,
+            "to_room_vnum": 9321
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Another Edge of the Galaxy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9322,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You wonder why the galaxy is limited.  All you have done in Astronomy\ncourses now prove worthless.  Well who told you to take one at the start?",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9323 to 9324",
+            "to_room": null,
+            "to_room_vnum": 9324
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9323 to 9305",
+            "to_room": null,
+            "to_room_vnum": 9305
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9323 to 9322",
+            "to_room": null,
+            "to_room_vnum": 9322
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Corner of the Galaxy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9323,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are now lost in space.  Compasses don't work here, sorry.  What's more\nyou can sense darkness engulfing you.  You'd better get out quick.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9324 to 9325",
+            "to_room": null,
+            "to_room_vnum": 9325
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9324 to 9306",
+            "to_room": null,
+            "to_room_vnum": 9306
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9324 to 9323",
+            "to_room": null,
+            "to_room_vnum": 9323
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Lost in Space",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9324,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Well you have chosen the wrong path, sorry.  Nothing can escape from this\nmonster, not even light.\nPANIC!  You can't escape!",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Black Hole",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 7,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 9325,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is where the famous Seven Sisters live.  You'd better not disturb them.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9326 to 9329",
+            "to_room": null,
+            "to_room_vnum": 9329
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9326 to 9327",
+            "to_room": null,
+            "to_room_vnum": 9327
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Homes of the Pleiades",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9326,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are still wandering around this temple.  You notice exits lie in all\ndirections except west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9327 to 9326",
+            "to_room": null,
+            "to_room_vnum": 9326
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9327 to 9330",
+            "to_room": null,
+            "to_room_vnum": 9330
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9327 to 9328",
+            "to_room": null,
+            "to_room_vnum": 9328
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Western Side of the Temple",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9327,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is dedicated to the Great Hunter of all time -- Orion.\nScattered on the floor is the famous hunting equipment used by him.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9328 to 9327",
+            "to_room": null,
+            "to_room_vnum": 9327
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9328 to 9331",
+            "to_room": null,
+            "to_room_vnum": 9331
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Orion's Hunting Lodge",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9328,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are still wandering around this temple.  You notice exits lie in all\ndirections except north.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9329 to 9332",
+            "to_room": null,
+            "to_room_vnum": 9332
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9329 to 9330",
+            "to_room": null,
+            "to_room_vnum": 9330
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9329 to 9326",
+            "to_room": null,
+            "to_room_vnum": 9326
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Northern Side of the Temple",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9329,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the sacred offering chamber in which sacrifices are made.  You see a\nyoung girl here, chained to the wall, as if she is waiting for execution.\nYou look up and realize the chains are sent down directly from above.\nBelow you recognize the temple of Thalos.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 9329",
+            "to_room": null,
+            "to_room_vnum": 9329
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 9333",
+            "to_room": null,
+            "to_room_vnum": 9333
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 9331",
+            "to_room": null,
+            "to_room_vnum": 9331
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 9327",
+            "to_room": null,
+            "to_room_vnum": 9327
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9330 to 5250",
+            "to_room": null,
+            "to_room_vnum": 5250
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Offering Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9330,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered into this old temple, which was built originally for the gods\nin Mount Olympia, but it is now deserted as someone took over this part of the\nUniverse.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9331 to 9330",
+            "to_room": null,
+            "to_room_vnum": 9330
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9331 to 9334",
+            "to_room": null,
+            "to_room_vnum": 9334
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9331 to 9308",
+            "to_room": null,
+            "to_room_vnum": 9308
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9331 to 9328",
+            "to_room": null,
+            "to_room_vnum": 9328
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Entrance of the Ancient Temple",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9331,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand before the throne of a long-forgotten hero.  It is full of bounty\nthat he got from the Ten Labours.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9332 to 9333",
+            "to_room": null,
+            "to_room_vnum": 9333
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9332 to 9329",
+            "to_room": null,
+            "to_room_vnum": 9329
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Hercules' Mighty Throne",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9332,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are still wandering around this temple.  You notice exits lie in all\ndirections except east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9333 to 9332",
+            "to_room": null,
+            "to_room_vnum": 9332
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9333 to 9334",
+            "to_room": null,
+            "to_room_vnum": 9334
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9333 to 9330",
+            "to_room": null,
+            "to_room_vnum": 9330
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Eastern Side of the Temple",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9333,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "It is the chamber of the prince, Perseus.  However, he seems not to be here.\nMaybe he has gone to get Pegasus to save Andromeda?",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9334 to 9333",
+            "to_room": null,
+            "to_room_vnum": 9333
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9334 to 9331",
+            "to_room": null,
+            "to_room_vnum": 9331
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Perseus' Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9334,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are dangling on the chains.  You notice exits lie in all directions.\nUp above you see the chains continue upwards.  But a forcefield prevents\nyou from going further upwards.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9339 to 9348",
+            "to_room": null,
+            "to_room_vnum": 9348
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9339 to 9351",
+            "to_room": null,
+            "to_room_vnum": 9351
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9339 to 9342",
+            "to_room": null,
+            "to_room_vnum": 9342
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9339 to 9345",
+            "to_room": null,
+            "to_room_vnum": 9345
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Spring.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9324,
+            "key_vnum": null,
+            "keyword": "forcefield",
+            "name": "Exit forcefield 9339 to 9354",
+            "to_room": null,
+            "to_room_vnum": 9354
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9339 to 9330",
+            "to_room": null,
+            "to_room_vnum": 9330
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Mystic Chains",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 9339,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Suddenly you find yourself on a hillside.  As you look around, you notice\nthat Spring has descended upon you.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9342 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9342 to 9353",
+            "to_room": null,
+            "to_room_vnum": 9353
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9342 to 9343",
+            "to_room": null,
+            "to_room_vnum": 9343
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On a Hill",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9342,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are inside what used to be a ground for bull fighting.  But you notice\nthere are no Matadors around.  Maybe they are all dead?",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9343 to 9342",
+            "to_room": null,
+            "to_room_vnum": 9342
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9343 to 9344",
+            "to_room": null,
+            "to_room_vnum": 9344
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a Spanish Bull-Ring",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9343,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is a strange study. Besides the desks and chairs you also see a large\nmirror in the middle.  So, you wonder, is this how you make a Gemini into\ntwo Gemini?",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9344 to 9343",
+            "to_room": null,
+            "to_room_vnum": 9343
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a study",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 9344,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You start to feel the heat of Summer.  Amongst the rocky beach you notice\nhidden forms which could be camouflaged crabs.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9345 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9345 to 9346",
+            "to_room": null,
+            "to_room_vnum": 9346
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Along the seashore",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9345,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Nearby you can hear the roar of an animal.  Peering through the dense\novergrowth you think you glimpse a pair of menacing eyes.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9346 to 9345",
+            "to_room": null,
+            "to_room_vnum": 9345
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Within the Deep Jungle",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 3,
+      "special_inventory": [],
+      "vnum": 9346,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A peaceful feeling overtakes you.  You see a magnificent four-poster bed.\nIt's a double bed and there is only room for one more!  Well, what now ... ?",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9347 to 9348",
+            "to_room": null,
+            "to_room_vnum": 9348
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a Luxurious Bedroom",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9347,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing inside the dock of a court.  You feel an overwhelming\nsense of guilt and you want to protest your innocence!  You fear retribution\nand feel yourself exposed, just like the trees in Autumn.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9348 to 9347",
+            "to_room": null,
+            "to_room_vnum": 9347
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9348 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9348 to 9349",
+            "to_room": null,
+            "to_room_vnum": 9349
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Supreme Court",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9348,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are confused by the shifting sands around you.  Through the shimmering\nheat you see the hazy outline of a giant scorpion ... is this a mirage?",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9349 to 9348",
+            "to_room": null,
+            "to_room_vnum": 9348
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9349 to 9350",
+            "to_room": null,
+            "to_room_vnum": 9350
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "In the Dry Desert",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 9349,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You find yourself in the center of a Centaurion hunting party.  You'd better\nhide yourself before you become the 'center attraction'!",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9350 to 9349",
+            "to_room": null,
+            "to_room_vnum": 9349
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "In the Woods",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 3,
+      "special_inventory": [],
+      "vnum": 9350,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on the highest peak of the Universe.  You look around and notice\nclouds below you.  One of the clouds resembles a goat-like form.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9351 to 9352",
+            "to_room": null,
+            "to_room_vnum": 9352
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9351 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On a Mountain Peak",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 9351,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The noise is deafening.  You are about to take a drink when you realize\nthat the water is being poured out of a vessel of mind-boggling proportions!",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9352 to 9351",
+            "to_room": null,
+            "to_room_vnum": 9351
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a Waterfall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 9352,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You feel uneasy here as if some evil magic is being cast on you.\nYou suspect something fishy is going on in here.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9353 to 9342",
+            "to_room": null,
+            "to_room_vnum": 9342
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside a Gigantic Clam",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 9353,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have reached the end of the mystic chains.  Looking up, you notice a\nsmall landing on which you can climb.  However, there seems to be another\nforcefield blocking your way.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Summer.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9325,
+            "key_vnum": null,
+            "keyword": "forcefield",
+            "name": "Exit forcefield 9354 to 9355",
+            "to_room": null,
+            "to_room_vnum": 9355
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Spring.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9324,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9354 to 9339",
+            "to_room": null,
+            "to_room_vnum": 9339
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "End of the Mystic Chains",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 9354,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You realize you are standing on scaly ground.  As you wonder what the ground\nis made of, you feel the ground move.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9355 to 9356",
+            "to_room": null,
+            "to_room_vnum": 9356
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9325,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9355 to 9354",
+            "to_room": null,
+            "to_room_vnum": 9354
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9355,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "At last you realize that you are on a giant snake-like dragon called the\nDraco, the guardian of the inner galaxy.  You realize that the Draco is\nactually flying now!",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9356 to 9357",
+            "to_room": null,
+            "to_room_vnum": 9357
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9356 to 9355",
+            "to_room": null,
+            "to_room_vnum": 9355
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Tail of the Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9356,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "As you struggle along this scaly creature you realize that the only way\nyou can reach to the inner galaxy is by going all the way to the head.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9357 to 9358",
+            "to_room": null,
+            "to_room_vnum": 9358
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9357 to 9356",
+            "to_room": null,
+            "to_room_vnum": 9356
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Path of the Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9357,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are approaching the leg part of this creature.  You look around and see\nthat the surrounding is all dark except for some faint lights from the\ndistant stars.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9358 to 9359",
+            "to_room": null,
+            "to_room_vnum": 9359
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9358 to 9357",
+            "to_room": null,
+            "to_room_vnum": 9357
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Near the Legs of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9358,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "At last you are half way through this long, weary journey. You can see\nthe wings are to the east but it seems that another forcefield is in the way.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Autumn.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9326,
+            "key_vnum": null,
+            "keyword": "forcefield",
+            "name": "Exit forcefield 9359 to 9360",
+            "to_room": null,
+            "to_room_vnum": 9360
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9359 to 9358",
+            "to_room": null,
+            "to_room_vnum": 9358
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Back of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9359,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You hear some giant flapping sounds nearby.  You desperately try to get hold\nof something as the forceful gusts sweep you away.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9360 to 9361",
+            "to_room": null,
+            "to_room_vnum": 9361
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9326,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9360 to 9359",
+            "to_room": null,
+            "to_room_vnum": 9359
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Between the Wings of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9360,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "From above you can faintly make out the gigantic arms which extend far\nbeyond into the darkness.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9361 to 9362",
+            "to_room": null,
+            "to_room_vnum": 9362
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9361 to 9360",
+            "to_room": null,
+            "to_room_vnum": 9360
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Near the Arms of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9361,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Your journey is now approaching the end.  However, this neck seems to be\nendless.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9362 to 9361",
+            "to_room": null,
+            "to_room_vnum": 9361
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9362 to 9363",
+            "to_room": null,
+            "to_room_vnum": 9363
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On the Neck of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9362,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have come to the end of Draco, but you can't find the head!\nYou see a forcefield to the south, some distance away, beyond reach.\nIf only the head were here ...",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9363 to 9362",
+            "to_room": null,
+            "to_room_vnum": 9362
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Winter.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9327,
+            "key_vnum": null,
+            "keyword": "forcefield",
+            "name": "Exit forcefield 9363 to 9364",
+            "to_room": null,
+            "to_room_vnum": 9364
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Approaching the Head of Draco",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 9363,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Now you are in the innermost part of the galaxy.  What you are walking on now\nis the path of the Great Dipper or the Plough.  You notice that there are\nseven rooms in this zone, representing the seven stars of the Dipper.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the forcefield of Winter.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 9327,
+            "key_vnum": null,
+            "keyword": "forcefield",
+            "name": "Exit forcefield 9364 to 9363",
+            "to_room": null,
+            "to_room_vnum": 9363
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9364 to 9365",
+            "to_room": null,
+            "to_room_vnum": 9365
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9364 to 9366",
+            "to_room": null,
+            "to_room_vnum": 9366
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the Entrance of the Great Dipper",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9364,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the Throne room of the Queen of the Universe.  From here you can see\nevery star and constellation in the Universe.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9365 to 9364",
+            "to_room": null,
+            "to_room_vnum": 9364
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9365 to 9367",
+            "to_room": null,
+            "to_room_vnum": 9367
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Cassiopeia's Throne",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9365,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You see stars around you but nothing of special interest.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9366 to 9364",
+            "to_room": null,
+            "to_room_vnum": 9364
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9366 to 9367",
+            "to_room": null,
+            "to_room_vnum": 9367
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Along the Path of the Dipper",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9366,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the Throne room of the King of the Universe.  From here you can see\nevery star and constellation in the Universe.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9367 to 9366",
+            "to_room": null,
+            "to_room_vnum": 9366
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9367 to 9365",
+            "to_room": null,
+            "to_room_vnum": 9365
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9367 to 9368",
+            "to_room": null,
+            "to_room_vnum": 9368
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Cepheus' Throne",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9367,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You see stars around you but nothing of special interest.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9368 to 9367",
+            "to_room": null,
+            "to_room_vnum": 9367
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9368 to 9369",
+            "to_room": null,
+            "to_room_vnum": 9369
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Along the path of the Dipper",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9368,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You see stars around you but nothing of special interest.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9369 to 9368",
+            "to_room": null,
+            "to_room_vnum": 9368
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9369 to 9370",
+            "to_room": null,
+            "to_room_vnum": 9370
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Along the path of the Dipper",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9369,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have finished the path of the Dipper.  Here, the most prominent feature\nis a set of claw-marks.  You also notice a room to the south; it looks as\nif Polaris could lie here.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9370 to 9369",
+            "to_room": null,
+            "to_room_vnum": 9369
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9370 to 9371",
+            "to_room": null,
+            "to_room_vnum": 9371
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "End of the Dipper",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9370,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Galaxy",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered the private chamber of Polaris.  This is a room of great\nsignificance.  You can see a powerful telescope pointing down towards the\nUniverse (SNOOPING!).  It is from here that Polaris commands the Universe.\nYou feel you have come to end of your search in this galaxy ...",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  9371 to 9370",
+            "to_room": null,
+            "to_room_vnum": 9370
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Polar Star",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 9371,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "_comment": "Base ROM 2.4 content. Ships the static game tables and (declared in place) the core commands and spells.",
+    "provides": ["races", "classes", "skills", "spells", "commands"],
+    "depends": [],
+    "data_dir": ".",
+    "code_dirs": ["commands", "spells"]
+}

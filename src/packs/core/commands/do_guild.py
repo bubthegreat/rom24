@@ -1,0 +1,47 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
+from rom24 import merc
+from rom24 import interp
+from rom24 import api
+from rom24 import tables
+from rom24 import game_utils
+from rom24 import state_checks
+
+
+def do_guild(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
+    argument, arg1 = game_utils.read_word(argument)
+    argument, arg2 = game_utils.read_word(argument)
+
+    if not arg1 or not arg2:
+        ch.send("Syntax: guild <char> <cln name>\n")
+        return
+
+    victim = ch.get_char_world(arg1)
+    if not victim:
+        ch.send("They aren't playing.\n")
+        return
+
+    if "none".startswith(arg2):
+        ch.send("They are now clanless.\n")
+        victim.send("You are now a member of no clan!\n")
+        victim.clan = 0
+        return
+    clan = state_checks.prefix_lookup(tables.clan_table, arg2)
+    if not clan:
+        ch.send("No such clan exists.\n")
+        return
+    if clan.independent:
+        ch.send("They are now a %s.\n" % clan.name)
+        victim.send("You are now a %s.\n" % clan.name)
+    else:
+        ch.send("They are now a member of clan %s.\n" % clan.name.capitalize())
+        victim.send("You are now a member of clan %s.\n" % clan.name.capitalize())
+    victim.clan = clan.name
+    ch.send("dbeug")
+
+
+api.register("guild", do_guild, pos=merc.POS_DEAD, level=merc.L4, log=merc.LOG_ALWAYS, show=1)

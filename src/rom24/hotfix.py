@@ -50,15 +50,17 @@ def init_monitoring():
         "handler_room",
         "shop_utils",
         "game_utils",
-        "pyprogs",
         "affects",
         "effects",
     ]
-    directories_to_init = ["commands", "spells"]
+    # Commands and spells now ship inside packs/core (loaded below via
+    # packs.load_pack_code); they are no longer rom24 subpackages.
     for module in modules_to_init:
         init_module(module)
-    for directory in directories_to_init:
-        init_directory_module(directory)
+    # Load code shipped by content packs (core + community commands/spells).
+    from rom24 import packs
+
+    packs.load_pack_code()
     logger.info("done. (Monitoring system)")
 
 

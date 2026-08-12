@@ -1,0 +1,54 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
+from rom24 import api
+from rom24 import merc
+from rom24 import interp
+from rom24 import game_utils
+from rom24 import handler_game
+from rom24 import state_checks
+
+
+def do_notell(ctx):
+    ch = ctx.ch
+    argument = ctx.arg
+    argument, arg = game_utils.read_word(argument)
+    if not arg:
+        ch.send("Notell whom?")
+        return
+    victim = ch.get_char_world(arg)
+    if not victim:
+        ch.send("They aren't here.\n")
+        return
+    if victim.trust >= ch.trust:
+        ch.send("You failed.\n")
+        return
+    if victim.comm.is_set(merc.COMM_NOTELL):
+        victim.comm = state_checks.REMOVE_BIT(victim.comm, merc.COMM_NOTELL)
+        victim.send("You can tell again.\n")
+        ch.send("NOTELL removed.\n")
+        handler_game.wiznet(
+            "$N restores tells to %s." % victim.name,
+            ch,
+            None,
+            merc.WIZ_PENALTIES,
+            merc.WIZ_SECURE,
+            0,
+        )
+    else:
+        victim.comm = state_checks.SET_BIT(victim.comm, merc.COMM_NOTELL)
+        victim.send("You can't tell!\n")
+        ch.send("NOTELL set.\n")
+        handler_game.wiznet(
+            "$N revokes %s's tells." % victim.name,
+            ch,
+            None,
+            merc.WIZ_PENALTIES,
+            merc.WIZ_SECURE,
+            0,
+        )
+    return
+
+
+api.register("notell", do_notell, pos=merc.POS_DEAD, level=merc.L5, log=merc.LOG_ALWAYS, show=1)

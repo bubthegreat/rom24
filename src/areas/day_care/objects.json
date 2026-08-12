@@ -1,0 +1,797 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 90,
+      "cost": 250,
+      "count": 0,
+      "description": "An axe made of wood lies here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A small label says 'made in Taiwan'.",
+            "keyword": "axe toy"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 0,
+      "long_descr": "",
+      "material": "wood",
+      "name": "axe toy",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a toy axe",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "axe",
+        1,
+        5,
+        25,
+        0
+      ],
+      "vnum": 6600,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 13,
+            "modifier": 4,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 1,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 90,
+      "cost": 620,
+      "count": 0,
+      "description": "A pink ice ring draws your eye.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "How strange...it's made of ice, but it doesn't melt. It feels pleasantly\ncool to the touch.",
+            "keyword": "ring pink ice"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "left_finger",
+              "right_finger"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "treasure",
+      "level": 3,
+      "long_descr": "",
+      "material": "ice",
+      "name": "ring pink ice",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a pink ice ring",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 6601,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 12,
+            "modifier": 5,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 4,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 90,
+      "cost": 780,
+      "count": 0,
+      "description": "A linen robe is crumpled into a ball here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It radiates an aura of peace and wisdom.  The perfect garb for a teacher.",
+            "keyword": "robe linen"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "about_body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 7,
+      "long_descr": "",
+      "material": "cloth",
+      "name": "robe linen",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a linen robe",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "vnum": 6621,
+      "was_in_room": null,
+      "weight": 50,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 50,
+      "cost": 270,
+      "count": 0,
+      "description": "A stout straw broom lies on the floor.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It's worn and tired, probably from swatting too many children.",
+            "keyword": "broom"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": [
+              "two_handed"
+            ]
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 4,
+      "long_descr": "",
+      "material": "wood",
+      "name": "broom",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a broom",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "staff",
+        2,
+        3,
+        7,
+        32
+      ],
+      "vnum": 6622,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "A juicy steak sits on a plate here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "food",
+      "level": 0,
+      "long_descr": "",
+      "material": "meat",
+      "name": "meat steak",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a juicy steak",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        25,
+        25,
+        0,
+        0,
+        0
+      ],
+      "vnum": 6644,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 50,
+      "cost": 0,
+      "count": 0,
+      "description": "A dry steak lies on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "food",
+      "level": 0,
+      "long_descr": "",
+      "material": "meat",
+      "name": "steak rotten",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a rotten steak",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        4,
+        4,
+        0,
+        1,
+        0
+      ],
+      "vnum": 6645,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 90,
+      "cost": 150,
+      "count": 0,
+      "description": "An amber potion sits in a corner.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It's a tight-stoppered glass bottle with a thick amber liquid inside. It\ntastes kind of like whiskey.",
+            "keyword": "potion"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "potion",
+      "level": 0,
+      "long_descr": "",
+      "material": "glass",
+      "name": "potion amber",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "an amber potion",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        5,
+        "cure light",
+        "armor",
+        "",
+        ""
+      ],
+      "vnum": 6646,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Day Care",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 90,
+      "cost": 300,
+      "count": 0,
+      "description": "A toy gun with a sharp bayonet lies here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It's just a toy...but the point looks kind of sharp.\nYou'll put your eye out, kid!",
+            "keyword": "gun toy"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": [
+              "two_handed"
+            ]
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 4,
+      "long_descr": "",
+      "material": "wood",
+      "name": "gun toy",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a toy gun",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "staff",
+        2,
+        3,
+        2,
+        32
+      ],
+      "vnum": 6647,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

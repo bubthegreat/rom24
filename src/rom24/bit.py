@@ -380,7 +380,17 @@ class Bit:
         if outer_encoder is None:
             outer_encoder = json.JSONEncoder.default
 
+        from rom24 import flag_registry
+
         cls_name = "__class__/" + __name__ + "." + self.__class__.__name__
+        ref = flag_registry.name_for(self._flags) if self._flags is not None else None
+        if ref is not None:
+            # Shared table: store only a name reference, not the whole table.
+            return {cls_name: {"bits": outer_encoder(self.bits), "flags_ref": ref}}
+        if isinstance(self._flags, list):
+            names = [flag_registry.name_for(t) for t in self._flags]
+            if names and all(n is not None for n in names):
+                return {cls_name: {"bits": outer_encoder(self.bits), "flags_refs": names}}
         return {
             cls_name: {
                 "bits": outer_encoder(self.bits),
@@ -406,8 +416,16 @@ class Bit:
 
         cls_name = "__class__/" + __name__ + "." + cls.__name__
         if cls_name in data:
-            return cls(
-                default=outer_decoder(data[cls_name]["bits"]),
-                flags=outer_decoder(data[cls_name]["flags"]),
-            )
+            inner = data[cls_name]
+            if "flags_ref" in inner:
+                from rom24 import flag_registry
+
+                flags = flag_registry.table_for(inner["flags_ref"])
+            elif "flags_refs" in inner:
+                from rom24 import flag_registry
+
+                flags = [flag_registry.table_for(n) for n in inner["flags_refs"]]
+            else:
+                flags = outer_decoder(inner.get("flags"))
+            return cls(default=outer_decoder(inner["bits"]), flags=flags)
         return data

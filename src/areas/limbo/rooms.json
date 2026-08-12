@@ -1,0 +1,111 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Limbo",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are floating in nothing.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Void",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 1,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Limbo",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2 to 3001",
+            "to_room": null,
+            "to_room_vnum": 3001
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Limbo",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

@@ -2,48 +2,63 @@ import json
 import logging
 import os
 
-from rom24.settings import DATA_DIR, DATA_EXTN
+from rom24 import settings
 from rom24.database.tracker import tables
-
 
 logger = logging.getLogger(__name__)
 
 
-def read_tables(listener=None, loc=DATA_DIR, extn=DATA_EXTN):
+def _default_locs():
+    from rom24 import packs
+
+    ordered = packs.resolve_load_order(packs.discover_packs())
+    return [p.data_dir for p in ordered]
+
+
+def read_tables(listener=None, locs=None, extn=settings.DATA_EXTN):
+    if locs is None:
+        locs = _default_locs()
+
     if listener:
         # This means the game is running. Wipe the current data.
         logger.debug("Clearing all tables.")
         for tok in tables:
-            logger.debug("    Clearing %s.", tok.name)
             if not tok.filter:
                 tok.table.clear()
             else:
                 affected = tok.filter(tok.table)
-                for k, v in tok.table.copy().items():
+                for k in list(tok.table.keys()):
                     if k in affected:
                         del tok.table[k]
-
         listener.send("Tables cleared. Rebuilding...\n")
-    logger.info("    Loading Tables.")
+
+    logger.info("    Loading Tables from %d location(s).", len(locs))
     for tok in tables:
-        path = "%s%s" % (os.path.join(loc, tok.name), extn)
-        logger.debug("        Loading %s(%s)", tok.name, path)
-        data = None
-        if os.path.isfile(path):
-            data = json.load(open(path, "r"))
-        else:
-            logger.warning("    Failed to find file %s", path)
-            if listener:
-                listener.send("Failed to load %s" % path)
-            continue
-        try:
+        seen_source = {}  # key -> loc that first supplied it
+        for loc in locs:
+            path = "%s%s" % (os.path.join(loc, tok.name), extn)
+            if not os.path.isfile(path):
+                continue
+            try:
+                with open(path, "r") as fp:
+                    data = json.load(fp)
+            except (ValueError, OSError) as exc:
+                logger.error("Skipping bad table file %s: %s", path, exc)
+                continue
+            if isinstance(data, list):
+                for v in data:
+                    tok.table.append(v)
+                continue
             for k, v in data.items():
-                if type(k) == str and k.isdigit():
+                if isinstance(k, str) and k.isdigit():
                     k = int(k)
-                if tok.tupletype:
-                    tok.table[k] = tok.tupletype._make(v)
-                else:
-                    tok.table[k] = v
-        except (AttributeError):  # Its a list
-            for v in data:
-                tok.table.append(v)
+                override = isinstance(v, dict) and v.pop("__override__", False)
+                if k in seen_source and not override:
+                    raise ValueError(
+                        "Table '%s' key %r defined by both %s and %s"
+                        % (tok.name, k, seen_source[k], loc)
+                    )
+                if k in seen_source and override:
+                    logger.info("Table '%s' key %r overridden by %s", tok.name, k, loc)
+                tok.table[k] = tok.tupletype._make(v) if tok.tupletype else v
+                seen_source[k] = loc

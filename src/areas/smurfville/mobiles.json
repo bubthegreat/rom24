@@ -1,0 +1,3170 @@
+[
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        2,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "A cute little blue smurf with a white hat and white boots.  You have a sudden\nurge to crush him.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        4,
+        2
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 1,
+      "long_descr": "A smurf is singing and walking along.",
+      "mana": 100,
+      "mana_dice": [
+        0,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "a smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 101,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327811,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        2,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "A small smurf is quietly picking berries.  He seems to hardly notice you.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        4,
+        2
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 1,
+      "long_descr": "A smurf is here, picking berries.",
+      "mana": 100,
+      "mana_dice": [
+        0,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "a smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 102,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Brainy Smurf has on his usual glasses.  Brainy Smurf isn't liked much by the\nother smurfs.  They fear his knowledge.  Knowledge is power!",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Brainy Smurf is here, mumbling something to himself.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle brainy smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Brainy Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 103,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Handy is always building something.  He never takes a break.  Why don't you\ngive him a break, like all of his bones.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Handy Smurf is building something here.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle handy smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Handy Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 104,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Sleepy never gets enough sleep.  You would think he goes to college.  I wonder\nif he has ever stayed up a whole night without sleeping.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Sleepy Smurf is sleep walking here.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle sleepy smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Sleepy Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 105,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Hefty is a total health nut.  He lifts weights, eats right, and exercises all\nthe time.  Won't do him much good when he's DEAD.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Hefty Smurf is lifting weights here.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle hefty smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Hefty Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 106,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Grumpy has never been happy in his whole life.  So why don't you just end it?",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Grumpy Smurf is here, swearing.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle grumpy smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Grumpy Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 107,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Jokey loves to give people presents.  Too bad the present explodes when opened.\nOh well, to each his own.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Jokey Smurf is here, holding a present.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle jokey smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Jokey Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 108,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 327873,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        8,
+        8,
+        8,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Smurfette is the cutest little smurf you've ever seen.  If only she were your\nsize.  I wonder how much she charges the other smurfs.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        21
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "Smurfette is here, looking beautiful.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle smurfette",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1057330,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 2,
+      "short_descr": "Smurfette",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_thief",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 109,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 196801,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 100,
+      "area": "Smurfville",
+      "armor": [
+        2,
+        2,
+        2,
+        6
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        8,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Yep, its Papa Smurf all right.  Red hat and boots and the funny little white\nbeard.  Papa Smurf treats his fellow smurfs with dignity and respect.  That\nis why Papa Smurf is so popular among the ladies.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        6,
+        110
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 10,
+      "long_descr": "Papa Smurf is practicing magic here.",
+      "mana": 100,
+      "mana_dice": [
+        10,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle papa smurf",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1048608,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Papa Smurf",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_mage",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 110,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 2,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65667,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -100,
+      "area": "Smurfville",
+      "armor": [
+        1,
+        1,
+        1,
+        7
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        7,
+        2
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Gargamel has never done anything right in his life.  He has caught smurfs\nbefore but always lets them escape.  He brings true meaning to the word moron.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        121
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 10,
+      "long_descr": "Gargamel is here, cursing out the smurfs.",
+      "mana": 100,
+      "mana_dice": [
+        10,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle gargamel",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1049872,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Gargamel",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_cleric",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 111,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 2,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65667,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -100,
+      "area": "Smurfville",
+      "armor": [
+        3,
+        3,
+        3,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        7,
+        2
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Gargamel's worthless cat.  He is just about as dumb as Gargamel.  He should\njust grab a smurf in his teeth and chew away.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        96
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 8,
+      "long_descr": "Azreal is here, licking himself.",
+      "mana": 100,
+      "mana_dice": [
+        4,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle azreal cat",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Azreal",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_poison",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 112,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 1,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

@@ -21,13 +21,12 @@ def _make_char(capture):
     return ch
 
 
-def test_do_memory_reports_counts(booted_world):
-    from rom24.commands.do_memory import do_memory
+def test_do_memory_reports_counts(booted_world, command):
 
     captured = []
     ch = _make_char(captured)
 
-    do_memory(ch, "")
+    command('memory')(ch, "")
 
     output = "".join(captured)
     assert output, "do_memory sent no output"
@@ -42,8 +41,7 @@ def test_do_memory_reports_counts(booted_world):
     assert any(n > 100 for n in numbers), f"no plausible count in output: {output!r}"
 
 
-def test_do_dump_runs(booted_world, tmp_path, monkeypatch):
-    from rom24.commands.do_dump import do_dump
+def test_do_dump_runs(booted_world, tmp_path, monkeypatch, command):
 
     # Run in a temp cwd so the mem.dmp file lands somewhere disposable.
     monkeypatch.chdir(tmp_path)
@@ -52,7 +50,7 @@ def test_do_dump_runs(booted_world, tmp_path, monkeypatch):
     ch = _make_char(captured)
 
     # Must not raise.
-    do_dump(ch, "")
+    command('dump')(ch, "")
 
     assert "".join(captured).strip() == "Dumped."
     assert os.path.isfile(tmp_path / "mem.dmp")

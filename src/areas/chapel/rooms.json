@@ -1,0 +1,5587 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a small, dark chapel.  The dark brown glass in the tiny windows\ndo not let much light through.  A few rows of worn wooden benches stand here.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The chapel door is made of dark wood.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3405 to 3604",
+            "to_room": null,
+            "to_room_vnum": 3604
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3430,
+            "key_vnum": null,
+            "keyword": "altar",
+            "name": "Exit altar 3405 to 3421",
+            "to_room": null,
+            "to_room_vnum": 3421
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The benches are not of the comfortable kind.",
+            "keyword": "benches rows"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The windows must be meant to be dark.  At least they are completely clean.",
+            "keyword": "glass windows"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside the Chapel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 3405,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You sense even more danger coming from below but are urged onward ...",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3411,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3408 to 3449",
+            "to_room": null,
+            "to_room_vnum": 3449
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3408 to 3450",
+            "to_room": null,
+            "to_room_vnum": 3450
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Stairwell into Darkness",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3408,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is why you were not welcomed at the entrance by the tomb's faithful\nservants ... blood and gore is ankle deep in here.\nOh NO! the door shut behind you!  It's a trap!\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Mauled and torn apart ... throats were ripped out and guts spilled on the\nfloor ... you slip and land, planting yourself firmly in the slick wetness\nand splattering yourself with offal.",
+            "keyword": "corpse corpses"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Acolyte's Bedroom",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3409,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3410 to 3415",
+            "to_room": null,
+            "to_room_vnum": 3415
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3410 to 3411",
+            "to_room": null,
+            "to_room_vnum": 3411
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3410,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3411 to 3410",
+            "to_room": null,
+            "to_room_vnum": 3410
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3411,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the west end of the Grand Hall of Kings.  There is a doorway to the\nsouth with something strange written above it.  Also on the floor are dried\nblood stains, but their color seems a little wrong.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3412 to 3417",
+            "to_room": null,
+            "to_room_vnum": 3417
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A door to the south",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3412 to 3413",
+            "to_room": null,
+            "to_room_vnum": 3413
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Above the door is some strange writing!  It is worn with age, but it refers\nto an ancient ruler named 'Shohan'.",
+            "keyword": "door writing"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "That's odd ... they seem a little GREEN.",
+            "keyword": "stain stains"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3412,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "BLOOD EVERYWHERE!\nThe walls are coated with blood, bits of bloody flesh lie at your feet,\nand torn clothing is scattered about.  It wouldn't disturb you in the least\nexcept that it is all FRESH!  What ever used to pass as an altar here,\nlies overturned and smashed.  Doors lead to the south and to the north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "north",
+            "name": "Exit north 3413 to 3412",
+            "to_room": null,
+            "to_room_vnum": 3412
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "south",
+            "name": "Exit south 3413 to 3414",
+            "to_room": null,
+            "to_room_vnum": 3414
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Shohan",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3413,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Once beautiful, this place has been turned into a slaughterhouse by the hands\nof evil beings ... even more blood and dead, rotting flesh.  This place looks\nlike the feeding grounds of beasts and monsters.  The overturned sarcophagus\nof the once powerful King Shohan lies here.  A door leads to the north and a\ndoorway has been hewn to the east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "door north",
+            "name": "Exit door north 3414 to 3413",
+            "to_room": null,
+            "to_room_vnum": 3413
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3414 to 3419",
+            "to_room": null,
+            "to_room_vnum": 3419
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Now destroyed ... there is writing on it: 'All hail the new king; we serve\nthe Roch'tar, the Undying One!  Those who decline his worship shall be\nslaughtered!'",
+            "keyword": "coffin sarcophagus"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Shohan",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3414,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3415 to 3420",
+            "to_room": null,
+            "to_room_vnum": 3420
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3415 to 3416",
+            "to_room": null,
+            "to_room_vnum": 3416
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3415 to 3410",
+            "to_room": null,
+            "to_room_vnum": 3410
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3415,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You can tell that this area wasn't a part of the original construction.\nThe walls have been hewn by a mighty force look as though they were CLAWED.\nThe passage slopes upward here and also continues to the north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3416 to 3415",
+            "to_room": null,
+            "to_room_vnum": 3415
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "tunnel",
+            "name": "Exit tunnel 3416 to 3418",
+            "to_room": null,
+            "to_room_vnum": 3418
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Something BIG must have done this job!  There are traces of BLOOD in the\nclaw marks.",
+            "keyword": "walls"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance to the Lower Chambers",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3416,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the western wing of the Grand Hall of Kings.  Your only exits are to\nthe east and west in this gloomy hallway.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3417 to 3422",
+            "to_room": null,
+            "to_room_vnum": 3422
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3417 to 3412",
+            "to_room": null,
+            "to_room_vnum": 3412
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3417,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Different than the rest, this place has not been desecrated.  An altar still\nstands here and the walls show scenes from the life of Cristis the Kind,\na ruler of the outlying regions west of Midgaard.  There is a stone staircase\nleading down.  The Ghost of Cristis the Kind stands here.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3418 to 3419",
+            "to_room": null,
+            "to_room_vnum": 3419
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "staircase",
+            "name": "Exit staircase 3418 to 3416",
+            "to_room": null,
+            "to_room_vnum": 3416
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "His rest has been disturbed by evil creatures who have invaded his domain\nand grave.  He holds up a parchment for you to read:\n\n     Hello stranger and last hope for Midgaard and this tomb!\n   This is a plea for aid by a man long since dead from this Earth.\n     The forces of evil have taken control of this tomb and the\n   Kings of old need your aid to free us and deliver us to peace\n   once again.  I think that I alone have been able to appear and\n   communicate with the mortal world.\n     Roch'tar, the reincarnate Vampire, now rules these tombs.\n   You must find and defeat him and his minions!\n     May God bless you on your Quest!",
+            "keyword": "ghost cristis"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It stands 2 feet high with the remnants of candle-wax on top.  There is\nan inscription on the side:  'Praise the almighty Cristis the bringer of\ngood and justice to the world.  He who fought the evilest finally is at\npeace.  May the Gods remember him forever ...'",
+            "keyword": "altar"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Cristis",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3418,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Everything here has simply been destroyed.   Exits lead north and west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3419 to 3418",
+            "to_room": null,
+            "to_room_vnum": 3418
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3419 to 3414",
+            "to_room": null,
+            "to_room_vnum": 3414
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Cristis",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3419,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3420 to 3425",
+            "to_room": null,
+            "to_room_vnum": 3425
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3420 to 3415",
+            "to_room": null,
+            "to_room_vnum": 3415
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3420,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Whoever built this place must have been very rich indeed!  Though you did\nenter through a rather small door this place has enough room to hold several\nscore of people.  The floor has a beautifully woven carpet, and the walls are\ncovered in finely crafted tapestries. You can tell that these things must have\nbeen worth much but they have not lasted well throughout the ages.  Massive\ndoors lead off to the south and a large stone staircase leads up.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Finely polished oak doors stand to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "oak",
+            "name": "Exit oak 3421 to 3422",
+            "to_room": null,
+            "to_room_vnum": 3422
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large set of stone stairs leading upwards to a small stone door at\nthe top.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3410,
+            "key_vnum": null,
+            "keyword": "stone trapdoor door",
+            "name": "Exit stone trapdoor door 3421 to 3405",
+            "to_room": null,
+            "to_room_vnum": 3405
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "'Beware here all of man, because past here lies only death.'\n\n    Insho'rkthon brsskra-lehsn Roch'tar\n\nBeneath, there are two criss-crossing scratchmarks in an X formation that\nlook like someone (or something) raked their claws across the wood.",
+            "keyword": "letters graffiti"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "They're HUGE!  They are at least 12 feet tall and about 10 feet wide.\nIf not for one thing they would be perfectly preserved.  There appears\nto be some letters crudely scratched into the wood.",
+            "keyword": "oak"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Though quite cracked they do look very stable.",
+            "keyword": "staircase stairs"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The tapestries were woven into beautiful and exciting scenes of battles\nlong ago.  One on the left your shows the historic battle between Jubal the\nBenevolent and Hroth Kragen's forces that eventually Jubal's army won (of\ncourse).",
+            "keyword": "tapestry tapestries"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It's rather small and looks quite heavy but maybe with some kind of leverage\nyou could move it.  It has a queerly shaped hole that looks big enough\nfor an equally queerly shaped pole to fit inside.  If only you had it!",
+            "keyword": "stone door trapdoor"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance Chamber to the Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3421,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A long hallway stretches east and west.  On the southern side of the hall\nthere are many doors, each with the name of a king who has died and is\nentombed here.  The hallway is beautiful yet chilling.  Even though the area\nhas been kept well by acolytes, there remains a stench of the undead.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "oak",
+            "name": "Exit oak 3422 to 3421",
+            "to_room": null,
+            "to_room_vnum": 3421
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3422 to 3427",
+            "to_room": null,
+            "to_room_vnum": 3427
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The door has written above it: 'May all the lands thank Crotus the Victor.\nWithout his guidance this kingdom would not have stood.'",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3422 to 3423",
+            "to_room": null,
+            "to_room_vnum": 3423
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3422 to 3417",
+            "to_room": null,
+            "to_room_vnum": 3417
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3422,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Mostly rubble, this place used to be the shrine of the famous king Crotus,\nwho saved the northern regions from being overrun by the goblin hordes of\n100 years ago.  If not for him, Midgaard of course would have eventually been\nconquered as well.  Though Crotus was a goodly king, it was rumored that he\nturned to the dark ways in his dying years ... and died an evil man.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3423 to 3422",
+            "to_room": null,
+            "to_room_vnum": 3422
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3423 to 3424",
+            "to_room": null,
+            "to_room_vnum": 3424
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Crotus",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3423,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A sarcophagus lies in the middle of the room and seems undisturbed.\nA hole has been knocked into the east wall.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3424 to 3423",
+            "to_room": null,
+            "to_room_vnum": 3423
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3424 to 3429",
+            "to_room": null,
+            "to_room_vnum": 3429
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Crotus",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3424,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3425 to 3426",
+            "to_room": null,
+            "to_room_vnum": 3426
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3425 to 3420",
+            "to_room": null,
+            "to_room_vnum": 3420
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3425,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3426 to 3425",
+            "to_room": null,
+            "to_room_vnum": 3425
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3426 to 3430",
+            "to_room": null,
+            "to_room_vnum": 3430
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3426,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in the western part of the Grand Hall of Kings.  To the south is a\ndoor and to the east and west the hall continues.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3427 to 3432",
+            "to_room": null,
+            "to_room_vnum": 3432
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3427 to 3428",
+            "to_room": null,
+            "to_room_vnum": 3428
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3427 to 3422",
+            "to_room": null,
+            "to_room_vnum": 3422
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3427,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Mitnar was a gruesome beast of a man ... he loved battle ... and nothing\nelse.  Warriors did love Mitnar, and all fighting men honored him.\nOn the wall is depicted battle after battle after battle.\nA small opening has been shaped carefully to the east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3428 to 3427",
+            "to_room": null,
+            "to_room_vnum": 3427
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3428 to 3433",
+            "to_room": null,
+            "to_room_vnum": 3433
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3428 to 3429",
+            "to_room": null,
+            "to_room_vnum": 3429
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Mitnar",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3428,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The wall paintings show men and women warriors alike bowing down to Mitnar,\nprisoners of war being put to the sword by Mitnar, and great heaps of gold\nand weapons under the feet of Mitnar.  Where his coffin was, there is now\nonly a rectangular blemish on the floor of the dusty room.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3429 to 3428",
+            "to_room": null,
+            "to_room_vnum": 3428
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3429 to 3424",
+            "to_room": null,
+            "to_room_vnum": 3424
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Mitnar",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3429,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3430 to 3435",
+            "to_room": null,
+            "to_room_vnum": 3435
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3430 to 3431",
+            "to_room": null,
+            "to_room_vnum": 3431
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3430 to 3426",
+            "to_room": null,
+            "to_room_vnum": 3426
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3430,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3431 to 3430",
+            "to_room": null,
+            "to_room_vnum": 3430
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3431 to 3436",
+            "to_room": null,
+            "to_room_vnum": 3436
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3431,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are still walking through the gloomy hallway.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3432 to 3437",
+            "to_room": null,
+            "to_room_vnum": 3437
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3432 to 3427",
+            "to_room": null,
+            "to_room_vnum": 3427
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3432,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Little chunks of dried meat are spattered throughout this room.  The walls\nare covered in gore.  Almost as if they were painted ... ICK!  You can\nalmost make out the design!",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3433 to 3438",
+            "to_room": null,
+            "to_room_vnum": 3438
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3433 to 3428",
+            "to_room": null,
+            "to_room_vnum": 3428
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Frath",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3433,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "UGH!  The sarcophagus is opened up and the mummified body lies out in the\nopen, ripped to pieces.  Gnawed pieces of flesh and bone are strewn here.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3434 to 3439",
+            "to_room": null,
+            "to_room_vnum": 3439
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Frath",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3434,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3435 to 3440",
+            "to_room": null,
+            "to_room_vnum": 3440
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3435 to 3436",
+            "to_room": null,
+            "to_room_vnum": 3436
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3435 to 3430",
+            "to_room": null,
+            "to_room_vnum": 3430
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3435,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3436 to 3435",
+            "to_room": null,
+            "to_room_vnum": 3435
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3436 to 3441",
+            "to_room": null,
+            "to_room_vnum": 3441
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3436 to 3431",
+            "to_room": null,
+            "to_room_vnum": 3431
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3436,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the western end of the Grand Hall of Kings.  There is a\ndoor leading north and the hallway continues west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3437 to 3409",
+            "to_room": null,
+            "to_room_vnum": 3409
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3437 to 3432",
+            "to_room": null,
+            "to_room_vnum": 3432
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Grand Hall of Kings",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3437,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This was once beautiful.  Now the huge tapestries have been torn down and the\ncarpeting pulled up ... the paintings on the ceiling are unreadable and the\naltar is crumbled.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3438 to 3439",
+            "to_room": null,
+            "to_room_vnum": 3439
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3438 to 3433",
+            "to_room": null,
+            "to_room_vnum": 3433
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Shrine of Jubal",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3438,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The smell coming off of the opened sarcophagus is nauseating.  The floor is\nslightly crumpled and walls are raked ... but the worst part is the mummy ...\nJubal the Benevolent is missing his head!",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3439 to 3438",
+            "to_room": null,
+            "to_room_vnum": 3438
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3439 to 3434",
+            "to_room": null,
+            "to_room_vnum": 3434
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Jubal",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3439,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3440 to 3445",
+            "to_room": null,
+            "to_room_vnum": 3445
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3440 to 3441",
+            "to_room": null,
+            "to_room_vnum": 3441
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3440 to 3435",
+            "to_room": null,
+            "to_room_vnum": 3435
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3440,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3441 to 3440",
+            "to_room": null,
+            "to_room_vnum": 3440
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3441 to 3446",
+            "to_room": null,
+            "to_room_vnum": 3446
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3441 to 3436",
+            "to_room": null,
+            "to_room_vnum": 3436
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3441,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3442 to 3447",
+            "to_room": null,
+            "to_room_vnum": 3447
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3442 to 3443",
+            "to_room": null,
+            "to_room_vnum": 3443
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3442,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3443 to 3442",
+            "to_room": null,
+            "to_room_vnum": 3442
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3443 to 3444",
+            "to_room": null,
+            "to_room_vnum": 3444
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3443,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3444 to 3443",
+            "to_room": null,
+            "to_room_vnum": 3443
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3444 to 3449",
+            "to_room": null,
+            "to_room_vnum": 3449
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3444,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3445 to 3446",
+            "to_room": null,
+            "to_room_vnum": 3446
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3445 to 3440",
+            "to_room": null,
+            "to_room_vnum": 3440
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3445,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3446 to 3445",
+            "to_room": null,
+            "to_room_vnum": 3445
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3446 to 3447",
+            "to_room": null,
+            "to_room_vnum": 3447
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3446 to 3441",
+            "to_room": null,
+            "to_room_vnum": 3441
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3446,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3447 to 3446",
+            "to_room": null,
+            "to_room_vnum": 3446
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3447 to 3448",
+            "to_room": null,
+            "to_room_vnum": 3448
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3447 to 3442",
+            "to_room": null,
+            "to_room_vnum": 3442
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3447,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This room has been totally hollowed out and smoothed, and a pit has been\ndrilled in the center of the floor.  There are extensive gruesome paintings\nof beasts and monsters terrorizing the countryside; vampires sucking the\nblood of beasts and humans alike.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3448 to 3447",
+            "to_room": null,
+            "to_room_vnum": 3447
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "There is a tiny painting of a vault in this mural ... and it seems to be a\nreflected picture of the vault ... the word in tiny print is 'rathcor'.",
+            "keyword": "painting paintings mural"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3448,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stench of death is heavy in these caverns.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3411,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 3449 to 3408",
+            "to_room": null,
+            "to_room_vnum": 3408
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3449 to 3444",
+            "to_room": null,
+            "to_room_vnum": 3444
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lower Chambers and Tombs of the Undead",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3449,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered the forbidden catacombs.  This cave system must have been\nbuilt long ago.  The air is dank and smells of something dead ...  or maybe\nundead.  Enter here at your own risk ... something evil abides.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3450 to 3451",
+            "to_room": null,
+            "to_room_vnum": 3451
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3450 to 3452",
+            "to_room": null,
+            "to_room_vnum": 3452
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3450 to 3453",
+            "to_room": null,
+            "to_room_vnum": 3453
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3450 to 3454",
+            "to_room": null,
+            "to_room_vnum": 3454
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3450 to 3408",
+            "to_room": null,
+            "to_room_vnum": 3408
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance to the Forbidden Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3450,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3451 to 3455",
+            "to_room": null,
+            "to_room_vnum": 3455
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3451 to 3450",
+            "to_room": null,
+            "to_room_vnum": 3450
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3451,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3452 to 3461",
+            "to_room": null,
+            "to_room_vnum": 3461
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3452 to 3450",
+            "to_room": null,
+            "to_room_vnum": 3450
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3452,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3453 to 3450",
+            "to_room": null,
+            "to_room_vnum": 3450
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3453,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3454 to 3450",
+            "to_room": null,
+            "to_room_vnum": 3450
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3454,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3455 to 3456",
+            "to_room": null,
+            "to_room_vnum": 3456
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3455 to 3451",
+            "to_room": null,
+            "to_room_vnum": 3451
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3455,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3456 to 3455",
+            "to_room": null,
+            "to_room_vnum": 3455
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3456 to 3457",
+            "to_room": null,
+            "to_room_vnum": 3457
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3456,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3457 to 3458",
+            "to_room": null,
+            "to_room_vnum": 3458
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3457 to 3456",
+            "to_room": null,
+            "to_room_vnum": 3456
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3457,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3458 to 3457",
+            "to_room": null,
+            "to_room_vnum": 3457
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see unfathomable blackness to the south ...",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3458 to 3472",
+            "to_room": null,
+            "to_room_vnum": 3472
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3458 to 3459",
+            "to_room": null,
+            "to_room_vnum": 3459
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3458,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3459 to 3458",
+            "to_room": null,
+            "to_room_vnum": 3458
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see something's den.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3459 to 3460",
+            "to_room": null,
+            "to_room_vnum": 3460
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3459,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Your mind whirls in the hideous madness of this place.  The stench\nis horrendous and dead bodies, sucked of life, lay all over.  One coffin\nlies in the center of the room ... waiting for YOU!",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3460 to 3459",
+            "to_room": null,
+            "to_room_vnum": 3459
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A jet black coffin ... who knows what lurks beneath.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3419,
+            "key_vnum": null,
+            "keyword": "coffin",
+            "name": "Exit coffin 3460 to 3475",
+            "to_room": null,
+            "to_room_vnum": 3475
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Den of the Vampire",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3460,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3461 to 3462",
+            "to_room": null,
+            "to_room_vnum": 3462
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3461 to 3452",
+            "to_room": null,
+            "to_room_vnum": 3452
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3461,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3462 to 3463",
+            "to_room": null,
+            "to_room_vnum": 3463
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark too tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3462 to 3461",
+            "to_room": null,
+            "to_room_vnum": 3461
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3462,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3463 to 3462",
+            "to_room": null,
+            "to_room_vnum": 3462
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3463 to 3464",
+            "to_room": null,
+            "to_room_vnum": 3464
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3463,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Stone walls, musty air ... the earth seems to moan softly.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "There is a secret door here.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "secret",
+            "name": "Exit secret 3464 to 3470",
+            "to_room": null,
+            "to_room_vnum": 3470
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3464 to 3465",
+            "to_room": null,
+            "to_room_vnum": 3465
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3464 to 3463",
+            "to_room": null,
+            "to_room_vnum": 3463
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Catacombs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8201,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3464,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Wow!  Although this hallway is quite filthy and dusty, it is noticeably\ndifferent than the rest of the catacombs ... but you don't feel safe yet.\nThe walls faintly show ancient detailed etchings in gold and silver of\nancient rituals ... not all of which seem pleasant.  The hallway continues\nnorth into the catacombs and further south as long as you can see.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The glow of your light reflects off the walls and you see the catacombs.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3465 to 3464",
+            "to_room": null,
+            "to_room_vnum": 3464
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The glow of your light reflects off the walls ... the gilded hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3465 to 3466",
+            "to_room": null,
+            "to_room_vnum": 3466
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Beautiful yet disturbing, they urge you to move onward.",
+            "keyword": "etchings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Gilded Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3465,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3466 to 3465",
+            "to_room": null,
+            "to_room_vnum": 3465
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3466 to 3467",
+            "to_room": null,
+            "to_room_vnum": 3467
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Beautiful yet disturbing, they urge you to move onward.",
+            "keyword": "etchings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Gilded Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3466,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3467 to 3466",
+            "to_room": null,
+            "to_room_vnum": 3466
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3467 to 3468",
+            "to_room": null,
+            "to_room_vnum": 3468
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Beautiful yet disturbing, they urge you to move onward.",
+            "keyword": "etchings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Gilded Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3467,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north and south.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3468 to 3467",
+            "to_room": null,
+            "to_room_vnum": 3467
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3468 to 3469",
+            "to_room": null,
+            "to_room_vnum": 3469
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Beautiful yet disturbing, they urge you to move onward.",
+            "keyword": "etchings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Gilded Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3468,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Ancient etchings and writing in intricate gold and silver designs fill these\nwalls.  You are tempted to linger and examine them closely.  Your light source\nflickers off the walls showing you exits north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Your light reveals more of the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3469 to 3468",
+            "to_room": null,
+            "to_room_vnum": 3468
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Beautiful yet disturbing, they urge you to move onward.",
+            "keyword": "etchings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Gilded Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3469,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A secret passage!  You wonder where it may lead!",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3470 to 3471",
+            "to_room": null,
+            "to_room_vnum": 3471
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The door closed on you so softly that you didn't even notice!",
+            "keyword": "east secret door"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Secret Passageway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3470,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A secret passage!  You wonder where it may lead!",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Too dark to tell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3471 to 3470",
+            "to_room": null,
+            "to_room_vnum": 3470
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Secret Passageway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3471,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You fall ...\n            hmm .... it's getting really HOT!\nYou fall ...\n                        you fall ...\n     Slowly you are cooking as you fall further ... your skin is burning and\nyour hair evaporates ...\n\n                                           you fall ...\n\n                 and fall ...\n\n                                     and STOP...!!\n\nWelcome to HELL!\n\nBut even in Hell we give you another chance.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The fires of hell grow hotter to the north...",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  3472 to 10401",
+            "to_room": null,
+            "to_room_vnum": 10401
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Short Way to Hell ...",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3472,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Chapel",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are inside a coffin.  It seems rather cramped in here.  You can climb\nup out of the coffin, or you can wait for here the real occupant to join you.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3419,
+            "key_vnum": null,
+            "keyword": "lid coffin",
+            "name": "Exit lid coffin 3475 to 3460",
+            "to_room": null,
+            "to_room_vnum": 3460
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Inside the coffin",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 3475,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

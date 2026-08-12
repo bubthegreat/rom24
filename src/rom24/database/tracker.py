@@ -46,6 +46,7 @@ from rom24.tables import (
     position_type,
     flag_type,
     exit_flags,
+    vuln_flags,
 )
 
 
@@ -90,4 +91,5 @@ tables = [
     SaveToken("wiznet_table", wiznet_table, wiznet_type),
     SaveToken("liq_table", liq_table, liq_type),
     SaveToken("exit_flags", exit_flags, flag_type),
+    SaveToken("vuln_flags", vuln_flags, flag_type),
 ]

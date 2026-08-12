@@ -1,0 +1,406 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This room is filled with bone shards and fragments.  Something (or things)\nvery big lives here.  A small plaque is on the wall.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You reach civilization again.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2801 to 6124",
+            "to_room": null,
+            "to_room_vnum": 6124
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You find the stench is stronger inside.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2801 to 2803",
+            "to_room": null,
+            "to_room_vnum": 2803
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This zone (trollden) is created by MERC for any MERC Mud.\ncopyright 1992",
+            "keyword": "plaque"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Wastedump",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2801,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This room has blood and grime all over the walls.  You see maggots and other\ninsects crawling up them.  The resident is definitely uncivilized.  Half-eaten\nand rotting body parts scatter the floor, each having its own colony of flies,\nworms, and maggots.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You welcome the fresh breeze coming from the east, but wrinkle your nose when\nthe stench bears down on you once more.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2802 to 2803",
+            "to_room": null,
+            "to_room_vnum": 2803
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "YUCK!  You find worms crawling in and out this poor unfortunate former human.",
+            "keyword": "Half-eaten body rotting corpse"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Troll's Larder",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2802,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This small cave opens to the north, south, east, and west.  You are\novercome by the stench and consider turning around.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "There is a trail of bone shards and fragments leading north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2803 to 2801",
+            "to_room": null,
+            "to_room_vnum": 2801
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Good God!  You spy corpses all over the floor in there.  It looks like a\nvirtual graveyard in there.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2803 to 2804",
+            "to_room": null,
+            "to_room_vnum": 2804
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Whoa!  You reel back from the stench.  You believe you have found the source\nof this bad smell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2803 to 2805",
+            "to_room": null,
+            "to_room_vnum": 2805
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You puke as you watch worms crawl between this room and the room west of here\nas they bore new holes into a corpse laying on the far wall of the west room.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2803 to 2802",
+            "to_room": null,
+            "to_room_vnum": 2802
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Troll's Living Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2803,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The walls are covered with blood (and body parts!?!?).  Plastered on the far\nwall you see what looks like a human arm.  A half-eaten body lies here with\nits chest ripped out.  The predator seems disinterested in it.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You welcome the fresh breeze coming from the west, but wrinkle your nose when\nthe stench bears down on you once more.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2804 to 2803",
+            "to_room": null,
+            "to_room_vnum": 2803
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This reminds you of what a baby would do to its formula during dinnertime,\nplastering it on the wall.",
+            "keyword": "arm rotting"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Playpen",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2804,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Obviously something REALLY big lives here.  The stench is quite unbearable.\nThere are piles and piles of rotten and half-eaten body parts of animals,\norcs, (and humans?) strewn across the floor.  There is a larger, more\nprominent pile of rotten parts over in a corner.  It seems to have been\nflattened by something.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You welcome the fresh breeze coming from the north, but wrinkle your nose when\nthe stench bears down on you once more.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2805 to 2803",
+            "to_room": null,
+            "to_room_vnum": 2803
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Troll's Bedroom",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 2805,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

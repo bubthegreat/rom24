@@ -1,0 +1,3174 @@
+[
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "*GACK!*",
+      "char_found": "Appalled, you gack at $N.",
+      "char_no_arg": "Gaaack!",
+      "char_not_found": "That person isn't here.",
+      "name": "gack",
+      "others_auto": "Appalled, $n gacks at $mself!",
+      "others_found": "$n gacks expressively, shooting $N a dismayed look.",
+      "others_no_arg": "$n gacks with dismay!",
+      "vict_found": "$n gacks, and looks your way, dismayed."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "All the lonely people :(",
+      "char_found": "You kiss $M.",
+      "char_no_arg": "Isn't there someone you want to kiss?",
+      "char_not_found": "Never around when required.",
+      "name": "kiss",
+      "others_auto": "",
+      "others_found": "$n kisses $N.",
+      "others_no_arg": null,
+      "vict_found": "$n kisses you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bounce your head like a basketball.",
+      "char_found": "You bounce onto $S lap and wiggle about.",
+      "char_no_arg": "BOIINNNNNNGG!",
+      "char_not_found": "You don't see your plaything.",
+      "name": "bounce",
+      "others_auto": "$n plays basketball with $s head.",
+      "others_found": "$n bounces onto $N's lap and wiggles about.",
+      "others_no_arg": "$n bounces around with a happy smile.",
+      "vict_found": "$n bounces onto your lap and wiggles about."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You smile at yourself.",
+      "char_found": "You smile at $M.",
+      "char_no_arg": "You smile happily.",
+      "char_not_found": "There's no one by that name around.",
+      "name": "smile",
+      "others_auto": "$n smiles at $mself.",
+      "others_found": "$n beams a smile at $N.",
+      "others_no_arg": "$n smiles happily.",
+      "vict_found": "$n smiles at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You skip and dance around by yourself.",
+      "char_found": "You lead $M to the dancefloor.",
+      "char_no_arg": "Feels silly, doesn't it?",
+      "char_not_found": "Eh, WHO?",
+      "name": "dance",
+      "others_auto": "$n skips a light Fandango.",
+      "others_found": "$n sends $N across the dancefloor.",
+      "others_no_arg": "$n dances wildly before you!",
+      "vict_found": "$n sends you across the dancefloor."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You cackle at yourself.  Now, THAT'S strange!",
+      "char_found": "You cackle gleefully at $N",
+      "char_no_arg": "You cackle gleefully.",
+      "char_not_found": "You can't find a friend to cackle with.",
+      "name": "cackle",
+      "others_auto": "$n is really crazy now!  $e cackles at $mself.",
+      "others_found": "$n cackles gleefully at $N.",
+      "others_no_arg": "$n throws back $s head and cackles with insane glee!",
+      "vict_found": "$n cackles gleefully at you.  Better keep your distance from $m."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You laugh at yourself.  I would, too.",
+      "char_found": "You laugh at $N mercilessly.",
+      "char_no_arg": "You fall down laughing.",
+      "char_not_found": "You can't find the butt of your joke.",
+      "name": "laugh",
+      "others_auto": "$n laughs at $mself.  Let's all join in!!!",
+      "others_found": "$n laughs at $N mercilessly.",
+      "others_no_arg": "$n falls down laughing.",
+      "vict_found": "$n laughs at you mercilessly.  Hmmmmph."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You giggle at yourself, which makes you giggle at yourself, which makes you ...",
+      "char_found": "You giggle in $S presence.",
+      "char_no_arg": "You giggle.",
+      "char_not_found": "You giggle by yourself, since you can't find a partner to giggle with.",
+      "name": "giggle",
+      "others_auto": "$n giggles at $mself.  $e must be nervous or something.",
+      "others_found": "$n giggles at $N's actions.",
+      "others_no_arg": "$n giggles.",
+      "vict_found": "$n giggles at you.  Hope it's not contagious!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You are shaken by yourself.",
+      "char_found": "You shake $S hand.",
+      "char_no_arg": "You shake your head.",
+      "char_not_found": "Sorry good buddy, but that person doesn't seem to be here.",
+      "name": "shake",
+      "others_auto": "$n shakes and quivers like a bowl full of jelly.",
+      "others_found": "$n shakes $N's hand.",
+      "others_no_arg": "$n shakes $s head.",
+      "vict_found": "$n shakes your hand."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You puke on yourself.",
+      "char_found": "You puke on $M.",
+      "char_no_arg": "You puke...chunks everywhere!!! YUK!",
+      "char_not_found": "Once again?",
+      "name": "puke",
+      "others_auto": "$n pukes on $s clothes.",
+      "others_found": "$n pukes on $N.",
+      "others_no_arg": "$n pukes.",
+      "vict_found": "$n spews vomit and pukes all over your clothing!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You growl at yourself.  Boy, do you feel bitter!",
+      "char_found": "Grrrrrrrrrr....take that, $N!!!",
+      "char_no_arg": "Grrrrrrrrrr...",
+      "char_not_found": "No one can see you growl that far.",
+      "name": "growl",
+      "others_auto": "$n growls at $mself.  This could get interesting...",
+      "others_found": "$n growls at $N.  Better leave the room before the fighting starts.",
+      "others_no_arg": "$n growls.",
+      "vict_found": "$n growls at you.  Hey, two can play it that way!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You scream at yourself.  Yes, that's ONE way of relieving tension!",
+      "char_found": "ARRRRRRRRRRGH!!!!!  Yes, it MUST have been $S fault!!!",
+      "char_no_arg": "ARRRRRRRRRRGH!!!!!",
+      "char_not_found": "Your lungs can't reach that far!",
+      "name": "scream",
+      "others_auto": "$n screams loudly at $mself!  Is there a full moon up?",
+      "others_found": "$n screams loudly at $N.  Better leave before $n blames you, too!!!",
+      "others_no_arg": "$n screams loudly!",
+      "vict_found": "$n screams at you!  That's not nice!  *sniff*"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You make a vain attempt to comfort yourself.",
+      "char_found": "You comfort $M.",
+      "char_no_arg": "Do you feel uncomfortable?",
+      "char_not_found": "Comfort who?",
+      "name": "comfort",
+      "others_auto": "$n has no one to comfort $m but $mself",
+      "others_found": "$n comforts $N.",
+      "others_no_arg": null,
+      "vict_found": "$n comforts you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You sigh at yourself.  You MUST be lonely.",
+      "char_found": "You sigh as you think of $M.",
+      "char_no_arg": "You sigh.",
+      "char_not_found": "You really sigh, since you don't see your friend.",
+      "name": "sigh",
+      "others_auto": "$n sighs at $mself.  What a sorry sight.",
+      "others_found": "$n sighs at the sight of $N.",
+      "others_no_arg": "$n sighs.",
+      "vict_found": "$n sighs as $e thinks of you.  Touching, huh?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You sulk.",
+      "char_not_found": "",
+      "name": "sulk",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n sulks in the corner.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You hug yourself.",
+      "char_found": "You hug $M.",
+      "char_no_arg": "Hug who?",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "hug",
+      "others_auto": "$n hugs $mself in a vain attempt to get friendship.",
+      "others_found": "$n hugs $N.",
+      "others_no_arg": null,
+      "vict_found": "$n hugs you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You snuggle up, getting ready to sleep.",
+      "char_found": "You snuggle $M.",
+      "char_no_arg": "Who?",
+      "char_not_found": "They aren't here.",
+      "name": "snuggle",
+      "others_auto": "$n snuggles up, getting ready to sleep.",
+      "others_found": "$n snuggles up to $N.",
+      "others_no_arg": null,
+      "vict_found": "$n snuggles up to you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You must feel very cuddly indeed ... :)",
+      "char_found": "You cuddle $M.",
+      "char_no_arg": "Who do you feel like cuddling today?",
+      "char_not_found": "They aren't here.",
+      "name": "cuddle",
+      "others_auto": "$n cuddles up to $s shadow.  What a sorry sight.",
+      "others_found": "$n cuddles $N.",
+      "others_no_arg": null,
+      "vict_found": "$n cuddles you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "I'm sorry, friend, but that's impossible.",
+      "char_found": "You nuzzle $S neck softly.",
+      "char_no_arg": "Nuzzle who??",
+      "char_not_found": "No.. they aren't here..",
+      "name": "nuzzle",
+      "others_auto": "",
+      "others_found": "$n softly nuzzles $N's neck.",
+      "others_no_arg": null,
+      "vict_found": "$n softly nuzzles your neck."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You cry to yourself.",
+      "char_found": "You cry on $S shoulder.",
+      "char_no_arg": "Waaaaah..",
+      "char_not_found": "Who's that?",
+      "name": "cry",
+      "others_auto": "$n sobs quietly to $mself.",
+      "others_found": "$n cries on $N's shoulder.",
+      "others_no_arg": "$n bursts into tears.",
+      "vict_found": "$n cries on your shoulder."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You poke yourself in the ribs, feeling very silly.",
+      "char_found": "You poke $M in the ribs.",
+      "char_no_arg": "Poke who??",
+      "char_not_found": "You can't poke someone who's not here!.",
+      "name": "poke",
+      "others_auto": "$n pokes $mself in the ribs, looking very sheepish.",
+      "others_found": "$n pokes $N in the ribs.",
+      "others_no_arg": null,
+      "vict_found": "$n pokes you in the ribs."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You accuse yourself.",
+      "char_found": "You look accusingly at $M.",
+      "char_no_arg": "Accuse who??",
+      "char_not_found": "Accuse somebody who's not even there ??",
+      "name": "accuse",
+      "others_auto": "$n seems to have a bad conscience.",
+      "others_found": "$n looks accusingly at $N.",
+      "others_no_arg": "$n is in an accusing mood.",
+      "vict_found": "$n looks accusingly at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You grin at youself.  You must be getting very bad thoughts.",
+      "char_found": "You grin evilly at $M.",
+      "char_no_arg": "You grin evilly.",
+      "char_not_found": "You must be delirious.",
+      "name": "grin",
+      "others_auto": "$n grins at $mself.  You must wonder what's in $s mind.",
+      "others_found": "$n grins evilly at $N.",
+      "others_no_arg": "$n grins evilly.",
+      "vict_found": "$n grins evilly at you.  Hmmm.  Better keep your distance."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You kiss your toes.",
+      "char_found": "You bow before $M.",
+      "char_no_arg": "You bow deeply.",
+      "char_not_found": "Who's that?",
+      "name": "bow",
+      "others_auto": "$n folds up like a jacknife and kisses $s own toes.",
+      "others_found": "$n bows before $N.",
+      "others_no_arg": "$n bows deeply.",
+      "vict_found": "$n bows before you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You applaud at yourself.  Boy, are we conceited!",
+      "char_found": "You clap at $N's actions.",
+      "char_no_arg": "Clap, clap, clap.",
+      "char_not_found": "You give your imaginary round of applause to your imaginary friend.",
+      "name": "applaud",
+      "others_auto": "$n applauds at $mself.  Boy, are we conceited!",
+      "others_found": "$n claps at $N's actions.",
+      "others_no_arg": "$n gives a round of applause.",
+      "vict_found": "$n gives you a round of applause.  You MUST'VE done something good!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You blush at your own folly.",
+      "char_found": "You get all flustered up seeing $M.",
+      "char_no_arg": "Your cheeks are burning.",
+      "char_not_found": "You blush as you notice that person isn't here.",
+      "name": "blush",
+      "others_auto": "$n blushes as $e notices $s boo-boo.",
+      "others_found": "$n blushes as $e sees $N here.",
+      "others_no_arg": "$n blushes.",
+      "vict_found": "$n blushes as $e sees you here.  Such an effect on people!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You burp at yourself.",
+      "char_found": "You burp loudly to $M in response.",
+      "char_no_arg": "You burp loudly.",
+      "char_not_found": "You can't find your victim.",
+      "name": "burp",
+      "others_auto": "$n burps at $mself.  What a sick sight.",
+      "others_found": "$n burps loudly in response to $N's remark.",
+      "others_no_arg": "$n burps loudly.",
+      "vict_found": "$n burps loudly in response to your remark."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You chuckle at your own joke, since no one else would.",
+      "char_found": "You chuckle at $S joke.",
+      "char_no_arg": "You chuckle politely.",
+      "char_not_found": "You can't find a friend to chuckle with.",
+      "name": "chuckle",
+      "others_auto": "$n chuckles at $s own joke, since none of you would.",
+      "others_found": "$n chuckles at $N's joke.",
+      "others_no_arg": "$n chuckles politely.",
+      "vict_found": "$n chuckles at your joke."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You clap at your own performance.",
+      "char_found": "You clap at $S performance.",
+      "char_no_arg": "You clap your hands together.",
+      "char_not_found": "You clap for nothing.",
+      "name": "clap",
+      "others_auto": "$n claps at $s own performance.",
+      "others_found": "$n claps at $N's performance.",
+      "others_no_arg": "$n shows $s approval by clapping $s hands together.",
+      "vict_found": "$n claps at your performance."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Yuck, try to cover your mouth next time!",
+      "char_not_found": "",
+      "name": "cough",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n coughs loudly.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You curtsey to your audience (yourself).",
+      "char_found": "You curtsey to $M.",
+      "char_no_arg": "You curtsey to your audience.",
+      "char_not_found": "You curtsey to no one in particular.",
+      "name": "curtsey",
+      "others_auto": "$n curtseys to $mself, since no one is paying attention to $m.",
+      "others_found": "$n curtseys gracefully to $N.",
+      "others_no_arg": "$n curtseys gracefully.",
+      "vict_found": "$n curtseys gracefully for you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You fart at yourself.  You deserve it.",
+      "char_found": "You fart at $M.  Boy, you are sick.",
+      "char_no_arg": "Where are your manners ?",
+      "char_not_found": "You can't hold it that long!",
+      "name": "fart",
+      "others_auto": "$n farts at $mself.  Better $m than you.",
+      "others_found": "$n farts in the direction of $N.  Better flee before $e turns to you!",
+      "others_no_arg": "$n lets off a real rip-roarer ... a greenish cloud envelops $n!",
+      "vict_found": "$n farts in your direction.  You gasp for air."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You tumble all over the room.",
+      "char_found": "You flip $M over your shoulder.",
+      "char_no_arg": "You flip head over heels.",
+      "char_not_found": "You can't find the person.",
+      "name": "flip",
+      "others_auto": "$n does some nice tumbling and gymnastics.",
+      "others_found": "$n flips $N over $s shoulder.",
+      "others_no_arg": "$n flips head over heels.",
+      "vict_found": "$n flips you over $s shoulder.  Hmmmm."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You fondly fondle yourself, feels funny doesn't it?",
+      "char_found": "You fondly fondle $M.",
+      "char_no_arg": "Who needs to be fondled ?",
+      "char_not_found": "You fondly try to fondle someone not in the room, but who cares.",
+      "name": "fondle",
+      "others_auto": "$n fondly fondles $mself - this is going too far!!",
+      "others_found": "$n fondly fondles $N.",
+      "others_no_arg": null,
+      "vict_found": "$n fondly fondles you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You frown at yourself.  Poor baby.",
+      "char_found": "You frown at what $E did.",
+      "char_no_arg": "You frown disapprovingly.",
+      "char_not_found": "You don't see any reason to frown.",
+      "name": "frown",
+      "others_auto": "$n frowns at $mself.  What a sad puppy....",
+      "others_found": "$n frowns at what $N did.",
+      "others_no_arg": "$n frowns.",
+      "vict_found": "$n frowns at what you did."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You look at yourself and gasp!",
+      "char_found": "You gasp as you realize what $E did.",
+      "char_no_arg": "You gasp in astonishment.",
+      "char_not_found": "You need to panic.",
+      "name": "gasp",
+      "others_auto": "$n takes one look at $mself and gasps in astonisment!",
+      "others_found": "$n gasps as $e realizes what $N did.",
+      "others_no_arg": "$n gasps in astonishment.",
+      "vict_found": "$n gasps as $e realizes what you did."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You glare icily at your feet, they are suddenly very cold.",
+      "char_found": "You glare icily at $M.",
+      "char_no_arg": "You glare at nothing in particular.",
+      "char_not_found": "You try to glare at somebody who is not present.",
+      "name": "glare",
+      "others_auto": "$n glares at $s feet, what is bothering $m?",
+      "others_found": "$n glares at $N.",
+      "others_no_arg": "$n glares around $m.",
+      "vict_found": "$n glares icily at you, you feel cold to your bones."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You groan as you realize what you have done.",
+      "char_found": "You groan at the sight of $M.",
+      "char_no_arg": "You groan loudly.",
+      "char_not_found": "You see no reason to groan.",
+      "name": "groan",
+      "others_auto": "$n groans as $e realizes what $e has done.",
+      "others_found": "$n groans at the sight of $N.",
+      "others_no_arg": "$n groans loudly.",
+      "vict_found": "$n groans at the sight of you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You grope yourself - YUCK.",
+      "char_found": "Well, what sort of noise do you expect here?",
+      "char_no_arg": "Whom do you wish to grope ??",
+      "char_not_found": "Try someone who's here.",
+      "name": "grope",
+      "others_auto": "$n gropes $mself - YUCK.",
+      "others_found": "$n gropes $N.",
+      "others_no_arg": null,
+      "vict_found": "$n gropes you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "*HIC*",
+      "char_not_found": "",
+      "name": "hiccup",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n hiccups.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You lick your own eyebrows.",
+      "char_found": "You lick $N's jawline delicately.",
+      "char_no_arg": "You lick your mouth and smile.",
+      "char_not_found": "Lick away, nobody's here with that name.",
+      "name": "lick",
+      "others_auto": "$n licks $s own eyebrows.",
+      "others_found": "$n licks $N's jawline delicately.",
+      "others_no_arg": "$n licks $s mouth and smiles.",
+      "vict_found": "$n licks your jawline delicately."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Well, we already know you love yourself (lucky someone does !)",
+      "char_found": "You tell your true feelings to $N.",
+      "char_no_arg": "You love the whole world.",
+      "char_not_found": "Alas, your love is not present...",
+      "name": "love",
+      "others_auto": "$n loves $mself, can you believe it ?",
+      "others_found": "$n whispers softly to $N.",
+      "others_no_arg": "$n loves everybody in the world.",
+      "vict_found": "$n whispers to you sweet words of love."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You moan at yourself.",
+      "char_found": "You moan for the loss of $M.",
+      "char_no_arg": "You start to moan.",
+      "char_not_found": "You see no cause to moan.",
+      "name": "moan",
+      "others_auto": "$n makes $mself moan.",
+      "others_found": "$n moans for the loss of $N.",
+      "others_no_arg": "$n starts moaning.",
+      "vict_found": "$n moans at the sight of you.  Hmmmm."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You nibble on your OWN ear ???????????????????",
+      "char_found": "You nibble on $N's ear.",
+      "char_no_arg": "Nibble on who ?",
+      "char_not_found": "Sorry, not present.",
+      "name": "nibble",
+      "others_auto": "$n nibbles on $s OWN ear (I wonder how it is done !!).",
+      "others_found": "$n nibbles on $N's ear.",
+      "others_no_arg": null,
+      "vict_found": "$n nibbles on your ear."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Ah, don't take it so hard.",
+      "char_not_found": "",
+      "name": "pout",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n pouts.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You ruffle your hair, wondering how far you can go before the rest think you're crazy.",
+      "char_found": "You ruffle $N's hair playfully.",
+      "char_no_arg": "You've got to ruffle SOMEONE.",
+      "char_not_found": "Might be a bit difficult.",
+      "name": "ruffle",
+      "others_auto": "$n ruffles $s hair - weirdo!",
+      "others_found": "$n ruffles $N's hair playfully.",
+      "others_no_arg": null,
+      "vict_found": "$n ruffles your hair playfully."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You shiver to yourself?",
+      "char_found": "You shiver at the thought of fighting $M.",
+      "char_no_arg": "Brrrrrrrrr.",
+      "char_not_found": "You don't see any reason to shiver.",
+      "name": "shiver",
+      "others_auto": "$n scares $mself to shivers.",
+      "others_found": "$n shivers at the thought of fighting $N.",
+      "others_no_arg": "$n shivers uncomfortably.",
+      "vict_found": "$n shivers at the suicidal thought of fighting you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You shrug to yourself.",
+      "char_found": "You shrug in response to $S question.",
+      "char_no_arg": "You shrug.",
+      "char_not_found": "You shrug to no one in particular.",
+      "name": "shrug",
+      "others_auto": "$n shrugs to $mself.  What a strange person.",
+      "others_found": "$n shrugs in response to $N's question.",
+      "others_no_arg": "$n shrugs helplessly.",
+      "vict_found": "$n shrugs in response to your question."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You sing a little ditty to yourself.",
+      "char_found": "You sing a ballad to $M.",
+      "char_no_arg": "You raise your clear (?) voice towards the sky.",
+      "char_not_found": "You see no one to sing to.",
+      "name": "sing",
+      "others_auto": "$n sings a little ditty to $mself.",
+      "others_found": "$n sings a ballad to $N.",
+      "others_no_arg": "HEY CLERICS! I COULD USE A HEAL!  $n has begun to sing.",
+      "vict_found": "$n sings a ballad to you!  How sweet!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You slap yourself, silly you.",
+      "char_found": "*thwock!* You slap $N ringingly.",
+      "char_no_arg": "What is the sound of one hand slapping?",
+      "char_not_found": "How about slapping someone in the same room as you ??",
+      "name": "slap",
+      "others_auto": "$n slaps $mself, really strange ...",
+      "others_found": "*thwock!* $n slaps $N!",
+      "others_no_arg": null,
+      "vict_found": "$n slaps you stingingly."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You smirk at yourself.  Okay.....",
+      "char_found": "You smirk at $S saying.",
+      "char_no_arg": "You smirk.",
+      "char_not_found": "You want to smirk to whom?",
+      "name": "smirk",
+      "others_auto": "$n smirks at $s own 'wisdom'.",
+      "others_found": "$n smirks at $N's saying.",
+      "others_no_arg": "$n smirks.",
+      "vict_found": "$n smirks at your saying."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You snap yourself to attention.",
+      "char_found": "You snap back at $M.",
+      "char_no_arg": "Eureka!  You snap your fingers.",
+      "char_not_found": "You must be very agitated.",
+      "name": "snap",
+      "others_auto": "$n snaps $mself to attention.",
+      "others_found": "$n snaps back at $N.",
+      "others_no_arg": "$n snaps $s fingers.",
+      "vict_found": "$n snaps back at you!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Gesundheit !",
+      "char_not_found": "",
+      "name": "sneeze",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n sneezes.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You snicker at your own evil thoughts.",
+      "char_found": "You snicker with $M about your shared secret.",
+      "char_no_arg": "You snicker softly.",
+      "char_not_found": "Huh?",
+      "name": "snicker",
+      "others_auto": "$n snickers at $s own evil thoughts.",
+      "others_found": "$n snickers with $N about their shared secret.",
+      "others_no_arg": "$n snickers softly.",
+      "vict_found": "$n snickers with you about your shared secret."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You sniff sadly at your lost opportunities.",
+      "char_found": "You sniff sadly at the way $E is treating you.",
+      "char_no_arg": "You sniff sadly. *SNIFF*",
+      "char_not_found": "You see no reason to sniff.",
+      "name": "sniff",
+      "others_auto": "$n sniffs sadly at $mself.  Something MUST be bothering $m.",
+      "others_found": "$n sniffs sadly at the way $N is treating $m.",
+      "others_no_arg": "$n sniffs sadly.",
+      "vict_found": "$n sniffs sadly at the way you are treating $m."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Zzzzzzzzzzzzzzzzz.",
+      "char_not_found": "",
+      "name": "snore",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n snores loudly.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You squeeze yourself - try to relax a little!",
+      "char_found": "You squeeze $M fondly.",
+      "char_no_arg": "Where, what, how, WHO ???",
+      "char_not_found": "Where, what, how, WHO ???",
+      "name": "squeeze",
+      "others_auto": "$n squeezes $mself.",
+      "others_found": "$n squeezes $N fondly.",
+      "others_no_arg": null,
+      "vict_found": "$n squeezes you fondly."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You stare dreamily at yourself - enough narcissism for now.",
+      "char_found": "You stare dreamily at $N, completely lost in $S eyes..",
+      "char_no_arg": "You stare at the sky.",
+      "char_not_found": "You stare and stare but can't see that person anywhere...",
+      "name": "stare",
+      "others_auto": "$n stares dreamily at $mself - NARCISSIST!",
+      "others_found": "$n stares dreamily at $N.",
+      "others_no_arg": "$n stares at the sky.",
+      "vict_found": "$n stares dreamily at you, completely lost in your eyes."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You strut to yourself, lost in your own world.",
+      "char_found": "You strut to get $S attention.",
+      "char_no_arg": "Strut your stuff.",
+      "char_not_found": "You don't see an audience.",
+      "name": "strut",
+      "others_auto": "$n struts to $mself, lost in $s own world.",
+      "others_found": "$n struts, hoping to get $N's attention.",
+      "others_no_arg": "$n struts proudly.",
+      "vict_found": "$n struts, hoping to get your attention."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You thank yourself since nobody else wants to !",
+      "char_found": "You thank $N heartily.",
+      "char_no_arg": "Thank you too.",
+      "char_not_found": "No one answers to that name here.",
+      "name": "thank",
+      "others_auto": "$n thanks $mself since you won't.",
+      "others_found": "$n thanks $N heartily.",
+      "others_no_arg": null,
+      "vict_found": "$n thanks you heartily."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You twiddle your ears like Dumbo.",
+      "char_found": "You twiddle $S ears.",
+      "char_no_arg": "You patiently twiddle your thumbs.",
+      "char_not_found": "You don't see the person here.",
+      "name": "twiddle",
+      "others_auto": "$n twiddles $s own ears like Dumbo.",
+      "others_found": "$n twiddles $N's ears.",
+      "others_no_arg": "$n patiently twiddles $s thumbs.",
+      "vict_found": "$n twiddles your ears."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Are you going on adventures as well??",
+      "char_found": "You wave goodbye to $N.",
+      "char_no_arg": "You wave.",
+      "char_not_found": "They didn't wait for you to wave goodbye.",
+      "name": "wave",
+      "others_auto": "$n waves goodbye to $mself.",
+      "others_found": "$n waves goodbye to $N.",
+      "others_no_arg": "$n waves happily.",
+      "vict_found": "$n waves goodbye to you.  Have a good journey."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You whistle a little tune to yourself.",
+      "char_found": "You whistle at the sight of $M.",
+      "char_no_arg": "You whistle appreciatively.",
+      "char_not_found": "You don't see nothing special to whistle at.",
+      "name": "whistle",
+      "others_auto": "$n whistles a little tune to $mself.",
+      "others_found": "$n whistles at the sight of $N.",
+      "others_no_arg": "$n whistles appreciatively.",
+      "vict_found": "$n whistles at the sight of you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You wiggle about like a fish.",
+      "char_found": "You wiggle your bottom toward $M.",
+      "char_no_arg": "Your wiggle your bottom.",
+      "char_not_found": "You must be alone.",
+      "name": "wiggle",
+      "others_auto": "$n wiggles about like a fish.",
+      "others_found": "$n wiggles $s bottom toward $N.",
+      "others_no_arg": "$n wiggles $s bottom.",
+      "vict_found": "$n wiggles $s bottom toward you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You wink at yourself ?? - what are you up to?",
+      "char_found": "You wink suggestively at $N.",
+      "char_no_arg": "Have you got something in your eye?",
+      "char_not_found": "No one with that name is present.",
+      "name": "wink",
+      "others_auto": "$n winks at $mself - something strange is going on...",
+      "others_found": "$n winks at $N.",
+      "others_no_arg": "$n winks suggestively.",
+      "vict_found": "$n winks suggestively at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You must be tired.",
+      "char_not_found": "",
+      "name": "yawn",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n yawns.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You conjure a snowball from the thin air and throw it at yourself.",
+      "char_found": "You throw a snowball in $N's face.",
+      "char_no_arg": "Who do you want to throw a snowball at?",
+      "char_not_found": "You stand with the snowball in your hand because your victim is not here.",
+      "name": "snowball",
+      "others_auto": "$n conjures a snowball out of the thin air and throws it at $mself.",
+      "others_found": "$n conjures a snowball from the thin air and throws it at $N.",
+      "others_no_arg": null,
+      "vict_found": "$n conjures a snowball from the thin air and throws it at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You gather yourself in your arms and try to kiss yourself.",
+      "char_found": "You give $N a long and passionate kiss, it seems to last forever...",
+      "char_no_arg": "Kiss whom?",
+      "char_not_found": "Your heart is filled with despair as that person is not here.",
+      "name": "french",
+      "others_auto": "$n makes an attempt at kissing $mself.",
+      "others_found": "$n kisses $N passionately.",
+      "others_no_arg": null,
+      "vict_found": "$n gives you a long and passionate kiss, it seems to last forever..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You pull your hair, but it will not be combed.",
+      "char_found": "You patiently untangle $N's hair - what a mess !",
+      "char_no_arg": "You comb your hair - perfect.",
+      "char_not_found": "That person is not here.",
+      "name": "comb",
+      "others_auto": "$n tries to comb $s tangled hair.",
+      "others_found": "$n tries patiently to untangle $N's hair.",
+      "others_no_arg": "$n combs $s hair, what a dashing specimen !",
+      "vict_found": "$n pulls your hair in an attempt to comb it."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You practice yoga as you try to massage yourself.",
+      "char_found": "You gently massage $N's shoulders.",
+      "char_no_arg": "Massage what?  Thin air?",
+      "char_not_found": "You can only massage someone in the same room as you.",
+      "name": "massage",
+      "others_auto": "$n gives a show on yoga-positions, trying to massage $mself.",
+      "others_found": "$n massages $N's shoulders.",
+      "others_no_arg": null,
+      "vict_found": "$n gently massages your shoulders - Ahhhhhhhhhh..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You tickle yourself, how funny!",
+      "char_found": "You tickle $N.",
+      "char_no_arg": "Whom do you want to tickle?",
+      "char_not_found": "Who is that??",
+      "name": "tickle",
+      "others_auto": "$n tickles $mself.",
+      "others_found": "$n tickles $N.",
+      "others_no_arg": null,
+      "vict_found": "$n tickles you - ho ho ho."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You pat yourself on your head, very reassuring.",
+      "char_found": "You pat $N on $S head.",
+      "char_no_arg": "Pat who?",
+      "char_not_found": "Who, where, what?",
+      "name": "pat",
+      "others_auto": "$n pats $mself on the head.",
+      "others_found": "$n pats $N on $S head.",
+      "others_no_arg": null,
+      "vict_found": "$n pats you on your head."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You swear at your own mistakes.",
+      "char_found": "You swear at $M.",
+      "char_no_arg": "You swear loudly for a long time.",
+      "char_not_found": "You can't find the victim of your frustrations.",
+      "name": "curse",
+      "others_auto": "$n starts swearing at $mself.  Why don't you help?",
+      "others_found": "$n swears at $N.",
+      "others_no_arg": "$n swears : #@*\"*&^*#%@*&! !!!!!",
+      "vict_found": "$n swears at you!  Where are the manners?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Talk about narcissism...",
+      "char_found": "You crawl in the dust before $M.",
+      "char_no_arg": "You feel righteous, and maybe a little foolish.",
+      "char_not_found": "No such person around; your prayers vanish into the endless voids.",
+      "name": "pray",
+      "others_auto": "$n performs some strange yoga-exercises and mumbles a prayer to $mself.",
+      "others_found": "$n falls down and grovels in the dirt before $N.",
+      "others_no_arg": "$n begs and grovels to the powers that be.",
+      "vict_found": "$n kisses the dirt at your feet."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Begging yourself for money doesn't help.",
+      "char_found": "You desperately try to squeeze a few coins from $M.",
+      "char_no_arg": "You beg the gods for mercy.",
+      "char_not_found": "Your money-lender seems to be out for the moment.",
+      "name": "beg",
+      "others_auto": "",
+      "others_found": "$n begs you for money. You graciously let $m peep at your fortune.",
+      "others_no_arg": "The gods fall down laughing at $n's request for mercy.",
+      "vict_found": "$n begs $N for a dime or two - or twenty !"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "I beg your pardon?",
+      "char_found": "You cringe away from $M.",
+      "char_no_arg": "You cringe in terror.",
+      "char_not_found": "I don't see anyone by that name here.. what are you afraid of?",
+      "name": "cringe",
+      "others_auto": "",
+      "others_found": "$n cringes away from $N in mortal terror.",
+      "others_no_arg": "$n cringes in terror!",
+      "vict_found": "$n cringes away from you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You dream of better times.",
+      "char_not_found": "",
+      "name": "daydream",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n looks absent-minded, his eyes staring into space.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "That's right - hate yourself!",
+      "char_found": "You stare at $M, fuming.",
+      "char_no_arg": "Take it easy now! count to ten, very slowly.",
+      "char_not_found": "Fume away... they ain't here.",
+      "name": "fume",
+      "others_auto": "$n clenches $s fists and stomps his feet, fuming with anger.",
+      "others_found": "$n stares at $N, fuming with rage.",
+      "others_no_arg": "$n grits $s teeth and fumes with rage.",
+      "vict_found": "$n stares at you, fuming with rage!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "That seems a little silly to me.",
+      "char_found": "You grovel before $M",
+      "char_no_arg": "You grovel in the dirt.",
+      "char_not_found": "Who?",
+      "name": "grovel",
+      "others_auto": "",
+      "others_found": "$n grovels in the dirt before $N.",
+      "others_no_arg": "$n grovels in the dirt.",
+      "vict_found": "$n grovels in the dirt before you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You hop around like a little kid.",
+      "char_not_found": "",
+      "name": "hop",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n hops around like a little kid.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You nudge yourself, for some strange reason.",
+      "char_found": "You nudge $M.",
+      "char_no_arg": "Nudge whom?",
+      "char_not_found": "Who?",
+      "name": "nudge",
+      "others_auto": "$n nudges $mself, to keep $mself awake.",
+      "others_found": "$n nudges $N.",
+      "others_no_arg": null,
+      "vict_found": "$n nudges you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You ponder the question.",
+      "char_not_found": "",
+      "name": "ponder",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n sits down and thinks deeply.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You punch yourself.  You deserve it.",
+      "char_found": "You punch $M playfully.",
+      "char_no_arg": "Punch whom?",
+      "char_not_found": "You can't find your boxing partner.",
+      "name": "punch",
+      "others_auto": "$n punches $mself.  Why don't you join in?",
+      "others_found": "$n punches $N playfully.",
+      "others_no_arg": null,
+      "vict_found": "$n punches you playfully.  OUCH!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You snarl at yourself.",
+      "char_found": "You snarl at $M.",
+      "char_no_arg": "You grizzle your teeth and look mean.",
+      "char_not_found": "No need to snarl!",
+      "name": "snarl",
+      "others_auto": "$n snarls at $mself.",
+      "others_found": "$n snarls at $N.",
+      "others_no_arg": "$n snarls angrily.",
+      "vict_found": "$n snarls at you, for some reason."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You spank yourself....HMMMMMMM...",
+      "char_found": "You spank $M playfully.",
+      "char_no_arg": "Spank whom?",
+      "char_not_found": "Your hand can't find your victim!",
+      "name": "spank",
+      "others_auto": "$n spanks $mself....HMMMMMMM...",
+      "others_found": "$n spanks $N playfully.",
+      "others_no_arg": null,
+      "vict_found": "$n spanks you playfully.  OUCH!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You kiss your own hand.",
+      "char_found": "You kiss $S hand.",
+      "char_no_arg": "Kiss whose hand?",
+      "char_not_found": "You can't find a lady in THIS group.",
+      "name": "hand",
+      "others_auto": "$n kisses $s own hand.",
+      "others_found": "$n kisses $N's hand.  How continental!",
+      "others_no_arg": null,
+      "vict_found": "$n kisses your hand.  How continental!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Well, it's up to you if you want to damage your hearing.",
+      "char_found": "$N covers $S ears as you begin to yodel.",
+      "char_no_arg": "You think of Julie Andrews and start to yodel.",
+      "char_not_found": "That person just escaped!",
+      "name": "yodel",
+      "others_auto": "$n yodels to $mself.  What a sado-masochist.",
+      "others_found": "$n yodels to $N.",
+      "others_no_arg": "$n begins to yodel:  HEY!! CLERICS!! I COULD USE A HEAL!!!",
+      "vict_found": "$n yodels to you...you cringe and turn away."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You faint into $S arms.",
+      "char_no_arg": "You faint.",
+      "char_not_found": "You fall on the floor and look stupid--really suave.",
+      "name": "faint",
+      "others_auto": "",
+      "others_found": "$n faints into $N's open arms.",
+      "others_no_arg": "$n faints.",
+      "vict_found": "$n just fainted into YOUR arms."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You pinch yourself to see if you are dreaming!",
+      "char_found": "You squeeze $S bottom and grin.",
+      "char_no_arg": "You say, 'A pinch of this, and a dab of that.'",
+      "char_not_found": "You'd like to, wouldn't you?",
+      "name": "pinch",
+      "others_auto": "$n pinches $mself to see if $e is dreaming!",
+      "others_found": "$n pinches $N's bottom and grins.",
+      "others_no_arg": "$n says, 'A pinch of this and a dab of that.'",
+      "vict_found": "$n pinches your bottom and grins."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You are about to do something you'd rather not be caught doing.",
+      "char_found": "You gently stroke $S inner thigh.  $N inhales sharply.",
+      "char_no_arg": "You stroke the air vaguely.",
+      "char_not_found": "Maybe you should practice on yourself first.",
+      "name": "stroke",
+      "others_auto": "",
+      "others_found": "$N exhales sharply and suddenly.",
+      "others_no_arg": "$n makes vague stroking motions.",
+      "vict_found": "$n gently strokes your inner thigh.  You inhale sharply."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You might as well apologize because $E sure as hell won't.",
+      "char_no_arg": "You apologize until you are blue in the face.",
+      "char_not_found": "Who's that?",
+      "name": "apologize",
+      "others_auto": "",
+      "others_found": "$n apologizes to $N with a very sincere look on $s face.",
+      "others_no_arg": "$n apologizes profusely.",
+      "vict_found": "$n apologizes to you and begs for forgiveness."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You tenderly caress $M.",
+      "char_no_arg": "Who do you wish to caress?",
+      "char_not_found": "You're S.O.L., buddy.",
+      "name": "caress",
+      "others_auto": "",
+      "others_found": "$n tenderly caresses $N.",
+      "others_no_arg": "$n looks for someone to caress.",
+      "vict_found": "$n tenderly caresses your body."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You stagger toward $N as the room begins to spin.",
+      "char_no_arg": "You stagger blindly around the room.",
+      "char_not_found": "Stagger into whom!?!?",
+      "name": "stagger",
+      "others_auto": "",
+      "others_found": "$n staggers into $N.",
+      "others_no_arg": "$n staggers blindly around the room.",
+      "vict_found": "$n staggers blindly into you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You snort derisively at yourself.",
+      "char_found": "You snort derisively at $N.",
+      "char_no_arg": "You snort derisively.",
+      "char_not_found": "Snort at whom?",
+      "name": "snort",
+      "others_auto": "$n snorts derisively at $sself.",
+      "others_found": "$n snorts derisively at $N.",
+      "others_no_arg": "$n snorts derisively.",
+      "vict_found": "$n snorts at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You slobber on $N.",
+      "char_no_arg": "You slobber down your front.",
+      "char_not_found": "Slobber on WHOM?",
+      "name": "slobber",
+      "others_auto": "",
+      "others_found": "$n slobbers on $N  **Yuck**",
+      "others_no_arg": "$n slobbers all over $mself.",
+      "vict_found": "$n slobbers disgustingly on you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You try to convince yourself of your innocence.",
+      "char_found": "You blink innocently at $N.",
+      "char_no_arg": "You bat your eyelashes.",
+      "char_not_found": "Feign innocence for whom?",
+      "name": "blink",
+      "others_auto": "",
+      "others_found": "$n blinks innocently at $N.",
+      "others_no_arg": "$n blinks innocently.",
+      "vict_found": "$n blinks innocently at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You tease yourself. NYAH NYAH NYAH.",
+      "char_found": "You tease $N in a playful way.",
+      "char_no_arg": "What a tease.   SHEESH.",
+      "char_not_found": "Tease whom?",
+      "name": "tease",
+      "others_auto": "$n teases $mself.",
+      "others_found": "$n sticks $s tongue out at $N.",
+      "others_no_arg": "$n looks around for someone to tease.",
+      "vict_found": "$n sticks $s tongue out at you, what a DORK!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "What ARE you thinking !?!??!?!?!?!",
+      "char_found": "You knee $M hard in the groin.",
+      "char_no_arg": "You raise one knee, preparing to do justice...",
+      "char_not_found": "Whom do you wish to render impotent?",
+      "name": "knee",
+      "others_auto": "",
+      "others_found": "$N doubles over in pain as $n knees $M in the groin!",
+      "others_no_arg": "$n cocks one knee threateningly.",
+      "vict_found": "$n suddenly knees you in the groin!  You fall to your knees in agony."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You flirt with yourself -- what ARE you trying to gain!?!?!?",
+      "char_found": "You flirt with $N trying to get $S attention.",
+      "char_no_arg": "You flirt outrageously.",
+      "char_not_found": "Sorry no one here to flirt with. :(",
+      "name": "flirt",
+      "others_auto": "$n flirts with $mself, wonder what $e is trying to accomplish?",
+      "others_found": "$n flirts with $N, hmmm wonder what $e wants? *wink*",
+      "others_no_arg": "$n is an outrageous flirt.",
+      "vict_found": "$n flirts with you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You tip your hat to $N.",
+      "char_no_arg": "You tip your hat gallantly.",
+      "char_not_found": "But there is no one here to impress?!?!",
+      "name": "tip",
+      "others_auto": "",
+      "others_found": "$n gallantly tips $s hat to $N.",
+      "others_no_arg": "$n gallantly tips $s hat.",
+      "vict_found": "$n gallantly tips $s hat to you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Oh, please! You aren't THAT great...",
+      "char_found": "You have lust after $N.",
+      "char_no_arg": "Your hormones begin to rage.",
+      "char_not_found": "Whom are you trying to lust after?",
+      "name": "lust",
+      "others_auto": "$n lusts after $mself, lonely eh?",
+      "others_found": "$n looks lustily at $N.",
+      "others_no_arg": "$n has that look of lust in $s eyes --- Get away QUICK!",
+      "vict_found": "$n lusts after your delectable body."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You flutter your eyelashes at $N, trying to be seductive.",
+      "char_no_arg": "You flutter your eyelashes seductively.",
+      "char_not_found": "EH? Can't see them here.",
+      "name": "flutter",
+      "others_auto": "",
+      "others_found": "$n flirts with $N, flutters $s eyelashes at $M.",
+      "others_no_arg": "$n flutters $s eyelashes seductively.",
+      "vict_found": "$n flutters $s eyelashes at you coyly."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bark at yourself and jump back in fear.",
+      "char_found": "You bark at $N scaring $M silly -- SHAME ON YOU!!",
+      "char_no_arg": "You bark loudly.",
+      "char_not_found": "Bark at whom?",
+      "name": "bark",
+      "others_auto": "$n barks at $mself and cowers in fear.",
+      "others_found": "$n barks at $N scaring $M senseless.",
+      "others_no_arg": "$n barks like a dog. GO DAWGS SIC 'EM!!! WOOF! WOOF! WOOF! WOOF!",
+      "vict_found": "$n barks loudly at you, you back away, because $e might bite too!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You howl soulfully at $N.",
+      "char_no_arg": "You howl at the moon.",
+      "char_not_found": "Who? What? Where?",
+      "name": "howl",
+      "others_auto": "",
+      "others_found": "$n howls at $N.",
+      "others_no_arg": "$n howls at the moon.",
+      "vict_found": "$n howls soulfully at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You babble on and on to yourself, FINALLY! someone who LISTENS!!",
+      "char_found": "You babble to $N for hours on end.",
+      "char_no_arg": "You babble endlessly.",
+      "char_not_found": "Whom do you wish to annoy with your babble?",
+      "name": "babble",
+      "others_auto": "$n babbles quietly to $mself.",
+      "others_found": "$n babbles to $N for what seems an eternity, how can $N stand it?",
+      "others_no_arg": "$n babbles endlessly, won't $e EVER shut up?",
+      "vict_found": "$n babbles at you. You nod mechanically, hoping $e will shut up soon."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You ramble on to $N about your past adventures.",
+      "char_no_arg": "You ramble on and on.",
+      "char_not_found": "??EH??",
+      "name": "ramble",
+      "others_auto": "",
+      "others_found": "$n blithers on and on to $N about something.",
+      "others_no_arg": "$n rambles on about a boring exploit.",
+      "vict_found": "$n tells you a rather boring tale, you feign interest."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You realize you are loud and obnoxious and try to silence yourself.",
+      "char_found": "You nicely ask $N to be more quiet.",
+      "char_no_arg": "SHHHHHHHHHHHHHHHHHHHHHH",
+      "char_not_found": "Who needs to be silenced?",
+      "name": "hush",
+      "others_auto": "$n covers $s mouth in an attempt to silence $mself.",
+      "others_found": "$n nicely asks $N to be more quiet.",
+      "others_no_arg": "$n requests everyone quiet down.  Shhhhhhhhhhh...",
+      "vict_found": "$n kindly requests that you please quiet down."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You stand tall as you threaten $N.",
+      "char_no_arg": "You threaten everyone with your overwhelming presence.",
+      "char_not_found": "Whom do you wish to intimidate?",
+      "name": "threaten",
+      "others_auto": "",
+      "others_found": "$n threatens $N forcefully.",
+      "others_no_arg": "You feel threatened in the presence of the great $n.",
+      "vict_found": "$n threatens you...oooooooh scary *laugh*"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "At whom do you wish to roll your eyes?",
+      "char_found": "You look at $N and roll your eyes in disgust.",
+      "char_no_arg": "You roll your eyes in disgust.",
+      "char_not_found": "You should be disgusted with yourself because you look so foolish.",
+      "name": "roll",
+      "others_auto": "",
+      "others_found": "$n rolls $s eyes in disgust at $N.",
+      "others_no_arg": "$n rolls $s eyes, disgusted.",
+      "vict_found": "$n rolls $s eyes at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You look at $N and swoon in ecstasy.",
+      "char_no_arg": "You swoon.",
+      "char_not_found": "Who?",
+      "name": "swoon",
+      "others_auto": "",
+      "others_found": "$n looks at $N and swoons in ecstasy.",
+      "others_no_arg": "$n swoons in absolute ecstasy.",
+      "vict_found": "$n looks at you and swoons in ecstasy."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You shoot a bird at $N.",
+      "char_no_arg": "You flick a bird...How obscene!",
+      "char_not_found": "Don't you hate to waste a good obscene gesture like that?",
+      "name": "bird",
+      "others_auto": "",
+      "others_found": "$n gives $N the bird.",
+      "others_no_arg": "$n flicks a bird at no one in particular.",
+      "vict_found": "$n gives you the bird...What an ass!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You raise your eyebrow at $N.",
+      "char_no_arg": "You raise an eyebrow at the notion.",
+      "char_not_found": "Forget it.  They aren't here.",
+      "name": "eyebrow",
+      "others_auto": "",
+      "others_found": "$n raises an eyebrow at $N's weird actions.",
+      "others_no_arg": "$n raises an eyebrow.",
+      "vict_found": "$n raises an eyebrow at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You sing a loud serenade to yourself.  What type of person are you?!",
+      "char_found": "You raise your voice in a loving serenade to $N.",
+      "char_no_arg": "You raise your voice in a loud serenade to your invisible love.",
+      "char_not_found": "The one that you wish to serenade has left you to sing to yourself.",
+      "name": "serenade",
+      "others_auto": "$n serenades $mself.  What an ego!",
+      "others_found": "$n raises $s voice in a loving serenade to $N.",
+      "others_no_arg": "$n raises $s voice to serenade the world.",
+      "vict_found": "$n serenades you, you are swept away by $s voice."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You grimace painfully at your thoughts.",
+      "char_found": "You grimace at $N.",
+      "char_no_arg": "You grimace painfully at the thought.",
+      "char_not_found": "You grimace at no one in particular.",
+      "name": "grimace",
+      "others_auto": "$n grimaces painfully to $mself.",
+      "others_found": "$n grimaces at $n.",
+      "others_no_arg": "$n grimaces painfully at the thought.",
+      "vict_found": "$n grimaces at you.  What could be wrong?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You boggle at yourself.  Hmmm...intriguing.",
+      "char_found": "You boggle at $N.",
+      "char_no_arg": "You boggle at the concept.",
+      "char_not_found": "Boggle away.  They've left.",
+      "name": "boggle",
+      "others_auto": "$n boggles quietly to $mself.",
+      "others_found": "$n boggles at $N.",
+      "others_no_arg": "$n boggles at the concept.",
+      "vict_found": "$n boggles at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You beckon to your shadow to follow.",
+      "char_found": "You beckon for $N to follow -- sure hope they do!",
+      "char_no_arg": "You beckon for everyone to follow.",
+      "char_not_found": "So sorry, that person has already left.",
+      "name": "beckon",
+      "others_auto": "$n beckons to $s shadow to follow.",
+      "others_found": "$n beckons $N to follow...hmmm what's going on?",
+      "others_no_arg": "$n beckons for everyone to follow.",
+      "vict_found": "$n beckons for you to follow."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You wonder about yourself and your purpose here.",
+      "char_found": "You look at $N and wonder what will happen.",
+      "char_no_arg": "You wonder about how things could have been.",
+      "char_not_found": "You wonder what would have happened had they been here.",
+      "name": "wonder",
+      "others_auto": "A blank stare crosses $n's face.  What could $e be wondering about?",
+      "others_found": "$n looks at $N and wonders....",
+      "others_no_arg": "$n gets a blank stare on $s face.  What could $e be wondering about?",
+      "vict_found": "$n looks at you quizzically."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You worry about what's going to happen.",
+      "char_found": "You look at $N worriedly.",
+      "char_no_arg": "You worry about what's going to happen.",
+      "char_not_found": "Well they obviously aren't worried -- they left!",
+      "name": "worry",
+      "others_auto": "A troubled look suddenly crosses $n's face.  Wonder what's wrong?",
+      "others_found": "$n looks at $N with a troubled gaze.",
+      "others_no_arg": "A troubled look suddenly crosses $n's face.  Wonder what's wrong?",
+      "vict_found": "$n looks at you worriedly."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You drool down the front of your shirt.",
+      "char_found": "You drool messily on $N.",
+      "char_no_arg": "You drool down the front of your shirt.",
+      "char_not_found": "Oh fine, make a pool of slobber -- they aren't even here!",
+      "name": "drool",
+      "others_auto": "$n drools all over $mself -- making a TERRIBLE mess!",
+      "others_found": "$n drools upon $N.",
+      "others_no_arg": "$n drools all over $mself -- making a TERRIBLE mess!",
+      "vict_found": "$n looks at you lustily and drools."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You attempt to nod at yourself and get dizzy instead.",
+      "char_found": "You nod at $N.",
+      "char_no_arg": "You nod.",
+      "char_not_found": "Nod your head off -- they aren't here.",
+      "name": "nod",
+      "others_auto": "$n nods quietly to $mself.  What a wacko.",
+      "others_found": "$n nods at $N.",
+      "others_no_arg": "$n nods.",
+      "vict_found": "$n nods at you in agreement."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You purr quietly to yourself.",
+      "char_found": "You rub up against $N and purr contentedly.",
+      "char_no_arg": "MMMMMMEEEEEEEEEOOOOOOOOOOOOOWWWWWWWWWWW!!!!!!!!!!!",
+      "char_not_found": "You silly cat!  They aren't here.",
+      "name": "purr",
+      "others_auto": "$n purrs contentedly to $mself.",
+      "others_found": "$n rubs against $N and purrs contentedly.",
+      "others_no_arg": "$n purrs contentedly.",
+      "vict_found": "$n rubs up against you and purrs contentedly."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You point at yourself, obviously very confused.",
+      "char_found": "You point at $N.",
+      "char_no_arg": "You point in every direction.",
+      "char_not_found": "You point at no one in particular.",
+      "name": "point",
+      "others_auto": "$n points at $mself, obviously very confused.",
+      "others_found": "$n points excitedly at $N!",
+      "others_no_arg": "$n points excitedly!",
+      "vict_found": "$n points at you.  How rude!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You rub yourself...lingering a little too long in some places.",
+      "char_found": "You give $N a nice, long, kinky rubdown.",
+      "char_no_arg": "You rub your hands together in greedy anticipation.",
+      "char_not_found": "Shame to waste those talented hands, but they've already left.",
+      "name": "rub",
+      "others_auto": "$n rubs $mself...what a creep!",
+      "others_found": "$n gives $N a nice long rubdown.",
+      "others_no_arg": "$n rubs $s hands together in greedy anticipation.",
+      "vict_found": "$n gives you a rubdown, running $s hands over your tense shoulders...Mmmm..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bleed all over yourself.",
+      "char_found": "You bleed on $N -- ewww!",
+      "char_no_arg": "You bleed profusely -- making a horrible mess!",
+      "char_not_found": "Bleed on whom?",
+      "name": "bleed",
+      "others_auto": "$n bleeds profusely all over $mself.",
+      "others_found": "$n bleeds on $N.  Watch out, YOU might be next!",
+      "others_no_arg": "$n weakly bleeds all over the floor.",
+      "vict_found": "$n bleeds on you -- ewww!  Get away!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You try to give yourself a high five.  What ARE you thinking?",
+      "char_found": "You jump in the air and give a BIG high five to $N!",
+      "char_no_arg": "You jump in the air and give a BIG high five to...umm...absolutely nothing.",
+      "char_not_found": "Sorry, they have already left.",
+      "name": "highfive",
+      "others_auto": "$n tries to high five $mself, but ends up looking foolish instead.",
+      "others_found": "$n enthusiastically high-five's $N!",
+      "others_no_arg": "$n wildly high fives the air, looking very foolish -- very foolish indeed.",
+      "vict_found": "$n gives you a BIG high five!  Way to go!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You are SO full of yourself!",
+      "char_found": "You kneel and romantically propose to $N.",
+      "char_no_arg": "You propose to everyone in the room.",
+      "char_not_found": "You must be lonely.  They aren't here.",
+      "name": "propose",
+      "others_auto": "$n proposes to $mself -- how narcissistic!",
+      "others_found": "$n gets on one knee and proposes to $N.",
+      "others_no_arg": "$n proposes to everyone in the room.  Very odd.",
+      "vict_found": "$n gets down on one knee and romantically proposes to you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You get a little cross-eyed with your attempts to stare yourself down.",
+      "char_found": "You peer intently at $N.",
+      "char_no_arg": "You peer around yourself intently.",
+      "char_not_found": "They aren't here.",
+      "name": "peer",
+      "others_auto": "$n peers at $mself, crossing $s eyes in the process.",
+      "others_found": "$n peers intently at $N.",
+      "others_no_arg": "$n peers around $mself intently.",
+      "vict_found": "$n peers at you intently."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You worship yourself.",
+      "char_found": "You fall on your knees and worship $N.",
+      "char_no_arg": "You prostrate yourself and worship the gods!",
+      "char_not_found": "You can't worship someone who isn't here.",
+      "name": "worship",
+      "others_auto": "$n worships $mself.",
+      "others_found": "$n falls on $s knees and worships $N.",
+      "others_no_arg": "$n prostrates $mself and worships the gods!",
+      "vict_found": "$n falls to the ground and worships you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You vainly clutch yourself in a bearhug for consolation.",
+      "char_found": "You overwhelm $N with a great, big, hulking bearhug.",
+      "char_no_arg": "Whom do you wish to bearhug?",
+      "char_not_found": "Perhaps you should shower your affections on someone who is here?",
+      "name": "bearhug",
+      "others_auto": "$n hugs $mself as tightly as possible.  Looks like $e could use a hand.",
+      "others_found": "$n encompasses $N in an ENORMOUS bearhug!",
+      "others_no_arg": null,
+      "vict_found": "$n clutches you tightly in an overwhelming bearhug!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You look at $N and bat your eyelashes -- the picture of innocence!",
+      "char_no_arg": "You innocently whistle a tune.",
+      "char_not_found": "Don't even TRY -- they've already left.",
+      "name": "innocent",
+      "others_auto": "",
+      "others_found": "$n bats $s eyelashes innocently at $N.",
+      "others_no_arg": "$n looks around and whistles innocently.",
+      "vict_found": "$n looks at you and innocently bats $s eyelashes."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You collapse right into $N's arms.",
+      "char_no_arg": "You collapse on the floor from exhaustion.",
+      "char_not_found": "They've already left, just collapse on the floor.",
+      "name": "collapse",
+      "others_auto": "",
+      "others_found": "$n collapses right into $N's arms.",
+      "others_no_arg": "$n dramatically collapses to the floor from exhaustion.",
+      "vict_found": "Suddenly, $n collapses into your arms from exhaustion."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You lean back and streeeeeettch your arms and legs.",
+      "char_not_found": "",
+      "name": "stretch",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n stretches luxuriously.  Kinda makes you want to doesn't it?",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You SPAM $N mercilessly!",
+      "char_no_arg": "You mutter, 'spam' quietly to yourself again and again.",
+      "char_not_found": "Spam away -- they've left.",
+      "name": "spam",
+      "others_auto": "",
+      "others_found": "$n spams $N!",
+      "others_no_arg": "$n rests in a corner and mutters 'spam' quietly to $mself.",
+      "vict_found": "You've been SPAMMED by $n!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You boast to yourself of all your great feats!  Your own biggest fan.",
+      "char_found": "You boast to $N of all your great deeds.",
+      "char_no_arg": "You boast loudly of all your amazing accomplishments.",
+      "char_not_found": "Your ego takes a blow.  They've already left.",
+      "name": "boast",
+      "others_auto": "$n boasts to $mself -- what an ego!",
+      "others_found": "$n boasts to $N.",
+      "others_no_arg": "$n boasts loudly in a pigheaded fashion.",
+      "vict_found": "Once again, $n boasts to you, what a bloated ego!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You look at $N and squirm with delight.",
+      "char_no_arg": "You squirm uncontrollably in your consternation.",
+      "char_not_found": "",
+      "name": "squirm",
+      "others_auto": "",
+      "others_found": "$n looks at $N and squirms with delight.",
+      "others_no_arg": "$n squirms uncontrollably, suddenly looking very uncomfortable.",
+      "vict_found": "$n looks at you and squirms with delight."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You settle down into the center of your bovine Zen; the foolish world thinks you're just mooing.",
+      "char_found": "You focus all your bovine Zen on $N, and speak your thoughts.  Muh-OOOOO!",
+      "char_no_arg": "You chew your cud and moo plaintively.  Muh-OOOOO!",
+      "char_not_found": "You'd better find someone else to moo at.",
+      "name": "moo",
+      "others_auto": "$n is mooing at $mself again...  You look for an exit...",
+      "others_found": "Slowly, $n looks at $N, chews $s cud, and muh-OOOOs!",
+      "others_no_arg": "$n turns cowlike eyes on you, chews $s cud, and moos plaintively.",
+      "vict_found": "$n moos at you.  What could that possibly mean?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You try to moon yourself, but you can't see your A** that well.",
+      "char_found": "You bend over and moon $N.",
+      "char_no_arg": "You drop your drawers and moon everyone in the room!",
+      "char_not_found": "You stand, with your pants around your ankles, looking VERY silly!",
+      "name": "moon",
+      "others_auto": "$n nearly goes into convulsions while trying to moon $mself.",
+      "others_found": "$n drops $s pants and rudely moons $N!",
+      "others_no_arg": "$n drops $s pants and gives you the vertical smile!",
+      "vict_found": "$n bends over and gives you the vertical smile!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You pinch yourself on the rear, you must be desperate.",
+      "char_found": "You tenderly goose $N on the tush.",
+      "char_no_arg": "Who would you like to goose?",
+      "char_not_found": "You should go hunting for another victim, they left.",
+      "name": "goose",
+      "others_auto": "$n pinches $mself on the rear.",
+      "others_found": "$n reaches around $N's backside and gooses $M tenderly.",
+      "others_no_arg": null,
+      "vict_found": "$n gooses you tenderly!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You look at $N and wince at $S remark.",
+      "char_no_arg": "You wince in agony.",
+      "char_not_found": "",
+      "name": "wince",
+      "others_auto": "",
+      "others_found": "$n winces at $N's remark.",
+      "others_no_arg": "$n winces in agony.",
+      "vict_found": "$n winces at your remark."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You can't type for crap tonight!  You give up in frustration!",
+      "char_not_found": "",
+      "name": "type",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n throws $s hands up in disgust at $s lousy typing skills!",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Hope to see you soon!",
+      "char_not_found": "",
+      "name": "brb",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n will be right back!",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You mutter quietly to yourself.",
+      "char_found": "You mutter something to $N.",
+      "char_no_arg": "You mutter quietly to yourself.",
+      "char_not_found": "There's nothing left for you to say, they've left!",
+      "name": "mutter",
+      "others_auto": "$n mutters something quietly to $mself.",
+      "others_found": "$n looks at $N and mutters something nasty under $s breath.",
+      "others_no_arg": "$n mutters something quietly to $mself.",
+      "vict_found": "$n looks at you and mutters something nasty under $s breath."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You fall to the floor laughing at $N's remark.",
+      "char_no_arg": "You roll on the floor, laughing hysterically.",
+      "char_not_found": "",
+      "name": "rofl",
+      "others_auto": "",
+      "others_found": "$n rolls on the floor laughing at $N's antics!",
+      "others_no_arg": "$n falls to the ground and rolls around laughing hysterically.",
+      "vict_found": "$n rolls on the floor laughing at your antics!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You sob quietly to yourself because $N has hurt your feelings so badly.",
+      "char_no_arg": "You sob quietly to yourself.",
+      "char_not_found": "",
+      "name": "sob",
+      "others_auto": "",
+      "others_found": "$n sobs quietly to $mself because $N was a jerk!",
+      "others_no_arg": "$n sobs in misery.",
+      "vict_found": "You feel like a cad because you've made $n sob."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You pant lustily at $M.",
+      "char_no_arg": "You pant lustily.",
+      "char_not_found": "",
+      "name": "pant",
+      "others_auto": "",
+      "others_found": "$n looks at $N and pants lustily.",
+      "others_no_arg": "$n pants lustily.",
+      "vict_found": "$n looks at you and pants lustily..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You whine to yourself, probably the only one who will listen.",
+      "char_found": "You whine to $M, hoping desperately that at least $E will give a damn.",
+      "char_no_arg": "You whine to anyone who will listen to you.",
+      "char_not_found": "They really don't care.",
+      "name": "whine",
+      "others_auto": "$n whines to $mself.  At least $e isn't bitching to YOU.",
+      "others_found": "$n whines pathetically to $N.",
+      "others_no_arg": "$n whines pathetically to anyone who will listen.",
+      "vict_found": "$n whines pathetically to you.  What a loser!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You show off to $N, flexing your muscles proudly.",
+      "char_no_arg": "You flex your muscles proudly!",
+      "char_not_found": "",
+      "name": "flex",
+      "others_auto": "",
+      "others_found": "$n flexes $s muscles, in a vain attempt to impress $N.",
+      "others_no_arg": "$n flexes $s muscles...what a stud!?!",
+      "vict_found": "$n flexes $s muscles in a vain attempt to show off to you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You try to console yourself with a loving embrace.",
+      "char_found": "You wrap your arms around $N in a warm and loving embrace.",
+      "char_no_arg": "Who would you like to embrace?",
+      "char_not_found": "Your heart breaks as you realize you are alone.",
+      "name": "embrace",
+      "others_auto": "$n tries to console $mself by wrapping $s arms around $mself.",
+      "others_found": "$n wraps $s arms around $N in a warm and loving embrace.",
+      "others_no_arg": null,
+      "vict_found": "$n takes you in $s arms in a warm and loving embrace."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You duck defensively, anticipating the oncoming swipe from $N.",
+      "char_no_arg": "DUCK!!!!",
+      "char_not_found": "",
+      "name": "duck",
+      "others_auto": "",
+      "others_found": "$n ducks, anticipating $N's reaction.",
+      "others_no_arg": "$n ducks defensively.",
+      "vict_found": "$n ducks, please oh please don't hit $m!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bonk yourself, fool that you are.",
+      "char_found": "You bonk $N on the head for being such a moron.",
+      "char_no_arg": "***BONK!!!***",
+      "char_not_found": "***BONK*** they left...",
+      "name": "bonk",
+      "others_auto": "$n bonks $mself and grimaces in pain.",
+      "others_found": "$n bonks $N on the head for being such an UTTER moron.",
+      "others_no_arg": null,
+      "vict_found": "$n bonks you on the head for being so foolish."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You look at $N and squeal with delight!",
+      "char_no_arg": "You squeal with delight!",
+      "char_not_found": "",
+      "name": "squeal",
+      "others_auto": "",
+      "others_found": "$n squeals with delight at $N.",
+      "others_no_arg": "$n lets out a sudden squeal of delight!",
+      "vict_found": "$n looks at you and squeals with delight!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You tackle $N playfully.",
+      "char_no_arg": "You're going to tackle everyone in the room?!",
+      "char_not_found": "",
+      "name": "tackle",
+      "others_auto": "",
+      "others_found": "$n playfully tackles $N.",
+      "others_no_arg": null,
+      "vict_found": "$n brings you down in a playful tackle!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You spit on yourself, pretty nasty eh?",
+      "char_found": "You spit on $N...you're gross!",
+      "char_no_arg": "You spit in utter disgust.",
+      "char_not_found": "Your victim isn't here.",
+      "name": "spit",
+      "others_auto": "$n spits on $mself...what a sicko!",
+      "others_found": "$n spits on $N.",
+      "others_no_arg": "$n spits in utter disgust!",
+      "vict_found": "$n spits on you -- how gross!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "But you have none to give!",
+      "char_found": "$N needs to get a life!",
+      "char_no_arg": "You try to get a life, and fail.",
+      "char_not_found": "Who needs a life?",
+      "name": "life",
+      "others_auto": "$n attempts to give $mself a life, but has none to spare.",
+      "others_found": "$N needs to get a life!",
+      "others_no_arg": "$n tries to get a life, and fails.",
+      "vict_found": "You need to get a life!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Masochist!",
+      "char_found": "You mosh sadistically against $N ... you WILL be punished.",
+      "char_no_arg": "You mosh insanely around the room!",
+      "char_not_found": "Hmmm...  your victim found a new dance partner.",
+      "name": "mosh",
+      "others_auto": "$n throws $mself on the floor, grinding $mself into a bloody pulp",
+      "others_found": "$n bounces off of $N in a vain attempt to mosh... what a LOSER.",
+      "others_no_arg": "$n moshes insanely around the room!",
+      "vict_found": "$n slams into you, moshing painfully against you.  That REALLY hurts!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You can't belive what you've done...",
+      "char_found": "Don't you wish you could just crawl under a rock and die?",
+      "char_no_arg": "EEEK... You flinch in obvious pain.",
+      "char_not_found": "Relax, $E is gone.",
+      "name": "flinch",
+      "others_auto": "$n twitches violently, shocked at $s own behavior.",
+      "others_found": "$n sneaks a glance at $N and flinches.",
+      "others_no_arg": "$n flinches in obvious pain... you wonder what $e did THIS time.",
+      "vict_found": "$n flinches in response to your cold rebuke."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You play softly to yourself.",
+      "char_found": "You hope $E appreciates your (total lack of) talent.",
+      "char_no_arg": "You grab your air guitar and play for all you're worth.",
+      "char_not_found": "Awww... you have no audience!",
+      "name": "air",
+      "others_auto": "",
+      "others_found": "$n is surrounded by air groupies.",
+      "others_no_arg": "$n air-guitars like a mad man ... EXCELLENT!!!",
+      "vict_found": "$n plays a most excellent tune for you on $s most excellent air guitar."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You can't DO that.",
+      "char_found": "You gently tweak $S cheek.  Isn't $E so CUTE?",
+      "char_no_arg": "Tweak who?",
+      "char_not_found": "*Sniff*  That cheek seems to be missing.",
+      "name": "tweak",
+      "others_auto": "",
+      "others_found": "$n tweaked $N's cheek... don't they look so adorable together?",
+      "others_no_arg": null,
+      "vict_found": "$n lovingly tweaks your cheek.  It reminds you of Grandma... sniff..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You must REALLY like yourself.",
+      "char_found": "Risking a slap to the face, you give $N a peck on the cheek.",
+      "char_no_arg": "Wouldn't you like to do that to a person, or do you prefer air?",
+      "char_not_found": "I guess you scared them away...",
+      "name": "peck",
+      "others_auto": "$n tries in vain to wrap $s lips around $s cheeks.",
+      "others_found": "$n smiles and gives $N a chaste peck on the cheek.",
+      "others_no_arg": null,
+      "vict_found": "$n pecks you on the cheek, how sweet!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Your soul burns brightly then fades to nothing.",
+      "char_found": "You feel your rage explode deep in the pit of your stomach...",
+      "char_no_arg": "You feel the blood boiling in your veins!",
+      "char_not_found": "Temper Temper... they left.",
+      "name": "explode",
+      "others_auto": "$n implodes!!!  Only a grease spot remains where $e once stood.",
+      "others_found": "$n burns holes through $N with his explosive anger!",
+      "others_no_arg": "$n turns a deep red, fighting to contain $s temper...",
+      "vict_found": "$n is ANGRY with you... I'd run if I were you!!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You try to stick your tongue out at yourself... somehow, it isn't the same.",
+      "char_found": "You give $N the raspberry... and spit all over yourself.",
+      "char_no_arg": "You stick your tongue out at ... well, no one.",
+      "char_not_found": "Hang your tongue out if you like, $e isn't here.",
+      "name": "raspberry",
+      "others_auto": "",
+      "others_found": "$n gives $N the raspberry... PHBT!  What a mess... Spit EVERYWHERE!",
+      "others_no_arg": "$n sticks $s tongue out, catching a few flies in the process.",
+      "vict_found": "You are splattered with saliva as $n gives you the raspberry... HOW RUDE!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "That's sick.",
+      "char_found": "Swiftly you jerk open your jacket, trying to get $M to notice you.",
+      "char_no_arg": "You grin and strut as you open your coat and show what you've got!",
+      "char_not_found": "Exhibitionist, that person isn't here!",
+      "name": "flash",
+      "others_auto": "PERVERT PRESENT!  $n is trying to flash $mself",
+      "others_found": "Cover your eyes, $n is exposing $mself to $n!  EWWWW!",
+      "others_no_arg": "$n rips $s clothes off and parades naked around the room!",
+      "vict_found": "You gasp!  $n has just revealed $s \"equipment\" to you!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You can't DO that in public!",
+      "char_found": "You start to undress $N ... one piece of clothing at a time...",
+      "char_no_arg": "You do a slow strip tease for the people...",
+      "char_not_found": "Your toy doesn't seem to be here...",
+      "name": "strip",
+      "others_auto": "",
+      "others_found": "$n runs $s hands over $Ns body, slowly stripping away the clothing...",
+      "others_no_arg": "$n begins a slow, erotic strip-tease act...",
+      "vict_found": "$n has started to strip you... woah BABY!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "A mirror would work better...",
+      "char_found": "You undress $M with your eyes... Kinky.",
+      "char_no_arg": "You start to undress in the shadows, waiting for someone to notice.",
+      "char_not_found": "They are not here...",
+      "name": "undress",
+      "others_auto": "",
+      "others_found": "You feel the temperature of the room rise as $n lusts on $N...",
+      "others_no_arg": "$n begins to undress... $e is VERY sexy... *Pant*",
+      "vict_found": "Feeling exposed, you sense $n undressing you with $s eyes..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You slowly tongue yourself.",
+      "char_found": "Mmmm... you give $N a good working over with your tongue...",
+      "char_no_arg": "You slowly give your tongue a nice workout.",
+      "char_not_found": "Never around when required...",
+      "name": "tongue",
+      "others_auto": "$n slowly tongues $mself... ICK.",
+      "others_found": "$n slides $s tongue over $N's body...",
+      "others_no_arg": null,
+      "vict_found": "$n wraps $s tongue around you, moving it across your young, nubile flesh..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You sit back and watch the world go by.",
+      "char_not_found": "",
+      "name": "view",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n kicks back and enjoys the view.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Why bother?",
+      "char_found": "You grumble at $N, disgusted with their presence.",
+      "char_no_arg": "You grumble distractedly to yourself",
+      "char_not_found": "That person is presently AWOL.",
+      "name": "grumble",
+      "others_auto": "",
+      "others_found": "$n seems to be a grumpy bear... $e is grumbling at poor $N.",
+      "others_no_arg": "$n grumbles and growls. You wonder what's wrong...",
+      "vict_found": "$n is grumbling at you... what'd you do?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You cheer silently for yourself since nobody else will",
+      "char_found": "You cheer $N on and wish $M good luck!",
+      "char_no_arg": "You cheer and dance as the joy within you bursts forth!",
+      "char_not_found": "Who? Huh? Where?  They're not here, that's for sure",
+      "name": "cheer",
+      "others_auto": "$n resorts to cheering for $mself... how sad.",
+      "others_found": "*Yay!*  Go $N!!!  $n cheers $M on.",
+      "others_no_arg": "$n cheers and sings... $e is just BURSTING with joy!",
+      "vict_found": "You are cheered on by $n... you feel so loved!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You beg and plead to anyone who will listen.",
+      "char_not_found": "",
+      "name": "plead",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n pleads $s case to anyone who will listen... You ALMOST feel sorry for $s.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You run your head into a brick wall.  OUCH!",
+      "char_found": "With surprising dexterity, you head-butt $N!",
+      "char_no_arg": "You charge into the fray!",
+      "char_not_found": "Nobody 'round with that name, Mister!",
+      "name": "charge",
+      "others_auto": "",
+      "others_found": "$n ducks down low, charges forward, and head-butts $N!",
+      "others_no_arg": "$n charges into the fray!  All guts, no brains.",
+      "vict_found": "OOF!  $n rammed $s head into your stomach!  That HURT."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You criticize yourself profusely.",
+      "char_found": "You criticize $M with all the warmth of a snake.",
+      "char_no_arg": "Yes, but who?",
+      "char_not_found": "Where oh where has my victim gone, oh where oh where...",
+      "name": "criticize",
+      "others_auto": "$n tears $mself apart, cursing $s own stupidity.",
+      "others_found": "With a nasty grin, $n rips apart $Ns efforts.",
+      "others_no_arg": null,
+      "vict_found": "$n informs you that your attempts need some MAJOR adjustments."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Are you THAT ugly?",
+      "char_found": "You run away from $N in complete terror!",
+      "char_no_arg": "You run away in terror and horror!",
+      "char_not_found": "No reason to be afraid, they aren't here.",
+      "name": "run",
+      "others_auto": "$n looks in the mirror, sees $s face, and runs away terrified!",
+      "others_found": "$n runs away from $N in utter terror and horror!",
+      "others_no_arg": "$n runs away in utter terror!",
+      "vict_found": "$n runs from you, fearing for $s life!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You don't REALLY want to do that.",
+      "char_found": "You judge $m on a scale of 1 to 10.",
+      "char_no_arg": "Yes, but who?",
+      "char_not_found": "They aren't here right now.",
+      "name": "judge",
+      "others_auto": "",
+      "others_found": "On a scale from 1 to 10, $n thinks $N is a complete ZERO!!!",
+      "others_no_arg": null,
+      "vict_found": "$n judges your actions on a scale of 1 to 10 and comes up with ZERO!!!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You feel your sanity slipping away...",
+      "char_not_found": "",
+      "name": "insane",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "Before your eyes, $n's sanity is slipping away...",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "No... I don't think so.",
+      "char_found": "You glare at $N and cover your ears.",
+      "char_no_arg": "You cover your ears to protect them from the noise.",
+      "char_not_found": "They aren't here right now.",
+      "name": "cover",
+      "others_auto": "",
+      "others_found": "$n glares at $N and covers $s ears.",
+      "others_no_arg": "$n covers $s ears to protect them from all the noise.",
+      "vict_found": "$n covers $s ears because of you... you are TOO LOUD!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "*Sniff*  But you should LOVE yourself!",
+      "char_found": "You flare your nostrils disdainfully at $N... HOW RUDE!",
+      "char_no_arg": "You flare your nostrils disdainfully.",
+      "char_not_found": "Flare if you wish, but that person isn't here to see it.",
+      "name": "flare",
+      "others_auto": "",
+      "others_found": "$n flares $s nostrils disdainfully at $N and turns up $s snobbish nose.",
+      "others_no_arg": "$n flares $s nostrils disdainfully.",
+      "vict_found": "$n flares $s nostrils disdainfully at you... what'd you DO???"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Why would you do that?",
+      "char_found": "You toss your head haughtily at $N.",
+      "char_no_arg": "You toss your head haughtily.",
+      "char_not_found": "That person is AWOL.",
+      "name": "head",
+      "others_auto": "",
+      "others_found": "$n tosses her head haughtily at $N... what an ATTITUDE!",
+      "others_no_arg": "$n tosses $s head haughtily.",
+      "vict_found": "$n tossed $s head haughtily at you... :("
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bury your face in the pie... yummmmm!!! :)",
+      "char_found": "You toss a pie at $N and hit $M right in the FACE!",
+      "char_no_arg": "You pick up a pie and toss it around for a bit.",
+      "char_not_found": "That person isn't here...",
+      "name": "pie",
+      "others_auto": "$n buries $s face in the pie, licking the pan clean.",
+      "others_found": "$n tosses a pie at $N and hits $m right in the FACE!",
+      "others_no_arg": "$n picks up a pie and tosses it around for a bit.",
+      "vict_found": "$n tossed a pie in your face... and now you are all covered in GOO!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You are afraid of your own shadow!",
+      "char_found": "You cower away from $N and $S harsh words.",
+      "char_no_arg": "You cower in a corner.",
+      "char_not_found": "That person is AWOL at the moment.",
+      "name": "cower",
+      "others_auto": "$n cowers in the corner afraid of $s own shadow",
+      "others_found": "$n cowers in a corner, terrified that $N will come after $m.",
+      "others_no_arg": "$n cowers in a corner and whimpers softly.",
+      "vict_found": "You scared poor $n!  Now $S is cowering in a corner, afraid for $s life."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You rub your head and create a static charge...",
+      "char_found": "You grab $N, get $M in a head lock and NOOGIE $M!",
+      "char_no_arg": "You can't noogie the AIR!  It has no head.",
+      "char_not_found": "That person has gone off to other lands...",
+      "name": "noogie",
+      "others_auto": "$n rubs $s OWN head and creates a static charge... *ZAP*",
+      "others_found": "$n grabs $N in a head lock and NOOGIES $M... ARGH!!!",
+      "others_no_arg": null,
+      "vict_found": "Oh NO, $n grabs you, throws you in a head lock and NOOGIES you!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You mount your pony(?) and shout YEEEEEEEHAAAAAAAW!",
+      "char_not_found": "",
+      "name": "yeehaw",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n bounces up and down screaming *YEEEEEEHAAAAAAW!*",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You are PISSED at yourself!",
+      "char_found": "You turn a stoney gaze toward $N... you are SOOO pissed at $N!",
+      "char_no_arg": "You are PISSED!",
+      "char_not_found": "That person is not here...",
+      "name": "pissed",
+      "others_auto": "$n is so pissed at $mself.  How could $e be so stupid???",
+      "others_found": "$n glares at $n.... $n is SOOO PISSED at $m!",
+      "others_no_arg": "$n is PISSED so watch out!",
+      "vict_found": "$n is pissed at you now... What do you think $e'll DO?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You belch and pass out.",
+      "char_not_found": "",
+      "name": "passout",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n is OBVIOUSLY intoxicated... $e burps loudly and passes out!",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You look around, make sure nobody is watching, and you adjust your \"Tool.\"",
+      "char_not_found": "",
+      "name": "adjust",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n looks around slyly, smiles, then reaches down and \"adjusts\" $mself...",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You scratch yourself contentedly.",
+      "char_not_found": "",
+      "name": "scratch",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n reaches down and scratches $mself...  Now $e looks VERY happy.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You assume a very comfortable position and begin to meditate.",
+      "char_not_found": "",
+      "name": "meditate",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n rests and begins to meditate... $e chants softly to $mself.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You blow a kiss to yourself... isn't the world beautiful?",
+      "char_found": "You blow a kiss at $N and wonder if $E will catch it.",
+      "char_no_arg": "You blow kisses to the air.",
+      "char_not_found": "You kiss falls to the ground with no one to go to.",
+      "name": "bkiss",
+      "others_auto": "$n blows a kiss to $mself, obviously very in love.",
+      "others_found": "$n blows a kiss at $N ... isn't $e so CUTE?",
+      "others_no_arg": "$n blows kisses at no one in particular.",
+      "vict_found": "$n blows a kiss at you and hopes you'll blow one back at $m."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You pop off the top and down a beer.",
+      "char_found": "You toss a bottle of beer at $N.",
+      "char_no_arg": "You pull out a six-pack.",
+      "char_not_found": "The bottle crashes to the floor and shatters.",
+      "name": "beer",
+      "others_auto": "$n pops the top off a bottle of beer and downs it in one gulp.",
+      "others_found": "$n tosses a bottle of beer at $N ... let's just hope $e'll catch it!",
+      "others_no_arg": "$n starts to juggle a six-pack of beer.",
+      "vict_found": "$n tossed you a bottle of beer... I think $e wants something..."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You reach out and rescue the bottle from its flight.",
+      "char_not_found": "",
+      "name": "bcatch",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n reaches out and grabs the bottle of beer tossed to $m.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You claw yourself to shreds!",
+      "char_found": "You claw $S eyes out... GROSS!",
+      "char_no_arg": "You tighten your hands into a fist.",
+      "char_not_found": "They aren't here to claw.",
+      "name": "claw",
+      "others_auto": "$n rips $mself to shreds with $s fingernails!",
+      "others_found": "$n buries $s nails in $N's eyes ... OH GOD, THE BLOOD!",
+      "others_no_arg": "$n clenches $s fists until blood drips from them...",
+      "vict_found": "$n buries $s nails in your eyes and you are blinded by your own blood!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You give yourself a rose and feel a little sad...",
+      "char_found": "You give $M a pretty rose.",
+      "char_no_arg": "Who would you like to give it to?",
+      "char_not_found": "They seem to have left.",
+      "name": "rose",
+      "others_auto": "$n gives $mself a rose, dont you feel sorry for $m?",
+      "others_found": "$n hands $N a beautiful rose.",
+      "others_no_arg": null,
+      "vict_found": "$n hands you a beautiful ---'---,--{@"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You tie your own shoelaces together, try to walk, and promptly fall.",
+      "char_found": "With the greatest of stealth, you tie $S shoelaces together.",
+      "char_no_arg": "Whose laces?",
+      "char_not_found": "Whose laces?",
+      "name": "laces",
+      "others_auto": "$n cleverly ties $s own shoelaces together, tries to walk, and sprawls flat on the floor.",
+      "others_found": "$n sneaks up to $N and ties $S shoelaces together.",
+      "others_no_arg": null,
+      "vict_found": "You try to take a step, and you hit the world facedown!  Someone must have tied your shoelaces together!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Unable to catch anyone else, you do the intelligent thing and tag yourself. You're still IT!",
+      "char_found": ">From nowhere, you pounce on $N and TAG $M remorselessly!  BWAHAHA!!!",
+      "char_no_arg": "Tag whom?",
+      "char_not_found": "Who were you going to tag, then?",
+      "name": "tag",
+      "others_auto": "Unable to catch anyone else, $n tags $mself.  Are you impressed?",
+      "others_found": "$n dives from the shadows and TAGS $N.  $N IS IT!",
+      "others_no_arg": "$n casts about for someone to tag.",
+      "vict_found": "$n pounces on you and >>> TAGS <<< you!  You're IT!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "No one will tank for you, eh?!? WELL, YOU'LL SHOW THEM!  (right?)",
+      "char_found": "You offer to tank for $N.",
+      "char_no_arg": "You boldly offer to tank for your everyone else.  Are you sure you know what you're getting into?",
+      "char_not_found": "Tank for whom?",
+      "name": "tank",
+      "others_auto": "In dazzling chivalry, $n offers to tank-- for $mself!",
+      "others_found": "$n offers to tank for $N.",
+      "others_no_arg": "$n offers to tank!",
+      "vict_found": "$n offers to tank for you!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You throw yourself upon $S mercy, begging for food.",
+      "char_no_arg": "You show your prominent ribs and hope that someone will take pity.",
+      "char_not_found": "Sorry, but that person isn't around-- looks like you'll starve.",
+      "name": "starve",
+      "others_auto": "",
+      "others_found": "$n begs $N for food.  One would think that magic would have cured hunger by now...",
+      "others_no_arg": "$n is withering before your eyes!  Starvation!",
+      "vict_found": "$n is starving before your eyes!  Could you spare some food, please?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You scream in frustration at your own stupidity!",
+      "char_found": "You scream your frustration and grab for $S throat with both hands!",
+      "char_no_arg": "AAAAAARRRRRRGGGGGGHHHHHH!!!!!!",
+      "char_not_found": "You get even MORE frustrated when you can't find anyone to throttle!",
+      "name": "aargh",
+      "others_auto": "$n screams in frustration at $s own stupidity!",
+      "others_found": "$n howls in frustration, and leaps for $N, trying to throttle $M!",
+      "others_no_arg": "$n throws back $s head and howls in profound frustration!",
+      "vict_found": "$n grabs for your throat with two hands, howling in frustration!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Your suddenly remember that you have to defend your thesis today...",
+      "char_not_found": "",
+      "name": "homework",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n looks stricken.  Could $e have blown off some important homework?",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You mimic Puff at her most annoying.",
+      "char_not_found": "",
+      "name": "puff",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n says, \"Did you know that I'm written in C?\"",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bonk yourself for the Eeediot you are!",
+      "char_found": "There's Yet Another Eeediot in the room, and you're looking right at $M.",
+      "char_no_arg": "You sigh, burdened with Yet Another Eeediot.",
+      "char_not_found": "There are plenty of Eeediots, but that one doesn't seem to be present.",
+      "name": "yae",
+      "others_auto": "$n bonks $mself, HARD, and curses $mself for the Eeediot $e is!",
+      "others_found": "$n clearly believes that $N is an Eeediot!",
+      "others_no_arg": "$n sighs, burdened with Yet Another Eeediot.",
+      "vict_found": "$n glares at you, obviously not impressed with your intelligence."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "*Ding!*  Inspiration!",
+      "char_not_found": "",
+      "name": "lightbulb",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "A light bulb appears above $n's head!",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You stab a pin into your own voodoo doll!  Agony!",
+      "char_found": "You stare daggers at $N, jabbing pins into $S effigy.",
+      "char_no_arg": "Bad juju like this has to be directed at a person.",
+      "char_not_found": "Your hatred finds no such target.",
+      "name": "voodoo",
+      "others_auto": "$n jabs a pin into $s own voodoo doll, and twitches in agony!",
+      "others_found": "$n glares balefully at $N while stabbing a pin into a voodoo doll.",
+      "others_no_arg": "$n looks hostile for a moment.",
+      "vict_found": "Your heart lurches in your chest, and fiery pain stabs through your skull!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "If you do that, the universe will explode.",
+      "char_found": "Engage!",
+      "char_no_arg": "Ogg who?",
+      "char_not_found": "You can't find your target.",
+      "name": "ogg",
+      "others_auto": "$n almost oggs $mself, but wisely reconsiders.",
+      "others_found": "$n oggs $N's head with photon torpedos!  $N reels.",
+      "others_no_arg": null,
+      "vict_found": "$n oggs your head with photon torpedos!  You are reeling."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You blink slowly, trying to decipher $S comment.",
+      "char_no_arg": "Your confusion is showing.",
+      "char_not_found": "No wonder you're confused.",
+      "name": "confused",
+      "others_auto": "",
+      "others_found": "$n blinks slowly.  Maybe $N left a word out of $S sentence...",
+      "others_no_arg": "$n blinks slowly...",
+      "vict_found": "$n blinks slowly.  Maybe you left a word out of your sentence?"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Well, aren't you special?",
+      "char_found": "You dazzle $N with your smile.",
+      "char_no_arg": "You beam delightedly at nothing in particular.",
+      "char_not_found": "You look pretty silly beaming at imaginary friends...",
+      "name": "beam",
+      "others_auto": "$n beams at $mself, obviously pleased.",
+      "others_found": "$n must like $N a great deal to beam at $M so broadly!",
+      "others_no_arg": "$n beams broadly at nothing in particular.",
+      "vict_found": "$n must like you a great deal to beam at you so broadly!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You bite your knuckle in anguish.",
+      "char_found": "You bite $N on the neck.",
+      "char_no_arg": "You glare around, muttering \"Bite me...\" under your breath.",
+      "char_not_found": "Hungry?  No such luck.",
+      "name": "bite",
+      "others_auto": "$n bites $s knuckle in anguish...the tragedy!",
+      "others_found": "$n bites $N on the neck!",
+      "others_no_arg": "$n glares around, muttering \"Bite me...\" under $s breath.",
+      "vict_found": "$n bites you on the neck."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You grab $N and disco wildly!  Groovy!",
+      "char_no_arg": "Groovy!",
+      "char_not_found": "It's okay, you can disco solo too.",
+      "name": "discodance",
+      "others_auto": "",
+      "others_found": "$n grabs $N and does $m best Travolta!",
+      "others_no_arg": "$n discos wildly!",
+      "vict_found": "$n grabs you and does $m best Travolta!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You scuff your foot, avoiding $N's gaze.",
+      "char_no_arg": "You scuff your foot sheepishly.",
+      "char_not_found": "They aren't here.",
+      "name": "scuff",
+      "others_auto": "",
+      "others_found": "$n scuffs $s foot and shyly avoids $N's gaze.",
+      "others_no_arg": "$n scuffs $s foot in the dirt, looking very sheepish.",
+      "vict_found": "$n scuffs $s foot and shyly avoids your gaze."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Ow! You give yourself a resounding whap upside the head.",
+      "char_found": "You whap $N upside the head!",
+      "char_no_arg": "Whap who?",
+      "char_not_found": "Whiff...",
+      "name": "whap",
+      "others_auto": "Biff!  $n whaps $mself upside the head!",
+      "others_found": "With a resounding WHAP!, $n reprimands $N.",
+      "others_no_arg": null,
+      "vict_found": "HEY!  $n whaps you upside the head!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "Yes, yes.",
+      "char_not_found": "",
+      "name": "lag",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n is   m o v i n g      v  e    ry  sl  o w   l   y ...",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You chortle at your own joke.",
+      "char_found": "You chortle mischievously at $N.",
+      "char_no_arg": "Heh.",
+      "char_not_found": "Took you a while to get that....they aren't here.",
+      "name": "chortle",
+      "others_auto": "$n chortles at $s own joke.  Don't bother.",
+      "others_found": "$n chortles mischievously at $N.",
+      "others_no_arg": "$n chortles mischievously.",
+      "vict_found": "$n chortles mischievously at you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Careful, people are staring...",
+      "char_found": "You lift $N's shirt and blow loudly into $S navel!",
+      "char_no_arg": "Gotta zerbert SOMEBODY.",
+      "char_not_found": "You missed.",
+      "name": "zerbert",
+      "others_auto": "$n looks around furtively, and then bends over and blows loudly into $s own navel!",
+      "others_found": "$n lifts $N's shirt and blows loudly into $S navel!",
+      "others_no_arg": null,
+      "vict_found": "Yeek!  $n lifts your shirt and blows loudly into your navel!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You twitch involuntarily at $N's presence.",
+      "char_no_arg": "You twitch nervously.",
+      "char_not_found": "Nervous? They aren't even here.",
+      "name": "twitch",
+      "others_auto": "",
+      "others_found": "$N must really be getting to $n...",
+      "others_no_arg": "$n twitches nervously.",
+      "vict_found": "$n notices you and twitches."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "Desperation has reached new heights, hasn't it?",
+      "char_found": "You leer at $N like the pervert you are.",
+      "char_no_arg": "You peer around the room, leering like the pervert you are!",
+      "char_not_found": "You'll have to settle for memories -- that person isn't here.",
+      "name": "leer",
+      "others_auto": "$n leers at $mself shamelessly.",
+      "others_found": "$n eyes $N up and down, leering like a filthy pervert!",
+      "others_no_arg": "$n peers about, leering like a filthy pervert!",
+      "vict_found": "$n eyes you up and down, leering like a filthy pervert!"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You chuckle at your own joke, since no one else would.",
+      "char_found": "You indicate your underappreciation of $S joke.",
+      "char_no_arg": "You give a polite little chuckle.",
+      "char_not_found": "You can't find a friend to chuckle with.",
+      "name": "polite",
+      "others_auto": "$n chuckles at $s own joke, since none of you would.",
+      "others_found": "$n gives a polite little chuckle to $N's joke.",
+      "others_no_arg": "$n gives a polite little chuckle.",
+      "vict_found": "$n gives a politle but unappreciative chuckle to your joke."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You grin mischievously to yourself.",
+      "char_found": "You grin mischievously at $M, thinking an evil thought.",
+      "char_no_arg": "You give a mischievous smile at the trouble you have in mind.",
+      "char_not_found": "You must be delirious.",
+      "name": "mischievous",
+      "others_auto": "$n grins mischievously to $mself.",
+      "others_found": "$n grins mischievously at $N.  $m must be thinking something evil.",
+      "others_no_arg": "$n grins mischievously at a nasty idea.",
+      "vict_found": "$n grins mischievously at you.  You inch toward the door."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You accept the proferred apology graciously.",
+      "char_not_found": "",
+      "name": "accept",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n graciously accepts the proferred apology.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You murmur 'Sssssoonnn, my presssssciousssss...'",
+      "char_not_found": "",
+      "name": "anticipate",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n murmurs 'Ssssssooonnnn, my pressssscioussss...'",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You shudder at the horror and repress tears.",
+      "char_not_found": "",
+      "name": "shudder",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n shudders at the horror and represses tears.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You scream 'The PPppppPOOOOoooWWWwwwErrRRR!' and writhe.",
+      "char_not_found": "",
+      "name": "powertrip",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n writhes, screaming 'The PPppppPOOOOoooWWWwwwErrRRR!'",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You mull over the idea at hand, asking for patience.",
+      "char_not_found": "",
+      "name": "mull",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n mulls over the idea at hand.  Please be patient.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You wait patiently.",
+      "char_not_found": "",
+      "name": "wait",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n waits patiently.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You bat your long, dark lashes and smile innocently.",
+      "char_not_found": "",
+      "name": "bat",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n bats $s long, dark lashes and smiles innocently.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You nod sagely.",
+      "char_not_found": "",
+      "name": "sage",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n nods sagely.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You bite your lip contemplatively.",
+      "char_not_found": "",
+      "name": "contemplate",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n bites $s lip contemplatively.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You find yourself most agreeable.",
+      "char_found": "You nod in enthusiastic agreement with $N.",
+      "char_no_arg": "You agree absolutely.",
+      "char_not_found": "Sorry, your target is absent.",
+      "name": "agree",
+      "others_auto": "$n finds $mself the most agreeable being alive.",
+      "others_found": "$n nods in enthusiastic agreement with $N.",
+      "others_no_arg": "$n agrees absolutely.",
+      "vict_found": "$n nods in enthusiastic agreement with you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You grin evilly and toast yourself.",
+      "char_found": "You raise your glass of champagne to $S.",
+      "char_no_arg": "You raise a glass of champagne in a toast.",
+      "char_not_found": "Your object of praise is absent.",
+      "name": "toast",
+      "others_auto": "$n grins evilly and toasts $mself.",
+      "others_found": "$n silently toasts $N.",
+      "others_no_arg": "$n raises $s glass of champagne in a toast.",
+      "vict_found": "$n silently toasts you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "$n is paranoid enough to distrust even $mself.",
+      "char_found": "You induct $S into your private conspiracy with a wink.",
+      "char_no_arg": "You wink conspiratorily, waiting for the countersign.",
+      "char_not_found": "Even you conspire against yourself.",
+      "name": "conspire",
+      "others_auto": "",
+      "others_found": "$n winks conspiratorily at $N.  You wonder what this can mean.",
+      "others_no_arg": "$n winks conspiratorily, waiting for the countersign.",
+      "vict_found": "$n inducts you into $m private conspiracy with a wink."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You hug yourself sadly.",
+      "char_found": "You hug $M supportively and smile.",
+      "char_no_arg": "You fully support the plan.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "support",
+      "others_auto": "$n hugs $mself sadly.  Perhaps you could help?",
+      "others_found": "$n hugs $N supportively and smiles.",
+      "others_no_arg": "$n fully supports the plan.",
+      "vict_found": "$n hugs you supportively and smiles."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You pound $M into a bloody mass.",
+      "char_no_arg": "You make vague pounding motions with your fist at the thought.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "pound",
+      "others_auto": "",
+      "others_found": "$n pounds $N into a bloody mass.",
+      "others_no_arg": "$n makes vague pounding motions with $m fist at the thought.",
+      "vict_found": "$n pounds you into a bloody mass."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You slap your own wrist.",
+      "char_found": "You slaps $M wrist sharply.",
+      "char_no_arg": "You hold out out a wrist for a slap.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "wrist",
+      "others_auto": "$n slaps $m own wrist.",
+      "others_found": "$n slaps $N's wrist sharply.",
+      "others_no_arg": "$n holds out a wrist for a slap.",
+      "vict_found": "$n slaps your wrist sharply."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You light up a Romeo y Julietta cigar and puff contentedly.",
+      "char_not_found": "",
+      "name": "romeo",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n lights up a Romeo y Julietta cigar and puffs contentedly.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You light a Camel cigarette and inhale sharply.",
+      "char_found": "You light a Camel cigarette for $M.",
+      "char_no_arg": "You pretend you are a camel.",
+      "char_not_found": "You don't see that personhere.",
+      "name": "camel",
+      "others_auto": "$n lights a Camel cigarette and inhales sharply.",
+      "others_found": "$n lights a Camel cigarette for $N.",
+      "others_no_arg": "$n pretends to be a camel.",
+      "vict_found": "$n lights a Camel cigarette for you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You whip yourself into a frenzy.",
+      "char_found": "You flick your whip across $M bare back.",
+      "char_no_arg": "You crack your bullwhip menacingly.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "whip",
+      "others_auto": "$n whips $mself into a frenzy.",
+      "others_found": "$n flicks $s whip across $N's bare back.",
+      "others_no_arg": "$n cracks a bullwhip menacingly.",
+      "vict_found": "$n flicks a whip across your back... the pain.. the pleasure.."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You hammerlock $M, screaming, \"AAAAARRRRRGH!! I HAVE A CRAMP!!!\"",
+      "char_no_arg": "You gasp and clutch your abdomen, wheezing with the pain.",
+      "char_not_found": "Suffering as you are, you didn't see that person slip out.",
+      "name": "cramp",
+      "others_auto": "",
+      "others_found": "$n hammerlocks $N, screaming, \"AAAAARRRRRGH!! I HAVE A CRAMP!!!\".",
+      "others_no_arg": "$n gasps and clutches $m abdomen in agony.",
+      "vict_found": "$n hammerlocks you, screaming \"AAAAARRRRRGH!! I HAVE A CRAMP!!!\""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You steam up the windows with $M.",
+      "char_no_arg": "You breathe heavily and wetly.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "make",
+      "others_auto": "",
+      "others_found": "$n and $N start steaming up the windows.",
+      "others_no_arg": "$n breathes heavily and wetly.",
+      "vict_found": "$n starts steaming up the windows with you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You sweep $M into your arms and kiss $M long and deeply.",
+      "char_no_arg": "You look at your empty arms and sigh.",
+      "char_not_found": "The object of your kiss is absent.",
+      "name": "sweep",
+      "others_auto": "",
+      "others_found": "$n sweeps $N into $s arms and kisses $M long and deeply.",
+      "others_no_arg": "$n looks at $s empty arms and sighs.",
+      "vict_found": "$n sweeps you into $s arms and kisses you long and deeply."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You buff your nails on your cloak.",
+      "char_not_found": "",
+      "name": "buff",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n buffs $s nails on $s cloak.",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You rip out $S liver and eat it.",
+      "char_no_arg": "You look angrily for someone to disembowel.",
+      "char_not_found": "The object of your wrath is absent.",
+      "name": "liver",
+      "others_auto": "",
+      "others_found": "$n rips out $N's liver and eats it.",
+      "others_no_arg": "$n angrily for someone to disembowel.",
+      "vict_found": "$n rips out your liver and eats it."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "You wrestle with your conscience.",
+      "char_found": "You wrestle $M to the floor and pin $M there.",
+      "char_no_arg": null,
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "wrestle",
+      "others_auto": "$n wrestles with $m conscience.",
+      "others_found": "$n wrestles $N to the floor, pinning $M there.",
+      "others_no_arg": null,
+      "vict_found": "$n wrestles you to the floor and pins you."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You grab $N and tie $M to the bedposts.",
+      "char_no_arg": "You toy with a pair of handcuffs suggestively.",
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "tie",
+      "others_auto": "",
+      "others_found": "$n grabs $N and ties $S to a four poster bed.",
+      "others_no_arg": "$n toys suggestively with a pair of handcuffs.",
+      "vict_found": "$n grabs you and ties you securely to a four poster bed."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You hold $M tightly in your arms.",
+      "char_no_arg": null,
+      "char_not_found": "Sorry, friend, I can't see that person here.",
+      "name": "tight",
+      "others_auto": "",
+      "others_found": "$n holds $N tightly in $m arms.",
+      "others_no_arg": null,
+      "vict_found": "$n holds you in $m arms."
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "You intone, '$N wins.  Fatality.'",
+      "char_no_arg": null,
+      "char_not_found": "",
+      "name": "fatality",
+      "others_auto": "",
+      "others_found": "$n intones, '$N wins.  Fatality.'",
+      "others_no_arg": null,
+      "vict_found": "$n intones, '$N wins.  Fatality.'"
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You yowl in frustration.",
+      "char_not_found": "",
+      "name": "yowl",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n yowls in frustration!",
+      "vict_found": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_game.SOCIAL_DATA": {
+      "char_auto": "",
+      "char_found": "",
+      "char_no_arg": "You do the silly walk all around the room.",
+      "char_not_found": "",
+      "name": "silly",
+      "others_auto": "",
+      "others_found": "",
+      "others_no_arg": "$n does the silly walk all around the room.  $e *is* silly.",
+      "vict_found": ""
+    }
+  }
+]

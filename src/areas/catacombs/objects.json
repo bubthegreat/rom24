@@ -1,0 +1,1568 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "A circular, glowing key radiates a bright aura around it.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "magic",
+              "hum",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "key",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "glowing key",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a glowing key",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        39,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 2001,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 2,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 3600,
+      "count": 0,
+      "description": "A suit of platemail hewn from granite stands by itself in the corner.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "hum",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_good"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 23,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "granite plate mail platemail",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a suit of granite platemail",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        8,
+        8,
+        8,
+        2,
+        0
+      ],
+      "vnum": 2002,
+      "was_in_room": null,
+      "weight": 550,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 4,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 800,
+      "count": 0,
+      "description": "A ring with a very dark onyx stone in it has been left in the dirt.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "left_finger",
+              "right_finger"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_good"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "jewelry",
+      "level": 7,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "onyx ring",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "an onyx ring",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 2003,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1280,
+      "count": 0,
+      "description": "A long thin sword with a wide blade makes you wonder.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "hum",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil",
+              "anti_good"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 16,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "neutralizer sword",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the neutralizer",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "sword",
+        3,
+        5,
+        3,
+        0
+      ],
+      "vnum": 2004,
+      "was_in_room": null,
+      "weight": 90,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 1,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 3,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 3400,
+      "count": 0,
+      "description": "A sword gleams by the light of its magical silvery blade.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil",
+              "anti_neutral"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 24,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "sword excalibur",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the sword Excalibur",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "sword",
+        5,
+        4,
+        3,
+        0
+      ],
+      "vnum": 2005,
+      "was_in_room": null,
+      "weight": 150,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -6,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1850,
+      "count": 0,
+      "description": "The crown of a long lost King lies forgotten here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "head"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "bless",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "key",
+      "level": 24,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "crown",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a kingly crown",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 2006,
+      "was_in_room": null,
+      "weight": 100,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "The stone is surrounded by a bright glow, better look closer.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "container",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "stone",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "stone",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        15,
+        15,
+        2006,
+        15,
+        100
+      ],
+      "vnum": 2007,
+      "was_in_room": null,
+      "weight": 0,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 880,
+      "count": 0,
+      "description": "A flask of holy water is here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "potion",
+      "level": 11,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "holy water flask",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a flask of holy water",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        25,
+        "bless",
+        "sanctuary",
+        "",
+        ""
+      ],
+      "vnum": 2008,
+      "was_in_room": null,
+      "weight": 20,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1450,
+      "count": 0,
+      "description": "A nice suit of chainmail has been left behind.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "bless",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 10,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "chainmail chain mail suit",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a suit of chainmail",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        5,
+        5,
+        5,
+        0,
+        0
+      ],
+      "vnum": 2009,
+      "was_in_room": null,
+      "weight": 200,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1000,
+      "count": 0,
+      "description": "A blazing cape of white lies in a careful pile.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "collar",
+              "neck"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 12,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "white cape",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a white cape",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        5,
+        5,
+        5,
+        0,
+        0
+      ],
+      "vnum": 2010,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": -2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 13,
+            "modifier": 10,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 12,
+            "modifier": 10,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 17,
+            "modifier": -2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1920,
+      "count": 0,
+      "description": "A large shield lies protecting the ground.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "off_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 13,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "shield defense",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the shield of defense",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        6,
+        6,
+        6,
+        4,
+        0
+      ],
+      "vnum": 2011,
+      "was_in_room": null,
+      "weight": 150,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 20,
+            "modifier": -2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 3500,
+      "count": 0,
+      "description": "A shield from from the scales of a large dragon lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "off_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 22,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "scale shield dragonscale",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a dragonscale shield",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        7,
+        7,
+        7,
+        4,
+        0
+      ],
+      "vnum": 2012,
+      "was_in_room": null,
+      "weight": 180,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 2200,
+      "count": 0,
+      "description": "A wand made of a triangular prism twinkles in the dust.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "wand",
+      "level": 12,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "prism wand",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a prism wand",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        11,
+        4,
+        4,
+        "colour spray",
+        0
+      ],
+      "vnum": 2013,
+      "was_in_room": null,
+      "weight": 40,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 14,
+            "modifier": -30,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 210,
+      "count": 0,
+      "description": "The shadows in the corner of the room seems strange ...",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "about_body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 14,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "shadow cloak",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a shadow cloak",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        7,
+        7,
+        7,
+        2,
+        0
+      ],
+      "vnum": 2014,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 920,
+      "count": 0,
+      "description": "A potion of swirling mist-like substance is here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "held"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "potion",
+      "level": 12,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "misty potion",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a misty potion",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        10,
+        "pass door",
+        "faerie fire",
+        "",
+        ""
+      ],
+      "vnum": 2015,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Catacombs",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 830,
+      "count": 0,
+      "description": "A sword made of wood has been left here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "bless",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 10,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "templar templars sword wooden",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a templar's sword",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "sword",
+        2,
+        6,
+        3,
+        0
+      ],
+      "vnum": 2016,
+      "was_in_room": null,
+      "weight": 60,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

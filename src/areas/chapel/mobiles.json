@@ -1,0 +1,4490 @@
+[
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65569,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 0,
+      "area": "Chapel",
+      "armor": [
+        9,
+        9,
+        9,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        4,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Brown bones with tufts of clothing still hanging from them.  This\nskeleton looks very mindless but still dangerous ...",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        6,
+        10
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 1,
+      "long_descr": "A bony skeleton is here.",
+      "mana": 100,
+      "mana_dice": [
+        0,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle skeleton bony",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "the bony skeleton",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3400,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 0,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65571,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -100,
+      "area": "Chapel",
+      "armor": [
+        6,
+        6,
+        6,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "His body is totally white and slowly rotting away.  Each Zombie looks\nquite different from the next because they were, of course, once alive and\nhuman.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        46
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 4,
+      "long_descr": "An undead zombie sits here munching on something ...",
+      "mana": 100,
+      "mana_dice": [
+        2,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle undead zombie",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "the undead zombie",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3401,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 2,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65569,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 8,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -500,
+      "area": "Chapel",
+      "armor": [
+        4,
+        4,
+        4,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        7,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "The ghoul no longer resembles the adventurer he once was.  Nonetheless\nhe looks like he hasn't forgot his fighting skills.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        71
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 6,
+      "long_descr": "A ghoul is here staring at you hungrily.",
+      "mana": 100,
+      "mana_dice": [
+        3,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle undead ghoul",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The ghoul",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3402,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 7,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65571,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 42,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -750,
+      "area": "Chapel",
+      "armor": [
+        0,
+        0,
+        0,
+        8
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        10,
+        3
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "The wraith no longer has a material form.  He is wearing a tattered\nblack robe which hides all but the darkness of his face and the glimmer\nin his eyes.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        10,
+        150
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 12,
+      "long_descr": "You spot a wraith advancing towards you from the shadows.",
+      "mana": 100,
+      "mana_dice": [
+        6,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle undead wraith",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The wraith",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3403,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 50,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65571,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -1000,
+      "area": "Chapel",
+      "armor": [
+        -8,
+        -8,
+        -8,
+        6
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        5,
+        4,
+        8
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "The guardian vampire looks quite EVIL.  Just by looking at him the hair on your\narms raises. He looks mighty tough to be just a minor minion.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        6,
+        12,
+        703
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 28,
+      "long_descr": "A vampire is here hiding his face from your light source.",
+      "mana": 100,
+      "mana_dice": [
+        14,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle undead guardian vampire",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The guardian vampire",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3404,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 750,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 67587,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 168,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 1000,
+      "area": "Chapel",
+      "armor": [
+        -2,
+        -2,
+        -2,
+        6
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        2,
+        5,
+        3
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Obviously a goodly man, you feel closer to God just by gazing upon this man.\nDressed in white, fine white hair, and a soft slightly wrinkled face ...\nthis man has a sacred beauty.  You see a halo around his head.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        3,
+        9,
+        208
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 15,
+      "long_descr": "A priest of God stands here solemnly speaking words of praise.",
+      "mana": 100,
+      "mana_dice": [
+        15,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle priest",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1049872,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "the priest",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_cleric",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3405,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 20,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65569,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -500,
+      "area": "Chapel",
+      "armor": [
+        0,
+        0,
+        0,
+        8
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        10,
+        3
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Mi-Go, the Fungi from Yuggoth ... it is a pinkish being about five feet long;\nwith a crustaceous body bearing a vast pair of membranous wings and several\nsets of articulate limbs, body a sort of convoluted ellipsoid, covered with\nmultitudes of very small antennae, where a head would ordinarily be.  These\nbeings sometimes walk on all their legs and sometimes on the hind pair only.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        10,
+        150
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 12,
+      "long_descr": "A Mi-Go is crawling here.",
+      "mana": 100,
+      "mana_dice": [
+        6,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle mi-go fungi",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": null,
+      "short_descr": "the Mi-Go",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": null,
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3406,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 32,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65633,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 98304,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -1000,
+      "area": "Chapel",
+      "armor": [
+        1,
+        1,
+        1,
+        8
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        2,
+        4,
+        2
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "... shocking and uncouth black thing with smooth, oily, skin, unpleasant horns\nthat curve inward toward each other, bat wings whose beating make no sound,\nugly prehensile paws, and a barbed tail that lashes disquietingly.  And worst\nof all, it makes absolutely no sound or speech and smiles not at all because\nit has no face, only a suggestive blackness where a face ought to be ...",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        121
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 10,
+      "long_descr": "A nightgaunt is standing here",
+      "mana": 100,
+      "mana_dice": [
+        5,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle nightgaunt",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": null,
+      "short_descr": "The nightgaunt",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3407,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 7,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65569,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -1000,
+      "area": "Chapel",
+      "armor": [
+        -4,
+        -4,
+        -4,
+        7
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        2,
+        8,
+        5
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Serving Nyarlathotep and Roch'tar, these beings are hunting for victims.\nThey resemble enormous ropy black serpents or worms possessing bat-like or\numbrella-like wings.  Their forms continually shift and change, twitching\nand writhing, so it is hard to look at them.  They speak in great harsh\nvoices.  A hunting horror is HUGE, normally around 40 feet long.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        3,
+        9,
+        333
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 20,
+      "long_descr": "The hunting horror is here in wait of an unwary traveler.",
+      "mana": 100,
+      "mana_dice": [
+        10,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle hunting horror",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": null,
+      "short_descr": "The hunting horror",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3408,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 100,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65573,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 98312,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 0,
+      "area": "Chapel",
+      "armor": [
+        4,
+        4,
+        4,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        7,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Just some unpleasant looking vine-like growths ...",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        71
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 6,
+      "long_descr": "Some weeds are creeping across the floor.",
+      "mana": 100,
+      "mana_dice": [
+        3,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle weeds",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": null,
+      "short_descr": "some cave weeds",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": null,
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3409,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 4,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65539,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 8,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -750,
+      "area": "Chapel",
+      "armor": [
+        -4,
+        -4,
+        -4,
+        7
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        2,
+        8,
+        5
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "What an ugly fiend! He is about 6'6'' and has mostly greenish skin with\nbright red hair. Half his face is burnt off and he has a perpetual smile.\nHe is called up from his service in hell in order to aid the Undying One.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        3,
+        9,
+        333
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 20,
+      "long_descr": "Snapper Joe is standing here leering at you chillingly.",
+      "mana": 100,
+      "mana_dice": [
+        10,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle snapper joe",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "Snapper Joe",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3410,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 111,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65571,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 8,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -1000,
+      "area": "Chapel",
+      "armor": [
+        -3,
+        -3,
+        -3,
+        7
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        3,
+        4,
+        4
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "A large hairy monstrous beast, the only LIVE thing you have seen down here.\nIt stands approximately 8 feet tall and hunches over to fit in this\nsmall room.  It has a pair of tremendous claws that it uses to rip and tear.\nIt has dog-like face except ... different.  Bright glowing eyes and a grimace\nlead you to believe that he knew that you were coming.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        3,
+        9,
+        258
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 17,
+      "long_descr": "An X-ist flesh eater is sitting here munching on some coffin remains",
+      "mana": 100,
+      "mana_dice": [
+        8,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle x-ist eater",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The X-ist flesh eater",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3411,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 78,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 196611,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 40,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 350,
+      "area": "Chapel",
+      "armor": [
+        -4,
+        -4,
+        -4,
+        3
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        3,
+        4,
+        4
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "Floating above the ground here and looking a bit dead, he whispers\nsoftly into the air:\n\n    The forces of evil have unlocked my spirit as\n    well as one other.  Free me from this misery,\n    anyone that can hear. The peace of the grave\n    calls me but I am blocked from its quiet.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        3,
+        9,
+        308
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 20,
+      "long_descr": "The spirit of King Crotus is floating lazily above the floor.",
+      "mana": 100,
+      "mana_dice": [
+        20,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle spirit ghost king crotus",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1048608,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "the spirit of King Crotus",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_mage",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3412,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 2,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65541,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 0,
+      "area": "Chapel",
+      "armor": [
+        7,
+        7,
+        7,
+        10
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        6,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "It is a large brownish slug.  Got any salt?  Didn't think so ...",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        6,
+        35
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 3,
+      "long_descr": "A rock slug is slowly creeping along, leaving a slime trail behind it.",
+      "mana": 100,
+      "mana_dice": [
+        1,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle rock slug",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": null,
+      "short_descr": "the rock slug",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": null,
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3413,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 0,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 196673,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 1000,
+      "area": "Chapel",
+      "armor": [
+        6,
+        6,
+        6,
+        8
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        5,
+        0
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 6,
+      "description": "Quite insane, the mad etcher has been here for two decades.  His hair is\nwhite; he babbles nonsense to himself; a layer of dust covers his out-of-date\nclothing; and he seems to be working on the same portion of the wall near\nthe base ... oh and he seems quite blind.\n\nHe leers insanely at you and says 'heh heh what can I do for you children?\nPlease don't mind my wife, she is always like that ... hello dear can you\nmake some tea for our company?  Oh good!  Now sit right down will you?\nWould you like hot or cold tea?  Yes the weather is ...'\n\nAnd on he babbles ...",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        46
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 5,
+      "long_descr": "The mad etcher is sitting here babbling to himself and working on the wall.",
+      "mana": 100,
+      "mana_dice": [
+        5,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle etcher",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1048608,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The mad etcher",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_mage",
+      "start_pos": 6,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3414,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 2,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65539,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65536,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": 1000,
+      "area": "Chapel",
+      "armor": [
+        4,
+        4,
+        4,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        8,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "You can barely make her out ... though it almost makes you vomit.\nShe is missing half her head.  The remaining half is smashed in horribly like\nshe took a nasty fall.  Her one damaged eye hangs on its own.  She smiles\ninsanely at you thru a broken jaw and missing teeth.  One hand of hers is\nresting on the shoulder of the etcher ... her husband.",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        6,
+        85
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 7,
+      "long_descr": "The spectral wife of the etcher is very faintly floating here.",
+      "mana": 100,
+      "mana_dice": [
+        3,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle wife ghost specter",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 2,
+      "short_descr": "The spectral etcher's wife",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3415,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 6,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_npc.Npc": {
+      "_clan": "",
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_fighting": null,
+      "_guild": null,
+      "_race": "human",
+      "_room_vnum": null,
+      "_trust": 0,
+      "act": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 65573,
+          "flags_refs": [
+            "act_flags",
+            "plr_flags"
+          ]
+        }
+      },
+      "affected": [],
+      "affected_by": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "affect_flags"
+        }
+      },
+      "alignment": -350,
+      "area": "Chapel",
+      "armor": [
+        4,
+        4,
+        4,
+        9
+      ],
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "comm": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 24576,
+          "flags_ref": "comm_flags"
+        }
+      },
+      "count": 0,
+      "dam_dice": [
+        1,
+        7,
+        1
+      ],
+      "dam_type": 0,
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "damroll": 0,
+      "daze": 0,
+      "default_pos": 8,
+      "description": "YUK! It's ugly, disgusting ... it smells ... it also moves a bit!",
+      "exp": 0,
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2101377,
+          "flags_ref": "form_flags"
+        }
+      },
+      "gold": 0,
+      "group": 0,
+      "hit": 20,
+      "hit_dice": [
+        2,
+        7,
+        71
+      ],
+      "hitroll": 0,
+      "id": 0,
+      "imm_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "incog_level": 0,
+      "instance_id": null,
+      "inventory": [],
+      "invis_level": 0,
+      "is_area": false,
+      "is_item": false,
+      "is_living": true,
+      "is_room": false,
+      "killed": 0,
+      "leader": null,
+      "level": 6,
+      "long_descr": "A half-decomposed body is lying in the corner here.",
+      "mana": 100,
+      "mana_dice": [
+        3,
+        9,
+        100
+      ],
+      "master": null,
+      "material": "0",
+      "max_hit": 20,
+      "max_mana": 100,
+      "max_move": 100,
+      "memory": null,
+      "mod_stat": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "move": 100,
+      "name": "oldstyle body",
+      "new_format": true,
+      "off_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 1056816,
+          "flags_ref": "off_flags"
+        }
+      },
+      "on": null,
+      "pShop": null,
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 2047,
+          "flags_ref": "part_flags"
+        }
+      },
+      "perm_stat": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "pet": null,
+      "position": 0,
+      "reply": 0,
+      "res_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "saving_throw": 0,
+      "sex": 1,
+      "short_descr": "The half-decomposed body",
+      "silver": 0,
+      "size": 2,
+      "slots": {
+        "__class__/rom24.equipment.Equipped": {
+          "equipped": {
+            "__type__/OrderedDict": [
+              [
+                "light",
+                null
+              ],
+              [
+                "left_finger",
+                null
+              ],
+              [
+                "right_finger",
+                null
+              ],
+              [
+                "neck",
+                null
+              ],
+              [
+                "collar",
+                null
+              ],
+              [
+                "body",
+                null
+              ],
+              [
+                "head",
+                null
+              ],
+              [
+                "legs",
+                null
+              ],
+              [
+                "feet",
+                null
+              ],
+              [
+                "hands",
+                null
+              ],
+              [
+                "arms",
+                null
+              ],
+              [
+                "about_body",
+                null
+              ],
+              [
+                "waist",
+                null
+              ],
+              [
+                "left_wrist",
+                null
+              ],
+              [
+                "right_wrist",
+                null
+              ],
+              [
+                "main_hand",
+                null
+              ],
+              [
+                "off_hand",
+                null
+              ],
+              [
+                "held",
+                null
+              ],
+              [
+                "float",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      "spec_fun": "spec_cast_undead",
+      "start_pos": 8,
+      "template_wealth": 0,
+      "timer": 0,
+      "version": 5,
+      "vnum": 3416,
+      "vuln_flags": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "imm_flags"
+        }
+      },
+      "wait": 0,
+      "was_in_room": null,
+      "wealth": 4,
+      "weight": 0,
+      "wimpy": 0,
+      "wiznet": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "wiznet_table"
+        }
+      },
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

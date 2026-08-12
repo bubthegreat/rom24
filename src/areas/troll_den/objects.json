@@ -1,0 +1,576 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1,
+      "count": 0,
+      "description": "A half eaten corpse is laying here",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "container",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "corpse cadaver",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the cadaver-toy",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        30,
+        0,
+        0,
+        30,
+        100
+      ],
+      "vnum": 2800,
+      "was_in_room": null,
+      "weight": 500,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "There is a bed made of carnage here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": []
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "container",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "pile rotting heap bed",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the heap of carnage",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        30,
+        0,
+        0,
+        30,
+        100
+      ],
+      "vnum": 2801,
+      "was_in_room": null,
+      "weight": 0,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 1,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1380,
+      "count": 0,
+      "description": "The filthy hide of a beast is laying here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This is the skin from a huge (and dead) beast.  It looks bad, smells bad,\nand feels bad.",
+            "keyword": "troll skin"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "about_body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 12,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "trollskin troll skin",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the troll skin",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        5,
+        5,
+        5,
+        0,
+        0
+      ],
+      "vnum": 2802,
+      "was_in_room": null,
+      "weight": 200,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1150,
+      "count": 0,
+      "description": "A ring of black opal lies here gathering dust.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is a full circle of opal, smooth and simple.",
+            "keyword": "ring opal"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "left_finger",
+              "right_finger"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "jewelry",
+      "level": 20,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "ring opal",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "an opal ring",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 2803,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1050,
+      "count": 0,
+      "description": "An old leather belt is left on the floor.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This old, smelly belt looks like it is barely better than rotting cloth.",
+            "keyword": "leather belt"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "waist"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 15,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "leather belt",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a leather belt",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        6,
+        6,
+        6,
+        0,
+        0
+      ],
+      "vnum": 2804,
+      "was_in_room": null,
+      "weight": 50,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Troll Den",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 350,
+      "count": 0,
+      "description": "A cracked piece of bone lies here.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This piece of bone looks sturdy enough to be used as a weapon, but you\nwouldn't want to entrust your life to it.",
+            "keyword": "bone"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 6,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "bone cracked",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a cracked bone",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "mace",
+        3,
+        3,
+        7,
+        0
+      ],
+      "vnum": 2805,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

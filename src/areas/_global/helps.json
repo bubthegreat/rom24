@@ -1,0 +1,1766 @@
+{
+  "!": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "!",
+      "level": 0,
+      "text": "Syntax: !\n\n! repeats the last command you typed."
+    }
+  },
+  "$": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "$",
+      "level": 0,
+      "text": ""
+    }
+  },
+  "'ACID BLAST' 'BURNING HANDS' 'COLOUR SPRAY' FIREBALL 'LIGHTNING BOLT'\n  'MAGIC MISSILE' 'SHOCKING GRASP'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ACID BLAST' 'BURNING HANDS' 'COLOUR SPRAY' FIREBALL 'LIGHTNING BOLT'\n  'MAGIC MISSILE' 'SHOCKING GRASP'",
+      "level": 0,
+      "text": "Syntax: cast 'acid blast'     <victim>\nSyntax: cast 'burning hands'  <victim>\nSyntax: cast 'colour spray'   <victim>\nSyntax: cast 'fireball'       <victim>\nSyntax: cast 'lightning bolt' <victim>\nSyntax: cast 'magic missile'  <victim>\nSyntax: cast 'shocking grasp' <victim>\n\nThese spells inflict damage on the victim.  The higher-level spells do\nmore damage."
+    }
+  },
+  "'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH' 'LIGHTNING BREATH'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH' 'LIGHTNING BREATH'",
+      "level": 0,
+      "text": "Syntax: cast 'acid breath'      <victim>\nSyntax: cast 'fire breath'      <victim>\nSyntax: cast 'frost breath'     <victim>\nSyntax: cast 'gas breath'\nSyntax: cast 'lightning breath' <victim>\n\nThese spells are for the use of dragons.  Acid, fire, frost, and lightning\ndamage one victim, whereas gas damages every PC in the room.  Fire and\nfrost can break objects, and acid can damage armor.\n\nHigh level mages may learn and cast these spells as well."
+    }
+  },
+  "'CALL LIGHTNING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CALL LIGHTNING'",
+      "level": 0,
+      "text": "Syntax: cast 'call lightning'\n\nThis spell works only out of doors, and only when the weather is bad.\nIt calls down lightning bolts from Mota."
+    }
+  },
+  "'CAUSE LIGHT' 'CAUSE SERIOUS' 'CAUSE CRITICAL' HARM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CAUSE LIGHT' 'CAUSE SERIOUS' 'CAUSE CRITICAL' HARM",
+      "level": 0,
+      "text": "Syntax: cast 'cause light'    <victim>\nSyntax: cast 'cause serious'  <victim>\nSyntax: cast 'cause critical' <victim>\nSyntax: cast harm             <victim>\n\nThese spells inflict damage on the victim.  The higher-level spells do\nmore damage."
+    }
+  },
+  "'CHAIN LIGHTNING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CHAIN LIGHTNING'",
+      "level": -1,
+      "text": "Syntax : cast 'chain lightning' <target>\n\nChain lightning is a deadly spell, producing a powerful bolt of lightning\nthat arcs from target to target in the room, until its force is fully\nexpended.  Allies of the caster may be hit by this spell if they are members\nof a clan, while the caster himself will not be struck unless no other\nviable target remains.  Chain lightning is most effective when used on\ngroups of creatures."
+    }
+  },
+  "'CHANGE SEX'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CHANGE SEX'",
+      "level": 53,
+      "text": "Syntax: cast 'change sex' <victim>\n\nThis spell changes the sex of the victim (temporarily)."
+    }
+  },
+  "'CHARM PERSON'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CHARM PERSON'",
+      "level": 0,
+      "text": "Syntax: cast 'charm person' <victim>\n\nThis spell, if successful, causes the victim to follow you and to take orders\nfrom you.  Use ORDER to order your charmed followers.\n\nYou are responsible for the actions of your followers.  Conversely, other\npeople who attack your followers will be penalized as if they attacked you."
+    }
+  },
+  "'CHILL TOUCH'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CHILL TOUCH'",
+      "level": 0,
+      "text": "Syntax: cast 'chill touch' <victim>\n\nThis spell inflicts damage on the victim and also reduces the victim's\nstrength by one."
+    }
+  },
+  "'CONTINUAL LIGHT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CONTINUAL LIGHT'",
+      "level": 0,
+      "text": "Syntax: cast 'continual light'\nSyntax: cast 'continual light' <object>\n\nThis spell creates a ball of light, which you can hold as a light source.\nThe ball of light will last indefinitely. It may also be used on an object\nto give it an enchanted glow."
+    }
+  },
+  "'CONTROL WEATHER'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CONTROL WEATHER'",
+      "level": 0,
+      "text": "Syntax: cast 'control weather' better\nSyntax: cast 'control weather' worse\n\nThis spell makes the weather either better or worse."
+    }
+  },
+  "'CREATE FOOD'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CREATE FOOD'",
+      "level": 0,
+      "text": "Syntax: cast 'create food'\n\nThis spell creates a Magic Mushroom, which you or anyone else can eat."
+    }
+  },
+  "'CREATE ROSE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CREATE ROSE'",
+      "level": -1,
+      "text": "Syntax: cast 'create rose'\n\nA romantic spell that creates a fragrant red rose, with utterly no game\nuse whatsoever."
+    }
+  },
+  "'CREATE SPRING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CREATE SPRING'",
+      "level": 0,
+      "text": "Syntax: cast 'create spring'\n\nThis spell brings forth a magical spring from the ground, which has the\nsame properties as a fountain."
+    }
+  },
+  "'CREATE WATER'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CREATE WATER'",
+      "level": 0,
+      "text": "Syntax: cast 'create water' <drink-container>\n\nThis spell replenishes a drink container with water."
+    }
+  },
+  "'CURE BLINDNESS'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CURE BLINDNESS'",
+      "level": 0,
+      "text": "Syntax: cast 'cure blindness' <character>\n\nThis spell cures blindness in one so unfortunate."
+    }
+  },
+  "'CURE LIGHT' 'CURE SERIOUS' 'CURE CRITICAL' HEAL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CURE LIGHT' 'CURE SERIOUS' 'CURE CRITICAL' HEAL",
+      "level": 0,
+      "text": "Syntax: cast 'cure light'    <character>\nSyntax: cast 'cure serious'  <character>\nSyntax: cast 'cure critical' <character>\nSyntax: cast 'heal'          <character>\n\nThese spells cure damage on the target character.  The higher-level spells\nheal more damage.\n\n(see 'help healer' for details on the heal command)"
+    }
+  },
+  "'CURE POISON'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'CURE POISON'",
+      "level": 0,
+      "text": "Syntax: cast 'cure poison' <character>\n\nThis spell cures poison in one so unfortunate."
+    }
+  },
+  "'DEMONFIRE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DEMONFIRE'",
+      "level": -1,
+      "text": "Syntax: cast 'demonfire' <target>\n\nDemonfire is a spell of blackest evil, and as such can only be used by those\nwho follow the paths of darkness.  It conjures forth demonic spirits to\ninflict terrible wounds on the enemies of the caster."
+    }
+  },
+  "'DETECT EVIL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT EVIL'",
+      "level": 0,
+      "text": "Syntax: cast 'detect evil'\n\nThis spell enables the caster to detect evil characters, which will\nreveal a characteristic red aura."
+    }
+  },
+  "'DETECT GOOD'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT GOOD'",
+      "level": -1,
+      "text": "Syntax: cast 'detect good'\n\nThis spell enables the caster to detect good characters, which will\nreveal a characteristic golden aura."
+    }
+  },
+  "'DETECT HIDDEN'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT HIDDEN'",
+      "level": 0,
+      "text": "Syntax: cast 'detect hidden'\n\nThis spell enables the caster to detect hidden creatures."
+    }
+  },
+  "'DETECT INVIS'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT INVIS'",
+      "level": 0,
+      "text": "Syntax: cast 'detect invis'\n\nThis spell enables the caster to detect invisible objects and characters."
+    }
+  },
+  "'DETECT MAGIC'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT MAGIC'",
+      "level": 0,
+      "text": "Syntax: cast 'detect magic'\n\nThis spell enables the caster to detect magical objects."
+    }
+  },
+  "'DETECT POISON'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DETECT POISON'",
+      "level": 0,
+      "text": "Syntax: cast 'detect poison' <object>\n\nThis spell detects the presence of poison in food or drink."
+    }
+  },
+  "'DISPEL EVIL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DISPEL EVIL'",
+      "level": 0,
+      "text": "Syntax: cast 'dispel evil' <victim>\n\nThis spell invokes the wrath of Mota on an evil victim. It can be very\ndangerous for casters who are not pure of heart."
+    }
+  },
+  "'DISPEL GOOD'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DISPEL GOOD'",
+      "level": -1,
+      "text": "Syntax: cast 'dispel good' <victim>\n\nDispel good brings forth evil energies that inflict horrific torment on\nthe pure of heart.  Good-aligned characters use this dark magic at their\nperil."
+    }
+  },
+  "'DISPEL MAGIC' CANCELLATION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'DISPEL MAGIC' CANCELLATION",
+      "level": 0,
+      "text": "Syntax: cast 'dispel magic' <character>\n        cast 'cancellation' <characte>\n\nBoth of these spells remove magical effects from the target.  Dispel magic\nhas a reduced chance of working, and is considering an attack spell.\nCancellation can only be used on allies, but is much more effective and does\nnot provoke attack.  Unfortunately, the spells do not discriminate between\nharmful and benign spells.\n\nThe chance of dispelling is based on the level of the spell. Permanent spells\n(such as mobile sanctuary) are much harder to remove.  Not all spells may\nbe dispelled, notable examples are poison and plague."
+    }
+  },
+  "'ENCHANT ARMOR'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ENCHANT ARMOR'",
+      "level": -1,
+      "text": "The enchant armor spell imbues armor with powerful protective magics. It is\nnot nearly as reliable as enchant weapon, being far more prone to destructive\neffects.  Each succesful enchant increases the plus of the armor by 1 or 2\npoints, and raises its level by one."
+    }
+  },
+  "'ENCHANT WEAPON'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ENCHANT WEAPON'",
+      "level": 0,
+      "text": "Syntax: cast 'enchant weapon' <weapon>\n\nThis spell magically enchants a weapon, increasing its to-hit and to-dam\nbonuses by one or two points.  Multiple enchants may be cast, but as the\nweapon grows more and more powerful, it is more likely to be drained or\ndestroyed by the magic.  Also, every successful enchant increases the level\nof the weapon by one...and there is no turning back."
+    }
+  },
+  "'ENERGY DRAIN'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ENERGY DRAIN'",
+      "level": 0,
+      "text": "Syntax: cast 'energy drain' <victim>\n\nThis spell saps the experience points, mana, and movement points of its\ntarget."
+    }
+  },
+  "'ENHANCED DAMAGE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'ENHANCED DAMAGE'",
+      "level": -1,
+      "text": "Warriors and skilled thieves can become skilled enough in combat that they are\nable to inflict more damage than other classes.  Enhanced damage is checked\nfor with each hit, although with a low skill, the chance of receiving a bonus\nis very low indeed."
+    }
+  },
+  "'FAERIE FIRE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'FAERIE FIRE'",
+      "level": 0,
+      "text": "Syntax: cast 'faerie fire' <victim>\n\nThis spell increases (makes worse) the armor class of its victim.  For each\nlevel of the caster, the victim's armor class is increased by two points."
+    }
+  },
+  "'FAERIE FOG'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'FAERIE FOG'",
+      "level": 0,
+      "text": "Syntax: cast 'faerie fog'\n\nThis spell reveals all manner of invisible, hidden, and sneaking creatures in\nthe same room as you."
+    }
+  },
+  "'FAST HEALING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'FAST HEALING'",
+      "level": -1,
+      "text": "The fast healing skill improves wound healing rates, whether walking, resting,\nor sleeping. It represents knowledge of healing herbs or just general\ntoughness and stamina.  Fast healing is checked every tick, and it is\npossible for it to fail.  All class may learn this skill, but mages find it\nvery difficult to master, due to their bookish lifestyle."
+    }
+  },
+  "'FLOATING DISC'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'FLOATING DISC'",
+      "level": -1,
+      "text": "Syntax: cast 'floating disc'\n\nThis useful spell creates a floating field of force which follows the caser\naround, allowing him or her to pile treasure high with no fear of weight\npenalties.  It lasts no more than twice the casters level in hours, and\nusually less.  It can hold 10 pounds per level of the caster, with a\nmaximum of five pounds per item.  The spell requires an open float location\non the character, and the only way to remove the disc is to die or allow it\nto run out of energy."
+    }
+  },
+  "'GIANT STRENGTH'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'GIANT STRENGTH'",
+      "level": 0,
+      "text": "Syntax: cast 'giant strength' <character>\n\nThis spell increases the strength of the target character."
+    }
+  },
+  "'GROUP HEADER'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'GROUP HEADER'",
+      "level": -1,
+      "text": "The following skills and groups are available to your chacter:\n(this list may be seen again by typing list)"
+    }
+  },
+  "'GROUP HELP'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'GROUP HELP'",
+      "level": -1,
+      "text": "The following commands are available:\nlist         display all groups and skills not yet bought\nlearned      show all groups and skills bought\npremise      brief explanation of creation points and skill groups\nadd <name>   buy a skill or group\ndrop <name>  discard a skill or group\ninfo <name>  list the skills or spells contained within a group\nhelp <name>  help on skills and groups, or other help topics\ndone\t     exit the character generation process"
+    }
+  },
+  "'GROUPS' 'INFO' 'PREMISE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'GROUPS' 'INFO' 'PREMISE'",
+      "level": -1,
+      "text": "The ROM skill system allows you to fully customize your new character, making\nhim or her skilled in the skills you choose.  But beware, the skills you pick\nat character creation are the only skills you will ever learn.  Skills are\npaid for with creation points, and the more creation points you have, the\nharder it is to gain a level.  Furthermore, higher-cost skills are harder to\npractice.\n\nSkill groups are like package deals for characters -- sets of skills or spells\nthat are closely related, and hence can be learned as a unit.  There is a\ndefault skill group for each class, which can be selected for a balanced\nselection of skills at a somewhat reduced cost.\n\nThe experience breakdown is as follows:\npoints   exp/level     points   exp/level\n40        1000         90        6000\n50        1500         100       8000\n60\t  2000         110      12000\n70        3000         120      16000\n80        4000         130      24000\nThe table continues in a similar manner for higher point totals."
+    }
+  },
+  "'HAND TO HAND'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'HAND TO HAND'",
+      "level": -1,
+      "text": "Hand to hand combat is a rare skill in the lands of Midgaard.  Learning this\nstyle of fighting gives the player a weapon even when disarmed -- bare hands.\nTrained hand to hand experts are far more effective than many swordsmen.\nClerics and warriors are the best at this skill, although thieves and mages\nmay also learn it."
+    }
+  },
+  "'HEAT METAL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'HEAT METAL'",
+      "level": -1,
+      "text": "Syntax: cast 'heat metal' <target>\n\nHeat metal is a powerful clerical attack spell, with effects that vary\naccording to the armor of the victim.  It heats up the metal equipment\n(assumed to be all weapons and armor at this point in time) on the target,\ncausing him or her to drop them if possible, taking serious burns in the\nprocess (possibly fatal if the equipment is too heavy to remove easily).\nThis spell does no damage to creatures who are immune to fire."
+    }
+  },
+  "'HOLY WORD'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'HOLY WORD'",
+      "level": -1,
+      "text": "Syntax: cast 'holy word'\n\nHoly word involves the invocation of the full power of a cleric's god, with\ndisasterous effects upon the enemies of the priest coupled with powerful\nblessings on the priest's allies.  All creatures of like alignment in the\nroom are blessed and filled with righteous divine wrath, while those of\nopposite morals (or both good and evil in the case of neutral priests)\nare struck down by holy (or unholy might) and cursed.  The cleric suffers\ngreatly from the strain of this spell, being left unable to move and\ndrained of vitality.  Experience loss is no longer associated with the spell."
+    }
+  },
+  "'KNOW ALIGNMENT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'KNOW ALIGNMENT'",
+      "level": 0,
+      "text": "Syntax: cast 'know alignment' <character>\n\nThis spell reveals the alignment of the target character."
+    }
+  },
+  "'LOCATE OBJECT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'LOCATE OBJECT'",
+      "level": 0,
+      "text": "Syntax: cast 'locate object' <name>\n\nThis spell reveals the location of all objects with the given name."
+    }
+  },
+  "'MENU CHOICE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'MENU CHOICE'",
+      "level": -1,
+      "text": "Choice (add,drop,list,help)?"
+    }
+  },
+  "'NEXUS'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'NEXUS'",
+      "level": -1,
+      "text": "Syntax: cast 'nexus' <target>\n\nThis spell is virtually identical to portal (see 'help portal'), with the\nonly difference being that while portal creates a one-way gate, a nexus\nspell makes a two-sided gate.  It also lasts longer than the lower-powered\nportal spell.  Both spells require an additional power source, the secret\nof which has been lost..."
+    }
+  },
+  "'PASS DOOR'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'PASS DOOR'",
+      "level": 0,
+      "text": "Syntax: cast 'pass door'\n\nThis spell enables the caster to pass through closed doors."
+    }
+  },
+  "'PORTAL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'PORTAL'",
+      "level": -1,
+      "text": "Syntax: cast 'portal' <target>\n\nThe portal spell is similar to gate, but creates a lasting one-way portal\nto the target creature, instead of transporting the caster.  Portals are\nentered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot\nbe made to certain destinations, nor used to escape from gate-proof rooms.\nPortal requires a special source of power to be used, unfortunately the\nsecret of this material component has been lost..."
+    }
+  },
+  "'PROTECTION GOOD' 'PROTECTION EVIL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'PROTECTION GOOD' 'PROTECTION EVIL'",
+      "level": -1,
+      "text": "Syntax: cast 'protection evil' <target>\n\tcast 'protection good' <target>\n\nThe protection spells reduce damage taken from attackers of the appropriate\nethos, and improve saving throws against all forms of magic. They may not\nbe cast on others, and one person cannot carry both defenses at the same\ntime."
+    }
+  },
+  "'RACE HELP' 'RACE' 'RACES'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'RACE HELP' 'RACE' 'RACES'",
+      "level": -1,
+      "text": "ROM has the following races for player characters:\n  Human  the standard race\n  Dwarf  good warriors and priests, cost 8 creation points\n  Elf    good thieves and mages, cost 5 creation points\n  Giant  huge, tough warriors, cost 6 creation points\n\nDifferent races have different starting statistics, and also different\nstat maximums for magic items and training.\n\nCreation points increase the amount of experience it takes to gain a level.\nFor more information, see the help files for each race (i.e. 'help dwarf')"
+    }
+  },
+  "'RAY OF TRUTH'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'RAY OF TRUTH'",
+      "level": -1,
+      "text": "Syntax: cast 'ray of truth' <target>\n\nRay of truth opens a portal to the planes of positive energy, bringing forth\na beam of light of sufficient purity to harm or or annihilate the servants\nof evil.  It cannot harm the pure of heart, and will turn and strike\ncasters who are tainted by evil."
+    }
+  },
+  "'RECHARGE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'RECHARGE'",
+      "level": -1,
+      "text": "Syntax: cast 'recharge' <item>\n\nThe recharge spell is used to restore energy to depleted wands and staves.\nFully exhausted items cannot be recharged, and the difficulty of the spell\nis proportional to the number of charges used.  Magic items can only be\nrecharged one time successfully."
+    }
+  },
+  "'REMOVE CURSE'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'REMOVE CURSE'",
+      "level": 0,
+      "text": "Syntax: cast 'remove curse' <character>\nSyntax: cast 'remove curse' <object>\n\nThis spell removes a curse from a character, and might possibly uncurse\na cursed object.  It may also be targeted on an object in the caster's\ninventory, in which case it's chance of success is significantly higher."
+    }
+  },
+  "'SECOND ATTACK'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'SECOND ATTACK'",
+      "level": -1,
+      "text": "Training in second attack allows the character a chance at additional strikes\nin combat -- allow a 100% second attack does NOT guarantee 2 attacks every\nround.  Any class may learn this skill, although clerics and mages have a\nvery hard time with it."
+    }
+  },
+  "'SHIELD BLOCK'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'SHIELD BLOCK'",
+      "level": -1,
+      "text": "Shield block is a rather fancy name for the art of parrying with a shield.\nCharacters with no shield block skill will not be able to defend themselves\nwell with a shield.  All classes may learn shield block, but only warriors and\nclerics are good at it.  Beware, flails ignore shield blocking attempts, and\nwhips have an easier time getting around them.  Axes may split shields in two."
+    }
+  },
+  "'THIRD ATTACK'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'THIRD ATTACK'",
+      "level": -1,
+      "text": "Training in third attack allows the character a chance at an additional strike\nin a combat, and increases the chance of a second attack as well.  Perfect\nthird attack does NOT assure three attacks per round.  Only warriors and highly\nskilled thieves may learn this skill."
+    }
+  },
+  "'WORD OF RECALL'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "'WORD OF RECALL'",
+      "level": 0,
+      "text": "Syntax: cast 'word of recall'\n\nThis spell duplicates the built-in RECALL ability.  It is provided solely for\nMerc-based muds which wish to eliminate the built-in ability while still\nproviding the spell."
+    }
+  },
+  "ADVANCE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ADVANCE",
+      "level": 60,
+      "text": "Syntax: advance <character> <level>\n\nADVANCE sets a character's level to the specified value.  It is the\nonly way to create new immortal characters within the game.  ADVANCE\nmay also be used to demote characters."
+    }
+  },
+  "AFFECTS AFFECT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "AFFECTS AFFECT",
+      "level": -1,
+      "text": "This command is used to show all the spells affecting your character. At\nlow levels, only the spell name will be displayed, at higher levels the\neffects and duration of the spell will also be shown.  Spell effects\nare no longer shown on score (this can be changed by using 'show' command)."
+    }
+  },
+  "AFK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "AFK",
+      "level": -1,
+      "text": "Typing AFK puts your character in a tell-saving mode as follows: any tell\nto you is stored in a special buffer, and can be seen later by typing\nrecall.  This is useful when you need to leave the mud for 5 or 10 minutes,\nbut don't want to miss tells.  AFK shows up in your prompt until it is\nturned off.\n\nTells to link-dead players are stored in a similar fashion, and can also be\nseen by typing replay (unless, of course, the character logs off before\nreading them)."
+    }
+  },
+  "ALIAS UNALIAS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ALIAS UNALIAS",
+      "level": -1,
+      "text": "Syntax: alias\n\talias <word>\n\talias <word> <substitution>\n\tunalias <word>\n\nThe alias command allows limited shortening of command names.  At this time,\naliases cannot call other aliases, and cannot generate more than one command.\nAlias by itself lists your current aliases, Alias <word> lists the alias with\nthat name (if such exist), and alias with both a word and and argument\nproduces a new alias.  You cannot alias either alias or unalias to a new\ncommand.  Examples of use:\n\nalias gc get all corpse --> typing gc will equal typing 'get all corpse'\nalias ff cast 'fireball' --> ff orc will equal 'cast 'fireball' orc'\n\nOnly the first word on the line will be subsituted at this time."
+    }
+  },
+  "ALLOW BAN PERMBAN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ALLOW BAN PERMBAN",
+      "level": 58,
+      "text": "Syntax: allow   <site>\n\tban     <site> <newbies|all|permit>\n\tban\n\nBAN <site> prohibits players from that site from logging in.  BAN with\nno arguments lists the banned sites.  ALLOW <site> removes a site from\nthe ban list, if the remover is of equal or higher level than the banner.\n\nA site may have all players, new players, or non-permitted players (set\nby editing the player file) banned, by changing the argument after the site.\n*s may be used to ban either by suffix (*.edu), prefix (labmac*), or\ncontent (*andrews*), but be careful not to accidently lock out too many\nsites with a wildcard.  Bans do not save unless the permban command is used."
+    }
+  },
+  "AREAS COMMANDS REPORT SCORE TIME": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "AREAS COMMANDS REPORT SCORE TIME",
+      "level": 0,
+      "text": "Syntax: areas\nSyntax: commands\nSyntax: report\nSyntax: score\nSyntax: time\nSyntax: weather\n\nAREAS shows you a list of areas in the game.\n\nCOMMANDS shows you all the commands in the game.\n\nREPORT shows your current statistics to you and also announces them to other\nplayers in the room.  SCORE shows much more detailed statistics to you only.\nYour ability scores are shown as true value(current value), so for example\nStr: 15(23) means you have a 15 strength from training, but a 23 strength\nfrom other factors (spells or items).\n\nTIME shows the game time, as well as the time the mud was last started,\nand the current local time for the host computer.\n\nWEATHER shows the current game weather."
+    }
+  },
+  "ARMOR": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ARMOR",
+      "level": 0,
+      "text": "Syntax: cast armor <character>\n\nThis spell decreases (improves) the armor class of the target character\nby 20 points."
+    }
+  },
+  "ATTACK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ATTACK",
+      "level": -1,
+      "text": "The attack spells are essentially powerful curses, fueled by divine energy\nrather than magical power (like the combat spells are). They are less powerful\nthan the combat spells, but can still deal out a stinging blow.  Mages and\nthieves cannot use this group.  The attack spell group consists of the\nfollowing spells:\n\ndemonfire\ta powerful, but very evil, spell\ndispel evil\ttorments evil foes\ndispel good\tcalls down unholy power on good creatures\nearthquake\tbrings the power of earth to bear against your foes\nflamestrike\tsends a column of flame from the heavens\nheat metal\theats metal equipment to searing tempatures\nray of truth\tsends forth a blinding ray of holy energy"
+    }
+  },
+  "AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT",
+      "level": 0,
+      "text": "ROM uses varies automatic actions, to ease the boredom of always splitting\ngold and sacrificing corpses.  The commands are as follows:\n\nautolist  : list all automatic actions\nautoloot  : take all equipment from dead mobiles\nautogold  : take all gold from dead mobiles\nautosac\t  : sacrifice dead monsters (if autoloot is on, only empty corpes)\nautoexit  : display room exits upon entering a room\nautosplit : split up spoils from combat among your group members\nautoassit : makes you help group members in combat\n\nTyping a command sets the action , typing it again removes it."
+    }
+  },
+  "BACKSTAB": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BACKSTAB",
+      "level": -1,
+      "text": "Backstab is the favored attack of  thieves, murderers, and other rogues.  It\ncan be used with any weapon type, but is most effective with piercing weapons.\nThe damage inflicted by a backstab is determined by the attacker's level, his\nweapon skill, his backstab skill, and the power of his opponent.\nOnly thieves may learn the backstab."
+    }
+  },
+  "BASH": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BASH",
+      "level": -1,
+      "text": "The bash skill is a warrior talent, a brute-force attack designed to knock\nyour foe to his knees.  Its success depends on many factors, including the\nbash rating, your weight, and the size of your opponent.  Bashing a dragon\nis not generally a wise idea."
+    }
+  },
+  "BASICS 'ROM BASICS'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BASICS 'ROM BASICS'",
+      "level": -1,
+      "text": "The basic skills:\n\nEvery character starts with two skill groups, one for their class and a default\nset that all characters receive.  The default skills are:\n\nrecall  \tessential escape skill (see help recall)\nscrolls\t\treading of scrolls and other magical volumes\nstaves\t\tuse of magical staves\nwands\t\tuse of magical wands\n\nfor class defaults, check the classes themselves."
+    }
+  },
+  "BEGUILING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BEGUILING",
+      "level": -1,
+      "text": "This insideous spell group is used to invade the minds of others.  It consists\nof various charming magics, well suited for turning your foes to your cause.\nOnly mages and thieves have access to the beguiling magics, which consist of\nthe following:\n\ncalm            if successful, stops all fighting in the room\ncharm person\tturns an enemy into a trusted friend\nsleep\t\tputs a foe into enchanted slumber"
+    }
+  },
+  "BENEDICTIONS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BENEDICTIONS",
+      "level": -1,
+      "text": "Benedictions are priestly spells, used to bestow divine favor upon your allies.\nThey are often restricted to those of like alignment.  Only clerics and\nwarriors may use these spells.  The benedictions spell group consists of the\nfollowing:\n\nbless\t\tbestows divine favor upon the target\ncalm\t\tif successful, stops all fighting in the room\nfrenzy\t\tputs the recipient into beserker rage\nholy word\taids your allies while calling divine wrath upon your foes\nremove curse\tremoves malevolent magic from players and items"
+    }
+  },
+  "BERSERK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BERSERK",
+      "level": -1,
+      "text": "Only powerful warriors can master berserking, the ability to enter insane rage\nin combat.  Its effects are not altogether unlike the frenzy spell -- a huge\nsurge of combat prowess, coupled with a disregard for personal safety.\nBerserking warriors are more resistant to the effects of magic."
+    }
+  },
+  "BLESS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BLESS",
+      "level": 0,
+      "text": "Syntax: cast bless <character>\nSyntax: cast bless <object>\n\nThis spell improves the to-hit roll and saving throw versus spell of the\ntarget character by 1 for every 8 levels of the caster. It may also be\ncast on an object to temporarily bless it (blessed weapons, for example,\nare more effective against demonic beings)."
+    }
+  },
+  "BLINDNESS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BLINDNESS",
+      "level": 0,
+      "text": "Syntax: cast blindness <victim>\n\nThis spell renders the target character blind."
+    }
+  },
+  "BRANDISH QUAFF RECITE ZAP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BRANDISH QUAFF RECITE ZAP",
+      "level": 0,
+      "text": "Syntax: brandish\nSyntax: quaff    <potion>\nSyntax: recite   <scroll> <target>\nSyntax: zap      <target>\nSyntax: zap\n\nBRANDISH brandishes a magical staff.  QUAFF quaffs a magical potion (as opposed\nto DRINK, which drinks mundane liquids).  RECITE recites a magical scroll; the\n<target> is optional, depending on the nature of the scroll.  ZAP zaps a\nmagical wand at a target.  If the target is not specified, and you are fighting\nsomeone, then that character is used for a target.\n\nYou must HOLD a wand or a staff before using BRANDISH or ZAP.\n\nAll of these commands use up their objects.  Potions and scrolls have a single\ncharge.  Wands and staves have multiple charges.  When a magical object has no\nmore charges, it will be consumed.\n\nThese commands may require an item skill to be succesful, see the help entries\non the skills scrolls, staves, and wands for more information."
+    }
+  },
+  "BRIEF COMPACT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BRIEF COMPACT",
+      "level": 0,
+      "text": "Brief and compact help set your display options for the game. Typing brief\ntoggles on and off the showing of room descriptions when you move around\n(considerably reducing the text to be processed), and typing compact\nremoves the extra blank line before your prompt."
+    }
+  },
+  "BUG TYPO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BUG TYPO",
+      "level": 0,
+      "text": "Syntax: bug <message>\nSyntax: idea <message>\nSyntax: typo <message>\n\nThese commands will take your message and record it into a file as feedback\nto the mud implementors."
+    }
+  },
+  "BUY LIST SELL VALUE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "BUY LIST SELL VALUE",
+      "level": 0,
+      "text": "Syntax: buy   <object>\nSyntax: list\nSyntax: sell  <object>\nSyntax: value <object>\n\nBUY buys an object from a shop keeper.\nWhen multiple items of the same name are listed, type 'buy n.item', where n\nis the position of the item in a list of that name.  So if there are two\nswords, buy 2.sword will buy the second. If you want to buy multiples of\nan item, use an * (buy 5*pie will buy 5 pies).  These can be combined into\n(for example) buy 2*2.shield, as long as the * is first.\n\nLIST lists the objects the shop keeper will sell you.\nList <name> shows you only objects of that name.\n\nSELL sells an object to a shop keeper.\n\nVALUE asks the shop keeper how much he, she, or it will buy the item for."
+    }
+  },
+  "CALM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CALM",
+      "level": -1,
+      "text": "Syntax: cast 'calm'\n\nOne of the most useful and often overlooked abilities of the master cleric is\nthe calm spell, which can put an end to all violence in a room.  Calmed\ncreatures will not attack of their own volition, and are at a disadvantage\nin combat as long as the spell soothes their minds.  The more violence\nactivity there is in a room, the harder the spell, and it is all or nothing --\neither all combat in the room is ended (with the exception of those who\nare immune to magic) or none is."
+    }
+  },
+  "CAST": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CAST",
+      "level": 0,
+      "text": "Syntax: cast <spell> <target>\n\nBefore you can cast a spell, you have to practice it.  The more you practice,\nthe higher chance you have of success when casting.  Casting spells costs mana.\nThe mana cost decreases as your level increases.\n\nThe <target> is optional.  Many spells which need targets will use an\nappropriate default target, especially during combat.\n\nIf the spell name is more than one word, then you must quote the spell name.\nExample: cast 'cure critic' frag.  Quoting is optional for single-word spells.\nYou can abbreviate the spell name.\n\nWhen you cast an offensive spell, the victim usually gets a saving throw.\nThe effect of the spell is reduced or eliminated if the victim makes the\nsaving throw successfully.\n\nSee also the help sections for individual spells."
+    }
+  },
+  "CLAN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CLAN",
+      "level": -1,
+      "text": "A Clan is a collection of players, united to  follow and further\na common cause.   Each clan has rules and  regulations, to find out\nmore about clans and their 'beliefs' type \"help <clan name>\".  Only\nClan  members can kill or steal from other players.  To join a Clan\nyou  must be level 5 or above and level 25 or below.   Speak to the\nClan Leader about joining.  If you go Loner before level 25 you may\njoin a Clan later.\n   Joining  a  Clan is a dangerous step.   Many adventurers live to\nkill and torture others and chances are that your paths will cross.\nRemember, attacking or killing fellow clan members *IS* illegal except to\nmutiny your Clan leader.\n   Existing  Clans may buy  special rooms and  mobiles by acquiring\ndiamonds as payment.   To see room prices, type \"help prices\".  New\nClans  may be formed by  petitioning the immortals.   Please  remember that\ntheir word is final on all matters not covered by this help."
+    }
+  },
+  "CLERIC 'CLERIC BASICS' 'CLERIC DEFAULT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CLERIC 'CLERIC BASICS' 'CLERIC DEFAULT'",
+      "level": -1,
+      "text": "Clerics are the most defensively orientated of all the classes.  Most of their\nspells focus on healing or defending the faithful, with their few combat spells\nbeing far less powerful than those of mages. However, clerics are the best\nclass by far at healing magics, and they posess an impressive area of\nprotective magics, as well as fair combat prowess.\n\nAll clerics begin with skill in the mace.  Other weapon or shield skills must\nbe purchased, many at a very dear cost.  The default skill selection for\nclerics is as follows:\n\nskills:\nflail\t\tthe proper use of flails\n\nspell groups:\nattack\t\ta selection of offensive magics\ncreation\tthe making of physical objects, such as food and water\ncurative\tspells that cure the sick and feeble of their ailments\nbenedictions\tpowerful magics that grant the blessings of the gods\ndetection\tinformational magics, such as detect magic and identify\nhealing\t\tspells for treating wounds, from scratches to death blows\nmaladictions\tan assortment of curses\nprotective\tdefensive magics, including the powerful sanctuary spell\ntransportation\tspells for getting from here to there\nweather         spells for conjuring and mastering the elements"
+    }
+  },
+  "CLONE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CLONE",
+      "level": 52,
+      "text": "Syntax:\n  clone obj <object>\n  clone mob <mobile>\n  clone <name>\n\nThe clone command duplicates an object or mobile.  The level of item or mobile\nthat may be cloned depends on your level.  The target object or mob must be in\nthe same room as you, or in your posession.  Strung and set information is\npreserved by clone, as well as any spell effects and container contents or\nmobile inventory, except for items which are too high for you to clone.\nStrung extended descriptions on objects are not kept, however."
+    }
+  },
+  "COMBAT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "COMBAT",
+      "level": -1,
+      "text": "These sorcerous spells are, in the words of one famous mage, just 'more ways to\ntoss energy around'.  They are the most powerful of the damaging spells, and\nconsidered an essential part of most wizards' collections. Clerics and thieves\ndo not have access to these spells.  In order of power, the combat spell group\ncontains the following magics:\n\nmagic missile\tsend a weak energy bolt into a foe\nchill touch\tweakens your enemy with a frigid grasp\nburning hands\tsends a blast of fire into your foe\nshocking grasp\tsends a powerful jolt into a foe\nlightning bolt\tsends forth a single bolt of lightning into an enemy\ncolour spray\tblasts your opponent with a rainbow spray, which may blind him\nfireball\ta powerful spell, great for burning your enemy to ashes\nacid blast\tsends forth a stream of acid to eradicate your foes\nchain lightning\tsends lightning bolts arcing through foes"
+    }
+  },
+  "COMMANDMENTS LAWS 'GOD RULES' GODS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "COMMANDMENTS LAWS 'GOD RULES' GODS",
+      "level": 52,
+      "text": ".\n                         **********************\n                         ** The Rules of ROM **\n                         **********************\n\n1)  Do not kill mortals, do not kill mortals, do not kill mortals.\n    This includes transferring/summoning them to aggressive mobs.\n\n2)  Do not cheat for ANY mortal in ANY way, especially your own.\n    Unless of course you LIKE deletion. Yes this includes tanking,\n    healing/restoring, casting protection spells <armor, sanct>,\n    and softening up or altering mobs.\n\n3)  Do not transfer or summon mobs to mortals or mortals to mobs.\n    They have legs, if they want to kill a mob, they can easilly\n    go there themselves.\n\n4)  DO NOT kill the shopkeepers for any reason at ALL.\n\n5)  DO NOT use reboot.  <--- Note, simple English.\n\n6)  Do not give out free equipment.  You don't need to win brownie\n    points with the mortals.  Quest are fine but handing out items\n    isn't.\n\n7)  A note on quests: Quests are a good thing, more or less, BUT\n    do not give out overly extravagant prizes.  Exercise some\n    common sense here folks.  Do not load items more than 4 levels\n    below their normal level (i.e. no level 5 ogre gauntlets).\n\n8)  Do not undermine the authority of a higher level god.  If you\n    see that someone has been frozen or nochannelled do not restore\n    their priveleges.  They are being punished for a reason.\n\n9)  Do not try to overrule each other.\n\n10) Trusted mortals:  Do not use your god powers to help your mortal\n    character.  If you do, your trust will be taken away."
+    }
+  },
+  "COMPARE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "COMPARE",
+      "level": 0,
+      "text": "Syntax: compare <object-1> <object-2>\nSyntax: compare <object>\n\nCOMPARE compares two objects in your inventory.  If both objects are weapons,\nit will report the one with the better average damage.  If both objects are\narmor, it will report the one with the better armor class.\n\nCOMPARE with one argument compares an object in your inventory to the object\nyou are currently wearing or wielding of the same type.\n\nCOMPARE doesn't consider any special modifiers of the objects."
+    }
+  },
+  "CONSIDER": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CONSIDER",
+      "level": 0,
+      "text": "Syntax: consider <character>\n\nCONSIDER tells you what your chances are of killing a character.\nOf course, it's only a rough estimate."
+    }
+  },
+  "COUNT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "COUNT",
+      "level": -1,
+      "text": "The count command displays the number of people (that you can see) logged\ninto the mud.  It also displays the highest number observed that day, if\nit is higher."
+    }
+  },
+  "CREATION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CREATION",
+      "level": -1,
+      "text": "The creation spell group is used to create objects, of temporary or permanent\nduration.  Skill creators can travel without food or drink, and use their\npowers to create nourishment as required.  All classes may become learned in\nthis group, which contains these spells:\n\ncontinual light\tcreates an eternal light source\ncreate food\tproduces a nourishing mushroom\ncreate rose\tcreates a beautiful red rose\ncreate spring\tcalls forth a small but pure spring from the ground\ncreate water\tfills any available container with water\nfloating disc\tcreates a floating disc of force perfect for hauling treasure"
+    }
+  },
+  "CREDITS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CREDITS",
+      "level": 0,
+      "text": "Syntax: credits\n\nThis command shows the list of the original Diku Mud implementors."
+    }
+  },
+  "CURATIVE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CURATIVE",
+      "level": -1,
+      "text": "The curative spells are used to heal various unpleasant conditions that can\nbefall an adventurer.   For healing of damage, see the healing spell group.\nCurative spells cannot be used by mages or thieves.\n\ncure blindness\trestored sight to the blind\ncure disease\theals the plague\ncure poison\tremoves the harmful effects of poison"
+    }
+  },
+  "CURSE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "CURSE",
+      "level": 0,
+      "text": "Syntax: cast 'curse' <character>\n\nThis spell reduces the character's to-hit roll and save versus spells.\nIt also renders the character unclean in the eyes of Mota and\nunable to RECALL. Curse may be used to fill equipment with evil power,\nallowing (for example) weapons to do more damage to particularly holy\nopponents."
+    }
+  },
+  "DEAF": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DEAF",
+      "level": -1,
+      "text": "The deaf toggle turns off incoming tells, helpfull if you are being bombarded\nby messages from other players.  You can still use reply (see 'help reply') to\nreply to people who were telling you before you went deaf, although you\ncannot reply to a deaf person unless you or they are a diety (it's mostly\nuseful for sending a quick \"I'm being spammed so I went deaf\" message to\na person)."
+    }
+  },
+  "DEATH": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DEATH",
+      "level": 0,
+      "text": "When your character dies, you are reincarnated back at the Altar of the Temple\nof Midgaard.  Your corpse is left behind in the room where you were killed,\ntogether with all of your equipment.\n\nAny spells which were affecting you are canceled by death.\n\nFollowing and groups are not affected by death.\n\nYou lose experience points for dying.  The amount you lose is two-thirds of\nthe way back to the beginning of your level.\n\nCorpses decay after time, and the objects inside corpses decay with them.\nPlayer corpses last *roughly* 30 hours of game time (15 minutes of real time).\nOnly the player who died, or someone in the same group, can retrieve objects\nfrom a player's corpse."
+    }
+  },
+  "DEBUG": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DEBUG",
+      "level": 56,
+      "text": "Syntax: debug <command> <arguments>\n\nSafely execute commands and get valuable debugging information."
+    }
+  },
+  "DENY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DENY",
+      "level": 59,
+      "text": "Syntax: deny <name>\n\nDeny locks a character out of a game permanently, rendering their character\nname unusable.  It may only be removed by editing the file, for this reason\nfreeze is usually preferred."
+    }
+  },
+  "DESCRIPTION DESC": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DESCRIPTION DESC",
+      "level": 0,
+      "text": "Syntax: description <string>\nSyntax: description + <string>\nSyntax: description -\n\nSets your long description to the given string.  If the description string\nstarts with a '+', the part after the '+' is appended to your current\ndescription, so that you can make multi-line descriptions. You can delete\nlines by uses description -."
+    }
+  },
+  "DETECTION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DETECTION",
+      "level": -1,
+      "text": "The detection spells have may uses, all related to gathering information. They\ncan be used to see hidden objects, give information about treasure, or even\nscry out the true nature of your foe.  All classes except warriors can use\ndetection spells.\n\ndetect evil\treveals the aura of evil monsters\ndetect good\tsimilar to above, only for good monsters\ndetect hidden\tshows the whereabouts of hidden foes\ndetect invis\tallows the caster to see the unseeable\ndetect magic\treveals magical auras to the caster\ndetect poison\tdetermines if food is safe to eat\nfarsight\tsearches for living beings near the caster\nidentify\tgives information about the nature of an object\nknow alignment\tdetermines the moral character of a monster or person\nlocate object\tfinds a specific item"
+    }
+  },
+  "DIKU": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DIKU",
+      "level": -1,
+      "text": ".                    Original game idea, concept, and design:\n\n          Katja Nyboe               [[Superwoman]] (katz@freja.diku.dk)\n          Tom Madsen              [[Stormbringer]] (noop@freja.diku.dk)\n          Hans Henrik Staerfeldt           [[God]] (bombman@freja.diku.dk)\n          Michael Seifert                 [[Papi]] (seifert@freja.diku.dk)\n          Sebastian Hammer               [[Quinn]] (quinn@freja.diku.dk)\n\n\nDeveloped at: DIKU -- The Department of Computer Science\n                      at the University of Copenhagen."
+    }
+  },
+  "DIRT 'DIRT KICKING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DIRT 'DIRT KICKING'",
+      "level": -1,
+      "text": "Consider by some to be a cowardly skill, dirt kicking gives the clever\ncombatant a chance to blind his opponent by casting dirt into his eyes.  The\nblindness does not last long, but can provide an edge in combat.  Dexterity\nhelps in hitting or avoiding a dirt kick.  Only warriors and thieves may\nlearn this skill."
+    }
+  },
+  "DISARM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DISARM",
+      "level": -1,
+      "text": "Disarm is a somewhat showy and unreliable skill, designed to relieve your\nopponent of his weapon.  The best possible chance of disarming occurs when you\nare skilled both your own and your opponent's weapon. Only talented thieves\nand warriors may learn this skill."
+    }
+  },
+  "DISCONNECT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DISCONNECT",
+      "level": 57,
+      "text": "Syntax: disconnect <name>\n\nDisconnect breaks a player's link to the game, dumping them back to the telnet\nprompt.  This is a non-lethal way of getting rid of spammers and annoying\nplayers."
+    }
+  },
+  "DOAT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DOAT",
+      "level": 54,
+      "text": "Syntax: doat <location> <command>\n\nAt executes the given command (which may have arguments) at the given\nlocation.  The location may be specified as a vnum, as the name of\na mobile, or as the name of an object.\n\nAt works by temporarily moving you to that location, executing the\ncommand, and then moving you back (if the command didn't change your\nlocation)."
+    }
+  },
+  "DODGE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DODGE",
+      "level": -1,
+      "text": "In the words of one wise warrior, 'the best way to block a blow is to not\nbe where it lands'.  The dodge skill honors this tradition, by improving the\ncharacter's natural agility to the point where many blows will miss the\ntarget. The chance of dodging is also affected by the dexterity of the\nattacker and the target.  Any class may learn dodging."
+    }
+  },
+  "DRACONIAN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DRACONIAN",
+      "level": -1,
+      "text": "The Draconian spell group deals with the magic of dragons -- in this case,\nbringing forth the devastating power of their breath weapons upon your foes.\nOnly mages have the mental training necessary to cast these spells, and few\nof them ever reach the level of mastery required to use them.\n\nacid breath\t uses the black dragon's attack upon an enemy\nfire breath\t calls forth the flames of a red dragon\nfrost breath\t drains the life from a foe with the power a white dragon\ngas breath\t suffocates your enemies with poison gas\nlightning breath summons the electrical fury of a blue dragon"
+    }
+  },
+  "DRINK EAT FILL POUR": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DRINK EAT FILL POUR",
+      "level": 0,
+      "text": "Syntax: drink <object>\nSyntax: eat   <object>\nSyntax: fill  <object>\nSyntax: pour  <object> out\nSyntax: pour  <object> <object>\nSyntax: pour  <object> <character>\n\nWhen you are thirsty, DRINK something.\n\nWhen you are hungry, EAT something.\n\nFILL fills a drink container with water.\n\nPOUR transfers a liquid to a container, or empties one.\nYou can also pour from an object into something a character is holding."
+    }
+  },
+  "DROP GET GIVE PUT TAKE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DROP GET GIVE PUT TAKE",
+      "level": 0,
+      "text": "Syntax: drop <object>\nSyntax: drop <amount> coins\nSyntax: get  <object>\nSyntax: get  <object> <container>\nSyntax: give <object> <character>\nSyntax: give <amount> coins <character>\nSyntax: put  <object> <container>\n\nDROP drops an object, or some coins, on the ground.\n\nGET gets an object, either lying on the ground, or from a container, or even\nfrom a corpse.  TAKE is a synonym for get.\n\nGIVE gives an object, or some coins, to another character.\n\nPUT puts an object into a container.\n\nDROP, GET and PUT understand the object names 'ALL' for all objects and\n'ALL.object' for all objects with the same name."
+    }
+  },
+  "DWARF DWARVES": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "DWARF DWARVES",
+      "level": -1,
+      "text": "Dwarves are short, stocky demi-humans, known for foul temper and great\nstamina.  Dwarves have high strength and constitution, but poor dexterity.\nThey are not as smart as humans, but are usually wiser due to their long\nlifespans.  Dwarves make excellent fighters and priests, but are very poor\nmages or thieves.\n\nDwarves are very resistant to poison and disease, but cannot swim, and so\nare very vulnerable to drowning.  They recieve the berserk skill for free\n(if warriors), and can see in the dark with infravision."
+    }
+  },
+  "EARTHQUAKE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EARTHQUAKE",
+      "level": 0,
+      "text": "Syntax: cast 'earthquake'\n\nThis spell inflicts damage on every enemy character in the room.\nBeware that other characters who are not yet fighting may attack\nyou as a result!"
+    }
+  },
+  "ECHO GECHO PECHO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ECHO GECHO PECHO",
+      "level": 54,
+      "text": "Syntax: echo  <message>\n\tgecho <message>\n\tpecho <character> <message>\n\nThese commands all perform similar functions.  Echo sends the message to\nall characters in the same room as the user, with no indication of who sent\nit.  Gecho does the same for all players connected to the game, and pecho\nsends the message to the player specified as the target.  Any higher-level\ngod will see a prompt in front of your message, informing him or her that it\nis an echo."
+    }
+  },
+  "ELF ELVES": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ELF ELVES",
+      "level": -1,
+      "text": "Elves are slightly taller than humans, but have a much lighter build.  They\nlack the strength and stamina of the other races, but are for more agile,\nboth in body and mind.  Elves are superb mages and thieves, but have at\nbest fair talent as warriors or priests.\n\nElves resist charm spells most effectively, due to their magical nature.\nHowever, they are burned by the touch of iron, and so are barred from the\nuse of iron or steel in their adventuring careers.  Elves are notoriously\nhard to spot, and so elven warriors and thieves recieve the sneak and hiding\nautomatically. They may see in the dark with infravision."
+    }
+  },
+  "EMOTE PMOTE POSE SOCIAL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EMOTE PMOTE POSE SOCIAL",
+      "level": 0,
+      "text": "Syntax: emote <action>\nSyntax: pose\n\nEMOTE is used to express emotions or actions.  Besides EMOTE, there are\nseveral dozen built-in social commands, such as CACKLE, HUG, and THANK\n(type socials or help socials for a listing).\n\nPMOTE is similar to emote, but will substitute you and your for a target's\nname (i.e. pmote bonks Alander will be read as bonks you by Alander, and\nas bonks Alander by everyone else).\n\nPOSE produces a random message depending on your class and level."
+    }
+  },
+  "ENCHANTMENT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ENCHANTMENT",
+      "level": -1,
+      "text": "The enchantment spell group is used to imbue items with magical properties.\nCurrently, this spell group consists of enchant weapon and enchant armor,\nalthough more will be added in the future.  Only mages may enchant.\n\nenchant weapon\tincreases the hit and damage bonuses of a weapon\nenchant armor\tincreases the protective value of armor\nfireproof       shields items from the harmful effects of fire and acid\nrecharge\trestores power to a depleted wand or staff"
+    }
+  },
+  "ENHANCEMENT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ENHANCEMENT",
+      "level": -1,
+      "text": "The enhancement spells improve upon the body's pontential, allowing feats of\nsuperhuman strength and speed.  However, these spells may often have harmful\neffects upon the recipient.\n\ngiant strength\tgrants increased strength\nhaste\t\tdoubles the speed of the target, but slows down healing\ninfravision\tallows monsters to be seen in the dark\nrefresh\t\trestores energy to tired adventurers"
+    }
+  },
+  "ENVENOM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ENVENOM",
+      "level": -1,
+      "text": "The envenom skill is a cowardly skill practiced only by thieves, designed to\nwin a battle through alchemy and treachery rather than skill or strength.\nOr, put another way, it's a skill used by the smart to kill the foolish.\nFood, drink, and weapons may be envenomed, with varying effects. Poisoned\nfood or drink puts a mild poison spell on the consumer, and is unlikely to\nbe more than a minor inconvience (after all, the typical adventurer could\ndrink sewer water with only a trace of the runs).  A poisoned weapon, on\nthe other hand, can inflict serious damage on an opponent as the poison\nburns through his bloodstream.  But be careful, blade venom evaporates\nquickly and is rendered almost powerless by repeated blows in combat."
+    }
+  },
+  "EQUIPMENT INVENTORY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EQUIPMENT INVENTORY",
+      "level": 0,
+      "text": "Syntax: equipment\nSyntax: inventory\n\nEQUIPMENT lists your equipment (armor, weapons, and held items).\nINVENTORY lists your inventory."
+    }
+  },
+  "EXAMINE LOOK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EXAMINE LOOK",
+      "level": 0,
+      "text": "Syntax: look\nSyntax: look    <object>\nSyntax: look    <character>\nSyntax: look    <direction>\nSyntax: look    <keyword>\nSyntax: look in <container>\nSyntax: look in <corpse>\nSyntax: examine <container>\nSyntax: examine <corpse>\n\nLOOK looks at something and sees what you can see.\n\nEXAMINE is short for 'LOOK container' followed by 'LOOK IN container'."
+    }
+  },
+  "EXITS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EXITS",
+      "level": 0,
+      "text": "Syntax: exits\n\nTells you the visible exits of the room you are in.  Not all exits are visible.\nYou can use the 'bump' technique to find hidden exits.  (Try to walk in a\ncertain direction and see what you bump into)."
+    }
+  },
+  "EXOTIC WEAPONS WEAPON WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EXOTIC WEAPONS WEAPON WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP",
+      "level": -1,
+      "text": "Each weapon skill applies to a specific group of armaments, and determines how\nwell a character fights with a particular weapon.  The weaponsmaster group\nprovides talent in all weapons (save exotics), from chair legs to halberds.\nIf the character has the parry skill as well, he can parry incoming attacks.\nThe chance of parrying is best if the character in question is skilled at\nboth his weapon and his opponent's.\n\nThe weapon skills consist of the following:\n\nweaponsmaster\tskill group of all weapons listed below (save exotic weaponry)\naxe\t\tthe use of axes, ranging from hand to great (but not halberds)\ndagger\t\tthe use of knives and daggers, and other stabbing weapons\nflail\t\tskill in ball-and-chain type weapons\nmace\t\tthis skill includes clubs and hammers as well as maces\npolearm\t\tthe use of pole weapons (except spears), including halberds\nspear\t\tthis skill covers both spears and staves, but not polearms\nsword\t\tthe warrior's standby, from rapier to claymore\nwhip\t\tthe use of whips, chains, and bullwhips\nexotic\t\tthe use of strange magical weapons\n\nThe exotic skill cannot be purchased, and is dependent solely upon level."
+    }
+  },
+  "EXPERIENCE LEVEL XP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "EXPERIENCE LEVEL XP",
+      "level": 0,
+      "text": "Your character advances in power by gaining experience.  You need a set\namount of experience points for each level based on your creation points.\n\nYou gain experience by:\n\n    being part of a group that kills a monster\n\nYou lose experience by:\n\n    fleeing from combat\n    recalling out of combat\n    being the target of certain spells\n    dying\n\nThe experience you get from a kill depends on several things: how many players\nare in your group; your level versus the level of the monster; your alignment\nversus the monster's alignment; how many of this monster have been killed\nlately; and some random variation."
+    }
+  },
+  "FARSIGHT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FARSIGHT",
+      "level": -1,
+      "text": "Syntax: cast 'farsight'\n\tcast 'farsight' <direction>\n\nThe farsight spell expands the caster's consciousness, allowing him or her\nto see far away beings like they were in the same room.  It takes intense\nconcentration, often leaving the caster helpless for several minutes.\nThe spell may be used for a general scan that reaches a short distance in\nall directions, or with a directional component to see creatures much\nfarther away."
+    }
+  },
+  "FIREPROOF": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FIREPROOF",
+      "level": -1,
+      "text": "Syntax: cast 'fireproof' <object>\n\nThe fireproof spell creates a short-lived protective aura around an object,\nto protect it from the harmful effects of acid and flame.  Items protected\nby this spell are not harmed by acid, fire, or the heat metal spell.\nAlthough inexpensive to use, the spell's short duration makes it impractical\nfor protecting large numbers of objects."
+    }
+  },
+  "FLAMESTRIKE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FLAMESTRIKE",
+      "level": 0,
+      "text": "Syntax: cast 'flamestrike' <victim>\n\nThis spell inflicts damage on the victim."
+    }
+  },
+  "FLEE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FLEE",
+      "level": 0,
+      "text": "Syntax: flee\nSyntax: rescue   <character>\n\nOnce you start a fight, you can't just walk away from it.  If the fight\nis not going well, you can attempt to FLEE, or another character can\nRESCUE you.  (You can also RECALL, but this is less likely to work,\nand costs more experience points, then fleeing).\n\nIf you lose your link during a fight, then your character will keep\nfighting, and will attempt to RECALL from time to time.  Your chances\nof making the recall are reduced, and you will lose much more experience."
+    }
+  },
+  "FLY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FLY",
+      "level": 0,
+      "text": "Syntax: cast 'fly' <character>\n\nThis spell enables the target character to fly."
+    }
+  },
+  "FOLLOW GROUP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FOLLOW GROUP",
+      "level": 0,
+      "text": "Syntax: follow <character>\nSyntax: group\nSyntax: group <character>\n\nFOLLOW starts you following another character.  To stop following anyone else,\njust FOLLOW <yourself>.\n\nGROUP <character> makes someone who is following you a member of your group.\nGroup members share experience points from kills and may use the GTELL and\nSPLIT commands.  If anyone in your group is attacked, you will automatically\njoin the fight.\n\nIf the <character> is already a member of your group, then GROUP will\nkick out the <character> from your group.  Characters can also leave your\ngroup by using a FOLLOW command to stop following you.\n\nGROUP with no argument shows statistics for each character in your group.\n\nYou may FOLLOW and GROUP only with characters who are within five levels of\nyour own."
+    }
+  },
+  "FORCE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FORCE",
+      "level": 53,
+      "text": "Syntax: force <character> <command>\nSyntax: force all <command>\n\nFORCE forces one character to execute a command, except of course delete.\n\nBelow level 57 (Deity) force can only be used on mobiles, and force all is\nunavailable.  You also cannot 'force orc murder hugo', for example.\n\nFORCE 'all' forces all player characters to execute a command.\nThis is typically used for 'force all save'."
+    }
+  },
+  "FREEZE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FREEZE",
+      "level": 57,
+      "text": "Syntax: freeze <name>\n\nFREEZE <character> is a toggle which prevents a character from issuing any\ncommands at all. It can be removed from within the game, so freezing a\ntroublemaker is usually a better option than they deny command."
+    }
+  },
+  "FRENZY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "FRENZY",
+      "level": -1,
+      "text": "Syntax: cast 'frenzy' <target>\n\nThe frenzy spell fills the target with righteous fury, greatly increasing\nhis or her attack skill and damaging capacity.  Unfortunately, this divine\nwrath is coupled with a tendency to ignore threats to personal safety,\nmaking the character easier to hit.  Frenzy provides immunity to the calm\nspell (see 'help calm'), and may only be used on those of the caster's\nalignment."
+    }
+  },
+  "GAIN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GAIN",
+      "level": -1,
+      "text": "The gain command is used to learn new skills, once the proper trainer has\nbeen found. (Check New Thalos) The following options can be used with gain:\n\ngain list:    list all groups and skills that can be learned\ngain points:  lower your creation points by 1 (costs two sessions)\ngain <name>:  add a skill or skill group, at the listed cost\ngain convert: turns 10 practices into one training session\n\nGain uses training sessions, not practices. (see 'help train')\nGained skills and groups do NOT increase your experience per level or total\nnumber of creation points."
+    }
+  },
+  "GATE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GATE",
+      "level": -1,
+      "text": "The gate spell is a powerful transportation magic that opens up a portal\nbetween your character and another person or creature somewhere else in the\nworld.  This portal will transport you and any pet you might have, but not\nother members of your group.  Monsters recieve a save against gate, and\nmonster or players more than 3 levels higher than you can not be gated to at\nall.  God rooms, private rooms, and no recall rooms cannot be gated to, and\nno recall rooms cannot be gated out of.  Finally, any god or hero is also\nimmune to gate, as well as in player who has no summon set.  Clan members\nmay not be gated to except by their fellow Clan members."
+    }
+  },
+  "GIANT GIANTS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GIANT GIANTS",
+      "level": -1,
+      "text": "Giants are the largest of the races, ranging from 9-12 feet in height.  They\nare stronger than any other race, and almost as durable as the dwarves.\nThey aren't too bright, however, and their huge size makes them more clumsy\nthan the other races.  Giants make the best warriors of any race, but are\nill-suited for any other profession.\n\nGiants resist heat and cold with nary a mark, due to their huge mass.  However,\ntheir slow minds make them extremely vulnerable to mental attacks.  Giants,\ndue to their size and stamina, receive the fast healing and bash skills for\nfree. (Only giant warriors recive bash)."
+    }
+  },
+  "GOLD SILVER MONEY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GOLD SILVER MONEY",
+      "level": -1,
+      "text": "Midgaard's economy is based on gold and silver coinage (and the lowly copper,\nwhich you as an adventurer are far too proud to carry).  Gold coins are worth\n100 silver coins, but are also four times as heavy (25 to the pound, as\nopposed to 100 to the pound for silver). Gems can be bought to alleviate weight problems\nfrom the Midgaard jeweller, he charges a mere 10% more than they are worth.\n10 gems weigh one pound, and they can be worth more than 100 gold pieces for\nthe highest quality stones."
+    }
+  },
+  "GOSSIP CGOSSIP . SHOUT YELL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GOSSIP CGOSSIP . SHOUT YELL",
+      "level": 0,
+      "text": "Syntax: gossip  <message>\nSyntax: cgossip <message>\nSyntax: shout   <message>\nSyntax: yell    <message>\n\nSHOUT sends a message to all awake players in the world.  To curb excessive\nshouting, SHOUT imposes a three-second delay on the shouter.\n\nGOSSIP and CGOSSIP are variants of SHOUT (without the delay).  '.' is a\nsynonym for GOSSIP.\n\nYELL sends a message to all awake players within your area.\n\nType a channel name by itself to turn it off."
+    }
+  },
+  "GOTO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GOTO",
+      "level": 52,
+      "text": "Syntax: goto <location>\n\nGoto takes you to a location.  The location may be specified as a vnum,\nas the name of a mobile, or as the name of an object.\n\nYou may not Goto a room if it is PRIVATE and has two (or more) characters\nalready present, or if it is SOLITARY and has one (or more) characters\nalready present. Some other rooms are barred to players below a certain\ngod level.\n\nImplementors can use the violate command to get into private rooms."
+    }
+  },
+  "GREETING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GREETING",
+      "level": -1,
+      "text": ".\nTHIS IS A MUD BASED ON.....\n\n                                ROM Version 2.4 beta\n\n               Original DikuMUD by Hans Staerfeldt, Katja Nyboe,\n               Tom Madsen, Michael Seifert, and Sebastian Hammer\n               Based on MERC 2.1 code by Hatchet, Furey, and Kahn\n               ROM 2.4 copyright (c) 1993-1998 Russ Taylor\n\nBy what name do you wish to be known? "
+    }
+  },
+  "GTELL ; REPLY SAY TELL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "GTELL ; REPLY SAY TELL",
+      "level": 0,
+      "text": "Syntax: gtell <message>\nSyntax: say   <message>\nSyntax: tell  <character> <message>\n\nAll of these commands send messages to other players.  GTELL sends a message to\nall of the characters in your group, wherever they are, even if they are\nsleeping or stunned or dying.  ';' is a synonym for GTELL.\n\nSAY sends a message to all awake players in your room.  The single quote '''\nis a synonym for SAY.\n\nTELL sends a message to one awake player anywhere in the world.\n\nREPLY sends a message to the last player who sent you a TELL.  REPLY will work\neven if you can't see the player, and without revealing their identity.  This\nis handy for talking to invisible or switched immortal players."
+    }
+  },
+  "HAGGLE HAGGLING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HAGGLE HAGGLING",
+      "level": -1,
+      "text": "Haggling is an indispensable skill to the trader.  It allows a character to\nmatch wits with a merchant, seeking to get a better price for merchandise,\nor to buy at the lowest possible cost.  Unfortunately, most merchants are\nalready very skilled at haggling, so the untrainined adventurer had best\nguard his treasure closely.  Thieves are natural masters at haggling,\nalthough other classes may learn it as well."
+    }
+  },
+  "HARMFUL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HARMFUL",
+      "level": -1,
+      "text": "This spell group is the opposite of healing.  The harmful spells are designed\nto tear flesh from bone, rupture arteries, and generally turn the body against\nitself.  Only priests and warriors may use this spell group.\nIn order of power, the harmful spells are:\n\ncause light\tinflicts minor wounds on an enemy\ncause serious\tinflicts wounds on a foe\ncause critical  causes major damage to the target\nharm\t\tthe most deadly harmful spell"
+    }
+  },
+  "HASTE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HASTE",
+      "level": -1,
+      "text": "Syntax: cast 'haste' <target>\n\nThe haste spell increases the speed and agility of the recipient, allowing\nan extra attack (or even a backstab) in combat, and improving evasive\nabilities in combat.  However, it produces a great strain on the system,\nsuch that recuperative abilities are halved.  Haste is capable of negating\nthe slow spell. (see 'help slow')."
+    }
+  },
+  "HEALER": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HEALER",
+      "level": 0,
+      "text": "The healer decided to grab a quick buck, and now charges for his heals.  Some\nservices are still free to players of level 10 or below, however.  To see\na full listing of the healer's services, type 'heal' at his residence. To\nreceive healing, bring plenty of money, and type 'heal <spell>'."
+    }
+  },
+  "HEALING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HEALING",
+      "level": -1,
+      "text": "The healing spells are used to cure the wounds that adventurers inevitably\nsuffer in battle.  For curing other conditions, such as poison, see the\ncurative spell group.  Only warriors and priests have access to this group.\nIn order of power, the healing spells are:\n\ncure light\theals minor wounds\nrefresh\t\trestores vigor to a tired adventurer\ncure serious\theals wounds\ncure critical\tcloses all but the worst wounds\nheal\t\tthe most powerful healing spell\nmass healing\tcasts a heal spell on each player in the room"
+    }
+  },
+  "HELP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HELP",
+      "level": 0,
+      "text": "Syntax: help\nSyntax: help <keyword>\n\nHELP without any arguments shows a one-page command summary.\n\nHELP <keyword> shows a page of help on that keyword.  The keywords include\nall the commands, spells, and skills listed in the game."
+    }
+  },
+  "HIDE SNEAK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HIDE SNEAK",
+      "level": -1,
+      "text": "Hide and sneak are similar skills, both related to remaining undetected.\nHide has a very high chance of success, but only works for as long as the\ncharacter remains stationary.  Sneak may be used when moving (including to\nsneak by monsters), but has a lower chance of success.  Only warriors and\nthieves may learn these skills."
+    }
+  },
+  "HOLD REMOVE WEAR WIELD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HOLD REMOVE WEAR WIELD",
+      "level": 0,
+      "text": "Syntax: hold   <object>\nSyntax: remove <object>\nSyntax: wear   <object>\nSyntax: wear   all\nSyntax: wield  <object>\n\nThree of these commands will take an object from your inventory and start using\nit as equipment.  HOLD is for light sources, wands, and staves.  WEAR is for\narmor.  WIELD is for weapons.\n\nWEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your\ninventory.\n\nYou may not be able to HOLD, WEAR, or WIELD an item if its alignment does not\nmatch yours, if it is too heavy for you, or if you are not experienced enough\nto use it properly.\n\nREMOVE will take any object from your equipment and put it back into your\ninventory."
+    }
+  },
+  "HOLYLIGHT INVIS WIZINVIS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HOLYLIGHT INVIS WIZINVIS",
+      "level": 52,
+      "text": "Syntax: holylight\n\twiznvis <level>\n\nHolylight is a toggle that allows you to see (almost) every character and\nmobile in the game.  With holy light, you can see what's in the game more\neasily.  Without holy light, you can see what mortal players see.\n\nWizinvis takes a level argument, and will mke you invisible to all players of\na lower level than your invisibility level.  It defaults to the maximum\n(your level) if no argument is given.  Wizi 60 characters are totally\ninvisible."
+    }
+  },
+  "HUMAN HUMANS MAN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "HUMAN HUMANS MAN",
+      "level": -1,
+      "text": "Humans are the most common race in the world, and make up the majority of\nadventurers. Although they have no special talents like the other races,\nthey are more versitile, being skilled in all four classes. Humans may\nalso train their primary stat higher than any other race, and are able to\ngain more benefit from magical devices."
+    }
+  },
+  "IDENTIFY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "IDENTIFY",
+      "level": 0,
+      "text": "Syntax: cast identify <object>\n\nThis spell reveals information about the object."
+    }
+  },
+  "ILLUSION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ILLUSION",
+      "level": -1,
+      "text": "The illusions spells are dedicated to deception and trickery.  They can be\nused to mask appearances, or create distractions for the party.  Currently,\nthe illusion group is very small, but it will be expanded in the future.\nOnly thieves and mages can cast illusion spells, which consist of the\nfollowing:\n\ninvis\t\tturns the target invisible\nmass invis\tturns the caster's group invisible\nventriloquate\tallows the caster to put words in someone's mouth"
+    }
+  },
+  "IMMORTAL IMMORT GOD WIZARD WIZ": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "IMMORTAL IMMORT GOD WIZARD WIZ",
+      "level": -1,
+      "text": "'Immortal' (often, simply, 'immort') refers to players who have reached\nthe highest attainable levels in the game.  Here, anyone of level 52\nor higher is an 'immortal.'  Immortals are capable of exceeding the\nusual game rules, in more drastic and pervasive ways as levels increase;\nexamples range from teleportation and invisibility to mortal sight to\ncreation of objects, removal of a player's privileges (channels,\nability to move, or even ability to log in), and ability to promote\nplayers to immortality.\n\nSince immortals can wreak havoc with game balance, they are (ideally)\na carefully-chosen and policed group.  An absolute rule of immortal\nbehavior is that no immortal can aid or assist any player without\nexplicit permission from the higher ranks; in other words, please\ndon't ask an immortal to help you kill a mob, gather EQ, etc, or\nyou'll likely be either politely or rudely refused, or referred to\nthis file.\n\nThe duties of immortals, and even the very reasons for their existence,\nare topics of continual and heated debate in various MUD forums, and are\nfraught with misconceptions, poor examples, and outrageous hypocrisies. :)"
+    }
+  },
+  "IMMTALK :": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "IMMTALK :",
+      "level": 51,
+      "text": "Syntax: immtalk <message>\n\timmtalk\n\nImmtalk sends a message to all immortals.  : is a synonym for immtalk.\nUsing this command with no argument turns off the immortal channel (or\nturns it back on)."
+    }
+  },
+  "IMOTD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "IMOTD",
+      "level": 52,
+      "text": "Welcome Immortal!\n\nYou are responsible for following the laws of immortal behavior. These can\nbe found by typing 'help laws' or 'help commandments'.\n\n* Excessive loading is not allowed, and is grounds for deletion.\n\n* Asking for promotion is grounds for instant deletion.\n\n* Type 'help jobs' to get some idea of what you should be doing.\n\n [[Hit Return to continue]]"
+    }
+  },
+  "INCOGNITO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "INCOGNITO",
+      "level": 52,
+      "text": "Toggling your incognito status will hide your presence from people outside the\nroom you are in, but leave you visible to those who are with you.  It takes\na level argument similar to wizinvis, people at that level or higher can see\nyou regarless of location."
+    }
+  },
+  "INFRAVISION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "INFRAVISION",
+      "level": 0,
+      "text": "Syntax: cast infravision <character>\n\nThis spell enables the target character to see warm-blooded creatures even\nwhile in the dark, and exits of a room as well."
+    }
+  },
+  "INVIS 'MASS INVIS' INVISIBLITY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "INVIS 'MASS INVIS' INVISIBLITY",
+      "level": 0,
+      "text": "Syntax: cast 'invisibility' <character>\nSyntax: cast 'invisibility' <object>\nSyntax: cast 'mass invis'\n\nThe INVIS spell makes the target character invisible.  Invisible characters\nwill become visible when they attack. It may also be cast on an object\nto render the object invisible.\n\nThe MASS INVIS spell makes all characters in the caster's group invisible,\nincluding the caster."
+    }
+  },
+  "JOBS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "JOBS",
+      "level": 52,
+      "text": "This is a partial list of what a god of any given level should be doing. It is\nnot complete yet.\n\nAngels:(52-54)\nAngels and higher level gods may not assist mortals directly in any way.\nAn Angel's main job is to help with quests (via switch), or possibly run\nsmall quest of their own -- but the rewards should be minimal.\n\nDeities:(55-56)\nDeities have two main roles: reimbursement and quest running.  Be skeptical\non reimburses, don't just hand out every piece of gear.  I suggest limiting\nreimbursements to 10 items at a time, and make sure that you do not load things\nat too high a level (new format items have hard-coded levels, so are not a\nproblem).  vnum and stat are useful for this.  You can draft Angels to help you\nrun a quest, and please note that quests should NOT have huge rewards -- the\nmain point should be to have fun.  Deities have no business trying to enforce\nrules -- the most you should do to a player is a NOCHANNEL or similar light\npunishment.\n\nGods:(57-59)\nGods can run quests just like Deities, and it's nice to do reimbursements too.\nHowever, the main role of a God is keeping the peace.  Gods can enforce (but\nnot create rules), using the various NOTELL-class commands, as well as deny,\npurge, freeze, and ban (but be careful with these commands!)  Gods are expected\nto help make the mud run more smoothly, power trips are strictly verbotten.\n\nNot fufilling the roles of your office can result in demotion or deletion."
+    }
+  },
+  "KICK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "KICK",
+      "level": -1,
+      "text": "Kicking allows the adventurer to receive an extra attack in combat, a powerful\nkick. However, a failed kick may throw an unwary fighter off balance.  Fighters\nand clerics are the most skilled at kicking, although thieves may also learn\nit."
+    }
+  },
+  "LAG": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "LAG",
+      "level": -1,
+      "text": "Twas dial-up, and the failing mudders did toil and struggle in the fray\nAll checksummed were the compressed files\nAnd the man pages, outdate\nBeware the Internet my son,\nThe noise that hangs, the lag that kills\nBeware the Usenet news, and shun the frivolous mud with frills\nSo took his his mudding client in hand\nLongtime the virtual foe he sought\nSo rested he by the T1s three and paused a while in swap\nAnd as in disk-drive swap he stayed,\nThe Internet, with lags of fame\nCame packetwise through the T1 line\nAnd error-checked as it came\nOne two one two and through and through, the mudding client went kill -9\nHe left it dead and with it's core he went a tracing back\nAnd hath thou slain the Internet?\nCome to my arms my disk-based bot!\nOh lag-free day, callooh callay, he chortled in his joy\nTwas dial-up, and the failing mudders did toil and struggle in the fray\nAll checksummed were the compressed files\nAnd the man pages, outdate."
+    }
+  },
+  "LOAD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "LOAD",
+      "level": 56,
+      "text": "Syntax: load mob <vnum>\n\tload obj <vnum> <level>\n\nThe load command is used to load new objects or mobiles (use clone to\nduplicate strung items and mobs).  The vnums can be found with the vnum\ncommand, or by stat'ing an existing mob or object.\n\nLoad puts objects in inventory if they can be carried, otherwise they are\nput in the room.  Mobiles are always put into the same room as the god. Old\nformat objects must be given a level argument to determine their power, new\nformat objects have a preset level that cannot be changed without set.\n(see also clone, vnum, stat)"
+    }
+  },
+  "LOG SNOOP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "LOG SNOOP",
+      "level": 55,
+      "text": "Syntax: log   <character>\n\tlog   all\n\tsnoop <character>\n\nLog <character> causes all of a character's commands to be logged into\nthe server's log file.  Like Freeze, it is a permanent character toggle.\nLogs may only be used by creators and implementors, and should be accompanied\nby mail to the implementors.\n\nCertain commands (Password) are protected against log.  Conversely, certain\ncommands (especially immortal commands) are always logged.\n\nLog all logs all character commands.  It is a server-wide toggle; it does not\npersist across reboots. Please do not use this unless you tell the imps.\n\nSnoop shows you a copy of all the input and output going to a character.\nThe character must have an open channel.  You may snoop more than one\ncharacter at a time. Try to respect privacy.\n\nSnoop yourself to cancel all outstanding snoops."
+    }
+  },
+  "LORE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "LORE",
+      "level": -1,
+      "text": "Lore is a general skill, consisting of knowledge of myths and legends. Use\nof the lore skill gives a chance of obtaining information on an object,\nconcerning its power and uses.  It also may occasionally increase the value\nof an object, because more will be known about its worth.  All classes may\nlearn lore, although thieves are best at it, and warriors find it very hard\nto use."
+    }
+  },
+  "MAGE 'MAGIC-USER' 'MAGE BASICS' 'MAGE DEFAULT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MAGE 'MAGIC-USER' 'MAGE BASICS' 'MAGE DEFAULT'",
+      "level": -1,
+      "text": "Mages specialize in the casting of spells, offensive ones in particular.\nMages have the highest-powered magic of any class, and are the only classes\nable to use the draconian and enchanting spell groups.  They are also very\nskilled at the use of magical items, though their combat skills are the\nweakest of any class.\n\nAll mages begin with skill in the dagger. Any other weapon skills must be\npurchased, at a very high rate.  The default skill selection for mages is\nas follows:\n\nskills:\nlore\t\tthe lore of magical items\n\nspell groups:\nbeguiling\tspells that control the mind\ncombat\t\toffensive magics, such as fireball and chill touch\ndetection\tinformational magics, such as detect magic and identify\nenhancement\tspells that maximize physical potential, such as haste\nillusion\tmagics for concealing and deceiving\nmaladictions\ta selection of curses fit for any witch\nprotective\tdefensive magics, ranging from armor to stone skin\ntransporation\tspells for getting from here to there\nweather\t\tspells for conjuring and mastering the elements"
+    }
+  },
+  "MALADICTIONS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MALADICTIONS",
+      "level": -1,
+      "text": "Maladictions are a group of curses and other baneful spells, designed to\ncripple, inconvenience, or torture, rather than kill outright.  These spells\nmay be cast by any class.\n\nblindess\tstrikes the target blind\ncurse\t\tprevents recalling and weakens the target in combat\nenergy drain\tdrains experience and mana, while strengthening the caster\nplague\t\tcauses the target to suffer a slow, painful death from plague\npoison\t\tweaker than plague, but often fatal\nslow\t\tslows your enemies down, reducing their rate of attack\nweaken\t\tdrains the strength of the target"
+    }
+  },
+  "MAP MAPS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MAP MAPS",
+      "level": -1,
+      "text": "Thanks to Ezra for drawing the originals of several maps on ROM."
+    }
+  },
+  "MASS HEALING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MASS HEALING",
+      "level": -1,
+      "text": "Syntax: cast 'mass healing'\n\nThe mass healing spell, as its name might suggest, performs a healing spell\non all players in the room.  It also throws in a refresh spell for good\nmeasure."
+    }
+  },
+  "MEDITATION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MEDITATION",
+      "level": -1,
+      "text": "This skill is similar to fast healing, but relies on the concentration and\nmantras to increase mana recovery when the character is sleeping or resting.\nThieves and warriors, with their troubled minds and violent attitudes, have\nmuch trouble learning to meditate."
+    }
+  },
+  "MEMORY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MEMORY",
+      "level": 52,
+      "text": "Syntax: memory\n\nMemory reports the size of your mud.\n\nThe 'Mobs' and 'Objs' lines report the number of types of mobiles and objects,\nnot the number of instances currently in the game.\n\nThe 'Strings' line shows memory used by area-file strings.  These strings have\na maximum limit, which is also shown.\n\nThe 'Perms' line shows permanently allocated memory blocks.  There is no limit\non the number and size of these blocks."
+    }
+  },
+  "MERC": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MERC",
+      "level": -1,
+      "text": "This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.\nMerc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and\nftp.math.okstate.edu.\nE-mail to 'majordomo@webnexus.com' to join the merc mailing list.\n\nThanks to ...\n  ... Diku Mud for starting it all.\n  ... The Free Software Foundation and DJ Delorie for kick-ass tools.\n  ... Copper Mud and Alfa Mud for releasing their code and worlds.\n  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.\n  ... Alander for many ideas and contributions.\n  ... John Brothers of Silly for permission to use Silly code and worlds.\n  ... Zrin for administering the mailing list.\n  ... Abaddon for proofreading our comm.c.\n  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.\n  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.\n  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.\n  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers\n      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,\n      and hours of enjoyment.\n\nAlso see \"help ROM\" for information about the Rivers of Mud code base."
+    }
+  },
+  "MOTD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MOTD",
+      "level": -1,
+      "text": "* You are responsible for knowing the rules (type 'rules').  Ignorance of\n  the rules is no excuse.\n* Important commands: help, commands, news, notes\n* Use the delete command to erase unwanted characters\n\n[[Hit Return to continue]]"
+    }
+  },
+  "MWHERE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "MWHERE",
+      "level": 53,
+      "text": "Syntax: mwhere <name>\n\nMwhere shows you the locations of all mobiles with a particular name."
+    }
+  },
+  "NEWBIE INFO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "NEWBIE INFO",
+      "level": -1,
+      "text": "Ah! Another mortal, seeking adventure.  You should go through mudschool first,\nto gain experience to face the trials outside.  Be sure to practice a weapon\nin the guild room, or your stay with us shall be very short indeed.  Type\n'equipment' to see what your are wielding, 'spells' to see your spells,\n'skills' to see your skills, and 'commands' for a list of commands. Help is\navailable on most commands and abilities.\n\nPlease type 'help rules' to see the Rules of ROM."
+    }
+  },
+  "NOCHANNEL NOEMOTE NOSHOUT NOTELL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "NOCHANNEL NOEMOTE NOSHOUT NOTELL",
+      "level": 55,
+      "text": "Syntax: nochannel <character>\n\tnoemote   <character>\n\tnoshout   <character>\n\tnotell    <character>\n\nNoemote, noshout, and notell are used to muffle other characters, by\npreventing them from emoting, shouting, and telling, respectively.\nCharacters who are noshout'ed or no'telled will also not receive those\nforms of communication.\n\nThe nochannel command is similar, but more drastic. It prevents the victim\nfrom using any of the channels (gossip, cgossip, Q/A, music) on the game.\nNochannels usually result from swearing or spamming on public channels."
+    }
+  },
+  "NORTH SOUTH EAST WEST UP DOWN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "NORTH SOUTH EAST WEST UP DOWN",
+      "level": 0,
+      "text": "Syntax: north\nSyntax: south\nSyntax: east\nSyntax: west\nSyntax: up\nSyntax: down\n\nUse these commands to walk in a particular direction."
+    }
+  },
+  "NOTE NOTES CHANGES NEWS PENALTY IDEA UNREAD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "NOTE NOTES CHANGES NEWS PENALTY IDEA UNREAD",
+      "level": -1,
+      "text": "The notes on ROM replace the bulletin boards and mail systems found on many\nother mud.  The following options are usable:\n\nreading notes:\nnote list\t: show all notes (unread notes are marked with an N)\nnote read\t: either by number, or read next to read unread notes\nnote remove\t: removes a note that you wrote or are the target of\nnote catchup\t: markes all notes as read\n\nwriting new notes:\nnote to\t\t: sets the to line (playername, clanname, immortal, or all)\nnote subject\t: sets the subject for a new note\nnote +\t\t: adds a line to a new note (i.e. note + hi guys!)\nnote -\t\t: remove a line from a note in progress\nnote clear\t: erase a note in progress\nnote show\t: shows the note you are working on\nnote post\t: posts a new note. This MUST be done to post a note.\n\nWhen you log in, you will be informed if there are unread notes waiting. Type\nnote read to scroll through them one at a time.\n\nFour other note directories exist, these are ideas, news, changes, and\npenalties (gods only).  They are used the exact same way, for example\nidea read 5 will read idea #5.  Posting to the news and changes boards is\nrestricted. The 'unread' command can be used to show your unread notes on\nall the note spools."
+    }
+  },
+  "OPEN CLOSE LOCK UNLOCK PICK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "OPEN CLOSE LOCK UNLOCK PICK",
+      "level": 0,
+      "text": "Syntax: open   <object|direction>\nSyntax: close  <object|direction>\nSyntax: lock   <object|direction>\nSyntax: unlock <object|direction>\nSyntax: pick   <object|direction>\n\nOPEN and CLOSE open and close an object or a door.\n\nLOCK and UNLOCK lock and unlock a closed object or door.  You must have\nthe requisite key to LOCK or UNLOCK.\n\nPICK can open a lock without having the key.  In order to PICK successfully,\nyou must practice the appropriate skill."
+    }
+  },
+  "ORDER": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ORDER",
+      "level": 0,
+      "text": "Syntax: order <character> command\nSyntax: order all command\n\nORDER orders one or all of your charmed followers (including pets) to\nperform any command.  The command may have arguments.  You are responsible\nfor the actions of your followers, and others who attack your followers\nwill incur the same penalty as if they attacked you directly.\n\nMost charmed creatures lose their aggresive nature (while charmed).\n\nIf your charmed creature engages in combat, that will break the charm."
+    }
+  },
+  "OUTFIT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "OUTFIT",
+      "level": 0,
+      "text": "The outfit command, usable by levels 5 and below, equips your character with\na new set of sub issue gear (banner, weapon, helmet, shield, and vest),\ncourtesy of the Mayor's warehouses.  Only empty equipment slots are affected."
+    }
+  },
+  "OWHERE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "OWHERE",
+      "level": 57,
+      "text": "Syntax: owhere <key word>\n\nowhere command will allow you to find the vnum and location of keywords.  The\nresult is the short description, vnum, and then the room or mob that carries It\nalong with the room vnum.\n\n<551hp 218m 454mv> owhere vorpal\n  1) the Vorpal Blade (10407) is carried by skeletal warrior [[Room 10426]]\n  2) the Vorpal Blade (10407) is carried by skeletal warrior [[Room 10428]]\n\nsee also: OLOAD"
+    }
+  },
+  "PARDON": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PARDON",
+      "level": 57,
+      "text": "Syntax: pardon <character> killer\n\tpardon <character> thief\n\nPardon pardons a player for their crimes.  Don't pardon a player unless you\nare sure they deserve it.  Being killed by Hassan acts as an automatic\npardon."
+    }
+  },
+  "PARRY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PARRY",
+      "level": -1,
+      "text": "If at first you fail to dodge, block it.  Parry is useful for deflecting\nattacks, and is succesful more often than dodge.  Parry requires a weapon for\nfull success, the hand-to-hand skill may also be used, but results in reduced\ndamage instead of no damage.  The best chance of parrying occurs when the\ndefender is skilled in both his and his opponent's weapon type."
+    }
+  },
+  "PASSWORD": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PASSWORD",
+      "level": 0,
+      "text": "Syntax: password <old-password> <new-password>\n\nPASSWORD changes your character's password.  The first argument must be\nyour old password.  The second argument is your new password.\n\nThe PASSWORD command is protected against being snooped or logged."
+    }
+  },
+  "PEACE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PEACE",
+      "level": 55,
+      "text": "Syntax: peace\n\nPeace causes all characters in a room to stop fighting. It also strips the\nAGGRESSIVE bit from mobiles."
+    }
+  },
+  "PEEK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PEEK",
+      "level": -1,
+      "text": "The peek skill is useful for seeing what a player or monster is carrying,\nthe better to use the steal command with.  More intelligent characters are\nharder to peek at.  All characters may learn peek, but thieves are the most\ncommon practicioners."
+    }
+  },
+  "PET PETS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PET PETS",
+      "level": 0,
+      "text": "You can buy pets in the pet shop.  You may own only one pet at a time, after\nthe old one dies you may purchase a replacement.\n\nNew pets are planned for a shop in New Thalos."
+    }
+  },
+  "PICK 'PICK LOCK'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PICK 'PICK LOCK'",
+      "level": -1,
+      "text": "Lock picking is one of the prime skills of thieves, allowing them to gain\naccess to many secured areas.  Lock picking chances are improved by\nintelligence, and hindered by the difficulty of the lock. Other classes may\nlearn to pick locks, but they will never find it easy."
+    }
+  },
+  "PKILL PKILLING PKILLER 'PLAYER KILLING' PSTEAL PSTEALING 'PLAYER STEALING'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PKILL PKILLING PKILLER 'PLAYER KILLING' PSTEAL PSTEALING 'PLAYER STEALING'",
+      "level": -1,
+      "text": "Player killing and player stealing are allowed to all clan members\n(including loners), provided the victim is is within 8 levels of the\ncharacter and is also in a clan.  This will flag you as a \"killer\" or\n\"thief\", allowing any character to attack, and also provoking action\nfrom the city guard."
+    }
+  },
+  "PLAGUE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PLAGUE",
+      "level": -1,
+      "text": "Syntax: cast 'plague' <target>\n\nThe plague spell infests the target with a magical disease of great virulence,\nsapping its strength and causing horrific suffering, possibly leading to\ndeath.  It is a risky spell to use, as the contagion can spread like\nwildfire if the victim makes it to a populated area."
+    }
+  },
+  "POISON": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "POISON",
+      "level": 0,
+      "text": "Syntax: cast poison <victim>\nSyntax: cast poison <object>\n\nThis spell reduces the strength of the victim by two, as well as reducing the\nvictim's regeneration rate. It may also be used to poison food, drink, or\na weapon in a fashion similar to envenom ('help envenom'), but with\ndrastically reduced effectiveness."
+    }
+  },
+  "POOFIN POOFOUT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "POOFIN POOFOUT",
+      "level": 52,
+      "text": "Syntax: poofin  <message>\nSyntax: pooffout <message>\n\nThe standard messages for goto are 'arrives in a swirling mist' and\n'leaves in a swirling mist'.  You can replace these messages with messages of\nyour own choosing using the poofin and poofout commands.  These messages\nmust include your name somewhere in the string.\n\nPoofin and poofout only show to characters who can see you.\n(see also goto)"
+    }
+  },
+  "PRACTICE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PRACTICE",
+      "level": 0,
+      "text": "Syntax: PRACTICE\nSyntax: PRACTICE <skill|spell>\n\nPRACTICE without an argument tells you your current ability level in all\nthe skills and spells available to you.  You can check this anywhere.\n\nPRACTICE with an argument practice that skill or spell.  Your learning\npercentage varies from 0% (unlearned) to a some maximum between 80% and 100%,\ndepending on your class.  You must be at a guild master to practice.\n\nThe higher your intelligence, the more you will learn at each practice\nsession.  The higher your wisdom, the more practice sessions you will\nhave each time you gain a level.  Unused sessions are saved until you\ndo use them."
+    }
+  },
+  "PRICES PRICE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PRICES PRICE",
+      "level": -1,
+      "text": "New Clan Hall Rooms cost 50 diamonds.\nBoosting the mana or healing gains for a room costs 250 diamonds.\nBoth in the same room costs double.\nMaking the Healer or Store\n lower costs 1,000 diamonds."
+    }
+  },
+  "PROMPT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PROMPT",
+      "level": -1,
+      "text": "Syntax: prompt\nSyntax: prompt all\nSyntax: prompt <%*>\n\nPROMPT with out an argument will turn your prompt on or off.\n\nPROMPT ALL will give you the standard \"<hits mana moves>\" prompt.\n\nPROMPT <%*> where the %* are the various variables you may set yourself.\n\n        %h :  Display your current hits\n        %H :  Display your maximum hits\n        %m :  Display your current mana\n        %M :  Display your maximum mana\n        %v :  Display your current moves\n        %V :  Display your maximum moves\n        %x :  Display your current experience\n\t%X :  Display experience to level\n        %g :  Display your gold held\n\t%s :  Display silver carried\n        %a :  Display your alignment\n        %r :  Display the room name you are in\n\t%e :  Display the exits from the room in NESWDU style\n\t%c :  Display a carriage return (useful for multi-line prompts)\n        %R :  Display the vnum you are in (IMMORTAL ONLY)\n        %z :  Display the area name you are in (IMMORTAL ONLY)\n\nExample:  PROMPT <%hhp %mm %vmv>\n        Will set your prompt to \"<10hp 100m 100mv>\""
+    }
+  },
+  "PROTECT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PROTECT",
+      "level": 59,
+      "text": "Syntax: protect <character>\n\nProtect is used to protect a character from unwanted snooping.  Removing\nprotected status from a character WILL be seen by that character."
+    }
+  },
+  "PROTECTIVE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PROTECTIVE",
+      "level": -1,
+      "text": "The protective spells are used to shield against harm, whether from spells or\nphysical attack.  They range from the weak armor spell to the sought-after\nsanctuary charm.  Also included in this group are several spells for dispeling\nhostile magics. Any class may use this group, which consists of the following\nspells:\n\narmor\t\tprovides the target with an extra layer of defense\ncancellation\ta powerful dispel, used for removing spells from friends\ndispel magic\tremoves spells from enemies, not as effective as cancel\nfireproof\tshields items from the harmful effects of fire and acid\nprotection evil\tprovides defense from the attacks of evil creatures\nprotection good protects from the attacks of good beings\nsanctuary\treduces all damage taken by the recipient by half\nshield\t\tputs a shimmering shield between you and your enemies\nstoneskin\tturns skin hard as stone, providing a huge armor boost"
+    }
+  },
+  "PURGE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "PURGE",
+      "level": 56,
+      "text": "Syntax: purge\n\tpurge <character>\n\nPurge is used to clean up the world.  Purge with no arguments removes all the\nNPC's and objects in the current room.  Purge with an argument purges one\ncharacter from anywhere in the world.\n\nPurge will not get rid of PC's, or objects or mobiles with a NOPURGE flag\nset (i.e. the pit, the fountain, shopkeepers, Hassan).  Mobiles may be\npurged if they are called directly by name."
+    }
+  },
+  "QUIT RENT SAVE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "QUIT RENT SAVE",
+      "level": 0,
+      "text": "Syntax: QUIT\nSyntax: RENT ... not!\nSyntax: SAVE\n\nSAVE saves your character and object.  The game saves your character every\n15 minutes regardless, and is the preferred method of saving.  Typing save\nwill block all other command for about 20 seconds, so use it sparingly.\n(90+ players all typing save every 30 seconds just generated too much lag)\n\nSome objects, such as keys and potions, may not be saved.\n\nQUIT leaves the game.  You may QUIT anywhere.  When you re-enter the game\nyou will be back in the same room.\n\nQUIT automatically does a SAVE, so you can safely leave the game with just one\ncommand.  Nevertheless it's a good idea to SAVE before QUIT.  If you get into\nthe habit of using QUIT without SAVE, and then you play some other mud that\ndoesn't save before quitting, you're going to regret it.\n\nThere is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave."
+    }
+  },
+  "REBOOT SHUTDOWN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "REBOOT SHUTDOWN",
+      "level": 59,
+      "text": "Syntax: reboot\n\tshutdown\n\nReboot shuts down the server.  When the normal 'startup' script is used\nto control the server, a delay of fifteen seconds will ensue (to allow\nold connections to die), followed by a reboot.\n\nShutdown shuts down the server and prevents the normal 'startup' script\nfrom restarting it."
+    }
+  },
+  "RECALL /": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "RECALL /",
+      "level": 0,
+      "text": "Syntax: RECALL\n\nRECALL prays to Mota for miraculous transportation from where you are\nback to the Temple of Midgaard.  '/' is a synonym for RECALL.\n\nIf you RECALL during combat, you will lose experience (more than for fleeing),\nand you will have a chance of failing (again, more than for fleeing).  This\nchance is based on your recall skill, although a 100% recall does not\ninsure success.\n\nRECALL costs half of your movement points.\n\nRECALL doesn't work in certain god-forsaken rooms.  Characters afflicted by a\ncurse may not recall at all."
+    }
+  },
+  "REFRESH": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "REFRESH",
+      "level": 0,
+      "text": "Syntax: cast refresh <character>\n\nThis spell refreshes the movement points of a character who is out of movement\npoints."
+    }
+  },
+  "RESCUE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "RESCUE",
+      "level": -1,
+      "text": "A friend in need is a friend indeed.  And when in combat, a warrior with\nthe rescue skill is just the friend you need.  Rescue allows you to intercede\nin combat, protecting weaker characters from bodily harm. Hopefully the\nfavor will be returned.  Success in rescuing depends on the skill rating, as\nwell as a comparision of level, dexterity, and speed between the character and\nthe target. (note: you rescue a friend, not the monster)"
+    }
+  },
+  "REST SLEEP STAND WAKE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "REST SLEEP STAND WAKE",
+      "level": 0,
+      "text": "Syntax: rest\nSyntax: sleep\nSyntax: stand\nSyntax: wake\n\nThese commands change your position.  When you REST or SLEEP, you\nregenerate hit points, mana points, and movement points faster.\nHowever, you are more vulnerable to attack, and if you SLEEP,\nyou won't hear many things happen.\n\nUse STAND or WAKE to come back to a standing position.  You can\nalso WAKE other sleeping characters."
+    }
+  },
+  "RESTORE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "RESTORE",
+      "level": 56,
+      "text": "Syntax: restore <character>\n\trestore room\n\trestore all\n\nRestore restores full hit points, mana points, and movement points to the\ntarget character.  It also heals poison, plague, and blindness.\n\nRestore room (or restore with no argument) performs a restore on every player\nin the room, restore all does the same for all connected players. Restore all\nis only usable by creators and implementors.  Restore should be used sparingly\nor not at all."
+    }
+  },
+  "ROM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "ROM",
+      "level": -1,
+      "text": "ROM started in early February 1993, using Merc 1.0 code. In July of 1993,\nROM II was started, eventually replacing the original ROM.  ROM was up for\na little over a year, after which the code (version 2.3) was released,\nand various other ROM muds were started, including Rivers of Mud under\na new management (Zump's ROM), at rom.org 9000.\n\nAlander's current project is Athen, the sequel to the ROM code. It can\nbe found on Rehobaom's Legacy, at hypercube.org 9000.\n\nThe following people contributed to the ROM flavor of the merc base code:\n\nSocials --\n    Kelsey and Liralen\n\nNew, Improved Valhalla --\n    Liralen\n\nPuff's new special proc and improved poofin/poofout code --\n    Seth\n\nMaps and map shop --\n    Ezra, Regnan (Olympus)\n\nNirvana zone --\n    Forstall (mobiles rewritten by Alander)\n\nMob Factory --\n    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)\n\nGeographically correct Midgaard (tm) --\n    Alander\n\nIdeas and playtesting --\n    Thousands of dedicated mudders around the world\n\nThe New Thalos area was donated by Onivel of Jedi, who was also the originator\nof the ASCII flags used in the zone files\n\nBeta testing --\n    Ken Blosser, Doug Araya, and Sherene Neil all helped with bugs reports\n    and suggestions, saving a lot of headaches\n\nBug reports --\n    Thanks to Shad Muegge, Jerome Despret, Phoenix, Will Hongach,\n    Erwin S. Andreasen, Adam Debus and especially Gary Turkington\n    (author of the ROM FAQ) for help spotting bugs\n\nROM 2.4 was developed during my time with Moosehead mud, and the release\nshares many of the features I wrote while I was there.  Additional code\nwas written by Seth Scott (the new poofin/poofout), and many contributions\nand ideas from the Merc list were used.  Portions of Rusty's work on\nMoosehead also remain.\n\nThe new features of 2.4 were largely produced in bull sessions with\nGabrielle Taylor and Brian Moore, without whom this release wouldn't\nhave happened.  In particular, the new privacy code, furniture, and\nwiznet are the results of Gabrielle's ideas.\n\nChanges to the standard diku mob and object format, as well as the changes\nto Merc 2.1 source code, were done by Alander over many a late night of\nhair-pulling. Hope you enjoy it.\n\n(my apologies if anyone was forgotten in this list)"
+    }
+  },
+  "RULES": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "RULES",
+      "level": -1,
+      "text": "These are the rules of ROM.  For other matters, use common sense.\n\n* Limited player stealing or player killing.\n\n* Your presence here is a privilege not a right. Obey any orders from gods, and\n  you will be fine.  Deletion does not require a reason, appeals are to be sent\n  to the implementors.\n\n* Sitting around idle with a client is hazardous to your health. If we catch\n  you doing it, you will lose half your playing time.\n\n* No multiple logins, multiple playing, or helping your own characters with\n  other characters you own -- by any arrangment.\n\n* No kill stealing.  This means you cannot attack a mob someone else is\n  fighting, unless they ask you to. Also avoid attacking fleeing mobs.\n\n* Cheating will not be tolerated.  This includes accepting favors from gods\n  and exploiting bugs. If you find a bug, report it, then do not use it.\n\n* Changes to these rules are at the discretion of the immortals, and may be\ndone without warning, notice, or even evidence of sanity. Walk softly,\nand carry a black stick."
+    }
+  },
+  "SACRIFICE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SACRIFICE",
+      "level": 0,
+      "text": "Syntax: sacrifice <object>\n\nSACRIFICE offers an object to Mota, who may reward you.\nThe nature of the reward depends upon the type of object."
+    }
+  },
+  "SANCTUARY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SANCTUARY",
+      "level": 0,
+      "text": "Syntax: cast sanctuary  <character>\n\nThe SANCTUARY spell reduces the damage taken by the character from any attack\nby one half."
+    }
+  },
+  "SCROLL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SCROLL",
+      "level": 0,
+      "text": "Syntax: scroll\nSyntax: scroll <number>\n\nThis command changes the number of lines the mud sends you in a page (the\ndefault is 24 lines).  Change this to a higher number for larger screen\nsizes, or to 0 to disabling paging."
+    }
+  },
+  "SET": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SET",
+      "level": 58,
+      "text": "Syntax: set mob   <mobile> <field> <value>\n\tset obj   <object> <field> <value>\n\tset room  <number> <field> <value>\n\tset skill <char>   <name>  <rating>\n\tset skill <char>   all     <rating>\n\nThe set command is used to change the numerical values of the various data\nstructures. Type set <class> without an argument to see a listing of options.\nSet skill all (pc's only) will set all the character's skills to the value\ngiven.  Use string to change the strings on an object or mobile.\n(see also string, stat)"
+    }
+  },
+  "SHIELD 'STONE SKIN'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SHIELD 'STONE SKIN'",
+      "level": 0,
+      "text": "Syntax: cast shield\nSyntax: cast 'stone skin'\n\nThese spells protect the caster by decreasing (improving) the caster's armor\nclass.  SHIELD provides 20 points of armor.  STONE SKIN provides 40 points of\narmor."
+    }
+  },
+  "SKILLS SPELLS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SKILLS SPELLS",
+      "level": 0,
+      "text": "The skills and spells commands are used to display your character's list\nof available skills (or spells, as the case may be).  They are listed in\norder of level, with mana cost (for spells) or percentage (for skills)\nlisted where applicable."
+    }
+  },
+  "SLAY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SLAY",
+      "level": 57,
+      "text": "Syntax: slay <character>\n\nSlay kills a character in cold blood, no saving throw.  Best not to use this\ncommand on players if you enjoy being a god."
+    }
+  },
+  "SLEEP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SLEEP",
+      "level": 0,
+      "text": "Syntax: cast sleep <victim>\n\nThis spell puts its victim to sleep."
+    }
+  },
+  "SLOW": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SLOW",
+      "level": -1,
+      "text": "Syntax: cast 'slow' <target>\n\nDespite popular mythology, slow is not the opposite of haste, but is a spell\nwith it's own unique set of effects.  When cast on an unfortunate victim,\nit slows its movements, making it easier to hit and reducing its rate\nof attack.  The effect of slow also double movement costs and halve healing\nrates, due to reduced metabolism."
+    }
+  },
+  "SMOTE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SMOTE",
+      "level": 52,
+      "text": "Syntax: smote <action>\n\nSmote works exactly like pmote, except you must place your name somewhere in\nthe string, and it will show that string to everyone in the room."
+    }
+  },
+  "SOCIALS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SOCIALS",
+      "level": -1,
+      "text": "This is a complete list of socials for this MUD:\nCompiled originally by: Sara\naccuse       adjust      air          apologize     applaud     babble\nbark         bcatch      beckon       beer          bearhug     beg\nbird         bkiss       bleed        blink         blush       boast\nboggle       bonk        bounce       bow           brb         burp\ncackle       caress      charge       cheer         chuckle     clap\nclaw         collapse    comfort      comb          cough       cover\ncower        cringe      criticize    cry           cuddle      curse\ncurtsey      dance       daydream     drool         duck        embrace\nexplode      eyebrow     faint        fart          flare       flash\nflex         flinch      flip         flirt         flutter     fondle\nfrench       frown       fume         gasp          giggle      glare\ngoose        grimace     grin         groan         grope       grovel\ngrowl        grumble     hand         head          hiccup      highfive\nhop          howl        hug          hush          ignore      innocent\ninsane       judge       kiss         knee          laugh       lick\nlove         lust        massage      meditate      moan        moon\nmosh         mutter      nibble       nod           nudge       nuzzle\npant         passout     pat          peck          pie         pinch\npissed       plead       point        poke          ponder      pout\npray         propose     puke         punch         purr        ramble\nraspberry    rofl        roll         rub           ruffle      run\nscratch      scream      serenade     shake         shiver      shrug\nsigh         sing        slap         slobber       smile       smirk\nsnap         snarl       sneeze       snicker       sniff       snore\nsnort        snowball    snuggle      sob           spam        spank\nspit         squeal      squeeze      squirm        stare       stretch\nstrip        stroke      strut        sulk          swoon       tackle\ntease        thank       threaten     tickle        tip         tongue\ntwiddle      type        undress      view          wave        whine\nwhistle      wiggle      wince        wink          wonder      worry\nworship      yawn        yeehaw       yodel         rose\tlaces\ntank\t     starve\t aargh\t      homework\t    puff\tdiffer\nyae\t     lightbulb   voodoo       ogg\t    confused\tbeam\nbite\t     discodance  scuff        whap\t    lag\t\tchortle\nzerbert      twitch"
+    }
+  },
+  "SOCKETS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SOCKETS",
+      "level": 56,
+      "text": "Syntax: sockets\n\tsockets <name>\n\nSOCKETS reports all of the visible users connected to the server, including\nusers in the process of logging in.  The two numbers inside brackets are the\nchannel number and the 'connected' state.  The 'connected' states are listed in\nmerc.h: 0 is CON_PLAYING; non-zero values are various states of logging in.\n\nThe optional name argument shows the site of a player, or optional can be used\nto identify switched gods (i.e. socket orc shows the name of anyone switched\ninto an orc)."
+    }
+  },
+  "SPLIT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SPLIT",
+      "level": -1,
+      "text": "Syntax: SPLIT <silver> <gold>\n\nSPLIT splits some coins  between you and all the members of your\ngroup who are in the same room as you.  It's customary to SPLIT\nthe loot after a kill.  The first argument is the amount of silver\nthe split (0 is acceptable), and the second gold (optional).\nExamples:\nsplit 30 \t--> split 30 silver\nsplit 20 50\t--> split 20 silver, 50 gold\nsplit  0 10\t--> split 10 gold"
+    }
+  },
+  "SSET": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SSET",
+      "level": 58,
+      "text": "Syntax: sset mob   <mobile> <field> <value>\n\tsset <char> <name> <rating>\n\tsset <char> all <rating>\n\nThe sset command is a shortcut for `set skill`.\n(see also set)"
+    }
+  },
+  "STAT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "STAT",
+      "level": 53,
+      "text": "Syntax: stat <name>\n\tstat mob  <name>\n\tstat obj  <name>\n\tstat room <number>\n\nThe stat command gives you detailed information on an object, mobile, or room\nwithin the game.  Without a class argument, the command will return a object\n(if found), a mobile (if no object exists, but a mobile does), or a room\n(if a number is  given).  Stat room with no argument stats the room you are\nstanding in.  Stat can be used to find room vnums for goto.\n(see also goto, transfer)"
+    }
+  },
+  "STEAL": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "STEAL",
+      "level": -1,
+      "text": "Theft is the defining skill of the thief, and is only available to that class.\nIt allows items to be stolen from the inventory of monsters and characters,\nand even from shops!  But beware, shop keepers gaurd their merchandise\ncarefully, and attempting to steal from a character earns you a THIEF flag\nif you are caught (making you free game for killing)."
+    }
+  },
+  "STRING": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "STRING",
+      "level": 55,
+      "text": "Syntax: string obj <field> <string>\n\tstring mob <field> <string>\n\nThe string command changes the various strings associated with an object or\nmobile.  A full list of fields can be viewed by typing string obj or string\nmob.  Sorry, multi-line strings are not yet supported."
+    }
+  },
+  "SUICIDE DELETE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SUICIDE DELETE",
+      "level": 0,
+      "text": "Use the delete command to erase unwanted characters, so the name will be\navailable for use.  This command must be typed twice to delete a character,\nand you cannot be forced to delete.  Typing delete with an argument will\nreturn your character to 'safe' status if you change your mind after the\nfirst delete."
+    }
+  },
+  "SUMMARY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SUMMARY",
+      "level": -1,
+      "text": "MOVEMENT                            GROUP\nnorth south east west up down       follow group gtell split\nexits recall\nsleep wake rest stand\n\nOBJECTS                             INFORMATION / COMMUNICATION\nget put drop give sacrifice         help credits commands areas\nwear wield hold                     report score time weather where who\nrecite quaff zap brandish           description password title\nlock unlock open close pick         bug idea typo\ninventory equipment look compare    gossip cgossip say shout tell yell\neat drink fill                      emote pose\nlist buy sell value                 note\n\nCOMBAT                              OTHER\nkill flee kick rescue disarm        ! save quit\nbackstab cast wimpy                 practice train\n\n\nFor more help, type 'help <topic>' for any command, skill, or spell.\nAlso help on: DAMAGE DEATH EXPERIENCE NEWS STORY TICK WIZLIST"
+    }
+  },
+  "SUMMON": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SUMMON",
+      "level": 0,
+      "text": "Syntax: cast summon <character>\n\nThis spell summons a character from anywhere else in the world into your room.\nCharacters who are fighting may not be summoned."
+    }
+  },
+  "SWITCH RETURN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "SWITCH RETURN",
+      "level": 54,
+      "text": "Syntax: switch <character>\n\treturn\n\nSwitch switches you into the body of another character (who must not\nalready have a descriptor, e.g. you can't switch into a PC). You also cannot\nswitch into link-dead PCs.\n\nReturn returns you to your original body."
+    }
+  },
+  "TELEPORT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TELEPORT",
+      "level": 0,
+      "text": "Syntax: cast <teleport>\n\nThis spell takes you from your current location to a random location somewhere\nin the world."
+    }
+  },
+  "THIEF 'THIEF BASICS' 'THIEF DEFAULT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "THIEF 'THIEF BASICS' 'THIEF DEFAULT'",
+      "level": -1,
+      "text": "Thieves are a marginal class. They do few things better than any other class,\nbut have the widest range of skills available.  Thieves are specialists at\nthievery and covert actions, being capable of entering areas undetected where\nmore powerful adventurers would fear to tread.  They are better fighters than\nclerics, but lack the wide weapon selection of warriors.\n\nAll thieves begin with the dagger combat skill, and are learned in steal as\nwell.  Any other weapon skills must be purchased, unless the default selection\nis chosen.  This default skill package includes:\n\nskills:\nmace\t\tthe use of maces and other blunt weapons\nsword\t\tswordplay and fencing\nbackstab\tthe art of hitting your opponent by surprise\ndisarm\t\tused to deprive your opponent of his weapon\ndodge\t\tthe best way to take a punch is not to be there\nsecond attack\twith training, the skilled thief can hit twice as fast\ntrip\t\ta good way to introduce an opponent to the floor\nhide\t\tthe art of remaining undetected in a room\npeek\t\tused to look into a person's belongings\npick lock\ta useful skill for breaking and entering\nsneak\t\twith this skill, a thief can walk into a room undetected"
+    }
+  },
+  "TICK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TICK",
+      "level": 0,
+      "text": "Many of the game actions are based upon interval timers, including combat,\nmost autonomous monster actions, hp/mana/move regeneration, spell duration,\nweather, and area resetting.\n\nOf these timers, the hp/mana/move regeneration timer is popularly called the\n'tick'.  Ticks on this mud average 30 seconds of real time, but the actual\namount varies randomly from 15 seconds to 45 seconds.\n\nArea resetting happens roughly every 3 minutes if no one is in the area; less\noften (15 minutes) if some one is.  Also note that objects lying on the ground\nwill not be regenerated if anyone is in the area when it resets."
+    }
+  },
+  "TITLE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TITLE",
+      "level": 0,
+      "text": "Syntax: title <string>\n\nSets your title to a given string.\n\nThe game supplies a title when your character is created and when you\nadvance a level.  You can use TITLE to set your title to something else."
+    }
+  },
+  "TRAIN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TRAIN",
+      "level": 0,
+      "text": "Syntax: train <str int wis dex con hp mana>\n\nTRAIN increases one of your attributes.  When you start the game, your\ncharacter has standard attributes based on your class, and several\ninitial training sessions.  You can increase your attributes by\nusing these sessions at a trainer (there are several in town).\n\nIt takes one training session to improve an attribute, or to increase\nmana or hp by 10.  You receive one session per level.\n\nThe best attributes to train first are WIS and CON.  WIS gives you more\npractice when you gain a level.  CON gives you more hit points.\nIn the long run, your character will be most powerful if you train\nWIS and CON both to 18 before practising or training anything else."
+    }
+  },
+  "TRANSFER TELEPORT": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TRANSFER TELEPORT",
+      "level": 55,
+      "text": "Syntax: transfer <character>\n\ttransfer all\n\ttransfer <character> <location>\n\ttransfer all         <location>\n\nTransfer transfers the target character, or ALL player characters,\nto your current location (default) or to a specified location. Trans all\nshould almost never be used, as 100 players popping into one room can have\nhorrible effects on slow links. Teleport is a synonym for transfer."
+    }
+  },
+  "TRANSPORTATION": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TRANSPORTATION",
+      "level": -1,
+      "text": "The transportation group is used for travel, whether by flight, magical\nteleportation, or walking through walls.  All classes may learn these spells,\nwhich are among the most useful in the game.\n\nfly\t\tallows the target to fly over nearly all obstacles\ngate\t\ttransports the caster to the target\nnexus\t\tforms a two-way portal to a far off destination\npass door\tallows the caster to walk through walls\nportal\t\tcreates a one-way portal to a destination\nsummon\t\ttransports the target to the caster\nteleport\tsends the target to a random location\nword of recall\ttransports the caster to safety in Midgaard"
+    }
+  },
+  "TRIP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TRIP",
+      "level": -1,
+      "text": "Back by popular demand.  Trip is a somewhat dastardly attack, and involves\nusing any one of a number of methods to bring your opponent down to the ground.\nTripping large monsters is generally not a good idea, and agile ones will\nfind the attack easy to avoid.  Thieves and warriors may learn trip."
+    }
+  },
+  "TRUST": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "TRUST",
+      "level": 60,
+      "text": "Syntax: trust <character> <level>\n\nTRUST sets a character's trust to the specified level.  This is similar to\nadvancing the character for accessing immortal commands, but has no effect\non combat strength, et cetera.  You can give more trust to mortal (or\nimmortal) characters to give them access to more power without messing up\nthe character.  You can also restrict a player's trust to less than their\nnatural level.\n\nA trust of 0 means to use the character's natural level again."
+    }
+  },
+  "VENTRILOQUATE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "VENTRILOQUATE",
+      "level": 0,
+      "text": "Syntax: cast ventriloquate <speaker> <message>\n\nThis spell throws your voice, making it appear that some other object or\ncharacter in the room is saying your message.  Victims who make their saving\nthrow will know that someone is using ventriloquism, but not who.  Victims who\nfail their saving throw will think that the object or character really did say\nyour message."
+    }
+  },
+  "VISIBLE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "VISIBLE",
+      "level": 0,
+      "text": "VISIBLE cancels your hiding and sneaking, as well as any invisibility,\nmaking you visible again."
+    }
+  },
+  "VNUM": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "VNUM",
+      "level": 56,
+      "text": "Syntax: vnum <name>\n\tvnum <obj or mob> <name>\n\tvnum skill <name>\n\nVnum finds all objects and mobiles with a particular name, and prints out\nthe results.  Use vnum obj or vnum mob to limit the search.  This vnum is\nvery useful for loading. Vnum skill returns the skill number (for set) and\nthe slot number (for making new zones) of a skill name.\n(see also load)"
+    }
+  },
+  "WANDS STAVES SCROLLS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WANDS STAVES SCROLLS",
+      "level": -1,
+      "text": "Magical items require training to use properly.  If your character lacks the\nnecessary skill to use an item, he will fail, possibly destroying it.  The\nitem skills are as follows:\n\nscrolls\t\tThe reading of magical scrolls and books (see 'help recite')\nstaves\t\tThe use of staves and similar devices (see 'help brandish')\nwands\t\tThe use of wands and similar items (see 'help zap')"
+    }
+  },
+  "WARRIOR 'WARRIOR BASICS' 'WARRIOR DEFAULT'": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WARRIOR 'WARRIOR BASICS' 'WARRIOR DEFAULT'",
+      "level": -1,
+      "text": "Warriors live for combat and the thrill of battle. They are the best fighters\nof all the classes, but lack the subtle skills of thieves and the magical\ntalents of mages and priests.  Warriors are best for those who don't mind\ntaking the direct approach, even when another method might be called for.\n\nWarriors begin with skill in the sword, and gain a second attack in combat.\nOther weapon skills may be purchased cheaply, or gained in the default skill\npackage, which includes the following:\n\nskills:\nweaponsmaster\tthis group provides knowledge of all weapon types\nshield block\tthe art of parrying with a shield\nbash\t\ta forceful rush with the body, designed to flatten your foes\nenhanced damage\tthis skill multiplies your damage in battle\nparry\t\tthe art of parrying with weapons\nrescue\t\tallows you to take the blows aimed for a companion\nthird attack\tallows the skilled warrior to land three blows in one round"
+    }
+  },
+  "WEAKEN": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WEAKEN",
+      "level": 0,
+      "text": "Syntax: cast weaken <victim>\n\nThis spell reduces the strength of the victim by two points."
+    }
+  },
+  "WEATHER": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WEATHER",
+      "level": -1,
+      "text": "These spells allow the caster to manipulate local weather conditions, as well\nas summon fog clouds, lightning, or even electrical glows.  This group is\nusable by all classes.\n\ncall lightning\tsummons a huge bolt from the heavens, if the weather is right\ncontrol weather\tchanges the weather in the manner desired by the caster\nfaerie fire\tsurrounds the target in a glowing aura\nfaerie fog\treveals all hidden creatures in the room\nlightning bolt\tsends a bolt of electricity into the target\n\n(the weather command, unrelated to this group, shows local weather conditions)"
+    }
+  },
+  "WHERE": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WHERE",
+      "level": 0,
+      "text": "Syntax: where\nSyntax: where <character>\n\nWHERE without an argument tells you the location of visible players in the same\narea as you are.\n\nWHERE with an argument tells you the location of one character with that name\nwithin your area, including monsters."
+    }
+  },
+  "WHO": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WHO",
+      "level": -1,
+      "text": "Syntax: who\nSyntax: who <level-range>\nSyntax: who <class or race>\nSyntax: who <clan name>\nSyntax: who <class or race> <level-range> <clan name>\n\nWHO shows the people currently in the game.  Some people may choose to\nremain unseen and won't appear on the WHO\n\nWHO without any arguments shows all of the (visible) people currently playing.\n\nWith arguments, WHO can show players of certain classes or levels.\nFor example:\n\nwho 10          lists all players of level 10 or above\nwho 15 20       lists all players between level 15 and 20\nwho cleric      lists all clerics playing\nwho immortal    lists all immortals playing\nwho cleric 1 5  lists all clerics between levels 1 and 5\nwho elf cleric  lists all elven clerics\nwho demise e m  lists all elven mages in Demise (hi Alander!)\n\nClasses and races may be abbreviated."
+    }
+  },
+  "WHOIS": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WHOIS",
+      "level": -1,
+      "text": "Syntax: whois <name>\nThe whois command identifies any user who matches the name given. For\nexample, 'whois a' shows all characters whose name begins with A."
+    }
+  },
+  "WIMPY": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WIMPY",
+      "level": 0,
+      "text": "Syntax: wimpy\nSyntax: wimpy <number>\n\nWIMPY sets your wimpy value.  When your character takes damage that reduces\nyour hit points below your wimpy value, you will automatically attempt to flee.\nYou will only flee if your character is not in a wait state -- i.e. has not\nbeen using combat commands like cast, trip and bash, and has not been\ntripped or bash by an enemy.\n\nWIMPY with no argument sets your wimpy value to 20% of your maximum hit points.\n\nSome monsters are wimpy."
+    }
+  },
+  "WIZHELP": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WIZHELP",
+      "level": 51,
+      "text": "Syntax: wizhelp\n\nWizhelp provides a list of all the immortal commands."
+    }
+  },
+  "WIZLIST": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WIZLIST",
+      "level": -1,
+      "text": ".\n        ________            *********************           ________\n      /+_+_+_+_+_\\          ** The Gods of ROM **         /+_+_+_+_+_\\\n      \\__________/          *********************         \\__________/\n        |::XXXX|                                            |::XXXX|\n        |X::XXX|              Implementors [[60]]             |X::XXX|\n        |XX::XX|              *****************             |XX::XX|\n        |XXX::X|     \t\t\t\t            |XXX::X|\n        |XXXX::|                                            |XXXX::|\n        |::XXXX|                                            |::XXXX|\n        |X::XXX|                Creators [[59]]               |X::XXX|\n        |XX::XX|                *************               |XX::XX|\n        |XXXX::|         \t\t\t            |XXXX::|\n        |::XXXX|                                            |::XXXX|\n/<<>>\\/<<>>\\/<<>>\\/<<>>\\                            /<<>>\\/<<>>\\/<<>>\\/<<>>\\\n\\<<>>/\\<<>>/\\<<>>/\\<<>>/      Supremacies [[58]]      \\<<>>/\\<<>>/\\<<>>/\\<<>>/\n       |.  /  . |             ****************             |.  /  . |\n       | .//\\.  |            \t\t                   | .//\\.  |\n       |.  /  . |            \t\t                   |.  /  . |\n       | .//\\.  |                                          | .//\\.  |\n       |.  /  . |               Deities [[57]]               |.  /  . |\n       | .//\\.  |               ************               | .//\\.  |\n       |.  /  . |           \t\t      \t           |.  /  . |\n       | .//\\.  |                                          | .//\\.  |\n       | .//\\.  |                Gods [[56]]                 | .//\\.  |\n       |.  /  . |                *********                 |.  /  . |\n       | .//\\.  |              \t                           | .//\\.  |\n       | .//\\.  |                                          | .//\\.  |\n       |.  /\\ . |              Immortals [[55]]              |.  /  . |\n       | .//\\.  |              **************              | .//\\.  |\n       |.  /  . |              \t\t                   |.  /  . |\n       | .//\\.  |                                          | .//\\.  |\n       |.  /  . |               DemiGods [[54]]              |.  /  . |\n       | .//\\.  |               *************              | .//\\.  |\n       |.  /\\ . |                  \t  \t           |.  /  . |\n       |.  /  . |                                          |.  /  . |\n       | .//\\.  |               Angels [[53]]                | .//\\.  |\n       |.  /  . |               ***********                |.  /  . |\n       |.  /  . |             \t   \t                   |.  /  . |\n       | .//\\.  |             \t\t                   | .//\\.  |\n       | .//\\.  |                                          | .//\\.  |\n       |.  /  . |               Avatars [[52]]               |.  /  . |\n       | .//\\.  |               ************               | .//\\.  |\n       |.  /  . |                 \t                   |.  /  . |\n       |.  /  . |                  \t                   |.  /  . |\n        \\ //\\. /                                            \\ //\\. /\n         \\ /. /                                              \\ /. /\n          \\ //                                                \\ //\n           \\/                                                  \\/\n-By Liralen"
+    }
+  },
+  "WIZLOCK NEWLOCK": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WIZLOCK NEWLOCK",
+      "level": 56,
+      "text": "Syntax: wizlock\n\tnewlock\n\nWizlock and newlock both block login attempts to ROM. Wizlock locks\nout all non-gods (i.e. level less than 51), except for link-dead players who\nare returning.  Newlock only locks out new character generation, typically\nused for preventing a spammer from returning.  Wizlocking should be avoided,\nand newlocking should be accompanied by mail or a note to the imps.\n\nA god must be at least Supreme level to wizlock the game."
+    }
+  },
+  "WIZNET": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "WIZNET",
+      "level": 52,
+      "text": "Syntax: wiznet\n\twiznet show\n\twiznet status\n\twiznet <field>\n\nWiznet is sort of an immortal news service, to show important events to\nthe wiznetted immoral.  Wiznet by itself turns wiznet on and off,\nwiznet show lists all settable flags (they are not detailed here),\nwiznet status shows your current wiznet settings, and wiznet <field> toggles\na field on and off.  The events should be self-explanatory, if they are not,\nfiddle with them a while.  More events are available at higher levels."
+    }
+  },
+  "at": {
+    "__class__/rom24.handler_game.HELP_DATA": {
+      "keyword": "at",
+      "level": 58,
+      "text": "Syntax: at\n\nTHIS NEEDS A HELPFILE"
+    }
+  }
+}

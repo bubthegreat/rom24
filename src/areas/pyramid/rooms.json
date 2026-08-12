@@ -1,0 +1,5432 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A vast desert stretches for miles, the sands constantly shifting around you.\nRising out of the sand to the east you see a mighty pyramid.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Nothing but sand as far as the eye can see.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8700 to 8700",
+            "to_room": null,
+            "to_room_vnum": 8700
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The sands of the desert continue onward towards the pyramid.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8700 to 8701",
+            "to_room": null,
+            "to_room_vnum": 8701
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Nothing but sand as far as the eye can see.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8700 to 8700",
+            "to_room": null,
+            "to_room_vnum": 8700
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Across the hot burning sands you see a small oasis and some tents.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8700 to 5057",
+            "to_room": null,
+            "to_room_vnum": 5057
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The massive pyramid rises out of the sand, a monument to long-dead pharoahs.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Great Eastern Desert",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8700,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The mighty pyramid towers above you out of the hot desert sands, made from\nhuge blocks of stone that have been coated over with a rough sandy plaster-like\nsubstance.  The face of the pyramid is steep, but you think you might be able\nto climb it.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east you see the hot sands of the Great Eastern Desert.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8701 to 8700",
+            "to_room": null,
+            "to_room_vnum": 8700
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The steep slope of the pyramid rises up before you.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8701 to 8702",
+            "to_room": null,
+            "to_room_vnum": 8702
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You wonder how anyone could have built such a massive thing out in this heat.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the Base of the Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8701,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Hot air rises off the sides of the pyramid, and the wind chokes you with a\nflurry of sand and dust.  So far you have made it halfway up the side.  The\nwalls of the pyramid are quite steep.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the northern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8702 to 8703",
+            "to_room": null,
+            "to_room_vnum": 8703
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the southern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8702 to 8704",
+            "to_room": null,
+            "to_room_vnum": 8704
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It looks too dangerous to try to climb any higher.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8702 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Far below you are the burning sands of the desert.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8702 to 8701",
+            "to_room": null,
+            "to_room_vnum": 8701
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You wonder how anyone could have built such a massive thing out in this heat.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Climbing the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8702,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Hot air rises off the sides of the pyramid, and the wind chokes you with a\nflurry of sand and dust.  The walls of the pyramid are quite steep, and you\nare having trouble keeping from sliding down into the sands below.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the eastern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8703 to 8705",
+            "to_room": null,
+            "to_room_vnum": 8705
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the western side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8703 to 8702",
+            "to_room": null,
+            "to_room_vnum": 8702
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It looks too dangerous to try to climb any higher.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8703 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "This side of the pyramid has a dangerous drop before the sandy floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8703 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You wonder how anyone could have built such a massive thing out in this heat.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Climbing the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8703,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Hot air rises off the sides of the pyramid, and the wind chokes you with a\nflurry of sand and dust.  The walls of the pyramid are quite steep, and you\nare having trouble keeping from sliding down into the sands below.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the eastern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8704 to 8705",
+            "to_room": null,
+            "to_room_vnum": 8705
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the western side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8704 to 8702",
+            "to_room": null,
+            "to_room_vnum": 8702
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It looks too dangerous to try to climb any higher.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8704 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "This side of the pyramid has a dangerous drop before the sandy floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8704 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You wonder how anyone could have built such a massive thing out in this heat.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Climbing the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8704,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here on the eastern side of the pyramid there is a little more shelter\nfrom the heat and wind.  The stone side is not nearly so slippery smooth\nfrom the ravages of time, and you think you may be able to even reach the\ntop from here.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the northern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8705 to 8703",
+            "to_room": null,
+            "to_room_vnum": 8703
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "If you are daring you could try to skirt around to the southern side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8705 to 8704",
+            "to_room": null,
+            "to_room_vnum": 8704
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the apex of the pyramid many yards above you.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8705 to 8706",
+            "to_room": null,
+            "to_room_vnum": 8706
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "This side of the pyramid has a dangerous drop before the sandy floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8705 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You wonder how anyone could have built such a massive thing out in this heat.",
+            "keyword": "pyramid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Climbing the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8705,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Bathed in sweat, you have managed to reach the summit of the great pyramid.\nThe four sides of the pyramid slope sharply down into the hot sands in all four\ncardinal directions.\n   A plaque has been set into the sandy stones beneath your feet.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The north side of the pyramid slopes down into the sands.\nIt looks really dangerous.  I wouldn't go that way.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8706 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The east side of the pyramid slopes down into the sands.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8706 to 8705",
+            "to_room": null,
+            "to_room_vnum": 8705
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The south side of the pyramid slopes down into the sands.\nIt looks really dangerous.  I wouldn't go that way.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8706 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The west side of the pyramid slopes down into the sands.\nIt looks really dangerous.  I wouldn't go that way.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8706 to 8707",
+            "to_room": null,
+            "to_room_vnum": 8707
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see some sandy stones pressed closely together to form a hard surface.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "stones",
+            "name": "Exit stones 8706 to 8708",
+            "to_room": null,
+            "to_room_vnum": 8708
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The plaque reads:\nThis area (Great Pyramid) written by Andersen.",
+            "keyword": "plaque"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "As you look closer you can make out a crack in the center of the stones\nbeneath your feet.  With some effort you might be able to lift that\nsection up and get inside!",
+            "keyword": "stones"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Apex of the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8706,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here the elements have carved away at the sides of the pyramid quite a\nbit.  You aren't so sure of your footing anymore...\n\nSuddenly the wind picks up, and you lose your balance!\nYou tumble down the side of the pyramid, and fall to your death!\n\nSPLAT.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Climbing the Great Pyramid",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 4,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8707,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are climbing an ancient ladder that leads down into the depths of\nthe pyramid.  The air around is thick with layers of dust and a strange\nmusty smell.  Above you you see tiny beams of light coming through the\nstones of the ceiling.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the sandy stones of the ceiling.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "stones",
+            "name": "Exit stones 8708 to 8706",
+            "to_room": null,
+            "to_room_vnum": 8706
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small dusty chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8708 to 8709",
+            "to_room": null,
+            "to_room_vnum": 8709
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "As you look closer you can make out a crack in the center of the stones\nabove your head.  With some effort you might be able to lift that\nsection up and get outside!",
+            "keyword": "stones"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Ladder",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8708,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in a dank, musty chamber just inside the pyramid.\nFootprints and other strange marks are set into the dusty floor here.\nIt would seem that some of the tenants of this monument are still alive.\n   Exits lead in all directions.   The door to the west is covered with\ninscriptions.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a tiny crawlway raised about three feet off the ground.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8709 to 8712",
+            "to_room": null,
+            "to_room_vnum": 8712
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A dust-covered hallway leads off to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8709 to 8739",
+            "to_room": null,
+            "to_room_vnum": 8739
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small crack in the wall through which you might be able to slide.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8709 to 8724",
+            "to_room": null,
+            "to_room_vnum": 8724
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large stone door, covered in sigils and hieroglyphs.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door stone",
+            "name": "Exit door stone 8709 to 8710",
+            "to_room": null,
+            "to_room_vnum": 8710
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small rickety ladder leads up.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8709 to 8708",
+            "to_room": null,
+            "to_room_vnum": 8708
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You cannot understand the strange glyphs that cover the door, but most of\nthem seem to depict scenes of fire and massive creatures of apparently\ntremendous strength.  You have a feeling that the glyphs are serving as a\nwarning.",
+            "keyword": "sigils hieroglyphs inscriptions writing"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The stone door is covered in strange inscriptions and hieroglyphs that warn\nyou not to proceed any further.",
+            "keyword": "door stone"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Musty Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8709,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This room is dominated by a massive raised pool that is filled with\nnot water but flames of intense heat.  The multicoloured flames lick out\nat you, searching for things to burn.\n   The pool proceeds to the west into a small chamber.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large stone door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door stone",
+            "name": "Exit door stone 8710 to 8709",
+            "to_room": null,
+            "to_room_vnum": 8709
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small chamber filled with fire.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8710 to 8711",
+            "to_room": null,
+            "to_room_vnum": 8711
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Fire Pool",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8710,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You make your way across the fire pool, and into a small stone chamber.\nHere the flames are nearly as high as your head, singeing your face and\nevaporating your sweat instantaneously.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The pool of fire ends to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8711 to 8710",
+            "to_room": null,
+            "to_room_vnum": 8710
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Chamber of the Efreet",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 7,
+      "special_inventory": [],
+      "vnum": 8711,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have to go down onto your hands and knees to fit inside this tiny\nspace.  The crawlway is thick with sand and dust, and markings of the\npassage of other creatures.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway continues to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8712 to 8713",
+            "to_room": null,
+            "to_room_vnum": 8713
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway ends to the south in a musty chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8712 to 8709",
+            "to_room": null,
+            "to_room_vnum": 8709
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small hole above your head leads into a dank chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8712 to 8737",
+            "to_room": null,
+            "to_room_vnum": 8737
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tiny Crawlway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8712,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on your hands and knees, inside a small crawlway that winds\nthrough the inside of the pyramid.  The crawlway is thick with sand, dust,\nand markings of the passage of other creatures.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway continues to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8713 to 8712",
+            "to_room": null,
+            "to_room_vnum": 8712
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway continues to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8713 to 8714",
+            "to_room": null,
+            "to_room_vnum": 8714
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tiny Crawlway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8713,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on your hands and knees, inside a small crawlway that winds\nthrough the inside of the pyramid.  The crawlway is thick with sand, dust,\nand markings of the passage of other creatures.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway continues to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8714 to 8713",
+            "to_room": null,
+            "to_room_vnum": 8713
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway gets a little tighter to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8714 to 8715",
+            "to_room": null,
+            "to_room_vnum": 8715
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tiny Crawlway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8714,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here you are forced to slide on your belly through a particularly tight\nsection of the crawlway, as the stones of the pyramid close together\nabout you.  Below you is a small, slippery-looking hole that plummets into\nblackness.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway gets a little larger to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8715 to 8714",
+            "to_room": null,
+            "to_room_vnum": 8714
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway continues to diminish in size to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8715 to 8716",
+            "to_room": null,
+            "to_room_vnum": 8716
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hole looks very slippery and very dark.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8715 to 8717",
+            "to_room": null,
+            "to_room_vnum": 8717
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tightening in the Crawlway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8715,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The crawlway shrinks away to nothing as the sandy stones of the pyramid\nclose together into a space through which only a snake could fit.   There is\nbarely enough space to turn around and make your way back through the tiny\ncrawlway to the north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crawlway gets a little larger to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8716 to 8715",
+            "to_room": null,
+            "to_room_vnum": 8715
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Crawlway's End",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8716,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The sides of this hole are slippery-smooth.  You lower yourself in, and\nproceed to move downward... when suddenly you lose your purchase!\n\nYou fall for what seems like an eternity, and smash into the stones below...\n\nUnder the Hole\n   You are in a small chamber underneath the slippery hole, far below\nthe pyramid now.   The floor is strewn with bones.  To the south is a\nsmall rocky crevasse.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a rocky crevasse that proceeds deep under the pyramid.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8717 to 8719",
+            "to_room": null,
+            "to_room_vnum": 8719
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The bones have whitened and cracked in the dry air, apparently the remains\nof adventurers, thieves, and creatures that did not survive the fall.",
+            "keyword": "bones"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The hole looks far too slippery to climb back up.",
+            "keyword": "u up"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Slippery Hole",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8717,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a small chamber underneath the slippery hole, far below\nthe pyramid now.   The floor is strewn with bones.  To the south is a\nsmall rocky crevasse.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a rocky crevasse that proceeds deep under the pyramid.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8718 to 8719",
+            "to_room": null,
+            "to_room_vnum": 8719
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The bones have whitened and cracked in the dry air, apparently the remains\nof adventurers, thieves, and creatures that did not survive the fall.",
+            "keyword": "bones"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The hole looks far too slippery to climb back up.",
+            "keyword": "u up"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Under the Hole",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8718,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are now exploring deep within a strange rocky crevasse that plunges\ndown into the rock on which the pyramid was constructed.  To the south you\nsee the flickering light of a fire, and the crevasse proceeds downward.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small stone chamber littered with bones.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8719 to 8718",
+            "to_room": null,
+            "to_room_vnum": 8718
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the flickering light of a small fire.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8719 to 8720",
+            "to_room": null,
+            "to_room_vnum": 8720
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crevasse continues downward into total darkness.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8719 to 8721",
+            "to_room": null,
+            "to_room_vnum": 8721
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "As you look through the rough terrain, your eyes catch a small glint of light!",
+            "keyword": "rough"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Rough Crevasse",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8719,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here a small fire burns in a nook in the rocks, providing some warmth and\ncomforting light in the cold, dark, dry air.\n\nStanding here is a strange-looking old man, who stares at you balefully.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a massive crevasse that plunges into darkness.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8720 to 8719",
+            "to_room": null,
+            "to_room_vnum": 8719
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The old man looks like he has been trapped down here far too long, and\nhas begun to lose his mind.  He moves about slowly, cackling to himself.\n\nHe turns to you and shouts, 'nope measse!  nope measse!', then turns\nback and stares into the fire.\n\n'What a strange person,' you think to yourself.",
+            "keyword": "man old"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Small Fire",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8720,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The crevasse proceeds downward into the dark depths of the earth.\nThe air about you is now cold and quite dry, and your light source\ngutters in a cool breeze that wafts up from below.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark for you to see any further along the crevasse.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8721 to 8719",
+            "to_room": null,
+            "to_room_vnum": 8719
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark for you to see any further along the crevasse.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8721 to 8722",
+            "to_room": null,
+            "to_room_vnum": 8722
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Down the Crevasse",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8721,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here the crevasse comes to an abrupt end.  A chilling wind howls\nat your face from a black shape to the south, but the light from your\nsource is too dim to see exactly what it is.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a strange-looking black shape.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 8723,
+            "key_vnum": null,
+            "keyword": "sesame",
+            "name": "Exit sesame 8722 to 8723",
+            "to_room": null,
+            "to_room_vnum": 8723
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark for you to see anything along the crevasse.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8722 to 8721",
+            "to_room": null,
+            "to_room_vnum": 8721
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You are now certain that the wind is the cold breath of some unearthly\ngiant animal, whose voice rumbles lowly on the breeze, and whose\nmassive jaws could easily swallow you whole.\n\nYou move closer for a better look, when suddenly a pair of eyes flashes.\nA cold voice echoes: 'SEEK YE THE DIAMOND... IN THE ROUGH...'\n\n... Then all is silent.",
+            "keyword": "tiger head animal sesame"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Wind howls about your ears like the roar of a tiger.  As your eyes\nadjust to the light the shape to the south almost seems to take the\nform of a massive animal head.",
+            "keyword": "black shape"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "At the Crevasse's End",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8722,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The jaws of the massive stone tiger part wide to reveal a great vault.\nAn arched ceiling lies far above your head... and all about you is a low\nguttural rumbling noise and a chill wind.\n\nGiant heaps of ancient treasure, gold coins, and valuables surround you\non all sides.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Through the jaws of the tiger you see the blackness of the crevasse.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 8723,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8723 to 8722",
+            "to_room": null,
+            "to_room_vnum": 8722
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You reach for some of the tasty goodies, when you hear a loud rumbling\nsound and see a bright flash of light...\n\nThen the words: 'TAKE ONLY THE LAMP... TOUCH NOTHING ELSE.'\n\n... All is silent once again.",
+            "keyword": "treasure gold coins valuables"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Vault of the Lamp",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8723,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You exhale, and squeeze yourself into the narrow crack in the wall.\nDust fills your eyes as you disturb it, and chunks of mortar and stone\nmixed with a touch of sand fall on you as you scrape your way through.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a musty chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8724 to 8709",
+            "to_room": null,
+            "to_room_vnum": 8709
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8724 to 8725",
+            "to_room": null,
+            "to_room_vnum": 8725
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Crack in the Wall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8724,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The floor of this small tomb is littered with the lids of\nsmashed sarcophagi, bits of treasure dropped by thieves and\nlooters, and corpses pulled from their resting places.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small crack in the wall through which you might be able to slide.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8725 to 8724",
+            "to_room": null,
+            "to_room_vnum": 8724
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east is another tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8725 to 8733",
+            "to_room": null,
+            "to_room_vnum": 8733
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the west is another tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8725 to 8726",
+            "to_room": null,
+            "to_room_vnum": 8726
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Looted Tomb",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8725,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This tomb has been utterly destroyed by thieves and looters in search of\nthe treasures of the pharoahs.  Nothing of interest remains in this room,\nexcept a large stone coffin that leans against the western wall.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east is another tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8726 to 8725",
+            "to_room": null,
+            "to_room_vnum": 8725
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large stone coffin.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 8712,
+            "key_vnum": null,
+            "keyword": "coffin lid",
+            "name": "Exit coffin lid 8726 to 8727",
+            "to_room": null,
+            "to_room_vnum": 8727
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "As you look closer at the figure sculpted into the stone coffin you notice a\nsmall marking carved into its chest.  It looks like a scarab or small beetle\nwould fit into the small space, if properly sized.\n\nHmm.",
+            "keyword": "man garments pharoah"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The coffin is sculpted into the form of a man, standing several heads above\nyou, and clad in the garments of pharoahs.  It has apparently been untouched\nby the ravages of time and the activities of looters.  Several markings on the\nside indicate spots where unsuccessful attempts were made to open the coffin.\n\nYou can't see any way to open it.",
+            "keyword": "coffin lid"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Demolished Tomb",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8726,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand now at the head of a stairway that goes down into darkness.\nThe steps and walls are smooth sandy stone, covered with a thick layer\nof dust.  Some inscriptions are carved into the wall here.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the backside of the coffin lid, featureless stone.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "coffin lid",
+            "name": "Exit coffin lid 8727 to 8726",
+            "to_room": null,
+            "to_room_vnum": 8726
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark to see down the stairway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8727 to 8728",
+            "to_room": null,
+            "to_room_vnum": 8728
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "On this side the coffin lid is smooth featureless stone.",
+            "keyword": "coffin lid"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You blow dust away from the inscriptions to read:\n'Beware the curse of the mummy.'",
+            "keyword": "inscriptions"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8727,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on a stairway that disappears into darkness in both directions.\nThe smooth, uneven steps of the stairway have not been travelled in what\nappears to be centuries.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark to see up the stairway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8728 to 8727",
+            "to_room": null,
+            "to_room_vnum": 8727
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark to see down the stairway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8728 to 8729",
+            "to_room": null,
+            "to_room_vnum": 8729
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8728,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand now at the base of the uneven stairway.  The walls, floor,\nand ceiling of this small landing are covered with strange hieroglyphics.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a seam in the stone wall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "stone",
+            "name": "Exit stone 8729 to 8730",
+            "to_room": null,
+            "to_room_vnum": 8730
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It is too dark to see up the stairway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8729 to 8728",
+            "to_room": null,
+            "to_room_vnum": 8728
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The hieroglyphics are covered with a thick layer of dust.  You clear the\ndust away with your hand, and find that you cannot comprehend them.",
+            "keyword": "walls floor ceiling hieroglyphics"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8729,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here the air is deathly still, motes of dust thickly obscuring your\nvision.  Several stone statues line the walls of the hall, depicting the\ngods of an ancient society.  Strange glyphs and sigils cover the walls, a\npeculiar pictorial form of written language that you don't understand.\n   Some steps lead to a raised dais to the south.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a seam in the stone wall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "stone",
+            "name": "Exit stone 8730 to 8729",
+            "to_room": null,
+            "to_room_vnum": 8729
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small raised dais.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8730 to 8731",
+            "to_room": null,
+            "to_room_vnum": 8731
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You don't understand the meaning of these symbols.",
+            "keyword": "writings glyphs sigils hieroglyphics symbols"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Ancient Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8730,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the southern end of the ancient hall, the dust and darkness\nabsorbing your light so that you cannot see past the steps of the dais.\nA low pedestal rests here.  You see something written into the face of it.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You cannot see past the steps of the dais.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8731 to 8730",
+            "to_room": null,
+            "to_room_vnum": 8730
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a seam in the stone floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "tomb",
+            "name": "Exit tomb 8731 to 8732",
+            "to_room": null,
+            "to_room_vnum": 8732
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The writings are covered in sand and worn nearly away by the passage\nof time: 'I am Ramses the Damned, once counselor and aide to the mightiest\nof pharoahs and queens of this land.  Much time has passed since I last\nwalked the earth.  Disturb my rest at your peril.'",
+            "keyword": "pedestal writings"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Raised Dais",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8731,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand in an empty tomb, a cubicle no more then ten feet to a side.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "That leads back the way you came.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "tomb",
+            "name": "Exit tomb 8732 to 8731",
+            "to_room": null,
+            "to_room_vnum": 8731
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of Ramses",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8732,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This tomb has been completely ransacked and destroyed by the actions\nof pyramid thieves and looters.  The floor is littered with junk.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east is a low-ceilinged tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8733 to 8734",
+            "to_room": null,
+            "to_room_vnum": 8734
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the west is another tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8733 to 8725",
+            "to_room": null,
+            "to_room_vnum": 8725
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Ransacked Tomb",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8733,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The low-ceilinged tunnel runs east-west.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You cannot see into the darkness of the low tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8734 to 8735",
+            "to_room": null,
+            "to_room_vnum": 8735
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8734 to 8733",
+            "to_room": null,
+            "to_room_vnum": 8733
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8734,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Here the tunnel forks off through a gaping hole down in the\nsouthern wall, continuing onward to the east and west as well.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You cannot see into the darkness of the low tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8735 to 8736",
+            "to_room": null,
+            "to_room_vnum": 8736
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You cannot see into the darkness of the low tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8735 to 8734",
+            "to_room": null,
+            "to_room_vnum": 8734
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Through the hole you see rubble and sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8735 to 8746",
+            "to_room": null,
+            "to_room_vnum": 8746
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The hole is low, at the floor of the southern wall.",
+            "keyword": "s south hole"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Fork in the Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8735,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The low-ceilinged tunnel makes a turn to the west and ends\nto the north as it spills out into a dusty hallway.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The mouth of the tunnel is stone that has been torn away by looters.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8736 to 8742",
+            "to_room": null,
+            "to_room_vnum": 8742
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You cannot see into the darkness of the low tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8736 to 8735",
+            "to_room": null,
+            "to_room_vnum": 8735
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8736,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This chamber has a dank, dusty, musty smell to it.  Small footprints\nin the dust betray the recent passage of some sort of creatures.  A hole\nin the floor lies to the west and a stairway is to the east.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a spiral stone stairway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8737 to 8738",
+            "to_room": null,
+            "to_room_vnum": 8738
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only blackness through the hole in the floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8737 to 8712",
+            "to_room": null,
+            "to_room_vnum": 8712
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Dank Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8737,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Some dusty, broken stone stairs here spiral slowly in a constricted\nspace down towards a dusty hallway.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The stairs spiral up into a dank chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8738 to 8737",
+            "to_room": null,
+            "to_room_vnum": 8737
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The stairs spiral down into a dusty hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8738 to 8741",
+            "to_room": null,
+            "to_room_vnum": 8741
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Spiral Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8738,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway is covered with dust that has accumulated over the\ncenturies that the pyramid has stood.  Small markings and footprints\nin the dust betray the recent passage of others -- perhaps thieves?",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hallway proceeds to the east towards a strange smell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8739 to 8740",
+            "to_room": null,
+            "to_room_vnum": 8740
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hallway proceeds towards the west towards a musty smell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8739 to 8709",
+            "to_room": null,
+            "to_room_vnum": 8709
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Dust-Covered Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8739,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This small chamber has a sickly putrescent smell to it, the\nsmell of formaldehyde and other ointments used to preserve the\ncorpses of those who died ages ago.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a dusty hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8740 to 8741",
+            "to_room": null,
+            "to_room_vnum": 8741
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You a dusty hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8740 to 8739",
+            "to_room": null,
+            "to_room_vnum": 8739
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Smelly Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8740,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway is covered with a thick, choking dust that rises\nup to obscure your light source and sting your eyes.  Small marks\nand footprints in the dust betray the recent passage of others.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hallway turns to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8741 to 8742",
+            "to_room": null,
+            "to_room_vnum": 8742
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You smell something peculiar over there.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8741 to 8740",
+            "to_room": null,
+            "to_room_vnum": 8740
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A tightly spiralling stone stairway leads up.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8741 to 8738",
+            "to_room": null,
+            "to_room_vnum": 8738
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Dust-Covered Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8741,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in an elbow turn in a dust-covered stone hallway,\nthat dead ends to the north and continues on to the west.  To the south\nthe stones of the pyramid have been torn asunder by thieves, making\na low-ceilinged tunnel.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hallway ends to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8742 to 8743",
+            "to_room": null,
+            "to_room_vnum": 8743
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The tunnel is dark.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8742 to 8736",
+            "to_room": null,
+            "to_room_vnum": 8736
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The dust-covered hallway continues to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8742 to 8741",
+            "to_room": null,
+            "to_room_vnum": 8741
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Turn in the Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8742,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The dust-covered hallway has come to an abrupt end at a stony,\nfeatureless wall.  Here and there are signs of the recent passage\nof others in the dust.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The dusty hall continues to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8743 to 8742",
+            "to_room": null,
+            "to_room_vnum": 8742
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The floor is quite dusty, and made of stone.  You see some cracks.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "floor",
+            "name": "Exit floor 8743 to 8744",
+            "to_room": null,
+            "to_room_vnum": 8744
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The cracks look like you might be able to pull away some pieces of\nthe floor, perhaps even fit your body through the space you make.",
+            "keyword": "cracks"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Dead End",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8743,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a small, dark chamber that has stood undisturbed for\nmany years.  To the north stands a massive stone tomb, which is\ncovered in hieroglyphics and gold-lined carvings that mark it as the\nfinal resting place of the mighty pharoahs of this land.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the tomb of the pharoahs.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "tomb",
+            "name": "Exit tomb 8744 to 8745",
+            "to_room": null,
+            "to_room_vnum": 8745
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The stone ceiling has some cracks in it, through which a dim light streams.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "ceiling",
+            "name": "Exit ceiling 8744 to 8743",
+            "to_room": null,
+            "to_room_vnum": 8743
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The markings indicate that this tomb is indeed the tomb of the greatest\npharoahs of the ancient civilization that built this massive pyramid.",
+            "keyword": "hieroglyphics carvings"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The tomb looks like it has stood for many years, much like the pyramid\nwhich encloses it.  It is covered in small hieroglyphics.",
+            "keyword": "tomb"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb Entrance",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8744,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Great golden sarcophogai line the walls of this massive tomb.  It has\nwithstood the passage of time intact, untouched by the hands of thieves\nand looters.  The treasures taken by the pharoahs to their graves still\nlie before your feet.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "That way leads back out of the tomb.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "tomb",
+            "name": "Exit tomb 8745 to 8744",
+            "to_room": null,
+            "to_room_vnum": 8744
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The treasures are dusty and fragile, but still seem quite valuable.\nYou decide not to take them out of respect for the ancient dead.",
+            "keyword": "treasures"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tomb of the Pharoahs",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8745,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway formerly had a beautiful arch to the ceiling, now\ncollapsed under the weight of the slowly settling stones of the\npyramid.  Now, a massive pile of rubble leads up into a hole high\nin the northern portion of the hallway.  To the south, through the\nrubble and fallen stones you see a sandstone crypt.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a sandstone crypt.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8746 to 8747",
+            "to_room": null,
+            "to_room_vnum": 8747
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": ">From here you see only darkness.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8746 to 8735",
+            "to_room": null,
+            "to_room_vnum": 8735
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Rubble-Strewn Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8746,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This small crypt is lit by a hole in the wall to the south, through\nwhich sand pours from the desert outside.  A hot wind blows in from the\ndesert, drying your skin instantly.  To the east and north the arched\nhallway continues.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hallway collapses into rubble shortly to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8747 to 8746",
+            "to_room": null,
+            "to_room_vnum": 8746
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a beautifully arched hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8747 to 8748",
+            "to_room": null,
+            "to_room_vnum": 8748
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a lot of sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8747 to 8753",
+            "to_room": null,
+            "to_room_vnum": 8753
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Sandstone Crypt",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8747,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway has a beautiful arch to it, formed painstakingly and\nexquisitely out of the sandy stones of the pyramid.  The dust that\ncovers most of the rest of the pyramid interior is not present here,\nscoured away by the blowing of the desert winds that howl about\nyour ears.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hall proceeds to the east, making a sharp southward turn.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8748 to 8749",
+            "to_room": null,
+            "to_room_vnum": 8749
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hall proceeds into a sandstone crypt.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8748 to 8747",
+            "to_room": null,
+            "to_room_vnum": 8747
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Arched Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8748,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway has a beautiful arch to it, formed painstakingly and\nexquisitely out of the sandy stones of the pyramid.  To the east is\na small, golden-coloured crypt, and the hall proceeds to the south\nand north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hall proceeds to the north, making a sharp westward turn.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8749 to 8748",
+            "to_room": null,
+            "to_room_vnum": 8748
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small golden crypt lies to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8749 to 8750",
+            "to_room": null,
+            "to_room_vnum": 8750
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hall proceeds to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8749 to 8751",
+            "to_room": null,
+            "to_room_vnum": 8751
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Arched Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8749,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand inside a small crypt with walls and ceiling made of\ngolden bricks that obscure the large sandy stones of the pyramid.\nSmall rugs and tapestries are scattered about the floor here, and\nthey appear to have been used recently.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see an arched hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8750 to 8749",
+            "to_room": null,
+            "to_room_vnum": 8749
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The small golden bricks are very smooth and also quite soft.",
+            "keyword": "bricks"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The rugs and tapestries are very fine and worn with age, their colors\nnow faded.  They depict scenes of life in an ancient desert city.",
+            "keyword": "rug rugs tapestry tapestries"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Golden Crypt",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8750,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway has a beautiful arch to it, formed painstakingly and\nexquisitely out of the sandy stones of the pyramid.  The arched\nhall proceeds to the north and ends to the south in a small vault.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The arched hall continues to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8751 to 8749",
+            "to_room": null,
+            "to_room_vnum": 8749
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small vault from which a shining light issues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8751 to 8752",
+            "to_room": null,
+            "to_room_vnum": 8752
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Arched Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8751,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The stones of the pyramid here take on a strange, twinkling quality,\nalmost seeming to shine with an internal light.  As you look closer you\nsee tiny glass-like glittery particles within the stones, that reflect\nthe light from your light source so perfectly that they seem to shine.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a hall with a beautifully arched ceiling.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8752 to 8751",
+            "to_room": null,
+            "to_room_vnum": 8751
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The glassy particles reflect and refract your light source in a myriad\nof dazzling colours that dance across your eyes and make you giggle.",
+            "keyword": "particles glass"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Shining Vault",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8752,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand now on a massive sand dune on the southern side of\nthe pyramid.  At the foot of the sand dune to the north you see a\nsmall hole where the stones of the pyramid have collapsed.  Not\nfar to the south is a massive roiling sandstorm; the wind from the\nstorm howls and bites at your face even here.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a small hole leading back into the pyramid.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8753 to 8747",
+            "to_room": null,
+            "to_room_vnum": 8747
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8753 to 8754",
+            "to_room": null,
+            "to_room_vnum": 8754
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The sand is very white, and very sandy.  There sure is a lot of it.",
+            "keyword": "sand dune sandstorm"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Massive Sand Dune",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 4,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8753,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are caught in the midst of a massive sandstorm.  Howling winds\nbuffet you from all sides, and the sand tears at your skin, blinding\nyou and choking you.  You have lost all sense of direction.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8754 to 8753",
+            "to_room": null,
+            "to_room_vnum": 8753
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8754 to 8754",
+            "to_room": null,
+            "to_room_vnum": 8754
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8754 to 8755",
+            "to_room": null,
+            "to_room_vnum": 8755
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8754 to 8754",
+            "to_room": null,
+            "to_room_vnum": 8754
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Sand is about all you CAN see right now.  Unfortunately, it isn't very\ninteresting sand, only white, dry, and blowing all over the place.",
+            "keyword": "sand"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Swirling Sandstorm",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8754,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are caught in the midst of a massive sandstorm.  Howling winds\nbuffet you from all sides, and the sand tears at your skin, blinding\nyou and choking you.  You have lost all sense of direction.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8755 to 8754",
+            "to_room": null,
+            "to_room_vnum": 8754
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8755 to 8755",
+            "to_room": null,
+            "to_room_vnum": 8755
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8755 to 8756",
+            "to_room": null,
+            "to_room_vnum": 8756
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8755 to 8755",
+            "to_room": null,
+            "to_room_vnum": 8755
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Sand is about all you CAN see right now.  Unfortunately, it isn't very\ninteresting sand, only white, dry, and blowing all over the place.",
+            "keyword": "sand"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Swirling Sandstorm",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8755,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are caught in the midst of a massive sandstorm.  Howling winds\nbuffet you from all sides, and the sand tears at your skin, blinding\nyou and choking you.  You have lost all sense of direction.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8756 to 8755",
+            "to_room": null,
+            "to_room_vnum": 8755
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8756 to 8756",
+            "to_room": null,
+            "to_room_vnum": 8756
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8756 to 8757",
+            "to_room": null,
+            "to_room_vnum": 8757
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8756 to 8756",
+            "to_room": null,
+            "to_room_vnum": 8756
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Sand is about all you CAN see right now.  Unfortunately, it isn't very\ninteresting sand, only white, dry, and blowing all over the place.",
+            "keyword": "sand"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Swirling Sandstorm",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8756,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are caught in the midst of a massive sandstorm.  Howling winds\nbuffet you from all sides, and the sand tears at your skin, blinding\nyou and choking you.  You have lost all sense of direction.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8757 to 8756",
+            "to_room": null,
+            "to_room_vnum": 8756
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8757 to 8757",
+            "to_room": null,
+            "to_room_vnum": 8757
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8757 to 8758",
+            "to_room": null,
+            "to_room_vnum": 8758
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8757 to 8757",
+            "to_room": null,
+            "to_room_vnum": 8757
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Sand is about all you CAN see right now.  Unfortunately, it isn't very\ninteresting sand, only white, dry, and blowing all over the place.",
+            "keyword": "sand"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Swirling Sandstorm",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8757,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Somehow you managed to make your way through the howling winds\nof the sandstorm, and clamber up on this sand dune.  You can see the\nstorm to the north of you, and presumably the pyramid is somewhere\nbeyond it.  Nothing but flat, featureless, open dunes of sand lie in\nevery other direction.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see only a wall of whirling, blowing, dry sand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8758 to 8757",
+            "to_room": null,
+            "to_room_vnum": 8757
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "On the southern side of the sand dune is a small hole in the sand.\nFor some reason you seem unable to get to it.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 8717,
+            "key_vnum": null,
+            "keyword": "riddle",
+            "name": "Exit riddle 8758 to 8759",
+            "to_room": null,
+            "to_room_vnum": 8759
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Like most of the ancient hieroglyphics of this land, the symbols are\ntotally incomprehensible to you.  Perhaps the Sphinx has the answer\nto this ancient riddle.",
+            "keyword": "hieroglyphics symbols"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A vision forms before your eyes, in glowing hieroglyphic symbols.",
+            "keyword": "riddle"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The sand is very white, and very sandy.  There sure is a lot of it.",
+            "keyword": "sand dune"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Massive Sand Dune",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 10,
+      "special_inventory": [],
+      "vnum": 8758,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Pyramid",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You squeeze through the small hole in the sand and land in a small\nwhite chamber.  Above you is a small hole, reachable by climbing up\nthe small sandy slope down which you slid.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a sand dune.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8759 to 8753",
+            "to_room": null,
+            "to_room_vnum": 8753
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Through the Hole in the Sand",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 8759,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

@@ -268,10 +268,15 @@ def gain_condition(ch, iCond, value):
 # * This function takes 25% to 35% of ALL Merc cpu time.
 # * -- Furey
 def npc_update():
+    from rom24 import prog_triggers
+
     # Examine all mobs. */
-    for npc in instance.characters.values():
+    for npc in list(instance.characters.values()):
         if not npc.is_npc() or npc.in_room is None or npc.is_affected(merc.AFF_CHARM):
             continue
+
+        # Random-tick progs fire each update for any mob that registered one.
+        prog_triggers.fire_random(npc)
 
         if instance.area_templates[npc.in_room.area] and not npc.act.is_set(
             merc.ACT_UPDATE_ALWAYS

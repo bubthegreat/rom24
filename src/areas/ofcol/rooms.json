@@ -1,0 +1,627 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand at the small village street in Ofcol.\nFrom here you see small houses and only few people.\nNorth of here the village street continues up to the small\nsquare where some people are gathered as always.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You look up the village street noticing nothing special at all.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5550 to 5551",
+            "to_room": null,
+            "to_room_vnum": 5551
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The wide road leads south here towards the T-crossing.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5550 to 314",
+            "to_room": null,
+            "to_room_vnum": 314
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Village street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5550,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing on the village street of Ofcol.\nEast from here is a small alley and north you enter the village\nsquare. Towards the south you can leave Ofcol.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The village square is as usual not overcrowded.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5551 to 5552",
+            "to_room": null,
+            "to_room_vnum": 5552
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The small alley looks relative peaceful.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5551 to 5553",
+            "to_room": null,
+            "to_room_vnum": 5553
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the village street eventually becoming the wide road.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5551 to 5550",
+            "to_room": null,
+            "to_room_vnum": 5550
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Village street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5551,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The village square is a place where inhabitants of Ofcol gather\nto talk, trade and sell items and just have a good time.\nYou see a small shop to the west and the local inn to the north.\nIf you leave south you go to village street.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a local inn called 'The Ofcol Local Inn'. Looks nice.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5552 to 5556",
+            "to_room": null,
+            "to_room_vnum": 5556
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the village street of Ofcol.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5552 to 5551",
+            "to_room": null,
+            "to_room_vnum": 5551
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small shop with the sign 'Luxan's Mixed goods' hanging in front of it.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5552 to 5555",
+            "to_room": null,
+            "to_room_vnum": 5555
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Village square",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5552,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a small, quiet alley.  From here you see the village street\nto the west and a small room lies to the south.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a big intersection.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5553 to 601",
+            "to_room": null,
+            "to_room_vnum": 601
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "It looks like the future site of a training room.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5553 to 5554",
+            "to_room": null,
+            "to_room_vnum": 5554
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You notice nothing but the village street.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5553 to 5551",
+            "to_room": null,
+            "to_room_vnum": 5551
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The small alley",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5553,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the future site of a training room.  The only exit is north\nleading to the small alley.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You are able to see the small alley, really not very interesting.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5554 to 5553",
+            "to_room": null,
+            "to_room_vnum": 5553
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The future training room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5554,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in a small shop, filled with all kinds of goods.\nHere you might be able to find just the thing you're looking for.\nThe only exit is east to village square.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The village square is as usual not overcrowded.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5555 to 5552",
+            "to_room": null,
+            "to_room_vnum": 5552
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Luxan's mixed shop",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5555,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in the local inn, where the peaceful citizens of Ofcol\ngather to have a drink or 5 if they have dry throats.\nYou can't help thinking that Ofcol is a dry city, when you see the\nmany people here.\nThe only exit is south to the village square.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The village square is as usual not overcrowded.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5556 to 5552",
+            "to_room": null,
+            "to_room_vnum": 5552
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Local Inn",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 5556,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Ofcol",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This place is a small, cosy place where no one disturbs you all\nthe time. The room has little decoration except for some pictures\non the wall.\nYou notice that there are no exits from this room.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The list include such prominent names as : God, Lottie, Kurgan,\nEzzard, Mike, Sprocket and Stormbringer.",
+            "keyword": "friend friends"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "There is only one picture yet... Dim.\nIt pictures him hanging from a gallow, north of the town.\nIt has the letters R.I.P. inscripted underneath.",
+            "keyword": "foe foes enemies"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "These pictures show the friend's and foe's of Ravan.\nThey are easy to separate, as most of the foe's have the letters\nR.I.P. inscripted underneath them.",
+            "keyword": "pictures picture decoration"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Ravan's hideout",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 4,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5577,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

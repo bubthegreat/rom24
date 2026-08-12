@@ -1,0 +1,1631 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This section of the path is slowly being drowned by the nearby swamp to the\nsouth, which is creeping slowly inland.  Several caved-in buildings sprawl\nhere, torn apart both by battle and the elements.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The path looks drier here.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8301 to 6125",
+            "to_room": null,
+            "to_room_vnum": 6125
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A broken road leading southward into the marsh.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8301 to 8302",
+            "to_room": null,
+            "to_room_vnum": 8302
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The swamp to the south even reaches as far as this point ... it makes the\nground and air about you moist and fetid.",
+            "keyword": "swamp"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Muddy Path",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 8301,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Briars and marsh plants stick to your boots and clothes, and clouds cover the\nskies above the murky marsh, leaving the path before you dark and sinister.\nYou see some disturbances in the marsh, but after a few strangled screams,\nthe sounds stop.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8302 to 8301",
+            "to_room": null,
+            "to_room_vnum": 8301
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east lies a series of bogs and shallows that look rather threatening.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8302 to 8303",
+            "to_room": null,
+            "to_room_vnum": 8303
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You notice a large hill rising out of the marsh to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8302 to 8304",
+            "to_room": null,
+            "to_room_vnum": 8304
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Swamp's Edge",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8302,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This area is by no means a forest, but for those who dwell in these sparse\ntrees it is one.  Occasionally you see a whole humanoid form floating face down\nin the water, but mostly you only find pieces.  You hear a loud bellow in the\ndistance.  And feel fear creep into your heart.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Eastward is the thick bog of ooze...",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8303 to 8305",
+            "to_room": null,
+            "to_room_vnum": 8305
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Westward lies the remanents of a broken and shattered roadway being swallowed\nby the marsh.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8303 to 8302",
+            "to_room": null,
+            "to_room_vnum": 8302
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You see severed limbs and spongy intestines.",
+            "keyword": "pieces"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "He looks mangled and shredded.  You see one large gash mark that looks\nlike it came from the claw of some huge beast.",
+            "keyword": "humanoid corpse"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Marshy Forest",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8303,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand atop a hill on the northwestern side of the evil swamp. Dark\nclouds whip around you and the wind raises its voice and assails you.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the north lies a damp broken roadway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8304 to 8302",
+            "to_room": null,
+            "to_room_vnum": 8302
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A dark pool congeals to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8304 to 8309",
+            "to_room": null,
+            "to_room_vnum": 8309
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A gloomy path leads down the hill into the swamp.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8304 to 8310",
+            "to_room": null,
+            "to_room_vnum": 8310
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "On a hill.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 4,
+      "special_inventory": [],
+      "vnum": 8304,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand in an oozing quagmire.  A creaking beat fills the air,\naccompanied by groans and soughing of the air.  Several large winged\nbeasts flap over you and send chilling glares your way.  You feel out\nof place, and feel that the occupants of this realm will soon\nhave you for a feast.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Eastward lies a horde of disgusting looking monsters.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8305 to 8306",
+            "to_room": null,
+            "to_room_vnum": 8306
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Westward lies a marshy area.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8305 to 8303",
+            "to_room": null,
+            "to_room_vnum": 8303
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You see a large creature, possibly a demon, flapping heavily above you.",
+            "keyword": "beasts"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Oozing Bog",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8305,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The ground here is soft and oozing.  You feel slimy water seeping into your\nboots.  Better stop and check for leeches when you get out of here.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large tree limb that looks easily moved.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "limb",
+            "name": "Exit limb 8306 to 8305",
+            "to_room": null,
+            "to_room_vnum": 8305
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The limb looks like it is attached to a trap door in the ground.",
+            "keyword": "limb"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "An Oozing Bog",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8306,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A horrible swamp thing resides here.  Mutilated corpses suffuse the air with\nthe overwhelming stench of putrid flesh.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A pool of quick sand lies to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8307 to 8308",
+            "to_room": null,
+            "to_room_vnum": 8308
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You notice a note on one of the corpses reading:  'Best ye forget the temple,\nit is not for the likes of you...'",
+            "keyword": "corpses"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Swamp Thing's Lair",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8307,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand by a large oozing pool of quick sand.  Luckily only a complete\nklutz could not avoid it.  Dancing lights fly about you and one seems to\nbe taunting you towards the pool.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The swamp thing's lair.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8308 to 8307",
+            "to_room": null,
+            "to_room_vnum": 8307
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A murky bog.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8308 to 8314",
+            "to_room": null,
+            "to_room_vnum": 8314
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A dark pool lies to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8308 to 8309",
+            "to_room": null,
+            "to_room_vnum": 8309
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It looks deadly to the foolish.",
+            "keyword": "quicksand"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "From the stories you have heard, you recognize them as will-o-wisps.",
+            "keyword": "lights"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Pool of Quick Sand",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8308,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand beside a large dark pond.  The water boils not with heat, but with\nmotion, as if it is alive.  A creaking beat pulses through the air, leaving\nyou with a cold sweat and fear in your heart.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A large pool of quicksand lies to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8309 to 8308",
+            "to_room": null,
+            "to_room_vnum": 8308
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a cloud of darkness to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8309 to 8311",
+            "to_room": null,
+            "to_room_vnum": 8311
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A hill rises out of the swamp to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8309 to 8304",
+            "to_room": null,
+            "to_room_vnum": 8304
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It looks ALIVE ...",
+            "keyword": "pond"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Dark Pool.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8309,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "To the north lies a hill, shrouded in dark clouds, and to the south lies\na huge patch of vegetation.  You sense an evil presence and notice\na beast flying overhead to the south east, towards what looks to be a\nhuge fortress, half buried in the marsh.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the north a hill protrudes from the marshes.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8310 to 8304",
+            "to_room": null,
+            "to_room_vnum": 8304
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the south a huge mass of vegetation seems to quiver with life.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8310 to 8312",
+            "to_room": null,
+            "to_room_vnum": 8312
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It looks sentient.",
+            "keyword": "vegetation"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is surrounded by walls nearly 20 meters high.  In a tall tower on the\nnortheast side, a window glows blue with magical energy.",
+            "keyword": "fortress"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It looks to be a demon of some foul breed.",
+            "keyword": "beast"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The clouds look dark and foreboding.",
+            "keyword": "clouds"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Gloomy Path Through the Marsh.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8310,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "As you travel through this cloud of darkness, a fear such as you have never\nknown before assails you.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A dark pool lies to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8311 to 8309",
+            "to_room": null,
+            "to_room_vnum": 8309
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "An obelisk lies to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8311 to 8313",
+            "to_room": null,
+            "to_room_vnum": 8313
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Cloud of Darkness.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8311,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand near some of the strangest plant life you have ever seen, a mixture\nof tumescent vegetables, evil-smelling fruit trees, and malignant ferns.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the north is a gloomy path through the marsh.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8312 to 8310",
+            "to_room": null,
+            "to_room_vnum": 8310
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Eastward is a large, black stone monolith.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8312 to 8313",
+            "to_room": null,
+            "to_room_vnum": 8313
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "They look rather violent, and snap at you when you come near.",
+            "keyword": "plant plants"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Near Vegetation from Hell.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 6,
+      "special_inventory": [],
+      "vnum": 8312,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing near a monolith which protrudes some 20 feet from the\nmarsh into the air.  Its black obsidian surface shines darkly in the\nstrange, almost unearthly light that enters through the clouds above.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the north is a cloud of darkest evil.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8313 to 8311",
+            "to_room": null,
+            "to_room_vnum": 8311
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Eastward lies a murky bog.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8313 to 8314",
+            "to_room": null,
+            "to_room_vnum": 8314
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Near Vegetation from Hell.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8313 to 8312",
+            "to_room": null,
+            "to_room_vnum": 8312
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This huge monolith resembles nothing you have ever seen before.\nYou have a strong feeling not to go within.",
+            "keyword": "monolith"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "By the Monolith.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8313,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A murky bog surrounds you.  To the east a black monolith juts forth from the\nground.  Far to the north lies a huge pool of quicksand.  Snarls can be heard\nechoing as if from a great distance.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the north lies a huge pool of quicksand.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8314 to 8308",
+            "to_room": null,
+            "to_room_vnum": 8308
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east the marsh turns into a small lake.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8314 to 8315",
+            "to_room": null,
+            "to_room_vnum": 8315
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Westward a large monolith awaits adventurers.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8314 to 8313",
+            "to_room": null,
+            "to_room_vnum": 8313
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This is a huge obsidian stone block stuck in the marsh.",
+            "keyword": "monolith"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Murky Bog.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8314,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Floating on this boiling lake is not what you would consider an enjoyable\nexperience.  Many a creature bumps the bottom of your boat, and glares\nat you through unblinking eyes from the waters below.  The southern\nportion of the lake looks calm and serene compared to this wild place.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The southern portion of the lake lies to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8315 to 8316",
+            "to_room": null,
+            "to_room_vnum": 8316
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the west lies a murky bog.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8315 to 8314",
+            "to_room": null,
+            "to_room_vnum": 8314
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Northern Lake Side.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 7,
+      "special_inventory": [],
+      "vnum": 8315,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are floating on a calm section of blue crystal water.  You feel much more\nat ease then you were before in this area.  Then a wave of fear passes over\nyou.  You are not alone.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "Northern lake side.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8316 to 8315",
+            "to_room": null,
+            "to_room_vnum": 8315
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the west is a beach where your boat can land.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8316 to 8317",
+            "to_room": null,
+            "to_room_vnum": 8317
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The way to the north seems to be impassable, due to the rough water and\nstrange wild life.",
+            "keyword": "north"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Southern Lake Side.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 7,
+      "special_inventory": [],
+      "vnum": 8316,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on a sandy shore.  Marsh life creeps across the surface.  To the west\nlies an evil fortress.  You see figures walking along the battlements.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east lies the southern portion of a small lake.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8317 to 8316",
+            "to_room": null,
+            "to_room_vnum": 8316
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The great gates.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8317 to 8318",
+            "to_room": null,
+            "to_room_vnum": 8318
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is hewn of black stone and heavily fortified.",
+            "keyword": "fortress"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Beach",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 5,
+      "special_inventory": [],
+      "vnum": 8317,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Marsh",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand before the gates of a huge fortress.  The drawbridge is up, the\ngates closed, and the portcullis down.  This place looks very dangerous,\nand you decide not to continue onward.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east is a marshy beach.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8318 to 8317",
+            "to_room": null,
+            "to_room_vnum": 8317
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  8318 to -1",
+            "to_room": null,
+            "to_room_vnum": -1
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Before the Great Gates.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 3,
+      "special_inventory": [],
+      "vnum": 8318,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

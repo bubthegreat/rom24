@@ -101,6 +101,14 @@ def move_char(ch, door, follow):
         not ch.is_npc() and ch.invis_level < merc.LEVEL_HERO
     ):
         handler_game.act("$n has arrived.", ch, None, None, merc.TO_ROOM)
+    # Fire entry/greet progs for the room the character just entered.
+    from rom24 import prog_triggers
+
+    prog_triggers.fire_entry(to_room, ch)
+    for mob_id in to_room.people[:]:
+        mob = instance.characters.get(mob_id)
+        if mob is not None and mob is not ch and mob.is_npc():
+            prog_triggers.fire_greet(mob, ch, to_room)
     ch.do_look("auto")
     if in_room.instance_id == to_room.instance_id:  # no circular follows */
         return

@@ -1,0 +1,4197 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the entrance to a small underground city. A great adamantite\ngate lies open to the west allowing entrance into the city.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A huge gate opens to the west allowing entrance into the city.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "gate",
+            "name": "Exit gate 5100 to 5101",
+            "to_room": null,
+            "to_room_vnum": 5101
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small hole in the ceiling leads up into darkness.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 5100 to 5270",
+            "to_room": null,
+            "to_room_vnum": 5270
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A small hole that looks to have been sealed at one time.",
+            "keyword": "hole"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A large adamantite gate with giant spider shaped emblems stands here.",
+            "keyword": "gate"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City Entrance",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5100,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate street going north-south. A large gate\nlies to the east while a building lies to the west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5101 to 5123",
+            "to_room": null,
+            "to_room_vnum": 5123
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5101 to 5100",
+            "to_room": null,
+            "to_room_vnum": 5100
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5101 to 5102",
+            "to_room": null,
+            "to_room_vnum": 5102
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5101 to 5122",
+            "to_room": null,
+            "to_room_vnum": 5122
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5101,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street going north and west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5102 to 5101",
+            "to_room": null,
+            "to_room_vnum": 5101
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5102 to 5103",
+            "to_room": null,
+            "to_room_vnum": 5103
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5102,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street going east-west. A large house\nstands to the south.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5103 to 5102",
+            "to_room": null,
+            "to_room_vnum": 5102
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5103 to 5104",
+            "to_room": null,
+            "to_room_vnum": 5104
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5103 to 5106",
+            "to_room": null,
+            "to_room_vnum": 5106
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5103,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand inside the 3rd house of the city; it is fairly well decorated\nby drow standards having a few statues, murals and such. A door leads to the\nsouth.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5104 to 5103",
+            "to_room": null,
+            "to_room_vnum": 5103
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5104 to 5105",
+            "to_room": null,
+            "to_room_vnum": 5105
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "3rd House",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5104,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The throne room of the 3rd house is about as decorated as the inner\ncourtyard except with a blood covered altar in the center of the room.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5105 to 5104",
+            "to_room": null,
+            "to_room_vnum": 5104
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Throne Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5105,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street going east-west. To the north\nis a large building.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5106 to 5118",
+            "to_room": null,
+            "to_room_vnum": 5118
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5106 to 5103",
+            "to_room": null,
+            "to_room_vnum": 5103
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5106 to 5107",
+            "to_room": null,
+            "to_room_vnum": 5107
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5106,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street leading north and east. To the\nsouth is an extremely large house.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5107 to 5110",
+            "to_room": null,
+            "to_room_vnum": 5110
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5107 to 5106",
+            "to_room": null,
+            "to_room_vnum": 5106
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5107 to 5108",
+            "to_room": null,
+            "to_room_vnum": 5108
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5107,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand inside the 2nd house of the city. The room is highly decorated\nwith statues of spiders and murals everywhere.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5108 to 5107",
+            "to_room": null,
+            "to_room_vnum": 5107
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5108 to 5109",
+            "to_room": null,
+            "to_room_vnum": 5109
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "2nd House",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5108,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The throne room of the 2nd house is just a little more decorative than\nthe inner courtyard having an altar in the center of the room.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5109 to 5108",
+            "to_room": null,
+            "to_room_vnum": 5108
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Throne Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5109,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the entrance to the 1st house of the city. A large gate, almost\nas big and elegant as the one at the entrance to the city, stands here.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5110 to 5114",
+            "to_room": null,
+            "to_room_vnum": 5114
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5110 to 5107",
+            "to_room": null,
+            "to_room_vnum": 5107
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A large gate lies to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "gate",
+            "name": "Exit gate 5110 to 5111",
+            "to_room": null,
+            "to_room_vnum": 5111
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Main Gate",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5110,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand in the inner courtyard of the 1st and largest house in the city.\nThe room is extremely large and decorative. Mural and paintings hang on the\nwalls depicting some battles and a spider queen.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5111 to 5110",
+            "to_room": null,
+            "to_room_vnum": 5110
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5111 to 5112",
+            "to_room": null,
+            "to_room_vnum": 5112
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "1st House",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5111,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The throne room of the 1st house is in one word...awesome. It is so\nhorrifying it is almost beautiful.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5112 to 5113",
+            "to_room": null,
+            "to_room_vnum": 5113
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5112 to 5111",
+            "to_room": null,
+            "to_room_vnum": 5111
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Throne Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5112,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the council chamber for the Matron Mother herself. A huge table\nand chairs surrounding it sits in the center of the room.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5113 to 5112",
+            "to_room": null,
+            "to_room_vnum": 5112
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Main Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5113,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street leading north-south and east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5114 to 5115",
+            "to_room": null,
+            "to_room_vnum": 5115
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5114 to 5117",
+            "to_room": null,
+            "to_room_vnum": 5117
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5114 to 5110",
+            "to_room": null,
+            "to_room_vnum": 5110
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5114,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street leading south. A building is\nto the west.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5115 to 5114",
+            "to_room": null,
+            "to_room_vnum": 5114
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5115 to 5116",
+            "to_room": null,
+            "to_room_vnum": 5116
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5115,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the most lavish of the academies being that it is for the clerics.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5116 to 5115",
+            "to_room": null,
+            "to_room_vnum": 5115
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Cleric Academy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5116,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street going east-west. To the north\nis a giant temple.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The entrance to the temple of Lloth.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5117 to 5119",
+            "to_room": null,
+            "to_room_vnum": 5119
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5117 to 5121",
+            "to_room": null,
+            "to_room_vnum": 5121
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5117 to 5114",
+            "to_room": null,
+            "to_room_vnum": 5114
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5117,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This looks more like a barracks than a school.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5118 to 5106",
+            "to_room": null,
+            "to_room_vnum": 5106
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Warrior's Academy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5118,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The temple is the largest building in the city. Even it's doors are beyond\nimagination. Inside of the temple entrance, the walls are made of gold and\nadamantite.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5119 to 5117",
+            "to_room": null,
+            "to_room_vnum": 5117
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5119 to 5126",
+            "to_room": null,
+            "to_room_vnum": 5126
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance to the Temple of Lloth",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5119,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The mages academy is fairly well decorated see that the drow prefer magic\nover physical power greatly.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5120 to 5121",
+            "to_room": null,
+            "to_room_vnum": 5121
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Mage's Academy",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5120,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street going eastward. To the north is\na building.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5121 to 5120",
+            "to_room": null,
+            "to_room_vnum": 5120
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5121 to 5123",
+            "to_room": null,
+            "to_room_vnum": 5123
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5121 to 5122",
+            "to_room": null,
+            "to_room_vnum": 5122
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5121 to 5117",
+            "to_room": null,
+            "to_room_vnum": 5117
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5121,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The room is in shambles. Straw is strewn all about the room as beds for the\nunfortunate creatures who have fallen prey to drow imperialism.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5122 to 5121",
+            "to_room": null,
+            "to_room_vnum": 5121
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5122 to 5101",
+            "to_room": null,
+            "to_room_vnum": 5101
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Slave Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5122,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You walk along a highly ornate city street leading west and south. To the\nnorth is a relatively small house.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5123 to 5124",
+            "to_room": null,
+            "to_room_vnum": 5124
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5123 to 5101",
+            "to_room": null,
+            "to_room_vnum": 5101
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5123 to 5121",
+            "to_room": null,
+            "to_room_vnum": 5121
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "City street",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5123,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand inside the 4th house of the city. Its inner courtyard is rather\ndull by drow standards and rather small as well.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5124 to 5125",
+            "to_room": null,
+            "to_room_vnum": 5125
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5124 to 5123",
+            "to_room": null,
+            "to_room_vnum": 5123
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "4th house",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5124,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The throne room is basically similar to the inner courtyard in regards\nto decor. there is a small throne behind the altar but that is about it.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5125 to 5124",
+            "to_room": null,
+            "to_room_vnum": 5124
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Throne Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5125,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand in the entrance way to the temple which opens up to the north\ninto a large hallway going east and west. Small statues of spiders line the\nentrance way's walls.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5126 to 5127",
+            "to_room": null,
+            "to_room_vnum": 5127
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5126 to 5119",
+            "to_room": null,
+            "to_room_vnum": 5119
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance Way",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5126,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.\nTo the north is a obsidian stairway.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5127 to 5135",
+            "to_room": null,
+            "to_room_vnum": 5135
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5127 to 5128",
+            "to_room": null,
+            "to_room_vnum": 5128
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5127 to 5126",
+            "to_room": null,
+            "to_room_vnum": 5126
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5127 to 5131",
+            "to_room": null,
+            "to_room_vnum": 5131
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5127,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5128 to 5129",
+            "to_room": null,
+            "to_room_vnum": 5129
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5128 to 5127",
+            "to_room": null,
+            "to_room_vnum": 5127
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5128,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.\nTo the north is a door.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5129 to 5150",
+            "to_room": null,
+            "to_room_vnum": 5150
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5129 to 5130",
+            "to_room": null,
+            "to_room_vnum": 5130
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5129 to 5128",
+            "to_room": null,
+            "to_room_vnum": 5128
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5129,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5130 to 5134",
+            "to_room": null,
+            "to_room_vnum": 5134
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5130 to 5129",
+            "to_room": null,
+            "to_room_vnum": 5129
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5130,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5131 to 5127",
+            "to_room": null,
+            "to_room_vnum": 5127
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5131 to 5132",
+            "to_room": null,
+            "to_room_vnum": 5132
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5131,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.\nTo the south is a door.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5132 to 5131",
+            "to_room": null,
+            "to_room_vnum": 5131
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5132 to 5133",
+            "to_room": null,
+            "to_room_vnum": 5133
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5132 to 5134",
+            "to_room": null,
+            "to_room_vnum": 5134
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5132,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The room is a complete mess. None of the beds are made, clothes and other\nitems have been left all about the room. Well drow warriors never were known\nfor neatness.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5133 to 5132",
+            "to_room": null,
+            "to_room_vnum": 5132
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Warrior's Barracks",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5133,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a long hallway lined with adamantite. The walls are engraved\nwith pictures of elves and spiders. The hallway continues east and west. As you\nlook down the hallway you can make out one or two figures moving away from you.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5134 to 5132",
+            "to_room": null,
+            "to_room_vnum": 5132
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5134 to 5130",
+            "to_room": null,
+            "to_room_vnum": 5130
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Long Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5134,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing at the bottom of a giant obsidian and adamantite\nstairway. The edges are trimmed with gold.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5135 to 5127",
+            "to_room": null,
+            "to_room_vnum": 5127
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5135 to 5136",
+            "to_room": null,
+            "to_room_vnum": 5136
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Grand Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5135,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in the middle of a grand hallway. The walls are\nof the purest adamantite with gold trim. Mosaics line the walls.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5136 to 5138",
+            "to_room": null,
+            "to_room_vnum": 5138
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5136 to 5137",
+            "to_room": null,
+            "to_room_vnum": 5137
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5136 to 5135",
+            "to_room": null,
+            "to_room_vnum": 5135
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Grand Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5136,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The mage's living quarters is rather clean with the exception of a few\nused component containers. It is rather well decorated as well. Cots line the\nfloor for the mages to sleep on. the only door is to the west.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5137 to 5136",
+            "to_room": null,
+            "to_room_vnum": 5136
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Mage's Barracks",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5137,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are walking down a grand hallway, heavily decorated with adamantite\nand gold. To the north the hall goes down a flight of stairs while a door is\ntoo the west.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5138 to 5136",
+            "to_room": null,
+            "to_room_vnum": 5136
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5138 to 5139",
+            "to_room": null,
+            "to_room_vnum": 5139
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5138 to 5140",
+            "to_room": null,
+            "to_room_vnum": 5140
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Grand Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5138,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The bed chamber is brightly decorated with spider shaped statues, murals\nand the like. Large beds line the floor making this a comfortable room to live\nin.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5139 to 5138",
+            "to_room": null,
+            "to_room_vnum": 5138
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Cleric's Barracks",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5139,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are climbing a set of obsidian stairs surrounded by adamantite walls.\nTo the north are a set of large golden doors.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5140 to 5141",
+            "to_room": null,
+            "to_room_vnum": 5141
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5140 to 5138",
+            "to_room": null,
+            "to_room_vnum": 5138
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Grand Stairway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5140,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the south side of a large auditorium used for services by the\ndrow priestesses. In the center is a large sacrificial pit and beyond that is\nan altar.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5141 to 5142",
+            "to_room": null,
+            "to_room_vnum": 5142
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5141 to 5140",
+            "to_room": null,
+            "to_room_vnum": 5140
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5141 to 5144",
+            "to_room": null,
+            "to_room_vnum": 5144
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Main Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5141,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on the eastern side of the chamber overlooking the pit. To the east\nis a door while to the north is an altar.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5142 to 5145",
+            "to_room": null,
+            "to_room_vnum": 5145
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5142 to 5146",
+            "to_room": null,
+            "to_room_vnum": 5146
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5142 to 5141",
+            "to_room": null,
+            "to_room_vnum": 5141
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Eastern side of Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5142,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "A you climb down into the pit thousands of spiders cover you tearing your\nbody to shreds.\n\nLloth thanks you for your sacrifice.\n\nYou've fallen, and you can't get up!!!",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Sacrificial Pit",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5143,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on the western side of the main chamber overlooking a sacrificial\npit. To the north is an altar.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5144 to 5145",
+            "to_room": null,
+            "to_room_vnum": 5145
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5144 to 5141",
+            "to_room": null,
+            "to_room_vnum": 5141
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Western side of Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5144,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in front of a highly and freshly bloodstained altar.\nEngraved on the top of the altar is a giant spider with a human head. Looking\ndown from the altar you see a large sacrificial pit.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5145 to 5148",
+            "to_room": null,
+            "to_room_vnum": 5148
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5145 to 5142",
+            "to_room": null,
+            "to_room_vnum": 5142
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5145 to 5144",
+            "to_room": null,
+            "to_room_vnum": 5144
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5145 to 5143",
+            "to_room": null,
+            "to_room_vnum": 5143
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Altar",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5145,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the main room to the cell chambers for the slaves to be\nsacrificed. You notice there are no guards around.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5146 to 5147",
+            "to_room": null,
+            "to_room_vnum": 5147
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5146 to 5142",
+            "to_room": null,
+            "to_room_vnum": 5142
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Slave Cells",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5146,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "Rotten meat and breads lie about the floor while shackles hang from the\nwalls. The room wreaks of death. You almost become nauseous and decide to leave\nthe room since you were obviously too late to save the slave.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5147 to 5146",
+            "to_room": null,
+            "to_room_vnum": 5146
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Slave Pen",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5147,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand upon a dais behind the altar. Above you is a enormous illusion\nof a female drow turning into a giant spider and back again. There is a door\nto the west.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5148 to 5145",
+            "to_room": null,
+            "to_room_vnum": 5145
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5148 to 5149",
+            "to_room": null,
+            "to_room_vnum": 5149
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Dais",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5148,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is obviously only a temporary storage place for the collected\ntreasure being rather bare.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5149 to 5148",
+            "to_room": null,
+            "to_room_vnum": 5148
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Treasury",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5149,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Drow City",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This one person bedchamber is very elegant. The owner must be held in high\nto get this kind of treatment.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  5150 to 5129",
+            "to_room": null,
+            "to_room_vnum": 5129
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Weaponsmaster's Chamber",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 5150,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

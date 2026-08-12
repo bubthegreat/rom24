@@ -42,6 +42,10 @@ logger.info("HELP_DIR: %s", HELP_DIR)
 USER_DIR = os.path.expanduser("~")
 BASE_DIR = os.path.join(USER_DIR, "rom24")
 DATA_DIR = os.path.join(SOURCE_DIR, "data")
+PACKS_DIR = os.environ.get("PYROM_PACKS_DIR", os.path.join(SOURCE_DIR, "packs"))
+logger.info("PACKS_DIR: %s", PACKS_DIR)
+AREAS_DIR = os.environ.get("PYROM_AREAS_DIR", os.path.join(SOURCE_DIR, "areas"))
+logger.info("AREAS_DIR: %s", AREAS_DIR)
 
 # Use environment variables for persistent directories if available
 WORLD_DIR = os.environ.get("PYROM_WORLD_DIR", os.path.join(DATA_DIR, "world"))

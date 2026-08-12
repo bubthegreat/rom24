@@ -1,0 +1,3563 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are at the entrance to a tall tower.  Lightning flashes periodically and\nit is raining.  You think it might be a good idea to turn back into the grove.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large steel gate.  Beyond is the Foyer of the Tower.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2231,
+            "key_vnum": null,
+            "keyword": "gate steel",
+            "name": "Exit gate steel 2201 to 2202",
+            "to_room": null,
+            "to_room_vnum": 2202
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The shadows cloud your vision.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2201 to 1304",
+            "to_room": null,
+            "to_room_vnum": 1304
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The gate is tall and secure.  Whoever built it values privacy.",
+            "keyword": "gate"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Tower Gates",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2201,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the entrance to the Tower.  The hallway continues to the north,\nleading towards a staircase.  You notice a grim painting on the wall,  and\nquickly look away.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a long hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2202 to 2203",
+            "to_room": null,
+            "to_room_vnum": 2203
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the gate.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2202 to 2201",
+            "to_room": null,
+            "to_room_vnum": 2201
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "This painting depicts the grisly death of a foolish human.  You hope you do\nnot share his fate.",
+            "keyword": "painting"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Foyer",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2202,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This hallway seems to stretch on forever.  You notice a stairway in\nthe distance.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hall continues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2203 to 2204",
+            "to_room": null,
+            "to_room_vnum": 2204
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the foyer.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2203 to 2202",
+            "to_room": null,
+            "to_room_vnum": 2202
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2203,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You trudge down the hallway.  You notice doors to the east and west.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hall continues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2204 to 2207",
+            "to_room": null,
+            "to_room_vnum": 2207
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a door.  You notice a sign.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 2204 to 2205",
+            "to_room": null,
+            "to_room_vnum": 2205
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hall continues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2204 to 2203",
+            "to_room": null,
+            "to_room_vnum": 2203
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see an oak door.  There is an inscription on it.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "oak",
+            "name": "Exit oak 2204 to 2206",
+            "to_room": null,
+            "to_room_vnum": 2206
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It says \"STORAGE\"",
+            "keyword": "inscription"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The sign says \"NURSERY\" in bold letters.",
+            "keyword": "sign"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2204,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "It looks like a tornado has been through here.  Toys are scattered everywhere,\nand a small group of dragon hatchlings are fighting over a bone.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large stone door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2297,
+            "key_vnum": null,
+            "keyword": "door stone",
+            "name": "Exit door stone 2205 to 2223",
+            "to_room": null,
+            "to_room_vnum": 2223
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2205 to 2204",
+            "to_room": null,
+            "to_room_vnum": 2204
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Nursery",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2205,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This room is covered with dust, it looks as if no one has been here in ages.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the hallway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2206 to 2204",
+            "to_room": null,
+            "to_room_vnum": 2204
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see nothing special.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "trapdoor",
+            "name": "Exit trapdoor 2206 to 2208",
+            "to_room": null,
+            "to_room_vnum": 2208
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "As you look closely at the dust, you notice the outline of a trapdoor!",
+            "keyword": "dust"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Storage Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2206,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have finally reached the end of the hallway.  A huge staircase leads up.\nYou see a sign at the base of the staircase.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hall continues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2207 to 2204",
+            "to_room": null,
+            "to_room_vnum": 2204
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The second floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2207 to 2210",
+            "to_room": null,
+            "to_room_vnum": 2210
+          }
+        },
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The sign reads:\n    This area is kind of tough.  You probably shouldn't go up these stairs\n    alone if you are under 18th level, or at all if you under 14th level.\n    Have fun! -- Wench",
+            "keyword": "sign"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "End of the Hallway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2207,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You climb down the rickety stairs and find yourself face to face with a\ngargantuan hydra.  How fast can you climb UP stairs?",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A large grey door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2234,
+            "key_vnum": null,
+            "keyword": "grey",
+            "name": "Exit grey 2208 to 2209",
+            "to_room": null,
+            "to_room_vnum": 2209
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the storage room.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door trap trapdoor",
+            "name": "Exit door trap trapdoor 2208 to 2206",
+            "to_room": null,
+            "to_room_vnum": 2206
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Guardian's Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2208,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have made it past the hydra into the vault.  You are astounded by\nthe treasure here.  Not only are you now rich, you can probably rest here\nsafely.  The west wall seems to have a large door made entirely of ruby.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see nothing special.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2234,
+            "key_vnum": null,
+            "keyword": "grey",
+            "name": "Exit grey 2209 to 2208",
+            "to_room": null,
+            "to_room_vnum": 2208
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a ruby door!",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2232,
+            "key_vnum": null,
+            "keyword": "door ruby",
+            "name": "Exit door ruby 2209 to 2218",
+            "to_room": null,
+            "to_room_vnum": 2218
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Treasure Room",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 12,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2209,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have made it up to the second floor.  You hear hissing and see several\ndragon men rushing you.  You wonder how long you will be staying here.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2210 to 2211",
+            "to_room": null,
+            "to_room_vnum": 2211
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the first floor.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2210 to 2207",
+            "to_room": null,
+            "to_room_vnum": 2207
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Second Floor",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2210,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered what seems to be a large court.  The people guarding it\ndon't seem happy to see you ...",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see nothing special.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2211 to 2210",
+            "to_room": null,
+            "to_room_vnum": 2210
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a wooden door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door wooden",
+            "name": "Exit door wooden 2211 to 2212",
+            "to_room": null,
+            "to_room_vnum": 2212
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2211 to 2213",
+            "to_room": null,
+            "to_room_vnum": 2213
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Court",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2211,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stop dead in your tracks as you enter this ornately decorated room - it\nis populated with the king's harem.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2212 to 2211",
+            "to_room": null,
+            "to_room_vnum": 2211
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Hall O' Pleasure",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2212,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are continuing down the hall.  To the east and west you see ornate doors.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2213 to 2211",
+            "to_room": null,
+            "to_room_vnum": 2211
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a black door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2240,
+            "key_vnum": null,
+            "keyword": "door black",
+            "name": "Exit door black 2213 to 2214",
+            "to_room": null,
+            "to_room_vnum": 2214
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2213 to 2216",
+            "to_room": null,
+            "to_room_vnum": 2216
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a white door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2233,
+            "key_vnum": null,
+            "keyword": "door white",
+            "name": "Exit door white 2213 to 2215",
+            "to_room": null,
+            "to_room_vnum": 2215
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Court",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2213,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a huge room, filled with books.  A peaceful man is\nsitting at a table, studying.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2240,
+            "key_vnum": null,
+            "keyword": "door black",
+            "name": "Exit door black 2214 to 2213",
+            "to_room": null,
+            "to_room_vnum": 2213
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Library",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2214,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This small room is modestly decorated with small dragon icons.  Its sole\noccupant is deep in thought.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2233,
+            "key_vnum": null,
+            "keyword": "door white",
+            "name": "Exit door white 2215 to 2213",
+            "to_room": null,
+            "to_room_vnum": 2213
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Sanctum",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2215,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have reached the end of the court.  A huge Draconian is sitting in a\nchair here.  As you enter, he motions with his hand and you are rushed by three\nof his bodyguards.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2216 to 2213",
+            "to_room": null,
+            "to_room_vnum": 2213
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a private chamber.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2216 to 2217",
+            "to_room": null,
+            "to_room_vnum": 2217
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Court Ends",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2216,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the personal room of the draconian king.  It is not empty.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see Court.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2217 to 2216",
+            "to_room": null,
+            "to_room_vnum": 2216
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "bedroom",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2217,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a large room which smells heavily of reptile.  You wonder\nwhat awaits you here.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Treasure Vault.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2232,
+            "key_vnum": null,
+            "keyword": "door ruby",
+            "name": "Exit door ruby 2218 to 2209",
+            "to_room": null,
+            "to_room_vnum": 2209
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Crypt.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2218 to 2219",
+            "to_room": null,
+            "to_room_vnum": 2219
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance to the Crypt",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2218,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a large room which continues to the west.  You notice many\ncoffins here.  Open coffins reveal remains of something other than man.\nThe smell of reptile is very strong here.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the entrance.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2219 to 2218",
+            "to_room": null,
+            "to_room_vnum": 2218
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see nothing special.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2219 to 2222",
+            "to_room": null,
+            "to_room_vnum": 2222
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Crypt",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2219,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a large room dominated by a great white dragon.  It growls\nat you before it attacks.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You the cave opening.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2220 to 2235",
+            "to_room": null,
+            "to_room_vnum": 2235
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Lair",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2220,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a large room dominated by a great black dragon.  It looks\nas though it is amused by your presence.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You the cave opening.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2221 to 2241",
+            "to_room": null,
+            "to_room_vnum": 2241
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Lair",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2221,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have come to the end of the Crypt.  It seems deserted.  There is a\nstrange coffin lying against the wall.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Crypt.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2222 to 2219",
+            "to_room": null,
+            "to_room_vnum": 2219
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "coffin",
+            "name": "Exit coffin 2222 to 2232",
+            "to_room": null,
+            "to_room_vnum": 2232
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A coffin lies a against the east wall.  It is closed.",
+            "keyword": "coffin"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Crypt Ends",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2222,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a huge hall.  It has been carefully decorated with\nbeautiful tapestries depicting a great battle between dragons and men.  The\ndragons appear to be the victors.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The Hall continues.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2223 to 2224",
+            "to_room": null,
+            "to_room_vnum": 2224
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Nursery.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2297,
+            "key_vnum": null,
+            "keyword": "door stone",
+            "name": "Exit door stone 2223 to 2205",
+            "to_room": null,
+            "to_room_vnum": 2205
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Entrance to the Great Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2223,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are working your way down the Hall.  To the north, you notice a smaller\npassageway, while the main hall continues to the east.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a narrow passageway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2224 to 2225",
+            "to_room": null,
+            "to_room_vnum": 2225
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the Hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2224 to 2229",
+            "to_room": null,
+            "to_room_vnum": 2229
+          }
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Great Hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2224,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This Passageway branches off from the main hall and leads somewhere ... where?",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a large Lair.  It looks dangerous.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2225 to 2226",
+            "to_room": null,
+            "to_room_vnum": 2226
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the great hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2225 to 2224",
+            "to_room": null,
+            "to_room_vnum": 2224
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A Narrow Passageway",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2225,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a large lair with bones strewn about the ground.  You\nnotice the source of these as you come face to face with a rather large red\ndragon.  You notice a trap door in the floor.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The narrow passageway.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2226 to 2225",
+            "to_room": null,
+            "to_room_vnum": 2225
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a trap door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door trap trapdoor",
+            "name": "Exit door trap trapdoor 2226 to 2227",
+            "to_room": null,
+            "to_room_vnum": 2227
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Lair",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2226,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered an underground tunnel.  It is dark and dirty, and you find\nyourself wishing you were back in Midgaard.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2227 to 2228",
+            "to_room": null,
+            "to_room_vnum": 2228
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the red dragon's lair.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 1,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "door trap trapdoor",
+            "name": "Exit door trap trapdoor 2227 to 2226",
+            "to_room": null,
+            "to_room_vnum": 2226
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Underground Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2227,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This tunnel has come to a dead end.  You feel nervous about being trapped here.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the tunnel.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2228 to 2227",
+            "to_room": null,
+            "to_room_vnum": 2227
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Underground Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 13,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2228,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have come to the end of the great hall.  You see before you a huge\ngolden door, it must be at least twenty feet tall!  It has beautiful etchings\nof dragons.  You see a sign on the door.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a great golden door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2299,
+            "key_vnum": null,
+            "keyword": "door great golden",
+            "name": "Exit door great golden 2229 to 2230",
+            "to_room": null,
+            "to_room_vnum": 2230
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2229 to 2224",
+            "to_room": null,
+            "to_room_vnum": 2224
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Congratulations on making it this far!  Watch out, it gets a little\n    nasty here... :) - Wench",
+            "keyword": "sign"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Great Hall Ends.",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 1,
+      "special_inventory": [],
+      "vnum": 2229,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see a great golden door.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2299,
+            "key_vnum": null,
+            "keyword": "door golden great",
+            "name": "Exit door golden great 2230 to 2229",
+            "to_room": null,
+            "to_room_vnum": 2229
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "THE Lair",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2230,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have reached the final lair.  It is dominated by a huge five headed\ndragon.  You suddenly realize that you have SERIOUS problems...",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "You see the top of the mountain.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2241,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2231 to 2243",
+            "to_room": null,
+            "to_room_vnum": 2243
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The End...",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2231,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is an old decrepit stairwell that leads to the wine cellar.  It looks\nlike it hasn't been used for decades.  Well, at least not by anything living.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The crypt",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2232 to 2222",
+            "to_room": null,
+            "to_room_vnum": 2222
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A wine cellar",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2232 to 2233",
+            "to_room": null,
+            "to_room_vnum": 2233
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Stairwell",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 8,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2232,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This is the old wine cellar of the Dragon Tower.  The shelves are empty.\nNothing living has been in here for a long time.  You see a tunnel leading\noff to the east and boy does it smell bad.  Kinda of like rotting flesh.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A tunnel",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2233 to 2234",
+            "to_room": null,
+            "to_room_vnum": 2234
+          }
+        },
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The stairwell",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2233 to 2232",
+            "to_room": null,
+            "to_room_vnum": 2232
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Wine cellar",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 1,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2233,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This tunnel seems to stretch for miles.  You try to distinguish the end but\nyour eyes soon tire from the strain.  The smell here has increased two fold.\nThe tunnel continues to go to the east.  The wine cellar lies back to the\nwest.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A cave opening",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2234 to 2235",
+            "to_room": null,
+            "to_room_vnum": 2235
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A tunnel",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2234 to 2236",
+            "to_room": null,
+            "to_room_vnum": 2236
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A tunnel",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2234 to 2233",
+            "to_room": null,
+            "to_room_vnum": 2233
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 257,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2234,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand at the opening of a giant cave.  There are many bones strewn across\nthe room.  Some human, some indistinguishable.  It smells very bad in here.\nYou can hear movement in the cave to the north.  The tunnel goes back to the\nsouth.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The lair",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2235 to 2220",
+            "to_room": null,
+            "to_room_vnum": 2220
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The tunnel",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2235 to 2234",
+            "to_room": null,
+            "to_room_vnum": 2234
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A cave opening",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 257,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2235,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You have finally come to the end of the tunnel.  Back to the west lies\nthe miles of tunnels you have walked through.  You see the faint outline of\na trapdoor above you.  A bridge over an underground river lies to the south.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "bridge",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2236 to 2237",
+            "to_room": null,
+            "to_room_vnum": 2237
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The tunnel",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2236 to 2234",
+            "to_room": null,
+            "to_room_vnum": 2234
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "trapdoor",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2236 to 2202",
+            "to_room": null,
+            "to_room_vnum": 2202
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The End of the tunnel",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 257,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2236,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are walking along an old wooden bridge.  Its not that secure.  You\nmight want to hurry along.  To the south, on the other side of the bridge,\nlies a small opening.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The tunnel end",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2237 to 2236",
+            "to_room": null,
+            "to_room_vnum": 2236
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A small opening",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2237 to 2238",
+            "to_room": null,
+            "to_room_vnum": 2238
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The Bridge",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2237,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing in a small opening.  To the north lies the old wooden\nbridge.  To your south the you can see a clearing.  You can see sunlight\nagain.  What a welcome relief!",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "bridge",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2238 to 2237",
+            "to_room": null,
+            "to_room_vnum": 2237
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "clearing",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2238 to 2239",
+            "to_room": null,
+            "to_room_vnum": 2239
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A small opening",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 9,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2238,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand out in a clearing.  Mountains are all around you.  There is a\nwell in the middle of the clearing.  Lying against the well is a sign.  A\npath leads up the mountain.  The small opening is back to the north.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "the small opening",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2239 to 2238",
+            "to_room": null,
+            "to_room_vnum": 2238
+          }
+        },
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A path",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2239 to 2240",
+            "to_room": null,
+            "to_room_vnum": 2240
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The well",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2239 to 2244",
+            "to_room": null,
+            "to_room_vnum": 2244
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The sign reads:\n         This is a bottomless pit cleverly disguised as a well.  People have\nfallen in and never been heard from again.  Trust me, you don't want to go\ndown there.\n                        The All Powerful Well Keeper",
+            "keyword": "sign"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You peer over the side of the well.  It looks VERY, VERY deep.  It appears\nto be ENDLESS.",
+            "keyword": "well"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Clearing",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2239,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "This path leads up the side of the mountain.  A clearing lies below you.\nThere is a cave opening to the west.  The path continues up the mountain.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "cave opening",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2240 to 2241",
+            "to_room": null,
+            "to_room_vnum": 2241
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "the path continues",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2240 to 2242",
+            "to_room": null,
+            "to_room_vnum": 2242
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "clearing",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2240 to 2239",
+            "to_room": null,
+            "to_room_vnum": 2239
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A path",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2240,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You stand before a huge cave opening.  You hearing heavy breathing from\nwithin the cave.  There are a few skeletons lying about.  The cave lies to\nthe south.  The path is back to the east.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "the path",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2241 to 2240",
+            "to_room": null,
+            "to_room_vnum": 2240
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "A lair",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2241 to 2221",
+            "to_room": null,
+            "to_room_vnum": 2221
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "A cave opening",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2241,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "The path continues up the mountain to the top.  The path also goes down.\nThats it, nothing more to see.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "top of the mountain",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2242 to 2243",
+            "to_room": null,
+            "to_room_vnum": 2243
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "path",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2242 to 2240",
+            "to_room": null,
+            "to_room_vnum": 2240
+          }
+        }
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The path continues",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2242,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are standing at the top of the mountain.  It feels more like the top of\nthe world.  To your north lies a huge platinum door.  You hear very pronounced\ngrumbling from behind the doors.  It sounds like something huge and hungry.\nBut if you don't have the key you don't have to worry because you can't get in.\nIf you do have the key I would suggest not going in.  Some believe the Five\nHeaded dragon Tiamat was imprisoned here by the gods.  But who believes in\nfairy tales.  Well, if you're scared, you can always go down the mountain.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The platinum door",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 2241,
+            "key_vnum": null,
+            "keyword": "door platinum",
+            "name": "Exit door platinum 2243 to 2231",
+            "to_room": null,
+            "to_room_vnum": 2231
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The path continues",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 0,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  2243 to 2242",
+            "to_room": null,
+            "to_room_vnum": 2242
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "A huge platinum door separates you from harm",
+            "keyword": "door platinum"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "The top of the mountain",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 0,
+      "sector_type": 2,
+      "special_inventory": [],
+      "vnum": 2243,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Dragon Tower",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "O\n h\n   !\n\n     N\n      o\n       !\n\n   I warned you!  You have fallen into the bottomless pit.  You life flashes\nright before your eyes.  Pretty pathetic isn't it?  Next time you'll know\nto listen to the God of Laughs.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Well",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 6,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 2244,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

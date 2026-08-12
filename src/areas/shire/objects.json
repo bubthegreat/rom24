@@ -1,0 +1,1658 @@
+[
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 4,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 550,
+      "count": 0,
+      "description": "The rainbow staff lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "light"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "light",
+      "level": 5,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "rainbow staff",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the rainbow staff",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 1100,
+      "was_in_room": null,
+      "weight": 80,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 2,
+            "modifier": 2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 3500,
+      "count": 0,
+      "description": "Sting lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "hum",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 17,
+      "long_descr": "",
+      "material": "mithril",
+      "name": "sting",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "sting",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "dagger",
+        2,
+        7,
+        10,
+        0
+      ],
+      "vnum": 1101,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 0,
+      "count": 0,
+      "description": "A sign demands your attention.",
+      "enchanted": false,
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Welcome to the Shire.  As you enter the Shire from Haon-Dor you come under\nthe jurisdiction of the Thain, the peacekeeper of the Shire.  Consequently,\nby entering these lands you agree to obey our laws.  If you break these laws,\nyou will be severely punished.  We do not like riff raff in our peaceful\ntown.\n\n\t\t\t\t\tThe Thain\n\t\t\t\t\tPeacekeeper of the Shire",
+            "keyword": "sign"
+          }
+        }
+      ],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": []
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "furniture",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "sign",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a sign",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 1102,
+      "was_in_room": null,
+      "weight": 0,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 15,
+      "count": 0,
+      "description": "A loaf of pipeweed bread arouses your hunger.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "food",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "pipeweed bread",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a pipeweed bread",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        30,
+        24,
+        0,
+        0,
+        0
+      ],
+      "vnum": 1103,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 20,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1320,
+      "count": 0,
+      "description": "A silvery cloak lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "about_body"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 15,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "silvery cloak",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a silvery cloak",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        6,
+        6,
+        6,
+        2,
+        0
+      ],
+      "vnum": 1104,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 1,
+            "modifier": -1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1660,
+      "count": 0,
+      "description": "The One Ring is here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "left_finger",
+              "right_finger"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "jewelry",
+      "level": 20,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "one ring",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the One Ring",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vnum": 1105,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 500,
+      "count": 0,
+      "description": "An elven spear lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "magic",
+              "hum",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "anti_evil"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 16,
+      "long_descr": "",
+      "material": "wood",
+      "name": "elven spear",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "an elven spear",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "staff",
+        2,
+        8,
+        34,
+        0
+      ],
+      "vnum": 1106,
+      "was_in_room": null,
+      "weight": 50,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1440,
+      "count": 0,
+      "description": "A mithril axe lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "glow",
+              "dark",
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": [
+              "no_remove",
+              "no_purge"
+            ]
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 17,
+      "long_descr": "",
+      "material": "mithril",
+      "name": "mithril axe",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a mithril axe",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "axe",
+        2,
+        8,
+        25,
+        0
+      ],
+      "vnum": 1107,
+      "was_in_room": null,
+      "weight": 120,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 4,
+            "modifier": 2,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 3600,
+      "count": 0,
+      "description": "The girth of the thain lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "waist"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "armor",
+      "level": 17,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "thain girth",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the thain girth",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        5,
+        5,
+        5,
+        0,
+        0
+      ],
+      "vnum": 1108,
+      "was_in_room": null,
+      "weight": 40,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 230,
+      "count": 0,
+      "description": "A tiny dagger lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 1,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "tiny dagger",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a tiny dagger",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "dagger",
+        1,
+        6,
+        11,
+        0
+      ],
+      "vnum": 1109,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 2,
+      "count": 0,
+      "description": "An egg lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "food",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "egg",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "an egg",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "vnum": 1110,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 11,
+      "count": 0,
+      "description": "A bag is on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": []
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "container",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "bag",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a bag",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        50,
+        0,
+        0,
+        5,
+        100
+      ],
+      "vnum": 1111,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 60,
+      "count": 0,
+      "description": "A lantern is on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "light"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "light",
+      "level": 0,
+      "long_descr": "",
+      "material": "oldstyle",
+      "name": "lantern",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a lantern",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        0,
+        0,
+        200,
+        0,
+        0
+      ],
+      "vnum": 1112,
+      "was_in_room": null,
+      "weight": 40,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 4,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 1810,
+      "count": 0,
+      "description": "A long weapon with a sharp end is on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": [
+              "two_handed"
+            ]
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 21,
+      "long_descr": "",
+      "material": "wood",
+      "name": "bardiche",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a bardiche",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "polearm",
+        2,
+        11,
+        21,
+        32
+      ],
+      "vnum": 1113,
+      "was_in_room": null,
+      "weight": 100,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 390,
+      "count": 0,
+      "description": "A flail is on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 5,
+      "long_descr": "",
+      "material": "iron",
+      "name": "flail",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a flail",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "flail",
+        2,
+        4,
+        27,
+        0
+      ],
+      "vnum": 1114,
+      "was_in_room": null,
+      "weight": 80,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 4,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 980,
+      "count": 0,
+      "description": "A long weapon with a wooden blade is on the floor.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": [
+              "two_handed"
+            ]
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 3,
+      "long_descr": "",
+      "material": "wood",
+      "name": "wooden bardiche",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a wooden bardiche",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "polearm",
+        2,
+        3,
+        7,
+        32
+      ],
+      "vnum": 1115,
+      "was_in_room": null,
+      "weight": 100,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 19,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        },
+        {
+          "__class__/rom24.handler_game.AFFECT_DATA": {
+            "bitvector": 0,
+            "duration": -1,
+            "level": 20,
+            "location": 18,
+            "modifier": 1,
+            "type": -1,
+            "valid": true,
+            "where": 1
+          }
+        }
+      ],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 480,
+      "count": 0,
+      "description": "A tiny but very sharp dagger lies here.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 6,
+      "long_descr": "",
+      "material": "steel",
+      "name": "dagger shiriff",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "a shiriff's dagger",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "dagger",
+        2,
+        4,
+        11,
+        0
+      ],
+      "vnum": 1116,
+      "was_in_room": null,
+      "weight": 10,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_item.Items": {
+      "_environment": null,
+      "_equipped": null,
+      "_equipped_to": null,
+      "_equips_to": null,
+      "_room_vnum": null,
+      "affected": [],
+      "area": "Shire",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "condition": 100,
+      "cost": 620,
+      "count": 0,
+      "description": "You see see a heavy club. Looks just right for whomping heads.",
+      "enchanted": false,
+      "extra_descr": [],
+      "flags": {
+        "__class__/rom24.item_flags.ItemFlags": {
+          "equips_to": {
+            "__type__/set": [
+              "main_hand"
+            ]
+          },
+          "item_attributes": {
+            "__type__/set": [
+              "take"
+            ]
+          },
+          "item_restrictions": {
+            "__type__/set": []
+          },
+          "weapon_attributes": {
+            "__type__/set": []
+          }
+        }
+      },
+      "form": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "form_flags"
+        }
+      },
+      "instance_id": null,
+      "inventory": [],
+      "is_area": false,
+      "is_item": true,
+      "is_living": false,
+      "is_room": false,
+      "item_type": "weapon",
+      "level": 12,
+      "long_descr": "",
+      "material": "wood",
+      "name": "club heavy",
+      "new_format": true,
+      "on": null,
+      "owner": "",
+      "parts": {
+        "__class__/rom24.bit.Bit": {
+          "bits": 0,
+          "flags_ref": "part_flags"
+        }
+      },
+      "reset_num": 0,
+      "short_descr": "the Thain's club",
+      "size": 0,
+      "timer": 0,
+      "valid": false,
+      "value": [
+        "mace",
+        2,
+        7,
+        7,
+        0
+      ],
+      "vnum": 1117,
+      "was_in_room": null,
+      "weight": 30,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

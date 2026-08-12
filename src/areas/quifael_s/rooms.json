@@ -1,0 +1,529 @@
+[
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a big, subterranean room with heavy massive stone walls and no\nwindows whatsoever.  A virtual ladder leads upwards.",
+      "exit": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The ladder leads to the laboratory.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6900 to 6902",
+            "to_room": null,
+            "to_room_vnum": 6902
+          }
+        },
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's monster pen",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 520,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6900,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a small, comfortable study room.  The walls are lined with\nbookcases filled with dusty volumes of all sizes.  In the fireplace burns a\ncrackling fire that makes the room warm and cosy, and in front of an oakwood\nreading desk is a large old-fashioned chair.",
+      "exit": [
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The corridor leads south to the hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6901 to 6904",
+            "to_room": null,
+            "to_room_vnum": 6904
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is big and old-fashioned, but quite comfortable nevertheless.",
+            "keyword": "chair"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "It is very massive and but seems worn from many years of use.",
+            "keyword": "desk"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The fireplace isn't particularly big, but the fire crackles merrily in it.",
+            "keyword": "fireplace"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Most of the books are heavy, leatherbound and covered in a thin layer of dust.\nThere are many titles on necromancy, conjuring and other spheres of Magick,\nbut also some on computer science (although these seem to be VERY dusty\nindeed) and a fair collection of horror literature, ranging from Bram Stoker\nand H. P. Lovecraft to Anne Rice and Stephen King.",
+            "keyword": "bookcase bookcases volume volumes book books"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's study",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 524,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6901,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in a room filled with shelves containing all sorts of weird equipment.\nThe walls are lined with numerous shelves and a massive working desk is by\nthe north wall.  The air smells of rare chemicals and spices.\nA virtual ladder leads downwards.\nA magical portal is hovering in the air just in front of the east wall.",
+      "exit": [
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the east is the magical portal.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6902 to 6903",
+            "to_room": null,
+            "to_room_vnum": 6903
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "To the west is the hall.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6902 to 6904",
+            "to_room": null,
+            "to_room_vnum": 6904
+          }
+        },
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The virtual ladder leads down to the monster pen.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6902 to 6900",
+            "to_room": null,
+            "to_room_vnum": 6900
+          }
+        }
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "On the desk is a peculiar apparatus of glass bottles and globes connected by\nsmall pipelines.  The green liquid inside the apparatus' globes and pipelines\nis bubbling steadily.",
+            "keyword": "desk"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The shelves contain a mass of bottles, jars and boxes of different shapes and\nsizes, of which some contain powders and liquids in various colours.  Others\ncontain dragon's claws, giant's eyes, rabbit's ears and other body parts of\ndifferent monsters.",
+            "keyword": "shelves"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's laboratory",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 524,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6902,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are on a transparent balcony hanging in mid-air.  You notice a faint blue\nglow surrounding everything, even yourself, making it seem as transparent as\nthe balcony itself.  From here, you have a terrific view of the whole Forest\nof Haon-Dor.\nA transparent bronze plate has been bolted to the balcony railing.\nA magical portal is hovering in the air to the west.",
+      "exit": [
+        null,
+        null,
+        null,
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The magical portal is to the west.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6903 to 6902",
+            "to_room": null,
+            "to_room_vnum": 6902
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Through the tree crowns, you see fellow adventurers walking around in the\nforest, gathering mushrooms, eating blackberries, committing rabbit genocide\nand generally having a good time.",
+            "keyword": "forest Haon-Dor view"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "The transparent bronze plate looks quite strange, but the engraved letters are\nquite easy to read, nevertheless :-\n\n              Quifael's Virtual Balcony\n\n                   Do not lean out!\n\n  Please do not try to attract the attention of any\n      adventurers in the forest, as you are not\n         really in existence at the moment.\n\n        (This could possibly mess up Reality,\n      and we wouldn't want to do that, would we?)",
+            "keyword": "plate"
+          }
+        },
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "Quite transparent, but visible anyway, because of the blue glow that surrounds\nthe whole place.",
+            "keyword": "balcony railing"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's virtual balcony",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 520,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6903,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in sparsely decorated and quite dusty hall.  Old wooden doors lead\nnorth, east and south and to the west is the front door.\nAn old mirror hangs on the wall.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The study is to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6904 to 6901",
+            "to_room": null,
+            "to_room_vnum": 6901
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The laboratory is to the east.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6904 to 6902",
+            "to_room": null,
+            "to_room_vnum": 6902
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The kitchen is to the south.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6904 to 6905",
+            "to_room": null,
+            "to_room_vnum": 6905
+          }
+        },
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The front door leads to Park Road.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 2,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": 3301,
+            "key_vnum": null,
+            "keyword": "door",
+            "name": "Exit door 6904 to 3126",
+            "to_room": null,
+            "to_room_vnum": 3126
+          }
+        },
+        null,
+        null
+      ],
+      "extra_descr": [
+        {
+          "__class__/rom24.world_classes.ExtraDescrData": {
+            "description": "You see yourself looking back at you.",
+            "keyword": "mirror"
+          }
+        }
+      ],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's hall",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 520,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6904,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  },
+  {
+    "__class__/rom24.handler_room.Room": {
+      "_environment": null,
+      "_room_vnum": null,
+      "area": "Quifael's",
+      "available_light": 0,
+      "carry_number": 0,
+      "carry_weight": 0,
+      "clan": null,
+      "description": "You are in an old-fashioned kitchen.",
+      "exit": [
+        {
+          "__class__/rom24.world_classes.Exit": {
+            "description": "The hall is to the north.",
+            "exit_info": {
+              "__class__/rom24.bit.Bit": {
+                "bits": 0,
+                "flags_ref": "exit_flags"
+              }
+            },
+            "is_broken": false,
+            "key": -1,
+            "key_vnum": null,
+            "keyword": "",
+            "name": "Exit  6905 to 6904",
+            "to_room": null,
+            "to_room_vnum": 6904
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra_descr": [],
+      "heal_rate": 100,
+      "instance_id": null,
+      "is_area": false,
+      "is_item": false,
+      "is_living": false,
+      "is_room": true,
+      "mana_rate": 100,
+      "name": "Quifael's kitchen",
+      "old_exit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "on": null,
+      "owner": "",
+      "room_flags": 520,
+      "sector_type": 0,
+      "special_inventory": [],
+      "vnum": 6905,
+      "was_in_room": null,
+      "zone": 0,
+      "zone_template": ""
+    }
+  }
+]

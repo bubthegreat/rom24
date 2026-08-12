@@ -56,10 +56,8 @@ def test_npc_interpret_unknown_command(booted_world):
     assert "Huh?\n" in captured
 
 
-def test_do_force_on_npc_victim_does_not_raise(booted_world):
+def test_do_force_on_npc_victim_does_not_raise(booted_world, command):
     """do_force targeting an NPC dispatches to victim.interpret without AttributeError."""
-    from rom24.commands import do_force
-
     room = _room(booted_world)
     npc_vnums = list(booted_world_npcs())
     ch = _make_mob(npc_vnums[0])
@@ -75,7 +73,7 @@ def test_do_force_on_npc_victim_does_not_raise(booted_world):
 
     # First keyword of the victim's name is how do_force locates it in the room.
     target = victim.name.split()[0]
-    do_force.do_force(ch, "%s look" % target)
+    command('force')(ch, "%s look" % target)
 
     assert victim_dispatched, "do_force never reached victim.interpret"
     # do_force passes the remaining argument verbatim (leading space intact);
