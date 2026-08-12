@@ -236,3 +236,38 @@ See [k8s/README.md](k8s/README.md) for detailed troubleshooting steps.
 - ArgoCD automatically syncs changes from the repository
 - Persistent storage ensures data survives pod restarts and redeployments
 
+
+## Homelab routing — current state and TODO (2026-08-12)
+
+**Live now (MetalLB LoadBalancer per env):**
+- prod: `192.168.0.42:1337` → `pyrom.bubtaylor.com`
+- dev:  `192.168.0.43:1337` → `dev-pyrom.bubtaylor.com`
+
+Each env's `pyrom-service` is `type: LoadBalancer` with a pinned MetalLB IP
+(`k8s/overlays/<env>/pyrom-service-patch.yaml`). Works today; different from the
+KBK house style (shared istio `homelab-gateway` + TCPRoute).
+
+**Target (KBK-style shared gateway) — pending:**
+The homelab publishes raw-TCP apps through the shared `homelab-gateway`
+(istio, `istio-ingress` ns), config-driven from
+`homelab-app-config/config.yaml` under `gateway.tcp_routes` and rendered by the
+`homelab` CLI. To move pyrom onto it:
+
+1. Add to `homelab-app-config/config.yaml` `gateway.tcp_routes` (ports 1337/1338
+   are free; telnet is raw TCP so each env needs its own listener port):
+   ```yaml
+   - {name: pyrom-prod, listener_port: 1337, namespace: pyrom-prod, service: pyrom-service, port: 1337}
+   - {name: pyrom-dev,  listener_port: 1338, namespace: pyrom-dev,  service: pyrom-service, port: 1337}
+   ```
+   Then render + sync via the homelab CLI so `platform-core` gets the new gateway
+   listeners + TCPRoutes. Players connect to `<gateway-ip>:1337` (prod) /
+   `:1338` (dev).
+2. In THIS repo, revert `k8s/base/pyrom-service.yaml` to `type: ClusterIP` and
+   drop the `pyrom-service-patch.yaml` MetalLB pins (the TCPRoute targets the
+   ClusterIP). **Order matters:** land step 1 first, then step 2, or pyrom goes
+   dark between the LB IP release and the gateway route coming up.
+
+**TODO (revisit): decide the standard app-routing pattern.** MetalLB-LB-per-app
+(own IP, any port, self-contained in the app repo) vs shared-gateway-TCPRoute
+(central config, port-per-env, KBK style). Pick one convention for all telnet/TCP
+apps and document it so new apps don't each choose differently.
