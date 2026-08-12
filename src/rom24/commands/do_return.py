@@ -6,7 +6,6 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import handler_game
 
-# TODO: Known broken.
 def do_return(ch, argument):
     if not ch.desc:
         return

@@ -7,7 +7,8 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import game_utils
 
-# TODO: Known broken. Not this command, but the paging itself.
+# Note: this command is correct per stock ROM 2.4; the pager subsystem that
+# consumes ch.lines is separate and out of scope here.
 def do_scroll(ch, argument):
     argument, arg = game_utils.read_word(argument)
     if not arg:

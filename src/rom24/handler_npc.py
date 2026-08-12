@@ -14,6 +14,10 @@ from rom24 import tables
 from rom24 import handler_item
 from rom24 import settings
 from rom24 import instance
+from rom24 import interp
+from rom24 import game_utils
+from rom24 import merc
+from rom24 import state_checks
 
 
 class Npc(living.Living):
@@ -98,6 +102,63 @@ class Npc(living.Living):
         del instance.npcs[self.instance_id]
         del instance.characters[self.instance_id]
         del instance.global_instances[self.instance_id]
+
+    def interpret(self, argument):
+        logger.debug("Npc %s ran %s", self.name, argument)
+
+        # Strip leading spaces.
+        argument = argument.lstrip()
+
+        # No hiding.
+        self.affected_by.rem_bit(merc.AFF_HIDE)
+
+        if not argument:
+            return
+
+        # Grab the command word.
+        # Special parsing so ' can be a command,
+        #   also no spaces needed after punctuation.
+        if not argument[0].isalpha() and not argument[0].isdigit():
+            command = argument[0]
+            argument = argument[:1].lstrip()
+        else:
+            argument, command = game_utils.read_word(argument)
+
+        # Look for command in command table.
+        trust = self.trust
+        cmd = state_checks.prefix_lookup(interp.cmd_table, command)
+        if cmd is not None:
+            if cmd.level > trust:
+                cmd = None
+
+        if not cmd:
+            # NPCs do not use the socials table (Pc.check_social is PC-only).
+            self.send("Huh?\n")
+            return
+
+        # * Not in position for command?
+        if self.position < cmd.position:
+            if self.position == merc.POS_DEAD:
+                self.send("Lie still; you are DEAD.\n")
+            elif self.position == merc.POS_MORTAL or self.position == merc.POS_INCAP:
+                self.send("You are hurt far too bad for that.\n")
+            elif self.position == merc.POS_STUNNED:
+                self.send("You are too stunned to do that.\n")
+            elif self.position == merc.POS_SLEEPING:
+                self.send("In your dreams, or what?\n")
+            elif self.position == merc.POS_RESTING:
+                self.send("Nah... You feel too relaxed...\n")
+            elif self.position == merc.POS_SITTING:
+                self.send("Better stand up first.\n")
+            elif self.position == merc.POS_FIGHTING:
+                self.send("No way!  You are still fighting!\n")
+            return
+
+        # Dispatch the command.
+        if cmd.default_arg:
+            cmd.do_fun(self, cmd.default_arg)
+            return
+        cmd.do_fun(self, argument.lstrip())
 
     register_signal = pyprogs.register_signal
     absorb = pyprogs.absorb

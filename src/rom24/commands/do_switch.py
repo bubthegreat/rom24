@@ -9,14 +9,13 @@ from rom24 import handler_game
 from rom24 import state_checks
 
 
-# TODO: Known broken.
 def do_switch(ch, argument):
     argument, arg = game_utils.read_word(argument)
 
     if not arg:
         ch.send("Switch into whom?\n")
         return
-    if not ch.desc is None:
+    if ch.desc is None:
         return
     if ch.desc.original:
         ch.send("You are already switched.\n")

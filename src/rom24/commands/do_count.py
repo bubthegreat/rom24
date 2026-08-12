@@ -7,7 +7,6 @@ from rom24 import merc
 from rom24 import interp
 from rom24 import nanny
 
-# TODO: Known broken
 # for  keeping track of the player count
 max_on = 0
 
