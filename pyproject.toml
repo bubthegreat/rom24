@@ -72,7 +72,10 @@ not-iterable = "ignore"
 invalid-method-override = "ignore"
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+# tests/ is the core suite; src/areas is where each self-contained area ships
+# its own behavior tests (progs, area commands). The area contract test enforces
+# that any area with progs has tests here.
+testpaths = ["tests", "src/areas"]
 python_files = ["test_*.py", "*_test.py"]
 addopts = "-v --cov=rom24 --cov-report=term-missing"
 
