@@ -85,24 +85,31 @@ spec:
           ports:
             - containerPort: 1337
               name: telnet
-          # Add readiness probe to know when app is ready
+          # Boot loads the whole world and can take 30-60s under load; keep
+          # liveness/readiness disabled until the port is up (startupProbe).
+          startupProbe:
+            tcpSocket:
+              port: 1337
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 30   # up to ~150s to finish booting
           readinessProbe:
             tcpSocket:
               port: 1337
-            initialDelaySeconds: 5
-            periodSeconds: 2
-            timeoutSeconds: 1
+            periodSeconds: 5
+            timeoutSeconds: 3
             successThreshold: 1
             failureThreshold: 3
-          # Add liveness probe to detect if app is hung
+          # The server is single-threaded: a player save to the (slow) PVC or a
+          # heavy pulse briefly blocks accept(). Tolerate that instead of killing
+          # the pod on a 1s hiccup.
           livenessProbe:
             tcpSocket:
               port: 1337
-            initialDelaySeconds: 15
-            periodSeconds: 10
-            timeoutSeconds: 1
+            periodSeconds: 20
+            timeoutSeconds: 5
             successThreshold: 1
-            failureThreshold: 3
+            failureThreshold: 6
           volumeMounts:
             - name: pyrom-player-storage
               mountPath: /pyrom-persistent/players
@@ -112,9 +119,9 @@ spec:
               mountPath: /pyrom-persistent/system
           resources:
             requests:
-              memory: "256Mi"
-              cpu: "100m"
+              memory: "384Mi"
+              cpu: "250m"
             limits:
-              memory: "512Mi"
-              cpu: "500m"
+              memory: "768Mi"
+              cpu: "1000m"
 
