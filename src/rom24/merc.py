@@ -698,6 +698,42 @@ ITEM_GEM = "gem"
 ITEM_JEWELRY = "jewelry"
 ITEM_JUKEBOX = "jukebox"
 
+# Legacy numeric item-type codes (as stored in shop ``buy_type`` tables and old
+# .are files) mapped to the string ``item_type`` the engine uses everywhere
+# else. Shops keep the numeric codes, so any code comparing an item's string
+# type against a shop's buy list must translate through this table.
+item_type_number = {
+    1: ITEM_LIGHT,
+    2: ITEM_SCROLL,
+    3: ITEM_WAND,
+    4: ITEM_STAFF,
+    5: ITEM_WEAPON,
+    8: ITEM_TREASURE,
+    9: ITEM_ARMOR,
+    10: ITEM_POTION,
+    11: ITEM_CLOTHING,
+    12: ITEM_FURNITURE,
+    13: ITEM_TRASH,
+    15: ITEM_CONTAINER,
+    17: ITEM_DRINK_CON,
+    18: ITEM_KEY,
+    19: ITEM_FOOD,
+    20: ITEM_MONEY,
+    22: ITEM_BOAT,
+    23: ITEM_CORPSE_NPC,
+    24: ITEM_CORPSE_PC,
+    25: ITEM_FOUNTAIN,
+    26: ITEM_PILL,
+    27: ITEM_PROTECT,
+    28: ITEM_MAP,
+    29: ITEM_PORTAL,
+    30: ITEM_WARP_STONE,
+    31: ITEM_ROOM_KEY,
+    32: ITEM_GEM,
+    33: ITEM_JEWELRY,
+    34: ITEM_JUKEBOX,
+}
+
 # Weapon Types
 WEAPON_EXOTIC = 0
 WEAPON_SWORD = 1

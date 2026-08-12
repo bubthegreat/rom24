@@ -30,30 +30,19 @@ def get_obj_keeper(ch, keeper, argument):
 
 # insert an object at the right spot for the keeper */
 def obj_to_keeper(item, ch):
-    # see if any duplicates are found */
-    n_item = None
-    spot = -1
-    for i, t_item_id in enumerate(ch.inventory):
+    # Move a just-sold item into the keeper's inventory. ``item`` has already
+    # been removed from the seller (ch.get) before this is called.
+    for t_item_id in ch.inventory:
         t_item = instance.items[t_item_id]
         if item.vnum == t_item.vnum and item.short_descr == t_item.short_descr:
-            # if this is an unlimited item, destroy the new one */
-            if t_item.inventory:
+            # The keeper already stocks an identical, unlimited item: the new
+            # copy is redundant, so destroy it rather than pile up duplicates.
+            if t_item.flags.shop_inventory:
                 item.extract()
                 return
-            item.cost = t_item.cost  # keep it standard */
-            n_item = t_item
-            spot = i
+            item.cost = t_item.cost  # keep pricing standard
             break
-
-    if n_item is None or spot == -1:
-        ch.inventory.remove(item)
-    else:
-        ch.inventory.insert(spot, t_item)
-    item.environment.instance_id = ch.instance_id
-    item.in_room = None
-    item.in_item = None
-    ch.carry_number += item.get_number()
-    ch.carry_weight += item.get_weight()
+    ch.put(item)
 
 
 def get_cost(keeper, item, fBuy):
@@ -64,27 +53,31 @@ def get_cost(keeper, item, fBuy):
         cost = item.cost * pShop.profit_buy // 100
     else:
         cost = 0
-        for itype in pShop.buy_type:
-            if item.item_type == itype:
+        # buy_type holds legacy numeric item-type codes; item_type is a string.
+        # Translate each code before comparing (pass strings through unchanged
+        # in case an area already stored them that way).
+        for itype in pShop.buy_type.values():
+            wanted = merc.item_type_number.get(itype, itype)
+            if item.item_type == wanted:
                 cost = item.cost * pShop.profit_sell // 100
                 break
 
-        if not item.sell_extract:
+        if not item.flags.sell_extract:
             for item2_id in keeper.inventory[:]:
                 item2 = instance.items[item2_id]
                 if (
-                    item.vnum == item2_id.vnum
-                    and item.short_descr == item2_id.short_descr
+                    item.vnum == item2.vnum
+                    and item.short_descr == item2.short_descr
                 ):
-                    if item.inventory:
-                        cost /= 2
+                    if item2.cost <= 0 or item2.flags.shop_inventory:
+                        cost //= 2
                     else:
-                        cost = cost * 3 / 4
+                        cost = cost * 3 // 4
     if item.item_type == merc.ITEM_STAFF or item.item_type == merc.ITEM_WAND:
         if item.value[1] == 0:
-            cost /= 4
+            cost //= 4
         else:
-            cost = cost * item.value[2] / item.value[1]
+            cost = cost * item.value[2] // item.value[1]
     return cost
 
 

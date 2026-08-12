@@ -52,7 +52,7 @@ def do_sell(ctx):
     handler_game.act("$n sells $p.", ch, item, None, merc.TO_ROOM)
     # haggle
     roll = random.randint(1, 99)
-    if not item.sell_extract and roll < ch.get_skill("haggle"):
+    if not item.flags.sell_extract and roll < ch.get_skill("haggle"):
         ch.send("You haggle with the shopkeeper.\n")
         cost += item.cost // 2 * roll // 100
         cost = min(cost, 95 * shop_utils.get_cost(keeper, item, True) // 100)
@@ -75,10 +75,10 @@ def do_sell(ctx):
         keeper.gold = 0
     if keeper.silver < 0:
         keeper.silver = 0
-    if item.item_type == merc.ITEM_TRASH or item.sell_extract:
+    if item.item_type == merc.ITEM_TRASH or item.flags.sell_extract:
         item.extract()
     else:
-        item.get()
+        ch.get(item)
         if item.timer:
             item.flags.had_timer = True
         else:
